@@ -31,7 +31,7 @@
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
-					"name" : "Bypass.maxpat",
+					"name" : "Thwomp Bypass.maxpat",
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
@@ -92,7 +92,7 @@
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
-					"name" : "Biquad Filter.maxpat",
+					"name" : "Thwomp Biquad Filter.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
@@ -178,14 +178,14 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "Biquad Filter.maxpat",
+				"name" : "Thwomp Biquad Filter.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Bypass.maxpat",
+				"name" : "Thwomp Bypass.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

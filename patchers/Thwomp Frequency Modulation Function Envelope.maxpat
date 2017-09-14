@@ -225,7 +225,7 @@
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
-					"name" : "Function Envelope Modulation.maxpat",
+					"name" : "Thwomp Function Envelope Modulation.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
@@ -320,14 +320,14 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "Function Envelope Modulation.maxpat",
+				"name" : "Thwomp Function Envelope Modulation.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Function Envelope.maxpat",
+				"name" : "Thwomp Function Envelope.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

@@ -31,7 +31,7 @@
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
-					"name" : "Drum Synth Rack.maxpat",
+					"name" : "Thwomp Drum Synth Rack.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
@@ -74,7 +74,7 @@
 				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "bpatcher",
-					"name" : "Active Key.maxpat",
+					"name" : "Thwomp Active Key.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
@@ -99,7 +99,7 @@
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "bpatcher",
-					"name" : "Note Filter.maxpat",
+					"name" : "Thwomp Note Filter.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -187,91 +187,91 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "Note Filter.maxpat",
+				"name" : "Thwomp Note Filter.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Active Key.maxpat",
+				"name" : "Thwomp Active Key.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Drum Synth Rack.maxpat",
+				"name" : "Thwomp Drum Synth Rack.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Drum Synth Module Bank.maxpat",
+				"name" : "Thwomp Drum Synth Module Bank.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Drum Synth Module.maxpat",
+				"name" : "Thwomp Drum Synth Module.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Oscillator.maxpat",
+				"name" : "Thwomp Oscillator.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "AD Envelope.maxpat",
+				"name" : "Thwomp AD Envelope.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Biquad Filter Plugin.maxpat",
+				"name" : "Thwomp Biquad Filter Plugin.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Biquad Filter.maxpat",
+				"name" : "Thwomp Biquad Filter.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Bypass.maxpat",
+				"name" : "Thwomp Bypass.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Frequency Modulation Function Envelope.maxpat",
+				"name" : "Thwomp Frequency Modulation Function Envelope.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Function Envelope Modulation.maxpat",
+				"name" : "Thwomp Function Envelope Modulation.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Function Envelope.maxpat",
+				"name" : "Thwomp Function Envelope.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
