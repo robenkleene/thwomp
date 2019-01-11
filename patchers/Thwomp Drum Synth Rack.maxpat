@@ -2,35 +2,78 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 1,
-			"architecture" : "x64"
+			"major" : 8,
+			"minor" : 0,
+			"revision" : 3,
+			"architecture" : "x64",
+			"modernui" : 1
 		}
 ,
-		"rect" : [ 128.0, 44.0, 1132.0, 810.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 128.0, 79.0, 891.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial Bold",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 616.0, 16.0, 108.0, 20.0 ],
+					"restore" : [ 0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "1", "2", "3", "4" ],
+							"parameter_invisible" : 1,
+							"parameter_longname" : "Stored_Tab",
+							"parameter_mmax" : 4.0,
+							"parameter_mmin" : 1.0,
+							"parameter_shortname" : "Stored_Tab",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 1,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr Stored_Tab Tab",
+					"varname" : "Stored_Tab"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "(Signal) Mono",
 					"id" : "obj-8",
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -42,6 +85,7 @@
 				"box" : 				{
 					"comment" : "Bang Plays",
 					"id" : "obj-3",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -59,7 +103,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 345.0, 105.0, 36.0, 16.0 ],
+					"patching_rect" : [ 345.0, 105.0, 36.0, 20.0 ],
 					"text" : "write"
 				}
 
@@ -73,7 +117,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 255.0, 105.0, 35.0, 16.0 ],
+					"patching_rect" : [ 255.0, 105.0, 35.0, 20.0 ],
 					"text" : "read"
 				}
 
@@ -87,7 +131,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 45.0, 150.0, 37.0, 18.0 ],
+					"patching_rect" : [ 45.0, 150.0, 37.0, 20.0 ],
 					"text" : "* -168"
 				}
 
@@ -101,7 +145,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 15.0, 91.0, 18.0 ],
+					"patching_rect" : [ 45.0, 15.0, 91.0, 20.0 ],
 					"text" : "loadmess set 0"
 				}
 
@@ -115,7 +159,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 180.0, 66.0, 16.0 ],
+					"patching_rect" : [ 45.0, 180.0, 66.0, 20.0 ],
 					"text" : "offset 0 $1"
 				}
 
@@ -133,22 +177,8 @@
 					"patching_rect" : [ 45.0, 45.0, 30.0, 90.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 8.0, 32.0, 96.0 ],
-					"tabs" : [ "1", "2", "3", "4" ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"id" : "obj-31",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 330.0, 45.0, 59.5, 18.0 ],
-					"text" : "autopattr",
-					"varname" : "u231005998"
+					"tabs" : [ "1", "2", "3", "4" ],
+					"varname" : "Tab"
 				}
 
 			}
@@ -161,7 +191,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 135.0, 91.0, 16.0 ],
+					"patching_rect" : [ 195.0, 135.0, 91.0, 20.0 ],
 					"text" : "storagewindow"
 				}
 
@@ -175,7 +205,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 300.0, 105.0, 32.5, 18.0 ],
+					"patching_rect" : [ 300.0, 105.0, 32.5, 20.0 ],
 					"text" : "+ 1"
 				}
 
@@ -189,7 +219,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 360.0, 135.0, 65.0, 16.0 ],
+					"patching_rect" : [ 360.0, 135.0, 65.0, 20.0 ],
 					"text" : "writeagain"
 				}
 
@@ -203,7 +233,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 300.0, 135.0, 54.0, 18.0 ],
+					"patching_rect" : [ 300.0, 135.0, 54.0, 20.0 ],
 					"text" : "gate 2 1"
 				}
 
@@ -231,7 +261,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 195.0, 15.0, 60.0, 18.0 ],
+					"patching_rect" : [ 195.0, 15.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -245,7 +275,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 45.0, 119.0, 16.0 ],
+					"patching_rect" : [ 195.0, 45.0, 119.0, 20.0 ],
 					"text" : "pattrstorage Presets"
 				}
 
@@ -259,9 +289,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 75.0, 32.5, 16.0 ],
+					"patching_rect" : [ 285.0, 75.0, 32.5, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 328.0, 120.0, 18.0, 16.0 ],
+					"presentation_rect" : [ 328.0, 120.0, 18.0, 20.0 ],
 					"text" : "r"
 				}
 
@@ -275,16 +305,16 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 75.0, 32.5, 16.0 ],
+					"patching_rect" : [ 330.0, 75.0, 32.5, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 352.0, 120.0, 18.0, 16.0 ],
+					"presentation_rect" : [ 352.0, 120.0, 18.0, 20.0 ],
 					"text" : "w"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "Drum Synth Rack Presets Default.json",
+					"autorestore" : "Presets.json",
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.0,
 					"id" : "obj-23",
@@ -292,11 +322,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 165.0, 119.0, 18.0 ],
+					"patching_rect" : [ 285.0, 165.0, 119.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 512, 45, 1386, 819 ],
 						"parameter_enable" : 0,
-						"storage_rect" : [ 583, 69, 1226, 699 ]
+						"parameter_mappable" : 0,
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage Presets",
@@ -320,17 +351,24 @@
 			}
 , 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-1",
+					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "Thwomp Drum Synth Module Bank.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"offset" : [ 0.0, -504.0 ],
+					"offset" : [ 0.0, -168.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 15.0, 225.0, 713.0, 167.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 40.0, 0.0, 712.0, 168.0 ],
-					"varname" : "Drum Synth Modules"
+					"varname" : "Drum Synth Modules",
+					"viewvisibility" : 1
 				}
 
 			}
@@ -338,8 +376,6 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -347,8 +383,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-12", 1 ]
 				}
 
@@ -356,8 +390,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -365,8 +397,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -374,8 +404,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -383,8 +411,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -392,8 +418,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -401,8 +425,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -410,8 +432,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -419,8 +439,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -428,8 +446,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -437,8 +453,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -446,8 +460,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -455,8 +467,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -464,8 +474,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -473,8 +481,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -482,8 +488,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -491,91 +495,154 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]
 				}
 
 			}
  ],
+		"parameters" : 		{
+			"obj-1::obj-44::obj-12::obj-1::obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
+			"obj-1::obj-1::obj-14" : [ "Stored_On[1]", "Stored_On", 0 ],
+			"obj-1::obj-44::obj-1::obj-9" : [ "Stored_Duration", "Stored_Duration", 0 ],
+			"obj-1::obj-3::obj-4::obj-1" : [ "Stored_Attack[2]", "Stored_Attack", 0 ],
+			"obj-1::obj-17::obj-1::obj-9" : [ "Stored_Duration[3]", "Stored_Duration", 0 ],
+			"obj-1::obj-3::obj-12::obj-1::obj-8" : [ "Stored_Frequency[4]", "Stored_Frequency", 0 ],
+			"obj-1::obj-44::obj-2::obj-8" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
+			"obj-1::obj-1::obj-4::obj-21" : [ "Stored_Decay[1]", "Stored_Decay", 0 ],
+			"obj-1::obj-17::obj-14" : [ "Stored_On[3]", "Stored_On", 0 ],
+			"obj-1::obj-44::obj-4::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
+			"obj-1::obj-1::obj-12::obj-1::obj-17" : [ "Stored_Gain[2]", "Stored_Gain", 0 ],
+			"obj-1::obj-3::obj-10" : [ "Stored_Gain[5]", "Stored_Gain", 0 ],
+			"obj-1::obj-1::obj-1::obj-1::obj-4::obj-4" : [ "Stored_Function[1]", "Stored_Function", 0 ],
+			"obj-1::obj-17::obj-4::obj-21" : [ "Stored_Decay[3]", "Stored_Decay", 0 ],
+			"obj-1::obj-1::obj-10" : [ "Stored_Gain[3]", "Stored_Gain", 0 ],
+			"obj-1::obj-44::obj-12::obj-2::obj-3" : [ "Stored_Bypass", "Stored_Bypass", 0 ],
+			"obj-1::obj-17::obj-12::obj-1::obj-17" : [ "Stored_Gain[6]", "Stored_Gain", 0 ],
+			"obj-1::obj-17::obj-1::obj-1::obj-4::obj-4" : [ "Stored_Function[3]", "Stored_Function", 0 ],
+			"obj-1::obj-3::obj-12::obj-1::obj-17" : [ "Stored_Gain[4]", "Stored_Gain", 0 ],
+			"obj-1::obj-1::obj-2::obj-8" : [ "Stored_Waveform[1]", "Stored_Waveform", 0 ],
+			"obj-1::obj-17::obj-10" : [ "Stored_Gain[7]", "Stored_Gain", 0 ],
+			"obj-1::obj-1::obj-12::obj-1::obj-20" : [ "Stored_Q[1]", "Stored_Q", 0 ],
+			"obj-1::obj-44::obj-14" : [ "Stored_On", "Stored_On", 0 ],
+			"obj-1::obj-1::obj-12::obj-2::obj-3" : [ "Stored_Bypass[1]", "Stored_Bypass", 0 ],
+			"obj-1::obj-44::obj-12::obj-1::obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
+			"obj-1::obj-17::obj-2::obj-8" : [ "Stored_Waveform[3]", "Stored_Waveform", 0 ],
+			"obj-1::obj-44::obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
+			"obj-1::obj-1::obj-1::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
+			"obj-1::obj-44::obj-10" : [ "Stored_Gain[1]", "Stored_Gain", 0 ],
+			"obj-1::obj-17::obj-12::obj-1::obj-20" : [ "Stored_Q[3]", "Stored_Q", 0 ],
+			"obj-1::obj-44::obj-15" : [ "Stored_Frequency[1]", "Stored_Frequency", 0 ],
+			"obj-1::obj-17::obj-12::obj-2::obj-3" : [ "Stored_Bypass[3]", "Stored_Bypass", 0 ],
+			"obj-1::obj-44::obj-1::obj-6" : [ "Stored_Amount", "Stored_Amount", 0 ],
+			"obj-1::obj-17::obj-1::obj-6" : [ "Stored_Amount[3]", "Stored_Amount", 0 ],
+			"obj-1::obj-1::obj-4::obj-1" : [ "Stored_Attack[1]", "Stored_Attack", 0 ],
+			"obj-1::obj-3::obj-1::obj-9" : [ "Stored_Duration[2]", "Stored_Duration", 0 ],
+			"obj-9" : [ "Stored_Tab", "Stored_Tab", 0 ],
+			"obj-1::obj-1::obj-12::obj-1::obj-8" : [ "Stored_Frequency[2]", "Stored_Frequency", 0 ],
+			"obj-1::obj-3::obj-15" : [ "Stored_Frequency[5]", "Stored_Frequency", 0 ],
+			"obj-1::obj-17::obj-4::obj-1" : [ "Stored_Attack[3]", "Stored_Attack", 0 ],
+			"obj-1::obj-1::obj-15" : [ "Stored_Frequency[3]", "Stored_Frequency", 0 ],
+			"obj-1::obj-17::obj-12::obj-1::obj-8" : [ "Stored_Frequency[6]", "Stored_Frequency", 0 ],
+			"obj-1::obj-3::obj-4::obj-21" : [ "Stored_Decay[2]", "Stored_Decay", 0 ],
+			"obj-1::obj-44::obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
+			"obj-1::obj-3::obj-12::obj-1::obj-20" : [ "Stored_Q[2]", "Stored_Q", 0 ],
+			"obj-1::obj-44::obj-12::obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
+			"obj-1::obj-17::obj-15" : [ "Stored_Frequency[7]", "Stored_Frequency", 0 ],
+			"obj-1::obj-3::obj-1::obj-1::obj-4::obj-4" : [ "Stored_Function[2]", "Stored_Function", 0 ],
+			"obj-1::obj-1::obj-12::obj-1::obj-12" : [ "Stored_Filtergraph[1]", "Stored_Filtergraph", 0 ],
+			"obj-1::obj-3::obj-14" : [ "Stored_On[2]", "Stored_On", 0 ],
+			"obj-1::obj-44::obj-1::obj-1::obj-4::obj-4" : [ "Stored_Function", "Stored_Function", 0 ],
+			"obj-1::obj-17::obj-12::obj-1::obj-12" : [ "Stored_Filtergraph[3]", "Stored_Filtergraph", 0 ],
+			"obj-1::obj-3::obj-2::obj-8" : [ "Stored_Waveform[2]", "Stored_Waveform", 0 ],
+			"obj-1::obj-3::obj-12::obj-1::obj-12" : [ "Stored_Filtergraph[2]", "Stored_Filtergraph", 0 ],
+			"obj-1::obj-3::obj-12::obj-2::obj-3" : [ "Stored_Bypass[2]", "Stored_Bypass", 0 ],
+			"obj-1::obj-3::obj-1::obj-6" : [ "Stored_Amount[2]", "Stored_Amount", 0 ],
+			"obj-1::obj-1::obj-1::obj-6" : [ "Stored_Amount[1]", "Stored_Amount", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "Thwomp Drum Synth Module Bank.maxpat",
-				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
+				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Thwomp Drum Synth Module.maxpat",
-				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
+				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Thwomp Oscillator.maxpat",
-				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
+				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Thwomp AD Envelope.maxpat",
-				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
+				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Thwomp Biquad Filter Plugin.maxpat",
-				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
+				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Thwomp Biquad Filter.maxpat",
-				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
+				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Thwomp Bypass.maxpat",
-				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
+				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Thwomp Frequency Modulation Function Envelope.maxpat",
-				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
+				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Thwomp Function Envelope Modulation.maxpat",
-				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
+				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Thwomp Function Envelope.maxpat",
-				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
+				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Drum Synth Rack Presets Default.json",
-				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules/Drum Synth Rack Presets",
-				"patcherrelativepath" : "./Drum Synth Rack Presets",
+				"name" : "Presets.json",
+				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
- ]
+ ],
+		"autosave" : 0
 	}
 
 }
