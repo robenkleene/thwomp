@@ -12,7 +12,9 @@ Thwomp is a four oscillator drum synthesizer.
 
 ### 1. Kick Drum
 
-#### Oscillator 1
+#### Body
+
+##### Oscillator 1
 
 - `65Hz` Cycle (Sine) Wave
 - `1ms` Attack
@@ -22,3 +24,5 @@ Thwomp is a four oscillator drum synthesizer.
 
 - `120Hz` Amount
 - `100ms` Decay
+
+#### Transient/Click
