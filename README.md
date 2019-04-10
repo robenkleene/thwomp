@@ -10,7 +10,7 @@ Thwomp is a four oscillator drum synthesizer.
 
 ## Presets
 
-### 1. Kick Drum
+### 1. Kick Drum: Subtractive
 
 #### Oscillator 1 (Body)
 
@@ -35,3 +35,5 @@ Thwomp is a four oscillator drum synthesizer.
 - `622Hz`
 - `9.1dB`
 - `5.6Q`
+
+### 1. Kick Drum: Filter
