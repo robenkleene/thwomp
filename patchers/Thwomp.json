@@ -5,7 +5,7 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"Stored_Tab" : [ 0 ],
+					"Stored_Tab" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_Gain" : [  ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_On" : [  ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_Frequency" : [  ],
@@ -24,7 +24,7 @@
 					"Drum Synth Modules::Drum Synth Module 1::Stored_On" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 1::Stored_Frequency" : [ 65 ],
 					"Drum Synth Modules::Drum Synth Module 1::Oscillator::Stored_Waveform" : [ 0 ],
-					"Drum Synth Modules::Drum Synth Module 1::AD Envelope::Stored_Attack" : [ 1 ],
+					"Drum Synth Modules::Drum Synth Module 1::AD Envelope::Stored_Attack" : [ 2 ],
 					"Drum Synth Modules::Drum Synth Module 1::AD Envelope::Stored_Decay" : [ 383 ],
 					"Drum Synth Modules::Drum Synth Module 1::Biquad Filter Plugin::Biquad Filter::Stored_Filtergraph" : [ 1, 0, 0, 1, 0, 0, 40.0, 1.0, 0.0001 ],
 					"Drum Synth Modules::Drum Synth Module 1::Biquad Filter Plugin::Biquad Filter::Stored_Frequency" : [  ],
@@ -38,7 +38,7 @@
 					"Drum Synth Modules::Drum Synth Module 2::Stored_On" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 2::Stored_Frequency" : [ 251 ],
 					"Drum Synth Modules::Drum Synth Module 2::Oscillator::Stored_Waveform" : [ 2 ],
-					"Drum Synth Modules::Drum Synth Module 2::AD Envelope::Stored_Attack" : [ 0 ],
+					"Drum Synth Modules::Drum Synth Module 2::AD Envelope::Stored_Attack" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 2::AD Envelope::Stored_Decay" : [ 26 ],
 					"Drum Synth Modules::Drum Synth Module 2::Biquad Filter Plugin::Biquad Filter::Stored_Filtergraph" : [ 1, 0, 3, 1, 0, 0, 622.0, 2.851018, 5.6 ],
 					"Drum Synth Modules::Drum Synth Module 2::Biquad Filter Plugin::Biquad Filter::Stored_Frequency" : [  ],
