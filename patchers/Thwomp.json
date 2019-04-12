@@ -5,7 +5,7 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"Stored_Tab" : [ 1 ],
+					"Stored_Tab" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_Gain" : [  ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_On" : [  ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_Frequency" : [  ],
