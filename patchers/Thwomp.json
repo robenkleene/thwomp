@@ -69,7 +69,7 @@
 			"2" : 			{
 				"id" : 2,
 				"data" : 				{
-					"Stored_Tab" : [ 1 ],
+					"Stored_Tab" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_Gain" : [ 122 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_On" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_Frequency" : [ 30 ],
@@ -85,7 +85,7 @@
 					"Drum Synth Modules::Drum Synth Module 4::Frequency Modulation Function Envelope::Stored_Duration" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Frequency Modulation Function Envelope::Function Envelope Modulation::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
 					"Drum Synth Modules::Drum Synth Module 1::Stored_Gain" : [ 82 ],
-					"Drum Synth Modules::Drum Synth Module 1::Stored_On" : [ 0 ],
+					"Drum Synth Modules::Drum Synth Module 1::Stored_On" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 1::Stored_Frequency" : [ 175 ],
 					"Drum Synth Modules::Drum Synth Module 1::Oscillator::Stored_Waveform" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 1::AD Envelope::Stored_Attack" : [ 1 ],
