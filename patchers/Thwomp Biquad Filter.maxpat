@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 126.0, 79.0, 759.0, 787.0 ],
+		"rect" : [ 126.0, 79.0, 731.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -39,12 +39,32 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 152.0, 464.0, 225.0, 31.0 ],
+					"restore" : [ 0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr Stored_Filtergraph_Edit_Mode @bindto Filtergraph::edit_mode",
+					"varname" : "Stored_Filtergraph_Edit_Mode"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 152.0, 536.0, 89.0, 20.0 ],
+					"patching_rect" : [ 152.0, 576.0, 89.0, 20.0 ],
 					"restore" : [ 0.3 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -75,7 +95,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 152.0, 512.0, 118.0, 20.0 ],
+					"patching_rect" : [ 152.0, 552.0, 118.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -106,7 +126,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 152.0, 488.0, 175.0, 20.0 ],
+					"patching_rect" : [ 152.0, 528.0, 175.0, 20.0 ],
 					"restore" : [ 40 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -237,7 +257,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 152.0, 464.0, 178.0, 20.0 ],
+					"patching_rect" : [ 152.0, 504.0, 178.0, 20.0 ],
 					"restore" : [ 1, 0, 0, 1, 0, 0, 40.0, 1.0, 0.300000011920929 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -796,10 +816,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
-			"obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
 			"obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
 			"obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
+			"obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
+			"obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
 			"parameterbanks" : 			{
 
 			}
