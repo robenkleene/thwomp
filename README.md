@@ -17,7 +17,7 @@ The synth is monophonic, transient clicks will be produced if a new sound is tri
 #### Oscillator 1 (Body)
 
 - `65Hz` Cycle
-- `1ms` Attack
+- `2ms` Attack
 - `383ms` Decay
 
 ##### Pitch Envelope
