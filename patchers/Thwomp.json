@@ -73,7 +73,7 @@
 			"2" : 			{
 				"id" : 2,
 				"data" : 				{
-					"Stored_Tab" : [ 0 ],
+					"Stored_Tab" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_Gain" : [ 122 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_On" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_Frequency" : [ 30 ],
@@ -114,7 +114,7 @@
 					"Drum Synth Modules::Drum Synth Module 2::Biquad Filter Plugin::Biquad Filter::Stored_Frequency" : [ 1447 ],
 					"Drum Synth Modules::Drum Synth Module 2::Biquad Filter Plugin::Biquad Filter::Stored_Gain" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 2::Biquad Filter Plugin::Biquad Filter::Stored_Q" : [ 1.4 ],
-					"Drum Synth Modules::Drum Synth Module 2::Biquad Filter Plugin::Biquad Filter::Stored_Filtergraph_Edit_Mode" : [ 0 ],
+					"Drum Synth Modules::Drum Synth Module 2::Biquad Filter Plugin::Biquad Filter::Stored_Filtergraph_Edit_Mode" : [ 2 ],
 					"Drum Synth Modules::Drum Synth Module 2::Biquad Filter Plugin::Bypass::Stored_Bypass" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 2::Frequency Modulation Function Envelope::Stored_Amount" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 2::Frequency Modulation Function Envelope::Stored_Duration" : [ 0 ],
