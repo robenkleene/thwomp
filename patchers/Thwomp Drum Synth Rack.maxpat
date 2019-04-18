@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 472.0, 144.0, 63.0, 20.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -324,7 +336,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 326.0, 172.0, 111.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 512, 45, 1386, 819 ],
+						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -377,6 +389,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -501,62 +520,62 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-1::obj-1::obj-1::obj-4::obj-4" : [ "Stored_Function[1]", "Stored_Function", 0 ],
-			"obj-1::obj-17::obj-4::obj-1" : [ "Stored_Attack[3]", "Stored_Attack", 0 ],
-			"obj-1::obj-1::obj-15" : [ "Stored_Frequency[3]", "Stored_Frequency", 0 ],
-			"obj-1::obj-17::obj-12::obj-1::obj-17" : [ "Stored_Gain[6]", "Stored_Gain", 0 ],
-			"obj-1::obj-44::obj-1::obj-1::obj-4::obj-4" : [ "Stored_Function", "Stored_Function", 0 ],
-			"obj-1::obj-17::obj-1::obj-1::obj-4::obj-4" : [ "Stored_Function[3]", "Stored_Function", 0 ],
-			"obj-1::obj-3::obj-12::obj-1::obj-12" : [ "Stored_Filtergraph[2]", "Stored_Filtergraph", 0 ],
-			"obj-1::obj-1::obj-2::obj-8" : [ "Stored_Waveform[1]", "Stored_Waveform", 0 ],
-			"obj-1::obj-44::obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
-			"obj-1::obj-44::obj-12::obj-2::obj-3" : [ "Stored_Bypass", "Stored_Bypass", 0 ],
 			"obj-1::obj-1::obj-12::obj-1::obj-8" : [ "Stored_Frequency[2]", "Stored_Frequency", 0 ],
-			"obj-1::obj-1::obj-12::obj-2::obj-3" : [ "Stored_Bypass[1]", "Stored_Bypass", 0 ],
-			"obj-1::obj-17::obj-2::obj-8" : [ "Stored_Waveform[3]", "Stored_Waveform", 0 ],
-			"obj-1::obj-44::obj-2::obj-8" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
-			"obj-1::obj-1::obj-1::obj-6" : [ "Stored_Amount[1]", "Stored_Amount", 0 ],
-			"obj-1::obj-17::obj-12::obj-1::obj-20" : [ "Stored_Q[3]", "Stored_Q", 0 ],
-			"obj-1::obj-44::obj-12::obj-1::obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
-			"obj-1::obj-17::obj-12::obj-2::obj-3" : [ "Stored_Bypass[3]", "Stored_Bypass", 0 ],
-			"obj-1::obj-17::obj-1::obj-6" : [ "Stored_Amount[3]", "Stored_Amount", 0 ],
-			"obj-1::obj-1::obj-4::obj-1" : [ "Stored_Attack[1]", "Stored_Attack", 0 ],
-			"obj-1::obj-17::obj-14" : [ "Stored_On[3]", "Stored_On", 0 ],
-			"obj-1::obj-44::obj-1::obj-6" : [ "Stored_Amount", "Stored_Amount", 0 ],
-			"obj-1::obj-3::obj-1::obj-9" : [ "Stored_Duration[2]", "Stored_Duration", 0 ],
-			"obj-1::obj-1::obj-12::obj-1::obj-20" : [ "Stored_Q[1]", "Stored_Q", 0 ],
-			"obj-9" : [ "Stored_Tab", "Stored_Tab", 0 ],
-			"obj-1::obj-3::obj-14" : [ "Stored_On[2]", "Stored_On", 0 ],
-			"obj-1::obj-17::obj-4::obj-21" : [ "Stored_Decay[3]", "Stored_Decay", 0 ],
 			"obj-1::obj-1::obj-10" : [ "Stored_Gain[3]", "Stored_Gain", 0 ],
+			"obj-1::obj-17::obj-12::obj-1::obj-20" : [ "Stored_Q[3]", "Stored_Q", 0 ],
+			"obj-1::obj-1::obj-12::obj-2::obj-3" : [ "Stored_Bypass[1]", "Stored_Bypass", 0 ],
+			"obj-1::obj-17::obj-12::obj-2::obj-3" : [ "Stored_Bypass[3]", "Stored_Bypass", 0 ],
+			"obj-1::obj-44::obj-1::obj-6" : [ "Stored_Amount", "Stored_Amount", 0 ],
+			"obj-1::obj-3::obj-12::obj-1::obj-12" : [ "Stored_Filtergraph[2]", "Stored_Filtergraph", 0 ],
+			"obj-1::obj-17::obj-1::obj-6" : [ "Stored_Amount[3]", "Stored_Amount", 0 ],
+			"obj-1::obj-3::obj-12::obj-2::obj-3" : [ "Stored_Bypass[2]", "Stored_Bypass", 0 ],
+			"obj-1::obj-3::obj-1::obj-9" : [ "Stored_Duration[2]", "Stored_Duration", 0 ],
+			"obj-9" : [ "Stored_Tab", "Stored_Tab", 0 ],
+			"obj-1::obj-44::obj-2::obj-8" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
+			"obj-1::obj-44::obj-4::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
+			"obj-1::obj-1::obj-1::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
+			"obj-1::obj-17::obj-14" : [ "Stored_On[3]", "Stored_On", 0 ],
+			"obj-1::obj-3::obj-14" : [ "Stored_On[2]", "Stored_On", 0 ],
+			"obj-1::obj-1::obj-4::obj-1" : [ "Stored_Attack[1]", "Stored_Attack", 0 ],
+			"obj-1::obj-17::obj-4::obj-1" : [ "Stored_Attack[3]", "Stored_Attack", 0 ],
+			"obj-1::obj-1::obj-12::obj-1::obj-17" : [ "Stored_Gain[2]", "Stored_Gain", 0 ],
+			"obj-1::obj-1::obj-14" : [ "Stored_On[1]", "Stored_On", 0 ],
 			"obj-1::obj-17::obj-12::obj-1::obj-12" : [ "Stored_Filtergraph[3]", "Stored_Filtergraph", 0 ],
 			"obj-1::obj-3::obj-4::obj-1" : [ "Stored_Attack[2]", "Stored_Attack", 0 ],
-			"obj-1::obj-3::obj-12::obj-1::obj-17" : [ "Stored_Gain[4]", "Stored_Gain", 0 ],
-			"obj-1::obj-3::obj-1::obj-1::obj-4::obj-4" : [ "Stored_Function[2]", "Stored_Function", 0 ],
-			"obj-1::obj-1::obj-12::obj-1::obj-17" : [ "Stored_Gain[2]", "Stored_Gain", 0 ],
-			"obj-1::obj-44::obj-4::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
-			"obj-1::obj-3::obj-15" : [ "Stored_Frequency[5]", "Stored_Frequency", 0 ],
 			"obj-1::obj-44::obj-12::obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
+			"obj-1::obj-3::obj-12::obj-1::obj-17" : [ "Stored_Gain[4]", "Stored_Gain", 0 ],
 			"obj-1::obj-44::obj-14" : [ "Stored_On", "Stored_On", 0 ],
-			"obj-1::obj-17::obj-12::obj-1::obj-8" : [ "Stored_Frequency[6]", "Stored_Frequency", 0 ],
+			"obj-1::obj-1::obj-2::obj-8" : [ "Stored_Waveform[1]", "Stored_Waveform", 0 ],
+			"obj-1::obj-44::obj-12::obj-2::obj-3" : [ "Stored_Bypass", "Stored_Bypass", 0 ],
+			"obj-1::obj-17::obj-2::obj-8" : [ "Stored_Waveform[3]", "Stored_Waveform", 0 ],
 			"obj-1::obj-44::obj-12::obj-1::obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
-			"obj-1::obj-3::obj-2::obj-8" : [ "Stored_Waveform[2]", "Stored_Waveform", 0 ],
+			"obj-1::obj-1::obj-12::obj-1::obj-20" : [ "Stored_Q[1]", "Stored_Q", 0 ],
+			"obj-1::obj-17::obj-12::obj-1::obj-17" : [ "Stored_Gain[6]", "Stored_Gain", 0 ],
+			"obj-1::obj-44::obj-1::obj-9" : [ "Stored_Duration", "Stored_Duration", 0 ],
 			"obj-1::obj-44::obj-10" : [ "Stored_Gain[1]", "Stored_Gain", 0 ],
+			"obj-1::obj-3::obj-2::obj-8" : [ "Stored_Waveform[2]", "Stored_Waveform", 0 ],
+			"obj-1::obj-1::obj-1::obj-6" : [ "Stored_Amount[1]", "Stored_Amount", 0 ],
 			"obj-1::obj-3::obj-12::obj-1::obj-8" : [ "Stored_Frequency[4]", "Stored_Frequency", 0 ],
-			"obj-1::obj-3::obj-12::obj-2::obj-3" : [ "Stored_Bypass[2]", "Stored_Bypass", 0 ],
+			"obj-1::obj-17::obj-1::obj-9" : [ "Stored_Duration[3]", "Stored_Duration", 0 ],
+			"obj-1::obj-44::obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"obj-1::obj-17::obj-15" : [ "Stored_Frequency[7]", "Stored_Frequency", 0 ],
 			"obj-1::obj-3::obj-1::obj-6" : [ "Stored_Amount[2]", "Stored_Amount", 0 ],
-			"obj-1::obj-44::obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
+			"obj-1::obj-44::obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"obj-1::obj-44::obj-15" : [ "Stored_Frequency[1]", "Stored_Frequency", 0 ],
-			"obj-1::obj-1::obj-1::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
-			"obj-1::obj-1::obj-14" : [ "Stored_On[1]", "Stored_On", 0 ],
-			"obj-1::obj-3::obj-4::obj-21" : [ "Stored_Decay[2]", "Stored_Decay", 0 ],
-			"obj-1::obj-17::obj-1::obj-9" : [ "Stored_Duration[3]", "Stored_Duration", 0 ],
-			"obj-1::obj-44::obj-1::obj-9" : [ "Stored_Duration", "Stored_Duration", 0 ],
-			"obj-1::obj-3::obj-12::obj-1::obj-20" : [ "Stored_Q[2]", "Stored_Q", 0 ],
+			"obj-1::obj-3::obj-15" : [ "Stored_Frequency[5]", "Stored_Frequency", 0 ],
+			"obj-1::obj-44::obj-12::obj-1::obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
 			"obj-1::obj-1::obj-4::obj-21" : [ "Stored_Decay[1]", "Stored_Decay", 0 ],
-			"obj-1::obj-17::obj-10" : [ "Stored_Gain[7]", "Stored_Gain", 0 ],
+			"obj-1::obj-17::obj-4::obj-21" : [ "Stored_Decay[3]", "Stored_Decay", 0 ],
+			"obj-1::obj-44::obj-1::obj-1::obj-4::obj-4" : [ "Stored_Function", "Stored_Function", 0 ],
 			"obj-1::obj-1::obj-12::obj-1::obj-12" : [ "Stored_Filtergraph[1]", "Stored_Filtergraph", 0 ],
+			"obj-1::obj-1::obj-15" : [ "Stored_Frequency[3]", "Stored_Frequency", 0 ],
+			"obj-1::obj-17::obj-12::obj-1::obj-8" : [ "Stored_Frequency[6]", "Stored_Frequency", 0 ],
+			"obj-1::obj-1::obj-1::obj-1::obj-4::obj-4" : [ "Stored_Function[1]", "Stored_Function", 0 ],
+			"obj-1::obj-3::obj-4::obj-21" : [ "Stored_Decay[2]", "Stored_Decay", 0 ],
+			"obj-1::obj-17::obj-1::obj-1::obj-4::obj-4" : [ "Stored_Function[3]", "Stored_Function", 0 ],
+			"obj-1::obj-3::obj-12::obj-1::obj-20" : [ "Stored_Q[2]", "Stored_Q", 0 ],
+			"obj-1::obj-17::obj-10" : [ "Stored_Gain[7]", "Stored_Gain", 0 ],
+			"obj-1::obj-3::obj-1::obj-1::obj-4::obj-4" : [ "Stored_Function[2]", "Stored_Function", 0 ],
 			"obj-1::obj-3::obj-10" : [ "Stored_Gain[5]", "Stored_Gain", 0 ],
 			"parameterbanks" : 			{
 
