@@ -12,11 +12,12 @@ The synth is monophonic, transient clicks will be produced if a new sound is tri
 
 ## Presets
 
-### 1. Kick Drum: Subtractive
+### 1. Kick
 
 #### Oscillator 1 (Body)
 
-- `65Hz` Cycle
+- `65Hz`
+- `Cycle`
 - `2ms` Attack
 - `383ms` Decay
 
@@ -27,15 +28,43 @@ The synth is monophonic, transient clicks will be produced if a new sound is tri
 
 #### Oscillator 2 (Transient/Click)
 
-- `251Hz` Rect
+- `251Hz`
+- `Rect`
 - `0ms` Attack
 - `26ms` Decay
 
 ##### Filter
 
-- `bandpass` Type
+- `bandpass`
 - `622Hz`
 - `9.1dB`
 - `5.6Q`
 
-### 1. Kick Drum: Filter
+### 2. Snare
+
+#### Oscillator 1 (Body)
+
+- `175Hz`
+- `Cycle`
+- `1ms` Attack
+- `60ms` Decay
+
+##### Filter
+
+- `highpass`
+- `40hz`
+- `0dB`
+- `0.66Q`
+
+#### Oscillator 2 (Noise)
+
+- `Pink`
+- `0ms` Attack
+- `76ms` Decay
+
+##### Filter
+
+- `highpass`
+- `1447hz`
+- `0dB`
+- `1.4Q`
