@@ -68,3 +68,38 @@ The synth is monophonic, transient clicks will be produced if a new sound is tri
 - `1447hz`
 - `0dB`
 - `1.4Q`
+
+### 3. Tom
+
+#### Oscillator 1 (Body)
+
+- `110Hz`
+- `Cycle`
+- `2ms` Attack
+- `500ms` Decay
+
+##### Pitch Envelope
+
+- `12Hz` Amount
+- `300ms` Decay
+
+##### Filter
+
+- `highpass`
+- `50hz`
+- `0dB`
+- `0.3Q`
+
+#### Oscillator 2 (Noise)
+
+- `Pink`
+- `2ms` Attack
+- `300ms` Decay
+
+##### Filter
+
+- `lowpass`
+- `1200hz`
+- `0dB`
+- `0.3Q`
+
