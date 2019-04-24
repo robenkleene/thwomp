@@ -20,6 +20,7 @@ The synth is monophonic, transient clicks will be produced if a new sound is tri
 - `Cycle`
 - `2ms` Attack
 - `383ms` Decay
+- `122` Gain
 
 ##### Pitch Envelope
 
@@ -32,6 +33,7 @@ The synth is monophonic, transient clicks will be produced if a new sound is tri
 - `Rect`
 - `0ms` Attack
 - `26ms` Decay
+- `122` Gain
 
 ##### Filter
 
@@ -48,6 +50,7 @@ The synth is monophonic, transient clicks will be produced if a new sound is tri
 - `Cycle`
 - `1ms` Attack
 - `60ms` Decay
+- `122` Gain
 
 ##### Filter
 
@@ -61,6 +64,7 @@ The synth is monophonic, transient clicks will be produced if a new sound is tri
 - `Pink`
 - `0ms` Attack
 - `76ms` Decay
+- `122` Gain
 
 ##### Filter
 
@@ -77,6 +81,7 @@ The synth is monophonic, transient clicks will be produced if a new sound is tri
 - `Cycle`
 - `2ms` Attack
 - `500ms` Decay
+- `122` Gain
 
 ##### Pitch Envelope
 
@@ -94,7 +99,8 @@ The synth is monophonic, transient clicks will be produced if a new sound is tri
 
 - `Pink`
 - `2ms` Attack
-- `300ms` Decay
+- `200ms` Decay
+- `90` Gain
 
 ##### Filter
 
