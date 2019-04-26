@@ -61,10 +61,10 @@ The synth is monophonic, transient clicks will be produced if a new sound is tri
 
 #### Oscillator 2 (Noise)
 
-- `Pink`
+- `Noise`
 - `0ms` Attack
 - `76ms` Decay
-- `122` Gain
+- `90` Gain
 
 ##### Filter
 
