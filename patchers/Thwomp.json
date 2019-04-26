@@ -73,7 +73,7 @@
 			"2" : 			{
 				"id" : 2,
 				"data" : 				{
-					"Stored_Tab" : [ 1 ],
+					"Stored_Tab" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_Gain" : [ 122 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_On" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_Frequency" : [ 30 ],
@@ -141,7 +141,7 @@
 			"3" : 			{
 				"id" : 3,
 				"data" : 				{
-					"Stored_Tab" : [ 1 ],
+					"Stored_Tab" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_Gain" : [ 122 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_On" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_Frequency" : [ 30 ],
