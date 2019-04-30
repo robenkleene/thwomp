@@ -109,3 +109,18 @@ The synth is monophonic, transient clicks will be produced if a new sound is tri
 - `0dB`
 - `0.3Q`
 
+### 4. Hi-Hat
+
+#### Oscillator 1 (Noise)
+
+- `Noise`
+- `0ms` Attack
+- `150ms` Decay
+- `97` Gain
+
+#### Filter
+
+- `highpass`
+- `6000Hz`
+- `0dB`
+- `0.3Q`
