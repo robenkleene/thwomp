@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -54,7 +54,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 15.0, 450.0, 105.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 64.0, 80.0, 29.0 ],
+					"presentation_rect" : [ 0.0, 56.0, 80.0, 29.0 ],
 					"varname" : "Bypass",
 					"viewvisibility" : 1
 				}
@@ -165,7 +165,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -173,7 +173,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -195,6 +195,18 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-2::obj-3" : [ "Stored_Bypass", "Stored_Bypass", 0 ],
+			"obj-1::obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
+			"obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
+			"obj-1::obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
+			"obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "Thwomp Biquad Filter.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",

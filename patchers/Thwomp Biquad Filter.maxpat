@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 126.0, 79.0, 759.0, 787.0 ],
+		"rect" : [ 126.0, 79.0, 689.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -39,12 +39,32 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 152.0, 464.0, 225.0, 31.0 ],
+					"restore" : [ 0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr Stored_Filtergraph_Edit_Mode @bindto Filtergraph::edit_mode",
+					"varname" : "Stored_Filtergraph_Edit_Mode"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 152.0, 536.0, 89.0, 20.0 ],
+					"patching_rect" : [ 152.0, 576.0, 89.0, 20.0 ],
 					"restore" : [ 0.3 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -75,7 +95,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 152.0, 512.0, 118.0, 20.0 ],
+					"patching_rect" : [ 152.0, 552.0, 118.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -106,7 +126,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 152.0, 488.0, 175.0, 20.0 ],
+					"patching_rect" : [ 152.0, 528.0, 175.0, 20.0 ],
 					"restore" : [ 40 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -237,7 +257,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 152.0, 464.0, 178.0, 20.0 ],
+					"patching_rect" : [ 152.0, 504.0, 178.0, 20.0 ],
 					"restore" : [ 1, 0, 0, 1, 0, 0, 40.0, 1.0, 0.300000011920929 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -590,14 +610,14 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.941176, 0.941176, 0.941176, 1.0 ],
-					"curvecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"curvecolor" : [ 0.807843, 0.898039, 0.909804, 1.0 ],
 					"fontface" : 0,
-					"hcurvecolor" : [ 1.0, 0.086, 0.086, 1.0 ],
+					"hcurvecolor" : [ 0.929412, 0.929412, 0.352941, 1.0 ],
 					"id" : "obj-2",
 					"linmarkers" : [ 0.0, 11025.0, 16537.5 ],
 					"logmarkers" : [ 0.0, 100.0, 1000.0, 10000.0 ],
-					"markercolor" : [ 0.627, 0.627, 0.627, 1.0 ],
+					"markercolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
 					"maxclass" : "filtergraph~",
 					"nfilters" : 1,
 					"numinlets" : 8,
@@ -608,7 +628,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 96.0, 8.0, 296.0, 128.0 ],
 					"setfilter" : [ 0, 0, 1, 0, 0, 40.0, 1.0, 0.300000011920929, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
 					"varname" : "Filtergraph"
 				}
 
@@ -797,8 +817,8 @@
  ],
 		"parameters" : 		{
 			"obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
-			"obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
 			"obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
+			"obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
 			"obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"parameterbanks" : 			{
 
