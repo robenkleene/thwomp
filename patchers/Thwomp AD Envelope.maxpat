@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -551,8 +551,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
 			"obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
+			"obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
 			"parameterbanks" : 			{
 
 			}

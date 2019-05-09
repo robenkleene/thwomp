@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -212,6 +212,14 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-4::obj-4" : [ "Stored_Function", "Stored_Function", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "Thwomp Function Envelope.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",

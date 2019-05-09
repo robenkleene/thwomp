@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -329,7 +329,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -366,8 +366,8 @@
  ],
 		"parameters" : 		{
 			"obj-9" : [ "Stored_Duration", "Stored_Duration", 0 ],
-			"obj-6" : [ "Stored_Amount", "Stored_Amount", 0 ],
 			"obj-1::obj-4::obj-4" : [ "Stored_Function", "Stored_Function", 0 ],
+			"obj-6" : [ "Stored_Amount", "Stored_Amount", 0 ],
 			"parameterbanks" : 			{
 
 			}

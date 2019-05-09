@@ -165,7 +165,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -173,7 +173,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -197,7 +197,6 @@
  ],
 		"parameters" : 		{
 			"obj-1::obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
-			"obj-2::obj-3" : [ "Stored_Bypass[1]", "Stored_Bypass", 0 ],
 			"obj-1::obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
 			"obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
