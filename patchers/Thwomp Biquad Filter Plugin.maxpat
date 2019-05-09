@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 261.0, 156.0, 1036.0, 726.0 ],
+		"rect" : [ 261.0, 156.0, 697.0, 726.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -47,7 +47,7 @@
 					"id" : "obj-2",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Thwomp Bypass.maxpat",
+					"name" : "Thwomp Active.maxpat",
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -55,7 +55,7 @@
 					"patching_rect" : [ 15.0, 450.0, 105.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 56.0, 80.0, 29.0 ],
-					"varname" : "Bypass",
+					"varname" : "Active",
 					"viewvisibility" : 1
 				}
 
@@ -68,7 +68,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.0, 555.0, 25.0, 25.0 ]
+					"patching_rect" : [ 88.0, 552.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -80,7 +80,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 555.0, 25.0, 25.0 ]
+					"patching_rect" : [ 16.0, 552.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -196,11 +196,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-3" : [ "Stored_Bypass", "Stored_Bypass", 0 ],
 			"obj-1::obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
-			"obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
+			"obj-2::obj-3" : [ "Stored_Bypass[1]", "Stored_Bypass", 0 ],
 			"obj-1::obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
 			"obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
+			"obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -215,7 +215,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Bypass.maxpat",
+				"name" : "Thwomp Active.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
