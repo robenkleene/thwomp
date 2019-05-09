@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -463,20 +463,19 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
+			"obj-2::obj-8" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
 			"obj-12::obj-1::obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
 			"obj-1::obj-9" : [ "Stored_Duration", "Stored_Duration", 0 ],
-			"obj-2::obj-8" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
 			"obj-4::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
-			"obj-12::obj-2::obj-3" : [ "Stored_Bypass", "Stored_Bypass", 0 ],
 			"obj-14" : [ "Stored_On", "Stored_On", 0 ],
 			"obj-12::obj-1::obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
-			"obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"obj-10" : [ "Stored_Gain[1]", "Stored_Gain", 0 ],
+			"obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
+			"obj-1::obj-1::obj-4::obj-4" : [ "Stored_Function", "Stored_Function", 0 ],
 			"obj-15" : [ "Stored_Frequency[1]", "Stored_Frequency", 0 ],
 			"obj-1::obj-6" : [ "Stored_Amount", "Stored_Amount", 0 ],
-			"obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"obj-12::obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
-			"obj-1::obj-1::obj-4::obj-4" : [ "Stored_Function", "Stored_Function", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -512,7 +511,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Bypass.maxpat",
+				"name" : "Thwomp Active.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
