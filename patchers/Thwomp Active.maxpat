@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 217.0, 106.0, 585.0, 626.0 ],
+		"rect" : [ 217.0, 106.0, 874.0, 644.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -44,25 +44,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 272.0, 344.0, 145.0, 20.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_enum" : [ "0", "1" ],
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Bypass",
-							"parameter_shortname" : "Stored_Bypass",
-							"parameter_type" : 3
-						}
-
-					}
-,
+					"patching_rect" : [ 272.0, 344.0, 133.0, 20.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
+						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Stored_Bypass Bypass",
-					"varname" : "Stored_Bypass"
+					"text" : "pattr Stored_Active Active",
+					"varname" : "Stored_Active"
 				}
 
 			}
@@ -281,14 +271,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-3" : [ "Stored_Bypass", "Stored_Bypass", 0 ],
-			"parameterbanks" : 			{
-
-			}
-
-		}
-,
 		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
