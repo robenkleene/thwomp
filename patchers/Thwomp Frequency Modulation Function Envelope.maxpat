@@ -52,7 +52,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 144.0, 192.0, 211.0, 143.0 ],
+					"patching_rect" : [ 72.0, 168.0, 211.0, 143.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 208.0, 144.0 ],
 					"varname" : "Thwomp Envelope Interface",
@@ -69,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 144.0, 344.0, 36.0, 20.0 ],
+					"patching_rect" : [ 72.0, 328.0, 36.0, 20.0 ],
 					"text" : "line~"
 				}
 
@@ -83,7 +83,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 16.0, 166.0, 49.0, 20.0 ],
+					"patching_rect" : [ 16.0, 328.0, 49.0, 20.0 ],
 					"text" : "t signal"
 				}
 
@@ -125,7 +125,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 40.0, 376.0, 36.0, 20.0 ],
+					"patching_rect" : [ 56.0, 376.0, 36.0, 20.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -293,7 +293,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 100.0, 200.0, 25.0, 18.0 ],
+					"patching_rect" : [ 203.0, 57.0, 25.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 56.0, 144.0, 23.0, 18.0 ],
 					"text" : "Hz"
@@ -312,7 +312,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 40.0, 200.0, 50.0, 20.0 ],
+					"patching_rect" : [ 144.0, 56.0, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 144.0, 49.0, 20.0 ],
 					"varname" : "Amount"
@@ -399,7 +399,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-14", 0 ]
 				}
 
