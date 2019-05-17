@@ -20,7 +20,7 @@
 					"Drum Synth Modules::Drum Synth Module 4::Biquad Filter Plugin::Active::Stored_Active" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Frequency Modulation Function Envelope::Stored_Amount" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Frequency Modulation Function Envelope::Stored_Duration" : [ 0 ],
-					"Drum Synth Modules::Drum Synth Module 4::Frequency Modulation Function Envelope::Function Envelope Modulation::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
+					"Drum Synth Modules::Drum Synth Module 4::Frequency Modulation Function Envelope::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
 					"Drum Synth Modules::Drum Synth Module 1::Stored_Gain" : [ 122 ],
 					"Drum Synth Modules::Drum Synth Module 1::Stored_On" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 1::Stored_Frequency" : [ 65 ],
@@ -35,7 +35,7 @@
 					"Drum Synth Modules::Drum Synth Module 1::Biquad Filter Plugin::Active::Stored_Active" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 1::Frequency Modulation Function Envelope::Stored_Amount" : [ 120 ],
 					"Drum Synth Modules::Drum Synth Module 1::Frequency Modulation Function Envelope::Stored_Duration" : [ 100 ],
-					"Drum Synth Modules::Drum Synth Module 1::Frequency Modulation Function Envelope::Function Envelope Modulation::Function Envelope::Stored_Function" : [ 100.0, 0.0, 1.0, 0.0, 1.0, 0, 53.551912000000002, 0.189474, 0, 100.0, 0.0, 0, "linear" ],
+					"Drum Synth Modules::Drum Synth Module 1::Frequency Modulation Function Envelope::Function Envelope::Stored_Function" : [ 100.0, 0.0, 1.0, 0.0, 1.0, 0, 53.551912000000002, 0.189474, 0, 100.0, 0.0, 0, "linear" ],
 					"Drum Synth Modules::Drum Synth Module 2::Stored_Gain" : [ 90 ],
 					"Drum Synth Modules::Drum Synth Module 2::Stored_On" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 2::Stored_Frequency" : [ 251 ],
@@ -50,7 +50,7 @@
 					"Drum Synth Modules::Drum Synth Module 2::Biquad Filter Plugin::Active::Stored_Active" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 2::Frequency Modulation Function Envelope::Stored_Amount" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 2::Frequency Modulation Function Envelope::Stored_Duration" : [ 0 ],
-					"Drum Synth Modules::Drum Synth Module 2::Frequency Modulation Function Envelope::Function Envelope Modulation::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
+					"Drum Synth Modules::Drum Synth Module 2::Frequency Modulation Function Envelope::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
 					"Drum Synth Modules::Drum Synth Module 3::Stored_Gain" : [ 122 ],
 					"Drum Synth Modules::Drum Synth Module 3::Stored_On" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Stored_Frequency" : [ 30 ],
@@ -65,7 +65,7 @@
 					"Drum Synth Modules::Drum Synth Module 3::Biquad Filter Plugin::Active::Stored_Active" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Frequency Modulation Function Envelope::Stored_Amount" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Frequency Modulation Function Envelope::Stored_Duration" : [ 0 ],
-					"Drum Synth Modules::Drum Synth Module 3::Frequency Modulation Function Envelope::Function Envelope Modulation::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ]
+					"Drum Synth Modules::Drum Synth Module 3::Frequency Modulation Function Envelope::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ]
 				}
 
 			}
@@ -88,7 +88,7 @@
 					"Drum Synth Modules::Drum Synth Module 4::Biquad Filter Plugin::Active::Stored_Active" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Frequency Modulation Function Envelope::Stored_Amount" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Frequency Modulation Function Envelope::Stored_Duration" : [ 0 ],
-					"Drum Synth Modules::Drum Synth Module 4::Frequency Modulation Function Envelope::Function Envelope Modulation::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
+					"Drum Synth Modules::Drum Synth Module 4::Frequency Modulation Function Envelope::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
 					"Drum Synth Modules::Drum Synth Module 1::Stored_Gain" : [ 122 ],
 					"Drum Synth Modules::Drum Synth Module 1::Stored_On" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 1::Stored_Frequency" : [ 175 ],
@@ -103,7 +103,7 @@
 					"Drum Synth Modules::Drum Synth Module 1::Biquad Filter Plugin::Active::Stored_Active" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 1::Frequency Modulation Function Envelope::Stored_Amount" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 1::Frequency Modulation Function Envelope::Stored_Duration" : [ 0 ],
-					"Drum Synth Modules::Drum Synth Module 1::Frequency Modulation Function Envelope::Function Envelope Modulation::Function Envelope::Stored_Function" : [ 60.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 60.0, 1.0, 0, 60.0, 0.0, 0, "linear" ],
+					"Drum Synth Modules::Drum Synth Module 1::Frequency Modulation Function Envelope::Function Envelope::Stored_Function" : [ 60.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 60.0, 1.0, 0, 60.0, 0.0, 0, "linear" ],
 					"Drum Synth Modules::Drum Synth Module 2::Stored_Gain" : [ 90 ],
 					"Drum Synth Modules::Drum Synth Module 2::Stored_On" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 2::Stored_Frequency" : [ 30 ],
@@ -118,7 +118,7 @@
 					"Drum Synth Modules::Drum Synth Module 2::Biquad Filter Plugin::Active::Stored_Active" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 2::Frequency Modulation Function Envelope::Stored_Amount" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 2::Frequency Modulation Function Envelope::Stored_Duration" : [ 0 ],
-					"Drum Synth Modules::Drum Synth Module 2::Frequency Modulation Function Envelope::Function Envelope Modulation::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
+					"Drum Synth Modules::Drum Synth Module 2::Frequency Modulation Function Envelope::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
 					"Drum Synth Modules::Drum Synth Module 3::Stored_Gain" : [ 122 ],
 					"Drum Synth Modules::Drum Synth Module 3::Stored_On" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Stored_Frequency" : [ 30 ],
@@ -133,7 +133,7 @@
 					"Drum Synth Modules::Drum Synth Module 3::Biquad Filter Plugin::Active::Stored_Active" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Frequency Modulation Function Envelope::Stored_Amount" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Frequency Modulation Function Envelope::Stored_Duration" : [ 0 ],
-					"Drum Synth Modules::Drum Synth Module 3::Frequency Modulation Function Envelope::Function Envelope Modulation::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ]
+					"Drum Synth Modules::Drum Synth Module 3::Frequency Modulation Function Envelope::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ]
 				}
 
 			}
@@ -156,7 +156,7 @@
 					"Drum Synth Modules::Drum Synth Module 4::Biquad Filter Plugin::Active::Stored_Active" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Frequency Modulation Function Envelope::Stored_Amount" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Frequency Modulation Function Envelope::Stored_Duration" : [ 0 ],
-					"Drum Synth Modules::Drum Synth Module 4::Frequency Modulation Function Envelope::Function Envelope Modulation::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
+					"Drum Synth Modules::Drum Synth Module 4::Frequency Modulation Function Envelope::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
 					"Drum Synth Modules::Drum Synth Module 1::Stored_Gain" : [ 122 ],
 					"Drum Synth Modules::Drum Synth Module 1::Stored_On" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 1::Stored_Frequency" : [ 110 ],
@@ -171,7 +171,7 @@
 					"Drum Synth Modules::Drum Synth Module 1::Biquad Filter Plugin::Active::Stored_Active" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 1::Frequency Modulation Function Envelope::Stored_Amount" : [ 12 ],
 					"Drum Synth Modules::Drum Synth Module 1::Frequency Modulation Function Envelope::Stored_Duration" : [ 300 ],
-					"Drum Synth Modules::Drum Synth Module 1::Frequency Modulation Function Envelope::Function Envelope Modulation::Function Envelope::Stored_Function" : [ 300.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 300.0, 0.0, 0, "linear" ],
+					"Drum Synth Modules::Drum Synth Module 1::Frequency Modulation Function Envelope::Function Envelope::Stored_Function" : [ 300.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 300.0, 0.0, 0, "linear" ],
 					"Drum Synth Modules::Drum Synth Module 2::Stored_Gain" : [ 92 ],
 					"Drum Synth Modules::Drum Synth Module 2::Stored_On" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 2::Stored_Frequency" : [ 30 ],
@@ -186,7 +186,7 @@
 					"Drum Synth Modules::Drum Synth Module 2::Biquad Filter Plugin::Active::Stored_Active" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 2::Frequency Modulation Function Envelope::Stored_Amount" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 2::Frequency Modulation Function Envelope::Stored_Duration" : [ 0 ],
-					"Drum Synth Modules::Drum Synth Module 2::Frequency Modulation Function Envelope::Function Envelope Modulation::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
+					"Drum Synth Modules::Drum Synth Module 2::Frequency Modulation Function Envelope::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
 					"Drum Synth Modules::Drum Synth Module 3::Stored_Gain" : [ 122 ],
 					"Drum Synth Modules::Drum Synth Module 3::Stored_On" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Stored_Frequency" : [ 30 ],
@@ -201,7 +201,7 @@
 					"Drum Synth Modules::Drum Synth Module 3::Biquad Filter Plugin::Active::Stored_Active" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Frequency Modulation Function Envelope::Stored_Amount" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Frequency Modulation Function Envelope::Stored_Duration" : [ 0 ],
-					"Drum Synth Modules::Drum Synth Module 3::Frequency Modulation Function Envelope::Function Envelope Modulation::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ]
+					"Drum Synth Modules::Drum Synth Module 3::Frequency Modulation Function Envelope::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ]
 				}
 
 			}
@@ -224,7 +224,7 @@
 					"Drum Synth Modules::Drum Synth Module 4::Biquad Filter Plugin::Active::Stored_Active" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Frequency Modulation Function Envelope::Stored_Amount" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Frequency Modulation Function Envelope::Stored_Duration" : [ 0 ],
-					"Drum Synth Modules::Drum Synth Module 4::Frequency Modulation Function Envelope::Function Envelope Modulation::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
+					"Drum Synth Modules::Drum Synth Module 4::Frequency Modulation Function Envelope::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
 					"Drum Synth Modules::Drum Synth Module 1::Stored_Gain" : [ 97 ],
 					"Drum Synth Modules::Drum Synth Module 1::Stored_On" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 1::Stored_Frequency" : [ 30 ],
@@ -239,7 +239,7 @@
 					"Drum Synth Modules::Drum Synth Module 1::Biquad Filter Plugin::Active::Stored_Active" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 1::Frequency Modulation Function Envelope::Stored_Amount" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 1::Frequency Modulation Function Envelope::Stored_Duration" : [ 0 ],
-					"Drum Synth Modules::Drum Synth Module 1::Frequency Modulation Function Envelope::Function Envelope Modulation::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
+					"Drum Synth Modules::Drum Synth Module 1::Frequency Modulation Function Envelope::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
 					"Drum Synth Modules::Drum Synth Module 2::Stored_Gain" : [ 122 ],
 					"Drum Synth Modules::Drum Synth Module 2::Stored_On" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 2::Stored_Frequency" : [ 30 ],
@@ -254,7 +254,7 @@
 					"Drum Synth Modules::Drum Synth Module 2::Biquad Filter Plugin::Active::Stored_Active" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 2::Frequency Modulation Function Envelope::Stored_Amount" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 2::Frequency Modulation Function Envelope::Stored_Duration" : [ 0 ],
-					"Drum Synth Modules::Drum Synth Module 2::Frequency Modulation Function Envelope::Function Envelope Modulation::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
+					"Drum Synth Modules::Drum Synth Module 2::Frequency Modulation Function Envelope::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
 					"Drum Synth Modules::Drum Synth Module 3::Stored_Gain" : [ 122 ],
 					"Drum Synth Modules::Drum Synth Module 3::Stored_On" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Stored_Frequency" : [ 30 ],
@@ -269,7 +269,7 @@
 					"Drum Synth Modules::Drum Synth Module 3::Biquad Filter Plugin::Active::Stored_Active" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Frequency Modulation Function Envelope::Stored_Amount" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Frequency Modulation Function Envelope::Stored_Duration" : [ 0 ],
-					"Drum Synth Modules::Drum Synth Module 3::Frequency Modulation Function Envelope::Function Envelope Modulation::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ]
+					"Drum Synth Modules::Drum Synth Module 3::Frequency Modulation Function Envelope::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ]
 				}
 
 			}
@@ -292,7 +292,7 @@
 					"Drum Synth Modules::Drum Synth Module 4::Biquad Filter Plugin::Active::Stored_Active" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Frequency Modulation Function Envelope::Stored_Amount" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Frequency Modulation Function Envelope::Stored_Duration" : [ 0 ],
-					"Drum Synth Modules::Drum Synth Module 4::Frequency Modulation Function Envelope::Function Envelope Modulation::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
+					"Drum Synth Modules::Drum Synth Module 4::Frequency Modulation Function Envelope::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
 					"Drum Synth Modules::Drum Synth Module 1::Stored_Gain" : [ 122 ],
 					"Drum Synth Modules::Drum Synth Module 1::Stored_On" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 1::Stored_Frequency" : [ 30 ],
@@ -307,7 +307,7 @@
 					"Drum Synth Modules::Drum Synth Module 1::Biquad Filter Plugin::Active::Stored_Active" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 1::Frequency Modulation Function Envelope::Stored_Amount" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 1::Frequency Modulation Function Envelope::Stored_Duration" : [ 0 ],
-					"Drum Synth Modules::Drum Synth Module 1::Frequency Modulation Function Envelope::Function Envelope Modulation::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
+					"Drum Synth Modules::Drum Synth Module 1::Frequency Modulation Function Envelope::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
 					"Drum Synth Modules::Drum Synth Module 2::Stored_Gain" : [ 122 ],
 					"Drum Synth Modules::Drum Synth Module 2::Stored_On" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 2::Stored_Frequency" : [ 30 ],
@@ -322,7 +322,7 @@
 					"Drum Synth Modules::Drum Synth Module 2::Biquad Filter Plugin::Active::Stored_Active" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 2::Frequency Modulation Function Envelope::Stored_Amount" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 2::Frequency Modulation Function Envelope::Stored_Duration" : [ 0 ],
-					"Drum Synth Modules::Drum Synth Module 2::Frequency Modulation Function Envelope::Function Envelope Modulation::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
+					"Drum Synth Modules::Drum Synth Module 2::Frequency Modulation Function Envelope::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
 					"Drum Synth Modules::Drum Synth Module 3::Stored_Gain" : [ 122 ],
 					"Drum Synth Modules::Drum Synth Module 3::Stored_On" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Stored_Frequency" : [ 30 ],
@@ -337,7 +337,7 @@
 					"Drum Synth Modules::Drum Synth Module 3::Biquad Filter Plugin::Active::Stored_Active" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Frequency Modulation Function Envelope::Stored_Amount" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Frequency Modulation Function Envelope::Stored_Duration" : [ 0 ],
-					"Drum Synth Modules::Drum Synth Module 3::Frequency Modulation Function Envelope::Function Envelope Modulation::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ]
+					"Drum Synth Modules::Drum Synth Module 3::Frequency Modulation Function Envelope::Function Envelope::Stored_Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ]
 				}
 
 			}
