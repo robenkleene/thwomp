@@ -55,7 +55,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 275.0, 350.0, 414.0, 434.0 ],
+						"rect" : [ 684.0, 260.0, 414.0, 434.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -92,7 +92,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "bang" ],
-									"patching_rect" : [ 128.0, 96.0, 36.0, 20.0 ],
+									"patching_rect" : [ 48.0, 56.0, 36.0, 20.0 ],
 									"text" : "line~"
 								}
 
@@ -106,7 +106,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 48.0, 176.0, 38.0, 20.0 ],
+									"patching_rect" : [ 8.0, 136.0, 38.0, 20.0 ],
 									"text" : "+~ 0."
 								}
 
@@ -120,7 +120,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 88.0, 136.0, 36.0, 20.0 ],
+									"patching_rect" : [ 32.0, 96.0, 36.0, 20.0 ],
 									"text" : "*~ 0."
 								}
 
@@ -134,7 +134,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 48.0, 48.0, 30.0, 30.0 ]
+									"patching_rect" : [ 8.0, 8.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -142,12 +142,12 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-8",
-									"index" : 2,
+									"index" : 3,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 88.0, 48.0, 30.0, 30.0 ]
+									"patching_rect" : [ 88.0, 8.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -155,12 +155,12 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-9",
-									"index" : 3,
+									"index" : 2,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 128.0, 48.0, 30.0, 30.0 ]
+									"patching_rect" : [ 48.0, 8.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -172,7 +172,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 48.0, 216.0, 30.0, 30.0 ]
+									"patching_rect" : [ 8.0, 176.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -263,7 +263,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 56.0, 128.0, 214.0, 173.5 ],
+					"patching_rect" : [ 64.0, 128.0, 214.0, 173.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -1.0, -1.0, 208.0, 169.0 ],
 					"varname" : "Envelope Pitch Interface",
@@ -313,14 +313,14 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 1 ],
+					"destination" : [ "obj-11", 2 ],
 					"source" : [ "obj-1", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 2 ],
+					"destination" : [ "obj-11", 1 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
