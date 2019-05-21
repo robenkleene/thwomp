@@ -221,7 +221,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 760.0, 408.0, 139.0, 20.0 ],
+					"patching_rect" : [ 288.0, 304.0, 139.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -250,7 +250,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 808.0, 168.0, 214.0, 173.5 ],
+					"patching_rect" : [ 344.0, 96.0, 214.0, 173.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -1.0, -1.0, 208.0, 169.0 ],
 					"varname" : "Envelope Pitch Interface",
@@ -265,7 +265,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 504.0, 88.0, 175.0, 20.0 ],
+					"patching_rect" : [ 960.0, 16.0, 175.0, 20.0 ],
 					"restore" : [ 30 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -296,7 +296,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 504.0, 120.0, 101.0, 20.0 ],
+					"patching_rect" : [ 960.0, 48.0, 101.0, 20.0 ],
 					"restore" : [ 0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -327,7 +327,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 504.0, 152.0, 118.0, 20.0 ],
+					"patching_rect" : [ 960.0, 80.0, 118.0, 20.0 ],
 					"restore" : [ 122 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -405,7 +405,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 192.0, 64.0, 43.0, 20.0 ],
+					"patching_rect" : [ 216.0, 304.0, 43.0, 20.0 ],
 					"text" : "sig~ 0."
 				}
 
@@ -526,7 +526,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 240.0, 40.0, 23.0, 18.0 ],
+					"patching_rect" : [ 264.0, 248.0, 23.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 56.0, 32.0, 23.0, 18.0 ],
 					"text" : "Hz"
@@ -541,7 +541,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 192.0, 16.0, 71.0, 18.0 ],
+					"patching_rect" : [ 216.0, 224.0, 71.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 32.0, 8.0, 58.0, 18.0 ],
 					"text" : "Oscillator"
@@ -560,7 +560,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 192.0, 40.0, 45.0, 20.0 ],
+					"patching_rect" : [ 216.0, 248.0, 45.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 32.0, 48.0, 20.0 ],
 					"varname" : "Frequency"
