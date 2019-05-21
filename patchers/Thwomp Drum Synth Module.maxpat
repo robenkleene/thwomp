@@ -237,18 +237,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-16",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 759.0, 129.0, 65.0, 20.0 ],
-					"text" : "route signal"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -267,20 +255,6 @@
 					"presentation_rect" : [ -1.0, -1.0, 208.0, 169.0 ],
 					"varname" : "Envelope Pitch Interface",
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"id" : "obj-18",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 760.0, 368.0, 49.0, 20.0 ],
-					"text" : "t signal"
 				}
 
 			}
@@ -603,20 +577,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"source" : [ "obj-16", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-7", 2 ],
 					"source" : [ "obj-17", 1 ]
 				}
@@ -626,13 +586,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 1 ],
 					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -680,7 +633,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -701,7 +654,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
+					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-8", 1 ]
 				}
 
@@ -728,8 +681,8 @@
 			"obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"obj-14" : [ "Stored_On", "Stored_On", 0 ],
 			"obj-12::obj-1::obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
-			"obj-10" : [ "Stored_Gain[1]", "Stored_Gain", 0 ],
 			"obj-17::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
+			"obj-10" : [ "Stored_Gain[1]", "Stored_Gain", 0 ],
 			"obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"obj-15" : [ "Stored_Frequency[1]", "Stored_Frequency", 0 ],
 			"obj-2::obj-8" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
