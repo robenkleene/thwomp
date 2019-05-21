@@ -39,6 +39,55 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 960.0, 112.0, 169.0, 20.0 ],
+					"restore" : [ 5 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "Stored_Waveform[1]",
+							"parameter_mmax" : 5.0,
+							"parameter_shortname" : "Stored_Waveform",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 1,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr Stored_Waveform Waveform",
+					"varname" : "Stored_Waveform"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"allowdrag" : 0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 10.0,
+					"id" : "obj-16",
+					"items" : [ "Cycle", ",", "Tri", ",", "Rect", ",", "Saw", ",", "Noise", ",", "Pink" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 447.0, 391.0, 60.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 8.0, 8.0, 56.0, 20.0 ],
+					"varname" : "Waveform"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -679,6 +728,7 @@
 			"obj-12::obj-1::obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
 			"obj-17::obj-20::obj-1" : [ "Stored_Function[1]", "Stored_Function", 0 ],
 			"obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
+			"obj-1" : [ "Stored_Waveform[1]", "Stored_Waveform", 0 ],
 			"obj-14" : [ "Stored_On", "Stored_On", 0 ],
 			"obj-12::obj-1::obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
 			"obj-17::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
