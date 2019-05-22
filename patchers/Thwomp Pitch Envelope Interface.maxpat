@@ -222,7 +222,7 @@
 					"patching_rect" : [ 8.0, 72.0, 211.0, 143.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 208.0, 144.0 ],
-					"varname" : "Envelope Interface",
+					"varname" : "Function Envelope",
 					"viewvisibility" : 1
 				}
 
