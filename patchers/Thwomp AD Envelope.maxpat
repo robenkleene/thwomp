@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 280.0, 124.0, 771.0, 597.0 ],
+		"rect" : [ 551.0, 146.0, 771.0, 597.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -267,18 +267,6 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Ch 2",
-					"id" : "obj-10",
-					"index" : 0,
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 390.0, 375.0, 25.0, 25.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.0,
 					"id" : "obj-9",
@@ -288,33 +276,6 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 300.0, 330.0, 36.0, 20.0 ],
 					"text" : "*~ 0."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"id" : "obj-40",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 390.0, 330.0, 36.0, 20.0 ],
-					"text" : "*~ 0."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "Ch 2",
-					"id" : "obj-5",
-					"index" : 0,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.0, 15.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -472,16 +433,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-40", 1 ],
-					"order" : 0,
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
-					"order" : 1,
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -504,20 +456,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"source" : [ "obj-40", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-40", 0 ],
-					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -551,8 +489,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
+			"obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"parameterbanks" : 			{
 
 			}
