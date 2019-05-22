@@ -214,7 +214,7 @@
 					"id" : "obj-20",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Thwomp Envelope Interface.maxpat",
+					"name" : "Thwomp Function Envelope Interface.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -387,7 +387,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Thwomp Envelope Interface.maxpat",
+				"name" : "Thwomp Function Envelope Interface.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

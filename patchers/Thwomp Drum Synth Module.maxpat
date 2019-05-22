@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -39.0, 79.0, 1255.0, 787.0 ],
+		"rect" : [ 207.0, 79.0, 916.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -1042,7 +1042,7 @@
 					"id" : "obj-17",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Thwomp Envelope Pitch Interface.maxpat",
+					"name" : "Thwomp Pitch Envelope Interface.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -1267,7 +1267,7 @@
 					"id" : "obj-4",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Thwomp AD Envelope.maxpat",
+					"name" : "Thwomp AD Envelope Interface.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -1473,8 +1473,8 @@
 		"parameters" : 		{
 			"obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"obj-17::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
-			"obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
 			"obj-4::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
+			"obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
 			"obj-14" : [ "Stored_On", "Stored_On", 0 ],
 			"obj-12::obj-1::obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
 			"obj-12::obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
@@ -1491,7 +1491,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Thwomp AD Envelope.maxpat",
+				"name" : "Thwomp AD Envelope Interface.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -1519,14 +1519,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Envelope Pitch Interface.maxpat",
+				"name" : "Thwomp Pitch Envelope Interface.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Envelope Interface.maxpat",
+				"name" : "Thwomp Function Envelope Interface.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
