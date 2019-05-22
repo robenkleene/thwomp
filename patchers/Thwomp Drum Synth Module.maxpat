@@ -1050,7 +1050,7 @@
 					"patching_rect" : [ 336.0, 208.0, 214.0, 173.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.0, 0.0, 208.0, 169.0 ],
-					"varname" : "Envelope Pitch Interface",
+					"varname" : "Pitch Envelope",
 					"viewvisibility" : 1
 				}
 
