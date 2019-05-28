@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 75.0, 79.0, 950.0, 787.0 ],
+		"rect" : [ 151.0, 98.0, 950.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 192.0, 456.0, 44.0, 20.0 ],
+					"text" : "note 60"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 7,
@@ -61,7 +73,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 520.0, 360.0, 60.0, 20.0 ],
+					"patching_rect" : [ 568.0, 360.0, 60.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 56.0, 56.0, 20.0 ],
 					"varname" : "Waveform"
@@ -113,7 +125,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 296.0, 208.0, 214.0, 173.5 ],
+					"patching_rect" : [ 344.0, 208.0, 214.0, 173.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.0, 0.0, 208.0, 169.0 ],
 					"varname" : "Pitch Envelope",
@@ -324,7 +336,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 592.0, 328.0, 104.0, 56.0 ],
+					"patching_rect" : [ 640.0, 328.0, 104.0, 56.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 72.0, 80.0, 56.0 ],
 					"varname" : "AD Envelope",
@@ -353,7 +365,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 264.0, 360.0, 23.0, 18.0 ],
+					"patching_rect" : [ 312.0, 360.0, 23.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 56.0, 32.0, 23.0, 18.0 ],
 					"text" : "Hz"
@@ -368,7 +380,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 216.0, 336.0, 71.0, 18.0 ],
+					"patching_rect" : [ 264.0, 336.0, 71.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 32.0, 8.0, 58.0, 18.0 ],
 					"text" : "Oscillator"
@@ -387,7 +399,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 216.0, 360.0, 45.0, 20.0 ],
+					"patching_rect" : [ 264.0, 360.0, 45.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 32.0, 48.0, 20.0 ],
 					"varname" : "Frequency"
@@ -420,6 +432,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-20", 4 ],
 					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -488,26 +507,26 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-8", 2 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-17::obj-20::obj-1" : [ "Stored_Function[1]", "Stored_Function", 0 ],
-			"obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
-			"obj-17::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
-			"obj-12::obj-1::obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
-			"obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
-			"obj-17::obj-6" : [ "Stored_Amount[1]", "Stored_Amount", 0 ],
 			"obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
-			"obj-14" : [ "Stored_On", "Stored_On", 0 ],
+			"obj-12::obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
+			"obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"obj-12::obj-1::obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
+			"obj-12::obj-1::obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
 			"obj-10" : [ "Stored_Gain[1]", "Stored_Gain", 0 ],
 			"obj-4::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
+			"obj-14" : [ "Stored_On", "Stored_On", 0 ],
+			"obj-17::obj-6" : [ "Stored_Amount[1]", "Stored_Amount", 0 ],
+			"obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
 			"obj-15" : [ "Stored_Frequency[1]", "Stored_Frequency", 0 ],
-			"obj-12::obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
+			"obj-17::obj-20::obj-1" : [ "Stored_Function[1]", "Stored_Function", 0 ],
+			"obj-17::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
 			"parameterbanks" : 			{
 
 			}
