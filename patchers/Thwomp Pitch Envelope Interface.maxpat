@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 237.0, 103.0, 731.0, 645.0 ],
+		"rect" : [ 148.0, 173.0, 615.0, 527.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -18,8 +18,8 @@
 		"default_fontname" : "Arial Bold",
 		"gridonopen" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
+		"gridsnaponopen" : 2,
+		"objectsnaponopen" : 0,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -36,15 +36,28 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "Roben Kleene",
 		"boxes" : [ 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-16",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 8.0, 8.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 320.0, 48.0, 156.0, 20.0 ],
+					"patching_rect" : [ 240.0, 32.0, 156.0, 20.0 ],
 					"restore" : [ 0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -74,7 +87,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 320.0, 16.0, 149.0, 20.0 ],
+					"patching_rect" : [ 240.0, 8.0, 149.0, 20.0 ],
 					"restore" : [ 0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -106,7 +119,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 480.0, 42.0, 20.0 ],
+					"patching_rect" : [ 240.0, 154.0, 42.0, 20.0 ],
 					"text" : "select"
 				}
 
@@ -120,7 +133,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 420.0, 42.0, 20.0 ],
+					"patching_rect" : [ 240.0, 94.0, 42.0, 20.0 ],
 					"text" : "select"
 				}
 
@@ -134,7 +147,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 300.0, 510.0, 93.0, 20.0 ],
+					"patching_rect" : [ 240.0, 184.0, 93.0, 20.0 ],
 					"text" : "pvar Duration 2"
 				}
 
@@ -148,7 +161,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 300.0, 450.0, 88.0, 20.0 ],
+					"patching_rect" : [ 240.0, 124.0, 88.0, 20.0 ],
 					"text" : "pvar Amount 2"
 				}
 
@@ -162,33 +175,55 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 300.0, 390.0, 93.0, 20.0 ],
+					"patching_rect" : [ 240.0, 64.0, 93.0, 20.0 ],
 					"text" : "pvar Duration 2"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(Signal) Modulated Frequency",
+					"comment" : "",
 					"id" : "obj-3",
 					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 405.0, 25.0, 25.0 ]
+					"patching_rect" : [ 48.0, 248.0, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(Signal) Frequency",
+					"comment" : "",
 					"id" : "obj-2",
 					"index" : 0,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 8.0, 248.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-20",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Thwomp Function Envelope Interface.maxpat",
+					"numinlets" : 1,
 					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 15.0, 25.0, 25.0 ]
+					"patching_rect" : [ 8.0, 72.0, 211.0, 143.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 208.0, 144.0 ],
+					"varname" : "Function Envelope",
+					"viewvisibility" : 1
 				}
 
 			}
@@ -200,7 +235,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 255.0, 135.0, 25.0, 18.0 ],
+					"patching_rect" : [ 203.0, 11.0, 25.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 56.0, 144.0, 23.0, 18.0 ],
 					"text" : "Hz"
@@ -219,7 +254,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 195.0, 135.0, 50.0, 20.0 ],
+					"patching_rect" : [ 144.0, 10.0, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 144.0, 49.0, 20.0 ],
 					"varname" : "Amount"
@@ -235,7 +270,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 60.0, 135.0, 87.0, 20.0 ],
+					"patching_rect" : [ 48.0, 40.0, 87.0, 20.0 ],
 					"text" : "setduration $1"
 				}
 
@@ -248,7 +283,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 120.0, 105.0, 26.0, 18.0 ],
+					"patching_rect" : [ 108.0, 10.0, 26.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 128.0, 144.0, 25.0, 18.0 ],
 					"text" : "ms"
@@ -267,47 +302,17 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 60.0, 105.0, 50.0, 20.0 ],
+					"patching_rect" : [ 48.0, 10.0, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.0, 144.0, 48.0, 20.0 ],
 					"varname" : "Duration"
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-1",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "Thwomp Function Envelope Modulation.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 15.0, 165.0, 225.0, 150.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 208.0, 144.0 ],
-					"varname" : "Function Envelope Modulation",
-					"viewvisibility" : 1
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -328,24 +333,31 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 1 ],
-					"order" : 0,
+					"destination" : [ "obj-3", 0 ],
+					"order" : 1,
 					"source" : [ "obj-14", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"order" : 2,
+					"order" : 0,
 					"source" : [ "obj-18", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-2", 0 ]
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -365,8 +377,8 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-20::obj-1" : [ "Stored_Function", "Stored_Function", 0 ],
 			"obj-9" : [ "Stored_Duration", "Stored_Duration", 0 ],
-			"obj-1::obj-4::obj-4" : [ "Stored_Function", "Stored_Function", 0 ],
 			"obj-6" : [ "Stored_Amount", "Stored_Amount", 0 ],
 			"parameterbanks" : 			{
 
@@ -375,14 +387,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Thwomp Function Envelope Modulation.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Thwomp Function Envelope.maxpat",
+				"name" : "Thwomp Function Envelope Interface.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
