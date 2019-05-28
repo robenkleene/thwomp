@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 151.0, 98.0, 950.0, 787.0 ],
+		"rect" : [ 128.0, 79.0, 950.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -56,8 +56,8 @@
 					"numinlets" : 7,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 192.0, 560.0, 133.0, 20.0 ],
-					"text" : "poly~ \"Thwomp Engine\" 4"
+					"patching_rect" : [ 192.0, 560.0, 181.0, 20.0 ],
+					"text" : "poly~ \"Thwomp Engine\" 4 @target 0"
 				}
 
 			}
