@@ -12,6 +12,9 @@ The synth is monophonic, transient clicks will be produced if a new sound is tri
 
 ## Controls
 
+- Gain: Gain is on the far right
+- Oscillator Tabs: The four tabs on the left choose in oscillator, all of the rest of the sections are per oscillator
+
 ### Oscillator Section
 
 - `osc` Toggle: Turn on or off the oscillator
@@ -39,10 +42,6 @@ The synth is monophonic, transient clicks will be produced if a new sound is tri
 - `Hz`: Filter cutoff
 - `dB`: Filter gain
 - `Q`: Filter Q
-
-### Gain Section
-
-- Gain
 
 ### Standalone Controls
 
