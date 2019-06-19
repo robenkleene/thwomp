@@ -13,7 +13,7 @@ The synth is monophonic, transient clicks will be produced if a new sound is tri
 ## Interface
 
 - Gain: Gain is on the far right
-- Oscillator Tabs: The four tabs on the left choose in oscillator, all of the rest of the sections are per oscillator
+- Oscillator Tabs: The four tabs on the left choose in oscillator, all of the rest of the sections (except Preset) are per oscillator
 
 ### Oscillator Section
 
