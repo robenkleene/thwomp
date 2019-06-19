@@ -10,7 +10,7 @@ Thwomp is a four oscillator drum synthesizer.
 
 The synth is monophonic, transient clicks will be produced if a new sound is triggered while a sound is playing.
 
-## Controls
+## Interface
 
 - Gain: Gain is on the far right
 - Oscillator Tabs: The four tabs on the left choose in oscillator, all of the rest of the sections are per oscillator
