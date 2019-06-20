@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 101.0, 489.0, 1305.0, 751.0 ],
+		"rect" : [ 39.0, 79.0, 939.0, 759.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -46,7 +46,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 90.0, 75.0, 69.0, 20.0 ],
+					"patching_rect" : [ 72.0, 72.0, 69.0, 20.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -61,8 +61,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 15.0, 45.0, 126.0, 20.0 ],
-					"text" : "routepass bang offset"
+					"patching_rect" : [ 15.0, 45.0, 110.0, 20.0 ],
+					"text" : "routepass note offset"
 				}
 
 			}
@@ -87,8 +87,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 75.0, 60.0, 20.0 ],
-					"text" : "s #0bang"
+					"patching_rect" : [ 16.0, 72.0, 49.0, 20.0 ],
+					"text" : "s #0note"
 				}
 
 			}
@@ -126,8 +126,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 945.0, 58.0, 20.0 ],
-					"text" : "r #0bang"
+					"patching_rect" : [ 15.0, 945.0, 47.0, 20.0 ],
+					"text" : "r #0note"
 				}
 
 			}
@@ -140,8 +140,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 675.0, 58.0, 20.0 ],
-					"text" : "r #0bang"
+					"patching_rect" : [ 15.0, 675.0, 47.0, 20.0 ],
+					"text" : "r #0note"
 				}
 
 			}
@@ -154,8 +154,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 405.0, 58.0, 20.0 ],
-					"text" : "r #0bang"
+					"patching_rect" : [ 15.0, 405.0, 47.0, 20.0 ],
+					"text" : "r #0note"
 				}
 
 			}
@@ -168,8 +168,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 120.0, 58.0, 20.0 ],
-					"text" : "r #0bang"
+					"patching_rect" : [ 15.0, 120.0, 47.0, 20.0 ],
+					"text" : "r #0note"
 				}
 
 			}
@@ -405,58 +405,58 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-17::obj-10" : [ "Stored_Gain[7]", "Stored_Gain", 0 ],
-			"obj-1::obj-12::obj-1::obj-8" : [ "Stored_Frequency[2]", "Stored_Frequency", 0 ],
-			"obj-3::obj-1::obj-9" : [ "Stored_Duration[2]", "Stored_Duration", 0 ],
 			"obj-3::obj-15" : [ "Stored_Frequency[5]", "Stored_Frequency", 0 ],
-			"obj-1::obj-1::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
-			"obj-17::obj-4::obj-21" : [ "Stored_Decay[3]", "Stored_Decay", 0 ],
-			"obj-1::obj-15" : [ "Stored_Frequency[3]", "Stored_Frequency", 0 ],
-			"obj-17::obj-12::obj-1::obj-17" : [ "Stored_Gain[6]", "Stored_Gain", 0 ],
-			"obj-44::obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
-			"obj-3::obj-4::obj-21" : [ "Stored_Decay[2]", "Stored_Decay", 0 ],
-			"obj-17::obj-1::obj-1::obj-4::obj-4" : [ "Stored_Function[3]", "Stored_Function", 0 ],
-			"obj-3::obj-12::obj-1::obj-17" : [ "Stored_Gain[4]", "Stored_Gain", 0 ],
-			"obj-44::obj-2::obj-8" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
-			"obj-17::obj-14" : [ "Stored_On[3]", "Stored_On", 0 ],
-			"obj-1::obj-4::obj-1" : [ "Stored_Attack[1]", "Stored_Attack", 0 ],
-			"obj-3::obj-1::obj-1::obj-4::obj-4" : [ "Stored_Function[2]", "Stored_Function", 0 ],
-			"obj-1::obj-12::obj-1::obj-12" : [ "Stored_Filtergraph[1]", "Stored_Filtergraph", 0 ],
-			"obj-3::obj-10" : [ "Stored_Gain[5]", "Stored_Gain", 0 ],
-			"obj-44::obj-12::obj-1::obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
-			"obj-1::obj-1::obj-1::obj-4::obj-4" : [ "Stored_Function[1]", "Stored_Function", 0 ],
 			"obj-1::obj-10" : [ "Stored_Gain[3]", "Stored_Gain", 0 ],
-			"obj-17::obj-12::obj-1::obj-12" : [ "Stored_Filtergraph[3]", "Stored_Filtergraph", 0 ],
-			"obj-3::obj-12::obj-1::obj-8" : [ "Stored_Frequency[4]", "Stored_Frequency", 0 ],
-			"obj-17::obj-1::obj-6" : [ "Stored_Amount[3]", "Stored_Amount", 0 ],
-			"obj-1::obj-12::obj-1::obj-17" : [ "Stored_Gain[2]", "Stored_Gain", 0 ],
-			"obj-3::obj-1::obj-6" : [ "Stored_Amount[2]", "Stored_Amount", 0 ],
-			"obj-44::obj-1::obj-9" : [ "Stored_Duration", "Stored_Duration", 0 ],
-			"obj-1::obj-1::obj-6" : [ "Stored_Amount[1]", "Stored_Amount", 0 ],
-			"obj-44::obj-4::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
-			"obj-44::obj-14" : [ "Stored_On", "Stored_On", 0 ],
-			"obj-17::obj-15" : [ "Stored_Frequency[7]", "Stored_Frequency", 0 ],
-			"obj-44::obj-12::obj-1::obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
-			"obj-3::obj-14" : [ "Stored_On[2]", "Stored_On", 0 ],
-			"obj-44::obj-10" : [ "Stored_Gain[1]", "Stored_Gain", 0 ],
-			"obj-17::obj-4::obj-1" : [ "Stored_Attack[3]", "Stored_Attack", 0 ],
-			"obj-1::obj-14" : [ "Stored_On[1]", "Stored_On", 0 ],
+			"obj-44::obj-17::obj-6" : [ "Stored_Amount", "Stored_Amount", 0 ],
 			"obj-17::obj-12::obj-1::obj-8" : [ "Stored_Frequency[6]", "Stored_Frequency", 0 ],
 			"obj-3::obj-4::obj-1" : [ "Stored_Attack[2]", "Stored_Attack", 0 ],
-			"obj-44::obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
-			"obj-44::obj-1::obj-1::obj-4::obj-4" : [ "Stored_Function", "Stored_Function", 0 ],
-			"obj-3::obj-12::obj-1::obj-12" : [ "Stored_Filtergraph[2]", "Stored_Filtergraph", 0 ],
-			"obj-44::obj-15" : [ "Stored_Frequency[1]", "Stored_Frequency", 0 ],
 			"obj-1::obj-4::obj-21" : [ "Stored_Decay[1]", "Stored_Decay", 0 ],
+			"obj-3::obj-12::obj-1::obj-8" : [ "Stored_Frequency[4]", "Stored_Frequency", 0 ],
+			"obj-44::obj-12::obj-1::obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
 			"obj-1::obj-12::obj-1::obj-20" : [ "Stored_Q[1]", "Stored_Q", 0 ],
-			"obj-17::obj-2::obj-8" : [ "Stored_Waveform[3]", "Stored_Waveform", 0 ],
+			"obj-3::obj-17::obj-9" : [ "Stored_Duration[2]", "Stored_Duration", 0 ],
+			"obj-17::obj-15" : [ "Stored_Frequency[7]", "Stored_Frequency", 0 ],
+			"obj-44::obj-4::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
+			"obj-44::obj-17::obj-20::obj-1" : [ "Stored_Function", "Stored_Function", 0 ],
+			"obj-17::obj-4::obj-21" : [ "Stored_Decay[3]", "Stored_Decay", 0 ],
+			"obj-1::obj-15" : [ "Stored_Frequency[3]", "Stored_Frequency", 0 ],
 			"obj-17::obj-12::obj-1::obj-20" : [ "Stored_Q[3]", "Stored_Q", 0 ],
-			"obj-44::obj-1::obj-6" : [ "Stored_Amount", "Stored_Amount", 0 ],
-			"obj-3::obj-2::obj-8" : [ "Stored_Waveform[2]", "Stored_Waveform", 0 ],
+			"obj-44::obj-14" : [ "Stored_On", "Stored_On", 0 ],
+			"obj-44::obj-12::obj-1::obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
+			"obj-17::obj-17::obj-9" : [ "Stored_Duration[3]", "Stored_Duration", 0 ],
+			"obj-44::obj-10" : [ "Stored_Gain[1]", "Stored_Gain", 0 ],
+			"obj-3::obj-10" : [ "Stored_Gain[5]", "Stored_Gain", 0 ],
+			"obj-1::obj-17::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
+			"obj-1::obj-1" : [ "Stored_Waveform[1]", "Stored_Waveform", 0 ],
+			"obj-17::obj-12::obj-1::obj-17" : [ "Stored_Gain[6]", "Stored_Gain", 0 ],
+			"obj-44::obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
+			"obj-44::obj-15" : [ "Stored_Frequency[1]", "Stored_Frequency", 0 ],
+			"obj-3::obj-4::obj-21" : [ "Stored_Decay[2]", "Stored_Decay", 0 ],
+			"obj-3::obj-12::obj-1::obj-17" : [ "Stored_Gain[4]", "Stored_Gain", 0 ],
+			"obj-1::obj-12::obj-1::obj-17" : [ "Stored_Gain[2]", "Stored_Gain", 0 ],
+			"obj-1::obj-12::obj-1::obj-12" : [ "Stored_Filtergraph[1]", "Stored_Filtergraph", 0 ],
+			"obj-17::obj-10" : [ "Stored_Gain[7]", "Stored_Gain", 0 ],
+			"obj-3::obj-17::obj-6" : [ "Stored_Amount[2]", "Stored_Amount", 0 ],
+			"obj-1::obj-17::obj-20::obj-1" : [ "Stored_Function[1]", "Stored_Function", 0 ],
+			"obj-44::obj-17::obj-9" : [ "Stored_Duration", "Stored_Duration", 0 ],
+			"obj-3::obj-14" : [ "Stored_On[2]", "Stored_On", 0 ],
+			"obj-1::obj-4::obj-1" : [ "Stored_Attack[1]", "Stored_Attack", 0 ],
+			"obj-17::obj-12::obj-1::obj-12" : [ "Stored_Filtergraph[3]", "Stored_Filtergraph", 0 ],
+			"obj-3::obj-12::obj-1::obj-12" : [ "Stored_Filtergraph[2]", "Stored_Filtergraph", 0 ],
+			"obj-17::obj-17::obj-20::obj-1" : [ "Stored_Function[3]", "Stored_Function", 0 ],
+			"obj-17::obj-17::obj-6" : [ "Stored_Amount[3]", "Stored_Amount", 0 ],
+			"obj-44::obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
+			"obj-17::obj-1" : [ "Stored_Waveform[3]", "Stored_Waveform", 0 ],
+			"obj-3::obj-1" : [ "Stored_Waveform[2]", "Stored_Waveform", 0 ],
 			"obj-44::obj-12::obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
+			"obj-1::obj-17::obj-6" : [ "Stored_Amount[1]", "Stored_Amount", 0 ],
+			"obj-17::obj-4::obj-1" : [ "Stored_Attack[3]", "Stored_Attack", 0 ],
+			"obj-44::obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
+			"obj-1::obj-14" : [ "Stored_On[1]", "Stored_On", 0 ],
 			"obj-3::obj-12::obj-1::obj-20" : [ "Stored_Q[2]", "Stored_Q", 0 ],
-			"obj-17::obj-1::obj-9" : [ "Stored_Duration[3]", "Stored_Duration", 0 ],
-			"obj-1::obj-2::obj-8" : [ "Stored_Waveform[1]", "Stored_Waveform", 0 ],
+			"obj-1::obj-12::obj-1::obj-8" : [ "Stored_Frequency[2]", "Stored_Frequency", 0 ],
+			"obj-3::obj-17::obj-20::obj-1" : [ "Stored_Function[2]", "Stored_Function", 0 ],
+			"obj-17::obj-14" : [ "Stored_On[3]", "Stored_On", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -471,14 +471,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Oscillator.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Thwomp AD Envelope.maxpat",
+				"name" : "Thwomp AD Envelope Interface.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -506,21 +499,21 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Frequency Modulation Function Envelope.maxpat",
+				"name" : "Thwomp Pitch Envelope Interface.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Function Envelope Modulation.maxpat",
+				"name" : "Thwomp Function Envelope Interface.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Function Envelope.maxpat",
+				"name" : "Thwomp Engine.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
