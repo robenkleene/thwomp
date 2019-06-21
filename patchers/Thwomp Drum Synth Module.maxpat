@@ -85,8 +85,8 @@
 					"numinlets" : 7,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 192.0, 560.0, 181.0, 20.0 ],
-					"text" : "poly~ \"Thwomp Engine\" 8 @target 0"
+					"patching_rect" : [ 192.0, 560.0, 171.0, 20.0 ],
+					"text" : "poly~ thwomp_engine 8 @target 0"
 				}
 
 			}
@@ -605,7 +605,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Engine.maxpat",
+				"name" : "thwomp_engine.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thwomp_osc_1.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
