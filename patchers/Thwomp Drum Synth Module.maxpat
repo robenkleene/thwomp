@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 128.0, 79.0, 950.0, 787.0 ],
+		"rect" : [ 164.0, 139.0, 1110.0, 661.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -39,13 +39,42 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "message",
+					"id" : "obj-16",
+					"maxclass" : "newobj",
 					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 176.0, 96.0, 80.0, 20.0 ],
+					"text" : "routepass note"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial Bold",
+					"fontsize" : 10.0,
+					"id" : "obj-5",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 288.0, 304.0, 30.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 32.0, 32.0, 33.0, 18.0 ],
+					"text" : "Freq"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 192.0, 456.0, 44.0, 20.0 ],
-					"text" : "note 60"
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 264.0, 304.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 8.0, 32.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -75,7 +104,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 568.0, 360.0, 60.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 56.0, 56.0, 20.0 ],
+					"presentation_rect" : [ 8.0, 80.0, 56.0, 20.0 ],
 					"varname" : "Waveform"
 				}
 
@@ -315,9 +344,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "bang", "bang", "bang" ],
-					"patching_rect" : [ 176.0, 96.0, 40.0, 20.0 ],
-					"text" : "t b b b"
+					"outlettype" : [ "bang", "bang", "" ],
+					"patching_rect" : [ 176.0, 128.0, 40.0, 20.0 ],
+					"text" : "t b b l"
 				}
 
 			}
@@ -338,7 +367,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 640.0, 328.0, 104.0, 56.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 72.0, 80.0, 56.0 ],
+					"presentation_rect" : [ 0.0, 96.0, 80.0, 56.0 ],
 					"varname" : "AD Envelope",
 					"viewvisibility" : 1
 				}
@@ -346,7 +375,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Bang Triggers",
+					"comment" : "Note In",
 					"id" : "obj-3",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -367,7 +396,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 312.0, 360.0, 23.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 56.0, 32.0, 23.0, 18.0 ],
+					"presentation_rect" : [ 56.0, 56.0, 23.0, 18.0 ],
 					"text" : "Hz"
 				}
 
@@ -382,8 +411,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 264.0, 336.0, 71.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 8.0, 58.0, 18.0 ],
-					"text" : "Oscillator"
+					"presentation_rect" : [ 32.0, 8.0, 27.0, 18.0 ],
+					"text" : "Osc"
 				}
 
 			}
@@ -401,7 +430,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 264.0, 360.0, 45.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 32.0, 48.0, 20.0 ],
+					"presentation_rect" : [ 8.0, 56.0, 48.0, 20.0 ],
 					"varname" : "Frequency"
 				}
 
@@ -411,6 +440,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -437,13 +473,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-20", 0 ]
 				}
@@ -451,7 +480,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -507,26 +536,26 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-8", 2 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
+			"obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
 			"obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"obj-17::obj-6" : [ "Stored_Amount[1]", "Stored_Amount", 0 ],
-			"obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
-			"obj-17::obj-20::obj-1" : [ "Stored_Function[1]", "Stored_Function", 0 ],
-			"obj-12::obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
+			"obj-12::obj-1::obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
 			"obj-4::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
-			"obj-17::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
+			"obj-17::obj-20::obj-1" : [ "Stored_Function[1]", "Stored_Function", 0 ],
 			"obj-14" : [ "Stored_On", "Stored_On", 0 ],
+			"obj-17::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
 			"obj-12::obj-1::obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
 			"obj-10" : [ "Stored_Gain[1]", "Stored_Gain", 0 ],
-			"obj-12::obj-1::obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
 			"obj-15" : [ "Stored_Frequency[1]", "Stored_Frequency", 0 ],
+			"obj-12::obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
+			"obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"parameterbanks" : 			{
 
 			}

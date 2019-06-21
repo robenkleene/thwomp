@@ -10,6 +10,48 @@ Thwomp is a four oscillator drum synthesizer.
 
 The synth is monophonic, transient clicks will be produced if a new sound is triggered while a sound is playing.
 
+## Interface
+
+- Gain: Gain is on the far right
+- Oscillator Tabs: The four tabs on the left choose in oscillator, all of the rest of the sections (except Preset) are per oscillator
+
+### Oscillator Section
+
+- `osc` Toggle: Turn on or off the oscillator
+- `freq` Toggle: Turn on or off the frequency (when it is off, the notes frequency is used)
+- `Hz`: Frequency
+- Oscillator type
+- `ms`: Attack
+- `ms`: Decay
+
+### Pitch Envelope Section
+
+- Pitch enveloper graph
+- `Hz`: Pitch envelope amount
+- `ms`: Pitch envelope decay
+
+### Preset Section
+
+- `r`: Read presets from a file
+- `w`: Write the presets to a file
+- Toggle: Write the presets again to the same file
+
+### Filter Section
+
+- Filter Toggle: Turn on or off the filter
+- Filter Type
+- `Hz`: Filter cutoff
+- `dB`: Filter gain
+- `Q`: Filter Q
+
+### Standalone Controls
+
+When Thwomp is loaded outside of Ableton Live, it offers some additional features.
+
+- **Note Selection** & **Button** (Far left): Click the button to trigger the selected note.
+- `s`: Typing this key will also play the note
+- Speaker Toggle: Toggles whether the audio engine is on
+
 ## Presets
 
 ### 1. Kick
