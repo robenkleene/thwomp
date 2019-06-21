@@ -38,6 +38,7 @@ The synth is monophonic, transient clicks will be produced if a new sound is tri
 
 ### Filter Section
 
+- Filter Toggle: Turn on or off the filter
 - Filter Type
 - `Hz`: Filter cutoff
 - `dB`: Filter gain
