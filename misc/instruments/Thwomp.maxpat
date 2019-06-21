@@ -338,7 +338,21 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Engine.maxpat",
+				"name" : "thwomp_engine.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"patcherrelativepath" : "../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thwomp_osc_1.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"patcherrelativepath" : "../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thwomp_osc_3.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
