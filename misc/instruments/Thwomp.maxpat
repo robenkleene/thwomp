@@ -352,7 +352,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Freq.maxpat",
+				"name" : "Thwomp Frequency.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",

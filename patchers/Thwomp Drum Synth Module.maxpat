@@ -47,7 +47,7 @@
 					"id" : "obj-31",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Thwomp Freq.maxpat",
+					"name" : "Thwomp Frequency.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -592,7 +592,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Freq.maxpat",
+				"name" : "Thwomp Frequency.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
