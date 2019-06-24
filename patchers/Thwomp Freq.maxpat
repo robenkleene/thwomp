@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 186.0, 271.0, 640.0, 480.0 ],
+		"rect" : [ 307.0, 103.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -39,6 +39,38 @@
 		"subpatcher_template" : "roben-kleene-max-for-live",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 56.0, 8.0, 175.0, 20.0 ],
+					"restore" : [ 30 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_linknames" : 1,
+							"parameter_longname" : "Stored_Frequency",
+							"parameter_mmax" : 22000.0,
+							"parameter_mmin" : 30.0,
+							"parameter_shortname" : "Stored_Frequency",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 1,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr Stored_Frequency Frequency",
+					"varname" : "Stored_Frequency"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-8",
 					"index" : 0,
@@ -56,8 +88,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 256.0, 48.0, 20.0 ],
-					"text" : "switch 2"
+					"patching_rect" : [ 8.0, 256.0, 56.0, 20.0 ],
+					"text" : "switch 2 1"
 				}
 
 			}
@@ -212,6 +244,14 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-15" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
