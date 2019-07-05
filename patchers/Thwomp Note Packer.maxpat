@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 293.0, 84.0, 720.0, 787.0 ],
+		"rect" : [ 293.0, 79.0, 720.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -157,8 +157,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 80.0, 79.0, 20.0 ],
-					"text" : "loadmess 72"
+					"patching_rect" : [ 24.0, 80.0, 69.0, 20.0 ],
+					"text" : "loadmess 60"
 				}
 
 			}
@@ -166,7 +166,7 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.0,
-					"format" : 4,
+					"format" : 5,
 					"id" : "obj-12",
 					"maxclass" : "number",
 					"numinlets" : 1,
