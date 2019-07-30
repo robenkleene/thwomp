@@ -57,7 +57,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 24.0, 80.0, 30.0, 20.0 ],
-					"text" : "* -64"
+					"text" : "* -48"
 				}
 
 			}
@@ -90,9 +90,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 144.0, 88.0, 64.0 ],
+					"patching_rect" : [ 8.0, 144.0, 40.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 32.0, 88.0, 64.0 ],
+					"presentation_rect" : [ 0.0, 32.0, 40.0, 48.0 ],
 					"varname" : "Frequency Bank",
 					"viewvisibility" : 1
 				}
@@ -207,7 +207,9 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-1::obj-9" : [ "Frequency", "Freq", 0 ],
 			"obj-1::obj-15" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
+			"obj-1::obj-6" : [ "Offset", "Offset", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -216,13 +218,6 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Thwomp Frequency Bank.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Thwomp Frequency Note.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
