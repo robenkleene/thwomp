@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 678.0, 144.0, 322.0, 650.0 ],
+		"rect" : [ 258.0, 127.0, 644.0, 374.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -106,10 +106,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 32.0, 48.0, 30.0, 18.0 ],
+					"patching_rect" : [ 32.0, 48.0, 31.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 32.0, 8.0, 33.0, 18.0 ],
-					"text" : "Freq"
+					"text" : "Note"
 				}
 
 			}
@@ -208,8 +208,8 @@
  ],
 		"parameters" : 		{
 			"obj-1::obj-9" : [ "Frequency", "Freq", 0 ],
-			"obj-1::obj-15" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"obj-1::obj-6" : [ "Offset", "Offset", 0 ],
+			"obj-1::obj-15" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"parameterbanks" : 			{
 
 			}
