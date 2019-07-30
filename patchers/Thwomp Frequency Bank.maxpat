@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 215.0, 269.0, 640.0, 480.0 ],
+		"rect" : [ 274.0, 330.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -38,6 +38,34 @@
 		"style" : "",
 		"subpatcher_template" : "roben-kleene-max-for-live",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 120.0, 120.0, 41.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 8.0, 64.0, 41.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 3,
+							"parameter_longname" : "Frequency",
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 20000.0,
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "Freq"
+						}
+
+					}
+,
+					"varname" : "Frequency"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
@@ -82,7 +110,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 216.0, 16.0, 175.0, 20.0 ],
-					"restore" : [ 30 ],
+					"restore" : [ 0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -103,40 +131,6 @@
 ,
 					"text" : "pattr Stored_Frequency Frequency",
 					"varname" : "Stored_Frequency"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"id" : "obj-11",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 168.0, 104.0, 23.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 56.0, 64.0, 23.0, 18.0 ],
-					"text" : "Hz"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"id" : "obj-6",
-					"maxclass" : "number",
-					"maximum" : 22000,
-					"minimum" : 30,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 120.0, 104.0, 45.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 64.0, 48.0, 20.0 ],
-					"varname" : "Frequency"
 				}
 
 			}
@@ -213,9 +207,10 @@
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "Thwomp Frequency Note.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 208.0, 104.0, 88.0, 80.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 88.0, 64.0 ],
@@ -233,7 +228,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-2", 1 ]
 				}
 
@@ -268,13 +263,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 2 ],
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"source" : [ "obj-7", 1 ]
 				}
@@ -287,8 +275,16 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 2 ],
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
+			"obj-9" : [ "Frequency", "Freq", 0 ],
 			"obj-15" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"parameterbanks" : 			{
 
