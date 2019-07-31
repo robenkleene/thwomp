@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 200.0, 24.0, 27.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 32.0, 8.0, 27.0, 18.0 ],
+					"text" : "Osc"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -52,9 +65,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 216.0, 320.0, 64.0, 80.0 ],
+					"patching_rect" : [ 216.0, 320.0, 80.0, 56.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.0, 0.0, 64.0, 80.0 ],
+					"presentation_rect" : [ 0.0, 24.0, 88.0, 56.0 ],
 					"varname" : "Frequency Switch",
 					"viewvisibility" : 1
 				}
@@ -146,7 +159,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 568.0, 360.0, 60.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.0, 88.0, 56.0, 20.0 ],
+					"presentation_rect" : [ 8.0, 80.0, 56.0, 20.0 ],
 					"varname" : "Waveform"
 				}
 
@@ -198,7 +211,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 344.0, 208.0, 214.0, 173.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 120.0, 0.0, 208.0, 169.0 ],
+					"presentation_rect" : [ 80.0, 0.0, 208.0, 168.0 ],
 					"varname" : "Pitch Envelope",
 					"viewvisibility" : 1
 				}
@@ -277,7 +290,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 192.0, 784.0, 192.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 720.0, 8.0, 24.0, 152.0 ],
+					"presentation_rect" : [ 680.0, 8.0, 24.0, 152.0 ],
 					"varname" : "Gain"
 				}
 
@@ -340,7 +353,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 192.0, 592.0, 435.0, 180.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 320.0, 0.0, 400.0, 168.0 ],
+					"presentation_rect" : [ 280.0, 0.0, 400.0, 168.0 ],
 					"varname" : "Biquad Filter Plugin",
 					"viewvisibility" : 1
 				}
@@ -377,7 +390,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 640.0, 328.0, 104.0, 56.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.0, 112.0, 80.0, 56.0 ],
+					"presentation_rect" : [ 0.0, 112.0, 88.0, 56.0 ],
 					"varname" : "AD Envelope",
 					"viewvisibility" : 1
 				}
@@ -539,21 +552,19 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
-			"obj-12::obj-1::obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
+			"obj-12::obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
+			"obj-17::obj-6" : [ "Stored_Amount[1]", "Stored_Amount", 0 ],
 			"obj-14" : [ "Stored_On", "Stored_On", 0 ],
-			"obj-2::obj-1::obj-9" : [ "Frequency", "Freq", 0 ],
-			"obj-17::obj-20::obj-1" : [ "Stored_Function[1]", "Stored_Function", 0 ],
+			"obj-17::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
+			"obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
+			"obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"obj-2::obj-1::obj-15" : [ "Stored_Frequency[3]", "Stored_Frequency", 0 ],
+			"obj-12::obj-1::obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
+			"obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
 			"obj-12::obj-1::obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
 			"obj-10" : [ "Stored_Gain[1]", "Stored_Gain", 0 ],
-			"obj-17::obj-6" : [ "Stored_Amount[1]", "Stored_Amount", 0 ],
-			"obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
-			"obj-12::obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
+			"obj-17::obj-20::obj-1" : [ "Stored_Function[1]", "Stored_Function", 0 ],
 			"obj-4::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
-			"obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
-			"obj-2::obj-1::obj-6" : [ "Offset", "Offset", 0 ],
-			"obj-17::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
 			"parameterbanks" : 			{
 
 			}
