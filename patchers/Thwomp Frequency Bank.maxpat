@@ -46,8 +46,18 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 216.0, 40.0, 131.0, 20.0 ],
 					"restore" : [ 0.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "Stored_Offset",
+							"parameter_shortname" : "Stored_Offset",
+							"parameter_type" : 3
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
+						"parameter_enable" : 1,
 						"parameter_mappable" : 0
 					}
 ,
@@ -366,6 +376,7 @@
  ],
 		"parameters" : 		{
 			"obj-15" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
+			"obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
 			"parameterbanks" : 			{
 
 			}
