@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 68.0, 79.0, 829.0, 742.0 ],
+		"rect" : [ 87.0, 79.0, 1052.0, 742.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -533,19 +533,21 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-17::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
 			"obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"obj-2::obj-1::obj-15" : [ "Stored_Frequency[3]", "Stored_Frequency", 0 ],
-			"obj-12::obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
-			"obj-17::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
-			"obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
-			"obj-12::obj-1::obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
-			"obj-12::obj-1::obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
-			"obj-17::obj-6" : [ "Stored_Amount[1]", "Stored_Amount", 0 ],
-			"obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
-			"obj-10" : [ "Stored_Gain[1]", "Stored_Gain", 0 ],
-			"obj-17::obj-20::obj-1" : [ "Stored_Function[1]", "Stored_Function", 0 ],
-			"obj-14" : [ "Stored_On", "Stored_On", 0 ],
 			"obj-4::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
+			"obj-17::obj-6" : [ "Stored_Amount[1]", "Stored_Amount", 0 ],
+			"obj-14" : [ "Stored_On", "Stored_On", 0 ],
+			"obj-2::obj-3" : [ "Stored_On[1]", "Stored_On", 0 ],
+			"obj-12::obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
+			"obj-17::obj-20::obj-1" : [ "Stored_Function[1]", "Stored_Function", 0 ],
+			"obj-12::obj-1::obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
+			"obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
+			"obj-10" : [ "Stored_Gain[1]", "Stored_Gain", 0 ],
+			"obj-2::obj-1::obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
+			"obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
+			"obj-12::obj-1::obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
 			"parameterbanks" : 			{
 
 			}

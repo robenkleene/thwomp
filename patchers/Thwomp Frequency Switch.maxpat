@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 258.0, 127.0, 644.0, 374.0 ],
+		"rect" : [ -28.0, 166.0, 644.0, 374.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -137,8 +137,18 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 160.0, 8.0, 101.0, 20.0 ],
 					"restore" : [ 0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "Stored_On",
+							"parameter_shortname" : "Stored_On",
+							"parameter_type" : 3
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
+						"parameter_enable" : 1,
 						"parameter_mappable" : 0
 					}
 ,
@@ -208,6 +218,8 @@
  ],
 		"parameters" : 		{
 			"obj-1::obj-15" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
+			"obj-3" : [ "Stored_On", "Stored_On", 0 ],
+			"obj-1::obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
 			"parameterbanks" : 			{
 
 			}
