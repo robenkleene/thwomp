@@ -15,16 +15,17 @@ Thwomp is a four oscillator drum synthesizer.
 
 ### Oscillator Section
 
-- `osc` Toggle: Turn on or off the oscillator
-- `freq` Toggle: Turn on or off the frequency (when it is off, the notes frequency is used)
-- `Hz`: Frequency
-- Oscillator type
+- `osc` Toggle: Toggle the entire oscillator
+- `note` Toggle: Toggle whether to use the incoming MIDI
+- `Hz`: When `note` is off, specify a frequency
+- `Semi`: When `note` is on, specify an offset
+- Oscillator Type Pull-down Menu
 - `ms`: Attack
 - `ms`: Decay
 
 ### Pitch Envelope Section
 
-- Pitch enveloper graph
+- Pitch Envelope Graph
 - `Hz`: Pitch envelope amount
 - `ms`: Pitch envelope decay
 
@@ -33,6 +34,9 @@ Thwomp is a four oscillator drum synthesizer.
 - `r`: Read presets from a file
 - `w`: Write the presets to a file
 - Toggle: Write the presets again to the same file
+- To recall, click a box
+- To save a preset, shift-click a box
+- To delete a preset, option-click a box
 
 ### Filter Section
 
