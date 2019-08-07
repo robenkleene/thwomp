@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 532.0, 176.0, 874.0, 644.0 ],
+		"rect" : [ 34.0, 151.0, 874.0, 644.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -58,8 +58,18 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 272.0, 344.0, 133.0, 20.0 ],
 					"restore" : [ 0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "Stored_Active",
+							"parameter_shortname" : "Stored_Active",
+							"parameter_type" : 3
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
+						"parameter_enable" : 1,
 						"parameter_mappable" : 0
 					}
 ,
@@ -297,6 +307,14 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-3" : [ "Stored_Active", "Stored_Active", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
 		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
