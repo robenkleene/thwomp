@@ -11,7 +11,7 @@ Thwomp is a four oscillator drum synthesizer.
 ## Interface
 
 - Gain: Gain is on the far right
-- Oscillator Tabs: The four tabs on the left choose in oscillator, all of the rest of the sections (except Preset) are per oscillator
+- Oscillator Tabs: The four tabs on the left select an oscillator, all of the other settings (excluding presets) are per oscillator
 
 ### Oscillator Section
 
