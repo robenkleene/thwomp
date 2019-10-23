@@ -56,7 +56,7 @@ When Thwomp is loaded outside of Ableton Live, it offers some additional feature
 
 ## Presets
 
-The following presets are built-in to Thwomp. They are numbered from the upper left to the lower right.
+The following presets are built-in, they're numbered from the upper left to the lower right (so the upper right preset is the kick).
 
 ### 1. Kick
 
