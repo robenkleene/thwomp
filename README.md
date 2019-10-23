@@ -11,15 +11,15 @@ Thwomp is a four oscillator drum synthesizer.
 ## Interface
 
 - Gain: Gain is on the far right
-- Oscillator Tabs: The four tabs on the left choose in oscillator, all of the rest of the sections (except Preset) are per oscillator
+- Oscillator Tabs: The four tabs on the left select an oscillator, all of the following settings (excluding presets) are per oscillator
 
 ### Oscillator Section
 
 - `osc` Toggle: Toggle the entire oscillator
-- `note` Toggle: Toggle whether to use the incoming MIDI
+- `note` Toggle: Toggle whether to use the incoming MIDI note frequency (when off, the frequency is specified)
 - `Hz`: When `note` is off, specify a frequency
 - `Semi`: When `note` is on, specify an offset
-- Oscillator Type Pull-down Menu
+- Oscillator Type
 - `ms`: Attack
 - `ms`: Decay
 
@@ -33,8 +33,8 @@ Thwomp is a four oscillator drum synthesizer.
 
 - `r`: Read presets from a file
 - `w`: Write the presets to a file
-- Toggle: Write the presets again to the same file
-- To recall, click a box
+- Preset Toggle: When toggled on, `w` will write again to the same filename without prompting.
+- To recall a preset, click a box
 - To save a preset, shift-click a box
 - To delete a preset, option-click a box
 
@@ -55,6 +55,8 @@ When Thwomp is loaded outside of Ableton Live, it offers some additional feature
 - Speaker Toggle: Toggles whether the audio engine is on
 
 ## Presets
+
+The following presets are built-in, they're numbered from the upper left to the lower right (so the upper right preset is the kick).
 
 ### 1. Kick
 
