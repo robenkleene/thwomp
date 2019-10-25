@@ -6,7 +6,7 @@ Drum synthesizer.
 
 ## Description
 
-Thwomp is a four oscillator drum synthesizer.
+Thwomp is a four oscillator drum synthesizer for [Max for Live](https://www.ableton.com/en/live/max-for-live/).
 
 ## Interface
 
