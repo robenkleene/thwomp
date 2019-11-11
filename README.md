@@ -84,7 +84,7 @@ The following presets are built-in, they're numbered from the upper left to the 
 ##### Filter
 
 - `bandpass`
-- `622Hz`
+- `500Hz`
 - `9.1dB`
 - `5.6Q`
 
