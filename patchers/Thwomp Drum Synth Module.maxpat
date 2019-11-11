@@ -95,7 +95,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 216.0, 320.0, 80.0, 56.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 24.0, 88.0, 56.0 ],
+					"presentation_rect" : [ 24.0, 16.0, 64.0, 80.0 ],
 					"varname" : "Frequency Switch",
 					"viewvisibility" : 1
 				}
@@ -175,7 +175,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 568.0, 360.0, 60.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 80.0, 56.0, 20.0 ],
+					"presentation_rect" : [ 8.0, 96.0, 56.0, 20.0 ],
 					"varname" : "Waveform"
 				}
 
@@ -582,22 +582,22 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-1::obj-15" : [ "Stored_Frequency[3]", "Stored_Frequency", 0 ],
-			"obj-12::obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
-			"obj-12::obj-2::obj-3" : [ "Stored_Active", "Stored_Active", 0 ],
-			"obj-17::obj-20::obj-1" : [ "Stored_Function[1]", "Stored_Function", 0 ],
-			"obj-17::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
-			"obj-4::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
-			"obj-2::obj-3" : [ "Stored_On[1]", "Stored_On", 0 ],
-			"obj-2::obj-1::obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
 			"obj-17::obj-6" : [ "Stored_Amount[1]", "Stored_Amount", 0 ],
-			"obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
-			"obj-12::obj-1::obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
 			"obj-12::obj-1::obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
-			"obj-14" : [ "Stored_On", "Stored_On", 0 ],
 			"obj-10" : [ "Stored_Gain[1]", "Stored_Gain", 0 ],
+			"obj-12::obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
 			"obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
+			"obj-17::obj-20::obj-1" : [ "Stored_Function[1]", "Stored_Function", 0 ],
 			"obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
+			"obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
+			"obj-12::obj-2::obj-3" : [ "Stored_Active", "Stored_Active", 0 ],
+			"obj-2::obj-1::obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
+			"obj-12::obj-1::obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
+			"obj-17::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
+			"obj-2::obj-3" : [ "Stored_On[1]", "Stored_On", 0 ],
+			"obj-14" : [ "Stored_On", "Stored_On", 0 ],
+			"obj-4::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
+			"obj-2::obj-1::obj-9" : [ "Freq", "Freq", 0 ],
 			"parameterbanks" : 			{
 
 			}

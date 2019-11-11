@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 6,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -28.0, 166.0, 644.0, 374.0 ],
+		"rect" : [ 34.0, 166.0, 644.0, 374.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -57,7 +57,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 24.0, 80.0, 30.0, 20.0 ],
-					"text" : "* -32"
+					"text" : "* -48"
 				}
 
 			}
@@ -90,9 +90,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 144.0, 88.0, 32.0 ],
+					"patching_rect" : [ 8.0, 144.0, 88.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 24.0, 88.0, 32.0 ],
+					"presentation_rect" : [ 0.0, 32.0, 88.0, 48.0 ],
 					"varname" : "Frequency Bank",
 					"viewvisibility" : 1
 				}
@@ -217,9 +217,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-15" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
-			"obj-3" : [ "Stored_On", "Stored_On", 0 ],
 			"obj-1::obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
+			"obj-3" : [ "Stored_On", "Stored_On", 0 ],
+			"obj-1::obj-9" : [ "Freq", "Freq", 0 ],
 			"parameterbanks" : 			{
 
 			}
