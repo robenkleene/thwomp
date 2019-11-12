@@ -6,6 +6,7 @@
 				"id" : 1,
 				"data" : 				{
 					"Stored_Volume" : [ 0.0 ],
+					"Stored_Tab" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_Gain" : [ 122 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_On" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_Waveform" : [ 0 ],
@@ -82,6 +83,7 @@
 				"id" : 2,
 				"data" : 				{
 					"Stored_Volume" : [ 0.0 ],
+					"Stored_Tab" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_Gain" : [ 122 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_On" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_Waveform" : [ 0 ],
@@ -158,6 +160,7 @@
 				"id" : 3,
 				"data" : 				{
 					"Stored_Volume" : [ 0.0 ],
+					"Stored_Tab" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_Gain" : [ 122 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_On" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_Waveform" : [ 0 ],
@@ -234,6 +237,7 @@
 				"id" : 4,
 				"data" : 				{
 					"Stored_Volume" : [ 0.0 ],
+					"Stored_Tab" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_Gain" : [ 122 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_On" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_Waveform" : [ 0 ],
@@ -310,6 +314,7 @@
 				"id" : 5,
 				"data" : 				{
 					"Stored_Volume" : [ 0.0 ],
+					"Stored_Tab" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_Gain" : [ 122 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_On" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_Waveform" : [ 0 ],
@@ -386,6 +391,7 @@
 				"id" : 10,
 				"data" : 				{
 					"Stored_Volume" : [ 0.0 ],
+					"Stored_Tab" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_Gain" : [ 122 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_On" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Stored_Waveform" : [ 0 ],
