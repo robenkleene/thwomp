@@ -241,10 +241,11 @@
 			"obj-1::obj-1::obj-3::obj-12::obj-1::obj-20" : [ "Stored_Q[2]", "Stored_Q", 0 ],
 			"obj-1::obj-1::obj-3::obj-1" : [ "Stored_Waveform[2]", "Stored_Waveform", 0 ],
 			"obj-1::obj-1::obj-17::obj-2::obj-1::obj-9" : [ "Freq[3]", "Freq", 0 ],
-			"obj-1::obj-1::obj-1::obj-7" : [ "On[1]", "On", 0 ],
+			"obj-1::obj-1::obj-44::obj-7" : [ "On[1]", "On", 0 ],
 			"obj-1::obj-1::obj-1::obj-10" : [ "Stored_Gain[3]", "Stored_Gain", 0 ],
 			"obj-1::obj-1::obj-3::obj-12::obj-2::obj-3" : [ "Stored_Active[2]", "Stored_Active", 0 ],
 			"obj-1::obj-1::obj-3::obj-17::obj-9" : [ "Stored_Duration[2]", "Stored_Duration", 0 ],
+			"obj-1::obj-1::obj-17::obj-2::obj-11" : [ "On[6]", "On", 0 ],
 			"obj-1::obj-1::obj-1::obj-12::obj-1::obj-20" : [ "Stored_Q[1]", "Stored_Q", 0 ],
 			"obj-1::obj-1::obj-17::obj-12::obj-1::obj-17" : [ "Stored_Gain[6]", "Stored_Gain", 0 ],
 			"obj-1::obj-13" : [ "Stored_Volume", "Stored_Volume", 0 ],
@@ -256,6 +257,7 @@
 			"obj-1::obj-1::obj-44::obj-17::obj-9" : [ "Stored_Duration", "Stored_Duration", 0 ],
 			"obj-1::obj-1::obj-1::obj-14" : [ "Stored_On[3]", "Stored_On", 0 ],
 			"obj-1::obj-1::obj-44::obj-17::obj-6" : [ "Stored_Amount", "Stored_Amount", 0 ],
+			"obj-1::obj-1::obj-3::obj-2::obj-11" : [ "On[4]", "On", 0 ],
 			"obj-1::obj-1::obj-1::obj-4::obj-1" : [ "Stored_Attack[1]", "Stored_Attack", 0 ],
 			"obj-1::obj-1::obj-17::obj-10" : [ "Stored_Gain[7]", "Stored_Gain", 0 ],
 			"obj-1::obj-1::obj-1::obj-12::obj-1::obj-12" : [ "Stored_Filtergraph[1]", "Stored_Filtergraph", 0 ],
@@ -271,8 +273,9 @@
 			"obj-1::obj-1::obj-3::obj-10" : [ "Stored_Gain[5]", "Stored_Gain", 0 ],
 			"obj-1::obj-1::obj-17::obj-2::obj-1::obj-6" : [ "Stored_Offset[3]", "Stored_Offset", 0 ],
 			"obj-1::obj-17" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-1::obj-1::obj-3::obj-7" : [ "On[2]", "On", 0 ],
+			"obj-1::obj-1::obj-1::obj-2::obj-11" : [ "On[2]", "On", 0 ],
 			"obj-1::obj-1::obj-17::obj-14" : [ "Stored_On[7]", "Stored_On", 0 ],
+			"obj-1::obj-1::obj-17::obj-7" : [ "On[7]", "On", 0 ],
 			"obj-1::obj-1::obj-1::obj-12::obj-1::obj-17" : [ "Stored_Gain[2]", "Stored_Gain", 0 ],
 			"obj-1::obj-1::obj-17::obj-4::obj-1" : [ "Stored_Attack[3]", "Stored_Attack", 0 ],
 			"obj-1::obj-1::obj-44::obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
@@ -287,6 +290,7 @@
 			"obj-1::obj-1::obj-17::obj-2::obj-3" : [ "Stored_On[6]", "Stored_On", 0 ],
 			"obj-1::obj-19" : [ "Tab", "Tab", 0 ],
 			"obj-1::obj-1::obj-3::obj-17::obj-6" : [ "Stored_Amount[2]", "Stored_Amount", 0 ],
+			"obj-1::obj-1::obj-3::obj-7" : [ "On[5]", "On", 0 ],
 			"obj-1::obj-1::obj-44::obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
 			"obj-1::obj-1::obj-44::obj-2::obj-1::obj-9" : [ "Freq", "Freq", 0 ],
 			"obj-1::obj-1::obj-17::obj-12::obj-1::obj-20" : [ "Stored_Q[3]", "Stored_Q", 0 ],
@@ -297,14 +301,14 @@
 			"obj-1::obj-1::obj-44::obj-10" : [ "Stored_Gain[1]", "Stored_Gain", 0 ],
 			"obj-1::obj-1::obj-3::obj-12::obj-1::obj-8" : [ "Stored_Frequency[4]", "Stored_Frequency", 0 ],
 			"obj-1::obj-1::obj-3::obj-14" : [ "Stored_On[5]", "Stored_On", 0 ],
+			"obj-1::obj-1::obj-1::obj-7" : [ "On[3]", "On", 0 ],
 			"obj-1::obj-1::obj-3::obj-17::obj-20::obj-1" : [ "Stored_Function[2]", "Stored_Function", 0 ],
-			"obj-1::obj-1::obj-17::obj-7" : [ "On[3]", "On", 0 ],
 			"obj-1::obj-1::obj-1::obj-4::obj-21" : [ "Stored_Decay[1]", "Stored_Decay", 0 ],
 			"obj-1::obj-1::obj-17::obj-1" : [ "Stored_Waveform[3]", "Stored_Waveform", 0 ],
 			"obj-1::obj-1::obj-1::obj-12::obj-1::obj-8" : [ "Stored_Frequency[2]", "Stored_Frequency", 0 ],
 			"obj-1::obj-1::obj-17::obj-4::obj-21" : [ "Stored_Decay[3]", "Stored_Decay", 0 ],
 			"obj-1::obj-1::obj-44::obj-12::obj-1::obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
-			"obj-1::obj-1::obj-44::obj-7" : [ "On", "On", 0 ],
+			"obj-1::obj-1::obj-44::obj-2::obj-11" : [ "On", "On", 0 ],
 			"obj-1::obj-1::obj-17::obj-12::obj-1::obj-12" : [ "Stored_Filtergraph[3]", "Stored_Filtergraph", 0 ],
 			"parameterbanks" : 			{
 
@@ -315,23 +319,39 @@
 					"parameter_longname" : "Freq[3]"
 				}
 ,
-				"obj-1::obj-1::obj-1::obj-7" : 				{
+				"obj-1::obj-1::obj-44::obj-7" : 				{
 					"parameter_longname" : "On[1]"
 				}
 ,
-				"obj-1::obj-1::obj-3::obj-7" : 				{
+				"obj-1::obj-1::obj-17::obj-2::obj-11" : 				{
+					"parameter_longname" : "On[6]"
+				}
+,
+				"obj-1::obj-1::obj-3::obj-2::obj-11" : 				{
+					"parameter_longname" : "On[4]"
+				}
+,
+				"obj-1::obj-1::obj-1::obj-2::obj-11" : 				{
 					"parameter_longname" : "On[2]"
+				}
+,
+				"obj-1::obj-1::obj-17::obj-7" : 				{
+					"parameter_longname" : "On[7]"
 				}
 ,
 				"obj-1::obj-1::obj-3::obj-2::obj-1::obj-9" : 				{
 					"parameter_longname" : "Freq[2]"
 				}
 ,
+				"obj-1::obj-1::obj-3::obj-7" : 				{
+					"parameter_longname" : "On[5]"
+				}
+,
 				"obj-1::obj-1::obj-1::obj-2::obj-1::obj-9" : 				{
 					"parameter_longname" : "Freq[1]"
 				}
 ,
-				"obj-1::obj-1::obj-17::obj-7" : 				{
+				"obj-1::obj-1::obj-1::obj-7" : 				{
 					"parameter_longname" : "On[3]"
 				}
 

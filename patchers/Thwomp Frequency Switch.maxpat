@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -38,6 +38,35 @@
 		"style" : "",
 		"subpatcher_template" : "roben-kleene-max-for-live",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "live.tab",
+					"num_lines_patching" : 1,
+					"num_lines_presentation" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 152.0, 64.0, 56.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 8.0, 8.0, 56.0, 16.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_shortname" : "On",
+							"parameter_enum" : [ "Freq", "Note" ],
+							"parameter_type" : 2,
+							"parameter_unitstyle" : 0,
+							"parameter_longname" : "On",
+							"parameter_mmax" : 1
+						}
+
+					}
+,
+					"varname" : "On"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-8",
@@ -92,39 +121,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 144.0, 88.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 32.0, 88.0, 48.0 ],
+					"presentation_rect" : [ 0.0, 32.0, 64.0, 48.0 ],
 					"varname" : "Frequency Bank",
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"id" : "obj-5",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 32.0, 48.0, 31.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 8.0, 33.0, 18.0 ],
-					"text" : "Note"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 48.0, 20.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 8.0, 20.0, 20.0 ],
-					"varname" : "On"
 				}
 
 			}
@@ -180,6 +179,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"order" : 1,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"order" : 0,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-2", 0 ]
 				}
@@ -199,27 +214,12 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"order" : 1,
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"order" : 0,
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
  ],
 		"parameters" : 		{
 			"obj-1::obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
 			"obj-3" : [ "Stored_On", "Stored_On", 0 ],
 			"obj-1::obj-9" : [ "Freq", "Freq", 0 ],
+			"obj-11" : [ "On", "On", 0 ],
 			"parameterbanks" : 			{
 
 			}
