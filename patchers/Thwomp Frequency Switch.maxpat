@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 166.0, 644.0, 374.0 ],
+		"rect" : [ 503.0, 170.0, 644.0, 374.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -47,7 +47,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 152.0, 64.0, 56.0, 16.0 ],
+					"patching_rect" : [ 8.0, 48.0, 56.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 8.0, 56.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
@@ -135,7 +135,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 160.0, 8.0, 101.0, 20.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 0.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -216,10 +216,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
-			"obj-3" : [ "Stored_On", "Stored_On", 0 ],
 			"obj-1::obj-9" : [ "Freq", "Freq", 0 ],
+			"obj-3" : [ "Stored_On", "Stored_On", 0 ],
 			"obj-11" : [ "On", "On", 0 ],
+			"obj-1::obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
 			"parameterbanks" : 			{
 
 			}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,13 +39,40 @@
 		"subpatcher_template" : "roben-kleene-max-for-live",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 352.0, 184.0, 40.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 48.0, 40.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_shortname" : "Semi",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 7,
+							"parameter_mmin" : -48.0,
+							"parameter_longname" : "Semi",
+							"parameter_mmax" : 48.0
+						}
+
+					}
+,
+					"varname" : "Offset"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 104.0, 112.0, 41.0, 48.0 ],
+					"patching_rect" : [ 352.0, 120.0, 40.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
@@ -73,7 +100,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 216.0, 40.0, 131.0, 20.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ 0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -103,39 +130,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 184.0, 152.0, 30.0, 20.0 ],
 					"text" : "mtof"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"id" : "obj-14",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 240.0, 80.0, 32.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 47.0, 55.0, 32.0, 18.0 ],
-					"text" : "Semi"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
-					"id" : "obj-12",
-					"maxclass" : "flonum",
-					"maximum" : 64.0,
-					"minimum" : -64.0,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 192.0, 80.0, 48.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 56.0, 48.0, 20.0 ],
-					"varname" : "Offset"
 				}
 
 			}
@@ -287,7 +281,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
-					"source" : [ "obj-12", 0 ]
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -356,8 +350,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
+			"obj-11" : [ "Semi", "Semi", 0 ],
 			"obj-9" : [ "Freq", "Freq", 0 ],
+			"obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
 			"parameterbanks" : 			{
 
 			}
