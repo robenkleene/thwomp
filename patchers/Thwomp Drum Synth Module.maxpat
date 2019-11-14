@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 387.0, 79.0, 410.0, 742.0 ],
+		"rect" : [ 196.0, 79.0, 581.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -39,6 +39,35 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-9",
+					"maxclass" : "live.menu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 624.0, 208.0, 40.0, 20.0 ],
+					"pictures" : [ "sine.svg", "updown.svg", "square.svg", "down.svg", "random.svg", "random.svg" ],
+					"presentation" : 1,
+					"presentation_rect" : [ 32.0, 96.0, 40.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_shortname" : "Waveform",
+							"parameter_enum" : [ "sine", "tri", "square", "saw", "noise", "pink" ],
+							"parameter_type" : 2,
+							"parameter_longname" : "Waveform",
+							"parameter_mmax" : 5
+						}
+
+					}
+,
+					"usepicture" : 1,
+					"varname" : "Waveform"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -53,7 +82,7 @@
 							"parameter_shortname" : "On",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "On",
+							"parameter_longname" : "On[1]",
 							"parameter_mmax" : 1
 						}
 
@@ -173,25 +202,6 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 192.0, 560.0, 171.0, 20.0 ],
 					"text" : "poly~ thwomp_engine 8 @target 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"allowdrag" : 0,
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"id" : "obj-18",
-					"items" : [ "Cycle", ",", "Tri", ",", "Rect", ",", "Saw", ",", "Noise", ",", "Pink" ],
-					"maxclass" : "umenu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 568.0, 360.0, 60.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 96.0, 56.0, 20.0 ],
-					"varname" : "Waveform"
 				}
 
 			}
@@ -456,13 +466,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 4 ],
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-20", 1 ],
 					"source" : [ "obj-2", 0 ]
 				}
@@ -580,25 +583,35 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 4 ],
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
-			"obj-12::obj-1::obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
+			"obj-2::obj-1::obj-11" : [ "Semi", "Semi", 0 ],
 			"obj-17::obj-6" : [ "Stored_Amount[1]", "Stored_Amount", 0 ],
-			"obj-12::obj-2::obj-3" : [ "Stored_Active", "Stored_Active", 0 ],
-			"obj-17::obj-20::obj-1" : [ "Stored_Function[1]", "Stored_Function", 0 ],
-			"obj-2::obj-1::obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
-			"obj-2::obj-3" : [ "Stored_On[1]", "Stored_On", 0 ],
-			"obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
-			"obj-14" : [ "Stored_On", "Stored_On", 0 ],
-			"obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
-			"obj-4::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
-			"obj-17::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
-			"obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
+			"obj-9" : [ "Waveform", "Waveform", 0 ],
 			"obj-2::obj-1::obj-9" : [ "Freq", "Freq", 0 ],
 			"obj-12::obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
+			"obj-12::obj-1::obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
+			"obj-14" : [ "Stored_On", "Stored_On", 0 ],
+			"obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"obj-10" : [ "Stored_Gain[1]", "Stored_Gain", 0 ],
+			"obj-2::obj-3" : [ "Stored_On[1]", "Stored_On", 0 ],
+			"obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
+			"obj-2::obj-11" : [ "On", "On", 0 ],
 			"obj-12::obj-1::obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
-			"obj-7" : [ "On", "On", 0 ],
+			"obj-2::obj-1::obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
+			"obj-12::obj-2::obj-3" : [ "Stored_Active", "Stored_Active", 0 ],
+			"obj-17::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
+			"obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
+			"obj-4::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
+			"obj-7" : [ "On[1]", "On", 0 ],
+			"obj-17::obj-20::obj-1" : [ "Stored_Function[1]", "Stored_Function", 0 ],
 			"parameterbanks" : 			{
 
 			}
