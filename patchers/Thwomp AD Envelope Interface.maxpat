@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 524.0, 79.0, 605.0, 787.0 ],
+		"rect" : [ 524.0, 79.0, 576.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -51,6 +51,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_unitstyle" : 2,
+							"parameter_exponent" : 5.0,
 							"parameter_longname" : "Attack",
 							"parameter_mmax" : 15000.0,
 							"parameter_shortname" : "Attack",
@@ -71,12 +72,13 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 48.0, 0.0, 41.0, 48.0 ],
+					"patching_rect" : [ 40.0, 0.0, 41.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 40.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_unitstyle" : 2,
+							"parameter_exponent" : 5.0,
 							"parameter_longname" : "Decay",
 							"parameter_mmax" : 15000.0,
 							"parameter_shortname" : "Decay",
@@ -97,7 +99,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.0, 72.0, 30.0, 30.0 ]
+					"patching_rect" : [ 40.0, 72.0, 30.0, 30.0 ]
 				}
 
 			}
