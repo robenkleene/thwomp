@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 5,
+			"minor" : 1,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 148.0, 173.0, 615.0, 527.0 ],
+		"rect" : [ 774.0, 210.0, 615.0, 527.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -39,6 +39,60 @@
 		"subpatcher_template" : "Roben Kleene",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 48.0, 8.0, 41.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 8.0, 120.0, 41.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_unitstyle" : 2,
+							"parameter_exponent" : 5.0,
+							"parameter_longname" : "Duration",
+							"parameter_mmax" : 15000.0,
+							"parameter_shortname" : "Duration",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"varname" : "Duration"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 88.0, 8.0, 41.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 48.0, 120.0, 41.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_unitstyle" : 3,
+							"parameter_exponent" : 5.0,
+							"parameter_longname" : "Amount",
+							"parameter_mmax" : 15000.0,
+							"parameter_shortname" : "Amount",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"varname" : "Amount"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-16",
 					"index" : 0,
@@ -58,7 +112,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 240.0, 32.0, 156.0, 20.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 0.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -88,7 +142,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 240.0, 8.0, 149.0, 20.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 0.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -112,83 +166,13 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"id" : "obj-13",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 154.0, 42.0, 20.0 ],
-					"text" : "select"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"id" : "obj-11",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 94.0, 42.0, 20.0 ],
-					"text" : "select"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 240.0, 184.0, 93.0, 20.0 ],
-					"text" : "pvar Duration 2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 240.0, 124.0, 88.0, 20.0 ],
-					"text" : "pvar Amount 2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 240.0, 64.0, 93.0, 20.0 ],
-					"text" : "pvar Duration 2"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
 					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.0, 248.0, 30.0, 30.0 ]
+					"patching_rect" : [ 48.0, 320.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -200,7 +184,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 248.0, 30.0, 30.0 ]
+					"patching_rect" : [ 8.0, 320.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -219,45 +203,11 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 72.0, 211.0, 143.0 ],
+					"patching_rect" : [ 8.0, 120.0, 211.0, 143.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 208.0, 144.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 208.0, 120.0 ],
 					"varname" : "Function Envelope",
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"id" : "obj-7",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 203.0, 11.0, 25.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 56.0, 144.0, 23.0, 18.0 ],
-					"text" : "Hz"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"id" : "obj-14",
-					"maxclass" : "number",
-					"maximum" : 15000,
-					"minimum" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 144.0, 10.0, 50.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 144.0, 49.0, 20.0 ],
-					"varname" : "Amount"
 				}
 
 			}
@@ -270,42 +220,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 48.0, 40.0, 87.0, 20.0 ],
+					"patching_rect" : [ 48.0, 80.0, 87.0, 20.0 ],
 					"text" : "setduration $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"id" : "obj-15",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 108.0, 10.0, 26.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 128.0, 144.0, 25.0, 18.0 ],
-					"text" : "ms"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"id" : "obj-18",
-					"maxclass" : "number",
-					"maximum" : 15000,
-					"minimum" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 48.0, 10.0, 50.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 80.0, 144.0, 48.0, 20.0 ],
-					"varname" : "Duration"
 				}
 
 			}
@@ -319,28 +235,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"order" : 1,
-					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-16", 0 ]
 				}
@@ -348,8 +242,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"order" : 0,
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -361,25 +261,13 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"source" : [ "obj-4", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"source" : [ "obj-5", 1 ]
-				}
-
-			}
  ],
 		"parameters" : 		{
 			"obj-20::obj-1" : [ "Stored_Function", "Stored_Function", 0 ],
+			"obj-17" : [ "Amount", "Amount", 0 ],
 			"obj-9" : [ "Stored_Duration", "Stored_Duration", 0 ],
 			"obj-6" : [ "Stored_Amount", "Stored_Amount", 0 ],
+			"obj-18" : [ "Duration", "Duration", 0 ],
 			"parameterbanks" : 			{
 
 			}
