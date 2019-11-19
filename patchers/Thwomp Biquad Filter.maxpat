@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 5,
+			"minor" : 1,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 126.0, 79.0, 689.0, 787.0 ],
+		"rect" : [ 256.0, 79.0, 689.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -39,6 +39,96 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-48",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 608.0, 552.0, 59.0, 20.0 ],
+					"text" : "peaknotch"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 480.0, 552.0, 52.0, 20.0 ],
+					"text" : "highpass"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-43",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 544.0, 552.0, 55.0, 20.0 ],
+					"text" : "bandpass"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-37",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 424.0, 552.0, 48.0, 20.0 ],
+					"text" : "lowpass"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 5,
+					"numoutlets" : 5,
+					"outlettype" : [ "bang", "bang", "bang", "bang", "" ],
+					"patching_rect" : [ 424.0, 512.0, 240.0, 20.0 ],
+					"text" : "select 0 1 2 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-6",
+					"maxclass" : "live.menu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "float" ],
+					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
+					"patching_rect" : [ 456.0, 376.0, 48.0, 20.0 ],
+					"pictures" : [ "highcut.svg", "lowcut.svg", "bandpass.svg", "notch.svg" ],
+					"presentation" : 1,
+					"presentation_rect" : [ 16.0, 72.0, 48.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_shortname" : "live.menu",
+							"parameter_enum" : [ "one", "two", "three", "four" ],
+							"parameter_type" : 2,
+							"parameter_longname" : "live.menu",
+							"parameter_mmax" : 3
+						}
+
+					}
+,
+					"usepicture" : 1,
+					"varname" : "Type"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-4",
 					"linecount" : 2,
 					"maxclass" : "newobj",
@@ -46,7 +136,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 152.0, 464.0, 225.0, 31.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -65,7 +155,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 152.0, 576.0, 89.0, 20.0 ],
-					"restore" : [ 0.3 ],
+					"restore" : [ 0.300000011920929 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -96,7 +186,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 152.0, 552.0, 118.0, 20.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ 2.873069588582183 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -127,7 +217,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 152.0, 528.0, 175.0, 20.0 ],
-					"restore" : [ 40 ],
+					"restore" : [ 3027 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -258,7 +348,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 152.0, 504.0, 178.0, 20.0 ],
-					"restore" : [ 1, 0, 0, 1, 0, 0, 40.0, 1.0, 0.300000011920929 ],
+					"restore" : [ 1, 0, 1, 1, 0, 0, 3027.088134765625, 1.392045617103577, 0.300000011920929 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -590,7 +680,7 @@
 					"patching_rect" : [ 240.0, 15.0, 97.5, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 8.0, 80.0, 40.0 ],
-					"varname" : "Type"
+					"varname" : "attrui"
 				}
 
 			}
@@ -623,7 +713,7 @@
 					"patching_rect" : [ 240.0, 165.0, 300.0, 120.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 96.0, 8.0, 296.0, 128.0 ],
-					"setfilter" : [ 0, 0, 1, 0, 0, 40.0, 1.0, 0.300000011920929, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"setfilter" : [ 0, 1, 1, 0, 0, 3027.088134765625, 1.392045617103577, 0.300000011920929, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"varname" : "Filtergraph"
 				}
 
@@ -804,17 +894,53 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"source" : [ "obj-9", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"source" : [ "obj-9", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"source" : [ "obj-9", 3 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
-			"obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
-			"obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
-			"obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
+			"obj-6" : [ "live.menu", "live.menu", 0 ],
+			"obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
+			"obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
+			"obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
 			"parameterbanks" : 			{
 
 			}
