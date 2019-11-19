@@ -47,7 +47,7 @@
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 624.0, 208.0, 40.0, 20.0 ],
-					"pictures" : [ "sine.svg", "updown.svg", "square.svg", "down.svg", "random.svg", "random.svg" ],
+					"pictures" : [ "sine.svg", "updown.svg", "square.svg", "up.svg", "random.svg", "random.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 32.0, 96.0, 40.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
