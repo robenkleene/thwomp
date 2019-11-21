@@ -85,7 +85,6 @@ The following presets are built-in, they're numbered from the upper left to the 
 
 - `bandpass`
 - `500Hz`
-- `9.1dB`
 - `5.6Q`
 
 ### 2. Snare
@@ -102,7 +101,6 @@ The following presets are built-in, they're numbered from the upper left to the 
 
 - `highpass`
 - `40hz`
-- `0dB`
 - `0.66Q`
 
 #### Oscillator 2 (Noise)
@@ -116,7 +114,6 @@ The following presets are built-in, they're numbered from the upper left to the 
 
 - `highpass`
 - `1447hz`
-- `0dB`
 - `1.4Q`
 
 ### 3. Tom
@@ -138,7 +135,6 @@ The following presets are built-in, they're numbered from the upper left to the 
 
 - `highpass`
 - `50hz`
-- `0dB`
 - `0.3Q`
 
 #### Oscillator 2 (Noise)
@@ -152,7 +148,6 @@ The following presets are built-in, they're numbered from the upper left to the 
 
 - `lowpass`
 - `1200hz`
-- `0dB`
 - `0.3Q`
 
 ### 4. Hi-Hat
@@ -168,7 +163,6 @@ The following presets are built-in, they're numbered from the upper left to the 
 
 - `highpass`
 - `6000Hz`
-- `0dB`
 - `0.3Q`
 
 ### 5. Bongo
@@ -185,7 +179,6 @@ The following presets are built-in, they're numbered from the upper left to the 
 
 - `lowpass`
 - `1100Hz`
-- `0dB`
 - `3Q`
 
 #### Oscillator 2 (Pitch 2)
@@ -200,7 +193,6 @@ The following presets are built-in, they're numbered from the upper left to the 
 
 - `lowpass`
 - `8000Hz`
-- `0dB`
 - `0.3Q`
 
 #### Oscillator 3 (Noise)
@@ -214,5 +206,4 @@ The following presets are built-in, they're numbered from the upper left to the 
 
 - `lowpass`
 - `12000Hz`
-- `0dB`
 - `0.3Q`
