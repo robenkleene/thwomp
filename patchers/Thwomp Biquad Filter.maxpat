@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 256.0, 79.0, 689.0, 787.0 ],
+		"rect" : [ 256.0, 79.0, 875.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -69,7 +69,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 360.0, 24.0, 119.0, 20.0 ],
-					"restore" : [ 1.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -156,11 +156,11 @@
 					"presentation_rect" : [ 0.0, 0.0, 48.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Type",
 							"parameter_mmax" : 3,
 							"parameter_shortname" : "Type",
 							"parameter_enum" : [ "one", "two", "three", "four" ],
-							"parameter_type" : 2
+							"parameter_type" : 2,
+							"parameter_longname" : "Type"
 						}
 
 					}
@@ -177,7 +177,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 360.0, 96.0, 89.0, 20.0 ],
+					"patching_rect" : [ 360.0, 72.0, 89.0, 20.0 ],
 					"restore" : [ 0.300000011920929 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -198,37 +198,6 @@
 ,
 					"text" : "pattr Stored_Q Q",
 					"varname" : "Stored_Q"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-17",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 360.0, 72.0, 118.0, 20.0 ],
-					"restore" : [ 2.873069588582183 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Gain",
-							"parameter_mmax" : 36.0,
-							"parameter_mmin" : -36.0,
-							"parameter_shortname" : "Stored_Gain",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr Stored_Gain Gain",
-					"varname" : "Stored_Gain"
 				}
 
 			}
@@ -449,20 +418,6 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.0,
-					"id" : "obj-19",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 359.0, 280.0, 41.0, 20.0 ],
-					"text" : "dbtoa"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -498,21 +453,6 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.0,
-					"id" : "obj-15",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 419.0, 250.0, 30.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 176.0, 0.0, 24.0, 18.0 ],
-					"text" : "dB"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
 					"id" : "obj-13",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -521,26 +461,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 104.0, 0.0, 23.0, 18.0 ],
 					"text" : "Hz"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"format" : 6,
-					"id" : "obj-11",
-					"maxclass" : "flonum",
-					"maximum" : 36.0,
-					"minimum" : -36.0,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 359.0, 250.0, 50.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 128.0, 0.0, 48.0, 20.0 ],
-					"varname" : "Gain"
 				}
 
 			}
@@ -585,7 +505,7 @@
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 184.0, 325.0, 300.0, 120.0 ],
-					"setfilter" : [ 0, 2, 1, 0, 0, 3027.0, 1.392045617103577, 0.300000011920929, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"setfilter" : [ 0, 1, 1, 0, 0, 3027.0, 1.392045617103577, 0.300000011920929, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"varname" : "Filtergraph"
 				}
 
@@ -608,14 +528,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"order" : 1,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-12", 0 ]
 				}
@@ -626,13 +538,6 @@
 					"destination" : [ "obj-2", 7 ],
 					"order" : 1,
 					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 6 ],
-					"source" : [ "obj-19", 0 ]
 				}
 
 			}
@@ -801,10 +706,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-6" : [ "Type", "Type", 0 ],
 			"obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
 			"obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
-			"obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
+			"obj-6" : [ "Type", "Type", 0 ],
 			"parameterbanks" : 			{
 
 			}
