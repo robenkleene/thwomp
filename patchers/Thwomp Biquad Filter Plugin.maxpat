@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 6,
+			"minor" : 1,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -44,7 +44,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 96.0, 384.0, 99.0, 20.0 ],
+					"patching_rect" : [ 112.0, 392.0, 99.0, 20.0 ],
 					"text" : "loadmess set Filter"
 				}
 
@@ -64,9 +64,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 15.0, 450.0, 105.0, 45.0 ],
+					"patching_rect" : [ 15.0, 450.0, 65.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 56.0, 80.0, 29.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 72.0, 32.0 ],
 					"varname" : "Active",
 					"viewvisibility" : 1
 				}
@@ -137,9 +137,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 75.0, 120.0, 330.0, 210.0 ],
+					"patching_rect" : [ 75.0, 120.0, 269.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 400.0, 168.0 ],
+					"presentation_rect" : [ 80.0, 0.0, 264.0, 24.0 ],
 					"varname" : "Biquad Filter",
 					"viewvisibility" : 1
 				}
@@ -215,10 +215,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-12" : [ "Stored_Filtergraph", "Stored_Filtergraph", 0 ],
-			"obj-1::obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
+			"obj-1::obj-6" : [ "Type", "Type", 0 ],
 			"obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
 			"obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
+			"obj-1::obj-17" : [ "Stored_Gain", "Stored_Gain", 0 ],
+			"obj-2::obj-3" : [ "Stored_Active", "Stored_Active", 0 ],
 			"parameterbanks" : 			{
 
 			}
