@@ -39,6 +39,18 @@
 		"subpatcher_template" : "Roben Kleene",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 144.0, 8.0, 63.0, 20.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-18",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -50,12 +62,12 @@
 					"presentation_rect" : [ 8.0, 120.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_unitstyle" : 2,
-							"parameter_exponent" : 5.0,
-							"parameter_longname" : "Duration",
 							"parameter_mmax" : 15000.0,
 							"parameter_shortname" : "Duration",
-							"parameter_type" : 0
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 2,
+							"parameter_exponent" : 5.0,
+							"parameter_longname" : "Duration"
 						}
 
 					}
@@ -77,12 +89,12 @@
 					"presentation_rect" : [ 48.0, 120.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_unitstyle" : 3,
-							"parameter_exponent" : 5.0,
-							"parameter_longname" : "Amount",
 							"parameter_mmax" : 15000.0,
 							"parameter_shortname" : "Amount",
-							"parameter_type" : 0
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 3,
+							"parameter_exponent" : 5.0,
+							"parameter_longname" : "Amount"
 						}
 
 					}
@@ -228,6 +240,22 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"order" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"order" : 1,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-10", 0 ]
 				}
@@ -263,11 +291,11 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-18" : [ "Duration", "Duration", 0 ],
 			"obj-20::obj-1" : [ "Stored_Function", "Stored_Function", 0 ],
 			"obj-17" : [ "Amount", "Amount", 0 ],
 			"obj-9" : [ "Stored_Duration", "Stored_Duration", 0 ],
 			"obj-6" : [ "Stored_Amount", "Stored_Amount", 0 ],
-			"obj-18" : [ "Duration", "Duration", 0 ],
 			"parameterbanks" : 			{
 
 			}

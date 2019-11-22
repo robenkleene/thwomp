@@ -39,6 +39,18 @@
 		"subpatcher_template" : "roben-kleene-max-for-live",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 8.0, 8.0, 63.0, 20.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "live.tab",
 					"num_lines_patching" : 1,
@@ -52,12 +64,12 @@
 					"presentation_rect" : [ 8.0, 8.0, 56.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
 							"parameter_shortname" : "On",
 							"parameter_enum" : [ "Freq", "Note" ],
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 0,
-							"parameter_longname" : "On",
-							"parameter_mmax" : 1
+							"parameter_longname" : "On"
 						}
 
 					}
@@ -121,7 +133,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 144.0, 88.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 32.0, 64.0, 48.0 ],
+					"presentation_rect" : [ 0.0, 32.0, 40.0, 48.0 ],
 					"varname" : "Frequency Bank",
 					"viewvisibility" : 1
 				}
@@ -214,12 +226,20 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-9" : [ "Freq", "Freq", 0 ],
 			"obj-3" : [ "Stored_On", "Stored_On", 0 ],
 			"obj-11" : [ "On", "On", 0 ],
+			"obj-1::obj-11" : [ "Semi", "Semi", 0 ],
 			"obj-1::obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
+			"obj-1::obj-9" : [ "Freq", "Freq", 0 ],
 			"parameterbanks" : 			{
 
 			}

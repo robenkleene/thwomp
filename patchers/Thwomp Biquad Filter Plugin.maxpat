@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 261.0, 156.0, 697.0, 726.0 ],
+		"rect" : [ 261.0, 140.0, 697.0, 726.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -39,6 +39,65 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 208.0, 104.0, 63.0, 20.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 272.0, 152.0, 101.0, 20.0 ],
+					"restore" : [ 0.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr Stored_On On",
+					"varname" : "Stored_On"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 208.0, 152.0, 32.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 32.0, 16.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "On",
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_type" : 2,
+							"parameter_longname" : "On"
+						}
+
+					}
+,
+					"text" : "Fil",
+					"texton" : "Fil",
+					"varname" : "On"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -64,9 +123,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 15.0, 450.0, 65.0, 30.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 72.0, 32.0 ],
+					"patching_rect" : [ 15.0, 450.0, 33.0, 38.0 ],
 					"varname" : "Active",
 					"viewvisibility" : 1
 				}
@@ -137,9 +194,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 75.0, 120.0, 269.0, 24.0 ],
+					"patching_rect" : [ 75.0, 120.0, 53.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.0, 0.0, 56.0, 128.0 ],
+					"presentation_rect" : [ 0.0, 16.0, 56.0, 128.0 ],
 					"varname" : "Biquad Filter",
 					"viewvisibility" : 1
 				}
@@ -199,6 +256,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
 					"order" : 0,
 					"source" : [ "obj-9", 0 ]
@@ -215,7 +286,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-3" : [ "Stored_Active", "Stored_Active", 0 ],
+			"obj-7" : [ "On", "On", 0 ],
 			"obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"obj-1::obj-6" : [ "Type", "Type", 0 ],
 			"obj-1::obj-1" : [ "Frequency", "Freq", 0 ],

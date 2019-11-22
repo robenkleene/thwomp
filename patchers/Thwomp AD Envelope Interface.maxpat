@@ -39,23 +39,35 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 8.0, 8.0, 63.0, 20.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 0.0, 0.0, 41.0, 48.0 ],
+					"patching_rect" : [ 0.0, 72.0, 41.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_unitstyle" : 2,
-							"parameter_exponent" : 5.0,
-							"parameter_longname" : "Attack",
 							"parameter_mmax" : 15000.0,
 							"parameter_shortname" : "Attack",
-							"parameter_type" : 0
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 2,
+							"parameter_exponent" : 5.0,
+							"parameter_longname" : "Attack"
 						}
 
 					}
@@ -72,17 +84,17 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 40.0, 0.0, 41.0, 48.0 ],
+					"patching_rect" : [ 40.0, 72.0, 41.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 40.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_unitstyle" : 2,
-							"parameter_exponent" : 5.0,
-							"parameter_longname" : "Decay",
 							"parameter_mmax" : 15000.0,
 							"parameter_shortname" : "Decay",
-							"parameter_type" : 0
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 2,
+							"parameter_exponent" : 5.0,
+							"parameter_longname" : "Decay"
 						}
 
 					}
@@ -99,7 +111,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 40.0, 72.0, 30.0, 30.0 ]
+					"patching_rect" : [ 40.0, 144.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -111,7 +123,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 72.0, 30.0, 30.0 ]
+					"patching_rect" : [ 0.0, 144.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -178,6 +190,22 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"order" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"order" : 1,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
@@ -193,9 +221,9 @@
  ],
 		"parameters" : 		{
 			"obj-3" : [ "Decay", "Decay", 0 ],
-			"obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
 			"obj-7" : [ "Attack", "Attack", 0 ],
 			"obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
+			"obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
 			"parameterbanks" : 			{
 
 			}

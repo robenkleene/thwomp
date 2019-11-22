@@ -236,13 +236,16 @@
 		"parameters" : 		{
 			"obj-1::obj-1::obj-3::obj-2::obj-1::obj-6" : [ "Stored_Offset[2]", "Stored_Offset", 0 ],
 			"obj-1::obj-1::obj-3::obj-4::obj-1" : [ "Stored_Attack[2]", "Stored_Attack", 0 ],
-			"obj-1::obj-1::obj-3::obj-2::obj-11" : [ "On[4]", "On", 0 ],
-			"obj-1::obj-1::obj-3::obj-12::obj-1::obj-11" : [ "Q[2]", "Q", 0 ],
+			"obj-1::obj-1::obj-1::obj-2::obj-11" : [ "On[4]", "On", 0 ],
 			"obj-1::obj-1::obj-3::obj-12::obj-1::obj-6" : [ "Type[2]", "Type", 0 ],
+			"obj-1::obj-1::obj-3::obj-12::obj-1::obj-11" : [ "Q[2]", "Q", 0 ],
+			"obj-1::obj-1::obj-17::obj-2::obj-11" : [ "On[10]", "On", 0 ],
 			"obj-1::obj-1::obj-3::obj-10" : [ "Stored_Gain[5]", "Stored_Gain", 0 ],
 			"obj-1::obj-19" : [ "Tab", "Tab", 0 ],
-			"obj-1::obj-1::obj-44::obj-7" : [ "On[1]", "On", 0 ],
+			"obj-1::obj-1::obj-44::obj-2::obj-11" : [ "On[1]", "On", 0 ],
 			"obj-1::obj-1::obj-1::obj-17::obj-18" : [ "Duration[1]", "Duration", 0 ],
+			"obj-1::obj-1::obj-3::obj-7" : [ "On[8]", "On", 0 ],
+			"obj-1::obj-1::obj-17::obj-7" : [ "On[11]", "On", 0 ],
 			"obj-1::obj-1::obj-17::obj-9" : [ "Waveform[3]", "Waveform", 0 ],
 			"obj-1::obj-1::obj-3::obj-12::obj-1::obj-8" : [ "Stored_Frequency[4]", "Stored_Frequency", 0 ],
 			"obj-1::obj-1::obj-17::obj-4::obj-21" : [ "Stored_Decay[3]", "Stored_Decay", 0 ],
@@ -257,28 +260,25 @@
 			"obj-1::obj-1::obj-3::obj-12::obj-1::obj-1" : [ "Frequency[2]", "Freq", 0 ],
 			"obj-1::obj-1::obj-44::obj-9" : [ "Waveform", "Waveform", 0 ],
 			"obj-1::obj-1::obj-17::obj-12::obj-1::obj-1" : [ "Frequency[3]", "Freq", 0 ],
-			"obj-1::obj-1::obj-3::obj-7" : [ "On[5]", "On", 0 ],
+			"obj-1::obj-1::obj-1::obj-7" : [ "On[5]", "On", 0 ],
 			"obj-1::obj-1::obj-17::obj-2::obj-1::obj-11" : [ "Semi[3]", "Semi", 0 ],
+			"obj-1::obj-1::obj-3::obj-12::obj-7" : [ "On[6]", "On", 0 ],
 			"obj-1::obj-1::obj-17::obj-17::obj-18" : [ "Duration[3]", "Duration", 0 ],
-			"obj-1::obj-1::obj-17::obj-2::obj-11" : [ "On[6]", "On", 0 ],
 			"obj-1::obj-1::obj-1::obj-17::obj-20::obj-1" : [ "Stored_Function[1]", "Stored_Function", 0 ],
 			"obj-1::obj-1::obj-1::obj-2::obj-1::obj-11" : [ "Semi[1]", "Semi", 0 ],
-			"obj-1::obj-1::obj-44::obj-2::obj-11" : [ "On", "On", 0 ],
-			"obj-1::obj-1::obj-17::obj-7" : [ "On[7]", "On", 0 ],
+			"obj-1::obj-1::obj-44::obj-12::obj-7" : [ "On", "On", 0 ],
+			"obj-1::obj-1::obj-3::obj-2::obj-11" : [ "On[7]", "On", 0 ],
 			"obj-1::obj-13" : [ "Stored_Volume", "Stored_Volume", 0 ],
 			"obj-1::obj-1::obj-1::obj-2::obj-3" : [ "Stored_On[2]", "Stored_On", 0 ],
-			"obj-1::obj-1::obj-3::obj-12::obj-2::obj-3" : [ "Stored_Active[2]", "Stored_Active", 0 ],
 			"obj-1::obj-1::obj-44::obj-14" : [ "Stored_On[1]", "Stored_On", 0 ],
 			"obj-1::obj-1::obj-1::obj-10" : [ "Stored_Gain[3]", "Stored_Gain", 0 ],
 			"obj-1::obj-1::obj-3::obj-17::obj-6" : [ "Stored_Amount[2]", "Stored_Amount", 0 ],
 			"obj-1::obj-1::obj-1::obj-4::obj-1" : [ "Stored_Attack[1]", "Stored_Attack", 0 ],
-			"obj-1::obj-1::obj-44::obj-12::obj-2::obj-3" : [ "Stored_Active", "Stored_Active", 0 ],
 			"obj-1::obj-1::obj-3::obj-2::obj-1::obj-11" : [ "Semi[2]", "Semi", 0 ],
 			"obj-1::obj-1::obj-44::obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"obj-1::obj-1::obj-3::obj-4::obj-21" : [ "Stored_Decay[2]", "Stored_Decay", 0 ],
 			"obj-1::obj-1::obj-3::obj-2::obj-3" : [ "Stored_On[4]", "Stored_On", 0 ],
 			"obj-1::obj-1::obj-1::obj-12::obj-1::obj-11" : [ "Q[1]", "Q", 0 ],
-			"obj-1::obj-1::obj-1::obj-12::obj-2::obj-3" : [ "Stored_Active[1]", "Stored_Active", 0 ],
 			"obj-1::obj-1::obj-44::obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
 			"obj-1::obj-1::obj-3::obj-14" : [ "Stored_On[5]", "Stored_On", 0 ],
 			"obj-1::obj-1::obj-17::obj-17::obj-17" : [ "Amount[3]", "Amount", 0 ],
@@ -286,7 +286,7 @@
 			"obj-1::obj-1::obj-17::obj-1" : [ "Stored_Waveform[3]", "Stored_Waveform", 0 ],
 			"obj-1::obj-1::obj-1::obj-17::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
 			"obj-1::obj-1::obj-17::obj-4::obj-3" : [ "Decay[3]", "Decay", 0 ],
-			"obj-1::obj-1::obj-1::obj-7" : [ "On[3]", "On", 0 ],
+			"obj-1::obj-1::obj-1::obj-12::obj-7" : [ "On[3]", "On", 0 ],
 			"obj-1::obj-1::obj-44::obj-12::obj-1::obj-6" : [ "Type", "Type", 0 ],
 			"obj-1::obj-1::obj-1::obj-4::obj-3" : [ "Decay[1]", "Decay", 0 ],
 			"obj-1::obj-1::obj-44::obj-17::obj-20::obj-1" : [ "Stored_Function", "Stored_Function", 0 ],
@@ -316,8 +316,8 @@
 			"obj-1::obj-1::obj-44::obj-12::obj-1::obj-1" : [ "Frequency", "Freq", 0 ],
 			"obj-1::obj-1::obj-44::obj-17::obj-9" : [ "Stored_Duration", "Stored_Duration", 0 ],
 			"obj-1::obj-1::obj-3::obj-4::obj-3" : [ "Decay[2]", "Decay", 0 ],
+			"obj-1::obj-1::obj-17::obj-12::obj-7" : [ "On[9]", "On", 0 ],
 			"obj-1::obj-1::obj-44::obj-2::obj-1::obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
-			"obj-1::obj-1::obj-17::obj-12::obj-2::obj-3" : [ "Stored_Active[3]", "Stored_Active", 0 ],
 			"obj-1::obj-1::obj-17::obj-2::obj-1::obj-9" : [ "Freq[3]", "Freq", 0 ],
 			"obj-1::obj-1::obj-44::obj-4::obj-7" : [ "Attack", "Attack", 0 ],
 			"obj-1::obj-1::obj-44::obj-12::obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
@@ -331,7 +331,7 @@
 			"obj-1::obj-1::obj-17::obj-10" : [ "Stored_Gain[7]", "Stored_Gain", 0 ],
 			"obj-1::obj-1::obj-44::obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"obj-1::obj-1::obj-44::obj-12::obj-1::obj-11" : [ "Q", "Q", 0 ],
-			"obj-1::obj-1::obj-1::obj-2::obj-11" : [ "On[2]", "On", 0 ],
+			"obj-1::obj-1::obj-44::obj-7" : [ "On[2]", "On", 0 ],
 			"obj-1::obj-1::obj-17::obj-4::obj-1" : [ "Stored_Attack[3]", "Stored_Attack", 0 ],
 			"obj-1::obj-1::obj-44::obj-4::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
 			"obj-1::obj-1::obj-44::obj-10" : [ "Stored_Gain[1]", "Stored_Gain", 0 ],
@@ -344,24 +344,36 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-1::obj-1::obj-3::obj-2::obj-11" : 				{
+				"obj-1::obj-1::obj-1::obj-2::obj-11" : 				{
 					"parameter_longname" : "On[4]"
-				}
-,
-				"obj-1::obj-1::obj-3::obj-12::obj-1::obj-11" : 				{
-					"parameter_longname" : "Q[2]"
 				}
 ,
 				"obj-1::obj-1::obj-3::obj-12::obj-1::obj-6" : 				{
 					"parameter_longname" : "Type[2]"
 				}
 ,
-				"obj-1::obj-1::obj-44::obj-7" : 				{
+				"obj-1::obj-1::obj-3::obj-12::obj-1::obj-11" : 				{
+					"parameter_longname" : "Q[2]"
+				}
+,
+				"obj-1::obj-1::obj-17::obj-2::obj-11" : 				{
+					"parameter_longname" : "On[10]"
+				}
+,
+				"obj-1::obj-1::obj-44::obj-2::obj-11" : 				{
 					"parameter_longname" : "On[1]"
 				}
 ,
 				"obj-1::obj-1::obj-1::obj-17::obj-18" : 				{
 					"parameter_longname" : "Duration[1]"
+				}
+,
+				"obj-1::obj-1::obj-3::obj-7" : 				{
+					"parameter_longname" : "On[8]"
+				}
+,
+				"obj-1::obj-1::obj-17::obj-7" : 				{
+					"parameter_longname" : "On[11]"
 				}
 ,
 				"obj-1::obj-1::obj-17::obj-9" : 				{
@@ -380,7 +392,7 @@
 					"parameter_longname" : "Frequency[3]"
 				}
 ,
-				"obj-1::obj-1::obj-3::obj-7" : 				{
+				"obj-1::obj-1::obj-1::obj-7" : 				{
 					"parameter_longname" : "On[5]"
 				}
 ,
@@ -388,19 +400,19 @@
 					"parameter_longname" : "Semi[3]"
 				}
 ,
-				"obj-1::obj-1::obj-17::obj-17::obj-18" : 				{
-					"parameter_longname" : "Duration[3]"
+				"obj-1::obj-1::obj-3::obj-12::obj-7" : 				{
+					"parameter_longname" : "On[6]"
 				}
 ,
-				"obj-1::obj-1::obj-17::obj-2::obj-11" : 				{
-					"parameter_longname" : "On[6]"
+				"obj-1::obj-1::obj-17::obj-17::obj-18" : 				{
+					"parameter_longname" : "Duration[3]"
 				}
 ,
 				"obj-1::obj-1::obj-1::obj-2::obj-1::obj-11" : 				{
 					"parameter_longname" : "Semi[1]"
 				}
 ,
-				"obj-1::obj-1::obj-17::obj-7" : 				{
+				"obj-1::obj-1::obj-3::obj-2::obj-11" : 				{
 					"parameter_longname" : "On[7]"
 				}
 ,
@@ -420,7 +432,7 @@
 					"parameter_longname" : "Decay[3]"
 				}
 ,
-				"obj-1::obj-1::obj-1::obj-7" : 				{
+				"obj-1::obj-1::obj-1::obj-12::obj-7" : 				{
 					"parameter_longname" : "On[3]"
 				}
 ,
@@ -464,6 +476,10 @@
 					"parameter_longname" : "Decay[2]"
 				}
 ,
+				"obj-1::obj-1::obj-17::obj-12::obj-7" : 				{
+					"parameter_longname" : "On[9]"
+				}
+,
 				"obj-1::obj-1::obj-17::obj-2::obj-1::obj-9" : 				{
 					"parameter_longname" : "Freq[3]"
 				}
@@ -480,8 +496,8 @@
 					"parameter_longname" : "Freq[1]"
 				}
 ,
-				"obj-1::obj-1::obj-1::obj-2::obj-11" : 				{
-					"parameter_longname" : "On[2]"
+				"obj-1::obj-1::obj-44::obj-7" : 				{
+					"parameter_longname" : "On[1]"
 				}
 ,
 				"obj-1::obj-1::obj-1::obj-9" : 				{
@@ -589,13 +605,6 @@
 			}
 , 			{
 				"name" : "Thwomp Frequency Bank.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
-				"patcherrelativepath" : "../../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thwomp_osc_4.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
