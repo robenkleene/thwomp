@@ -79,7 +79,7 @@ The following presets are built-in, they're numbered from the upper left to the 
 - `Rect`
 - `0ms` Attack
 - `26ms` Decay
-- `122` Gain
+- `90` Gain
 
 ##### Filter
 
