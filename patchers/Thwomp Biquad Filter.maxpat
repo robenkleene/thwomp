@@ -71,16 +71,16 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 384.0, 240.0, 40.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 24.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 0.0, 24.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 22000.0,
-							"parameter_shortname" : "Freq",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3,
 							"parameter_mmin" : 30.0,
 							"parameter_exponent" : 5.0,
-							"parameter_longname" : "Frequency"
+							"parameter_longname" : "Frequency",
+							"parameter_mmax" : 22000.0,
+							"parameter_shortname" : "Freq"
 						}
 
 					}
@@ -99,15 +99,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 464.0, 240.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 72.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 0.0, 72.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 10.0,
-							"parameter_shortname" : "Q",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1,
 							"parameter_mmin" : 0.3,
-							"parameter_longname" : "Q"
+							"parameter_longname" : "Q",
+							"parameter_mmax" : 10.0,
+							"parameter_shortname" : "Q"
 						}
 
 					}
@@ -235,11 +235,11 @@
 					"presentation_rect" : [ 0.0, 0.0, 48.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 3,
-							"parameter_shortname" : "Type",
 							"parameter_enum" : [ "one", "two", "three", "four" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "Type"
+							"parameter_longname" : "Type",
+							"parameter_mmax" : 3,
+							"parameter_shortname" : "Type"
 						}
 
 					}
@@ -730,10 +730,10 @@
  ],
 		"parameters" : 		{
 			"obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
-			"obj-6" : [ "Type", "Type", 0 ],
-			"obj-1" : [ "Frequency", "Freq", 0 ],
-			"obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
 			"obj-11" : [ "Q", "Q", 0 ],
+			"obj-6" : [ "Type", "Type", 0 ],
+			"obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
+			"obj-1" : [ "Frequency", "Freq", 0 ],
 			"parameterbanks" : 			{
 
 			}

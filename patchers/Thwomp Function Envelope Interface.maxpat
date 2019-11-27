@@ -188,7 +188,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 16.0, 304.0, 195.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 8.0, 192.0, 104.0 ],
+					"presentation_rect" : [ 8.0, 8.0, 136.0, 96.0 ],
 					"varname" : "Function"
 				}
 

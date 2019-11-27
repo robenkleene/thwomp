@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 774.0, 210.0, 615.0, 527.0 ],
+		"rect" : [ 257.0, 315.0, 615.0, 527.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -59,15 +59,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 48.0, 8.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 120.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 144.0, 56.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 15000.0,
-							"parameter_shortname" : "Duration",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2,
 							"parameter_exponent" : 5.0,
-							"parameter_longname" : "Duration"
+							"parameter_longname" : "Duration",
+							"parameter_mmax" : 15000.0,
+							"parameter_shortname" : "Duration"
 						}
 
 					}
@@ -86,15 +86,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 88.0, 8.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.0, 120.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 144.0, 8.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 15000.0,
-							"parameter_shortname" : "Amount",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3,
 							"parameter_exponent" : 5.0,
-							"parameter_longname" : "Amount"
+							"parameter_longname" : "Amount",
+							"parameter_mmax" : 15000.0,
+							"parameter_shortname" : "Amount"
 						}
 
 					}
@@ -217,7 +217,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 120.0, 211.0, 143.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 208.0, 120.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 152.0, 112.0 ],
 					"varname" : "Function Envelope",
 					"viewvisibility" : 1
 				}
@@ -291,8 +291,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-18" : [ "Duration", "Duration", 0 ],
 			"obj-20::obj-1" : [ "Stored_Function", "Stored_Function", 0 ],
+			"obj-18" : [ "Duration", "Duration", 0 ],
 			"obj-17" : [ "Amount", "Amount", 0 ],
 			"obj-9" : [ "Stored_Duration", "Stored_Duration", 0 ],
 			"obj-6" : [ "Stored_Amount", "Stored_Amount", 0 ],
