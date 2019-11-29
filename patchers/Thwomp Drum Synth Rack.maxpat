@@ -514,7 +514,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 16.0, 224.0, 392.0, 168.0 ],
+					"patching_rect" : [ 16.0, 224.0, 248.0, 160.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 40.0, 0.0, 256.0, 160.0 ],
 					"varname" : "Drum Synth Modules",
@@ -793,8 +793,8 @@
 			"obj-1::obj-44::obj-14" : [ "Stored_On[1]", "Stored_On", 0 ],
 			"obj-1::obj-17::obj-2::obj-1::obj-11" : [ "Semi[3]", "Semi", 0 ],
 			"obj-1::obj-3::obj-17::obj-20::obj-1" : [ "Stored_Function[2]", "Stored_Function", 0 ],
-			"obj-30" : [ "live.text[2]", "live.text[2]", 0 ],
 			"obj-13" : [ "Stored_Volume", "Stored_Volume", 0 ],
+			"obj-30" : [ "live.text[2]", "live.text[2]", 0 ],
 			"obj-1::obj-17::obj-2::obj-5" : [ "On[10]", "On", 0 ],
 			"obj-1::obj-3::obj-17::obj-17" : [ "Amount[2]", "Amount", 0 ],
 			"obj-1::obj-17::obj-4::obj-1" : [ "Stored_Attack[3]", "Stored_Attack", 0 ],
@@ -1114,6 +1114,13 @@
 			}
 , 			{
 				"name" : "Thwomp Frequency Bank.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thwomp_osc_3.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 279.0, 570.0, 991.0, 375.0 ],
+		"rect" : [ 251.0, 96.0, 514.0, 378.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -693,8 +693,8 @@
 			"obj-12::obj-1::obj-11" : [ "Q", "Q", 0 ],
 			"obj-2::obj-5" : [ "On[1]", "On", 0 ],
 			"obj-17::obj-6" : [ "Stored_Amount[1]", "Stored_Amount", 0 ],
-			"obj-7" : [ "On[2]", "On", 0 ],
 			"obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
+			"obj-7" : [ "On[2]", "On", 0 ],
 			"obj-5" : [ "Gain", "Gain", 0 ],
 			"obj-15" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-2::obj-3" : [ "Stored_On[1]", "Stored_On", 0 ],
