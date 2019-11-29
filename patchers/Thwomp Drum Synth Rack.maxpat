@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 333.0, 337.0, 892.0, 787.0 ],
+		"rect" : [ 514.0, 79.0, 614.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -48,7 +48,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 344.0, 56.0, 32.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 288.0, 0.0, 32.0, 16.0 ],
+					"presentation_rect" : [ 288.0, 0.0, 24.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "live.text[2]",
@@ -76,7 +76,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 384.0, 56.0, 32.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 288.0, 16.0, 32.0, 16.0 ],
+					"presentation_rect" : [ 288.0, 16.0, 24.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "live.text[1]",
@@ -103,7 +103,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 424.0, 56.0, 32.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 288.0, 32.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 288.0, 32.0, 24.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "live.text",
@@ -174,7 +174,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 48.0, 16.0, 40.0, 120.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 32.0, 104.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 32.0, 168.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "Tab",
@@ -268,7 +268,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 48.0, 400.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 288.0, 104.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 288.0, 112.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "Volume",
@@ -516,9 +516,43 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 16.0, 224.0, 392.0, 168.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 0.0, 256.0, 152.0 ],
+					"presentation_rect" : [ 32.0, 0.0, 256.0, 168.0 ],
 					"varname" : "Drum Synth Modules",
 					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 0.0,
+					"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.4 ],
+					"bordercolor" : [ 0.137255, 0.145098, 0.160784, 0.0 ],
+					"id" : "obj-263",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 523.0, 666.0, 16.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 288.0, 0.0, 40.0, 104.0 ],
+					"rounded" : 10
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 0.0,
+					"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.4 ],
+					"bordercolor" : [ 0.137255, 0.145098, 0.160784, 0.0 ],
+					"id" : "obj-2",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 538.0, 681.0, 16.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 288.0, 112.0, 40.0, 48.0 ],
+					"rounded" : 10
 				}
 
 			}
@@ -735,8 +769,8 @@
 			"obj-1::obj-17::obj-17::obj-6" : [ "Stored_Amount[3]", "Stored_Amount", 0 ],
 			"obj-1::obj-3::obj-12::obj-7" : [ "On[6]", "On", 0 ],
 			"obj-1::obj-44::obj-17::obj-20::obj-1" : [ "Stored_Function", "Stored_Function", 0 ],
-			"obj-1::obj-44::obj-7" : [ "On[2]", "On", 0 ],
 			"obj-1::obj-44::obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
+			"obj-1::obj-44::obj-7" : [ "On[2]", "On", 0 ],
 			"obj-1::obj-1::obj-2::obj-1::obj-6" : [ "Stored_Offset[1]", "Stored_Offset", 0 ],
 			"obj-1::obj-3::obj-17::obj-18" : [ "Duration[2]", "Duration", 0 ],
 			"obj-1::obj-1::obj-2::obj-3" : [ "Stored_On[2]", "Stored_On", 0 ],

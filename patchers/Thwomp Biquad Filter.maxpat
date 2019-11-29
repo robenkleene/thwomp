@@ -71,7 +71,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 384.0, 240.0, 40.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.0, 0.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 32.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "Freq",
@@ -99,7 +99,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 464.0, 240.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.0, 0.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 72.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "Q",
@@ -221,7 +221,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 14.0,
 					"id" : "obj-6",
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
@@ -229,10 +228,10 @@
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 184.0, 112.0, 48.0, 20.0 ],
+					"patching_rect" : [ 184.0, 112.0, 48.0, 15.0 ],
 					"pictures" : [ "highcut.svg", "lowcut.svg", "bandpass.svg", "notch.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 16.0, 48.0, 20.0 ],
+					"presentation_rect" : [ 0.0, 16.0, 32.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "Type",

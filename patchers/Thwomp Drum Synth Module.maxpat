@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 189.0, 457.0, 991.0, 375.0 ],
+		"rect" : [ 120.0, 386.0, 991.0, 375.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -38,6 +38,23 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"angle" : 0.0,
+					"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.4 ],
+					"bordercolor" : [ 0.137255, 0.145098, 0.160784, 0.0 ],
+					"id" : "obj-19",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 538.0, 681.0, 16.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 112.0, 40.0, 48.0 ],
+					"rounded" : 10
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "newobj",
@@ -85,7 +102,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 264.0, 688.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 104.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 0.0, 112.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "Gain",
@@ -116,17 +133,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 14.0,
 					"id" : "obj-9",
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 624.0, 208.0, 40.0, 20.0 ],
+					"patching_rect" : [ 624.0, 208.0, 40.0, 15.0 ],
 					"pictures" : [ "sine.svg", "updown.svg", "square.svg", "up.svg", "random.svg", "random.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 16.0, 40.0, 20.0 ],
+					"presentation_rect" : [ 0.0, 24.0, 32.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "Waveform",
@@ -301,7 +317,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 344.0, 208.0, 214.0, 173.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.0, -8.0, 144.0, 160.0 ],
+					"presentation_rect" : [ 48.0, 0.0, 160.0, 160.0 ],
 					"varname" : "Pitch Envelope",
 					"viewvisibility" : 1
 				}
@@ -411,7 +427,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 192.0, 592.0, 56.0, 144.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 136.0, 104.0, 120.0, 48.0 ],
+					"presentation_rect" : [ 136.0, 112.0, 112.0, 48.0 ],
 					"varname" : "Biquad Filter Plugin",
 					"viewvisibility" : 1
 				}
@@ -448,7 +464,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 640.0, 328.0, 104.0, 56.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 216.0, 0.0, 40.0, 96.0 ],
+					"presentation_rect" : [ 208.0, 0.0, 40.0, 104.0 ],
 					"varname" : "AD Envelope",
 					"viewvisibility" : 1
 				}
@@ -464,6 +480,23 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 136.0, 24.0, 25.0, 25.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 0.0,
+					"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.4 ],
+					"bordercolor" : [ 0.137255, 0.145098, 0.160784, 0.0 ],
+					"id" : "obj-263",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 523.0, 666.0, 16.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 40.0, 104.0 ],
+					"rounded" : 10
 				}
 
 			}
