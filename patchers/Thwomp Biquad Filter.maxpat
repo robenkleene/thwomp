@@ -74,13 +74,13 @@
 					"presentation_rect" : [ 32.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 22000.0,
 							"parameter_shortname" : "Freq",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3,
 							"parameter_mmin" : 30.0,
 							"parameter_exponent" : 5.0,
-							"parameter_longname" : "Frequency",
-							"parameter_mmax" : 22000.0
+							"parameter_longname" : "Frequency"
 						}
 
 					}
@@ -102,12 +102,12 @@
 					"presentation_rect" : [ 72.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 10.0,
 							"parameter_shortname" : "Q",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1,
 							"parameter_mmin" : 0.3,
-							"parameter_longname" : "Q",
-							"parameter_mmax" : 10.0
+							"parameter_longname" : "Q"
 						}
 
 					}
@@ -221,6 +221,7 @@
 			}
 , 			{
 				"box" : 				{
+					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
 					"id" : "obj-6",
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
@@ -234,11 +235,11 @@
 					"presentation_rect" : [ 0.0, 16.0, 32.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 3,
 							"parameter_shortname" : "Type",
 							"parameter_enum" : [ "one", "two", "three", "four" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "Type",
-							"parameter_mmax" : 3
+							"parameter_longname" : "Type"
 						}
 
 					}
@@ -728,10 +729,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
 			"obj-1" : [ "Frequency", "Freq", 0 ],
 			"obj-11" : [ "Q", "Q", 0 ],
+			"obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"obj-6" : [ "Type", "Type", 0 ],
 			"parameterbanks" : 			{
 
