@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 514.0, 79.0, 614.0, 787.0 ],
+		"rect" : [ 242.0, 79.0, 660.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -176,7 +176,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 616.0, 16.0, 108.0, 20.0 ],
+					"patching_rect" : [ 344.0, 240.0, 108.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -234,7 +234,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 616.0, 40.0, 144.0, 20.0 ],
+					"patching_rect" : [ 344.0, 264.0, 144.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -487,7 +487,7 @@
 						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 583, 79, 1221, 685 ]
 					}
 ,
 					"text" : "pattrstorage Thwomp",
@@ -769,7 +769,7 @@
 			"obj-1::obj-44::obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"obj-1::obj-3::obj-12::obj-1::obj-1" : [ "Frequency[2]", "Freq", 0 ],
 			"obj-1::obj-1::obj-17::obj-17" : [ "Amount[1]", "Amount", 0 ],
-			"obj-1::obj-17::obj-2::obj-1::obj-9" : [ "Freq[3]", "Freq", 0 ],
+			"obj-1::obj-17::obj-2::obj-1::obj-14" : [ "Freq[3]", "Freq", 0 ],
 			"obj-29" : [ "live.text[1]", "live.text[1]", 0 ],
 			"obj-1::obj-44::obj-4::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
 			"obj-1::obj-17::obj-2::obj-3" : [ "Stored_On[6]", "Stored_On", 0 ],
@@ -817,8 +817,8 @@
 			"obj-1::obj-44::obj-14" : [ "Stored_On[1]", "Stored_On", 0 ],
 			"obj-1::obj-17::obj-2::obj-1::obj-11" : [ "Semi[3]", "Semi", 0 ],
 			"obj-1::obj-3::obj-17::obj-20::obj-1" : [ "Stored_Function[2]", "Stored_Function", 0 ],
-			"obj-13" : [ "Stored_Volume", "Stored_Volume", 0 ],
 			"obj-30" : [ "live.text[2]", "live.text[2]", 0 ],
+			"obj-13" : [ "Stored_Volume", "Stored_Volume", 0 ],
 			"obj-1::obj-17::obj-2::obj-5" : [ "On[10]", "On", 0 ],
 			"obj-1::obj-3::obj-17::obj-17" : [ "Amount[2]", "Amount", 0 ],
 			"obj-1::obj-17::obj-4::obj-1" : [ "Stored_Attack[3]", "Stored_Attack", 0 ],
@@ -838,14 +838,14 @@
 			"obj-1::obj-3::obj-12::obj-1::obj-20" : [ "Stored_Q[2]", "Stored_Q", 0 ],
 			"obj-1::obj-1::obj-17::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
 			"obj-1::obj-44::obj-17::obj-9" : [ "Stored_Duration", "Stored_Duration", 0 ],
-			"obj-1::obj-1::obj-2::obj-1::obj-9" : [ "Freq[1]", "Freq", 0 ],
+			"obj-1::obj-1::obj-2::obj-1::obj-14" : [ "Freq[1]", "Freq", 0 ],
 			"obj-1::obj-44::obj-17::obj-6" : [ "Stored_Amount", "Stored_Amount", 0 ],
 			"obj-1::obj-3::obj-17::obj-6" : [ "Stored_Amount[2]", "Stored_Amount", 0 ],
 			"obj-1::obj-44::obj-12::obj-7" : [ "On", "On", 0 ],
 			"obj-1::obj-17::obj-9" : [ "Waveform[3]", "Waveform", 0 ],
 			"obj-1::obj-44::obj-17::obj-18" : [ "Duration", "Duration", 0 ],
 			"obj-1::obj-1::obj-4::obj-3" : [ "Decay[1]", "Decay", 0 ],
-			"obj-1::obj-3::obj-2::obj-1::obj-9" : [ "Freq[2]", "Freq", 0 ],
+			"obj-1::obj-3::obj-2::obj-1::obj-14" : [ "Freq[2]", "Freq", 0 ],
 			"obj-1::obj-1::obj-15" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-1::obj-17::obj-14" : [ "Stored_On[7]", "Stored_On", 0 ],
 			"obj-1::obj-1::obj-12::obj-1::obj-20" : [ "Stored_Q[1]", "Stored_Q", 0 ],
@@ -856,7 +856,7 @@
 			"obj-1::obj-44::obj-10" : [ "Stored_Gain[1]", "Stored_Gain", 0 ],
 			"obj-1::obj-1::obj-12::obj-7" : [ "On[3]", "On", 0 ],
 			"obj-1::obj-3::obj-7" : [ "On[8]", "On", 0 ],
-			"obj-1::obj-44::obj-2::obj-1::obj-9" : [ "Freq", "Freq", 0 ],
+			"obj-1::obj-44::obj-2::obj-1::obj-14" : [ "Freq", "Freq", 0 ],
 			"obj-1::obj-3::obj-12::obj-1::obj-8" : [ "Stored_Frequency[4]", "Stored_Frequency", 0 ],
 			"obj-1::obj-1::obj-17::obj-18" : [ "Duration[1]", "Duration", 0 ],
 			"obj-1::obj-17::obj-17::obj-9" : [ "Stored_Duration[3]", "Stored_Duration", 0 ],
@@ -899,7 +899,7 @@
 					"parameter_longname" : "Amount[1]"
 				}
 ,
-				"obj-1::obj-17::obj-2::obj-1::obj-9" : 				{
+				"obj-1::obj-17::obj-2::obj-1::obj-14" : 				{
 					"parameter_longname" : "Freq[3]"
 				}
 ,
@@ -1007,7 +1007,7 @@
 					"parameter_longname" : "Gain[2]"
 				}
 ,
-				"obj-1::obj-1::obj-2::obj-1::obj-9" : 				{
+				"obj-1::obj-1::obj-2::obj-1::obj-14" : 				{
 					"parameter_longname" : "Freq[1]"
 				}
 ,
@@ -1019,7 +1019,7 @@
 					"parameter_longname" : "Decay[1]"
 				}
 ,
-				"obj-1::obj-3::obj-2::obj-1::obj-9" : 				{
+				"obj-1::obj-3::obj-2::obj-1::obj-14" : 				{
 					"parameter_longname" : "Freq[2]"
 				}
 ,
@@ -1138,13 +1138,6 @@
 			}
 , 			{
 				"name" : "Thwomp Frequency Bank.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thwomp_osc_3.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
