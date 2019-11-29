@@ -39,6 +39,34 @@
 		"subpatcher_template" : "roben-kleene-max-for-live",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 352.0, 120.0, 41.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 41.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_shortname" : "Freq",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 3,
+							"parameter_mmin" : 30.0,
+							"parameter_exponent" : 5.0,
+							"parameter_longname" : "Freq",
+							"parameter_mmax" : 22000.0
+						}
+
+					}
+,
+					"varname" : "Freq"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -74,45 +102,17 @@
 					"presentation_rect" : [ 0.0, 48.0, 40.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 48.0,
 							"parameter_shortname" : "Semi",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 7,
 							"parameter_mmin" : -48.0,
-							"parameter_longname" : "Semi"
+							"parameter_longname" : "Semi",
+							"parameter_mmax" : 48.0
 						}
 
 					}
 ,
 					"varname" : "Offset"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "live.dial",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 352.0, 120.0, 40.0, 48.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 41.0, 48.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_mmax" : 22000.0,
-							"parameter_shortname" : "Freq",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 3,
-							"parameter_mmin" : 30.0,
-							"parameter_exponent" : 5.0,
-							"parameter_longname" : "Freq"
-						}
-
-					}
-,
-					"varname" : "Freq"
 				}
 
 			}
@@ -214,7 +214,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 216.0, 16.0, 146.0, 20.0 ],
-					"restore" : [ 30.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -311,7 +311,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
+					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -325,6 +325,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-25", 1 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-2", 1 ]
 				}
@@ -332,7 +339,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
+					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -379,18 +386,11 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-25", 1 ],
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
  ],
 		"parameters" : 		{
 			"obj-11" : [ "Semi", "Semi", 0 ],
 			"obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
-			"obj-9" : [ "Freq", "Freq", 0 ],
+			"obj-14" : [ "Freq", "Freq", 0 ],
 			"parameterbanks" : 			{
 
 			}
