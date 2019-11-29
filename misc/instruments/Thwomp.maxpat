@@ -321,8 +321,8 @@
 			"obj-1::obj-1::obj-3::obj-2::obj-5" : [ "On[12]", "On", 0 ],
 			"obj-1::obj-1::obj-17::obj-2::obj-1::obj-11" : [ "Semi[3]", "Semi", 0 ],
 			"obj-1::obj-1::obj-3::obj-17::obj-20::obj-1" : [ "Stored_Function[2]", "Stored_Function", 0 ],
-			"obj-1::obj-13" : [ "Stored_Volume", "Stored_Volume", 0 ],
 			"obj-1::obj-30" : [ "live.text[2]", "live.text[2]", 0 ],
+			"obj-1::obj-13" : [ "Stored_Volume", "Stored_Volume", 0 ],
 			"obj-1::obj-1::obj-17::obj-2::obj-5" : [ "On[10]", "On", 0 ],
 			"obj-1::obj-1::obj-3::obj-17::obj-17" : [ "Amount[2]", "Amount", 0 ],
 			"obj-1::obj-1::obj-17::obj-4::obj-1" : [ "Stored_Attack[3]", "Stored_Attack", 0 ],
@@ -596,6 +596,20 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Thwomp Pitch Envelope Interface.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"patcherrelativepath" : "../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Thwomp Function Envelope Interface.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"patcherrelativepath" : "../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "Thwomp AD Envelope Interface.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : "../../patchers",
@@ -618,20 +632,6 @@
 			}
 , 			{
 				"name" : "Thwomp Active.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
-				"patcherrelativepath" : "../../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Thwomp Pitch Envelope Interface.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
-				"patcherrelativepath" : "../../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Thwomp Function Envelope Interface.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
