@@ -66,7 +66,7 @@ The following presets are built-in, they're numbered from the upper left to the 
 - `Cycle`
 - `2ms` Attack
 - `383ms` Decay
-- `122` Gain
+- `0db` Gain
 
 ##### Pitch Envelope
 
@@ -79,13 +79,12 @@ The following presets are built-in, they're numbered from the upper left to the 
 - `Rect`
 - `0ms` Attack
 - `26ms` Decay
-- `122` Gain
+- `-10db` Gain
 
 ##### Filter
 
 - `bandpass`
-- `622Hz`
-- `9.1dB`
+- `500Hz`
 - `5.6Q`
 
 ### 2. Snare
@@ -96,13 +95,12 @@ The following presets are built-in, they're numbered from the upper left to the 
 - `Cycle`
 - `1ms` Attack
 - `60ms` Decay
-- `122` Gain
+- `0db` Gain
 
 ##### Filter
 
 - `highpass`
 - `40hz`
-- `0dB`
 - `0.66Q`
 
 #### Oscillator 2 (Noise)
@@ -110,13 +108,12 @@ The following presets are built-in, they're numbered from the upper left to the 
 - `Noise`
 - `0ms` Attack
 - `76ms` Decay
-- `90` Gain
+- `-14db` Gain
 
 ##### Filter
 
 - `highpass`
 - `1447hz`
-- `0dB`
 - `1.4Q`
 
 ### 3. Tom
@@ -127,7 +124,7 @@ The following presets are built-in, they're numbered from the upper left to the 
 - `Cycle`
 - `2ms` Attack
 - `500ms` Decay
-- `122` Gain
+- `0db` Gain
 
 ##### Pitch Envelope
 
@@ -138,7 +135,6 @@ The following presets are built-in, they're numbered from the upper left to the 
 
 - `highpass`
 - `50hz`
-- `0dB`
 - `0.3Q`
 
 #### Oscillator 2 (Noise)
@@ -146,13 +142,12 @@ The following presets are built-in, they're numbered from the upper left to the 
 - `Pink`
 - `2ms` Attack
 - `200ms` Decay
-- `90` Gain
+- `-14db` Gain
 
 ##### Filter
 
 - `lowpass`
 - `1200hz`
-- `0dB`
 - `0.3Q`
 
 ### 4. Hi-Hat
@@ -162,13 +157,12 @@ The following presets are built-in, they're numbered from the upper left to the 
 - `Noise`
 - `0ms` Attack
 - `150ms` Decay
-- `97` Gain
+- `0db` Gain
 
 #### Filter
 
 - `highpass`
 - `6000Hz`
-- `0dB`
 - `0.3Q`
 
 ### 5. Bongo
@@ -179,13 +173,12 @@ The following presets are built-in, they're numbered from the upper left to the 
 - `Saw`
 - `0ms` Attack
 - `125ms` Decay
-- `72` Gain
+- `-20db` Gain
 
 #### Filter
 
 - `lowpass`
 - `1100Hz`
-- `0dB`
 - `3Q`
 
 #### Oscillator 2 (Pitch 2)
@@ -194,13 +187,12 @@ The following presets are built-in, they're numbered from the upper left to the 
 - `Cycle`
 - `0ms` Attack
 - `125ms` Decay
-- `88` Gain
+- `-14db` Gain
 
 #### Filter
 
 - `lowpass`
 - `8000Hz`
-- `0dB`
 - `0.3Q`
 
 #### Oscillator 3 (Noise)
@@ -208,11 +200,10 @@ The following presets are built-in, they're numbered from the upper left to the 
 - `Pink`
 - `0ms` Attack
 - `200ms` Decay
-- `82` Gain
+- `-14db` Gain
 
 #### Filter
 
 - `lowpass`
 - `12000Hz`
-- `0dB`
 - `0.3Q`
