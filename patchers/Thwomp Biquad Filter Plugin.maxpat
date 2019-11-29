@@ -81,11 +81,11 @@
 					"presentation_rect" : [ 0.0, 0.0, 32.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "On",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "On",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "On"
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -196,7 +196,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 75.0, 120.0, 53.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 16.0, 48.0, 120.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 120.0, 48.0 ],
 					"varname" : "Biquad Filter",
 					"viewvisibility" : 1
 				}
@@ -287,11 +287,11 @@
  ],
 		"parameters" : 		{
 			"obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
-			"obj-1::obj-11" : [ "Q", "Q", 0 ],
-			"obj-1::obj-6" : [ "Type", "Type", 0 ],
-			"obj-7" : [ "On", "On", 0 ],
 			"obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
 			"obj-1::obj-1" : [ "Frequency", "Freq", 0 ],
+			"obj-1::obj-11" : [ "Q", "Q", 0 ],
+			"obj-7" : [ "On", "On", 0 ],
+			"obj-1::obj-6" : [ "Type", "Type", 0 ],
 			"parameterbanks" : 			{
 
 			}

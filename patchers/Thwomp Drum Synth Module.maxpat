@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 699.0, 79.0, 621.0, 787.0 ],
+		"rect" : [ 189.0, 457.0, 991.0, 375.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -61,12 +61,12 @@
 					"patching_rect" : [ 192.0, 752.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
-							"parameter_mmax" : 6.0,
-							"parameter_shortname" : "live.gain~"
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -85,15 +85,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 264.0, 688.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 360.0, 8.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 0.0, 104.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Gain",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "Gain",
-							"parameter_mmax" : 6.0,
-							"parameter_shortname" : "Gain"
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -126,14 +126,14 @@
 					"patching_rect" : [ 624.0, 208.0, 40.0, 20.0 ],
 					"pictures" : [ "sine.svg", "updown.svg", "square.svg", "up.svg", "random.svg", "random.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 24.0, 40.0, 20.0 ],
+					"presentation_rect" : [ 0.0, 16.0, 40.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Waveform",
 							"parameter_enum" : [ "sine", "tri", "square", "saw", "noise", "pink" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "Waveform",
-							"parameter_mmax" : 5,
-							"parameter_shortname" : "Waveform"
+							"parameter_mmax" : 5
 						}
 
 					}
@@ -153,14 +153,14 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 176.0, 16.0, 32.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 8.0, 32.0, 16.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 32.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "On",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "On[2]",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "On"
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -188,7 +188,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 216.0, 320.0, 64.0, 88.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.0, 8.0, 56.0, 64.0 ],
+					"presentation_rect" : [ 0.0, 40.0, 40.0, 64.0 ],
 					"varname" : "Frequency Switch",
 					"viewvisibility" : 1
 				}
@@ -301,7 +301,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 344.0, 208.0, 214.0, 173.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 120.0, 16.0, 192.0, 112.0 ],
+					"presentation_rect" : [ 40.0, -8.0, 144.0, 160.0 ],
 					"varname" : "Pitch Envelope",
 					"viewvisibility" : 1
 				}
@@ -411,7 +411,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 192.0, 592.0, 56.0, 144.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 312.0, 8.0, 48.0, 136.0 ],
+					"presentation_rect" : [ 136.0, 104.0, 120.0, 48.0 ],
 					"varname" : "Biquad Filter Plugin",
 					"viewvisibility" : 1
 				}
@@ -448,7 +448,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 640.0, 328.0, 104.0, 56.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.0, 72.0, 88.0, 56.0 ],
+					"presentation_rect" : [ 216.0, 0.0, 40.0, 96.0 ],
 					"varname" : "AD Envelope",
 					"viewvisibility" : 1
 				}
@@ -648,38 +648,38 @@
  ],
 		"parameters" : 		{
 			"obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
+			"obj-12::obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
+			"obj-2::obj-1::obj-11" : [ "Semi", "Semi", 0 ],
+			"obj-12::obj-1::obj-1" : [ "Frequency", "Freq", 0 ],
 			"obj-4::obj-7" : [ "Attack", "Attack", 0 ],
-			"obj-2::obj-1::obj-9" : [ "Freq", "Freq", 0 ],
-			"obj-5" : [ "Gain", "Gain", 0 ],
-			"obj-12::obj-1::obj-11" : [ "Q", "Q", 0 ],
-			"obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
+			"obj-2::obj-1::obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
 			"obj-9" : [ "Waveform", "Waveform", 0 ],
-			"obj-2::obj-3" : [ "Stored_On[1]", "Stored_On", 0 ],
-			"obj-12::obj-1::obj-6" : [ "Type", "Type", 0 ],
 			"obj-17::obj-20::obj-1" : [ "Stored_Function[1]", "Stored_Function", 0 ],
+			"obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
+			"obj-4::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
+			"obj-12::obj-1::obj-11" : [ "Q", "Q", 0 ],
+			"obj-2::obj-5" : [ "On[1]", "On", 0 ],
 			"obj-17::obj-6" : [ "Stored_Amount[1]", "Stored_Amount", 0 ],
-			"obj-17::obj-18" : [ "Duration", "Duration", 0 ],
-			"obj-17::obj-17" : [ "Amount", "Amount", 0 ],
-			"obj-10" : [ "Stored_Gain[1]", "Stored_Gain", 0 ],
 			"obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
 			"obj-7" : [ "On[2]", "On", 0 ],
-			"obj-4::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
-			"obj-12::obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
-			"obj-12::obj-7" : [ "On", "On", 0 ],
-			"obj-2::obj-11" : [ "On[1]", "On", 0 ],
-			"obj-2::obj-1::obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
-			"obj-12::obj-1::obj-1" : [ "Frequency", "Freq", 0 ],
+			"obj-5" : [ "Gain", "Gain", 0 ],
+			"obj-15" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-2::obj-3" : [ "Stored_On[1]", "Stored_On", 0 ],
 			"obj-14" : [ "Stored_On", "Stored_On", 0 ],
 			"obj-4::obj-3" : [ "Decay", "Decay", 0 ],
-			"obj-15" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-2::obj-1::obj-11" : [ "Semi", "Semi", 0 ],
+			"obj-17::obj-17" : [ "Amount", "Amount", 0 ],
 			"obj-17::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
+			"obj-12::obj-7" : [ "On", "On", 0 ],
+			"obj-17::obj-18" : [ "Duration", "Duration", 0 ],
+			"obj-10" : [ "Stored_Gain[1]", "Stored_Gain", 0 ],
+			"obj-12::obj-1::obj-6" : [ "Type", "Type", 0 ],
+			"obj-2::obj-1::obj-9" : [ "Freq", "Freq", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-2::obj-11" : 				{
+				"obj-2::obj-5" : 				{
 					"parameter_longname" : "On[1]"
 				}
 

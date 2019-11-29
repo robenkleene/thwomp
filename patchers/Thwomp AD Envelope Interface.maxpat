@@ -62,12 +62,12 @@
 					"presentation_rect" : [ 0.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 15000.0,
 							"parameter_shortname" : "Attack",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2,
 							"parameter_exponent" : 5.0,
-							"parameter_longname" : "Attack"
+							"parameter_longname" : "Attack",
+							"parameter_mmax" : 15000.0
 						}
 
 					}
@@ -86,15 +86,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 40.0, 72.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.0, 0.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 0.0, 48.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 15000.0,
 							"parameter_shortname" : "Decay",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2,
 							"parameter_exponent" : 5.0,
-							"parameter_longname" : "Decay"
+							"parameter_longname" : "Decay",
+							"parameter_mmax" : 15000.0
 						}
 
 					}
@@ -220,10 +220,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-3" : [ "Decay", "Decay", 0 ],
 			"obj-7" : [ "Attack", "Attack", 0 ],
 			"obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
+			"obj-3" : [ "Decay", "Decay", 0 ],
 			"parameterbanks" : 			{
 
 			}
