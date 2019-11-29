@@ -292,7 +292,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 472.0, 144.0, 63.0, 20.0 ],
+					"patching_rect" : [ 256.0, 16.0, 63.0, 20.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -474,7 +474,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 344.0, 192.0, 111.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 512, 45, 1386, 819 ],
+						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -575,7 +575,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
+					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -769,8 +769,8 @@
 			"obj-1::obj-17::obj-17::obj-6" : [ "Stored_Amount[3]", "Stored_Amount", 0 ],
 			"obj-1::obj-3::obj-12::obj-7" : [ "On[6]", "On", 0 ],
 			"obj-1::obj-44::obj-17::obj-20::obj-1" : [ "Stored_Function", "Stored_Function", 0 ],
-			"obj-1::obj-44::obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
 			"obj-1::obj-44::obj-7" : [ "On[2]", "On", 0 ],
+			"obj-1::obj-44::obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
 			"obj-1::obj-1::obj-2::obj-1::obj-6" : [ "Stored_Offset[1]", "Stored_Offset", 0 ],
 			"obj-1::obj-3::obj-17::obj-18" : [ "Duration[2]", "Duration", 0 ],
 			"obj-1::obj-1::obj-2::obj-3" : [ "Stored_On[2]", "Stored_On", 0 ],
