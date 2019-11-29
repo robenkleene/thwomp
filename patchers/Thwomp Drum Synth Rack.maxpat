@@ -48,7 +48,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 344.0, 56.0, 32.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 296.0, 0.0, 24.0, 16.0 ],
+					"presentation_rect" : [ 296.0, 8.0, 24.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "live.text[2]",
@@ -76,7 +76,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 384.0, 56.0, 32.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 296.0, 16.0, 24.0, 16.0 ],
+					"presentation_rect" : [ 296.0, 24.0, 24.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "live.text[1]",
@@ -103,7 +103,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 424.0, 56.0, 32.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 296.0, 32.0, 24.0, 15.0 ],
+					"presentation_rect" : [ 296.0, 40.0, 24.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "live.text",
@@ -174,7 +174,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 48.0, 16.0, 40.0, 120.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 32.0, 160.0 ],
+					"presentation_rect" : [ 0.0, 8.0, 32.0, 160.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "Tab",
@@ -268,7 +268,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 48.0, 400.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 296.0, 112.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 296.0, 120.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "Volume",
@@ -495,7 +495,7 @@
 					"patching_rect" : [ 192.0, 72.0, 77.0, 29.0 ],
 					"pattrstorage" : "Thwomp",
 					"presentation" : 1,
-					"presentation_rect" : [ 296.0, 56.0, 40.0, 48.0 ]
+					"presentation_rect" : [ 296.0, 64.0, 40.0, 48.0 ]
 				}
 
 			}
@@ -516,7 +516,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 16.0, 224.0, 248.0, 160.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.0, 0.0, 256.0, 160.0 ],
+					"presentation_rect" : [ 40.0, 8.0, 256.0, 160.0 ],
 					"varname" : "Drum Synth Modules",
 					"viewvisibility" : 1
 				}
@@ -534,7 +534,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 523.0, 666.0, 16.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 296.0, 0.0, 40.0, 48.0 ],
+					"presentation_rect" : [ 296.0, 8.0, 40.0, 48.0 ],
 					"rounded" : 10
 				}
 
@@ -551,7 +551,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 538.0, 681.0, 16.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 296.0, 112.0, 40.0, 48.0 ],
+					"presentation_rect" : [ 296.0, 120.0, 40.0, 48.0 ],
 					"rounded" : 10
 				}
 
