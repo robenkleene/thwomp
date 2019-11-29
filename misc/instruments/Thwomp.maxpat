@@ -169,7 +169,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 15.0, 135.0, 825.0, 180.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.0, 0.0, 344.0, 168.0 ],
+					"presentation_rect" : [ 64.0, 0.0, 344.0, 168.0 ],
 					"varname" : "Drum Synth Rack",
 					"viewvisibility" : 1
 				}
@@ -231,7 +231,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 345.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 120.0, 48.0, 48.0 ]
+					"presentation_rect" : [ 8.0, 112.0, 48.0, 48.0 ]
 				}
 
 			}
@@ -374,8 +374,8 @@
 			"obj-1::obj-1::obj-3::obj-2::obj-5" : [ "On[12]", "On", 0 ],
 			"obj-1::obj-1::obj-17::obj-2::obj-1::obj-11" : [ "Semi[3]", "Semi", 0 ],
 			"obj-1::obj-1::obj-3::obj-17::obj-20::obj-1" : [ "Stored_Function[2]", "Stored_Function", 0 ],
-			"obj-1::obj-13" : [ "Stored_Volume", "Stored_Volume", 0 ],
 			"obj-1::obj-30" : [ "live.text[2]", "live.text[2]", 0 ],
+			"obj-1::obj-13" : [ "Stored_Volume", "Stored_Volume", 0 ],
 			"obj-1::obj-1::obj-17::obj-2::obj-5" : [ "On[10]", "On", 0 ],
 			"obj-1::obj-1::obj-3::obj-17::obj-17" : [ "Amount[2]", "Amount", 0 ],
 			"obj-1::obj-1::obj-17::obj-4::obj-1" : [ "Stored_Attack[3]", "Stored_Attack", 0 ],
