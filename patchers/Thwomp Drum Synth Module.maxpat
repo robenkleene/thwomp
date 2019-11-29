@@ -285,29 +285,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-17",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "Thwomp Pitch Envelope Interface.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 344.0, 208.0, 214.0, 173.5 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 48.0, 0.0, 160.0, 160.0 ],
-					"varname" : "Pitch Envelope",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -497,6 +474,29 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 112.0, 40.0, 48.0 ],
 					"rounded" : 10
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-17",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Thwomp Pitch Envelope Interface.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 344.0, 208.0, 214.0, 173.5 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 48.0, 0.0, 160.0, 160.0 ],
+					"varname" : "Pitch Envelope",
+					"viewvisibility" : 1
 				}
 
 			}
@@ -693,8 +693,8 @@
 			"obj-12::obj-1::obj-11" : [ "Q", "Q", 0 ],
 			"obj-2::obj-5" : [ "On[1]", "On", 0 ],
 			"obj-17::obj-6" : [ "Stored_Amount[1]", "Stored_Amount", 0 ],
-			"obj-7" : [ "On[2]", "On", 0 ],
 			"obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
+			"obj-7" : [ "On[2]", "On", 0 ],
 			"obj-5" : [ "Gain", "Gain", 0 ],
 			"obj-15" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-2::obj-3" : [ "Stored_On[1]", "Stored_On", 0 ],
@@ -721,6 +721,20 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "Thwomp Pitch Envelope Interface.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Thwomp Function Envelope Interface.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "Thwomp AD Envelope Interface.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
@@ -743,20 +757,6 @@
 			}
 , 			{
 				"name" : "Thwomp Active.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Thwomp Pitch Envelope Interface.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Thwomp Function Envelope Interface.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
