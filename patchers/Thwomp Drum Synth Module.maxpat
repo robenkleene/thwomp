@@ -39,23 +39,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"angle" : 0.0,
-					"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.4 ],
-					"bordercolor" : [ 0.137255, 0.145098, 0.160784, 0.0 ],
-					"id" : "obj-19",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 538.0, 681.0, 16.0, 16.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 112.0, 40.0, 48.0 ],
-					"rounded" : 10
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -500,6 +483,23 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"angle" : 0.0,
+					"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.4 ],
+					"bordercolor" : [ 0.137255, 0.145098, 0.160784, 0.0 ],
+					"id" : "obj-19",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 538.0, 681.0, 16.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 112.0, 40.0, 48.0 ],
+					"rounded" : 10
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -682,8 +682,8 @@
 		"parameters" : 		{
 			"obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"obj-12::obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
-			"obj-2::obj-1::obj-11" : [ "Semi", "Semi", 0 ],
 			"obj-12::obj-1::obj-1" : [ "Frequency", "Freq", 0 ],
+			"obj-2::obj-1::obj-11" : [ "Semi", "Semi", 0 ],
 			"obj-4::obj-7" : [ "Attack", "Attack", 0 ],
 			"obj-2::obj-1::obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
 			"obj-9" : [ "Waveform", "Waveform", 0 ],
@@ -693,8 +693,8 @@
 			"obj-12::obj-1::obj-11" : [ "Q", "Q", 0 ],
 			"obj-2::obj-5" : [ "On[1]", "On", 0 ],
 			"obj-17::obj-6" : [ "Stored_Amount[1]", "Stored_Amount", 0 ],
-			"obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
 			"obj-7" : [ "On[2]", "On", 0 ],
+			"obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
 			"obj-5" : [ "Gain", "Gain", 0 ],
 			"obj-15" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-2::obj-3" : [ "Stored_On[1]", "Stored_On", 0 ],
@@ -704,8 +704,8 @@
 			"obj-17::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
 			"obj-12::obj-7" : [ "On", "On", 0 ],
 			"obj-17::obj-18" : [ "Duration", "Duration", 0 ],
-			"obj-10" : [ "Stored_Gain[1]", "Stored_Gain", 0 ],
 			"obj-12::obj-1::obj-6" : [ "Type", "Type", 0 ],
+			"obj-10" : [ "Stored_Gain[1]", "Stored_Gain", 0 ],
 			"obj-2::obj-1::obj-9" : [ "Freq", "Freq", 0 ],
 			"parameterbanks" : 			{
 
