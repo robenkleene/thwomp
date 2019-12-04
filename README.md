@@ -6,15 +6,15 @@ Drum synthesizer.
 
 ## Description
 
-Thwomp is a four oscillator drum synthesizer for [Max for Live](https://www.ableton.com/en/live/max-for-live/). Thwomp is a [subtractive synthesizer](https://en.wikipedia.org/wiki/Subtractive_synthesis) that specializes in making drum sounds with the following features:
+Thwomp is a four oscillator drum synthesizer for [Max for Live](https://www.ableton.com/en/live/max-for-live/). It's a [subtractive synthesizer](https://en.wikipedia.org/wiki/Subtractive_synthesis) that specializes in making drum sounds with the following features:
 
 - Fixed frequency by default, as most drum sounds aren't played chromatically.
 - Prominent pitch envelope for creating kick drums.
 - No sustain or release, because those aren't features of percussive instruments.
 
-Thwomp's interface is designed to be transparent and predictable. Every parameter is labeled with its exact [unit](https://en.wikipedia.org/wiki/Unit_of_measurement) and amount.
+Thwomp's interface is designed to be transparent and predictable. Every parameter is labeled with its [unit type](https://en.wikipedia.org/wiki/Unit_of_measurement).
 
-## Global
+## Global Parameters
 
 - **Volume**: The volume of all of the oscillators combined.
 - Oscillator Tabs 1-4: Select an oscillator
@@ -28,12 +28,12 @@ Thwomp's interface is designed to be transparent and predictable. Every paramete
 - To save a preset, shift-click a box
 - To delete a preset, option-click a box
 
-## Per Oscillator
+## Per Oscillator Parameters
 
-### Oscillator
+### Waveform
 
 - **Osc** Toggle: Toggle the oscillator on or off
-- Oscillator Type
+- Waveform
 - **Note** Toggle: Toggle whether to use the incoming MIDI note frequency (when off, the frequency is specified)
 - **Freq**: Specify a frequency (only visible when **note** is off)
 - **Semi**: Specify a semitone offset (only visible when **note** is on)
