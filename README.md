@@ -6,7 +6,7 @@ Drum synthesizer.
 
 ## Description
 
-Thwomp is a four oscillator drum synthesizer for [Max for Live](https://www.ableton.com/en/live/max-for-live/). Thwomp is a [subtractive synthesizer](https://en.wikipedia.org/wiki/Subtractive_synthesis) optimized for making drum sounds. Besides the usually subtractive synthesis features, Thwomp has the following features to be optimized for creating drum sounds:
+Thwomp is a four oscillator drum synthesizer for [Max for Live](https://www.ableton.com/en/live/max-for-live/). Thwomp is a [subtractive synthesizer](https://en.wikipedia.org/wiki/Subtractive_synthesis) designed for making drum sounds. Besides the usually subtractive synthesis features, Thwomp has the following features to specialize in drum sounds:
 
 - Fixed frequency by default, as most drum sounds aren't played chromatically.
 - Prominent pitch envelope for creating kick drums.
