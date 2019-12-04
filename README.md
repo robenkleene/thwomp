@@ -58,7 +58,7 @@ Thwomp's interface is designed to be transparent and predictable. Every paramete
 
 ### Standalone Mode
 
-Thwomp can be opened in standalone mode by opening the `misc/instruments/Thwomp.maxpat`  outside of Ableton Live, it offers some additional features.
+Thwomp can also be opened in standalone mode by opening the `misc/instruments/Thwomp.maxpat`  outside of Ableton Live, it offers some additional features.
 
 - **Button**: Trigger the MIDI note
 - **Pitch**: Select the MIDI note pitch
