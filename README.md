@@ -14,51 +14,57 @@ Thwomp is a four oscillator drum synthesizer for [Max for Live](https://www.able
 
 Thwomp's interface is designed to be transparent and predictable. Every parameter is labeled with its exact [unit](https://en.wikipedia.org/wiki/Unit_of_measurement) and amount.
 
-## Interface
+## Global
 
-- Gain: Gain is on the far right
-- Oscillator Tabs: The four tabs on the left select an oscillator, all of the following settings (excluding presets) are per oscillator
+- **Volume**: The volume of all of the oscillators combined.
+- Oscillator Tabs 1-4: Select an oscillator
 
-### Oscillator Section
+### Presets
 
-- `osc` Toggle: Toggle the entire oscillator
-- `note` Toggle: Toggle whether to use the incoming MIDI note frequency (when off, the frequency is specified)
-- `Hz`: When `note` is off, specify a frequency
-- `Semi`: When `note` is on, specify an offset
-- Oscillator Type
-- `ms`: Attack
-- `ms`: Decay
-
-### Pitch Envelope Section
-
-- Pitch Envelope Graph
-- `Hz`: Pitch envelope amount
-- `ms`: Pitch envelope decay
-
-### Preset Section
-
-- `r`: Read presets from a file
-- `w`: Write the presets to a file
-- Preset Toggle: When toggled on, `w` will write again to the same filename without prompting.
+- **R**: Read presets from a file
+- **W**: Write the presets to a file
+- **OW**: When toggled on, **W** will automatically write again to the sample file
 - To recall a preset, click a box
 - To save a preset, shift-click a box
 - To delete a preset, option-click a box
 
-### Filter Section
+## Per Oscillator
 
-- Filter Toggle: Turn on or off the filter
+### Oscillator
+
+- **Osc** Toggle: Toggle the oscillator on or off
+- Oscillator Type
+- **Note** Toggle: Toggle whether to use the incoming MIDI note frequency (when off, the frequency is specified)
+- **Freq**: Specify a frequency (only visible when **note** is off)
+- **Semi**: Specify a semitone offset (only visible when **note** is on)
+
+### Pitch Envelope
+
+- Pitch Envelope Graph
+- **Amount**: Pitch envelope amount
+- **Duration**: Pitch envelope decay
+
+### Filter
+
+- Filter Toggle: Toggle the filter on or off
 - Filter Type
-- `Hz`: Filter cutoff
-- `dB`: Filter gain
-- `Q`: Filter Q
+- **Freq**: Filter cutoff
+- **Q**: Filter Q
 
-### Standalone Controls
+### Envelope
 
-When Thwomp is loaded outside of Ableton Live, it offers some additional features.
+- **Attack**: Attack
+- **Decay**: Decay
 
-- **Note Selection** & **Button** (Far left): Click the button to trigger the selected note.
-- `s`: Typing this key will also play the note
-- Speaker Toggle: Toggles whether the audio engine is on
+### Standalone Mode
+
+Thwomp can be opened in standalone mode by opening the `misc/instruments/Thwomp.maxpat`  outside of Ableton Live, it offers some additional features.
+
+- **Button**: Trigger the MIDI note
+- **Pitch**: Select the MIDI note pitch
+- **Velocity**: Select the MIDI note velocity
+- DAC Toggle: Toggles whether the audio engine is on
+- Typing the `s` will play the note
 
 ## Presets
 
