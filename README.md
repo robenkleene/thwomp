@@ -22,7 +22,7 @@ Thwomp's interface is designed to be transparent and predictable. Every paramete
 - **OW**: When toggled on, **W** will automatically write again to the sample file
 - To recall a preset, click a box
 - To save a preset, shift-click a box
-- To delete a preset, option-click a box
+- To delete a preset, shift-option-click a box
 
 ## Per Oscillator Parameters
 
