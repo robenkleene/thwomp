@@ -12,7 +12,7 @@ Thwomp's interface is designed to be transparent and predictable. Every paramete
 
 ## Installation
 
-Drag `max-for-live/Thwomp.amxd` to `Ableton/User Library/Presets/MIDI Effects/Max MIDI Effect/`. There's an optional `install.sh` script that will do this automatically.
+Drag `max-for-live/instruments/Thwomp.amxd` to `User Library/Presets/Instruments/Max Instrument/`. There's an optional `install.sh` script that will do this automatically.
 
 ## Stand-Alone Mode
 
