@@ -10,6 +10,22 @@ Thwomp is a four oscillator drum synthesizer for [Max for Live](https://www.able
 
 Thwomp's interface is designed to be transparent and predictable. Every parameter is labeled with its [unit type](https://en.wikipedia.org/wiki/Unit_of_measurement).
 
+## Installation
+
+Drag `max-for-live/instruments/Thwomp.amxd` to `User Library/Presets/Instruments/Max Instrument/`. There's an optional `install.sh` script that will do this automatically.
+
+## Stand-Alone Mode
+
+To open any of the `maxpat` files, the Sidewinder folder should be in your [Project Search Paths](https://docs.cycling74.com/max8/vignettes/projects_searchpath), `~/Documents/Max 8/Projects` by default, so that referenced files can be found.
+
+Thwomp can also be opened in standalone mode by opening the `misc/instruments/Thwomp.maxpat`  outside of Ableton Live, it offers some additional features.
+
+- **Button**: Trigger the MIDI note
+- **Pitch**: Select the MIDI note pitch
+- **Velocity**: Select the MIDI note velocity
+- DAC Toggle: Toggles whether the audio engine is on
+- Typing the `s` will play the note
+
 ## Global Parameters
 
 - **Volume**: The volume of all of the oscillators combined.
@@ -51,16 +67,6 @@ Thwomp's interface is designed to be transparent and predictable. Every paramete
 
 - **Attack**: Attack
 - **Decay**: Decay
-
-### Standalone Mode
-
-Thwomp can also be opened in standalone mode by opening the `misc/instruments/Thwomp.maxpat`  outside of Ableton Live, it offers some additional features.
-
-- **Button**: Trigger the MIDI note
-- **Pitch**: Select the MIDI note pitch
-- **Velocity**: Select the MIDI note velocity
-- DAC Toggle: Toggles whether the audio engine is on
-- Typing the `s` will play the note
 
 ## Presets
 
