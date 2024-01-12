@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 251.0, 96.0, 756.0, 673.0 ],
+		"rect" : [ 251.0, 100.0, 756.0, 673.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-16",
@@ -61,12 +62,12 @@
 					"patching_rect" : [ 192.0, 752.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~"
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -88,12 +89,12 @@
 					"presentation_rect" : [ 0.0, 112.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "Gain",
 							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "Gain",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "Gain"
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -126,18 +127,20 @@
 					"pictures" : [ "sine.svg", "updown.svg", "square.svg", "up.svg", "random.svg", "random.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 24.0, 32.0, 15.0 ],
+					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_enum" : [ "sine", "tri", "square", "saw", "noise", "pink" ],
+							"parameter_longname" : "Waveform",
 							"parameter_mmax" : 5,
 							"parameter_shortname" : "Waveform",
-							"parameter_enum" : [ "sine", "tri", "square", "saw", "noise", "pink" ],
-							"parameter_type" : 2,
-							"parameter_longname" : "Waveform"
+							"parameter_type" : 2
 						}
 
 					}
 ,
 					"usepicture" : 1,
+					"usesvgviewbox" : 1,
 					"varname" : "Waveform"
 				}
 
@@ -155,11 +158,11 @@
 					"presentation_rect" : [ 0.0, 0.0, 32.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_longname" : "On[2]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "On",
-							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_type" : 2,
-							"parameter_longname" : "On[2]"
+							"parameter_type" : 2
 						}
 
 					}
@@ -179,6 +182,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-2",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "Thwomp Frequency Switch.maxpat",
 					"numinlets" : 1,
@@ -379,6 +383,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-12",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "Thwomp Biquad Filter Plugin.maxpat",
 					"numinlets" : 2,
@@ -416,6 +421,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-4",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "Thwomp AD Envelope Interface.maxpat",
 					"numinlets" : 0,
@@ -486,6 +492,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-17",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "Thwomp Pitch Envelope Interface.maxpat",
 					"numinlets" : 1,
@@ -680,34 +687,34 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-3" : [ "Decay", "Decay", 0 ],
-			"obj-2::obj-5" : [ "On[1]", "On", 0 ],
-			"obj-2::obj-1::obj-14" : [ "Freq", "Freq", 0 ],
-			"obj-12::obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
-			"obj-2::obj-1::obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
-			"obj-5" : [ "Gain", "Gain", 0 ],
-			"obj-12::obj-1::obj-1" : [ "Frequency", "Freq", 0 ],
-			"obj-17::obj-18" : [ "Duration", "Duration", 0 ],
 			"obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
-			"obj-17::obj-20::obj-1" : [ "Stored_Function[1]", "Stored_Function", 0 ],
-			"obj-2::obj-1::obj-11" : [ "Semi", "Semi", 0 ],
-			"obj-14" : [ "Stored_On", "Stored_On", 0 ],
+			"obj-10" : [ "Stored_Gain", "Stored_Gain", 0 ],
+			"obj-12::obj-1::obj-1" : [ "Frequency", "Freq", 0 ],
 			"obj-12::obj-1::obj-11" : [ "Q", "Q", 0 ],
-			"obj-4::obj-7" : [ "Attack", "Attack", 0 ],
+			"obj-12::obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
+			"obj-12::obj-1::obj-6" : [ "Type", "Type", 0 ],
+			"obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"obj-12::obj-7" : [ "On", "On", 0 ],
-			"obj-2::obj-3" : [ "Stored_On[1]", "Stored_On", 0 ],
-			"obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
-			"obj-4::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
+			"obj-14" : [ "Stored_On", "Stored_On", 0 ],
+			"obj-15" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-17::obj-17" : [ "Amount", "Amount", 0 ],
+			"obj-17::obj-18" : [ "Duration", "Duration", 0 ],
+			"obj-17::obj-20::obj-1" : [ "Stored_Function[1]", "Stored_Function", 0 ],
+			"obj-17::obj-6" : [ "Stored_Amount[1]", "Stored_Amount", 0 ],
 			"obj-17::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
+			"obj-2::obj-1::obj-11" : [ "Semi", "Semi", 0 ],
+			"obj-2::obj-1::obj-14" : [ "Freq", "Freq", 0 ],
+			"obj-2::obj-1::obj-15" : [ "Stored_Frequency[1]", "Stored_Frequency", 0 ],
+			"obj-2::obj-1::obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
+			"obj-2::obj-3" : [ "Stored_On[1]", "Stored_On", 0 ],
+			"obj-2::obj-5" : [ "On[1]", "On", 0 ],
+			"obj-4::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
+			"obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
+			"obj-4::obj-3" : [ "Decay", "Decay", 0 ],
+			"obj-4::obj-7" : [ "Attack", "Attack", 0 ],
+			"obj-5" : [ "Gain", "Gain", 0 ],
 			"obj-7" : [ "On[2]", "On", 0 ],
 			"obj-9" : [ "Waveform", "Waveform", 0 ],
-			"obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
-			"obj-2::obj-1::obj-15" : [ "Stored_Frequency[1]", "Stored_Frequency", 0 ],
-			"obj-15" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-12::obj-1::obj-6" : [ "Type", "Type", 0 ],
-			"obj-17::obj-17" : [ "Amount", "Amount", 0 ],
-			"obj-17::obj-6" : [ "Stored_Amount[1]", "Stored_Amount", 0 ],
-			"obj-10" : [ "Stored_Gain", "Stored_Gain", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -718,25 +725,19 @@
 				}
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Thwomp Pitch Envelope Interface.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Thwomp Function Envelope Interface.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "Thwomp AD Envelope Interface.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Thwomp Active.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -757,10 +758,73 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Active.maxpat",
+				"name" : "Thwomp Frequency Bank.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Thwomp Frequency Switch.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Thwomp Function Envelope Interface.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Thwomp Pitch Envelope Interface.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bandpass.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "highcut.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lowcut.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "notch.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "random.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sine.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "square.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
@@ -778,17 +842,15 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Frequency Switch.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
+				"name" : "up.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Frequency Bank.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
+				"name" : "updown.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
 				"implicit" : 1
 			}
  ],
