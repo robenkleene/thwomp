@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 466.0, 79.0, 601.0, 787.0 ],
+		"rect" : [ 466.0, 100.0, 601.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-15",
@@ -74,13 +75,13 @@
 					"presentation_rect" : [ 32.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Freq",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 3,
-							"parameter_mmin" : 30.0,
 							"parameter_exponent" : 5.0,
 							"parameter_longname" : "Frequency",
-							"parameter_mmax" : 22000.0
+							"parameter_mmax" : 22000.0,
+							"parameter_mmin" : 30.0,
+							"parameter_shortname" : "Freq",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 3
 						}
 
 					}
@@ -102,12 +103,12 @@
 					"presentation_rect" : [ 72.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "Q",
+							"parameter_mmax" : 10.0,
+							"parameter_mmin" : 0.3,
 							"parameter_shortname" : "Q",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 1,
-							"parameter_mmin" : 0.3,
-							"parameter_longname" : "Q",
-							"parameter_mmax" : 10.0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -232,18 +233,20 @@
 					"pictures" : [ "highcut.svg", "lowcut.svg", "bandpass.svg", "notch.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 16.0, 32.0, 15.0 ],
+					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Type",
 							"parameter_enum" : [ "one", "two", "three", "four" ],
-							"parameter_type" : 2,
 							"parameter_longname" : "Type",
-							"parameter_mmax" : 3
+							"parameter_mmax" : 3,
+							"parameter_shortname" : "Type",
+							"parameter_type" : 2
 						}
 
 					}
 ,
 					"usepicture" : 1,
+					"usesvgviewbox" : 1,
 					"varname" : "Type"
 				}
 
@@ -558,18 +561,43 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
-			"obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"obj-1" : [ "Frequency", "Freq", 0 ],
-			"obj-6" : [ "Type", "Type", 0 ],
 			"obj-11" : [ "Q", "Q", 0 ],
+			"obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
+			"obj-6" : [ "Type", "Type", 0 ],
+			"obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "bandpass.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "highcut.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lowcut.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "notch.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
 		"autosave" : 0
 	}
 
