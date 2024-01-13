@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 524.0, 79.0, 576.0, 787.0 ],
+		"rect" : [ 524.0, 100.0, 576.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-2",
@@ -62,12 +63,12 @@
 					"presentation_rect" : [ 0.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Attack",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 2,
 							"parameter_exponent" : 5.0,
 							"parameter_longname" : "Attack",
-							"parameter_mmax" : 15000.0
+							"parameter_mmax" : 15000.0,
+							"parameter_shortname" : "Attack",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 2
 						}
 
 					}
@@ -89,12 +90,12 @@
 					"presentation_rect" : [ 0.0, 56.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Decay",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 2,
 							"parameter_exponent" : 5.0,
 							"parameter_longname" : "Decay",
-							"parameter_mmax" : 15000.0
+							"parameter_mmax" : 15000.0,
+							"parameter_shortname" : "Decay",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 2
 						}
 
 					}
@@ -237,14 +238,15 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-7" : [ "Attack", "Attack", 0 ],
-			"obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
+			"obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"obj-3" : [ "Decay", "Decay", 0 ],
+			"obj-7" : [ "Attack", "Attack", 0 ],
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [  ],

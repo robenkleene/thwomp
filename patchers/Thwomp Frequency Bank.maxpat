@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "roben-kleene-max-for-live",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-14",
@@ -50,13 +51,13 @@
 					"presentation_rect" : [ 0.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_exponent" : 5.0,
+							"parameter_longname" : "Freq",
 							"parameter_mmax" : 22000.0,
+							"parameter_mmin" : 30.0,
 							"parameter_shortname" : "Freq",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 3,
-							"parameter_mmin" : 30.0,
-							"parameter_exponent" : 5.0,
-							"parameter_longname" : "Freq"
+							"parameter_unitstyle" : 3
 						}
 
 					}
@@ -102,12 +103,12 @@
 					"presentation_rect" : [ 0.0, 48.0, 40.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "Semi",
 							"parameter_mmax" : 48.0,
+							"parameter_mmin" : -48.0,
 							"parameter_shortname" : "Semi",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 7,
-							"parameter_mmin" : -48.0,
-							"parameter_longname" : "Semi"
+							"parameter_unitstyle" : 7
 						}
 
 					}
@@ -398,14 +399,15 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-14" : [ "Freq", "Freq", 0 ],
-			"obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
 			"obj-11" : [ "Semi", "Semi", 0 ],
+			"obj-14" : [ "Freq", "Freq", 0 ],
 			"obj-15" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
+			"obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [  ],

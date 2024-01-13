@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 251.0, 100.0, 756.0, 673.0 ],
+		"rect" : [ 251.0, 100.0, 806.0, 901.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -159,9 +159,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "On[2]",
+							"parameter_longname" : "Osc",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "On",
+							"parameter_shortname" : "Osc",
 							"parameter_type" : 2
 						}
 
@@ -169,7 +169,7 @@
 ,
 					"text" : "Osc",
 					"texton" : "Osc",
-					"varname" : "On"
+					"varname" : "Osc"
 				}
 
 			}
@@ -294,27 +294,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 640.0, 8.0, 101.0, 20.0 ],
+					"patching_rect" : [ 640.0, 8.0, 111.0, 20.0 ],
 					"restore" : [ 0.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_enum" : [ "0", "1" ],
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_On",
-							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "Stored_On",
-							"parameter_type" : 3
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
+						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Stored_On On",
-					"varname" : "Stored_On"
+					"text" : "pattr Stored_Osc Osc",
+					"varname" : "Stored_Osc"
 				}
 
 			}
@@ -694,8 +682,7 @@
 			"obj-12::obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
 			"obj-12::obj-1::obj-6" : [ "Type", "Type", 0 ],
 			"obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
-			"obj-12::obj-7" : [ "On", "On", 0 ],
-			"obj-14" : [ "Stored_On", "Stored_On", 0 ],
+			"obj-12::obj-7" : [ "On", "Fil", 0 ],
 			"obj-15" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-17::obj-17" : [ "Amount", "Amount", 0 ],
 			"obj-17::obj-18" : [ "Duration", "Duration", 0 ],
@@ -706,20 +693,23 @@
 			"obj-2::obj-1::obj-14" : [ "Freq", "Freq", 0 ],
 			"obj-2::obj-1::obj-15" : [ "Stored_Frequency[1]", "Stored_Frequency", 0 ],
 			"obj-2::obj-1::obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
-			"obj-2::obj-3" : [ "Stored_On[1]", "Stored_On", 0 ],
-			"obj-2::obj-5" : [ "On[1]", "On", 0 ],
+			"obj-2::obj-5" : [ "On[1]", "Note", 0 ],
 			"obj-4::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
 			"obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"obj-4::obj-3" : [ "Decay", "Decay", 0 ],
 			"obj-4::obj-7" : [ "Attack", "Attack", 0 ],
 			"obj-5" : [ "Gain", "Gain", 0 ],
-			"obj-7" : [ "On[2]", "On", 0 ],
+			"obj-7" : [ "Osc", "Osc", 0 ],
 			"obj-9" : [ "Waveform", "Waveform", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-12::obj-7" : 				{
+					"parameter_longname" : "On"
+				}
+,
 				"obj-2::obj-5" : 				{
 					"parameter_longname" : "On[1]"
 				}

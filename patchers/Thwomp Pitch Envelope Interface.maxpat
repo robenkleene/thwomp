@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "Roben Kleene",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-1",
@@ -62,12 +63,12 @@
 					"presentation_rect" : [ 40.0, 112.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Duration",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 2,
 							"parameter_exponent" : 5.0,
 							"parameter_longname" : "Duration",
-							"parameter_mmax" : 15000.0
+							"parameter_mmax" : 15000.0,
+							"parameter_shortname" : "Duration",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 2
 						}
 
 					}
@@ -89,12 +90,12 @@
 					"presentation_rect" : [ 0.0, 112.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Amount",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 3,
 							"parameter_exponent" : 5.0,
 							"parameter_longname" : "Amount",
-							"parameter_mmax" : 15000.0
+							"parameter_mmax" : 15000.0,
+							"parameter_shortname" : "Amount",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 3
 						}
 
 					}
@@ -209,6 +210,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-20",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "Thwomp Function Envelope Interface.maxpat",
 					"numinlets" : 1,
@@ -308,15 +310,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-20::obj-1" : [ "Stored_Function", "Stored_Function", 0 ],
 			"obj-17" : [ "Amount", "Amount", 0 ],
-			"obj-9" : [ "Stored_Duration", "Stored_Duration", 0 ],
-			"obj-6" : [ "Stored_Amount", "Stored_Amount", 0 ],
 			"obj-18" : [ "Duration", "Duration", 0 ],
+			"obj-20::obj-1" : [ "Stored_Function", "Stored_Function", 0 ],
+			"obj-6" : [ "Stored_Amount", "Stored_Amount", 0 ],
+			"obj-9" : [ "Stored_Duration", "Stored_Duration", 0 ],
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
