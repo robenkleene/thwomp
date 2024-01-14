@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 251.0, 100.0, 806.0, 901.0 ],
+		"rect" : [ 251.0, 100.0, 1111.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -682,18 +682,18 @@
 			"obj-12::obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
 			"obj-12::obj-1::obj-6" : [ "Type", "Type", 0 ],
 			"obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
-			"obj-12::obj-7" : [ "On", "Fil", 0 ],
+			"obj-12::obj-7" : [ "Fil", "Fil", 0 ],
 			"obj-15" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-17::obj-17" : [ "Amount", "Amount", 0 ],
 			"obj-17::obj-18" : [ "Duration", "Duration", 0 ],
-			"obj-17::obj-20::obj-1" : [ "Stored_Function[1]", "Stored_Function", 0 ],
-			"obj-17::obj-6" : [ "Stored_Amount[1]", "Stored_Amount", 0 ],
-			"obj-17::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
+			"obj-17::obj-20::obj-1" : [ "Stored_Function", "Stored_Function", 0 ],
+			"obj-17::obj-6" : [ "Stored_Amount", "Stored_Amount", 0 ],
+			"obj-17::obj-9" : [ "Stored_Duration", "Stored_Duration", 0 ],
 			"obj-2::obj-1::obj-11" : [ "Semi", "Semi", 0 ],
 			"obj-2::obj-1::obj-14" : [ "Freq", "Freq", 0 ],
 			"obj-2::obj-1::obj-15" : [ "Stored_Frequency[1]", "Stored_Frequency", 0 ],
 			"obj-2::obj-1::obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
-			"obj-2::obj-5" : [ "On[1]", "Note", 0 ],
+			"obj-2::obj-5" : [ "Note", "Note", 0 ],
 			"obj-4::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
 			"obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"obj-4::obj-3" : [ "Decay", "Decay", 0 ],
@@ -702,17 +702,6 @@
 			"obj-7" : [ "Osc", "Osc", 0 ],
 			"obj-9" : [ "Waveform", "Waveform", 0 ],
 			"parameterbanks" : 			{
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-12::obj-7" : 				{
-					"parameter_longname" : "On"
-				}
-,
-				"obj-2::obj-5" : 				{
-					"parameter_longname" : "On[1]"
-				}
 
 			}
 ,
