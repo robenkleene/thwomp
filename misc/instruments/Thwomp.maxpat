@@ -259,7 +259,7 @@
 			"obj-1::obj-17" : [ "live.gain~[4]", "live.gain~", 0 ],
 			"obj-1::obj-19" : [ "Tab", "Tab", 0 ],
 			"obj-1::obj-1::obj-17::obj-12::obj-1::obj-1" : [ "3-Frequency", "Freq", 0 ],
-			"obj-1::obj-1::obj-17::obj-12::obj-1::obj-11" : [ "Q[3]", "Q", 0 ],
+			"obj-1::obj-1::obj-17::obj-12::obj-1::obj-11" : [ "3-Q", "Q", 0 ],
 			"obj-1::obj-1::obj-17::obj-12::obj-1::obj-6" : [ "3-Type", "Type", 0 ],
 			"obj-1::obj-1::obj-17::obj-12::obj-7" : [ "3-Fil", "Fil", 0 ],
 			"obj-1::obj-1::obj-17::obj-15" : [ "live.gain~[3]", "live.gain~", 0 ],
@@ -274,7 +274,7 @@
 			"obj-1::obj-1::obj-17::obj-7" : [ "3-Osc", "Osc", 0 ],
 			"obj-1::obj-1::obj-17::obj-9" : [ "3-Waveform", "Waveform", 0 ],
 			"obj-1::obj-1::obj-1::obj-12::obj-1::obj-1" : [ "1-Frequency", "Freq", 0 ],
-			"obj-1::obj-1::obj-1::obj-12::obj-1::obj-11" : [ "Q[1]", "Q", 0 ],
+			"obj-1::obj-1::obj-1::obj-12::obj-1::obj-11" : [ "1-Q", "Q", 0 ],
 			"obj-1::obj-1::obj-1::obj-12::obj-1::obj-6" : [ "1-Type", "Type", 0 ],
 			"obj-1::obj-1::obj-1::obj-12::obj-7" : [ "1-Fil", "Fil", 0 ],
 			"obj-1::obj-1::obj-1::obj-15" : [ "live.gain~[1]", "live.gain~", 0 ],
@@ -289,7 +289,7 @@
 			"obj-1::obj-1::obj-1::obj-7" : [ "1-Osc", "Osc", 0 ],
 			"obj-1::obj-1::obj-1::obj-9" : [ "1-Waveform", "Waveform", 0 ],
 			"obj-1::obj-1::obj-3::obj-12::obj-1::obj-1" : [ "2-Frequency", "Freq", 0 ],
-			"obj-1::obj-1::obj-3::obj-12::obj-1::obj-11" : [ "Q[2]", "Q", 0 ],
+			"obj-1::obj-1::obj-3::obj-12::obj-1::obj-11" : [ "2-Q", "Q", 0 ],
 			"obj-1::obj-1::obj-3::obj-12::obj-1::obj-6" : [ "2-Type", "Type", 0 ],
 			"obj-1::obj-1::obj-3::obj-12::obj-7" : [ "2-Fil", "Fil", 0 ],
 			"obj-1::obj-1::obj-3::obj-15" : [ "live.gain~[2]", "live.gain~", 0 ],
@@ -304,7 +304,7 @@
 			"obj-1::obj-1::obj-3::obj-7" : [ "2-Osc", "Osc", 0 ],
 			"obj-1::obj-1::obj-3::obj-9" : [ "2-Waveform", "Waveform", 0 ],
 			"obj-1::obj-1::obj-44::obj-12::obj-1::obj-1" : [ "4-Frequency", "Freq", 0 ],
-			"obj-1::obj-1::obj-44::obj-12::obj-1::obj-11" : [ "Q", "Q", 0 ],
+			"obj-1::obj-1::obj-44::obj-12::obj-1::obj-11" : [ "4-Q", "Q", 0 ],
 			"obj-1::obj-1::obj-44::obj-12::obj-1::obj-6" : [ "4-Type", "Type", 0 ],
 			"obj-1::obj-1::obj-44::obj-12::obj-7" : [ "4-Fil", "Fil", 0 ],
 			"obj-1::obj-1::obj-44::obj-15" : [ "live.gain~", "live.gain~", 0 ],
@@ -327,32 +327,16 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-1::obj-1::obj-17::obj-12::obj-1::obj-11" : 				{
-					"parameter_longname" : "Q[3]"
-				}
-,
 				"obj-1::obj-1::obj-17::obj-15" : 				{
 					"parameter_longname" : "live.gain~[3]"
-				}
-,
-				"obj-1::obj-1::obj-1::obj-12::obj-1::obj-11" : 				{
-					"parameter_longname" : "Q[1]"
 				}
 ,
 				"obj-1::obj-1::obj-1::obj-15" : 				{
 					"parameter_longname" : "live.gain~[1]"
 				}
 ,
-				"obj-1::obj-1::obj-3::obj-12::obj-1::obj-11" : 				{
-					"parameter_longname" : "Q[2]"
-				}
-,
 				"obj-1::obj-1::obj-3::obj-15" : 				{
 					"parameter_longname" : "live.gain~[2]"
-				}
-,
-				"obj-1::obj-1::obj-44::obj-12::obj-1::obj-11" : 				{
-					"parameter_longname" : "Q"
 				}
 
 			}
