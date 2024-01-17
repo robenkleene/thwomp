@@ -76,7 +76,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_exponent" : 5.0,
-							"parameter_longname" : "Frequency",
+							"parameter_longname" : "#1-Frequency",
 							"parameter_mmax" : 22000.0,
 							"parameter_mmin" : 30.0,
 							"parameter_shortname" : "Freq",
@@ -86,7 +86,7 @@
 
 					}
 ,
-					"varname" : "Frequency"
+					"varname" : "#1-Frequency"
 				}
 
 			}
@@ -148,15 +148,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 360.0, 24.0, 119.0, 20.0 ],
+					"patching_rect" : [ 360.0, 24.0, 148.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Stored_Type Type",
-					"varname" : "Stored_Type"
+					"text" : "pattr #1-Stored_Type #1-Type",
+					"varname" : "#1-Stored_Type"
 				}
 
 			}
@@ -237,7 +237,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "one", "two", "three", "four" ],
-							"parameter_longname" : "Type",
+							"parameter_longname" : "#1-Type",
 							"parameter_mmax" : 3,
 							"parameter_shortname" : "Type",
 							"parameter_type" : 2
@@ -247,7 +247,7 @@
 ,
 					"usepicture" : 1,
 					"usesvgviewbox" : 1,
-					"varname" : "Type"
+					"varname" : "#1-Type"
 				}
 
 			}
@@ -258,27 +258,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 360.0, 72.0, 89.0, 20.0 ],
-					"restore" : [ 0.3 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Q",
-							"parameter_mmax" : 10.0,
-							"parameter_mmin" : 0.3,
-							"parameter_shortname" : "Stored_Q",
-							"parameter_type" : 3
-						}
-
-					}
-,
+					"patching_rect" : [ 360.0, 72.0, 118.0, 20.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
+						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Stored_Q Q",
-					"varname" : "Stored_Q"
+					"text" : "pattr #1-Stored_Q #1-Q",
+					"varname" : "#1-Stored_Q"
 				}
 
 			}
@@ -289,27 +277,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 360.0, 48.0, 175.0, 20.0 ],
+					"patching_rect" : [ 360.0, 48.0, 204.0, 20.0 ],
 					"restore" : [ 30.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Frequency",
-							"parameter_mmax" : 22000.0,
-							"parameter_mmin" : 30.0,
-							"parameter_shortname" : "Stored_Frequency",
-							"parameter_type" : 3
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
+						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Stored_Frequency Frequency",
-					"varname" : "Stored_Frequency"
+					"text" : "pattr #1-Stored_Frequency #1-Frequency",
+					"varname" : "#1-Stored_Frequency"
 				}
 
 			}
@@ -561,11 +537,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "Frequency", "Freq", 0 ],
+			"obj-1" : [ "#1-Frequency", "Freq", 0 ],
 			"obj-11" : [ "Q", "Q", 0 ],
-			"obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
-			"obj-6" : [ "Type", "Type", 0 ],
-			"obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
+			"obj-6" : [ "#1-Type", "Type", 0 ],
 			"parameterbanks" : 			{
 
 			}

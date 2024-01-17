@@ -52,7 +52,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_exponent" : 5.0,
-							"parameter_longname" : "Freq",
+							"parameter_longname" : "#1-Freq",
 							"parameter_mmax" : 22000.0,
 							"parameter_mmin" : 30.0,
 							"parameter_shortname" : "Freq",
@@ -62,7 +62,7 @@
 
 					}
 ,
-					"varname" : "Freq"
+					"varname" : "#1-Freq"
 				}
 
 			}
@@ -103,7 +103,7 @@
 					"presentation_rect" : [ 0.0, 48.0, 40.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Semi",
+							"parameter_longname" : "#1-Semi",
 							"parameter_mmax" : 48.0,
 							"parameter_mmin" : -48.0,
 							"parameter_shortname" : "Semi",
@@ -113,7 +113,7 @@
 
 					}
 ,
-					"varname" : "Offset"
+					"varname" : "#1-Semi"
 				}
 
 			}
@@ -124,25 +124,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 216.0, 40.0, 131.0, 20.0 ],
-					"restore" : [ 0.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Offset",
-							"parameter_shortname" : "Stored_Offset",
-							"parameter_type" : 3
-						}
-
-					}
-,
+					"patching_rect" : [ 216.0, 40.0, 160.0, 20.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
+						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Stored_Offset Offset",
-					"varname" : "Stored_Offset"
+					"text" : "pattr #1-Stored_Offset #1-Offset",
+					"varname" : "#1-Stored_Offset"
 				}
 
 			}
@@ -214,25 +204,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 216.0, 16.0, 146.0, 20.0 ],
+					"patching_rect" : [ 216.0, 16.0, 175.0, 20.0 ],
 					"restore" : [ 30.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Frequency",
-							"parameter_shortname" : "Stored_Frequency",
-							"parameter_type" : 3
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
+						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Stored_Frequency Freq",
-					"varname" : "Stored_Frequency"
+					"text" : "pattr #1-Stored_Frequency #1-Freq",
+					"varname" : "#1-Stored_Frequency"
 				}
 
 			}
@@ -399,10 +379,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-11" : [ "Semi", "Semi", 0 ],
-			"obj-14" : [ "Freq", "Freq", 0 ],
-			"obj-15" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
-			"obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
+			"obj-11" : [ "#1-Semi", "Semi", 0 ],
+			"obj-14" : [ "#1-Freq", "Freq", 0 ],
 			"parameterbanks" : 			{
 
 			}

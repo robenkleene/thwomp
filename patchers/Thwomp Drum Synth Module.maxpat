@@ -89,7 +89,7 @@
 					"presentation_rect" : [ 0.0, 112.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Gain",
+							"parameter_longname" : "#1-Gain",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "Gain",
@@ -99,7 +99,7 @@
 
 					}
 ,
-					"varname" : "Gain"
+					"varname" : "#1-Gain"
 				}
 
 			}
@@ -131,7 +131,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "sine", "tri", "square", "saw", "noise", "pink" ],
-							"parameter_longname" : "Waveform",
+							"parameter_longname" : "#1-Waveform",
 							"parameter_mmax" : 5,
 							"parameter_shortname" : "Waveform",
 							"parameter_type" : 2
@@ -141,12 +141,14 @@
 ,
 					"usepicture" : 1,
 					"usesvgviewbox" : 1,
-					"varname" : "Waveform"
+					"varname" : "#1-Waveform"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-7",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -158,8 +160,8 @@
 					"presentation_rect" : [ 0.0, 0.0, 32.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "Osc",
+							"parameter_enum" : [ "Off", "On" ],
+							"parameter_longname" : "#1-Osc",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Osc",
 							"parameter_type" : 2
@@ -169,12 +171,13 @@
 ,
 					"text" : "Osc",
 					"texton" : "Osc",
-					"varname" : "Osc"
+					"varname" : "#1-Osc"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -264,26 +267,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 640.0, 72.0, 169.0, 20.0 ],
+					"patching_rect" : [ 640.0, 72.0, 198.0, 20.0 ],
 					"restore" : [ 0.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Waveform",
-							"parameter_mmax" : 5.0,
-							"parameter_shortname" : "Stored_Waveform",
-							"parameter_type" : 3
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
+						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Stored_Waveform Waveform",
-					"varname" : "Stored_Waveform"
+					"text" : "pattr #1-Stored_Waveform #1-Waveform",
+					"varname" : "#1-Stored_Waveform"
 				}
 
 			}
@@ -294,15 +286,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 640.0, 8.0, 111.0, 20.0 ],
+					"patching_rect" : [ 640.0, 8.0, 140.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Stored_Osc Osc",
-					"varname" : "Stored_Osc"
+					"text" : "pattr #1-Stored_Osc #1-Osc",
+					"varname" : "#1-Stored_Osc"
 				}
 
 			}
@@ -313,26 +305,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 640.0, 40.0, 118.0, 20.0 ],
+					"patching_rect" : [ 640.0, 40.0, 147.0, 20.0 ],
 					"restore" : [ 0.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Gain",
-							"parameter_mmax" : 157.0,
-							"parameter_shortname" : "Stored_Gain",
-							"parameter_type" : 3
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
+						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Stored_Gain Gain",
-					"varname" : "Stored_Gain"
+					"text" : "pattr #1-Stored_Gain #1-Gain",
+					"varname" : "#1-Stored_Gain"
 				}
 
 			}
@@ -364,6 +345,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -677,13 +659,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "Stored_Waveform", "Stored_Waveform", 0 ],
-			"obj-10" : [ "Stored_Gain", "Stored_Gain", 0 ],
 			"obj-12::obj-1::obj-1" : [ "Frequency", "Freq", 0 ],
 			"obj-12::obj-1::obj-11" : [ "Q", "Q", 0 ],
-			"obj-12::obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
 			"obj-12::obj-1::obj-6" : [ "Type", "Type", 0 ],
-			"obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"obj-12::obj-7" : [ "Fil", "Fil", 0 ],
 			"obj-15" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-17::obj-17" : [ "#1-Amount", "Amount", 0 ],
@@ -691,15 +669,40 @@
 			"obj-17::obj-20::obj-1" : [ "Stored_Function", "Stored_Function", 0 ],
 			"obj-2::obj-1::obj-11" : [ "Semi", "Semi", 0 ],
 			"obj-2::obj-1::obj-14" : [ "Freq", "Freq", 0 ],
-			"obj-2::obj-1::obj-15" : [ "Stored_Frequency[1]", "Stored_Frequency", 0 ],
-			"obj-2::obj-1::obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
 			"obj-2::obj-5" : [ "Note", "Note", 0 ],
 			"obj-4::obj-3" : [ "#1-Decay", "Decay", 0 ],
 			"obj-4::obj-7" : [ "#1-Attack", "Attack", 0 ],
-			"obj-5" : [ "Gain", "Gain", 0 ],
-			"obj-7" : [ "Osc", "Osc", 0 ],
-			"obj-9" : [ "Waveform", "Waveform", 0 ],
+			"obj-5" : [ "#1-Gain", "Gain", 0 ],
+			"obj-7" : [ "#1-Osc", "Osc", 0 ],
+			"obj-9" : [ "#1-Waveform", "Waveform", 0 ],
 			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-12::obj-1::obj-1" : 				{
+					"parameter_longname" : "Frequency"
+				}
+,
+				"obj-12::obj-1::obj-6" : 				{
+					"parameter_longname" : "Type"
+				}
+,
+				"obj-12::obj-7" : 				{
+					"parameter_longname" : "Fil"
+				}
+,
+				"obj-2::obj-1::obj-11" : 				{
+					"parameter_longname" : "Semi"
+				}
+,
+				"obj-2::obj-1::obj-14" : 				{
+					"parameter_longname" : "Freq"
+				}
+,
+				"obj-2::obj-5" : 				{
+					"parameter_longname" : "Note"
+				}
 
 			}
 ,

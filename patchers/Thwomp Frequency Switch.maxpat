@@ -40,6 +40,8 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-5",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -51,8 +53,8 @@
 					"presentation_rect" : [ 0.0, 0.0, 32.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "Note",
+							"parameter_enum" : [ "Off", "On" ],
+							"parameter_longname" : "#1-Note",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Note",
 							"parameter_type" : 2,
@@ -63,7 +65,7 @@
 ,
 					"text" : "Note",
 					"texton" : "Note",
-					"varname" : "Note"
+					"varname" : "#1-Note"
 				}
 
 			}
@@ -119,6 +121,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -148,15 +151,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 160.0, 8.0, 118.0, 20.0 ],
+					"patching_rect" : [ 160.0, 8.0, 147.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Stored_Note Note",
-					"varname" : "Stored_Note"
+					"text" : "pattr #1-Stored_Note #1-Note",
+					"varname" : "#1-Stored_Note"
 				}
 
 			}
@@ -229,10 +232,19 @@
 		"parameters" : 		{
 			"obj-1::obj-11" : [ "Semi", "Semi", 0 ],
 			"obj-1::obj-14" : [ "Freq", "Freq", 0 ],
-			"obj-1::obj-15" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
-			"obj-1::obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
-			"obj-5" : [ "Note", "Note", 0 ],
+			"obj-5" : [ "#1-Note", "Note", 0 ],
 			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-1::obj-11" : 				{
+					"parameter_longname" : "Semi"
+				}
+,
+				"obj-1::obj-14" : 				{
+					"parameter_longname" : "Freq"
+				}
 
 			}
 ,

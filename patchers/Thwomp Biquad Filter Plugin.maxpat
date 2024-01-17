@@ -57,20 +57,22 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 272.0, 152.0, 97.0, 20.0 ],
+					"patching_rect" : [ 272.0, 152.0, 126.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Stored_Fil Fil",
-					"varname" : "Stored_Fil"
+					"text" : "pattr #1-Stored_Fil #1-Fil",
+					"varname" : "#1-Stored_Fil"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-7",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -82,8 +84,8 @@
 					"presentation_rect" : [ 0.0, 0.0, 32.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "Fil",
+							"parameter_enum" : [ "Off", "On" ],
+							"parameter_longname" : "#1-Fil",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Fil",
 							"parameter_type" : 2
@@ -93,7 +95,7 @@
 ,
 					"text" : "Fil",
 					"texton" : "Fil",
-					"varname" : "Fil"
+					"varname" : "#1-Fil"
 				}
 
 			}
@@ -261,7 +263,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -269,7 +271,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -311,7 +313,7 @@
 			"obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
 			"obj-1::obj-6" : [ "Type", "Type", 0 ],
 			"obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
-			"obj-7" : [ "Fil", "Fil", 0 ],
+			"obj-7" : [ "#1-Fil", "Fil", 0 ],
 			"parameterbanks" : 			{
 
 			}
