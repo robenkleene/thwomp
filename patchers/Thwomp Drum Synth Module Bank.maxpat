@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 313.0, 100.0, 939.0, 759.0 ],
+		"rect" : [ 620.0, 101.0, 617.0, 977.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -189,6 +189,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ 3 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -253,6 +254,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ 2 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -277,6 +279,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ 1 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -301,6 +304,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ 4 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -419,11 +423,9 @@
 			"obj-17::obj-12::obj-1::obj-8" : [ "Stored_Frequency[6]", "Stored_Frequency", 0 ],
 			"obj-17::obj-12::obj-7" : [ "Fil[3]", "Fil", 0 ],
 			"obj-17::obj-15" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-17::obj-17::obj-17" : [ "Amount[3]", "Amount", 0 ],
-			"obj-17::obj-17::obj-18" : [ "Duration[3]", "Duration", 0 ],
+			"obj-17::obj-17::obj-17" : [ "3-Amount", "Amount", 0 ],
+			"obj-17::obj-17::obj-18" : [ "3-Duration", "Duration", 0 ],
 			"obj-17::obj-17::obj-20::obj-1" : [ "Stored_Function[3]", "Stored_Function", 0 ],
-			"obj-17::obj-17::obj-6" : [ "Stored_Amount[3]", "Stored_Amount", 0 ],
-			"obj-17::obj-17::obj-9" : [ "Stored_Duration[3]", "Stored_Duration", 0 ],
 			"obj-17::obj-2::obj-1::obj-11" : [ "Semi[3]", "Semi", 0 ],
 			"obj-17::obj-2::obj-1::obj-14" : [ "Freq[3]", "Freq", 0 ],
 			"obj-17::obj-2::obj-1::obj-15" : [ "Stored_Frequency[7]", "Stored_Frequency", 0 ],
@@ -445,11 +447,9 @@
 			"obj-1::obj-12::obj-1::obj-8" : [ "Stored_Frequency[2]", "Stored_Frequency", 0 ],
 			"obj-1::obj-12::obj-7" : [ "Fil[1]", "Fil", 0 ],
 			"obj-1::obj-15" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-1::obj-17::obj-17" : [ "Amount[1]", "Amount", 0 ],
-			"obj-1::obj-17::obj-18" : [ "Duration[1]", "Duration", 0 ],
+			"obj-1::obj-17::obj-17" : [ "1-Amount", "Amount", 0 ],
+			"obj-1::obj-17::obj-18" : [ "1-Duration", "Duration", 0 ],
 			"obj-1::obj-17::obj-20::obj-1" : [ "Stored_Function[1]", "Stored_Function", 0 ],
-			"obj-1::obj-17::obj-6" : [ "Stored_Amount[1]", "Stored_Amount", 0 ],
-			"obj-1::obj-17::obj-9" : [ "Stored_Duration[1]", "Stored_Duration", 0 ],
 			"obj-1::obj-2::obj-1::obj-11" : [ "Semi[1]", "Semi", 0 ],
 			"obj-1::obj-2::obj-1::obj-14" : [ "Freq[1]", "Freq", 0 ],
 			"obj-1::obj-2::obj-1::obj-15" : [ "Stored_Frequency[3]", "Stored_Frequency", 0 ],
@@ -471,11 +471,9 @@
 			"obj-3::obj-12::obj-1::obj-8" : [ "Stored_Frequency[4]", "Stored_Frequency", 0 ],
 			"obj-3::obj-12::obj-7" : [ "Fil[2]", "Fil", 0 ],
 			"obj-3::obj-15" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-3::obj-17::obj-17" : [ "Amount[2]", "Amount", 0 ],
-			"obj-3::obj-17::obj-18" : [ "Duration[2]", "Duration", 0 ],
+			"obj-3::obj-17::obj-17" : [ "2-Amount", "Amount", 0 ],
+			"obj-3::obj-17::obj-18" : [ "2-Duration", "Duration", 0 ],
 			"obj-3::obj-17::obj-20::obj-1" : [ "Stored_Function[2]", "Stored_Function", 0 ],
-			"obj-3::obj-17::obj-6" : [ "Stored_Amount[2]", "Stored_Amount", 0 ],
-			"obj-3::obj-17::obj-9" : [ "Stored_Duration[2]", "Stored_Duration", 0 ],
 			"obj-3::obj-2::obj-1::obj-11" : [ "Semi[2]", "Semi", 0 ],
 			"obj-3::obj-2::obj-1::obj-14" : [ "Freq[2]", "Freq", 0 ],
 			"obj-3::obj-2::obj-1::obj-15" : [ "Stored_Frequency[5]", "Stored_Frequency", 0 ],
@@ -497,11 +495,9 @@
 			"obj-44::obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"obj-44::obj-12::obj-7" : [ "Fil", "Fil", 0 ],
 			"obj-44::obj-15" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-44::obj-17::obj-17" : [ "Amount", "Amount", 0 ],
-			"obj-44::obj-17::obj-18" : [ "Duration", "Duration", 0 ],
+			"obj-44::obj-17::obj-17" : [ "4-Amount", "Amount", 0 ],
+			"obj-44::obj-17::obj-18" : [ "4-Duration", "Duration", 0 ],
 			"obj-44::obj-17::obj-20::obj-1" : [ "Stored_Function", "Stored_Function", 0 ],
-			"obj-44::obj-17::obj-6" : [ "Stored_Amount", "Stored_Amount", 0 ],
-			"obj-44::obj-17::obj-9" : [ "Stored_Duration", "Stored_Duration", 0 ],
 			"obj-44::obj-2::obj-1::obj-11" : [ "Semi", "Semi", 0 ],
 			"obj-44::obj-2::obj-1::obj-14" : [ "Freq", "Freq", 0 ],
 			"obj-44::obj-2::obj-1::obj-15" : [ "Stored_Frequency[1]", "Stored_Frequency", 0 ],
@@ -537,14 +533,6 @@
 ,
 				"obj-17::obj-15" : 				{
 					"parameter_longname" : "live.gain~[3]"
-				}
-,
-				"obj-17::obj-17::obj-17" : 				{
-					"parameter_longname" : "Amount[3]"
-				}
-,
-				"obj-17::obj-17::obj-18" : 				{
-					"parameter_longname" : "Duration[3]"
 				}
 ,
 				"obj-17::obj-2::obj-1::obj-11" : 				{
@@ -599,14 +587,6 @@
 					"parameter_longname" : "live.gain~[1]"
 				}
 ,
-				"obj-1::obj-17::obj-17" : 				{
-					"parameter_longname" : "Amount[1]"
-				}
-,
-				"obj-1::obj-17::obj-18" : 				{
-					"parameter_longname" : "Duration[1]"
-				}
-,
 				"obj-1::obj-2::obj-1::obj-11" : 				{
 					"parameter_longname" : "Semi[1]"
 				}
@@ -657,14 +637,6 @@
 ,
 				"obj-3::obj-15" : 				{
 					"parameter_longname" : "live.gain~[2]"
-				}
-,
-				"obj-3::obj-17::obj-17" : 				{
-					"parameter_longname" : "Amount[2]"
-				}
-,
-				"obj-3::obj-17::obj-18" : 				{
-					"parameter_longname" : "Duration[2]"
 				}
 ,
 				"obj-3::obj-2::obj-1::obj-11" : 				{

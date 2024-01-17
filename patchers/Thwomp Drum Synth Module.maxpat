@@ -473,6 +473,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -684,11 +685,9 @@
 			"obj-12::obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"obj-12::obj-7" : [ "Fil", "Fil", 0 ],
 			"obj-15" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-17::obj-17" : [ "Amount", "Amount", 0 ],
-			"obj-17::obj-18" : [ "Duration", "Duration", 0 ],
+			"obj-17::obj-17" : [ "#1-Amount", "Amount", 0 ],
+			"obj-17::obj-18" : [ "#1-Duration", "Duration", 0 ],
 			"obj-17::obj-20::obj-1" : [ "Stored_Function", "Stored_Function", 0 ],
-			"obj-17::obj-6" : [ "Stored_Amount", "Stored_Amount", 0 ],
-			"obj-17::obj-9" : [ "Stored_Duration", "Stored_Duration", 0 ],
 			"obj-2::obj-1::obj-11" : [ "Semi", "Semi", 0 ],
 			"obj-2::obj-1::obj-14" : [ "Freq", "Freq", 0 ],
 			"obj-2::obj-1::obj-15" : [ "Stored_Frequency[1]", "Stored_Frequency", 0 ],

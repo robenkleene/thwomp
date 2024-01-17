@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 628.0, 323.0, 615.0, 527.0 ],
+		"rect" : [ 469.0, 322.0, 634.0, 724.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -64,7 +64,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_exponent" : 5.0,
-							"parameter_longname" : "Duration",
+							"parameter_longname" : "#1-Duration",
 							"parameter_mmax" : 15000.0,
 							"parameter_shortname" : "Duration",
 							"parameter_type" : 0,
@@ -73,7 +73,7 @@
 
 					}
 ,
-					"varname" : "Duration"
+					"varname" : "#1-Duration"
 				}
 
 			}
@@ -91,7 +91,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_exponent" : 5.0,
-							"parameter_longname" : "Amount",
+							"parameter_longname" : "#1-Amount",
 							"parameter_mmax" : 15000.0,
 							"parameter_shortname" : "Amount",
 							"parameter_type" : 0,
@@ -100,7 +100,7 @@
 
 					}
 ,
-					"varname" : "Amount"
+					"varname" : "#1-Amount"
 				}
 
 			}
@@ -124,26 +124,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 240.0, 32.0, 156.0, 20.0 ],
+					"patching_rect" : [ 240.0, 32.0, 185.0, 20.0 ],
 					"restore" : [ 0.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Duration",
-							"parameter_mmax" : 15000.0,
-							"parameter_shortname" : "Stored_Duration",
-							"parameter_type" : 3
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
+						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Stored_Duration Duration",
-					"varname" : "Stored_Duration"
+					"text" : "pattr #1-Stored_Duration #1-Duration",
+					"varname" : "#1-Stored_Duration"
 				}
 
 			}
@@ -154,26 +143,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 240.0, 8.0, 149.0, 20.0 ],
+					"patching_rect" : [ 240.0, 8.0, 178.0, 20.0 ],
 					"restore" : [ 0.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Amount",
-							"parameter_mmax" : 15000.0,
-							"parameter_shortname" : "Stored_Amount",
-							"parameter_type" : 3
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
+						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Stored_Amount Amount",
-					"varname" : "Stored_Amount"
+					"text" : "pattr #1-Stored_Amount #1-Amount",
+					"varname" : "#1-Stored_Amount"
 				}
 
 			}
@@ -310,11 +288,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-17" : [ "Amount", "Amount", 0 ],
-			"obj-18" : [ "Duration", "Duration", 0 ],
+			"obj-17" : [ "#1-Amount", "Amount", 0 ],
+			"obj-18" : [ "#1-Duration", "Duration", 0 ],
 			"obj-20::obj-1" : [ "Stored_Function", "Stored_Function", 0 ],
-			"obj-6" : [ "Stored_Amount", "Stored_Amount", 0 ],
-			"obj-9" : [ "Stored_Duration", "Stored_Duration", 0 ],
 			"parameterbanks" : 			{
 
 			}
