@@ -660,7 +660,7 @@
  ],
 		"parameters" : 		{
 			"obj-12::obj-1::obj-1" : [ "#1-Frequency", "Freq", 0 ],
-			"obj-12::obj-1::obj-11" : [ "Q", "Q", 0 ],
+			"obj-12::obj-1::obj-11" : [ "#1-Q", "Q", 0 ],
 			"obj-12::obj-1::obj-6" : [ "#1-Type", "Type", 0 ],
 			"obj-12::obj-7" : [ "#1-Fil", "Fil", 0 ],
 			"obj-15" : [ "live.gain~", "live.gain~", 0 ],

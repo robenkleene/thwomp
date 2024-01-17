@@ -844,6 +844,10 @@
 				"obj-1::obj-3::obj-15" : 				{
 					"parameter_longname" : "live.gain~[5]"
 				}
+,
+				"obj-1::obj-44::obj-12::obj-1::obj-11" : 				{
+					"parameter_longname" : "Q"
+				}
 
 			}
 ,
