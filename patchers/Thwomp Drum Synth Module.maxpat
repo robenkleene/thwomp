@@ -659,14 +659,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-12::obj-1::obj-1" : [ "0-Frequency", "Freq", 0 ],
+			"obj-12::obj-1::obj-1" : [ "#1-Frequency", "Freq", 0 ],
 			"obj-12::obj-1::obj-11" : [ "Q", "Q", 0 ],
-			"obj-12::obj-1::obj-6" : [ "0-Type", "Type", 0 ],
+			"obj-12::obj-1::obj-6" : [ "#1-Type", "Type", 0 ],
 			"obj-12::obj-7" : [ "#1-Fil", "Fil", 0 ],
 			"obj-15" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-17::obj-17" : [ "#1-Amount", "Amount", 0 ],
 			"obj-17::obj-18" : [ "#1-Duration", "Duration", 0 ],
-			"obj-17::obj-20::obj-1" : [ "Stored_Function", "Stored_Function", 0 ],
 			"obj-2::obj-1::obj-11" : [ "#1-Semi", "Semi", 0 ],
 			"obj-2::obj-1::obj-14" : [ "#1-Freq", "Freq", 0 ],
 			"obj-2::obj-5" : [ "#1-Note", "Note", 0 ],

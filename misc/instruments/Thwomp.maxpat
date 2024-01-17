@@ -258,14 +258,13 @@
 			"obj-1::obj-13" : [ "Stored_Volume", "Stored_Volume", 0 ],
 			"obj-1::obj-17" : [ "live.gain~[4]", "live.gain~", 0 ],
 			"obj-1::obj-19" : [ "Tab", "Tab", 0 ],
-			"obj-1::obj-1::obj-17::obj-12::obj-1::obj-1" : [ "0-Frequency[3]", "Freq", 0 ],
+			"obj-1::obj-1::obj-17::obj-12::obj-1::obj-1" : [ "3-Frequency", "Freq", 0 ],
 			"obj-1::obj-1::obj-17::obj-12::obj-1::obj-11" : [ "Q[3]", "Q", 0 ],
-			"obj-1::obj-1::obj-17::obj-12::obj-1::obj-6" : [ "0-Type[3]", "Type", 0 ],
+			"obj-1::obj-1::obj-17::obj-12::obj-1::obj-6" : [ "3-Type", "Type", 0 ],
 			"obj-1::obj-1::obj-17::obj-12::obj-7" : [ "3-Fil", "Fil", 0 ],
 			"obj-1::obj-1::obj-17::obj-15" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-1::obj-1::obj-17::obj-17::obj-17" : [ "3-Amount", "Amount", 0 ],
 			"obj-1::obj-1::obj-17::obj-17::obj-18" : [ "3-Duration", "Duration", 0 ],
-			"obj-1::obj-1::obj-17::obj-17::obj-20::obj-1" : [ "Stored_Function[3]", "Stored_Function", 0 ],
 			"obj-1::obj-1::obj-17::obj-2::obj-1::obj-11" : [ "3-Semi", "Semi", 0 ],
 			"obj-1::obj-1::obj-17::obj-2::obj-1::obj-14" : [ "3-Freq", "Freq", 0 ],
 			"obj-1::obj-1::obj-17::obj-2::obj-5" : [ "3-Note", "Note", 0 ],
@@ -274,14 +273,13 @@
 			"obj-1::obj-1::obj-17::obj-5" : [ "3-Gain", "Gain", 0 ],
 			"obj-1::obj-1::obj-17::obj-7" : [ "3-Osc", "Osc", 0 ],
 			"obj-1::obj-1::obj-17::obj-9" : [ "3-Waveform", "Waveform", 0 ],
-			"obj-1::obj-1::obj-1::obj-12::obj-1::obj-1" : [ "0-Frequency[1]", "Freq", 0 ],
+			"obj-1::obj-1::obj-1::obj-12::obj-1::obj-1" : [ "1-Frequency", "Freq", 0 ],
 			"obj-1::obj-1::obj-1::obj-12::obj-1::obj-11" : [ "Q[1]", "Q", 0 ],
-			"obj-1::obj-1::obj-1::obj-12::obj-1::obj-6" : [ "0-Type[1]", "Type", 0 ],
+			"obj-1::obj-1::obj-1::obj-12::obj-1::obj-6" : [ "1-Type", "Type", 0 ],
 			"obj-1::obj-1::obj-1::obj-12::obj-7" : [ "1-Fil", "Fil", 0 ],
 			"obj-1::obj-1::obj-1::obj-15" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-1::obj-1::obj-1::obj-17::obj-17" : [ "1-Amount", "Amount", 0 ],
 			"obj-1::obj-1::obj-1::obj-17::obj-18" : [ "1-Duration", "Duration", 0 ],
-			"obj-1::obj-1::obj-1::obj-17::obj-20::obj-1" : [ "Stored_Function[1]", "Stored_Function", 0 ],
 			"obj-1::obj-1::obj-1::obj-2::obj-1::obj-11" : [ "1-Semi", "Semi", 0 ],
 			"obj-1::obj-1::obj-1::obj-2::obj-1::obj-14" : [ "1-Freq", "Freq", 0 ],
 			"obj-1::obj-1::obj-1::obj-2::obj-5" : [ "1-Note", "Note", 0 ],
@@ -290,14 +288,13 @@
 			"obj-1::obj-1::obj-1::obj-5" : [ "1-Gain", "Gain", 0 ],
 			"obj-1::obj-1::obj-1::obj-7" : [ "1-Osc", "Osc", 0 ],
 			"obj-1::obj-1::obj-1::obj-9" : [ "1-Waveform", "Waveform", 0 ],
-			"obj-1::obj-1::obj-3::obj-12::obj-1::obj-1" : [ "0-Frequency[2]", "Freq", 0 ],
+			"obj-1::obj-1::obj-3::obj-12::obj-1::obj-1" : [ "2-Frequency", "Freq", 0 ],
 			"obj-1::obj-1::obj-3::obj-12::obj-1::obj-11" : [ "Q[2]", "Q", 0 ],
-			"obj-1::obj-1::obj-3::obj-12::obj-1::obj-6" : [ "0-Type[2]", "Type", 0 ],
+			"obj-1::obj-1::obj-3::obj-12::obj-1::obj-6" : [ "2-Type", "Type", 0 ],
 			"obj-1::obj-1::obj-3::obj-12::obj-7" : [ "2-Fil", "Fil", 0 ],
 			"obj-1::obj-1::obj-3::obj-15" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-1::obj-1::obj-3::obj-17::obj-17" : [ "2-Amount", "Amount", 0 ],
 			"obj-1::obj-1::obj-3::obj-17::obj-18" : [ "2-Duration", "Duration", 0 ],
-			"obj-1::obj-1::obj-3::obj-17::obj-20::obj-1" : [ "Stored_Function[2]", "Stored_Function", 0 ],
 			"obj-1::obj-1::obj-3::obj-2::obj-1::obj-11" : [ "2-Semi", "Semi", 0 ],
 			"obj-1::obj-1::obj-3::obj-2::obj-1::obj-14" : [ "2-Freq", "Freq", 0 ],
 			"obj-1::obj-1::obj-3::obj-2::obj-5" : [ "2-Note", "Note", 0 ],
@@ -306,14 +303,13 @@
 			"obj-1::obj-1::obj-3::obj-5" : [ "2-Gain", "Gain", 0 ],
 			"obj-1::obj-1::obj-3::obj-7" : [ "2-Osc", "Osc", 0 ],
 			"obj-1::obj-1::obj-3::obj-9" : [ "2-Waveform", "Waveform", 0 ],
-			"obj-1::obj-1::obj-44::obj-12::obj-1::obj-1" : [ "0-Frequency", "Freq", 0 ],
+			"obj-1::obj-1::obj-44::obj-12::obj-1::obj-1" : [ "4-Frequency", "Freq", 0 ],
 			"obj-1::obj-1::obj-44::obj-12::obj-1::obj-11" : [ "Q", "Q", 0 ],
-			"obj-1::obj-1::obj-44::obj-12::obj-1::obj-6" : [ "0-Type", "Type", 0 ],
+			"obj-1::obj-1::obj-44::obj-12::obj-1::obj-6" : [ "4-Type", "Type", 0 ],
 			"obj-1::obj-1::obj-44::obj-12::obj-7" : [ "4-Fil", "Fil", 0 ],
 			"obj-1::obj-1::obj-44::obj-15" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-1::obj-1::obj-44::obj-17::obj-17" : [ "4-Amount", "Amount", 0 ],
 			"obj-1::obj-1::obj-44::obj-17::obj-18" : [ "4-Duration", "Duration", 0 ],
-			"obj-1::obj-1::obj-44::obj-17::obj-20::obj-1" : [ "Stored_Function", "Stored_Function", 0 ],
 			"obj-1::obj-1::obj-44::obj-2::obj-1::obj-11" : [ "4-Semi", "Semi", 0 ],
 			"obj-1::obj-1::obj-44::obj-2::obj-1::obj-14" : [ "4-Freq", "Freq", 0 ],
 			"obj-1::obj-1::obj-44::obj-2::obj-5" : [ "4-Note", "Note", 0 ],
@@ -331,48 +327,24 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-1::obj-1::obj-17::obj-12::obj-1::obj-1" : 				{
-					"parameter_longname" : "0-Frequency[3]"
-				}
-,
 				"obj-1::obj-1::obj-17::obj-12::obj-1::obj-11" : 				{
 					"parameter_longname" : "Q[3]"
-				}
-,
-				"obj-1::obj-1::obj-17::obj-12::obj-1::obj-6" : 				{
-					"parameter_longname" : "0-Type[3]"
 				}
 ,
 				"obj-1::obj-1::obj-17::obj-15" : 				{
 					"parameter_longname" : "live.gain~[3]"
 				}
 ,
-				"obj-1::obj-1::obj-1::obj-12::obj-1::obj-1" : 				{
-					"parameter_longname" : "0-Frequency[1]"
-				}
-,
 				"obj-1::obj-1::obj-1::obj-12::obj-1::obj-11" : 				{
 					"parameter_longname" : "Q[1]"
-				}
-,
-				"obj-1::obj-1::obj-1::obj-12::obj-1::obj-6" : 				{
-					"parameter_longname" : "0-Type[1]"
 				}
 ,
 				"obj-1::obj-1::obj-1::obj-15" : 				{
 					"parameter_longname" : "live.gain~[1]"
 				}
 ,
-				"obj-1::obj-1::obj-3::obj-12::obj-1::obj-1" : 				{
-					"parameter_longname" : "0-Frequency[2]"
-				}
-,
 				"obj-1::obj-1::obj-3::obj-12::obj-1::obj-11" : 				{
 					"parameter_longname" : "Q[2]"
-				}
-,
-				"obj-1::obj-1::obj-3::obj-12::obj-1::obj-6" : 				{
-					"parameter_longname" : "0-Type[2]"
 				}
 ,
 				"obj-1::obj-1::obj-3::obj-15" : 				{
