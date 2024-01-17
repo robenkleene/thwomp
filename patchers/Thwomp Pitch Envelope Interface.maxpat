@@ -181,6 +181,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -290,7 +291,6 @@
 		"parameters" : 		{
 			"obj-17" : [ "#1-Amount", "Amount", 0 ],
 			"obj-18" : [ "#1-Duration", "Duration", 0 ],
-			"obj-20::obj-1" : [ "Stored_Function", "Stored_Function", 0 ],
 			"parameterbanks" : 			{
 
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 754.0, 100.0, 349.0, 321.0 ],
+		"rect" : [ 754.0, 100.0, 614.0, 807.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -72,25 +72,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 248.0, 8.0, 158.0, 20.0 ],
+					"patching_rect" : [ 248.0, 8.0, 187.0, 20.0 ],
 					"restore" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Function",
-							"parameter_shortname" : "Stored_Function",
-							"parameter_type" : 3
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
+						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Stored_Function Function",
-					"varname" : "Stored_Function"
+					"text" : "pattr #1-Stored_Function #1-Function",
+					"varname" : "#1-Stored_Function"
 				}
 
 			}
@@ -190,7 +180,7 @@
 					"patching_rect" : [ 16.0, 304.0, 195.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 152.0, 104.0 ],
-					"varname" : "Function"
+					"varname" : "#1-Function"
 				}
 
 			}
@@ -276,7 +266,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "Stored_Function", "Stored_Function", 0 ],
 			"parameterbanks" : 			{
 
 			}

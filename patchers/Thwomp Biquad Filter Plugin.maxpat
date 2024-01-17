@@ -113,6 +113,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -185,6 +186,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -310,11 +312,20 @@
 		"parameters" : 		{
 			"obj-1::obj-1" : [ "Frequency", "Freq", 0 ],
 			"obj-1::obj-11" : [ "Q", "Q", 0 ],
-			"obj-1::obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
 			"obj-1::obj-6" : [ "Type", "Type", 0 ],
-			"obj-1::obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
 			"obj-7" : [ "#1-Fil", "Fil", 0 ],
 			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-1::obj-1" : 				{
+					"parameter_longname" : "Frequency"
+				}
+,
+				"obj-1::obj-6" : 				{
+					"parameter_longname" : "Type"
+				}
 
 			}
 ,
