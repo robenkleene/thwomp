@@ -402,6 +402,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -693,10 +694,8 @@
 			"obj-2::obj-1::obj-15" : [ "Stored_Frequency[1]", "Stored_Frequency", 0 ],
 			"obj-2::obj-1::obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
 			"obj-2::obj-5" : [ "Note", "Note", 0 ],
-			"obj-4::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
-			"obj-4::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
-			"obj-4::obj-3" : [ "Decay", "Decay", 0 ],
-			"obj-4::obj-7" : [ "Attack", "Attack", 0 ],
+			"obj-4::obj-3" : [ "#1-Decay", "Decay", 0 ],
+			"obj-4::obj-7" : [ "#1-Attack", "Attack", 0 ],
 			"obj-5" : [ "Gain", "Gain", 0 ],
 			"obj-7" : [ "Osc", "Osc", 0 ],
 			"obj-9" : [ "Waveform", "Waveform", 0 ],
