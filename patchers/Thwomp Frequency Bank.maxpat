@@ -124,15 +124,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 216.0, 40.0, 160.0, 20.0 ],
-					"restore" : [ 0 ],
+					"patching_rect" : [ 216.0, 40.0, 150.0, 20.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr #1-Stored_Offset #1-Offset",
-					"varname" : "#1-Stored_Offset"
+					"text" : "pattr #1-Stored_Semi #1-Semi",
+					"varname" : "#1-Stored_Semi"
 				}
 
 			}
