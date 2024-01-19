@@ -256,13 +256,11 @@
 		"parameters" : 		{
 			"obj-1::obj-11" : [ "Volume", "Volume", 0 ],
 			"obj-1::obj-13" : [ "Stored_Volume", "Stored_Volume", 0 ],
-			"obj-1::obj-17" : [ "live.gain~[4]", "live.gain~", 0 ],
 			"obj-1::obj-19" : [ "Tab", "Tab", 0 ],
 			"obj-1::obj-1::obj-17::obj-12::obj-1::obj-1" : [ "3-Frequency", "Freq", 0 ],
 			"obj-1::obj-1::obj-17::obj-12::obj-1::obj-11" : [ "3-Q", "Q", 0 ],
 			"obj-1::obj-1::obj-17::obj-12::obj-1::obj-6" : [ "3-Type", "Type", 0 ],
 			"obj-1::obj-1::obj-17::obj-12::obj-7" : [ "3-Fil", "Fil", 0 ],
-			"obj-1::obj-1::obj-17::obj-15" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-1::obj-1::obj-17::obj-17::obj-17" : [ "3-Amount", "Amount", 0 ],
 			"obj-1::obj-1::obj-17::obj-17::obj-18" : [ "3-Duration", "Duration", 0 ],
 			"obj-1::obj-1::obj-17::obj-2::obj-1::obj-11" : [ "3-Semi", "Semi", 0 ],
@@ -277,7 +275,6 @@
 			"obj-1::obj-1::obj-1::obj-12::obj-1::obj-11" : [ "1-Q", "Q", 0 ],
 			"obj-1::obj-1::obj-1::obj-12::obj-1::obj-6" : [ "1-Type", "Type", 0 ],
 			"obj-1::obj-1::obj-1::obj-12::obj-7" : [ "1-Fil", "Fil", 0 ],
-			"obj-1::obj-1::obj-1::obj-15" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-1::obj-1::obj-1::obj-17::obj-17" : [ "1-Amount", "Amount", 0 ],
 			"obj-1::obj-1::obj-1::obj-17::obj-18" : [ "1-Duration", "Duration", 0 ],
 			"obj-1::obj-1::obj-1::obj-2::obj-1::obj-11" : [ "1-Semi", "Semi", 0 ],
@@ -292,7 +289,6 @@
 			"obj-1::obj-1::obj-3::obj-12::obj-1::obj-11" : [ "2-Q", "Q", 0 ],
 			"obj-1::obj-1::obj-3::obj-12::obj-1::obj-6" : [ "2-Type", "Type", 0 ],
 			"obj-1::obj-1::obj-3::obj-12::obj-7" : [ "2-Fil", "Fil", 0 ],
-			"obj-1::obj-1::obj-3::obj-15" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-1::obj-1::obj-3::obj-17::obj-17" : [ "2-Amount", "Amount", 0 ],
 			"obj-1::obj-1::obj-3::obj-17::obj-18" : [ "2-Duration", "Duration", 0 ],
 			"obj-1::obj-1::obj-3::obj-2::obj-1::obj-11" : [ "2-Semi", "Semi", 0 ],
@@ -307,7 +303,6 @@
 			"obj-1::obj-1::obj-44::obj-12::obj-1::obj-11" : [ "4-Q", "Q", 0 ],
 			"obj-1::obj-1::obj-44::obj-12::obj-1::obj-6" : [ "4-Type", "Type", 0 ],
 			"obj-1::obj-1::obj-44::obj-12::obj-7" : [ "4-Fil", "Fil", 0 ],
-			"obj-1::obj-1::obj-44::obj-15" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-1::obj-1::obj-44::obj-17::obj-17" : [ "4-Amount", "Amount", 0 ],
 			"obj-1::obj-1::obj-44::obj-17::obj-18" : [ "4-Duration", "Duration", 0 ],
 			"obj-1::obj-1::obj-44::obj-2::obj-1::obj-11" : [ "4-Semi", "Semi", 0 ],
@@ -323,21 +318,6 @@
 			"obj-1::obj-30" : [ "live.text[2]", "live.text[2]", 0 ],
 			"obj-1::obj-4" : [ "Stored_Tab", "Stored_Tab", 0 ],
 			"parameterbanks" : 			{
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-1::obj-1::obj-17::obj-15" : 				{
-					"parameter_longname" : "live.gain~[3]"
-				}
-,
-				"obj-1::obj-1::obj-1::obj-15" : 				{
-					"parameter_longname" : "live.gain~[1]"
-				}
-,
-				"obj-1::obj-1::obj-3::obj-15" : 				{
-					"parameter_longname" : "live.gain~[2]"
-				}
 
 			}
 ,
