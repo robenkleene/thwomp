@@ -314,8 +314,8 @@
 			"obj-1::obj-1::obj-44::obj-7" : [ "4-Osc", "Osc", 0 ],
 			"obj-1::obj-1::obj-44::obj-9" : [ "4-Waveform", "Waveform", 0 ],
 			"obj-1::obj-24" : [ "Overwrite", "Overwrite", 0 ],
-			"obj-1::obj-29" : [ "live.text[1]", "live.text[1]", 0 ],
-			"obj-1::obj-30" : [ "live.text[2]", "live.text[2]", 0 ],
+			"obj-1::obj-29" : [ "Write", "Write", 0 ],
+			"obj-1::obj-30" : [ "Read", "Read", 0 ],
 			"obj-1::obj-4" : [ "Stored_Tab", "Stored_Tab", 0 ],
 			"parameterbanks" : 			{
 
