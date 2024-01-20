@@ -255,7 +255,6 @@
  ],
 		"parameters" : 		{
 			"obj-1::obj-11" : [ "Volume", "Volume", 0 ],
-			"obj-1::obj-13" : [ "Stored_Volume", "Stored_Volume", 0 ],
 			"obj-1::obj-19" : [ "Tab", "Tab", 0 ],
 			"obj-1::obj-1::obj-17::obj-12::obj-1::obj-1" : [ "3-Frequency", "Freq", 0 ],
 			"obj-1::obj-1::obj-17::obj-12::obj-1::obj-11" : [ "3-Q", "Q", 0 ],
@@ -316,7 +315,6 @@
 			"obj-1::obj-24" : [ "Overwrite", "Overwrite", 0 ],
 			"obj-1::obj-29" : [ "Write", "Write", 0 ],
 			"obj-1::obj-30" : [ "Read", "Read", 0 ],
-			"obj-1::obj-4" : [ "Stored_Tab", "Stored_Tab", 0 ],
 			"parameterbanks" : 			{
 
 			}
