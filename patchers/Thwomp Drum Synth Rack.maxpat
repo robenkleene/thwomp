@@ -112,6 +112,8 @@
 			}
 , 			{
 				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-30",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -124,7 +126,7 @@
 					"presentation_rect" : [ 296.0, 8.0, 24.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Read",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Read",
@@ -140,6 +142,8 @@
 			}
 , 			{
 				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-29",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -152,7 +156,7 @@
 					"presentation_rect" : [ 296.0, 24.0, 24.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Write",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Write",
@@ -168,6 +172,8 @@
 			}
 , 			{
 				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-24",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -179,7 +185,7 @@
 					"presentation_rect" : [ 296.0, 40.0, 24.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Overwrite",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Overwrite",
