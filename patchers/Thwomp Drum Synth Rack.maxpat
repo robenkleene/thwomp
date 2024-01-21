@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "int: Selected tab",
+					"id" : "obj-17",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 224.0, 536.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-34",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -281,7 +293,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(Signal) Mono",
 					"id" : "obj-15",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -632,7 +644,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"order" : 0,
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
+					"order" : 1,
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -822,6 +843,25 @@
 			"obj-29" : [ "Write", "Write", 0 ],
 			"obj-30" : [ "Read", "Read", 0 ],
 			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-1::obj-17::obj-2::obj-1::obj-14" : 				{
+					"parameter_longname" : "3-Freq"
+				}
+,
+				"obj-1::obj-1::obj-2::obj-1::obj-14" : 				{
+					"parameter_longname" : "1-Freq"
+				}
+,
+				"obj-1::obj-3::obj-2::obj-1::obj-14" : 				{
+					"parameter_longname" : "2-Freq"
+				}
+,
+				"obj-1::obj-44::obj-2::obj-1::obj-14" : 				{
+					"parameter_longname" : "4-Freq"
+				}
 
 			}
 ,

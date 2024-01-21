@@ -114,9 +114,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "Thwomp Drum Synth Rack.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 2,
+					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal" ],
+					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 15.0, 135.0, 337.0, 161.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 64.0, 0.0, 344.0, 168.0 ],
@@ -316,6 +316,25 @@
 			"obj-1::obj-29" : [ "Write", "Write", 0 ],
 			"obj-1::obj-30" : [ "Read", "Read", 0 ],
 			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-1::obj-1::obj-17::obj-2::obj-1::obj-14" : 				{
+					"parameter_longname" : "3-Freq"
+				}
+,
+				"obj-1::obj-1::obj-1::obj-2::obj-1::obj-14" : 				{
+					"parameter_longname" : "1-Freq"
+				}
+,
+				"obj-1::obj-1::obj-3::obj-2::obj-1::obj-14" : 				{
+					"parameter_longname" : "2-Freq"
+				}
+,
+				"obj-1::obj-1::obj-44::obj-2::obj-1::obj-14" : 				{
+					"parameter_longname" : "4-Freq"
+				}
 
 			}
 ,

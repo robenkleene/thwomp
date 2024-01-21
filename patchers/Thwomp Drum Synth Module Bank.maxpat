@@ -474,6 +474,25 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-17::obj-2::obj-1::obj-14" : 				{
+					"parameter_longname" : "3-Freq"
+				}
+,
+				"obj-1::obj-2::obj-1::obj-14" : 				{
+					"parameter_longname" : "1-Freq"
+				}
+,
+				"obj-3::obj-2::obj-1::obj-14" : 				{
+					"parameter_longname" : "2-Freq"
+				}
+,
+				"obj-44::obj-2::obj-1::obj-14" : 				{
+					"parameter_longname" : "4-Freq"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,

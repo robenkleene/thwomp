@@ -316,7 +316,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 640.0, 40.0, 147.0, 20.0 ],
-					"restore" : [ -27.511811023622055 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -700,6 +700,13 @@
 			"obj-7" : [ "#1-Osc", "Osc", 0 ],
 			"obj-9" : [ "#1-Waveform", "Waveform", 0 ],
 			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-2::obj-1::obj-14" : 				{
+					"parameter_longname" : "#1-Freq"
+				}
 
 			}
 ,

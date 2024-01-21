@@ -52,7 +52,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_exponent" : 5.0,
-							"parameter_longname" : "#1-Freq",
+							"parameter_longname" : "#1-Frequency",
 							"parameter_mmax" : 22000.0,
 							"parameter_mmin" : 30.0,
 							"parameter_shortname" : "Freq",
@@ -62,7 +62,7 @@
 
 					}
 ,
-					"varname" : "#1-Freq"
+					"varname" : "#1-Frequency"
 				}
 
 			}
@@ -204,14 +204,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 216.0, 16.0, 175.0, 20.0 ],
+					"patching_rect" : [ 216.0, 16.0, 204.0, 20.0 ],
 					"restore" : [ 30.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr #1-Stored_Frequency #1-Freq",
+					"text" : "pattr #1-Stored_Frequency #1-Frequency",
 					"varname" : "#1-Stored_Frequency"
 				}
 
@@ -380,7 +380,7 @@
  ],
 		"parameters" : 		{
 			"obj-11" : [ "#1-Semi", "Semi", 0 ],
-			"obj-14" : [ "#1-Freq", "Freq", 0 ],
+			"obj-14" : [ "#1-Frequency", "Freq", 0 ],
 			"parameterbanks" : 			{
 
 			}
