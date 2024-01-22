@@ -52,10 +52,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_exponent" : 5.0,
-							"parameter_longname" : "#1-Note Frequency",
+							"parameter_longname" : "#1-Oscillator Frequency",
 							"parameter_mmax" : 22000.0,
 							"parameter_mmin" : 30.0,
-							"parameter_shortname" : "NoteFreq",
+							"parameter_shortname" : "OscFreq",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
 						}
@@ -103,10 +103,10 @@
 					"presentation_rect" : [ 0.0, 48.0, 40.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "#1-Note Semitones",
+							"parameter_longname" : "#1-Semitones",
 							"parameter_mmax" : 48.0,
 							"parameter_mmin" : -48.0,
-							"parameter_shortname" : "NoteSemi",
+							"parameter_shortname" : "Semi",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 7
 						}
@@ -379,8 +379,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-11" : [ "#1-Note Semitones", "NoteSemi", 0 ],
-			"obj-14" : [ "#1-Note Frequency", "NoteFreq", 0 ],
+			"obj-11" : [ "#1-Semitones", "Semi", 0 ],
+			"obj-14" : [ "#1-Oscillator Frequency", "OscFreq", 0 ],
 			"parameterbanks" : 			{
 
 			}

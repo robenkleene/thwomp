@@ -103,10 +103,10 @@
 					"presentation_rect" : [ 72.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "#1-Q",
+							"parameter_longname" : "#1-Filter Q",
 							"parameter_mmax" : 10.0,
 							"parameter_mmin" : 0.3,
-							"parameter_shortname" : "Q",
+							"parameter_shortname" : "FilQ",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
 						}
@@ -538,7 +538,7 @@
  ],
 		"parameters" : 		{
 			"obj-1" : [ "#1-Filter Frequency", "FilFreq", 0 ],
-			"obj-11" : [ "#1-Q", "Q", 0 ],
+			"obj-11" : [ "#1-Filter Q", "FilQ", 0 ],
 			"obj-6" : [ "#1-Filter Type", "FilType", 0 ],
 			"parameterbanks" : 			{
 

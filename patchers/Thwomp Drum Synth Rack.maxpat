@@ -783,60 +783,60 @@
 		"parameters" : 		{
 			"obj-11" : [ "Volume", "Volume", 0 ],
 			"obj-19" : [ "Tab", "Tab", 0 ],
-			"obj-1::obj-17::obj-12::obj-1::obj-1" : [ "3-Frequency", "FilFreq", 0 ],
-			"obj-1::obj-17::obj-12::obj-1::obj-11" : [ "3-Q", "Q", 0 ],
-			"obj-1::obj-17::obj-12::obj-1::obj-6" : [ "3-Type", "FilType", 0 ],
+			"obj-1::obj-17::obj-12::obj-1::obj-1" : [ "3-Filter Frequency", "FilFreq", 0 ],
+			"obj-1::obj-17::obj-12::obj-1::obj-11" : [ "3-Filter Q", "FilQ", 0 ],
+			"obj-1::obj-17::obj-12::obj-1::obj-6" : [ "3-Filter Type", "FilType", 0 ],
 			"obj-1::obj-17::obj-12::obj-7" : [ "3-Fil", "Fil", 0 ],
-			"obj-1::obj-17::obj-17::obj-17" : [ "3-Amount", "PEnvAmt", 0 ],
-			"obj-1::obj-17::obj-17::obj-18" : [ "3-Duration", "PEnvDur", 0 ],
-			"obj-1::obj-17::obj-2::obj-1::obj-11" : [ "3-Semi", "NoteSemi", 0 ],
-			"obj-1::obj-17::obj-2::obj-1::obj-14" : [ "3-Frequency[1]", "NoteFreq", 0 ],
+			"obj-1::obj-17::obj-17::obj-17" : [ "3-Pitch Envelope Amount", "PEnvAmt", 0 ],
+			"obj-1::obj-17::obj-17::obj-18" : [ "3-Pitch Envelope Duration", "PEnvDur", 0 ],
+			"obj-1::obj-17::obj-2::obj-1::obj-11" : [ "3-Semitones", "Semi", 0 ],
+			"obj-1::obj-17::obj-2::obj-1::obj-14" : [ "3-Oscillator Frequency", "OscFreq", 0 ],
 			"obj-1::obj-17::obj-2::obj-5" : [ "3-Note", "Note", 0 ],
-			"obj-1::obj-17::obj-4::obj-3" : [ "3-Decay", "Decay", 0 ],
-			"obj-1::obj-17::obj-4::obj-7" : [ "3-Attack", "Attack", 0 ],
-			"obj-1::obj-17::obj-5" : [ "3-Gain", "Gain", 0 ],
+			"obj-1::obj-17::obj-4::obj-3" : [ "3-Decay", "AmpDec", 0 ],
+			"obj-1::obj-17::obj-4::obj-7" : [ "3-Attack", "AmpAtt", 0 ],
+			"obj-1::obj-17::obj-5" : [ "3-Oscillator Gain", "OscGain", 0 ],
 			"obj-1::obj-17::obj-7" : [ "3-Osc", "Osc", 0 ],
 			"obj-1::obj-17::obj-9" : [ "3-Waveform", "Waveform", 0 ],
-			"obj-1::obj-1::obj-12::obj-1::obj-1" : [ "1-Frequency", "FilFreq", 0 ],
-			"obj-1::obj-1::obj-12::obj-1::obj-11" : [ "1-Q", "Q", 0 ],
-			"obj-1::obj-1::obj-12::obj-1::obj-6" : [ "1-Type", "FilType", 0 ],
+			"obj-1::obj-1::obj-12::obj-1::obj-1" : [ "1-Filter Frequency", "FilFreq", 0 ],
+			"obj-1::obj-1::obj-12::obj-1::obj-11" : [ "1-Filter Q", "FilQ", 0 ],
+			"obj-1::obj-1::obj-12::obj-1::obj-6" : [ "1-Filter Type", "FilType", 0 ],
 			"obj-1::obj-1::obj-12::obj-7" : [ "1-Fil", "Fil", 0 ],
-			"obj-1::obj-1::obj-17::obj-17" : [ "1-Amount", "PEnvAmt", 0 ],
-			"obj-1::obj-1::obj-17::obj-18" : [ "1-Duration", "PEnvDur", 0 ],
-			"obj-1::obj-1::obj-2::obj-1::obj-11" : [ "1-Semi", "NoteSemi", 0 ],
-			"obj-1::obj-1::obj-2::obj-1::obj-14" : [ "1-Frequency[1]", "NoteFreq", 0 ],
+			"obj-1::obj-1::obj-17::obj-17" : [ "1-Pitch Envelope Amount", "PEnvAmt", 0 ],
+			"obj-1::obj-1::obj-17::obj-18" : [ "1-Pitch Envelope Duration", "PEnvDur", 0 ],
+			"obj-1::obj-1::obj-2::obj-1::obj-11" : [ "1-Semitones", "Semi", 0 ],
+			"obj-1::obj-1::obj-2::obj-1::obj-14" : [ "1-Oscillator Frequency", "OscFreq", 0 ],
 			"obj-1::obj-1::obj-2::obj-5" : [ "1-Note", "Note", 0 ],
-			"obj-1::obj-1::obj-4::obj-3" : [ "1-Decay", "Decay", 0 ],
-			"obj-1::obj-1::obj-4::obj-7" : [ "1-Attack", "Attack", 0 ],
-			"obj-1::obj-1::obj-5" : [ "1-Gain", "Gain", 0 ],
+			"obj-1::obj-1::obj-4::obj-3" : [ "1-Decay", "AmpDec", 0 ],
+			"obj-1::obj-1::obj-4::obj-7" : [ "1-Attack", "AmpAtt", 0 ],
+			"obj-1::obj-1::obj-5" : [ "1-Oscillator Gain", "OscGain", 0 ],
 			"obj-1::obj-1::obj-7" : [ "1-Osc", "Osc", 0 ],
 			"obj-1::obj-1::obj-9" : [ "1-Waveform", "Waveform", 0 ],
-			"obj-1::obj-3::obj-12::obj-1::obj-1" : [ "2-Frequency", "FilFreq", 0 ],
-			"obj-1::obj-3::obj-12::obj-1::obj-11" : [ "2-Q", "Q", 0 ],
-			"obj-1::obj-3::obj-12::obj-1::obj-6" : [ "2-Type", "FilType", 0 ],
+			"obj-1::obj-3::obj-12::obj-1::obj-1" : [ "2-Filter Frequency", "FilFreq", 0 ],
+			"obj-1::obj-3::obj-12::obj-1::obj-11" : [ "2-Filter Q", "FilQ", 0 ],
+			"obj-1::obj-3::obj-12::obj-1::obj-6" : [ "2-Filter Type", "FilType", 0 ],
 			"obj-1::obj-3::obj-12::obj-7" : [ "2-Fil", "Fil", 0 ],
-			"obj-1::obj-3::obj-17::obj-17" : [ "2-Amount", "PEnvAmt", 0 ],
-			"obj-1::obj-3::obj-17::obj-18" : [ "2-Duration", "PEnvDur", 0 ],
-			"obj-1::obj-3::obj-2::obj-1::obj-11" : [ "2-Semi", "NoteSemi", 0 ],
-			"obj-1::obj-3::obj-2::obj-1::obj-14" : [ "2-Frequency[1]", "NoteFreq", 0 ],
+			"obj-1::obj-3::obj-17::obj-17" : [ "2-Pitch Envelope Amount", "PEnvAmt", 0 ],
+			"obj-1::obj-3::obj-17::obj-18" : [ "2-Pitch Envelope Duration", "PEnvDur", 0 ],
+			"obj-1::obj-3::obj-2::obj-1::obj-11" : [ "2-Semitones", "Semi", 0 ],
+			"obj-1::obj-3::obj-2::obj-1::obj-14" : [ "2-Oscillator Frequency", "OscFreq", 0 ],
 			"obj-1::obj-3::obj-2::obj-5" : [ "2-Note", "Note", 0 ],
-			"obj-1::obj-3::obj-4::obj-3" : [ "2-Decay", "Decay", 0 ],
-			"obj-1::obj-3::obj-4::obj-7" : [ "2-Attack", "Attack", 0 ],
-			"obj-1::obj-3::obj-5" : [ "2-Gain", "Gain", 0 ],
+			"obj-1::obj-3::obj-4::obj-3" : [ "2-Decay", "AmpDec", 0 ],
+			"obj-1::obj-3::obj-4::obj-7" : [ "2-Attack", "AmpAtt", 0 ],
+			"obj-1::obj-3::obj-5" : [ "2-Oscillator Gain", "OscGain", 0 ],
 			"obj-1::obj-3::obj-7" : [ "2-Osc", "Osc", 0 ],
 			"obj-1::obj-3::obj-9" : [ "2-Waveform", "Waveform", 0 ],
-			"obj-1::obj-44::obj-12::obj-1::obj-1" : [ "4-Frequency", "FilFreq", 0 ],
-			"obj-1::obj-44::obj-12::obj-1::obj-11" : [ "4-Q", "Q", 0 ],
-			"obj-1::obj-44::obj-12::obj-1::obj-6" : [ "4-Type", "FilType", 0 ],
+			"obj-1::obj-44::obj-12::obj-1::obj-1" : [ "4-Filter Frequency", "FilFreq", 0 ],
+			"obj-1::obj-44::obj-12::obj-1::obj-11" : [ "4-Filter Q", "FilQ", 0 ],
+			"obj-1::obj-44::obj-12::obj-1::obj-6" : [ "4-Filter Type", "FilType", 0 ],
 			"obj-1::obj-44::obj-12::obj-7" : [ "4-Fil", "Fil", 0 ],
-			"obj-1::obj-44::obj-17::obj-17" : [ "4-Amount", "PEnvAmt", 0 ],
-			"obj-1::obj-44::obj-17::obj-18" : [ "4-Duration", "PEnvDur", 0 ],
-			"obj-1::obj-44::obj-2::obj-1::obj-11" : [ "4-Semi", "NoteSemi", 0 ],
-			"obj-1::obj-44::obj-2::obj-1::obj-14" : [ "4-Frequency[1]", "NoteFreq", 0 ],
+			"obj-1::obj-44::obj-17::obj-17" : [ "4-Pitch Envelope Amount", "PEnvAmt", 0 ],
+			"obj-1::obj-44::obj-17::obj-18" : [ "4-Pitch Envelope Duration", "PEnvDur", 0 ],
+			"obj-1::obj-44::obj-2::obj-1::obj-11" : [ "4-Semitones", "Semi", 0 ],
+			"obj-1::obj-44::obj-2::obj-1::obj-14" : [ "4-Oscillator Frequency", "OscFreq", 0 ],
 			"obj-1::obj-44::obj-2::obj-5" : [ "4-Note", "Note", 0 ],
-			"obj-1::obj-44::obj-4::obj-3" : [ "4-Decay", "Decay", 0 ],
-			"obj-1::obj-44::obj-4::obj-7" : [ "4-Attack", "Attack", 0 ],
-			"obj-1::obj-44::obj-5" : [ "4-Gain", "Gain", 0 ],
+			"obj-1::obj-44::obj-4::obj-3" : [ "4-Decay", "AmpDec", 0 ],
+			"obj-1::obj-44::obj-4::obj-7" : [ "4-Attack", "AmpAtt", 0 ],
+			"obj-1::obj-44::obj-5" : [ "4-Oscillator Gain", "OscGain", 0 ],
 			"obj-1::obj-44::obj-7" : [ "4-Osc", "Osc", 0 ],
 			"obj-1::obj-44::obj-9" : [ "4-Waveform", "Waveform", 0 ],
 			"obj-24" : [ "Overwrite", "Overwrite", 0 ],
@@ -847,100 +847,36 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-1::obj-17::obj-12::obj-1::obj-1" : 				{
-					"parameter_longname" : "3-Frequency"
+				"obj-1::obj-17::obj-4::obj-3" : 				{
+					"parameter_longname" : "3-Decay"
 				}
 ,
-				"obj-1::obj-17::obj-12::obj-1::obj-6" : 				{
-					"parameter_longname" : "3-Type"
+				"obj-1::obj-17::obj-4::obj-7" : 				{
+					"parameter_longname" : "3-Attack"
 				}
 ,
-				"obj-1::obj-17::obj-17::obj-17" : 				{
-					"parameter_longname" : "3-Amount"
+				"obj-1::obj-1::obj-4::obj-3" : 				{
+					"parameter_longname" : "1-Decay"
 				}
 ,
-				"obj-1::obj-17::obj-17::obj-18" : 				{
-					"parameter_longname" : "3-Duration"
+				"obj-1::obj-1::obj-4::obj-7" : 				{
+					"parameter_longname" : "1-Attack"
 				}
 ,
-				"obj-1::obj-17::obj-2::obj-1::obj-11" : 				{
-					"parameter_longname" : "3-Semi"
+				"obj-1::obj-3::obj-4::obj-3" : 				{
+					"parameter_longname" : "2-Decay"
 				}
 ,
-				"obj-1::obj-17::obj-2::obj-1::obj-14" : 				{
-					"parameter_longname" : "3-Frequency[1]"
+				"obj-1::obj-3::obj-4::obj-7" : 				{
+					"parameter_longname" : "2-Attack"
 				}
 ,
-				"obj-1::obj-1::obj-12::obj-1::obj-1" : 				{
-					"parameter_longname" : "1-Frequency"
+				"obj-1::obj-44::obj-4::obj-3" : 				{
+					"parameter_longname" : "4-Decay"
 				}
 ,
-				"obj-1::obj-1::obj-12::obj-1::obj-6" : 				{
-					"parameter_longname" : "1-Type"
-				}
-,
-				"obj-1::obj-1::obj-17::obj-17" : 				{
-					"parameter_longname" : "1-Amount"
-				}
-,
-				"obj-1::obj-1::obj-17::obj-18" : 				{
-					"parameter_longname" : "1-Duration"
-				}
-,
-				"obj-1::obj-1::obj-2::obj-1::obj-11" : 				{
-					"parameter_longname" : "1-Semi"
-				}
-,
-				"obj-1::obj-1::obj-2::obj-1::obj-14" : 				{
-					"parameter_longname" : "1-Frequency[1]"
-				}
-,
-				"obj-1::obj-3::obj-12::obj-1::obj-1" : 				{
-					"parameter_longname" : "2-Frequency"
-				}
-,
-				"obj-1::obj-3::obj-12::obj-1::obj-6" : 				{
-					"parameter_longname" : "2-Type"
-				}
-,
-				"obj-1::obj-3::obj-17::obj-17" : 				{
-					"parameter_longname" : "2-Amount"
-				}
-,
-				"obj-1::obj-3::obj-17::obj-18" : 				{
-					"parameter_longname" : "2-Duration"
-				}
-,
-				"obj-1::obj-3::obj-2::obj-1::obj-11" : 				{
-					"parameter_longname" : "2-Semi"
-				}
-,
-				"obj-1::obj-3::obj-2::obj-1::obj-14" : 				{
-					"parameter_longname" : "2-Frequency[1]"
-				}
-,
-				"obj-1::obj-44::obj-12::obj-1::obj-1" : 				{
-					"parameter_longname" : "4-Frequency"
-				}
-,
-				"obj-1::obj-44::obj-12::obj-1::obj-6" : 				{
-					"parameter_longname" : "4-Type"
-				}
-,
-				"obj-1::obj-44::obj-17::obj-17" : 				{
-					"parameter_longname" : "4-Amount"
-				}
-,
-				"obj-1::obj-44::obj-17::obj-18" : 				{
-					"parameter_longname" : "4-Duration"
-				}
-,
-				"obj-1::obj-44::obj-2::obj-1::obj-11" : 				{
-					"parameter_longname" : "4-Semi"
-				}
-,
-				"obj-1::obj-44::obj-2::obj-1::obj-14" : 				{
-					"parameter_longname" : "4-Frequency[1]"
+				"obj-1::obj-44::obj-4::obj-7" : 				{
+					"parameter_longname" : "4-Attack"
 				}
 
 			}

@@ -64,9 +64,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_exponent" : 5.0,
-							"parameter_longname" : "#1-Attack",
+							"parameter_longname" : "#1-Amplifier Attack",
 							"parameter_mmax" : 15000.0,
-							"parameter_shortname" : "Attack",
+							"parameter_shortname" : "AmpAtt",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
 						}
@@ -91,9 +91,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_exponent" : 5.0,
-							"parameter_longname" : "#1-Decay",
+							"parameter_longname" : "#1-Amplifier Decay",
 							"parameter_mmax" : 15000.0,
-							"parameter_shortname" : "Decay",
+							"parameter_shortname" : "AmpDec",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
 						}
@@ -218,8 +218,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-3" : [ "#1-Decay", "Decay", 0 ],
-			"obj-7" : [ "#1-Attack", "Attack", 0 ],
+			"obj-3" : [ "#1-Amplifier Decay", "AmpDec", 0 ],
+			"obj-7" : [ "#1-Amplifier Attack", "AmpAtt", 0 ],
 			"parameterbanks" : 			{
 
 			}

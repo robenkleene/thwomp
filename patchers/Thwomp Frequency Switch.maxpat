@@ -230,8 +230,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-11" : [ "#1-Semi", "NoteSemi", 0 ],
-			"obj-1::obj-14" : [ "#1-Frequency", "NoteFreq", 0 ],
+			"obj-1::obj-11" : [ "#1-Semi", "Semi", 0 ],
+			"obj-1::obj-14" : [ "#1-Frequency", "OscFreq", 0 ],
 			"obj-5" : [ "#1-Note", "Note", 0 ],
 			"parameterbanks" : 			{
 

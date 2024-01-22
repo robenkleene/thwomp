@@ -311,10 +311,17 @@
  ],
 		"parameters" : 		{
 			"obj-1::obj-1" : [ "#1-Filter Frequency", "FilFreq", 0 ],
-			"obj-1::obj-11" : [ "#1-Q", "Q", 0 ],
+			"obj-1::obj-11" : [ "#1-Q", "FilQ", 0 ],
 			"obj-1::obj-6" : [ "#1-Filter Type", "FilType", 0 ],
 			"obj-7" : [ "#1-Fil", "Fil", 0 ],
 			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-1::obj-11" : 				{
+					"parameter_longname" : "#1-Q"
+				}
 
 			}
 ,
