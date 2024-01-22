@@ -141,9 +141,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "sine", "tri", "square", "saw", "noise", "pink" ],
-							"parameter_longname" : "#1-Waveform",
+							"parameter_longname" : "#1-Oscillator Shape",
 							"parameter_mmax" : 5,
-							"parameter_shortname" : "Waveform",
+							"parameter_shortname" : "OscShape",
 							"parameter_type" : 2
 						}
 
@@ -151,7 +151,7 @@
 ,
 					"usepicture" : 1,
 					"usesvgviewbox" : 1,
-					"varname" : "#1-Waveform"
+					"varname" : "#1-Shape"
 				}
 
 			}
@@ -277,15 +277,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 640.0, 72.0, 198.0, 20.0 ],
+					"patching_rect" : [ 640.0, 72.0, 162.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr #1-Stored_Waveform #1-Waveform",
-					"varname" : "#1-Stored_Waveform"
+					"text" : "pattr #1-Stored_Shape #1-Shape",
+					"varname" : "#1-Stored_Shape"
 				}
 
 			}
@@ -688,7 +688,7 @@
 			"obj-12::obj-1::obj-1" : [ "#1-Filter Frequency", "FilFreq", 0 ],
 			"obj-12::obj-1::obj-11" : [ "#1-Filter Q", "FilQ", 0 ],
 			"obj-12::obj-1::obj-6" : [ "#1-Filter Type", "FilType", 0 ],
-			"obj-12::obj-7" : [ "#1-Fil", "Fil", 0 ],
+			"obj-12::obj-7" : [ "#1-Filter", "Fil", 0 ],
 			"obj-17::obj-17" : [ "#1-Pitch Envelope Amount", "PEnvAmt", 0 ],
 			"obj-17::obj-18" : [ "#1-Pitch Envelope Duration", "PEnvDur", 0 ],
 			"obj-2::obj-1::obj-11" : [ "#1-Semitones", "Semi", 0 ],
@@ -698,7 +698,7 @@
 			"obj-4::obj-7" : [ "#1-Amplifier Attack", "AmpAtt", 0 ],
 			"obj-5" : [ "#1-Oscillator Gain", "OscGain", 0 ],
 			"obj-7" : [ "#1-Osc", "Osc", 0 ],
-			"obj-9" : [ "#1-Waveform", "Waveform", 0 ],
+			"obj-9" : [ "#1-Oscillator Shape", "OscShape", 0 ],
 			"parameterbanks" : 			{
 
 			}
