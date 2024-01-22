@@ -76,10 +76,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_exponent" : 5.0,
-							"parameter_longname" : "#1-Frequency",
+							"parameter_longname" : "#1-Filter Frequency",
 							"parameter_mmax" : 22000.0,
 							"parameter_mmin" : 30.0,
-							"parameter_shortname" : "Frequency",
+							"parameter_shortname" : "FilFreq",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
 						}
@@ -237,9 +237,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "one", "two", "three", "four" ],
-							"parameter_longname" : "#1-Type",
+							"parameter_longname" : "#1-Filter Type",
 							"parameter_mmax" : 3,
-							"parameter_shortname" : "Type",
+							"parameter_shortname" : "FilType",
 							"parameter_type" : 2
 						}
 
@@ -537,9 +537,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "#1-Frequency", "Frequency", 0 ],
+			"obj-1" : [ "#1-Filter Frequency", "FilFreq", 0 ],
 			"obj-11" : [ "#1-Q", "Q", 0 ],
-			"obj-6" : [ "#1-Type", "Type", 0 ],
+			"obj-6" : [ "#1-Filter Type", "FilType", 0 ],
 			"parameterbanks" : 			{
 
 			}
