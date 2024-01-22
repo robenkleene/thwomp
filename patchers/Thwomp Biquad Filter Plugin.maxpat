@@ -310,9 +310,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-1" : [ "#1-Frequency", "Frequency", 0 ],
+			"obj-1::obj-1" : [ "#1-Filter Frequency", "FilFreq", 0 ],
 			"obj-1::obj-11" : [ "#1-Q", "Q", 0 ],
-			"obj-1::obj-6" : [ "#1-Type", "Type", 0 ],
+			"obj-1::obj-6" : [ "#1-Filter Type", "FilType", 0 ],
 			"obj-7" : [ "#1-Fil", "Fil", 0 ],
 			"parameterbanks" : 			{
 

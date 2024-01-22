@@ -685,14 +685,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-12::obj-1::obj-1" : [ "#1-Frequency", "Frequency", 0 ],
+			"obj-12::obj-1::obj-1" : [ "#1-Filter Frequency", "FilFreq", 0 ],
 			"obj-12::obj-1::obj-11" : [ "#1-Q", "Q", 0 ],
-			"obj-12::obj-1::obj-6" : [ "#1-Type", "Type", 0 ],
+			"obj-12::obj-1::obj-6" : [ "#1-Filter Type", "FilType", 0 ],
 			"obj-12::obj-7" : [ "#1-Fil", "Fil", 0 ],
-			"obj-17::obj-17" : [ "#1-Amount", "Amount", 0 ],
-			"obj-17::obj-18" : [ "#1-Duration", "Duration", 0 ],
-			"obj-2::obj-1::obj-11" : [ "#1-Semi", "Semi", 0 ],
-			"obj-2::obj-1::obj-14" : [ "#1-Frequency[1]", "Frequency", 0 ],
+			"obj-17::obj-17" : [ "#1-Pitch Envelope Amount", "PEnvAmt", 0 ],
+			"obj-17::obj-18" : [ "#1-Pitch Envelope Duration", "PEnvDur", 0 ],
+			"obj-2::obj-1::obj-11" : [ "#1-Note Semitones", "NoteSemi", 0 ],
+			"obj-2::obj-1::obj-14" : [ "#1-Note Frequency", "NoteFreq", 0 ],
 			"obj-2::obj-5" : [ "#1-Note", "Note", 0 ],
 			"obj-4::obj-3" : [ "#1-Decay", "Decay", 0 ],
 			"obj-4::obj-7" : [ "#1-Attack", "Attack", 0 ],
@@ -700,13 +700,6 @@
 			"obj-7" : [ "#1-Osc", "Osc", 0 ],
 			"obj-9" : [ "#1-Waveform", "Waveform", 0 ],
 			"parameterbanks" : 			{
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-2::obj-1::obj-14" : 				{
-					"parameter_longname" : "#1-Frequency[1]"
-				}
 
 			}
 ,
