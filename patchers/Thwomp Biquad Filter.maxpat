@@ -79,7 +79,7 @@
 							"parameter_longname" : "#1-Frequency",
 							"parameter_mmax" : 22000.0,
 							"parameter_mmin" : 30.0,
-							"parameter_shortname" : "Freq",
+							"parameter_shortname" : "Frequency",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
 						}
@@ -537,7 +537,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "#1-Frequency", "Freq", 0 ],
+			"obj-1" : [ "#1-Frequency", "Frequency", 0 ],
 			"obj-11" : [ "#1-Q", "Q", 0 ],
 			"obj-6" : [ "#1-Type", "Type", 0 ],
 			"parameterbanks" : 			{

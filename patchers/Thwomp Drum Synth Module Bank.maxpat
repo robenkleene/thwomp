@@ -414,56 +414,56 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-17::obj-12::obj-1::obj-1" : [ "3-Frequency", "Freq", 0 ],
+			"obj-17::obj-12::obj-1::obj-1" : [ "3-Frequency", "Frequency", 0 ],
 			"obj-17::obj-12::obj-1::obj-11" : [ "3-Q", "Q", 0 ],
 			"obj-17::obj-12::obj-1::obj-6" : [ "3-Type", "Type", 0 ],
 			"obj-17::obj-12::obj-7" : [ "3-Fil", "Fil", 0 ],
 			"obj-17::obj-17::obj-17" : [ "3-Amount", "Amount", 0 ],
 			"obj-17::obj-17::obj-18" : [ "3-Duration", "Duration", 0 ],
 			"obj-17::obj-2::obj-1::obj-11" : [ "3-Semi", "Semi", 0 ],
-			"obj-17::obj-2::obj-1::obj-14" : [ "3-Freq", "Freq", 0 ],
+			"obj-17::obj-2::obj-1::obj-14" : [ "3-Frequency[1]", "Frequency", 0 ],
 			"obj-17::obj-2::obj-5" : [ "3-Note", "Note", 0 ],
 			"obj-17::obj-4::obj-3" : [ "3-Decay", "Decay", 0 ],
 			"obj-17::obj-4::obj-7" : [ "3-Attack", "Attack", 0 ],
 			"obj-17::obj-5" : [ "3-Gain", "Gain", 0 ],
 			"obj-17::obj-7" : [ "3-Osc", "Osc", 0 ],
 			"obj-17::obj-9" : [ "3-Waveform", "Waveform", 0 ],
-			"obj-1::obj-12::obj-1::obj-1" : [ "1-Frequency", "Freq", 0 ],
+			"obj-1::obj-12::obj-1::obj-1" : [ "1-Frequency", "Frequency", 0 ],
 			"obj-1::obj-12::obj-1::obj-11" : [ "1-Q", "Q", 0 ],
 			"obj-1::obj-12::obj-1::obj-6" : [ "1-Type", "Type", 0 ],
 			"obj-1::obj-12::obj-7" : [ "1-Fil", "Fil", 0 ],
 			"obj-1::obj-17::obj-17" : [ "1-Amount", "Amount", 0 ],
 			"obj-1::obj-17::obj-18" : [ "1-Duration", "Duration", 0 ],
 			"obj-1::obj-2::obj-1::obj-11" : [ "1-Semi", "Semi", 0 ],
-			"obj-1::obj-2::obj-1::obj-14" : [ "1-Freq", "Freq", 0 ],
+			"obj-1::obj-2::obj-1::obj-14" : [ "1-Frequency[1]", "Frequency", 0 ],
 			"obj-1::obj-2::obj-5" : [ "1-Note", "Note", 0 ],
 			"obj-1::obj-4::obj-3" : [ "1-Decay", "Decay", 0 ],
 			"obj-1::obj-4::obj-7" : [ "1-Attack", "Attack", 0 ],
 			"obj-1::obj-5" : [ "1-Gain", "Gain", 0 ],
 			"obj-1::obj-7" : [ "1-Osc", "Osc", 0 ],
 			"obj-1::obj-9" : [ "1-Waveform", "Waveform", 0 ],
-			"obj-3::obj-12::obj-1::obj-1" : [ "2-Frequency", "Freq", 0 ],
+			"obj-3::obj-12::obj-1::obj-1" : [ "2-Frequency", "Frequency", 0 ],
 			"obj-3::obj-12::obj-1::obj-11" : [ "2-Q", "Q", 0 ],
 			"obj-3::obj-12::obj-1::obj-6" : [ "2-Type", "Type", 0 ],
 			"obj-3::obj-12::obj-7" : [ "2-Fil", "Fil", 0 ],
 			"obj-3::obj-17::obj-17" : [ "2-Amount", "Amount", 0 ],
 			"obj-3::obj-17::obj-18" : [ "2-Duration", "Duration", 0 ],
 			"obj-3::obj-2::obj-1::obj-11" : [ "2-Semi", "Semi", 0 ],
-			"obj-3::obj-2::obj-1::obj-14" : [ "2-Freq", "Freq", 0 ],
+			"obj-3::obj-2::obj-1::obj-14" : [ "2-Frequency[1]", "Frequency", 0 ],
 			"obj-3::obj-2::obj-5" : [ "2-Note", "Note", 0 ],
 			"obj-3::obj-4::obj-3" : [ "2-Decay", "Decay", 0 ],
 			"obj-3::obj-4::obj-7" : [ "2-Attack", "Attack", 0 ],
 			"obj-3::obj-5" : [ "2-Gain", "Gain", 0 ],
 			"obj-3::obj-7" : [ "2-Osc", "Osc", 0 ],
 			"obj-3::obj-9" : [ "2-Waveform", "Waveform", 0 ],
-			"obj-44::obj-12::obj-1::obj-1" : [ "4-Frequency", "Freq", 0 ],
+			"obj-44::obj-12::obj-1::obj-1" : [ "4-Frequency", "Frequency", 0 ],
 			"obj-44::obj-12::obj-1::obj-11" : [ "4-Q", "Q", 0 ],
 			"obj-44::obj-12::obj-1::obj-6" : [ "4-Type", "Type", 0 ],
 			"obj-44::obj-12::obj-7" : [ "4-Fil", "Fil", 0 ],
 			"obj-44::obj-17::obj-17" : [ "4-Amount", "Amount", 0 ],
 			"obj-44::obj-17::obj-18" : [ "4-Duration", "Duration", 0 ],
 			"obj-44::obj-2::obj-1::obj-11" : [ "4-Semi", "Semi", 0 ],
-			"obj-44::obj-2::obj-1::obj-14" : [ "4-Freq", "Freq", 0 ],
+			"obj-44::obj-2::obj-1::obj-14" : [ "4-Frequency[1]", "Frequency", 0 ],
 			"obj-44::obj-2::obj-5" : [ "4-Note", "Note", 0 ],
 			"obj-44::obj-4::obj-3" : [ "4-Decay", "Decay", 0 ],
 			"obj-44::obj-4::obj-7" : [ "4-Attack", "Attack", 0 ],
@@ -476,19 +476,19 @@
 ,
 			"parameter_overrides" : 			{
 				"obj-17::obj-2::obj-1::obj-14" : 				{
-					"parameter_longname" : "3-Freq"
+					"parameter_longname" : "3-Frequency[1]"
 				}
 ,
 				"obj-1::obj-2::obj-1::obj-14" : 				{
-					"parameter_longname" : "1-Freq"
+					"parameter_longname" : "1-Frequency[1]"
 				}
 ,
 				"obj-3::obj-2::obj-1::obj-14" : 				{
-					"parameter_longname" : "2-Freq"
+					"parameter_longname" : "2-Frequency[1]"
 				}
 ,
 				"obj-44::obj-2::obj-1::obj-14" : 				{
-					"parameter_longname" : "4-Freq"
+					"parameter_longname" : "4-Frequency[1]"
 				}
 
 			}

@@ -230,21 +230,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-11" : [ "Semi", "Semi", 0 ],
-			"obj-1::obj-14" : [ "Freq", "Freq", 0 ],
+			"obj-1::obj-11" : [ "#1-Semi", "Semi", 0 ],
+			"obj-1::obj-14" : [ "#1-Frequency", "Frequency", 0 ],
 			"obj-5" : [ "#1-Note", "Note", 0 ],
 			"parameterbanks" : 			{
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-1::obj-11" : 				{
-					"parameter_longname" : "Semi"
-				}
-,
-				"obj-1::obj-14" : 				{
-					"parameter_longname" : "Freq"
-				}
 
 			}
 ,
