@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 524.0, 100.0, 389.0, 787.0 ],
+		"rect" : [ 524.0, 100.0, 710.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -66,7 +66,7 @@
 							"parameter_exponent" : 5.0,
 							"parameter_longname" : "#1-Amplifier Attack",
 							"parameter_mmax" : 15000.0,
-							"parameter_shortname" : "AmpAtt",
+							"parameter_shortname" : "#1Attack",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
 						}
@@ -93,7 +93,7 @@
 							"parameter_exponent" : 5.0,
 							"parameter_longname" : "#1-Amplifier Decay",
 							"parameter_mmax" : 15000.0,
-							"parameter_shortname" : "AmpDec",
+							"parameter_shortname" : "#1Decay",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
 						}
@@ -218,8 +218,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-3" : [ "#1-Amplifier Decay", "AmpDec", 0 ],
-			"obj-7" : [ "#1-Amplifier Attack", "AmpAtt", 0 ],
+			"obj-3" : [ "#1-Amplifier Decay", "#1Decay", 0 ],
+			"obj-7" : [ "#1-Amplifier Attack", "#1Attack", 0 ],
 			"parameterbanks" : 			{
 
 			}

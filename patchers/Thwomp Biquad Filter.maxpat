@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 466.0, 100.0, 601.0, 787.0 ],
+		"rect" : [ 786.0, 198.0, 601.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -79,7 +79,7 @@
 							"parameter_longname" : "#1-Filter Frequency",
 							"parameter_mmax" : 22000.0,
 							"parameter_mmin" : 30.0,
-							"parameter_shortname" : "FilFreq",
+							"parameter_shortname" : "#1FilFrq",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
 						}
@@ -106,7 +106,7 @@
 							"parameter_longname" : "#1-Filter Q",
 							"parameter_mmax" : 10.0,
 							"parameter_mmin" : 0.3,
-							"parameter_shortname" : "FilQ",
+							"parameter_shortname" : "#1FilQ",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
 						}
@@ -537,8 +537,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "#1-Filter Frequency", "FilFreq", 0 ],
-			"obj-11" : [ "#1-Filter Q", "FilQ", 0 ],
+			"obj-1" : [ "#1-Filter Frequency", "#1FilFrq", 0 ],
+			"obj-11" : [ "#1-Filter Q", "#1FilQ", 0 ],
 			"obj-6" : [ "#1-Filter Type", "FilType", 0 ],
 			"parameterbanks" : 			{
 

@@ -56,7 +56,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "#1-Note",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "Note",
+							"parameter_shortname" : "#1Note",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
 						}
@@ -230,9 +230,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-11" : [ "#1-Semi", "Semi", 0 ],
-			"obj-1::obj-14" : [ "#1-Frequency", "OscFreq", 0 ],
-			"obj-5" : [ "#1-Note", "Note", 0 ],
+			"obj-1::obj-11" : [ "#1-Semi", "#1Semi", 0 ],
+			"obj-1::obj-14" : [ "#1-Frequency", "#1OscFrq", 0 ],
+			"obj-5" : [ "#1-Note", "#1Note", 0 ],
 			"parameterbanks" : 			{
 
 			}

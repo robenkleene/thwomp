@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 251.0, 100.0, 757.0, 983.0 ],
+		"rect" : [ 599.0, 100.0, 638.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -102,7 +102,7 @@
 							"parameter_longname" : "#1-Oscillator Gain",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
-							"parameter_shortname" : "OscGain",
+							"parameter_shortname" : "#1OscLvl",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
 						}
@@ -143,7 +143,7 @@
 							"parameter_enum" : [ "sine", "tri", "square", "saw", "noise", "pink" ],
 							"parameter_longname" : "#1-Oscillator Shape",
 							"parameter_mmax" : 5,
-							"parameter_shortname" : "OscShape",
+							"parameter_shortname" : "#1OscShp",
 							"parameter_type" : 2
 						}
 
@@ -171,9 +171,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_longname" : "#1-Osc",
+							"parameter_longname" : "#1-Oscillator",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "Osc",
+							"parameter_shortname" : "#1Osc",
 							"parameter_type" : 2
 						}
 
@@ -685,20 +685,20 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-12::obj-1::obj-1" : [ "#1-Filter Frequency", "FilFreq", 0 ],
-			"obj-12::obj-1::obj-11" : [ "#1-Filter Q", "FilQ", 0 ],
+			"obj-12::obj-1::obj-1" : [ "#1-Filter Frequency", "#1FilFrq", 0 ],
+			"obj-12::obj-1::obj-11" : [ "#1-Filter Q", "#1FilQ", 0 ],
 			"obj-12::obj-1::obj-6" : [ "#1-Filter Type", "FilType", 0 ],
-			"obj-12::obj-7" : [ "#1-Filter", "Fil", 0 ],
-			"obj-17::obj-17" : [ "#1-Pitch Envelope Amount", "PEnvAmt", 0 ],
-			"obj-17::obj-18" : [ "#1-Pitch Envelope Duration", "PEnvDur", 0 ],
-			"obj-2::obj-1::obj-11" : [ "#1-Semitones", "Semi", 0 ],
-			"obj-2::obj-1::obj-14" : [ "#1-Oscillator Frequency", "OscFreq", 0 ],
-			"obj-2::obj-5" : [ "#1-Note", "Note", 0 ],
-			"obj-4::obj-3" : [ "#1-Amplifier Decay", "AmpDec", 0 ],
-			"obj-4::obj-7" : [ "#1-Amplifier Attack", "AmpAtt", 0 ],
-			"obj-5" : [ "#1-Oscillator Gain", "OscGain", 0 ],
-			"obj-7" : [ "#1-Osc", "Osc", 0 ],
-			"obj-9" : [ "#1-Oscillator Shape", "OscShape", 0 ],
+			"obj-12::obj-7" : [ "#1-Filter", "#1Fil", 0 ],
+			"obj-17::obj-17" : [ "#1-Pitch Envelope Amount", "#1PEvAmt", 0 ],
+			"obj-17::obj-18" : [ "#1-Pitch Envelope Duration", "#1PEvDur", 0 ],
+			"obj-2::obj-1::obj-11" : [ "#1-Semitones", "#1Semi", 0 ],
+			"obj-2::obj-1::obj-14" : [ "#1-Oscillator Frequency", "#1OscFrq", 0 ],
+			"obj-2::obj-5" : [ "#1-Note", "#1Note", 0 ],
+			"obj-4::obj-3" : [ "#1-Amplifier Decay", "#1Decay", 0 ],
+			"obj-4::obj-7" : [ "#1-Amplifier Attack", "#1Attack", 0 ],
+			"obj-5" : [ "#1-Oscillator Gain", "#1OscLvl", 0 ],
+			"obj-7" : [ "#1-Oscillator", "#1Osc", 0 ],
+			"obj-9" : [ "#1-Oscillator Shape", "#1OscShp", 0 ],
 			"parameterbanks" : 			{
 
 			}
