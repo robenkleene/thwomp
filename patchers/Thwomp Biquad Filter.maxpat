@@ -239,7 +239,7 @@
 							"parameter_enum" : [ "one", "two", "three", "four" ],
 							"parameter_longname" : "#1-Filter Type",
 							"parameter_mmax" : 3,
-							"parameter_shortname" : "FilType",
+							"parameter_shortname" : "#1FilTyp",
 							"parameter_type" : 2
 						}
 
@@ -539,7 +539,7 @@
 		"parameters" : 		{
 			"obj-1" : [ "#1-Filter Frequency", "#1FilFrq", 0 ],
 			"obj-11" : [ "#1-Filter Q", "#1FilQ", 0 ],
-			"obj-6" : [ "#1-Filter Type", "FilType", 0 ],
+			"obj-6" : [ "#1-Filter Type", "#1FilTyp", 0 ],
 			"parameterbanks" : 			{
 
 			}

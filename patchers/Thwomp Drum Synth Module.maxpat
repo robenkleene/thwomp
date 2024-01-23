@@ -687,7 +687,7 @@
 		"parameters" : 		{
 			"obj-12::obj-1::obj-1" : [ "#1-Filter Frequency", "#1FilFrq", 0 ],
 			"obj-12::obj-1::obj-11" : [ "#1-Filter Q", "#1FilQ", 0 ],
-			"obj-12::obj-1::obj-6" : [ "#1-Filter Type", "FilType", 0 ],
+			"obj-12::obj-1::obj-6" : [ "#1-Filter Type", "#1FilTyp", 0 ],
 			"obj-12::obj-7" : [ "#1-Filter", "#1Fil", 0 ],
 			"obj-17::obj-17" : [ "#1-Pitch Envelope Amount", "#1PEvAmt", 0 ],
 			"obj-17::obj-18" : [ "#1-Pitch Envelope Duration", "#1PEvDur", 0 ],
