@@ -52,7 +52,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_exponent" : 5.0,
-							"parameter_longname" : "#1-Oscillator Frequency",
+							"parameter_longname" : "#1-Oscillator-Frequency",
 							"parameter_mmax" : 22000.0,
 							"parameter_mmin" : 30.0,
 							"parameter_shortname" : "#1OscFrq",
@@ -380,7 +380,7 @@
  ],
 		"parameters" : 		{
 			"obj-11" : [ "#1-Semitones", "#1Semi", 0 ],
-			"obj-14" : [ "#1-Oscillator Frequency", "#1OscFrq", 0 ],
+			"obj-14" : [ "#1-Oscillator-Frequency", "#1OscFrq", 0 ],
 			"parameterbanks" : 			{
 
 			}

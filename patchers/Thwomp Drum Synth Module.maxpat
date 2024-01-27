@@ -111,7 +111,7 @@
 					"presentation_rect" : [ 0.0, 112.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "#1-Oscillator Gain",
+							"parameter_longname" : "#1-Oscillator-Gain",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "#1OscLvl",
@@ -153,7 +153,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "sine", "tri", "square", "saw", "noise", "pink" ],
-							"parameter_longname" : "#1-Oscillator Shape",
+							"parameter_longname" : "#1-Oscillator-Shape",
 							"parameter_mmax" : 5,
 							"parameter_shortname" : "#1OscShp",
 							"parameter_type" : 2
@@ -704,20 +704,20 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-12::obj-1::obj-1" : [ "#1-Filter Frequency", "#1FilFrq", 0 ],
-			"obj-12::obj-1::obj-11" : [ "#1-Filter Q", "#1FilQ", 0 ],
-			"obj-12::obj-1::obj-6" : [ "#1-Filter Type", "#1FilTyp", 0 ],
+			"obj-12::obj-1::obj-1" : [ "#1-Filter-Frequency", "#1FilFrq", 0 ],
+			"obj-12::obj-1::obj-11" : [ "#1-Filter-Q", "#1FilQ", 0 ],
+			"obj-12::obj-1::obj-6" : [ "#1-Filter-Type", "#1FilTyp", 0 ],
 			"obj-12::obj-7" : [ "#1-Filter", "#1Fil", 0 ],
-			"obj-17::obj-17" : [ "#1-Pitch Envelope Amount", "#1PEvAmt", 0 ],
-			"obj-17::obj-18" : [ "#1-Pitch Envelope Duration", "#1PEvDur", 0 ],
+			"obj-17::obj-17" : [ "#1-Pitch-Envelope-Amount", "#1PEvAmt", 0 ],
+			"obj-17::obj-18" : [ "#1-Pitch-Envelope-Duration", "#1PEvDur", 0 ],
 			"obj-2::obj-1::obj-11" : [ "#1-Semitones", "#1Semi", 0 ],
-			"obj-2::obj-1::obj-14" : [ "#1-Oscillator Frequency", "#1OscFrq", 0 ],
+			"obj-2::obj-1::obj-14" : [ "#1-Oscillator-Frequency", "#1OscFrq", 0 ],
 			"obj-2::obj-5" : [ "#1-Note", "#1Note", 0 ],
-			"obj-4::obj-3" : [ "#1-Amplifier Decay", "#1Decay", 0 ],
-			"obj-4::obj-7" : [ "#1-Amplifier Attack", "#1Attack", 0 ],
-			"obj-5" : [ "#1-Oscillator Gain", "#1OscLvl", 0 ],
+			"obj-4::obj-3" : [ "#1-Amplifier-Decay", "#1Decay", 0 ],
+			"obj-4::obj-7" : [ "#1-Amplifier-Attack", "#1Attack", 0 ],
+			"obj-5" : [ "#1-Oscillator-Gain", "#1OscLvl", 0 ],
 			"obj-7" : [ "#1-Oscillator", "#1Osc", 0 ],
-			"obj-9" : [ "#1-Oscillator Shape", "#1OscShp", 0 ],
+			"obj-9" : [ "#1-Oscillator-Shape", "#1OscShp", 0 ],
 			"parameterbanks" : 			{
 
 			}
