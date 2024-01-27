@@ -265,7 +265,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -273,7 +273,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -310,18 +310,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-1" : [ "#1-Filter-Frequency", "FilFreq", 0 ],
-			"obj-1::obj-11" : [ "#1-Q", "FilQ", 0 ],
-			"obj-1::obj-6" : [ "#1-Filter-Type", "FilType", 0 ],
+			"obj-1::obj-1" : [ "#1-Filter-Frequency", "#1FilFrq", 0 ],
+			"obj-1::obj-11" : [ "#1-Filter-Q", "#1FilQ", 0 ],
+			"obj-1::obj-6" : [ "#1-Filter-Type", "#1FilTyp", 0 ],
 			"obj-7" : [ "#1-Filter", "#1Fil", 0 ],
 			"parameterbanks" : 			{
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-1::obj-11" : 				{
-					"parameter_longname" : "#1-Q"
-				}
 
 			}
 ,
