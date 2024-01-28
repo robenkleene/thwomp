@@ -56,9 +56,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 88.0, 64.0, 68.0, 22.0 ],
-					"text" : "loadbang 1"
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 88.0, 64.0, 70.0, 22.0 ],
+					"text" : "loadmess 1"
 				}
 
 			}
@@ -131,7 +131,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 112.0, 256.0, 58.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "delete $1"
 				}
 
