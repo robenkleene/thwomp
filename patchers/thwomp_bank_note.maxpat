@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 119.0, 816.0, 753.0 ],
+		"rect" : [ 462.0, 119.0, 816.0, 753.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,9 +44,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 192.0, 392.0, 29.5, 22.0 ],
-					"text" : "t b i"
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 192.0, 384.0, 29.5, 22.0 ],
+					"text" : "t i i"
 				}
 
 			}
@@ -57,7 +57,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 144.0, 104.0, 70.0, 22.0 ],
+					"patching_rect" : [ 192.0, 104.0, 70.0, 22.0 ],
 					"text" : "route int list"
 				}
 
@@ -80,9 +80,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 144.0, 176.0, 47.0, 22.0 ],
-					"text" : "unpack"
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 104.0, 168.0, 66.0, 22.0 ],
+					"text" : "unpack s s"
 				}
 
 			}
@@ -105,7 +105,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 440.0, 248.0, 29.5, 22.0 ],
+					"patching_rect" : [ 440.0, 240.0, 29.5, 22.0 ],
 					"text" : "t i i"
 				}
 
@@ -153,7 +153,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 507.0, 280.0, 29.5, 22.0 ],
+					"patching_rect" : [ 504.0, 272.0, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -165,7 +165,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 507.0, 245.0, 29.5, 22.0 ],
+					"patching_rect" : [ 504.0, 240.0, 29.5, 22.0 ],
 					"text" : "> 0"
 				}
 
@@ -261,7 +261,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 88.0, 298.0, 39.0, 22.0 ],
+					"patching_rect" : [ 88.0, 320.0, 39.0, 22.0 ],
 					"text" : "$1 $2"
 				}
 
@@ -497,7 +497,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-42", 1 ],
+					"destination" : [ "obj-42", 0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
