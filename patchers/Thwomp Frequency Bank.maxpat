@@ -103,10 +103,10 @@
 					"presentation_rect" : [ 0.0, 48.0, 40.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "#1-Semitones",
+							"parameter_longname" : "#1-Oscillator-Semitones",
 							"parameter_mmax" : 48.0,
 							"parameter_mmin" : -48.0,
-							"parameter_shortname" : "#1Semi",
+							"parameter_shortname" : "#1OscSem",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 7
 						}
@@ -379,7 +379,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-11" : [ "#1-Semitones", "#1Semi", 0 ],
+			"obj-11" : [ "#1-Oscillator-Semitones", "#1OscSem", 0 ],
 			"obj-14" : [ "#1-Oscillator-Frequency", "#1OscFrq", 0 ],
 			"parameterbanks" : 			{
 
