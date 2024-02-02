@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 599.0, 100.0, 458.0, 983.0 ],
+		"rect" : [ 599.0, 100.0, 723.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -114,7 +114,7 @@
 							"parameter_longname" : "#1-Oscillator-Gain",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
-							"parameter_shortname" : "#1OscLvl",
+							"parameter_shortname" : "Gain",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
 						}
@@ -155,7 +155,7 @@
 							"parameter_enum" : [ "sine", "tri", "square", "saw", "noise", "pink" ],
 							"parameter_longname" : "#1-Oscillator-Shape",
 							"parameter_mmax" : 5,
-							"parameter_shortname" : "#1OscShp",
+							"parameter_shortname" : "Shape",
 							"parameter_type" : 2
 						}
 
@@ -185,7 +185,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "#1-Oscillator",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "#1Osc",
+							"parameter_shortname" : "Osc",
 							"parameter_type" : 2
 						}
 
@@ -704,20 +704,20 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-12::obj-1::obj-1" : [ "#1-Filter-Frequency", "#1FilFrq", 0 ],
-			"obj-12::obj-1::obj-11" : [ "#1-Filter-Q", "#1FilQ", 0 ],
-			"obj-12::obj-1::obj-6" : [ "#1-Filter-Type", "#1FilTyp", 0 ],
-			"obj-12::obj-7" : [ "#1-Filter", "#1Fil", 0 ],
-			"obj-17::obj-17" : [ "#1-Pitch-Envelope-Amount", "#1PEvAmt", 0 ],
-			"obj-17::obj-18" : [ "#1-Pitch-Envelope-Duration", "#1PEvDur", 0 ],
-			"obj-2::obj-1::obj-11" : [ "#1-Oscillator-Semitones", "#1OscSem", 0 ],
-			"obj-2::obj-1::obj-14" : [ "#1-Oscillator-Frequency", "#1OscFrq", 0 ],
-			"obj-2::obj-5" : [ "#1-Oscillator-Note", "#1OscNte", 0 ],
-			"obj-4::obj-3" : [ "#1-Amplifier-Decay", "#1Decay", 0 ],
-			"obj-4::obj-7" : [ "#1-Amplifier-Attack", "#1Attack", 0 ],
-			"obj-5" : [ "#1-Oscillator-Gain", "#1OscLvl", 0 ],
-			"obj-7" : [ "#1-Oscillator", "#1Osc", 0 ],
-			"obj-9" : [ "#1-Oscillator-Shape", "#1OscShp", 0 ],
+			"obj-12::obj-1::obj-1" : [ "#1-Filter-Frequency", "Freq", 0 ],
+			"obj-12::obj-1::obj-11" : [ "#1-Filter-Q", "Q", 0 ],
+			"obj-12::obj-1::obj-6" : [ "#1-Filter-Type", "Type", 0 ],
+			"obj-12::obj-7" : [ "#1-Filter", "Filter", 0 ],
+			"obj-17::obj-17" : [ "#1-Pitch-Envelope-Amount", "Amount", 0 ],
+			"obj-17::obj-18" : [ "#1-Pitch-Envelope-Duration", "Duration", 0 ],
+			"obj-2::obj-1::obj-11" : [ "#1-Oscillator-Semitones", "Semi", 0 ],
+			"obj-2::obj-1::obj-14" : [ "#1-Oscillator-Frequency", "Freq", 0 ],
+			"obj-2::obj-5" : [ "#1-Oscillator-Note", "Note", 0 ],
+			"obj-4::obj-3" : [ "#1-Amplifier-Decay", "Decay", 0 ],
+			"obj-4::obj-7" : [ "#1-Amplifier-Attack", "Attack", 0 ],
+			"obj-5" : [ "#1-Oscillator-Gain", "Gain", 0 ],
+			"obj-7" : [ "#1-Oscillator", "Osc", 0 ],
+			"obj-9" : [ "#1-Oscillator-Shape", "Shape", 0 ],
 			"parameterbanks" : 			{
 
 			}

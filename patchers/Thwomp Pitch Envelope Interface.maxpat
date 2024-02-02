@@ -66,7 +66,7 @@
 							"parameter_exponent" : 5.0,
 							"parameter_longname" : "#1-Pitch-Envelope-Duration",
 							"parameter_mmax" : 15000.0,
-							"parameter_shortname" : "#1PEvDur",
+							"parameter_shortname" : "Duration",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
 						}
@@ -93,7 +93,7 @@
 							"parameter_exponent" : 5.0,
 							"parameter_longname" : "#1-Pitch-Envelope-Amount",
 							"parameter_mmax" : 15000.0,
-							"parameter_shortname" : "#1PEvAmt",
+							"parameter_shortname" : "Amount",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
 						}
@@ -289,8 +289,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-17" : [ "#1-Pitch-Envelope-Amount", "#1PEvAmt", 0 ],
-			"obj-18" : [ "#1-Pitch-Envelope-Duration", "#1PEvDur", 0 ],
+			"obj-17" : [ "#1-Pitch-Envelope-Amount", "Amount", 0 ],
+			"obj-18" : [ "#1-Pitch-Envelope-Duration", "Duration", 0 ],
 			"parameterbanks" : 			{
 
 			}

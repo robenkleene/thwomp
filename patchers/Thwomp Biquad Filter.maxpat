@@ -79,7 +79,7 @@
 							"parameter_longname" : "#1-Filter-Frequency",
 							"parameter_mmax" : 22000.0,
 							"parameter_mmin" : 30.0,
-							"parameter_shortname" : "#1FilFrq",
+							"parameter_shortname" : "Freq",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
 						}
@@ -106,7 +106,7 @@
 							"parameter_longname" : "#1-Filter-Q",
 							"parameter_mmax" : 10.0,
 							"parameter_mmin" : 0.3,
-							"parameter_shortname" : "#1FilQ",
+							"parameter_shortname" : "Q",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
 						}
@@ -239,7 +239,7 @@
 							"parameter_enum" : [ "one", "two", "three", "four" ],
 							"parameter_longname" : "#1-Filter-Type",
 							"parameter_mmax" : 3,
-							"parameter_shortname" : "#1FilTyp",
+							"parameter_shortname" : "Type",
 							"parameter_type" : 2
 						}
 
@@ -537,9 +537,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "#1-Filter-Frequency", "#1FilFrq", 0 ],
-			"obj-11" : [ "#1-Filter-Q", "#1FilQ", 0 ],
-			"obj-6" : [ "#1-Filter-Type", "#1FilTyp", 0 ],
+			"obj-1" : [ "#1-Filter-Frequency", "Freq", 0 ],
+			"obj-11" : [ "#1-Filter-Q", "Q", 0 ],
+			"obj-6" : [ "#1-Filter-Type", "Type", 0 ],
 			"parameterbanks" : 			{
 
 			}

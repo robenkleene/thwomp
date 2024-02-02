@@ -55,7 +55,7 @@
 							"parameter_longname" : "#1-Oscillator-Frequency",
 							"parameter_mmax" : 22000.0,
 							"parameter_mmin" : 30.0,
-							"parameter_shortname" : "#1OscFrq",
+							"parameter_shortname" : "Freq",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
 						}
@@ -106,7 +106,7 @@
 							"parameter_longname" : "#1-Oscillator-Semitones",
 							"parameter_mmax" : 48.0,
 							"parameter_mmin" : -48.0,
-							"parameter_shortname" : "#1OscSem",
+							"parameter_shortname" : "Semi",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 7
 						}
@@ -379,8 +379,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-11" : [ "#1-Oscillator-Semitones", "#1OscSem", 0 ],
-			"obj-14" : [ "#1-Oscillator-Frequency", "#1OscFrq", 0 ],
+			"obj-11" : [ "#1-Oscillator-Semitones", "Semi", 0 ],
+			"obj-14" : [ "#1-Oscillator-Frequency", "Freq", 0 ],
 			"parameterbanks" : 			{
 
 			}

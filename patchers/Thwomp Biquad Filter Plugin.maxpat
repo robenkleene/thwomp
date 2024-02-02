@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 790.0, 244.0, 299.0, 726.0 ],
+		"rect" : [ 790.0, 244.0, 625.0, 726.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -87,7 +87,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "#1-Filter",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "#1Fil",
+							"parameter_shortname" : "Filter",
 							"parameter_type" : 2
 						}
 
@@ -265,7 +265,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -273,7 +273,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -313,7 +313,7 @@
 			"obj-1::obj-1" : [ "#1-Filter-Frequency", "#1FilFrq", 0 ],
 			"obj-1::obj-11" : [ "#1-Filter-Q", "#1FilQ", 0 ],
 			"obj-1::obj-6" : [ "#1-Filter-Type", "#1FilTyp", 0 ],
-			"obj-7" : [ "#1-Filter", "#1Fil", 0 ],
+			"obj-7" : [ "#1-Filter", "Filter", 0 ],
 			"parameterbanks" : 			{
 
 			}

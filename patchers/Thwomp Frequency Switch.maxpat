@@ -68,7 +68,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "#1-Oscillator-Note",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "#1OscNte",
+							"parameter_shortname" : "Note",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
 						}
@@ -250,9 +250,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-11" : [ "#1-Oscillator-Semitones", "#1OscSem", 0 ],
-			"obj-1::obj-14" : [ "#1-Oscillator-Frequency", "#1OscFrq", 0 ],
-			"obj-5" : [ "#1-Oscillator-Note", "#1OscNte", 0 ],
+			"obj-1::obj-11" : [ "#1-Oscillator-Semitones", "Semi", 0 ],
+			"obj-1::obj-14" : [ "#1-Oscillator-Frequency", "Freq", 0 ],
+			"obj-5" : [ "#1-Oscillator-Note", "Note", 0 ],
 			"parameterbanks" : 			{
 
 			}
