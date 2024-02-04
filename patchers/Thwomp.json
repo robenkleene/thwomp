@@ -21,7 +21,7 @@
 					"Drum Synth Modules::Drum Synth Module 4::Biquad Filter Plugin::Biquad Filter::4-Stored_Type" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Frequency Switch::4-Stored_Note" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Frequency Switch::Frequency Bank::4-Stored_Frequency" : [ 30.0 ],
-					"Drum Synth Modules::Drum Synth Module 4::Frequency Switch::Frequency Bank::4-Stored_Offset" : [ 0.0 ],
+					"Drum Synth Modules::Drum Synth Module 4::Frequency Switch::Frequency Bank::4-Stored_Semi" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 1::1-Stored_Gain" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 1::1-Stored_Osc" : [ 1.0 ],
 					"Drum Synth Modules::Drum Synth Module 1::1-Stored_Shape" : [ 0.0 ],
@@ -36,7 +36,7 @@
 					"Drum Synth Modules::Drum Synth Module 1::Biquad Filter Plugin::Biquad Filter::1-Stored_Type" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 1::Frequency Switch::1-Stored_Note" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 1::Frequency Switch::Frequency Bank::1-Stored_Frequency" : [ 65.0 ],
-					"Drum Synth Modules::Drum Synth Module 1::Frequency Switch::Frequency Bank::1-Stored_Offset" : [ 0.0 ],
+					"Drum Synth Modules::Drum Synth Module 1::Frequency Switch::Frequency Bank::1-Stored_Semi" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 2::2-Stored_Gain" : [ -14.370078740157474 ],
 					"Drum Synth Modules::Drum Synth Module 2::2-Stored_Osc" : [ 1.0 ],
 					"Drum Synth Modules::Drum Synth Module 2::2-Stored_Shape" : [ 2.0 ],
@@ -51,7 +51,7 @@
 					"Drum Synth Modules::Drum Synth Module 2::Biquad Filter Plugin::Biquad Filter::2-Stored_Type" : [ 2.0 ],
 					"Drum Synth Modules::Drum Synth Module 2::Frequency Switch::2-Stored_Note" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 2::Frequency Switch::Frequency Bank::2-Stored_Frequency" : [ 8786.738812514122401 ],
-					"Drum Synth Modules::Drum Synth Module 2::Frequency Switch::Frequency Bank::2-Stored_Offset" : [ 0.0 ],
+					"Drum Synth Modules::Drum Synth Module 2::Frequency Switch::Frequency Bank::2-Stored_Semi" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 3::3-Stored_Gain" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 3::3-Stored_Osc" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 3::3-Stored_Shape" : [ 0.0 ],
@@ -66,7 +66,7 @@
 					"Drum Synth Modules::Drum Synth Module 3::Biquad Filter Plugin::Biquad Filter::3-Stored_Type" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Frequency Switch::3-Stored_Note" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Frequency Switch::Frequency Bank::3-Stored_Frequency" : [ 30.0 ],
-					"Drum Synth Modules::Drum Synth Module 3::Frequency Switch::Frequency Bank::3-Stored_Offset" : [ 0.0 ]
+					"Drum Synth Modules::Drum Synth Module 3::Frequency Switch::Frequency Bank::3-Stored_Semi" : [ 0.0 ]
 				}
 
 			}
@@ -90,7 +90,7 @@
 					"Drum Synth Modules::Drum Synth Module 4::Biquad Filter Plugin::Biquad Filter::4-Stored_Type" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Frequency Switch::4-Stored_Note" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Frequency Switch::Frequency Bank::4-Stored_Frequency" : [ 30 ],
-					"Drum Synth Modules::Drum Synth Module 4::Frequency Switch::Frequency Bank::4-Stored_Offset" : [ 0.0 ],
+					"Drum Synth Modules::Drum Synth Module 4::Frequency Switch::Frequency Bank::4-Stored_Semi" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 1::1-Stored_Gain" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 1::1-Stored_Osc" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 1::1-Stored_Shape" : [ 0 ],
@@ -105,7 +105,7 @@
 					"Drum Synth Modules::Drum Synth Module 1::Biquad Filter Plugin::Biquad Filter::1-Stored_Type" : [ 1.0 ],
 					"Drum Synth Modules::Drum Synth Module 1::Frequency Switch::1-Stored_Note" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 1::Frequency Switch::Frequency Bank::1-Stored_Frequency" : [ 175 ],
-					"Drum Synth Modules::Drum Synth Module 1::Frequency Switch::Frequency Bank::1-Stored_Offset" : [ 0.0 ],
+					"Drum Synth Modules::Drum Synth Module 1::Frequency Switch::Frequency Bank::1-Stored_Semi" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 2::2-Stored_Gain" : [ -14.0 ],
 					"Drum Synth Modules::Drum Synth Module 2::2-Stored_Osc" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 2::2-Stored_Shape" : [ 4 ],
@@ -120,7 +120,7 @@
 					"Drum Synth Modules::Drum Synth Module 2::Biquad Filter Plugin::Biquad Filter::2-Stored_Type" : [ 1.0 ],
 					"Drum Synth Modules::Drum Synth Module 2::Frequency Switch::2-Stored_Note" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 2::Frequency Switch::Frequency Bank::2-Stored_Frequency" : [ 30 ],
-					"Drum Synth Modules::Drum Synth Module 2::Frequency Switch::Frequency Bank::2-Stored_Offset" : [ 0.0 ],
+					"Drum Synth Modules::Drum Synth Module 2::Frequency Switch::Frequency Bank::2-Stored_Semi" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 3::3-Stored_Gain" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 3::3-Stored_Osc" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 3::3-Stored_Shape" : [ 0 ],
@@ -135,7 +135,7 @@
 					"Drum Synth Modules::Drum Synth Module 3::Biquad Filter Plugin::Biquad Filter::3-Stored_Type" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Frequency Switch::3-Stored_Note" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Frequency Switch::Frequency Bank::3-Stored_Frequency" : [ 30 ],
-					"Drum Synth Modules::Drum Synth Module 3::Frequency Switch::Frequency Bank::3-Stored_Offset" : [ 0.0 ]
+					"Drum Synth Modules::Drum Synth Module 3::Frequency Switch::Frequency Bank::3-Stored_Semi" : [ 0.0 ]
 				}
 
 			}
@@ -159,7 +159,7 @@
 					"Drum Synth Modules::Drum Synth Module 4::Biquad Filter Plugin::Biquad Filter::4-Stored_Type" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Frequency Switch::4-Stored_Note" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Frequency Switch::Frequency Bank::4-Stored_Frequency" : [ 30 ],
-					"Drum Synth Modules::Drum Synth Module 4::Frequency Switch::Frequency Bank::4-Stored_Offset" : [ 0.0 ],
+					"Drum Synth Modules::Drum Synth Module 4::Frequency Switch::Frequency Bank::4-Stored_Semi" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 1::1-Stored_Gain" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 1::1-Stored_Osc" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 1::1-Stored_Shape" : [ 0 ],
@@ -174,7 +174,7 @@
 					"Drum Synth Modules::Drum Synth Module 1::Biquad Filter Plugin::Biquad Filter::1-Stored_Type" : [ 1.0 ],
 					"Drum Synth Modules::Drum Synth Module 1::Frequency Switch::1-Stored_Note" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 1::Frequency Switch::Frequency Bank::1-Stored_Frequency" : [ 110 ],
-					"Drum Synth Modules::Drum Synth Module 1::Frequency Switch::Frequency Bank::1-Stored_Offset" : [ 0.0 ],
+					"Drum Synth Modules::Drum Synth Module 1::Frequency Switch::Frequency Bank::1-Stored_Semi" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 2::2-Stored_Gain" : [ -14.0 ],
 					"Drum Synth Modules::Drum Synth Module 2::2-Stored_Osc" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 2::2-Stored_Shape" : [ 5 ],
@@ -189,7 +189,7 @@
 					"Drum Synth Modules::Drum Synth Module 2::Biquad Filter Plugin::Biquad Filter::2-Stored_Type" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 2::Frequency Switch::2-Stored_Note" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 2::Frequency Switch::Frequency Bank::2-Stored_Frequency" : [ 30 ],
-					"Drum Synth Modules::Drum Synth Module 2::Frequency Switch::Frequency Bank::2-Stored_Offset" : [ 0.0 ],
+					"Drum Synth Modules::Drum Synth Module 2::Frequency Switch::Frequency Bank::2-Stored_Semi" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 3::3-Stored_Gain" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 3::3-Stored_Osc" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 3::3-Stored_Shape" : [ 0 ],
@@ -204,7 +204,7 @@
 					"Drum Synth Modules::Drum Synth Module 3::Biquad Filter Plugin::Biquad Filter::3-Stored_Type" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Frequency Switch::3-Stored_Note" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Frequency Switch::Frequency Bank::3-Stored_Frequency" : [ 30 ],
-					"Drum Synth Modules::Drum Synth Module 3::Frequency Switch::Frequency Bank::3-Stored_Offset" : [ 0.0 ]
+					"Drum Synth Modules::Drum Synth Module 3::Frequency Switch::Frequency Bank::3-Stored_Semi" : [ 0.0 ]
 				}
 
 			}
@@ -228,7 +228,7 @@
 					"Drum Synth Modules::Drum Synth Module 4::Biquad Filter Plugin::Biquad Filter::4-Stored_Type" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Frequency Switch::4-Stored_Note" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Frequency Switch::Frequency Bank::4-Stored_Frequency" : [ 30 ],
-					"Drum Synth Modules::Drum Synth Module 4::Frequency Switch::Frequency Bank::4-Stored_Offset" : [ 0.0 ],
+					"Drum Synth Modules::Drum Synth Module 4::Frequency Switch::Frequency Bank::4-Stored_Semi" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 1::1-Stored_Gain" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 1::1-Stored_Osc" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 1::1-Stored_Shape" : [ 4 ],
@@ -243,7 +243,7 @@
 					"Drum Synth Modules::Drum Synth Module 1::Biquad Filter Plugin::Biquad Filter::1-Stored_Type" : [ 1.0 ],
 					"Drum Synth Modules::Drum Synth Module 1::Frequency Switch::1-Stored_Note" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 1::Frequency Switch::Frequency Bank::1-Stored_Frequency" : [ 30 ],
-					"Drum Synth Modules::Drum Synth Module 1::Frequency Switch::Frequency Bank::1-Stored_Offset" : [ 0.0 ],
+					"Drum Synth Modules::Drum Synth Module 1::Frequency Switch::Frequency Bank::1-Stored_Semi" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 2::2-Stored_Gain" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 2::2-Stored_Osc" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 2::2-Stored_Shape" : [ 0 ],
@@ -258,7 +258,7 @@
 					"Drum Synth Modules::Drum Synth Module 2::Biquad Filter Plugin::Biquad Filter::2-Stored_Type" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 2::Frequency Switch::2-Stored_Note" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 2::Frequency Switch::Frequency Bank::2-Stored_Frequency" : [ 30 ],
-					"Drum Synth Modules::Drum Synth Module 2::Frequency Switch::Frequency Bank::2-Stored_Offset" : [ 0.0 ],
+					"Drum Synth Modules::Drum Synth Module 2::Frequency Switch::Frequency Bank::2-Stored_Semi" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 3::3-Stored_Gain" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 3::3-Stored_Osc" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 3::3-Stored_Shape" : [ 0 ],
@@ -273,7 +273,7 @@
 					"Drum Synth Modules::Drum Synth Module 3::Biquad Filter Plugin::Biquad Filter::3-Stored_Type" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Frequency Switch::3-Stored_Note" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Frequency Switch::Frequency Bank::3-Stored_Frequency" : [ 30 ],
-					"Drum Synth Modules::Drum Synth Module 3::Frequency Switch::Frequency Bank::3-Stored_Offset" : [ 0.0 ]
+					"Drum Synth Modules::Drum Synth Module 3::Frequency Switch::Frequency Bank::3-Stored_Semi" : [ 0.0 ]
 				}
 
 			}
@@ -297,7 +297,7 @@
 					"Drum Synth Modules::Drum Synth Module 4::Biquad Filter Plugin::Biquad Filter::4-Stored_Type" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Frequency Switch::4-Stored_Note" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Frequency Switch::Frequency Bank::4-Stored_Frequency" : [ 30 ],
-					"Drum Synth Modules::Drum Synth Module 4::Frequency Switch::Frequency Bank::4-Stored_Offset" : [ 0.0 ],
+					"Drum Synth Modules::Drum Synth Module 4::Frequency Switch::Frequency Bank::4-Stored_Semi" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 1::1-Stored_Gain" : [ -20.0 ],
 					"Drum Synth Modules::Drum Synth Module 1::1-Stored_Osc" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 1::1-Stored_Shape" : [ 3 ],
@@ -312,7 +312,7 @@
 					"Drum Synth Modules::Drum Synth Module 1::Biquad Filter Plugin::Biquad Filter::1-Stored_Type" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 1::Frequency Switch::1-Stored_Note" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 1::Frequency Switch::Frequency Bank::1-Stored_Frequency" : [ 1100 ],
-					"Drum Synth Modules::Drum Synth Module 1::Frequency Switch::Frequency Bank::1-Stored_Offset" : [ 0.0 ],
+					"Drum Synth Modules::Drum Synth Module 1::Frequency Switch::Frequency Bank::1-Stored_Semi" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 2::2-Stored_Gain" : [ -14.0 ],
 					"Drum Synth Modules::Drum Synth Module 2::2-Stored_Osc" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 2::2-Stored_Shape" : [ 0 ],
@@ -327,7 +327,7 @@
 					"Drum Synth Modules::Drum Synth Module 2::Biquad Filter Plugin::Biquad Filter::2-Stored_Type" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 2::Frequency Switch::2-Stored_Note" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 2::Frequency Switch::Frequency Bank::2-Stored_Frequency" : [ 725 ],
-					"Drum Synth Modules::Drum Synth Module 2::Frequency Switch::Frequency Bank::2-Stored_Offset" : [ 0.0 ],
+					"Drum Synth Modules::Drum Synth Module 2::Frequency Switch::Frequency Bank::2-Stored_Semi" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 3::3-Stored_Gain" : [ -14.0 ],
 					"Drum Synth Modules::Drum Synth Module 3::3-Stored_Osc" : [ 1 ],
 					"Drum Synth Modules::Drum Synth Module 3::3-Stored_Shape" : [ 5 ],
@@ -342,7 +342,7 @@
 					"Drum Synth Modules::Drum Synth Module 3::Biquad Filter Plugin::Biquad Filter::3-Stored_Type" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Frequency Switch::3-Stored_Note" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Frequency Switch::Frequency Bank::3-Stored_Frequency" : [ 30 ],
-					"Drum Synth Modules::Drum Synth Module 3::Frequency Switch::Frequency Bank::3-Stored_Offset" : [ 0.0 ]
+					"Drum Synth Modules::Drum Synth Module 3::Frequency Switch::Frequency Bank::3-Stored_Semi" : [ 0.0 ]
 				}
 
 			}
@@ -366,7 +366,7 @@
 					"Drum Synth Modules::Drum Synth Module 4::Biquad Filter Plugin::Biquad Filter::4-Stored_Type" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Frequency Switch::4-Stored_Note" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 4::Frequency Switch::Frequency Bank::4-Stored_Frequency" : [ 30 ],
-					"Drum Synth Modules::Drum Synth Module 4::Frequency Switch::Frequency Bank::4-Stored_Offset" : [ 0.0 ],
+					"Drum Synth Modules::Drum Synth Module 4::Frequency Switch::Frequency Bank::4-Stored_Semi" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 1::1-Stored_Gain" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 1::1-Stored_Osc" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 1::1-Stored_Shape" : [ 0 ],
@@ -381,7 +381,7 @@
 					"Drum Synth Modules::Drum Synth Module 1::Biquad Filter Plugin::Biquad Filter::1-Stored_Type" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 1::Frequency Switch::1-Stored_Note" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 1::Frequency Switch::Frequency Bank::1-Stored_Frequency" : [ 30 ],
-					"Drum Synth Modules::Drum Synth Module 1::Frequency Switch::Frequency Bank::1-Stored_Offset" : [ 0.0 ],
+					"Drum Synth Modules::Drum Synth Module 1::Frequency Switch::Frequency Bank::1-Stored_Semi" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 2::2-Stored_Gain" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 2::2-Stored_Osc" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 2::2-Stored_Shape" : [ 0 ],
@@ -396,7 +396,7 @@
 					"Drum Synth Modules::Drum Synth Module 2::Biquad Filter Plugin::Biquad Filter::2-Stored_Type" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 2::Frequency Switch::2-Stored_Note" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 2::Frequency Switch::Frequency Bank::2-Stored_Frequency" : [ 30 ],
-					"Drum Synth Modules::Drum Synth Module 2::Frequency Switch::Frequency Bank::2-Stored_Offset" : [ 0.0 ],
+					"Drum Synth Modules::Drum Synth Module 2::Frequency Switch::Frequency Bank::2-Stored_Semi" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 3::3-Stored_Gain" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 3::3-Stored_Osc" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 3::3-Stored_Shape" : [ 0 ],
@@ -411,7 +411,7 @@
 					"Drum Synth Modules::Drum Synth Module 3::Biquad Filter Plugin::Biquad Filter::3-Stored_Type" : [ 0.0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Frequency Switch::3-Stored_Note" : [ 0 ],
 					"Drum Synth Modules::Drum Synth Module 3::Frequency Switch::Frequency Bank::3-Stored_Frequency" : [ 30 ],
-					"Drum Synth Modules::Drum Synth Module 3::Frequency Switch::Frequency Bank::3-Stored_Offset" : [ 0.0 ]
+					"Drum Synth Modules::Drum Synth Module 3::Frequency Switch::Frequency Bank::3-Stored_Semi" : [ 0.0 ]
 				}
 
 			}
