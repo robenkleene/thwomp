@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 790.0, 244.0, 625.0, 726.0 ],
+		"rect" : [ 790.0, 244.0, 348.0, 726.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -59,8 +59,18 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 272.0, 152.0, 126.0, 20.0 ],
 					"restore" : [ 0.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "#1-Stored_Fil",
+							"parameter_shortname" : "#1-Stored_Fil",
+							"parameter_type" : 3
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
+						"parameter_enable" : 1,
 						"parameter_mappable" : 0
 					}
 ,
@@ -310,9 +320,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-1" : [ "#1-Filter-Frequency", "#1FilFrq", 0 ],
-			"obj-1::obj-11" : [ "#1-Filter-Q", "#1FilQ", 0 ],
-			"obj-1::obj-6" : [ "#1-Filter-Type", "#1FilTyp", 0 ],
+			"obj-1::obj-1" : [ "#1-Filter-Frequency", "Freq", 0 ],
+			"obj-1::obj-11" : [ "#1-Filter-Q", "Q", 0 ],
+			"obj-1::obj-6" : [ "#1-Filter-Type", "Type", 0 ],
+			"obj-5" : [ "#1-Stored_Fil", "#1-Stored_Fil", 0 ],
 			"obj-7" : [ "#1-Filter", "Filter", 0 ],
 			"parameterbanks" : 			{
 

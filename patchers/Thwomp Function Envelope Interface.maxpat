@@ -74,8 +74,18 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 248.0, 8.0, 187.0, 20.0 ],
 					"restore" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "#1-Stored_Function",
+							"parameter_shortname" : "#1-Stored_Function",
+							"parameter_type" : 3
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
+						"parameter_enable" : 1,
 						"parameter_mappable" : 0
 					}
 ,
@@ -266,6 +276,7 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-1" : [ "#1-Stored_Function", "#1-Stored_Function", 0 ],
 			"parameterbanks" : 			{
 
 			}

@@ -126,8 +126,18 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 216.0, 40.0, 150.0, 20.0 ],
 					"restore" : [ 0.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "#1-Stored_Semi",
+							"parameter_shortname" : "#1-Stored_Semi",
+							"parameter_type" : 3
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
+						"parameter_enable" : 1,
 						"parameter_mappable" : 0
 					}
 ,
@@ -206,8 +216,18 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 216.0, 16.0, 204.0, 20.0 ],
 					"restore" : [ 30.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "#1-Stored_Frequency",
+							"parameter_shortname" : "#1-Stored_Frequency",
+							"parameter_type" : 3
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
+						"parameter_enable" : 1,
 						"parameter_mappable" : 0
 					}
 ,
@@ -381,6 +401,8 @@
 		"parameters" : 		{
 			"obj-11" : [ "#1-Oscillator-Semitones", "Semi", 0 ],
 			"obj-14" : [ "#1-Oscillator-Frequency", "Freq", 0 ],
+			"obj-15" : [ "#1-Stored_Frequency", "#1-Stored_Frequency", 0 ],
+			"obj-6" : [ "#1-Stored_Semi", "#1-Stored_Semi", 0 ],
 			"parameterbanks" : 			{
 
 			}

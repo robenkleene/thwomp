@@ -150,8 +150,18 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 360.0, 24.0, 148.0, 20.0 ],
 					"restore" : [ 0.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "#1-Stored_Type",
+							"parameter_shortname" : "#1-Stored_Type",
+							"parameter_type" : 3
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
+						"parameter_enable" : 1,
 						"parameter_mappable" : 0
 					}
 ,
@@ -260,8 +270,18 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 360.0, 72.0, 118.0, 20.0 ],
 					"restore" : [ 0.3 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "#1-Stored_Q",
+							"parameter_shortname" : "#1-Stored_Q",
+							"parameter_type" : 3
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
+						"parameter_enable" : 1,
 						"parameter_mappable" : 0
 					}
 ,
@@ -279,8 +299,18 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 360.0, 48.0, 204.0, 20.0 ],
 					"restore" : [ 30.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "#1-Stored_Frequency",
+							"parameter_shortname" : "#1-Stored_Frequency",
+							"parameter_type" : 3
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
+						"parameter_enable" : 1,
 						"parameter_mappable" : 0
 					}
 ,
@@ -539,7 +569,10 @@
 		"parameters" : 		{
 			"obj-1" : [ "#1-Filter-Frequency", "Freq", 0 ],
 			"obj-11" : [ "#1-Filter-Q", "Q", 0 ],
+			"obj-20" : [ "#1-Stored_Q", "#1-Stored_Q", 0 ],
+			"obj-4" : [ "#1-Stored_Type", "#1-Stored_Type", 0 ],
 			"obj-6" : [ "#1-Filter-Type", "Type", 0 ],
+			"obj-8" : [ "#1-Stored_Frequency", "#1-Stored_Frequency", 0 ],
 			"parameterbanks" : 			{
 
 			}

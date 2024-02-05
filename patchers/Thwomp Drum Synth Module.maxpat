@@ -291,8 +291,18 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 640.0, 72.0, 162.0, 20.0 ],
 					"restore" : [ 0.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "#1-Stored_Shape",
+							"parameter_shortname" : "#1-Stored_Shape",
+							"parameter_type" : 3
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
+						"parameter_enable" : 1,
 						"parameter_mappable" : 0
 					}
 ,
@@ -310,8 +320,18 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 640.0, 8.0, 140.0, 20.0 ],
 					"restore" : [ 0.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "#1-Stored_Osc",
+							"parameter_shortname" : "#1-Stored_Osc",
+							"parameter_type" : 3
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
+						"parameter_enable" : 1,
 						"parameter_mappable" : 0
 					}
 ,
@@ -329,8 +349,18 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 640.0, 40.0, 147.0, 20.0 ],
 					"restore" : [ 0.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "#1-Stored_Gain",
+							"parameter_shortname" : "#1-Stored_Gain",
+							"parameter_type" : 3
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
+						"parameter_enable" : 1,
 						"parameter_mappable" : 0
 					}
 ,
@@ -704,15 +734,26 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-1" : [ "#1-Stored_Shape", "#1-Stored_Shape", 0 ],
+			"obj-10" : [ "#1-Stored_Gain", "#1-Stored_Gain", 0 ],
 			"obj-12::obj-1::obj-1" : [ "#1-Filter-Frequency", "Freq", 0 ],
 			"obj-12::obj-1::obj-11" : [ "#1-Filter-Q", "Q", 0 ],
+			"obj-12::obj-1::obj-20" : [ "#1-Stored_Q", "#1-Stored_Q", 0 ],
+			"obj-12::obj-1::obj-4" : [ "#1-Stored_Type", "#1-Stored_Type", 0 ],
 			"obj-12::obj-1::obj-6" : [ "#1-Filter-Type", "Type", 0 ],
+			"obj-12::obj-1::obj-8" : [ "#1-Stored_Frequency", "#1-Stored_Frequency", 0 ],
+			"obj-12::obj-5" : [ "#1-Stored_Fil", "#1-Stored_Fil", 0 ],
 			"obj-12::obj-7" : [ "#1-Filter", "Filter", 0 ],
+			"obj-14" : [ "#1-Stored_Osc", "#1-Stored_Osc", 0 ],
 			"obj-17::obj-17" : [ "#1-Pitch-Envelope-Amount", "Amount", 0 ],
 			"obj-17::obj-18" : [ "#1-Pitch-Envelope-Duration", "Duration", 0 ],
 			"obj-2::obj-1::obj-11" : [ "#1-Oscillator-Semitones", "Semi", 0 ],
 			"obj-2::obj-1::obj-14" : [ "#1-Oscillator-Frequency", "Freq", 0 ],
+			"obj-2::obj-1::obj-15" : [ "#1-Stored_Frequency[1]", "#1-Stored_Frequency", 0 ],
+			"obj-2::obj-1::obj-6" : [ "#1-Stored_Semi", "#1-Stored_Semi", 0 ],
 			"obj-2::obj-5" : [ "#1-Oscillator-Note", "Note", 0 ],
+			"obj-4::obj-1" : [ "#1-Stored_Attack", "#1-Stored_Attack", 0 ],
+			"obj-4::obj-21" : [ "#1-Stored_Decay", "#1-Stored_Decay", 0 ],
 			"obj-4::obj-3" : [ "#1-Amplifier-Decay", "Decay", 0 ],
 			"obj-4::obj-7" : [ "#1-Amplifier-Attack", "Attack", 0 ],
 			"obj-5" : [ "#1-Oscillator-Gain", "Gain", 0 ],

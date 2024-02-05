@@ -138,8 +138,18 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 473.0, 75.0, 117.0, 31.0 ],
 					"restore" : [ 0.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "#1-Stored_Decay",
+							"parameter_shortname" : "#1-Stored_Decay",
+							"parameter_type" : 3
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
+						"parameter_enable" : 1,
 						"parameter_mappable" : 0
 					}
 ,
@@ -158,8 +168,18 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 472.0, 40.0, 119.0, 31.0 ],
 					"restore" : [ 0.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "#1-Stored_Attack",
+							"parameter_shortname" : "#1-Stored_Attack",
+							"parameter_type" : 3
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
+						"parameter_enable" : 1,
 						"parameter_mappable" : 0
 					}
 ,
@@ -218,6 +238,8 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-1" : [ "#1-Stored_Attack", "#1-Stored_Attack", 0 ],
+			"obj-21" : [ "#1-Stored_Decay", "#1-Stored_Decay", 0 ],
 			"obj-3" : [ "#1-Amplifier-Decay", "Decay", 0 ],
 			"obj-7" : [ "#1-Amplifier-Attack", "Attack", 0 ],
 			"parameterbanks" : 			{
