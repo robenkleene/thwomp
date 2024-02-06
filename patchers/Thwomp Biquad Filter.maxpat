@@ -47,7 +47,9 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 384.0, 40.0, 52.0, 20.0 ],
 					"restore" : 					{
-						"Filtergraph" : [ 1, 0, 1, 1, 0, 0, 30.0, 1.392045617103577, 0.300000011920929 ]
+						"#1-Frequency" : [ 30.0 ],
+						"#1-Q" : [ 0.3 ],
+						"#1-Type" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -339,9 +341,9 @@
 					"numoutlets" : 7,
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 184.0, 325.0, 300.0, 120.0 ],
-					"setfilter" : [ 0, 1, 1, 0, 0, 30.0, 1.392045617103577, 0.300000011920929, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
-					"varname" : "Filtergraph"
+					"setfilter" : [ 0, 1, 1, 0, 0, 30.0, 1.392045617103577, 0.300000011920929, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
