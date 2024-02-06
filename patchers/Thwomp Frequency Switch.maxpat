@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 248.0, 8.0, 52.0, 20.0 ],
+					"text" : "autopattr",
+					"varname" : "u245010073"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "int: 0 note off, 1 note on",
 					"id" : "obj-9",
 					"index" : 0,
@@ -158,35 +171,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 160.0, 8.0, 147.0, 20.0 ],
-					"restore" : [ 0.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "#1-Stored_Note",
-							"parameter_shortname" : "#1-Stored_Note",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr #1-Stored_Note #1-Note",
-					"varname" : "#1-Stored_Note"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
 					"index" : 0,
@@ -262,9 +246,6 @@
 		"parameters" : 		{
 			"obj-1::obj-11" : [ "#1-Oscillator-Semitones", "Semi", 0 ],
 			"obj-1::obj-14" : [ "#1-Oscillator-Frequency", "Freq", 0 ],
-			"obj-1::obj-15" : [ "#1-Stored_Frequency", "#1-Stored_Frequency", 0 ],
-			"obj-1::obj-6" : [ "#1-Stored_Semi", "#1-Stored_Semi", 0 ],
-			"obj-3" : [ "#1-Stored_Note", "#1-Stored_Note", 0 ],
 			"obj-5" : [ "#1-Oscillator-Note", "Note", 0 ],
 			"parameterbanks" : 			{
 

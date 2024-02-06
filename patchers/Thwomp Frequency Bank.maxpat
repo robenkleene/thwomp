@@ -40,6 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 352.0, 16.0, 52.0, 20.0 ],
+					"restore" : 					{
+						"#1-Frequency" : [ 30.0 ],
+						"#1-Semi" : [ 0.0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u665013921"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -119,35 +137,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 216.0, 40.0, 150.0, 20.0 ],
-					"restore" : [ 0.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "#1-Stored_Semi",
-							"parameter_shortname" : "#1-Stored_Semi",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr #1-Stored_Semi #1-Semi",
-					"varname" : "#1-Stored_Semi"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -204,35 +193,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 96.0, 264.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-15",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 216.0, 16.0, 204.0, 20.0 ],
-					"restore" : [ 30.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "#1-Stored_Frequency",
-							"parameter_shortname" : "#1-Stored_Frequency",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr #1-Stored_Frequency #1-Frequency",
-					"varname" : "#1-Stored_Frequency"
 				}
 
 			}
@@ -401,8 +361,6 @@
 		"parameters" : 		{
 			"obj-11" : [ "#1-Oscillator-Semitones", "Semi", 0 ],
 			"obj-14" : [ "#1-Oscillator-Frequency", "Freq", 0 ],
-			"obj-15" : [ "#1-Stored_Frequency", "#1-Stored_Frequency", 0 ],
-			"obj-6" : [ "#1-Stored_Semi", "#1-Stored_Semi", 0 ],
 			"parameterbanks" : 			{
 
 			}

@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 336.0, 24.0, 52.0, 20.0 ],
+					"text" : "autopattr",
+					"varname" : "u990001634"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "(Signal) Envelope",
 					"id" : "obj-14",
 					"index" : 0,
@@ -60,37 +73,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 16.0, 8.0, 25.0, 25.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 248.0, 8.0, 187.0, 20.0 ],
-					"restore" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "#1-Stored_Function",
-							"parameter_shortname" : "#1-Stored_Function",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr #1-Stored_Function #1-Function",
-					"varname" : "#1-Stored_Function"
 				}
 
 			}
@@ -276,7 +258,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "#1-Stored_Function", "#1-Stored_Function", 0 ],
 			"parameterbanks" : 			{
 
 			}

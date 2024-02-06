@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 790.0, 244.0, 348.0, 726.0 ],
+		"rect" : [ 790.0, 244.0, 565.0, 726.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -40,6 +40,23 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 328.0, 160.0, 52.0, 20.0 ],
+					"restore" : 					{
+						"#1-Fil" : [ 0.0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u892006714"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -47,35 +64,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 208.0, 104.0, 63.0, 20.0 ],
 					"text" : "loadmess 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 272.0, 152.0, 126.0, 20.0 ],
-					"restore" : [ 0.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "#1-Stored_Fil",
-							"parameter_shortname" : "#1-Stored_Fil",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr #1-Stored_Fil #1-Fil",
-					"varname" : "#1-Stored_Fil"
 				}
 
 			}
@@ -275,7 +263,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -283,7 +271,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -323,7 +311,6 @@
 			"obj-1::obj-1" : [ "#1-Filter-Frequency", "Freq", 0 ],
 			"obj-1::obj-11" : [ "#1-Filter-Q", "Q", 0 ],
 			"obj-1::obj-6" : [ "#1-Filter-Type", "Type", 0 ],
-			"obj-5" : [ "#1-Stored_Fil", "#1-Stored_Fil", 0 ],
 			"obj-7" : [ "#1-Filter", "Filter", 0 ],
 			"parameterbanks" : 			{
 

@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 456.0, 56.0, 52.0, 20.0 ],
+					"text" : "autopattr",
+					"varname" : "u526009117"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -130,66 +143,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-21",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 473.0, 75.0, 117.0, 31.0 ],
-					"restore" : [ 0.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "#1-Stored_Decay",
-							"parameter_shortname" : "#1-Stored_Decay",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr #1-Stored_Decay #1-Decay",
-					"varname" : "#1-Stored_Decay"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 472.0, 40.0, 119.0, 31.0 ],
-					"restore" : [ 0.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "#1-Stored_Attack",
-							"parameter_shortname" : "#1-Stored_Attack",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr #1-Stored_Attack #1-Attack",
-					"varname" : "#1-Stored_Attack"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"angle" : 0.0,
 					"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.4 ],
 					"bordercolor" : [ 0.137255, 0.145098, 0.160784, 0.0 ],
@@ -238,8 +191,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "#1-Stored_Attack", "#1-Stored_Attack", 0 ],
-			"obj-21" : [ "#1-Stored_Decay", "#1-Stored_Decay", 0 ],
 			"obj-3" : [ "#1-Amplifier-Decay", "Decay", 0 ],
 			"obj-7" : [ "#1-Amplifier-Attack", "Attack", 0 ],
 			"parameterbanks" : 			{

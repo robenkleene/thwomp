@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 312.0, 16.0, 52.0, 20.0 ],
+					"text" : "autopattr",
+					"varname" : "u627002945"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -114,64 +127,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 8.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 240.0, 32.0, 185.0, 20.0 ],
-					"restore" : [ 0.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "#1-Stored_Duration",
-							"parameter_shortname" : "#1-Stored_Duration",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr #1-Stored_Duration #1-Duration",
-					"varname" : "#1-Stored_Duration"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 240.0, 8.0, 178.0, 20.0 ],
-					"restore" : [ 0.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "#1-Stored_Amount",
-							"parameter_shortname" : "#1-Stored_Amount",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr #1-Stored_Amount #1-Amount",
-					"varname" : "#1-Stored_Amount"
 				}
 
 			}
@@ -311,9 +266,6 @@
 		"parameters" : 		{
 			"obj-17" : [ "#1-Pitch-Envelope-Amount", "Amount", 0 ],
 			"obj-18" : [ "#1-Pitch-Envelope-Duration", "Duration", 0 ],
-			"obj-20::obj-1" : [ "#1-Stored_Function", "#1-Stored_Function", 0 ],
-			"obj-6" : [ "#1-Stored_Amount", "#1-Stored_Amount", 0 ],
-			"obj-9" : [ "#1-Stored_Duration", "#1-Stored_Duration", 0 ],
 			"parameterbanks" : 			{
 
 			}
