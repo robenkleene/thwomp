@@ -47,11 +47,8 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 168.0, 80.0, 52.0, 20.0 ],
 					"restore" : 					{
-						"Overwrite" : [ 0.0 ],
-						"Read" : [ 0.0 ],
 						"Tab" : [ 0.0 ],
-						"Volume" : [ 0.0 ],
-						"Wrte" : [ 0.0 ]
+						"Volume" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -154,12 +151,14 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 420.0, 50.0, 32.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 296.0, 8.0, 24.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_invisible" : 2,
 							"parameter_longname" : "Read",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Read",
@@ -168,8 +167,7 @@
 
 					}
 ,
-					"text" : "R",
-					"varname" : "Read"
+					"text" : "R"
 				}
 
 			}
@@ -184,12 +182,14 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 460.0, 50.0, 32.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 296.0, 24.0, 24.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_invisible" : 2,
 							"parameter_longname" : "Write",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Write",
@@ -198,8 +198,7 @@
 
 					}
 ,
-					"text" : "W",
-					"varname" : "Wrte"
+					"text" : "W"
 				}
 
 			}
@@ -213,12 +212,14 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 500.0, 50.0, 32.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 296.0, 40.0, 24.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_invisible" : 2,
 							"parameter_longname" : "Overwrite",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Overwrite",
@@ -228,8 +229,7 @@
 					}
 ,
 					"text" : "OW",
-					"texton" : "OW",
-					"varname" : "Overwrite"
+					"texton" : "OW"
 				}
 
 			}
@@ -752,13 +752,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
-					"source" : [ "obj-9", 0 ]
 				}
 
 			}
