@@ -47,11 +47,11 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 168.0, 80.0, 52.0, 20.0 ],
 					"restore" : 					{
+						"Overwrite" : [ 0.0 ],
+						"Read" : [ 0.0 ],
 						"Tab" : [ 0.0 ],
 						"Volume" : [ 0.0 ],
-						"live.text" : [ 0.0 ],
-						"live.text[1]" : [ 0.0 ],
-						"live.text[2]" : [ 0.0 ]
+						"Write" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -154,14 +154,12 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"parameter_mappable" : 0,
 					"patching_rect" : [ 420.0, 50.0, 32.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 296.0, 8.0, 24.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_invisible" : 2,
 							"parameter_longname" : "Read",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Read",
@@ -171,7 +169,7 @@
 					}
 ,
 					"text" : "R",
-					"varname" : "live.text"
+					"varname" : "Read"
 				}
 
 			}
@@ -186,14 +184,12 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"parameter_mappable" : 0,
 					"patching_rect" : [ 460.0, 50.0, 32.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 296.0, 24.0, 24.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_invisible" : 2,
 							"parameter_longname" : "Write",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Write",
@@ -203,7 +199,7 @@
 					}
 ,
 					"text" : "W",
-					"varname" : "live.text[1]"
+					"varname" : "Write"
 				}
 
 			}
@@ -217,14 +213,12 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"parameter_mappable" : 0,
 					"patching_rect" : [ 500.0, 50.0, 32.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 296.0, 40.0, 24.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_invisible" : 2,
 							"parameter_longname" : "Overwrite",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Overwrite",
@@ -235,7 +229,7 @@
 ,
 					"text" : "OW",
 					"texton" : "OW",
-					"varname" : "live.text[2]"
+					"varname" : "Overwrite"
 				}
 
 			}
