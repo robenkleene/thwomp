@@ -48,7 +48,10 @@
 					"patching_rect" : [ 168.0, 80.0, 52.0, 20.0 ],
 					"restore" : 					{
 						"Tab" : [ 0.0 ],
-						"Volume" : [ 0.0 ]
+						"Volume" : [ 0.0 ],
+						"live.text" : [ 0.0 ],
+						"live.text[1]" : [ 0.0 ],
+						"live.text[2]" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -167,7 +170,8 @@
 
 					}
 ,
-					"text" : "R"
+					"text" : "R",
+					"varname" : "live.text"
 				}
 
 			}
@@ -198,7 +202,8 @@
 
 					}
 ,
-					"text" : "W"
+					"text" : "W",
+					"varname" : "live.text[1]"
 				}
 
 			}
@@ -229,7 +234,8 @@
 					}
 ,
 					"text" : "OW",
-					"texton" : "OW"
+					"texton" : "OW",
+					"varname" : "live.text[2]"
 				}
 
 			}
@@ -752,6 +758,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
