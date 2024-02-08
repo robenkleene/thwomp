@@ -126,7 +126,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 568.0, 112.0, 53.0, 20.0 ],
+					"patching_rect" : [ 560.0, 112.0, 53.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -138,7 +138,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 564.0, 138.0, 29.5, 20.0 ],
+					"patching_rect" : [ 560.0, 136.0, 29.5, 20.0 ],
 					"text" : "t 1 b"
 				}
 
