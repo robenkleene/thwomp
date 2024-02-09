@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 466.0, 100.0, 601.0, 787.0 ],
+		"rect" : [ 786.0, 198.0, 601.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -39,6 +39,25 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 384.0, 40.0, 52.0, 20.0 ],
+					"restore" : 					{
+						"#1-Frequency" : [ 30.0 ],
+						"#1-Q" : [ 0.3 ],
+						"#1-Type" : [ 0.0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u096009360"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "newobj",
@@ -76,7 +95,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_exponent" : 5.0,
-							"parameter_longname" : "Frequency",
+							"parameter_longname" : "#1-Filter-Frequency",
 							"parameter_mmax" : 22000.0,
 							"parameter_mmin" : 30.0,
 							"parameter_shortname" : "Freq",
@@ -86,7 +105,7 @@
 
 					}
 ,
-					"varname" : "Frequency"
+					"varname" : "#1-Frequency"
 				}
 
 			}
@@ -103,7 +122,7 @@
 					"presentation_rect" : [ 72.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Q",
+							"parameter_longname" : "#1-Filter-Q",
 							"parameter_mmax" : 10.0,
 							"parameter_mmin" : 0.3,
 							"parameter_shortname" : "Q",
@@ -113,7 +132,7 @@
 
 					}
 ,
-					"varname" : "Q"
+					"varname" : "#1-Q"
 				}
 
 			}
@@ -138,25 +157,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 184.0, 232.0, 20.0, 20.0 ],
 					"text" : "t s"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 360.0, 24.0, 119.0, 20.0 ],
-					"restore" : [ 0.0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr Stored_Type Type",
-					"varname" : "Stored_Type"
 				}
 
 			}
@@ -237,7 +237,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "one", "two", "three", "four" ],
-							"parameter_longname" : "Type",
+							"parameter_longname" : "#1-Filter-Type",
 							"parameter_mmax" : 3,
 							"parameter_shortname" : "Type",
 							"parameter_type" : 2
@@ -247,69 +247,7 @@
 ,
 					"usepicture" : 1,
 					"usesvgviewbox" : 1,
-					"varname" : "Type"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 360.0, 72.0, 89.0, 20.0 ],
-					"restore" : [ 0.3 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Q",
-							"parameter_mmax" : 10.0,
-							"parameter_mmin" : 0.3,
-							"parameter_shortname" : "Stored_Q",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr Stored_Q Q",
-					"varname" : "Stored_Q"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 360.0, 48.0, 175.0, 20.0 ],
-					"restore" : [ 30.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Frequency",
-							"parameter_mmax" : 22000.0,
-							"parameter_mmin" : 30.0,
-							"parameter_shortname" : "Stored_Frequency",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr Stored_Frequency Frequency",
-					"varname" : "Stored_Frequency"
+					"varname" : "#1-Type"
 				}
 
 			}
@@ -403,9 +341,9 @@
 					"numoutlets" : 7,
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 184.0, 325.0, 300.0, 120.0 ],
-					"setfilter" : [ 0, 1, 1, 0, 0, 30.0, 1.392045617103577, 0.300000011920929, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
-					"varname" : "Filtergraph"
+					"setfilter" : [ 0, 1, 1, 0, 0, 30.0, 1.392045617103577, 0.300000011920929, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -561,11 +499,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "Frequency", "Freq", 0 ],
-			"obj-11" : [ "Q", "Q", 0 ],
-			"obj-20" : [ "Stored_Q", "Stored_Q", 0 ],
-			"obj-6" : [ "Type", "Type", 0 ],
-			"obj-8" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
+			"obj-1" : [ "#1-Filter-Frequency", "Freq", 0 ],
+			"obj-11" : [ "#1-Filter-Q", "Q", 0 ],
+			"obj-6" : [ "#1-Filter-Type", "Type", 0 ],
 			"parameterbanks" : 			{
 
 			}

@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 754.0, 79.0, 349.0, 321.0 ],
+		"rect" : [ 754.0, 100.0, 614.0, 807.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -37,7 +37,21 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "Roben Kleene",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 336.0, 24.0, 52.0, 20.0 ],
+					"text" : "autopattr",
+					"varname" : "u990001634"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "(Signal) Envelope",
 					"id" : "obj-14",
@@ -59,37 +73,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 16.0, 8.0, 25.0, 25.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 248.0, 8.0, 158.0, 20.0 ],
-					"restore" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 596.774193548387075, 0.544303797468354, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Function",
-							"parameter_shortname" : "Stored_Function",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr Stored_Function Function",
-					"varname" : "Stored_Function"
 				}
 
 			}
@@ -179,7 +162,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 0.0, 1.0, 0, 596.774193548387075, 0.544303797468354, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0 ],
+					"addpoints" : [ 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0 ],
 					"id" : "obj-30",
 					"maxclass" : "function",
 					"numinlets" : 1,
@@ -189,7 +172,7 @@
 					"patching_rect" : [ 16.0, 304.0, 195.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 152.0, 104.0 ],
-					"varname" : "Function"
+					"varname" : "#1-Function"
 				}
 
 			}
@@ -275,11 +258,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "Stored_Function", "Stored_Function", 0 ],
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [  ],

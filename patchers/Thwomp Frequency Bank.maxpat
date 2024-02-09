@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,7 +37,26 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "roben-kleene-max-for-live",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 352.0, 16.0, 52.0, 20.0 ],
+					"restore" : 					{
+						"#1-Frequency" : [ 30.0 ],
+						"#1-Semi" : [ 0.0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u665013921"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "live.dial",
@@ -50,18 +69,18 @@
 					"presentation_rect" : [ 0.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_exponent" : 5.0,
+							"parameter_longname" : "#1-Oscillator-Frequency",
 							"parameter_mmax" : 22000.0,
+							"parameter_mmin" : 30.0,
 							"parameter_shortname" : "Freq",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 3,
-							"parameter_mmin" : 30.0,
-							"parameter_exponent" : 5.0,
-							"parameter_longname" : "Freq"
+							"parameter_unitstyle" : 3
 						}
 
 					}
 ,
-					"varname" : "Freq"
+					"varname" : "#1-Frequency"
 				}
 
 			}
@@ -102,46 +121,17 @@
 					"presentation_rect" : [ 0.0, 48.0, 40.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "#1-Oscillator-Semitones",
 							"parameter_mmax" : 48.0,
+							"parameter_mmin" : -48.0,
 							"parameter_shortname" : "Semi",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 7,
-							"parameter_mmin" : -48.0,
-							"parameter_longname" : "Semi"
+							"parameter_unitstyle" : 7
 						}
 
 					}
 ,
-					"varname" : "Offset"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 216.0, 40.0, 131.0, 20.0 ],
-					"restore" : [ 0.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Offset",
-							"parameter_shortname" : "Stored_Offset",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr Stored_Offset Offset",
-					"varname" : "Stored_Offset"
+					"varname" : "#1-Semi"
 				}
 
 			}
@@ -203,35 +193,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 96.0, 264.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-15",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 216.0, 16.0, 146.0, 20.0 ],
-					"restore" : [ 30.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Frequency",
-							"parameter_shortname" : "Stored_Frequency",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr Stored_Frequency Freq",
-					"varname" : "Stored_Frequency"
 				}
 
 			}
@@ -398,14 +359,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-14" : [ "Freq", "Freq", 0 ],
-			"obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
-			"obj-11" : [ "Semi", "Semi", 0 ],
-			"obj-15" : [ "Stored_Frequency", "Stored_Frequency", 0 ],
+			"obj-11" : [ "#1-Oscillator-Semitones", "Semi", 0 ],
+			"obj-14" : [ "#1-Oscillator-Frequency", "Freq", 0 ],
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [  ],

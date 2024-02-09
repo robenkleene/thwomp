@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 218.0, 192.0, 363.0, 374.0 ],
+		"rect" : [ 218.0, 192.0, 830.0, 538.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -37,8 +37,36 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "roben-kleene-max-for-live",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 248.0, 8.0, 52.0, 20.0 ],
+					"text" : "autopattr",
+					"varname" : "u245010073"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "int: 0 note off, 1 note on",
+					"id" : "obj-9",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 64.0, 248.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-5",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -50,19 +78,19 @@
 					"presentation_rect" : [ 0.0, 0.0, 32.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "On",
-							"parameter_enum" : [ "Freq", "Note" ],
+							"parameter_enum" : [ "Off", "On" ],
+							"parameter_longname" : "#1-Oscillator-Note",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "Note",
 							"parameter_type" : 2,
-							"parameter_unitstyle" : 0,
-							"parameter_longname" : "On",
-							"parameter_mmax" : 1
+							"parameter_unitstyle" : 9
 						}
 
 					}
 ,
 					"text" : "Note",
 					"texton" : "Note",
-					"varname" : "On"
+					"varname" : "#1-Note"
 				}
 
 			}
@@ -118,6 +146,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -125,6 +154,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "Thwomp Frequency Bank.maxpat",
 					"numinlets" : 2,
@@ -136,35 +166,6 @@
 					"presentation_rect" : [ 0.0, 16.0, 40.0, 48.0 ],
 					"varname" : "Frequency Bank",
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 160.0, 8.0, 101.0, 20.0 ],
-					"restore" : [ 0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_On",
-							"parameter_shortname" : "Stored_On",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr Stored_On On",
-					"varname" : "Stored_On"
 				}
 
 			}
@@ -206,7 +207,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -214,6 +215,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"order" : 1,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
 					"order" : 0,
 					"source" : [ "obj-5", 0 ]
 				}
@@ -235,15 +244,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-11" : [ "Semi", "Semi", 0 ],
-			"obj-1::obj-6" : [ "Stored_Offset", "Stored_Offset", 0 ],
-			"obj-3" : [ "Stored_On", "Stored_On", 0 ],
-			"obj-5" : [ "On", "On", 0 ],
-			"obj-1::obj-9" : [ "Freq", "Freq", 0 ],
+			"obj-1::obj-11" : [ "#1-Oscillator-Semitones", "Semi", 0 ],
+			"obj-1::obj-14" : [ "#1-Oscillator-Frequency", "Freq", 0 ],
+			"obj-5" : [ "#1-Oscillator-Note", "Note", 0 ],
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{

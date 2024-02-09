@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 524.0, 79.0, 576.0, 787.0 ],
+		"rect" : [ 524.0, 100.0, 868.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -37,7 +37,21 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 456.0, 56.0, 52.0, 20.0 ],
+					"text" : "autopattr",
+					"varname" : "u526009117"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
@@ -62,17 +76,17 @@
 					"presentation_rect" : [ 0.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_exponent" : 5.0,
+							"parameter_longname" : "#1-Amplifier-Attack",
+							"parameter_mmax" : 15000.0,
 							"parameter_shortname" : "Attack",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 2,
-							"parameter_exponent" : 5.0,
-							"parameter_longname" : "Attack",
-							"parameter_mmax" : 15000.0
+							"parameter_unitstyle" : 2
 						}
 
 					}
 ,
-					"varname" : "Attack"
+					"varname" : "#1-Attack"
 				}
 
 			}
@@ -89,17 +103,17 @@
 					"presentation_rect" : [ 0.0, 56.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_exponent" : 5.0,
+							"parameter_longname" : "#1-Amplifier-Decay",
+							"parameter_mmax" : 15000.0,
 							"parameter_shortname" : "Decay",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 2,
-							"parameter_exponent" : 5.0,
-							"parameter_longname" : "Decay",
-							"parameter_mmax" : 15000.0
+							"parameter_unitstyle" : 2
 						}
 
 					}
 ,
-					"varname" : "Decay"
+					"varname" : "#1-Decay"
 				}
 
 			}
@@ -124,66 +138,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 144.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-21",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 473.0, 75.0, 132.0, 20.0 ],
-					"restore" : [ 0.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Decay",
-							"parameter_mmax" : 15000.0,
-							"parameter_shortname" : "Stored_Decay",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr Stored_Decay Decay",
-					"varname" : "Stored_Decay"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 472.0, 40.0, 134.0, 20.0 ],
-					"restore" : [ 0.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Attack",
-							"parameter_mmax" : 15000.0,
-							"parameter_shortname" : "Stored_Attack",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr Stored_Attack Attack",
-					"varname" : "Stored_Attack"
 				}
 
 			}
@@ -237,14 +191,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-7" : [ "Attack", "Attack", 0 ],
-			"obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
-			"obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
-			"obj-3" : [ "Decay", "Decay", 0 ],
+			"obj-3" : [ "#1-Amplifier-Decay", "Decay", 0 ],
+			"obj-7" : [ "#1-Amplifier-Attack", "Attack", 0 ],
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [  ],
