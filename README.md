@@ -40,7 +40,7 @@ Thwomp can also be opened in standalone mode by opening the `misc/instruments/Th
 - To save a preset, shift-click a box
 - To delete a preset, shift-option-click a box
 
-## Per Oscillator Parameters
+## Oscillator Parameters
 
 ### Waveform
 
@@ -67,6 +67,15 @@ Thwomp can also be opened in standalone mode by opening the `misc/instruments/Th
 
 - **Attack**: Attack
 - **Decay**: Decay
+
+## Ableton Push
+
+Thwomp support Ableton Push. When using Push, the leftmost knob always chooses the selected Oscillator. There's four different banks that allow all of Thwomp's parameters to be accessed:
+
+- Main
+- Oscillator
+- Envelope
+- Filter
 
 ## Presets
 
