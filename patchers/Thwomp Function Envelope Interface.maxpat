@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -46,6 +46,10 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 336.0, 24.0, 52.0, 20.0 ],
+					"restore" : 					{
+						"#1-Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ]
+					}
+,
 					"text" : "autopattr",
 					"varname" : "u990001634"
 				}
@@ -163,15 +167,26 @@
 , 			{
 				"box" : 				{
 					"addpoints" : [ 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0 ],
+					"classic_curve" : 1,
 					"id" : "obj-30",
 					"maxclass" : "function",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "", "", "bang" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 16.0, 304.0, 195.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 152.0, 104.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "#1-Function",
+							"parameter_shortname" : "#1-Function",
+							"parameter_type" : 3
+						}
+
+					}
+,
 					"varname" : "#1-Function"
 				}
 
@@ -258,6 +273,7 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-30" : [ "#1-Function", "#1-Function", 0 ],
 			"parameterbanks" : 			{
 
 			}
