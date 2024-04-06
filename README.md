@@ -70,7 +70,9 @@ Thwomp can also be opened in standalone mode by opening the `misc/instruments/Th
 
 ## Ableton Push
 
-Thwomp support Ableton Push. When using Push, the leftmost knob always chooses the selected Oscillator. There's four different banks that allow all of Thwomp's parameters to be accessed:
+Thwomp support Ableton Push. When using Push, the leftmost knob always chooses the selected Oscillator. There's four different banks that allow all of Thwomp's parameters to be accessed.
+
+### Banks
 
 - Main
 - Oscillator
