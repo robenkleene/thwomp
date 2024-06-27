@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -133,6 +133,7 @@
 							"parameter_longname" : "#1-Oscillator-Gain",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Gain",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -174,6 +175,7 @@
 							"parameter_enum" : [ "sine", "tri", "square", "saw", "noise", "pink" ],
 							"parameter_longname" : "#1-Oscillator-Shape",
 							"parameter_mmax" : 5,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Shape",
 							"parameter_type" : 2
 						}
@@ -204,6 +206,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "#1-Oscillator",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Osc",
 							"parameter_type" : 2
 						}
@@ -296,8 +299,8 @@
 					"numinlets" : 7,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 192.0, 560.0, 171.0, 20.0 ],
-					"text" : "poly~ thwomp_engine 8 @target 0"
+					"patching_rect" : [ 192.0, 560.0, 176.0, 20.0 ],
+					"text" : "poly~ thwomp_engine 16 @target 0"
 				}
 
 			}
@@ -672,6 +675,7 @@
 			"obj-12::obj-7" : [ "#1-Filter", "Filter", 0 ],
 			"obj-17::obj-17" : [ "#1-Pitch-Envelope-Amount", "Amount", 0 ],
 			"obj-17::obj-18" : [ "#1-Pitch-Envelope-Duration", "Duration", 0 ],
+			"obj-17::obj-20::obj-30" : [ "#1-Function", "#1-Function", 0 ],
 			"obj-2::obj-1::obj-11" : [ "#1-Oscillator-Semitones", "Semi", 0 ],
 			"obj-2::obj-1::obj-14" : [ "#1-Oscillator-Frequency", "Freq", 0 ],
 			"obj-2::obj-5" : [ "#1-Oscillator-Note", "Note", 0 ],
