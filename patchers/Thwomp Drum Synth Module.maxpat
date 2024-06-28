@@ -299,8 +299,8 @@
 					"numinlets" : 7,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 192.0, 560.0, 176.0, 20.0 ],
-					"text" : "poly~ thwomp_engine 16 @target 0"
+					"patching_rect" : [ 192.0, 560.0, 171.0, 20.0 ],
+					"text" : "poly~ thwomp_engine 8 @target 0"
 				}
 
 			}
@@ -420,6 +420,7 @@
 					"patching_rect" : [ 640.0, 104.0, 16.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 24.0, 40.0, 80.0 ],
+					"proportion" : 0.39,
 					"rounded" : 10
 				}
 
@@ -437,6 +438,7 @@
 					"patching_rect" : [ 656.0, 104.0, 16.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 112.0, 40.0, 48.0 ],
+					"proportion" : 0.39,
 					"rounded" : 10
 				}
 
