@@ -322,16 +322,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-11" : [ "#1-Oscillator-Semitones", "Semi", 0 ],
-			"obj-14" : [ "#1-Oscillator-Frequency", "Freq", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
