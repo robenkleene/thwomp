@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 754.0, 100.0, 614.0, 807.0 ],
+		"rect" : [ 273.0, 100.0, 614.0, 807.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -154,7 +154,8 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "#1-Function",
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "#1-Function",
+							"parameter_order" : 1,
+							"parameter_shortname" : "Function",
 							"parameter_type" : 3
 						}
 
@@ -232,7 +233,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-30" : [ "#1-Function", "#1-Function", 0 ],
+			"obj-30" : [ "#1-Function", "Function", 1 ],
 			"parameterbanks" : 			{
 
 			}
