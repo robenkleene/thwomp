@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -148,7 +148,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.0, 72.0, 49.0, 20.0 ],
+					"patching_rect" : [ 16.0, 72.0, 59.0, 20.0 ],
 					"text" : "s ---#0note"
 				}
 
@@ -187,7 +187,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 945.0, 47.0, 20.0 ],
+					"patching_rect" : [ 15.0, 945.0, 57.0, 20.0 ],
 					"text" : "r ---#0note"
 				}
 
@@ -201,7 +201,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 675.0, 47.0, 20.0 ],
+					"patching_rect" : [ 15.0, 675.0, 57.0, 20.0 ],
 					"text" : "r ---#0note"
 				}
 
@@ -215,7 +215,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 405.0, 47.0, 20.0 ],
+					"patching_rect" : [ 15.0, 405.0, 57.0, 20.0 ],
 					"text" : "r ---#0note"
 				}
 
@@ -229,7 +229,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 120.0, 47.0, 20.0 ],
+					"patching_rect" : [ 15.0, 120.0, 57.0, 20.0 ],
 					"text" : "r ---#0note"
 				}
 
@@ -529,6 +529,79 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-17::obj-12::obj-1::obj-1" : [ "3-Filter-Frequency", "Freq", 0 ],
+			"obj-17::obj-12::obj-1::obj-11" : [ "3-Filter-Q", "Q", 0 ],
+			"obj-17::obj-12::obj-1::obj-6" : [ "3-Filter-Type", "Type", 0 ],
+			"obj-17::obj-12::obj-7" : [ "3-Filter", "Filter", 0 ],
+			"obj-17::obj-17::obj-17" : [ "3-Pitch-Envelope-Amount", "Amount", 0 ],
+			"obj-17::obj-17::obj-18" : [ "3-Pitch-Envelope-Duration", "Duration", 0 ],
+			"obj-17::obj-17::obj-20::obj-30" : [ "3-Function", "3-Function", 0 ],
+			"obj-17::obj-2::obj-1::obj-11" : [ "3-Oscillator-Semitones", "Semi", 0 ],
+			"obj-17::obj-2::obj-1::obj-14" : [ "3-Oscillator-Frequency", "Freq", 0 ],
+			"obj-17::obj-2::obj-5" : [ "3-Oscillator-Note", "Note", 0 ],
+			"obj-17::obj-4::obj-3" : [ "3-Amplifier-Decay", "Decay", 0 ],
+			"obj-17::obj-4::obj-7" : [ "3-Amplifier-Attack", "Attack", 0 ],
+			"obj-17::obj-5" : [ "3-Oscillator-Gain", "Gain", 0 ],
+			"obj-17::obj-7" : [ "3-Oscillator", "Osc", 0 ],
+			"obj-17::obj-9" : [ "3-Oscillator-Shape", "Shape", 0 ],
+			"obj-1::obj-12::obj-1::obj-1" : [ "1-Filter-Frequency", "Freq", 0 ],
+			"obj-1::obj-12::obj-1::obj-11" : [ "1-Filter-Q", "Q", 0 ],
+			"obj-1::obj-12::obj-1::obj-6" : [ "1-Filter-Type", "Type", 0 ],
+			"obj-1::obj-12::obj-7" : [ "1-Filter", "Filter", 0 ],
+			"obj-1::obj-17::obj-17" : [ "1-Pitch-Envelope-Amount", "Amount", 0 ],
+			"obj-1::obj-17::obj-18" : [ "1-Pitch-Envelope-Duration", "Duration", 0 ],
+			"obj-1::obj-17::obj-20::obj-30" : [ "1-Function", "1-Function", 0 ],
+			"obj-1::obj-2::obj-1::obj-11" : [ "1-Oscillator-Semitones", "Semi", 0 ],
+			"obj-1::obj-2::obj-1::obj-14" : [ "1-Oscillator-Frequency", "Freq", 0 ],
+			"obj-1::obj-2::obj-5" : [ "1-Oscillator-Note", "Note", 0 ],
+			"obj-1::obj-4::obj-3" : [ "1-Amplifier-Decay", "Decay", 0 ],
+			"obj-1::obj-4::obj-7" : [ "1-Amplifier-Attack", "Attack", 0 ],
+			"obj-1::obj-5" : [ "1-Oscillator-Gain", "Gain", 0 ],
+			"obj-1::obj-7" : [ "1-Oscillator", "Osc", 0 ],
+			"obj-1::obj-9" : [ "1-Oscillator-Shape", "Shape", 0 ],
+			"obj-3::obj-12::obj-1::obj-1" : [ "2-Filter-Frequency", "Freq", 0 ],
+			"obj-3::obj-12::obj-1::obj-11" : [ "2-Filter-Q", "Q", 0 ],
+			"obj-3::obj-12::obj-1::obj-6" : [ "2-Filter-Type", "Type", 0 ],
+			"obj-3::obj-12::obj-7" : [ "2-Filter", "Filter", 0 ],
+			"obj-3::obj-17::obj-17" : [ "2-Pitch-Envelope-Amount", "Amount", 0 ],
+			"obj-3::obj-17::obj-18" : [ "2-Pitch-Envelope-Duration", "Duration", 0 ],
+			"obj-3::obj-17::obj-20::obj-30" : [ "2-Function", "2-Function", 0 ],
+			"obj-3::obj-2::obj-1::obj-11" : [ "2-Oscillator-Semitones", "Semi", 0 ],
+			"obj-3::obj-2::obj-1::obj-14" : [ "2-Oscillator-Frequency", "Freq", 0 ],
+			"obj-3::obj-2::obj-5" : [ "2-Oscillator-Note", "Note", 0 ],
+			"obj-3::obj-4::obj-3" : [ "2-Amplifier-Decay", "Decay", 0 ],
+			"obj-3::obj-4::obj-7" : [ "2-Amplifier-Attack", "Attack", 0 ],
+			"obj-3::obj-5" : [ "2-Oscillator-Gain", "Gain", 0 ],
+			"obj-3::obj-7" : [ "2-Oscillator", "Osc", 0 ],
+			"obj-3::obj-9" : [ "2-Oscillator-Shape", "Shape", 0 ],
+			"obj-44::obj-12::obj-1::obj-1" : [ "4-Filter-Frequency", "Freq", 0 ],
+			"obj-44::obj-12::obj-1::obj-11" : [ "4-Filter-Q", "Q", 0 ],
+			"obj-44::obj-12::obj-1::obj-6" : [ "4-Filter-Type", "Type", 0 ],
+			"obj-44::obj-12::obj-7" : [ "4-Filter", "Filter", 0 ],
+			"obj-44::obj-17::obj-17" : [ "4-Pitch-Envelope-Amount", "Amount", 0 ],
+			"obj-44::obj-17::obj-18" : [ "4-Pitch-Envelope-Duration", "Duration", 0 ],
+			"obj-44::obj-17::obj-20::obj-30" : [ "4-Function", "4-Function", 0 ],
+			"obj-44::obj-2::obj-1::obj-11" : [ "4-Oscillator-Semitones", "Semi", 0 ],
+			"obj-44::obj-2::obj-1::obj-14" : [ "4-Oscillator-Frequency", "Freq", 0 ],
+			"obj-44::obj-2::obj-5" : [ "4-Oscillator-Note", "Note", 0 ],
+			"obj-44::obj-4::obj-3" : [ "4-Amplifier-Decay", "Decay", 0 ],
+			"obj-44::obj-4::obj-7" : [ "4-Amplifier-Attack", "Attack", 0 ],
+			"obj-44::obj-5" : [ "4-Oscillator-Gain", "Gain", 0 ],
+			"obj-44::obj-7" : [ "4-Oscillator", "Osc", 0 ],
+			"obj-44::obj-9" : [ "4-Oscillator-Shape", "Shape", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "Thwomp AD Envelope Interface.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",

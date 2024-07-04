@@ -170,6 +170,21 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-3" : [ "#1-Amplifier-Decay", "Decay", 0 ],
+			"obj-7" : [ "#1-Amplifier-Attack", "Attack", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}

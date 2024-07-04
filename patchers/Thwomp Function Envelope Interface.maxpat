@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -181,6 +181,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "#1-Function",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "#1-Function",
 							"parameter_type" : 3
 						}

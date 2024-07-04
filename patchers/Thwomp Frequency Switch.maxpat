@@ -229,6 +229,22 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-1::obj-11" : [ "#1-Oscillator-Semitones", "Semi", 0 ],
+			"obj-1::obj-14" : [ "#1-Oscillator-Frequency", "Freq", 0 ],
+			"obj-5" : [ "#1-Oscillator-Note", "Note", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "Thwomp Frequency Bank.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
