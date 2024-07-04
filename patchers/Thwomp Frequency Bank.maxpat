@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -73,6 +73,7 @@
 							"parameter_longname" : "#1-Oscillator-Frequency",
 							"parameter_mmax" : 22000.0,
 							"parameter_mmin" : 30.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Freq",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
@@ -81,30 +82,6 @@
 					}
 ,
 					"varname" : "#1-Frequency"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 408.0, 152.0, 63.0, 20.0 ],
-					"text" : "loadmess 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-12",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 352.0, 80.0, 71.0, 20.0 ],
-					"text" : "loadmess 30."
 				}
 
 			}
@@ -124,6 +101,7 @@
 							"parameter_longname" : "#1-Oscillator-Semitones",
 							"parameter_mmax" : 48.0,
 							"parameter_mmin" : -48.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Semi",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 7
@@ -277,20 +255,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
 					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"source" : [ "obj-13", 0 ]
 				}
 
 			}

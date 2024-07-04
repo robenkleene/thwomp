@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -46,20 +46,13 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 456.0, 56.0, 52.0, 20.0 ],
+					"restore" : 					{
+						"#1-Attack" : [ 0.0 ],
+						"#1-Decay" : [ 0.0 ]
+					}
+,
 					"text" : "autopattr",
 					"varname" : "u526009117"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 8.0, 63.0, 20.0 ],
-					"text" : "loadmess 0"
 				}
 
 			}
@@ -79,6 +72,7 @@
 							"parameter_exponent" : 5.0,
 							"parameter_longname" : "#1-Amplifier-Attack",
 							"parameter_mmax" : 15000.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Attack",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -106,6 +100,7 @@
 							"parameter_exponent" : 5.0,
 							"parameter_longname" : "#1-Amplifier-Decay",
 							"parameter_mmax" : 15000.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Decay",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -154,28 +149,13 @@
 					"patching_rect" : [ 523.0, 666.0, 16.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 40.0, 104.0 ],
+					"proportion" : 0.39,
 					"rounded" : 10
 				}
 
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"order" : 0,
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"order" : 1,
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-3", 0 ]
