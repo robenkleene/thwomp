@@ -97,6 +97,7 @@
 					"patching_rect" : [ 16.0, 8.0, 64.0, 80.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 8.0, 64.0, 80.0 ],
+					"varname" : "Thwomp Note Packer",
 					"viewvisibility" : 1
 				}
 
@@ -117,7 +118,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 15.0, 135.0, 337.0, 161.0 ],
+					"patching_rect" : [ 15.0, 135.0, 337.0, 169.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 64.0, 0.0, 344.0, 168.0 ],
 					"varname" : "Drum Synth Rack",
