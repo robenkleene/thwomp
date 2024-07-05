@@ -201,6 +201,7 @@
 					"patching_rect" : [ 523.0, 666.0, 16.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 112.0, 80.0, 48.0 ],
+					"proportion" : 0.39,
 					"rounded" : 10
 				}
 
@@ -245,7 +246,7 @@
 		"parameters" : 		{
 			"obj-17" : [ "#1-Pitch-Envelope-Amount", "Amount", 0 ],
 			"obj-18" : [ "#1-Pitch-Envelope-Duration", "Duration", 0 ],
-			"obj-20::obj-30" : [ "#1-Function", "#1-Function", 0 ],
+			"obj-20::obj-30" : [ "#1-Function", "Function", 1 ],
 			"parameterbanks" : 			{
 
 			}
