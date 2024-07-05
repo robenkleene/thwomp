@@ -440,6 +440,10 @@
 					"parameter_initial_enable" : 1
 				}
 ,
+				"obj-1::obj-1::obj-1::obj-17::obj-20::obj-30" : 				{
+					"parameter_initial" : [ 100.0, 0.0, 1.0, 0.0, 1.0, 0, 53.551912000000002, 0.189474, 0, 100.0, 0.0, 0, "linear" ]
+				}
+,
 				"obj-1::obj-1::obj-1::obj-2::obj-1::obj-11" : 				{
 					"parameter_initial" : 0.0,
 					"parameter_initial_enable" : 1
