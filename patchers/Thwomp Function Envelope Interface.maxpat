@@ -152,7 +152,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 152.0, 104.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 60.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 60.0, 1.0, 0, 60.0, 0.0, 0, "linear" ],
+							"parameter_initial" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "#1-Function",
