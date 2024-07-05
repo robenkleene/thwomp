@@ -329,6 +329,314 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-1::obj-11" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-19" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-12::obj-1::obj-1" : 				{
+					"parameter_initial" : 30.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-12::obj-1::obj-11" : 				{
+					"parameter_initial" : 0.3,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-12::obj-1::obj-6" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-12::obj-7" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-17::obj-17" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-17::obj-18" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-2::obj-1::obj-11" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-2::obj-1::obj-14" : 				{
+					"parameter_initial" : 30.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-2::obj-5" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-4::obj-3" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-4::obj-7" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-5" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-7" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-9" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-12::obj-1::obj-1" : 				{
+					"parameter_initial" : 30.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-12::obj-1::obj-11" : 				{
+					"parameter_initial" : 0.3,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-12::obj-1::obj-6" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-12::obj-7" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-17::obj-17" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-17::obj-18" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-2::obj-1::obj-11" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-2::obj-1::obj-14" : 				{
+					"parameter_initial" : 30.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-2::obj-5" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-4::obj-3" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-4::obj-7" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-5" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-7" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-9" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-12::obj-1::obj-1" : 				{
+					"parameter_initial" : 30.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-12::obj-1::obj-11" : 				{
+					"parameter_initial" : 0.3,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-12::obj-1::obj-6" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-12::obj-7" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-17::obj-17" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-17::obj-18" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-2::obj-1::obj-11" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-2::obj-1::obj-14" : 				{
+					"parameter_initial" : 30.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-2::obj-5" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-4::obj-3" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-4::obj-7" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-5" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-7" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-9" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-12::obj-1::obj-1" : 				{
+					"parameter_initial" : 30.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-12::obj-1::obj-11" : 				{
+					"parameter_initial" : 0.3,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-12::obj-1::obj-6" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-12::obj-7" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-17::obj-17" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-17::obj-18" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-2::obj-1::obj-11" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-2::obj-1::obj-14" : 				{
+					"parameter_initial" : 30.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-2::obj-5" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-4::obj-3" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-4::obj-7" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-5" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-7" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-9" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-24" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-29" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-30" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
