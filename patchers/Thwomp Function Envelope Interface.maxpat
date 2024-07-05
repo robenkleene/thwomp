@@ -47,7 +47,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 336.0, 24.0, 52.0, 20.0 ],
 					"restore" : 					{
-						"#1-Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ]
+						"#1-Function" : [ 60.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 60.0, 1.0, 0, 60.0, 0.0, 0, "linear" ]
 					}
 ,
 					"text" : "autopattr",
@@ -138,8 +138,9 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0 ],
+					"addpoints" : [ 0.0, 0.0, 0, 0.0, 1.0, 0, 60.0, 1.0, 0, 60.0, 0.0, 0 ],
 					"classic_curve" : 1,
+					"domain" : 60.0,
 					"id" : "obj-30",
 					"maxclass" : "function",
 					"numinlets" : 1,
@@ -151,6 +152,8 @@
 					"presentation_rect" : [ 0.0, 0.0, 152.0, 104.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 60.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 60.0, 1.0, 0, 60.0, 0.0, 0, "linear" ],
+							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "#1-Function",
 							"parameter_modmode" : 0,
