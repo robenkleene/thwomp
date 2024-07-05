@@ -147,18 +147,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 416.0, 472.0, 63.0, 20.0 ],
-					"text" : "loadmess 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
@@ -471,13 +459,6 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
 					"source" : [ "obj-12", 0 ]
 				}
@@ -677,7 +658,7 @@
 			"obj-12::obj-7" : [ "#1-Filter", "Filter", 0 ],
 			"obj-17::obj-17" : [ "#1-Pitch-Envelope-Amount", "Amount", 0 ],
 			"obj-17::obj-18" : [ "#1-Pitch-Envelope-Duration", "Duration", 0 ],
-			"obj-17::obj-20::obj-30" : [ "#1-Function", "#1-Function", 0 ],
+			"obj-17::obj-20::obj-30" : [ "#1-Function", "Function", 1 ],
 			"obj-2::obj-1::obj-11" : [ "#1-Oscillator-Semitones", "Semi", 0 ],
 			"obj-2::obj-1::obj-14" : [ "#1-Oscillator-Frequency", "Freq", 0 ],
 			"obj-2::obj-5" : [ "#1-Oscillator-Note", "Note", 0 ],
@@ -687,6 +668,11 @@
 			"obj-7" : [ "#1-Oscillator", "Osc", 0 ],
 			"obj-9" : [ "#1-Oscillator-Shape", "Shape", 0 ],
 			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
 
 			}
 ,

@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 754.0, 100.0, 614.0, 807.0 ],
+		"rect" : [ 273.0, 100.0, 614.0, 807.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -47,7 +47,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 336.0, 24.0, 52.0, 20.0 ],
 					"restore" : 					{
-						"#1-Function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ]
+						"#1-Function" : [ 60.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 0.0, 0.0, 0, 0.0, 1.0, 0, 60.0, 1.0, 0, 60.0, 0.0, 0, 60.0, 1.0, 0, 60.0, 0.0, 0, "linear" ]
 					}
 ,
 					"text" : "autopattr",
@@ -77,34 +77,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 16.0, 8.0, 25.0, 25.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"id" : "obj-21",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 61.0, 139.0, 133.0, 20.0 ],
-					"text" : "setduration 1000, reset"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"id" : "obj-22",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 61.0, 109.0, 60.0, 20.0 ],
-					"text" : "loadbang"
 				}
 
 			}
@@ -166,8 +138,9 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0 ],
+					"addpoints" : [ 0.0, 0.0, 0, 0.0, 1.0, 0, 0.0, 0.0, 0, 0.0, 1.0, 0, 60.0, 1.0, 0, 60.0, 0.0, 0, 60.0, 1.0, 0, 60.0, 0.0, 0 ],
 					"classic_curve" : 1,
+					"domain" : 60.0,
 					"id" : "obj-30",
 					"maxclass" : "function",
 					"numinlets" : 1,
@@ -179,9 +152,13 @@
 					"presentation_rect" : [ 0.0, 0.0, 152.0, 104.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
+							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "#1-Function",
-							"parameter_shortname" : "#1-Function",
+							"parameter_modmode" : 0,
+							"parameter_order" : 1,
+							"parameter_shortname" : "Function",
 							"parameter_type" : 3
 						}
 
@@ -196,20 +173,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -273,7 +236,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-30" : [ "#1-Function", "#1-Function", 0 ],
+			"obj-30" : [ "#1-Function", "Function", 1 ],
 			"parameterbanks" : 			{
 
 			}

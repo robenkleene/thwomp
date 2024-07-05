@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -46,6 +46,10 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 248.0, 8.0, 52.0, 20.0 ],
+					"restore" : 					{
+						"#1-Note" : [ 0.0 ]
+					}
+,
 					"text" : "autopattr",
 					"varname" : "u245010073"
 				}
@@ -81,6 +85,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "#1-Oscillator-Note",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Note",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -91,18 +96,6 @@
 					"text" : "Note",
 					"texton" : "Note",
 					"varname" : "#1-Note"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 8.0, 63.0, 20.0 ],
-					"text" : "loadmess 0"
 				}
 
 			}
@@ -235,19 +228,17 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
  ],
 		"parameters" : 		{
 			"obj-1::obj-11" : [ "#1-Oscillator-Semitones", "Semi", 0 ],
 			"obj-1::obj-14" : [ "#1-Oscillator-Frequency", "Freq", 0 ],
 			"obj-5" : [ "#1-Oscillator-Note", "Note", 0 ],
 			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
 
 			}
 ,

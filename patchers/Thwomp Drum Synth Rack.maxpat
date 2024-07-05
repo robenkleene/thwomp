@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -150,6 +150,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Read",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Read",
 							"parameter_type" : 2
 						}
@@ -180,6 +181,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Write",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Write",
 							"parameter_type" : 2
 						}
@@ -209,6 +211,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Overwrite",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Overwrite",
 							"parameter_type" : 2
 						}
@@ -218,18 +221,6 @@
 					"text" : "OW",
 					"texton" : "OW",
 					"varname" : "Overwrite"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 96.0, 16.0, 63.0, 20.0 ],
-					"text" : "loadmess 0"
 				}
 
 			}
@@ -251,6 +242,7 @@
 							"parameter_enum" : [ "1", "2", "3", "4" ],
 							"parameter_longname" : "Tab",
 							"parameter_mmax" : 3,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Tab",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -290,6 +282,7 @@
 							"parameter_longname" : "Volume",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Volume",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -440,7 +433,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "Thwomp.json",
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.0,
 					"id" : "obj-23",
@@ -512,6 +504,7 @@
 					"patching_rect" : [ 460.0, 18.0, 16.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 296.0, 8.0, 40.0, 48.0 ],
+					"proportion" : 0.39,
 					"rounded" : 10
 				}
 
@@ -529,6 +522,7 @@
 					"patching_rect" : [ 476.0, 18.0, 16.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 296.0, 120.0, 40.0, 48.0 ],
+					"proportion" : 0.39,
 					"rounded" : 10
 				}
 
@@ -710,13 +704,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
@@ -732,6 +719,7 @@
 			"obj-1::obj-17::obj-12::obj-7" : [ "3-Filter", "Filter", 0 ],
 			"obj-1::obj-17::obj-17::obj-17" : [ "3-Pitch-Envelope-Amount", "Amount", 0 ],
 			"obj-1::obj-17::obj-17::obj-18" : [ "3-Pitch-Envelope-Duration", "Duration", 0 ],
+			"obj-1::obj-17::obj-17::obj-20::obj-30" : [ "3-Function", "Function", 1 ],
 			"obj-1::obj-17::obj-2::obj-1::obj-11" : [ "3-Oscillator-Semitones", "Semi", 0 ],
 			"obj-1::obj-17::obj-2::obj-1::obj-14" : [ "3-Oscillator-Frequency", "Freq", 0 ],
 			"obj-1::obj-17::obj-2::obj-5" : [ "3-Oscillator-Note", "Note", 0 ],
@@ -746,6 +734,7 @@
 			"obj-1::obj-1::obj-12::obj-7" : [ "1-Filter", "Filter", 0 ],
 			"obj-1::obj-1::obj-17::obj-17" : [ "1-Pitch-Envelope-Amount", "Amount", 0 ],
 			"obj-1::obj-1::obj-17::obj-18" : [ "1-Pitch-Envelope-Duration", "Duration", 0 ],
+			"obj-1::obj-1::obj-17::obj-20::obj-30" : [ "1-Function", "Function", 1 ],
 			"obj-1::obj-1::obj-2::obj-1::obj-11" : [ "1-Oscillator-Semitones", "Semi", 0 ],
 			"obj-1::obj-1::obj-2::obj-1::obj-14" : [ "1-Oscillator-Frequency", "Freq", 0 ],
 			"obj-1::obj-1::obj-2::obj-5" : [ "1-Oscillator-Note", "Note", 0 ],
@@ -760,6 +749,7 @@
 			"obj-1::obj-3::obj-12::obj-7" : [ "2-Filter", "Filter", 0 ],
 			"obj-1::obj-3::obj-17::obj-17" : [ "2-Pitch-Envelope-Amount", "Amount", 0 ],
 			"obj-1::obj-3::obj-17::obj-18" : [ "2-Pitch-Envelope-Duration", "Duration", 0 ],
+			"obj-1::obj-3::obj-17::obj-20::obj-30" : [ "2-Function", "Function", 1 ],
 			"obj-1::obj-3::obj-2::obj-1::obj-11" : [ "2-Oscillator-Semitones", "Semi", 0 ],
 			"obj-1::obj-3::obj-2::obj-1::obj-14" : [ "2-Oscillator-Frequency", "Freq", 0 ],
 			"obj-1::obj-3::obj-2::obj-5" : [ "2-Oscillator-Note", "Note", 0 ],
@@ -774,6 +764,7 @@
 			"obj-1::obj-44::obj-12::obj-7" : [ "4-Filter", "Filter", 0 ],
 			"obj-1::obj-44::obj-17::obj-17" : [ "4-Pitch-Envelope-Amount", "Amount", 0 ],
 			"obj-1::obj-44::obj-17::obj-18" : [ "4-Pitch-Envelope-Duration", "Duration", 0 ],
+			"obj-1::obj-44::obj-17::obj-20::obj-30" : [ "4-Function", "Function", 1 ],
 			"obj-1::obj-44::obj-2::obj-1::obj-11" : [ "4-Oscillator-Semitones", "Semi", 0 ],
 			"obj-1::obj-44::obj-2::obj-1::obj-14" : [ "4-Oscillator-Frequency", "Freq", 0 ],
 			"obj-1::obj-44::obj-2::obj-5" : [ "4-Oscillator-Note", "Note", 0 ],
@@ -786,6 +777,11 @@
 			"obj-29" : [ "Write", "Write", 0 ],
 			"obj-30" : [ "Read", "Read", 0 ],
 			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
 
 			}
 ,

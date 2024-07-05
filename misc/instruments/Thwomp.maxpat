@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -97,6 +97,7 @@
 					"patching_rect" : [ 16.0, 8.0, 64.0, 80.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 8.0, 64.0, 80.0 ],
+					"varname" : "Thwomp Note Packer",
 					"viewvisibility" : 1
 				}
 
@@ -117,7 +118,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 15.0, 135.0, 337.0, 161.0 ],
+					"patching_rect" : [ 15.0, 135.0, 337.0, 169.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 64.0, 0.0, 344.0, 168.0 ],
 					"varname" : "Drum Synth Rack",
@@ -262,6 +263,7 @@
 			"obj-1::obj-1::obj-17::obj-12::obj-7" : [ "3-Filter", "Filter", 0 ],
 			"obj-1::obj-1::obj-17::obj-17::obj-17" : [ "3-Pitch-Envelope-Amount", "Amount", 0 ],
 			"obj-1::obj-1::obj-17::obj-17::obj-18" : [ "3-Pitch-Envelope-Duration", "Duration", 0 ],
+			"obj-1::obj-1::obj-17::obj-17::obj-20::obj-30" : [ "3-Function", "Function", 1 ],
 			"obj-1::obj-1::obj-17::obj-2::obj-1::obj-11" : [ "3-Oscillator-Semitones", "Semi", 0 ],
 			"obj-1::obj-1::obj-17::obj-2::obj-1::obj-14" : [ "3-Oscillator-Frequency", "Freq", 0 ],
 			"obj-1::obj-1::obj-17::obj-2::obj-5" : [ "3-Oscillator-Note", "Note", 0 ],
@@ -276,6 +278,7 @@
 			"obj-1::obj-1::obj-1::obj-12::obj-7" : [ "1-Filter", "Filter", 0 ],
 			"obj-1::obj-1::obj-1::obj-17::obj-17" : [ "1-Pitch-Envelope-Amount", "Amount", 0 ],
 			"obj-1::obj-1::obj-1::obj-17::obj-18" : [ "1-Pitch-Envelope-Duration", "Duration", 0 ],
+			"obj-1::obj-1::obj-1::obj-17::obj-20::obj-30" : [ "1-Function", "Function", 1 ],
 			"obj-1::obj-1::obj-1::obj-2::obj-1::obj-11" : [ "1-Oscillator-Semitones", "Semi", 0 ],
 			"obj-1::obj-1::obj-1::obj-2::obj-1::obj-14" : [ "1-Oscillator-Frequency", "Freq", 0 ],
 			"obj-1::obj-1::obj-1::obj-2::obj-5" : [ "1-Oscillator-Note", "Note", 0 ],
@@ -290,6 +293,7 @@
 			"obj-1::obj-1::obj-3::obj-12::obj-7" : [ "2-Filter", "Filter", 0 ],
 			"obj-1::obj-1::obj-3::obj-17::obj-17" : [ "2-Pitch-Envelope-Amount", "Amount", 0 ],
 			"obj-1::obj-1::obj-3::obj-17::obj-18" : [ "2-Pitch-Envelope-Duration", "Duration", 0 ],
+			"obj-1::obj-1::obj-3::obj-17::obj-20::obj-30" : [ "2-Function", "Function", 1 ],
 			"obj-1::obj-1::obj-3::obj-2::obj-1::obj-11" : [ "2-Oscillator-Semitones", "Semi", 0 ],
 			"obj-1::obj-1::obj-3::obj-2::obj-1::obj-14" : [ "2-Oscillator-Frequency", "Freq", 0 ],
 			"obj-1::obj-1::obj-3::obj-2::obj-5" : [ "2-Oscillator-Note", "Note", 0 ],
@@ -304,6 +308,7 @@
 			"obj-1::obj-1::obj-44::obj-12::obj-7" : [ "4-Filter", "Filter", 0 ],
 			"obj-1::obj-1::obj-44::obj-17::obj-17" : [ "4-Pitch-Envelope-Amount", "Amount", 0 ],
 			"obj-1::obj-1::obj-44::obj-17::obj-18" : [ "4-Pitch-Envelope-Duration", "Duration", 0 ],
+			"obj-1::obj-1::obj-44::obj-17::obj-20::obj-30" : [ "4-Function", "Function", 1 ],
 			"obj-1::obj-1::obj-44::obj-2::obj-1::obj-11" : [ "4-Oscillator-Semitones", "Semi", 0 ],
 			"obj-1::obj-1::obj-44::obj-2::obj-1::obj-14" : [ "4-Oscillator-Frequency", "Freq", 0 ],
 			"obj-1::obj-1::obj-44::obj-2::obj-5" : [ "4-Oscillator-Note", "Note", 0 ],
@@ -316,6 +321,323 @@
 			"obj-1::obj-29" : [ "Write", "Write", 0 ],
 			"obj-1::obj-30" : [ "Read", "Read", 0 ],
 			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-1::obj-11" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-19" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-12::obj-1::obj-1" : 				{
+					"parameter_initial" : 30.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-12::obj-1::obj-11" : 				{
+					"parameter_initial" : 0.3,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-12::obj-1::obj-6" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-12::obj-7" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-17::obj-17" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-17::obj-18" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-2::obj-1::obj-11" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-2::obj-1::obj-14" : 				{
+					"parameter_initial" : 30.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-2::obj-5" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-4::obj-3" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-4::obj-7" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-5" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-7" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-17::obj-9" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-12::obj-1::obj-1" : 				{
+					"parameter_initial" : 30.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-12::obj-1::obj-11" : 				{
+					"parameter_initial" : 0.3,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-12::obj-1::obj-6" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-12::obj-7" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-17::obj-17" : 				{
+					"parameter_initial" : 120.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-17::obj-18" : 				{
+					"parameter_initial" : 99.999999999999943,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-17::obj-20::obj-30" : 				{
+					"parameter_initial" : [ 100.0, 0.0, 1.0, 0.0, 1.0, 0, 53.551912000000002, 0.189474, 0, 100.0, 0.0, 0, "linear" ]
+				}
+,
+				"obj-1::obj-1::obj-1::obj-2::obj-1::obj-11" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-2::obj-1::obj-14" : 				{
+					"parameter_initial" : 65.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-2::obj-5" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-4::obj-3" : 				{
+					"parameter_initial" : 383.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-4::obj-7" : 				{
+					"parameter_initial" : 1.999999999999998,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-5" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-7" : 				{
+					"parameter_initial" : 1.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-1::obj-9" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-12::obj-1::obj-1" : 				{
+					"parameter_initial" : 499.999999999999886,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-12::obj-1::obj-11" : 				{
+					"parameter_initial" : 5.6,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-12::obj-1::obj-6" : 				{
+					"parameter_initial" : 2.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-12::obj-7" : 				{
+					"parameter_initial" : 1.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-17::obj-17" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-17::obj-18" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-2::obj-1::obj-11" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-2::obj-1::obj-14" : 				{
+					"parameter_initial" : 8786.738812514122401,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-2::obj-5" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-4::obj-3" : 				{
+					"parameter_initial" : 25.999999999999989,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-4::obj-7" : 				{
+					"parameter_initial" : 0.999999999999996,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-5" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-7" : 				{
+					"parameter_initial" : 1.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-3::obj-9" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-12::obj-1::obj-1" : 				{
+					"parameter_initial" : 30.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-12::obj-1::obj-11" : 				{
+					"parameter_initial" : 0.3,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-12::obj-1::obj-6" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-12::obj-7" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-17::obj-17" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-17::obj-18" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-2::obj-1::obj-11" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-2::obj-1::obj-14" : 				{
+					"parameter_initial" : 30.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-2::obj-5" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-4::obj-3" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-4::obj-7" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-5" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-7" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-44::obj-9" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-24" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-29" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-30" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
 
 			}
 ,

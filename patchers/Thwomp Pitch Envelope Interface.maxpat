@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -46,20 +46,13 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 312.0, 16.0, 52.0, 20.0 ],
+					"restore" : 					{
+						"#1-Amount" : [ 0.0 ],
+						"#1-Duration" : [ 0.0 ]
+					}
+,
 					"text" : "autopattr",
 					"varname" : "u627002945"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 144.0, 8.0, 63.0, 20.0 ],
-					"text" : "loadmess 0"
 				}
 
 			}
@@ -79,6 +72,7 @@
 							"parameter_exponent" : 5.0,
 							"parameter_longname" : "#1-Pitch-Envelope-Duration",
 							"parameter_mmax" : 15000.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Duration",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -106,6 +100,7 @@
 							"parameter_exponent" : 5.0,
 							"parameter_longname" : "#1-Pitch-Envelope-Amount",
 							"parameter_mmax" : 15000.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Amount",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
@@ -206,28 +201,13 @@
 					"patching_rect" : [ 523.0, 666.0, 16.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 112.0, 80.0, 48.0 ],
+					"proportion" : 0.39,
 					"rounded" : 10
 				}
 
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"order" : 0,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"order" : 1,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-10", 0 ]
@@ -266,6 +246,7 @@
 		"parameters" : 		{
 			"obj-17" : [ "#1-Pitch-Envelope-Amount", "Amount", 0 ],
 			"obj-18" : [ "#1-Pitch-Envelope-Duration", "Duration", 0 ],
+			"obj-20::obj-30" : [ "#1-Function", "Function", 1 ],
 			"parameterbanks" : 			{
 
 			}
