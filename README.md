@@ -26,6 +26,10 @@ Thwomp can also be opened in standalone mode by opening the `misc/instruments/Th
 - DAC Toggle: Toggles whether the audio engine is on
 - Typing the `s` will play the note
 
+## Troubleshooting
+
+- Thwomp allows a really low attack which will cause clicks and pops if it's set too low, if you're experiencing click and pops, try increasing the attack.
+
 ## Global Parameters
 
 - **Volume**: The volume of all of the oscillators combined.
