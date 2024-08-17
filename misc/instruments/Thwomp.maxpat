@@ -45,8 +45,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 96.0, 96.0, 20.0 ],
-					"text" : "loadmess preset 1"
+					"patching_rect" : [ 240.0, 96.0, 92.0, 20.0 ],
+					"text" : "loadmess recall 1"
 				}
 
 			}
@@ -452,50 +452,43 @@
 			}
 , 			{
 				"name" : "bandpass.svg",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/media",
-				"patcherrelativepath" : "../../media",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "highcut.svg",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/media",
-				"patcherrelativepath" : "../../media",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lowcut.svg",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/media",
-				"patcherrelativepath" : "../../media",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "notch.svg",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/media",
-				"patcherrelativepath" : "../../media",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "random.svg",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/media",
-				"patcherrelativepath" : "../../media",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sine.svg",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/media",
-				"patcherrelativepath" : "../../media",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "square.svg",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/media",
-				"patcherrelativepath" : "../../media",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -515,15 +508,13 @@
 			}
 , 			{
 				"name" : "up.svg",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/media",
-				"patcherrelativepath" : "../../media",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "updown.svg",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/media",
-				"patcherrelativepath" : "../../media",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
 				"type" : "svg",
 				"implicit" : 1
 			}
