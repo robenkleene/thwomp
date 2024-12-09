@@ -23,7 +23,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 312.0, 16.0, 52.0, 20.0 ],
+					"patching_rect" : [ 312.0, 16.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"#1-Amount" : [ 0.0 ],
 						"#1-Duration" : [ 0.0 ]
@@ -69,7 +69,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "The amount of adjustment by the pitch envelope.",
+					"annotation" : "The amount of adjustment made by the pitch envelope.",
 					"annotation_name" : "Pitch Envelope Amount",
 					"id" : "obj-17",
 					"maxclass" : "live.dial",
@@ -84,7 +84,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "Pitch Envelope Amount",
 							"parameter_exponent" : 5.0,
-							"parameter_info" : "The amount of adjustment by the pitch envelope.",
+							"parameter_info" : "The amount of adjustment made by the pitch envelope.",
 							"parameter_longname" : "#1-Pitch-Envelope-Amount",
 							"parameter_mmax" : 15000.0,
 							"parameter_modmode" : 0,
@@ -231,7 +231,7 @@
 
 			}
  ],
-		"originid" : "pat-8520",
+		"originid" : "pat-8914",
 		"parameters" : 		{
 			"obj-17" : [ "#1-Pitch-Envelope-Amount", "Amount", 0 ],
 			"obj-18" : [ "#1-Pitch-Envelope-Duration", "Duration", 0 ],

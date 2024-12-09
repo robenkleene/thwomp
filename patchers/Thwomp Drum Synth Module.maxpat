@@ -166,6 +166,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Toggles the oscillator on and off.",
+					"annotation_name" : "Oscillator Toggle",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-7",
@@ -179,7 +181,9 @@
 					"presentation_rect" : [ 0.0, 0.0, 32.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Oscillator Toggle",
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "Toggles the oscillator on and off.",
 							"parameter_longname" : "#1-Oscillator",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -640,7 +644,7 @@
 
 			}
  ],
-		"originid" : "pat-8668",
+		"originid" : "pat-8798",
 		"parameters" : 		{
 			"obj-12::obj-1::obj-1" : [ "#1-Filter-Frequency", "Freq", 0 ],
 			"obj-12::obj-1::obj-11" : [ "#1-Filter-Q", "Q", 0 ],

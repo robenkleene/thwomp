@@ -175,7 +175,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Choose the filter type.",
+					"annotation" : "The filter type.",
 					"annotation_name" : "Filter Type",
 					"id" : "obj-6",
 					"maxclass" : "live.menu",
@@ -192,7 +192,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "Filter Type",
 							"parameter_enum" : [ "one", "two", "three", "four" ],
-							"parameter_info" : "Choose the filter type.",
+							"parameter_info" : "The filter type.",
 							"parameter_longname" : "#1-Filter-Type",
 							"parameter_mmax" : 3,
 							"parameter_modmode" : 0,
@@ -435,7 +435,7 @@
 
 			}
  ],
-		"originid" : "pat-8542",
+		"originid" : "pat-8920",
 		"parameters" : 		{
 			"obj-1" : [ "#1-Filter-Frequency", "Freq", 0 ],
 			"obj-11" : [ "#1-Filter-Q", "Q", 0 ],

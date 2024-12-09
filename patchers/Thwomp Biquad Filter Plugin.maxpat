@@ -22,7 +22,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 328.0, 160.0, 52.0, 20.0 ],
+					"patching_rect" : [ 328.0, 160.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"#1-Fil" : [ 0.0 ]
 					}
@@ -35,7 +35,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Turns the filter on and off.",
-					"annotation_name" : "Filter",
+					"annotation_name" : "Filter Toggle",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-7",
@@ -49,7 +49,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 32.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Filter",
+							"parameter_annotation_name" : "Filter Toggle",
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_info" : "Turns the filter on and off.",
 							"parameter_longname" : "#1-Filter",
@@ -75,7 +75,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 112.0, 392.0, 99.0, 20.0 ],
+					"patching_rect" : [ 112.0, 392.0, 109.0, 22.0 ],
 					"text" : "loadmess set Filter"
 				}
 
@@ -272,7 +272,7 @@
 
 			}
  ],
-		"originid" : "pat-7586",
+		"originid" : "pat-8790",
 		"parameters" : 		{
 			"obj-1::obj-1" : [ "#1-Filter-Frequency", "Freq", 0 ],
 			"obj-1::obj-11" : [ "#1-Filter-Q", "Q", 0 ],

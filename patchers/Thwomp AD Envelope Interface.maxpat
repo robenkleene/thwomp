@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 524.0, 100.0, 868.0, 922.0 ],
+		"rect" : [ 302.0, 100.0, 868.0, 922.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
@@ -36,7 +36,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Amplifier envelope attack.",
-					"annotation_name" : "Attack",
+					"annotation_name" : "Amplifier Attack",
 					"id" : "obj-7",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -48,7 +48,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Attack",
+							"parameter_annotation_name" : "Amplifier Attack",
 							"parameter_exponent" : 5.0,
 							"parameter_info" : "Amplifier envelope attack.",
 							"parameter_longname" : "#1-Amplifier-Attack",
@@ -69,7 +69,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Amplifier envelope decay.",
-					"annotation_name" : "Decay",
+					"annotation_name" : "Amplifier Decay",
 					"id" : "obj-3",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -81,7 +81,7 @@
 					"presentation_rect" : [ 0.0, 56.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Decay",
+							"parameter_annotation_name" : "Amplifier Decay",
 							"parameter_exponent" : 5.0,
 							"parameter_info" : "Amplifier envelope decay.",
 							"parameter_longname" : "#1-Amplifier-Decay",
@@ -157,7 +157,7 @@
 
 			}
  ],
-		"originid" : "pat-7114",
+		"originid" : "pat-8784",
 		"parameters" : 		{
 			"obj-3" : [ "#1-Amplifier-Decay", "Decay", 0 ],
 			"obj-7" : [ "#1-Amplifier-Attack", "Attack", 0 ],

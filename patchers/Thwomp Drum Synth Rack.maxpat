@@ -269,7 +269,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "The overall volume of this device.",
+					"annotation" : "The volume of this device.",
 					"id" : "obj-11",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -281,7 +281,7 @@
 					"presentation_rect" : [ 296.0, 120.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_info" : "The overall volume of this device.",
+							"parameter_info" : "The volume of this device.",
 							"parameter_longname" : "Volume",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
@@ -731,7 +731,7 @@
 
 			}
  ],
-		"originid" : "pat-8108",
+		"originid" : "pat-8924",
 		"parameters" : 		{
 			"obj-11" : [ "Volume", "Volume", 0 ],
 			"obj-19" : [ "Tab", "Tab", 0 ],
