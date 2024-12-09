@@ -22,7 +22,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 384.0, 40.0, 52.0, 20.0 ],
+					"patching_rect" : [ 384.0, 40.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"#1-Frequency" : [ 30.0 ],
 						"#1-Q" : [ 0.3 ],
@@ -71,7 +71,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "The filter resonance.",
-					"annotation_name" : "Q",
+					"annotation_name" : "Filter Q",
 					"id" : "obj-11",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -83,7 +83,7 @@
 					"presentation_rect" : [ 72.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Q",
+							"parameter_annotation_name" : "Filter Q",
 							"parameter_info" : "The filter resonance.",
 							"parameter_longname" : "#1-Filter-Q",
 							"parameter_mmax" : 10.0,
@@ -108,7 +108,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 184.0, 232.0, 20.0, 20.0 ],
+					"patching_rect" : [ 184.0, 232.0, 21.0, 22.0 ],
 					"text" : "t s"
 				}
 
@@ -120,7 +120,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.0, 192.0, 59.0, 20.0 ],
+					"patching_rect" : [ 368.0, 192.0, 64.0, 22.0 ],
 					"text" : "peaknotch"
 				}
 
@@ -132,7 +132,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 192.0, 52.0, 20.0 ],
+					"patching_rect" : [ 240.0, 192.0, 57.0, 22.0 ],
 					"text" : "highpass"
 				}
 
@@ -144,7 +144,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 304.0, 192.0, 55.0, 20.0 ],
+					"patching_rect" : [ 304.0, 192.0, 61.0, 22.0 ],
 					"text" : "bandpass"
 				}
 
@@ -156,7 +156,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 184.0, 192.0, 48.0, 20.0 ],
+					"patching_rect" : [ 184.0, 192.0, 52.0, 22.0 ],
 					"text" : "lowpass"
 				}
 
@@ -168,7 +168,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 5,
 					"outlettype" : [ "bang", "bang", "bang", "bang", "" ],
-					"patching_rect" : [ 184.0, 152.0, 240.0, 20.0 ],
+					"patching_rect" : [ 184.0, 152.0, 240.0, 22.0 ],
 					"text" : "select 0 1 2 3"
 				}
 
@@ -435,7 +435,7 @@
 
 			}
  ],
-		"originid" : "pat-7594",
+		"originid" : "pat-8542",
 		"parameters" : 		{
 			"obj-1" : [ "#1-Filter-Frequency", "Freq", 0 ],
 			"obj-11" : [ "#1-Filter-Q", "Q", 0 ],

@@ -2,42 +2,20 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 3,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
 		"rect" : [ 218.0, 192.0, 830.0, 538.0 ],
-		"bglocked" : 0,
 		"openinpresentation" : 1,
-		"default_fontsize" : 10.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial Bold",
-		"gridonopen" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
 		"subpatcher_template" : "roben-kleene-max-for-live",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-3",
@@ -69,6 +47,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "If toggled on, the income MIDI note will be used, and a semitone adjustment will be visible. If toggled off, a specific frequency will be used regardless of income MIDI note.",
+					"annotation_name" : "Note",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-5",
@@ -82,10 +62,13 @@
 					"presentation_rect" : [ 0.0, 0.0, 32.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Note",
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "If toggled on, the income MIDI note will be used, and a semitone adjustment will be visible. If toggled off, a specific frequency will be used regardless of income MIDI note.",
 							"parameter_longname" : "#1-Oscillator-Note",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Note",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -229,6 +212,7 @@
 
 			}
  ],
+		"originid" : "pat-8660",
 		"parameters" : 		{
 			"obj-1::obj-11" : [ "#1-Oscillator-Semitones", "Semi", 0 ],
 			"obj-1::obj-14" : [ "#1-Oscillator-Frequency", "Freq", 0 ],
@@ -247,7 +231,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Thwomp Frequency Bank.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

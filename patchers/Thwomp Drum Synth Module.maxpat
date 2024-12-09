@@ -23,7 +23,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 640.0, 16.0, 52.0, 20.0 ],
+					"patching_rect" : [ 640.0, 16.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"#1-Gain" : [ 0.0 ],
 						"#1-Osc" : [ 0.0 ],
@@ -54,7 +54,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 288.0, 712.0, 29.5, 20.0 ],
+					"patching_rect" : [ 288.0, 712.0, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -66,7 +66,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 320.0, 648.0, 115.0, 20.0 ],
+					"patching_rect" : [ 320.0, 648.0, 132.0, 22.0 ],
 					"text" : "expr pow(10.\\, $f1 / 20.)"
 				}
 
@@ -78,7 +78,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 192.0, 712.0, 29.5, 20.0 ],
+					"patching_rect" : [ 192.0, 712.0, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -90,7 +90,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 192.0, 752.0, 29.5, 20.0 ],
+					"patching_rect" : [ 192.0, 752.0, 32.0, 22.0 ],
 					"text" : "/~ 2."
 				}
 
@@ -130,6 +130,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The shape of the oscillator.",
+					"annotation_name" : "Oscillator Shape",
 					"id" : "obj-9",
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
@@ -143,7 +145,9 @@
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Oscillator Shape",
 							"parameter_enum" : [ "sine", "tri", "square", "saw", "noise", "pink" ],
+							"parameter_info" : "The shape of the oscillator.",
 							"parameter_longname" : "#1-Oscillator-Shape",
 							"parameter_mmax" : 5,
 							"parameter_modmode" : 0,
@@ -224,7 +228,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 192.0, 528.0, 44.0, 20.0 ],
+					"patching_rect" : [ 192.0, 528.0, 49.0, 22.0 ],
 					"text" : "note $1"
 				}
 
@@ -236,7 +240,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 216.0, 168.0, 19.0, 20.0 ],
+					"patching_rect" : [ 216.0, 168.0, 19.0, 22.0 ],
 					"text" : "t i"
 				}
 
@@ -248,7 +252,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 176.0, 128.0, 44.0, 20.0 ],
+					"patching_rect" : [ 176.0, 128.0, 47.0, 22.0 ],
 					"text" : "unpack"
 				}
 
@@ -260,7 +264,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 176.0, 96.0, 57.0, 20.0 ],
+					"patching_rect" : [ 176.0, 96.0, 63.0, 22.0 ],
 					"text" : "route note"
 				}
 
@@ -272,7 +276,7 @@
 					"numinlets" : 7,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 192.0, 560.0, 171.0, 20.0 ],
+					"patching_rect" : [ 192.0, 560.0, 192.0, 22.0 ],
 					"text" : "poly~ thwomp_engine 8 @target 0"
 				}
 
@@ -636,7 +640,7 @@
 
 			}
  ],
-		"originid" : "pat-7992",
+		"originid" : "pat-8668",
 		"parameters" : 		{
 			"obj-12::obj-1::obj-1" : [ "#1-Filter-Frequency", "Freq", 0 ],
 			"obj-12::obj-1::obj-11" : [ "#1-Filter-Q", "Q", 0 ],
