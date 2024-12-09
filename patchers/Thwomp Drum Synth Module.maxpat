@@ -2,42 +2,20 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 3,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 599.0, 100.0, 723.0, 983.0 ],
-		"bglocked" : 0,
+		"rect" : [ 275.0, 100.0, 909.0, 922.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 10.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial Bold",
-		"gridonopen" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
 		"toolbars_unpinned_last_save" : 4,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-1",
@@ -45,7 +23,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 640.0, 16.0, 52.0, 20.0 ],
+					"patching_rect" : [ 640.0, 16.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"#1-Gain" : [ 0.0 ],
 						"#1-Osc" : [ 0.0 ],
@@ -76,7 +54,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 288.0, 712.0, 29.5, 20.0 ],
+					"patching_rect" : [ 288.0, 712.0, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -88,7 +66,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 320.0, 648.0, 115.0, 20.0 ],
+					"patching_rect" : [ 320.0, 648.0, 132.0, 22.0 ],
 					"text" : "expr pow(10.\\, $f1 / 20.)"
 				}
 
@@ -100,7 +78,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 192.0, 712.0, 29.5, 20.0 ],
+					"patching_rect" : [ 192.0, 712.0, 34.0, 22.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -112,13 +90,15 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 192.0, 752.0, 29.5, 20.0 ],
+					"patching_rect" : [ 192.0, 752.0, 32.0, 22.0 ],
 					"text" : "/~ 2."
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The gain of this oscillator.",
+					"annotation_name" : "Gain",
 					"id" : "obj-5",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -130,10 +110,13 @@
 					"presentation_rect" : [ 0.0, 112.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Gain",
+							"parameter_info" : "The gain of this oscillator.",
 							"parameter_longname" : "#1-Oscillator-Gain",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Gain",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -147,6 +130,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The shape of the oscillator.",
+					"annotation_name" : "Oscillator Shape",
 					"id" : "obj-9",
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
@@ -160,10 +145,13 @@
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Oscillator Shape",
 							"parameter_enum" : [ "sine", "tri", "square", "saw", "noise", "pink" ],
+							"parameter_info" : "The shape of the oscillator.",
 							"parameter_longname" : "#1-Oscillator-Shape",
 							"parameter_mmax" : 5,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Shape",
 							"parameter_type" : 2
 						}
@@ -178,6 +166,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Toggles the oscillator on and off.",
+					"annotation_name" : "Oscillator Toggle",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-7",
@@ -191,10 +181,13 @@
 					"presentation_rect" : [ 0.0, 0.0, 32.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Oscillator Toggle",
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "Toggles the oscillator on and off.",
 							"parameter_longname" : "#1-Oscillator",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Osc",
 							"parameter_type" : 2
 						}
@@ -239,7 +232,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 192.0, 528.0, 44.0, 20.0 ],
+					"patching_rect" : [ 192.0, 528.0, 49.0, 22.0 ],
 					"text" : "note $1"
 				}
 
@@ -251,7 +244,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 216.0, 168.0, 19.0, 20.0 ],
+					"patching_rect" : [ 216.0, 168.0, 19.0, 22.0 ],
 					"text" : "t i"
 				}
 
@@ -263,7 +256,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 176.0, 128.0, 44.0, 20.0 ],
+					"patching_rect" : [ 176.0, 128.0, 47.0, 22.0 ],
 					"text" : "unpack"
 				}
 
@@ -275,7 +268,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 176.0, 96.0, 57.0, 20.0 ],
+					"patching_rect" : [ 176.0, 96.0, 63.0, 22.0 ],
 					"text" : "route note"
 				}
 
@@ -287,7 +280,7 @@
 					"numinlets" : 7,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 192.0, 560.0, 171.0, 20.0 ],
+					"patching_rect" : [ 192.0, 560.0, 192.0, 22.0 ],
 					"text" : "poly~ thwomp_engine 8 @target 0"
 				}
 
@@ -651,6 +644,7 @@
 
 			}
  ],
+		"originid" : "pat-8798",
 		"parameters" : 		{
 			"obj-12::obj-1::obj-1" : [ "#1-Filter-Frequency", "Freq", 0 ],
 			"obj-12::obj-1::obj-11" : [ "#1-Filter-Q", "Q", 0 ],
@@ -681,56 +675,56 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Thwomp AD Envelope Interface.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Thwomp Active.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Thwomp Biquad Filter Plugin.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Thwomp Biquad Filter.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Thwomp Frequency Bank.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Thwomp Frequency Switch.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Thwomp Function Envelope Interface.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Thwomp Pitch Envelope Interface.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -779,14 +773,14 @@
 			}
 , 			{
 				"name" : "thwomp_engine.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thwomp_osc_1.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

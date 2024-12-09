@@ -2,42 +2,20 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 3,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
 		"rect" : [ 273.0, 100.0, 614.0, 807.0 ],
-		"bglocked" : 0,
 		"openinpresentation" : 1,
-		"default_fontsize" : 10.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial Bold",
-		"gridonopen" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
 		"subpatcher_template" : "Roben Kleene",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-1",
@@ -139,6 +117,8 @@
 , 			{
 				"box" : 				{
 					"addpoints" : [ 0.0, 0.0, 0, 0.0, 1.0, 0, 0.0, 0.0, 0, 0.0, 1.0, 0, 60.0, 1.0, 0, 60.0, 0.0, 0, 60.0, 1.0, 0, 60.0, 0.0, 0 ],
+					"annotation" : "The graph of the pitch envelope, the bottom is zero (no effect), and the top is the full amount.",
+					"annotation_name" : "Pitch Envelope Graph",
 					"classic_curve" : 1,
 					"domain" : 60.0,
 					"id" : "obj-30",
@@ -152,12 +132,15 @@
 					"presentation_rect" : [ 0.0, 0.0, 152.0, 104.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Pitch Envelope Graph",
+							"parameter_info" : "The graph of the pitch envelope, the bottom is zero (no effect), and the top is the full amount.",
 							"parameter_initial" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "#1-Function",
 							"parameter_modmode" : 0,
 							"parameter_order" : 1,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Function",
 							"parameter_type" : 3
 						}
@@ -235,6 +218,7 @@
 
 			}
  ],
+		"originid" : "pat-8514",
 		"parameters" : 		{
 			"obj-30" : [ "#1-Function", "Function", 1 ],
 			"parameterbanks" : 			{

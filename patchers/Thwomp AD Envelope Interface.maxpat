@@ -2,42 +2,19 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 3,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 524.0, 100.0, 868.0, 939.0 ],
-		"bglocked" : 0,
+		"rect" : [ 302.0, 100.0, 868.0, 922.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 10.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial Bold",
-		"gridonopen" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-1",
@@ -45,7 +22,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 456.0, 56.0, 52.0, 20.0 ],
+					"patching_rect" : [ 456.0, 56.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"#1-Attack" : [ 0.0 ],
 						"#1-Decay" : [ 0.0 ]
@@ -58,6 +35,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Amplifier envelope attack.",
+					"annotation_name" : "Amplifier Attack",
 					"id" : "obj-7",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -69,10 +48,13 @@
 					"presentation_rect" : [ 0.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Amplifier Attack",
 							"parameter_exponent" : 5.0,
+							"parameter_info" : "Amplifier envelope attack.",
 							"parameter_longname" : "#1-Amplifier-Attack",
 							"parameter_mmax" : 15000.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Attack",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -86,6 +68,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Amplifier envelope decay.",
+					"annotation_name" : "Amplifier Decay",
 					"id" : "obj-3",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -97,10 +81,13 @@
 					"presentation_rect" : [ 0.0, 56.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Amplifier Decay",
 							"parameter_exponent" : 5.0,
+							"parameter_info" : "Amplifier envelope decay.",
 							"parameter_longname" : "#1-Amplifier-Decay",
 							"parameter_mmax" : 15000.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Decay",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -170,6 +157,7 @@
 
 			}
  ],
+		"originid" : "pat-8784",
 		"parameters" : 		{
 			"obj-3" : [ "#1-Amplifier-Decay", "Decay", 0 ],
 			"obj-7" : [ "#1-Amplifier-Attack", "Attack", 0 ],

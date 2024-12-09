@@ -2,42 +2,19 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 3,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 786.0, 198.0, 601.0, 787.0 ],
-		"bglocked" : 0,
+		"rect" : [ 517.0, 198.0, 601.0, 787.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 10.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial Bold",
-		"gridonopen" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-3",
@@ -45,7 +22,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 384.0, 40.0, 52.0, 20.0 ],
+					"patching_rect" : [ 384.0, 40.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"#1-Frequency" : [ 30.0 ],
 						"#1-Q" : [ 0.3 ],
@@ -59,6 +36,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The filter cutoff frequency.",
+					"annotation_name" : "Filter Cutoff",
 					"id" : "obj-1",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -70,11 +49,14 @@
 					"presentation_rect" : [ 32.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Filter Cutoff",
 							"parameter_exponent" : 5.0,
+							"parameter_info" : "The filter cutoff frequency.",
 							"parameter_longname" : "#1-Filter-Frequency",
 							"parameter_mmax" : 22000.0,
 							"parameter_mmin" : 30.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Freq",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
@@ -88,6 +70,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The filter resonance.",
+					"annotation_name" : "Filter Q",
 					"id" : "obj-11",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -99,10 +83,13 @@
 					"presentation_rect" : [ 72.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Filter Q",
+							"parameter_info" : "The filter resonance.",
 							"parameter_longname" : "#1-Filter-Q",
 							"parameter_mmax" : 10.0,
 							"parameter_mmin" : 0.3,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Q",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -121,7 +108,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 184.0, 232.0, 20.0, 20.0 ],
+					"patching_rect" : [ 184.0, 232.0, 21.0, 22.0 ],
 					"text" : "t s"
 				}
 
@@ -133,7 +120,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.0, 192.0, 59.0, 20.0 ],
+					"patching_rect" : [ 368.0, 192.0, 64.0, 22.0 ],
 					"text" : "peaknotch"
 				}
 
@@ -145,7 +132,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 192.0, 52.0, 20.0 ],
+					"patching_rect" : [ 240.0, 192.0, 57.0, 22.0 ],
 					"text" : "highpass"
 				}
 
@@ -157,7 +144,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 304.0, 192.0, 55.0, 20.0 ],
+					"patching_rect" : [ 304.0, 192.0, 61.0, 22.0 ],
 					"text" : "bandpass"
 				}
 
@@ -169,7 +156,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 184.0, 192.0, 48.0, 20.0 ],
+					"patching_rect" : [ 184.0, 192.0, 52.0, 22.0 ],
 					"text" : "lowpass"
 				}
 
@@ -181,13 +168,15 @@
 					"numinlets" : 5,
 					"numoutlets" : 5,
 					"outlettype" : [ "bang", "bang", "bang", "bang", "" ],
-					"patching_rect" : [ 184.0, 152.0, 240.0, 20.0 ],
+					"patching_rect" : [ 184.0, 152.0, 240.0, 22.0 ],
 					"text" : "select 0 1 2 3"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The filter type.",
+					"annotation_name" : "Filter Type",
 					"id" : "obj-6",
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
@@ -201,10 +190,13 @@
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Filter Type",
 							"parameter_enum" : [ "one", "two", "three", "four" ],
+							"parameter_info" : "The filter type.",
 							"parameter_longname" : "#1-Filter-Type",
 							"parameter_mmax" : 3,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Type",
 							"parameter_type" : 2
 						}
@@ -443,6 +435,7 @@
 
 			}
  ],
+		"originid" : "pat-8920",
 		"parameters" : 		{
 			"obj-1" : [ "#1-Filter-Frequency", "Freq", 0 ],
 			"obj-11" : [ "#1-Filter-Q", "Q", 0 ],
