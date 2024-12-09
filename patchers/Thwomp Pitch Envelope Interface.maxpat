@@ -2,42 +2,20 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 3,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 469.0, 322.0, 634.0, 724.0 ],
-		"bglocked" : 0,
+		"rect" : [ 469.0, 298.0, 634.0, 724.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 10.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial Bold",
-		"gridonopen" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
 		"subpatcher_template" : "Roben Kleene",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-4",
@@ -58,6 +36,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The duration of the pitch envelope (the time over which it is applied).",
+					"annotation_name" : "Pitch Envelope Duration",
 					"id" : "obj-18",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -69,10 +49,13 @@
 					"presentation_rect" : [ 40.0, 112.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Pitch Envelope Duration",
 							"parameter_exponent" : 5.0,
+							"parameter_info" : "The duration of the pitch envelope (the time over which it is applied).",
 							"parameter_longname" : "#1-Pitch-Envelope-Duration",
 							"parameter_mmax" : 15000.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Duration",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -86,6 +69,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The amount of adjustment by the pitch envelope.",
+					"annotation_name" : "Pitch Envelope Amount",
 					"id" : "obj-17",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -97,10 +82,13 @@
 					"presentation_rect" : [ 0.0, 112.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Pitch Envelope Amount",
 							"parameter_exponent" : 5.0,
+							"parameter_info" : "The amount of adjustment by the pitch envelope.",
 							"parameter_longname" : "#1-Pitch-Envelope-Amount",
 							"parameter_mmax" : 15000.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Amount",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
@@ -243,6 +231,7 @@
 
 			}
  ],
+		"originid" : "pat-8520",
 		"parameters" : 		{
 			"obj-17" : [ "#1-Pitch-Envelope-Amount", "Amount", 0 ],
 			"obj-18" : [ "#1-Pitch-Envelope-Duration", "Duration", 0 ],
@@ -256,7 +245,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Thwomp Function Envelope Interface.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

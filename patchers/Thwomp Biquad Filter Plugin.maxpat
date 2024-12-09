@@ -2,42 +2,19 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 3,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 790.0, 244.0, 565.0, 726.0 ],
-		"bglocked" : 0,
+		"rect" : [ 404.0, 211.0, 565.0, 726.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 10.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial Bold",
-		"gridonopen" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-5",
@@ -57,6 +34,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Turns the filter on and off.",
+					"annotation_name" : "Filter",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-7",
@@ -70,10 +49,13 @@
 					"presentation_rect" : [ 0.0, 0.0, 32.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Filter",
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "Turns the filter on and off.",
 							"parameter_longname" : "#1-Filter",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Filter",
 							"parameter_type" : 2
 						}
@@ -253,7 +235,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -261,7 +243,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -290,6 +272,7 @@
 
 			}
  ],
+		"originid" : "pat-7586",
 		"parameters" : 		{
 			"obj-1::obj-1" : [ "#1-Filter-Frequency", "Freq", 0 ],
 			"obj-1::obj-11" : [ "#1-Filter-Q", "Q", 0 ],
@@ -304,14 +287,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Thwomp Active.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Thwomp Biquad Filter.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

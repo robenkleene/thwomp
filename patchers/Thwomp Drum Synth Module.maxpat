@@ -2,42 +2,20 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 3,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 599.0, 100.0, 723.0, 983.0 ],
-		"bglocked" : 0,
+		"rect" : [ 275.0, 100.0, 909.0, 922.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 10.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial Bold",
-		"gridonopen" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
 		"toolbars_unpinned_last_save" : 4,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-1",
@@ -119,6 +97,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The gain of this oscillator.",
+					"annotation_name" : "Gain",
 					"id" : "obj-5",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -130,10 +110,13 @@
 					"presentation_rect" : [ 0.0, 112.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Gain",
+							"parameter_info" : "The gain of this oscillator.",
 							"parameter_longname" : "#1-Oscillator-Gain",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Gain",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -164,6 +147,7 @@
 							"parameter_longname" : "#1-Oscillator-Shape",
 							"parameter_mmax" : 5,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Shape",
 							"parameter_type" : 2
 						}
@@ -195,6 +179,7 @@
 							"parameter_longname" : "#1-Oscillator",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Osc",
 							"parameter_type" : 2
 						}
@@ -651,6 +636,7 @@
 
 			}
  ],
+		"originid" : "pat-7992",
 		"parameters" : 		{
 			"obj-12::obj-1::obj-1" : [ "#1-Filter-Frequency", "Freq", 0 ],
 			"obj-12::obj-1::obj-11" : [ "#1-Filter-Q", "Q", 0 ],
@@ -681,56 +667,56 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Thwomp AD Envelope Interface.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Thwomp Active.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Thwomp Biquad Filter Plugin.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Thwomp Biquad Filter.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Thwomp Frequency Bank.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Thwomp Frequency Switch.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Thwomp Function Envelope Interface.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Thwomp Pitch Envelope Interface.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -779,14 +765,14 @@
 			}
 , 			{
 				"name" : "thwomp_engine.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thwomp_osc_1.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

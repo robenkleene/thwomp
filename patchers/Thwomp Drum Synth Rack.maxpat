@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 377.0, 108.0, 571.0, 907.0 ],
+		"rect" : [ 377.0, 108.0, 1023.0, 907.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
@@ -122,6 +122,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Read presets from a JSON file.",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-30",
@@ -137,6 +138,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "Read presets from a JSON file.",
 							"parameter_longname" : "Read",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -154,6 +156,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Write presets to a JSON file.",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-29",
@@ -169,6 +172,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "Write presets to a JSON file.",
 							"parameter_longname" : "Write",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -186,6 +190,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "If toggled on, \"Write\" overwrites the last loaded presets file. If it's toggled off, then a file dialog will appear.",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-24",
@@ -200,6 +205,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
+							"parameter_info" : "If toggled on, \"Write\" overwrites the last loaded presets file. If it's toggled off, then a file dialog will appear.",
 							"parameter_longname" : "Overwrite",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -218,6 +224,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Which oscillator is selected.",
 					"id" : "obj-19",
 					"maxclass" : "live.tab",
 					"num_lines_patching" : 4,
@@ -232,6 +239,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "1", "2", "3", "4" ],
+							"parameter_info" : "Which oscillator is selected.",
 							"parameter_longname" : "Tab",
 							"parameter_mmax" : 3,
 							"parameter_modmode" : 0,
@@ -261,6 +269,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The overall volume of this device.",
 					"id" : "obj-11",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -272,6 +281,7 @@
 					"presentation_rect" : [ 296.0, 120.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_info" : "The overall volume of this device.",
 							"parameter_longname" : "Volume",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
@@ -721,7 +731,7 @@
 
 			}
  ],
-		"originid" : "pat-6212",
+		"originid" : "pat-8108",
 		"parameters" : 		{
 			"obj-11" : [ "Volume", "Volume", 0 ],
 			"obj-19" : [ "Tab", "Tab", 0 ],
@@ -928,13 +938,6 @@
 			}
 , 			{
 				"name" : "thwomp_osc_1.maxpat",
-				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thwomp_osc_5.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

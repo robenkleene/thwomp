@@ -2,42 +2,20 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 3,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
 		"rect" : [ 175.0, 210.0, 787.0, 556.0 ],
-		"bglocked" : 0,
 		"openinpresentation" : 1,
-		"default_fontsize" : 10.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial Bold",
-		"gridonopen" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
 		"subpatcher_template" : "roben-kleene-max-for-live",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-6",
@@ -58,6 +36,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The frequency of the oscillator.",
+					"annotation_name" : "Frequency",
 					"id" : "obj-14",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -69,11 +49,14 @@
 					"presentation_rect" : [ 0.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Frequency",
 							"parameter_exponent" : 5.0,
+							"parameter_info" : "The frequency of the oscillator.",
 							"parameter_longname" : "#1-Oscillator-Frequency",
 							"parameter_mmax" : 22000.0,
 							"parameter_mmin" : 30.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Freq",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
@@ -87,6 +70,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The semitone offset of the incoming note.",
+					"annotation_name" : "Semitone",
 					"id" : "obj-11",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -98,10 +83,13 @@
 					"presentation_rect" : [ 0.0, 48.0, 40.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Semitone",
+							"parameter_info" : "The semitone offset of the incoming note.",
 							"parameter_longname" : "#1-Oscillator-Semitones",
 							"parameter_mmax" : 48.0,
 							"parameter_mmin" : -48.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Semi",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 7
@@ -322,6 +310,7 @@
 
 			}
  ],
+		"originid" : "pat-8506",
 		"parameters" : 		{
 			"obj-11" : [ "#1-Oscillator-Semitones", "Semi", 0 ],
 			"obj-14" : [ "#1-Oscillator-Frequency", "Freq", 0 ],
