@@ -459,8 +459,8 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Store and recall presets.",
-					"hint" : "Store and recall presets.\n\nShift-click on a square to store.\nClick on a square to recall.\nShift-(option|alt)-click on a square to delete.",
+					"annotation" : "Store and recall presets. Shift-click on a square to store. Click on a square to recall. Shift-(option|alt)-click on a square to delete.",
+					"hint" : "",
 					"id" : "obj-22",
 					"maxclass" : "preset",
 					"numinlets" : 1,
@@ -731,7 +731,7 @@
 
 			}
  ],
-		"originid" : "pat-8924",
+		"originid" : "pat-14994",
 		"parameters" : 		{
 			"obj-11" : [ "Volume", "Volume", 0 ],
 			"obj-19" : [ "Tab", "Tab", 0 ],
