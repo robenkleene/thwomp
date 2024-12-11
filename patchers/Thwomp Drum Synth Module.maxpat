@@ -18,6 +18,45 @@
 		"toolbars_unpinned_last_save" : 4,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-14",
+					"justification" : 1,
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 297.0, 168.0, 5.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 208.0, 104.0, 40.0, 8.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"justification" : 1,
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 130.0, 114.0, 5.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 128.0, 112.0, 8.0, 48.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"justification" : 1,
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 616.0, 152.0, 5.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 40.0, 112.0, 8.0, 48.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -608,7 +647,7 @@
 
 			}
  ],
-		"originid" : "pat-25958",
+		"originid" : "pat-26872",
 		"parameters" : 		{
 			"obj-12::obj-1::obj-1" : [ "#1-Filter-Frequency", "Freq", 0 ],
 			"obj-12::obj-1::obj-11" : [ "#1-Filter-Q", "Q", 0 ],
