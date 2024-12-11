@@ -23,7 +23,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 297.0, 168.0, 5.0, 100.0 ],
+					"patching_rect" : [ 632.0, 152.0, 5.0, 100.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 208.0, 104.0, 40.0, 8.0 ]
 				}
@@ -36,7 +36,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 130.0, 114.0, 5.0, 100.0 ],
+					"patching_rect" : [ 648.0, 152.0, 5.0, 100.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 128.0, 112.0, 8.0, 48.0 ]
 				}
@@ -647,7 +647,7 @@
 
 			}
  ],
-		"originid" : "pat-26872",
+		"originid" : "pat-26988",
 		"parameters" : 		{
 			"obj-12::obj-1::obj-1" : [ "#1-Filter-Frequency", "Freq", 0 ],
 			"obj-12::obj-1::obj-11" : [ "#1-Filter-Q", "Q", 0 ],
