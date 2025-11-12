@@ -297,8 +297,8 @@
                     "numinlets": 7,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 192.0, 560.0, 243.0, 22.0 ],
-                    "text": "poly~ thwomp_engine 8 @steal 1 @target 0"
+                    "patching_rect": [ 192.0, 560.0, 136.0, 22.0 ],
+                    "text": "poly~ thwomp_engine 8"
                 }
             },
             {
@@ -607,14 +607,6 @@
             "obj-5": [ "#1-Oscillator-Gain", "Gain", 0 ],
             "obj-7": [ "#1-Oscillator", "Osc", 0 ],
             "obj-9": [ "#1-Oscillator-Shape", "Shape", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
