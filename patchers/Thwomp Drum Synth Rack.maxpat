@@ -782,7 +782,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Active.maxpat",
+				"name" : "UiActive.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -894,7 +894,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "thwomp_engine.maxpat",
+				"name" : "Engine.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

@@ -92,7 +92,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Active.maxpat",
+					"name" : "UiActive.maxpat",
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -268,7 +268,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Active.maxpat",
+				"name" : "UiActive.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

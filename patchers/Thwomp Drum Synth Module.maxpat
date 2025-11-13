@@ -298,7 +298,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
                     "patching_rect": [ 192.0, 560.0, 136.0, 22.0 ],
-                    "text": "poly~ thwomp_engine 8"
+                    "text": "poly~ Engine 8"
                 }
             },
             {
