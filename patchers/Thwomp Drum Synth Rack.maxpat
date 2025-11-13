@@ -901,7 +901,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "thwomp_osc_1.maxpat",
+				"name" : "Osc1.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
