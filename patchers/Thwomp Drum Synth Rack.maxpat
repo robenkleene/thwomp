@@ -782,7 +782,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Active.maxpat",
+				"name" : "Active.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
