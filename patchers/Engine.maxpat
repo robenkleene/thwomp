@@ -453,7 +453,7 @@
                             {
                                 "box": {
                                     "id": "obj-9",
-                                    "items": [ "Osc1.maxpat", ",", "Osc2.maxpat", ",", "Osc3.maxpat", ",", "Osc4.maxpat", ",", "Osc5.maxpat", ",", "Osc6.maxpat" ],
+                                    "items": [ "OscCycle.maxpat", ",", "OscTri.maxpat", ",", "OscRect.maxpat", ",", "OscSaw.maxpat", ",", "OscNoise.maxpat", ",", "OscPink.maxpat" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -470,7 +470,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "signal" ],
                                     "patching_rect": [ 32.0, 168.0, 110.0, 20.0 ],
-                                    "text": "poly~ Osc1"
+                                    "text": "poly~ OscCycle"
                                 }
                             },
                             {

@@ -715,7 +715,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Osc1.maxpat",
+				"name" : "OscCycle.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
