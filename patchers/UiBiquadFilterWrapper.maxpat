@@ -165,7 +165,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Thwomp Biquad Filter.maxpat",
+					"name" : "UiBiquadFilter.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -275,7 +275,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Biquad Filter.maxpat",
+				"name" : "UiBiquadFilter.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

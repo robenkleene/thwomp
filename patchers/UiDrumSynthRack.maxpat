@@ -485,7 +485,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Thwomp Drum Synth Module Bank.maxpat",
+					"name" : "UiDrumSynthModuleBank.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -775,7 +775,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Thwomp AD Envelope Interface.maxpat",
+				"name" : "UiAdEnvelope.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -789,28 +789,28 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Biquad Filter Plugin.maxpat",
+				"name" : "UiBiquadFilterWrapper.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Biquad Filter.maxpat",
+				"name" : "UiBiquadFilter.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Drum Synth Module Bank.maxpat",
+				"name" : "UiDrumSynthModuleBank.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Drum Synth Module.maxpat",
+				"name" : "UiDrumSynthModule.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
