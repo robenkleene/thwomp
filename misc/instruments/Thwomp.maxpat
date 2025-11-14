@@ -444,7 +444,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp.json",
+				"name" : "Presets.json",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
