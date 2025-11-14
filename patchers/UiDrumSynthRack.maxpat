@@ -485,7 +485,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "UiDrumSynthModuleBank.maxpat",
+					"name" : "UiDrumSynthBank.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -803,14 +803,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "UiDrumSynthModuleBank.maxpat",
+				"name" : "UiDrumSynthBank.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "UiDrumSynthModule.maxpat",
+				"name" : "UiDrumSynth.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
