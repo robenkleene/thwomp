@@ -817,28 +817,28 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Frequency Bank.maxpat",
+				"name" : "UiFrequencyBank.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Frequency Switch.maxpat",
+				"name" : "UiFrequencySwitch.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Function Envelope Interface.maxpat",
+				"name" : "UiFunctionEnvelope.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Pitch Envelope Interface.maxpat",
+				"name" : "UiPitchEnvelope.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
