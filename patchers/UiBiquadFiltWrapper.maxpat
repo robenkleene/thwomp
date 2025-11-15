@@ -48,7 +48,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "#1-Filter",
+                            "parameter_longname": "#1-Filt",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Filter",
@@ -234,7 +234,15 @@
             "obj-1::obj-1": [ "#1-FiltFreq", "Freq", 0 ],
             "obj-1::obj-11": [ "#1-FiltQ", "Q", 0 ],
             "obj-1::obj-6": [ "#1-FiltType", "Type", 0 ],
-            "obj-7": [ "#1-Filter", "Filter", 0 ],
+            "obj-7": [ "#1-Filt", "Filter", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

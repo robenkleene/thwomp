@@ -626,7 +626,7 @@
             "obj-1::obj-17::obj-12::obj-1::obj-1": [ "3-FiltFreq", "Freq", 0 ],
             "obj-1::obj-17::obj-12::obj-1::obj-11": [ "3-FiltQ", "Q", 0 ],
             "obj-1::obj-17::obj-12::obj-1::obj-6": [ "3-FiltType", "Type", 0 ],
-            "obj-1::obj-17::obj-12::obj-7": [ "3-Filter", "Filter", 0 ],
+            "obj-1::obj-17::obj-12::obj-7": [ "3-Filt", "Filter", 0 ],
             "obj-1::obj-17::obj-17::obj-17": [ "3-PitchEnvAmt", "Amount", 0 ],
             "obj-1::obj-17::obj-17::obj-18": [ "3-PitchEnvDur", "Duration", 0 ],
             "obj-1::obj-17::obj-17::obj-20::obj-30": [ "3-Function", "Function", 1 ],
@@ -641,7 +641,7 @@
             "obj-1::obj-1::obj-12::obj-1::obj-1": [ "1-FiltFreq", "Freq", 0 ],
             "obj-1::obj-1::obj-12::obj-1::obj-11": [ "1-FiltQ", "Q", 0 ],
             "obj-1::obj-1::obj-12::obj-1::obj-6": [ "1-FiltType", "Type", 0 ],
-            "obj-1::obj-1::obj-12::obj-7": [ "1-Filter", "Filter", 0 ],
+            "obj-1::obj-1::obj-12::obj-7": [ "1-Filt", "Filter", 0 ],
             "obj-1::obj-1::obj-17::obj-17": [ "1-PitchEnvAmt", "Amount", 0 ],
             "obj-1::obj-1::obj-17::obj-18": [ "1-PitchEnvDur", "Duration", 0 ],
             "obj-1::obj-1::obj-17::obj-20::obj-30": [ "1-Function", "Function", 1 ],
@@ -656,7 +656,7 @@
             "obj-1::obj-3::obj-12::obj-1::obj-1": [ "2-FiltFreq", "Freq", 0 ],
             "obj-1::obj-3::obj-12::obj-1::obj-11": [ "2-FiltQ", "Q", 0 ],
             "obj-1::obj-3::obj-12::obj-1::obj-6": [ "2-FiltType", "Type", 0 ],
-            "obj-1::obj-3::obj-12::obj-7": [ "2-Filter", "Filter", 0 ],
+            "obj-1::obj-3::obj-12::obj-7": [ "2-Filt", "Filter", 0 ],
             "obj-1::obj-3::obj-17::obj-17": [ "2-PitchEnvAmt", "Amount", 0 ],
             "obj-1::obj-3::obj-17::obj-18": [ "2-PitchEnvDur", "Duration", 0 ],
             "obj-1::obj-3::obj-17::obj-20::obj-30": [ "2-Function", "Function", 1 ],
@@ -671,7 +671,7 @@
             "obj-1::obj-44::obj-12::obj-1::obj-1": [ "4-FiltFreq", "Freq", 0 ],
             "obj-1::obj-44::obj-12::obj-1::obj-11": [ "4-FiltQ", "Q", 0 ],
             "obj-1::obj-44::obj-12::obj-1::obj-6": [ "4-FiltType", "Type", 0 ],
-            "obj-1::obj-44::obj-12::obj-7": [ "4-Filter", "Filter", 0 ],
+            "obj-1::obj-44::obj-12::obj-7": [ "4-Filt", "Filter", 0 ],
             "obj-1::obj-44::obj-17::obj-17": [ "4-PitchEnvAmt", "Amount", 0 ],
             "obj-1::obj-44::obj-17::obj-18": [ "4-PitchEnvDur", "Duration", 0 ],
             "obj-1::obj-44::obj-17::obj-20::obj-30": [ "4-Function", "Function", 1 ],
@@ -686,14 +686,6 @@
             "obj-24": [ "Overwrite", "Overwrite", 0 ],
             "obj-29": [ "Write", "Write", 0 ],
             "obj-30": [ "Read", "Read", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
