@@ -477,6 +477,8 @@
             "obj-17::obj-2::obj-1::obj-11": [ "3-OscSemi", "Semi", 0 ],
             "obj-17::obj-2::obj-1::obj-14": [ "3-OscFreq", "Freq", 0 ],
             "obj-17::obj-2::obj-5": [ "3-OscNote", "Note", 0 ],
+            "obj-17::obj-4::obj-3": [ "3-AmpDecay", "Decay", 0 ],
+            "obj-17::obj-4::obj-7": [ "3-AmpAttack", "Attack", 0 ],
             "obj-17::obj-5": [ "3-OscGain", "Gain", 0 ],
             "obj-17::obj-7": [ "3-Osc", "Osc", 0 ],
             "obj-17::obj-9": [ "3-OscShape", "Shape", 0 ],
@@ -490,6 +492,8 @@
             "obj-1::obj-2::obj-1::obj-11": [ "1-OscSemi", "Semi", 0 ],
             "obj-1::obj-2::obj-1::obj-14": [ "1-OscFreq", "Freq", 0 ],
             "obj-1::obj-2::obj-5": [ "1-OscNote", "Note", 0 ],
+            "obj-1::obj-4::obj-3": [ "1-AmpDecay", "Decay", 0 ],
+            "obj-1::obj-4::obj-7": [ "1-AmpAttack", "Attack", 0 ],
             "obj-1::obj-5": [ "1-OscGain", "Gain", 0 ],
             "obj-1::obj-7": [ "1-Osc", "Osc", 0 ],
             "obj-1::obj-9": [ "1-OscShape", "Shape", 0 ],
@@ -503,6 +507,8 @@
             "obj-3::obj-2::obj-1::obj-11": [ "2-OscSemi", "Semi", 0 ],
             "obj-3::obj-2::obj-1::obj-14": [ "2-OscFreq", "Freq", 0 ],
             "obj-3::obj-2::obj-5": [ "2-OscNote", "Note", 0 ],
+            "obj-3::obj-4::obj-3": [ "2-AmpDecay", "Decay", 0 ],
+            "obj-3::obj-4::obj-7": [ "2-AmpAttack", "Attack", 0 ],
             "obj-3::obj-5": [ "2-OscGain", "Gain", 0 ],
             "obj-3::obj-7": [ "2-Osc", "Osc", 0 ],
             "obj-3::obj-9": [ "2-OscShape", "Shape", 0 ],
@@ -516,9 +522,19 @@
             "obj-44::obj-2::obj-1::obj-11": [ "4-OscSemi", "Semi", 0 ],
             "obj-44::obj-2::obj-1::obj-14": [ "4-OscFreq", "Freq", 0 ],
             "obj-44::obj-2::obj-5": [ "4-OscNote", "Note", 0 ],
+            "obj-44::obj-4::obj-3": [ "4-AmpDecay", "Decay", 0 ],
+            "obj-44::obj-4::obj-7": [ "4-AmpAttack", "Attack", 0 ],
             "obj-44::obj-5": [ "4-OscGain", "Gain", 0 ],
             "obj-44::obj-7": [ "4-Osc", "Osc", 0 ],
             "obj-44::obj-9": [ "4-OscShape", "Shape", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

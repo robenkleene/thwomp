@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1205.0, 147.0, 1093.0, 1033.0 ],
+        "rect": [ 377.0, 93.0, 468.0, 1033.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -376,8 +376,9 @@
                     "maxclass": "bpatcher",
                     "name": "UiAdEnv.maxpat",
                     "numinlets": 0,
-                    "numoutlets": 0,
+                    "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "", "" ],
                     "patching_rect": [ 528.0, 440.0, 40.0, 104.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 208.0, 0.0, 40.0, 104.0 ],
@@ -589,17 +590,11 @@
             "obj-2::obj-1::obj-11": [ "#1-OscSemi", "Semi", 0 ],
             "obj-2::obj-1::obj-14": [ "#1-OscFreq", "Freq", 0 ],
             "obj-2::obj-5": [ "#1-OscNote", "Note", 0 ],
+            "obj-4::obj-3": [ "#1-AmpDecay", "Decay", 0 ],
+            "obj-4::obj-7": [ "#1-AmpAttack", "Attack", 0 ],
             "obj-5": [ "#1-OscGain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
