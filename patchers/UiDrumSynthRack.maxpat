@@ -399,15 +399,15 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 420.0, 186.0, 111.0, 20.0 ],
+                    "patching_rect": [ 420.0, 186.0, 106.0, 20.0 ],
                     "saved_object_attributes": {
                         "client_rect": [ 4, 44, 358, 172 ],
                         "parameter_enable": 0,
                         "parameter_mappable": 0,
                         "storage_rect": [ 583, 69, 1034, 197 ]
                     },
-                    "text": "pattrstorage Thwomp",
-                    "varname": "Thwomp"
+                    "text": "pattrstorage Presets",
+                    "varname": "Presets"
                 }
             },
             {
@@ -420,7 +420,6 @@
                     "numoutlets": 5,
                     "outlettype": [ "preset", "int", "preset", "int", "" ],
                     "patching_rect": [ 568.0, 184.0, 77.0, 29.0 ],
-                    "pattrstorage": "Thwomp",
                     "presentation": 1,
                     "presentation_rect": [ 296.0, 64.0, 40.0, 48.0 ]
                 }
@@ -686,6 +685,14 @@
             "obj-24": [ "Overwrite", "Overwrite", 0 ],
             "obj-29": [ "Write", "Write", 0 ],
             "obj-30": [ "Read", "Read", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
