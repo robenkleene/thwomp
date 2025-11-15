@@ -234,7 +234,7 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "Thwomp Frequency Switch.maxpat",
+                    "name": "UiFrequencySwitch.maxpat",
                     "numinlets": 1,
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
@@ -298,7 +298,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
                     "patching_rect": [ 192.0, 560.0, 136.0, 22.0 ],
-                    "text": "poly~ thwomp_engine 8"
+                    "text": "poly~ Engine 8"
                 }
             },
             {
@@ -337,7 +337,7 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "Thwomp Biquad Filter Plugin.maxpat",
+                    "name": "UiBiquadFilterWrapper.maxpat",
                     "numinlets": 2,
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
@@ -374,7 +374,7 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "Thwomp AD Envelope Interface.maxpat",
+                    "name": "UiAdEnvelope.maxpat",
                     "numinlets": 0,
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
@@ -410,7 +410,7 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "Thwomp Pitch Envelope Interface.maxpat",
+                    "name": "UiPitchEnvelope.maxpat",
                     "numinlets": 1,
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],

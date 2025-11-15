@@ -46,7 +46,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 88.0, 496.0, 150.0, 22.0 ],
-					"text" : "thwomp_bank_gated_print"
+					"text" : "BankGatedPrint"
 				}
 
 			}
@@ -497,7 +497,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "thwomp_bank_gated_print.maxpat",
+				"name" : "BankGatedPrint.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

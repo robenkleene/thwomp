@@ -92,7 +92,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Thwomp Active.maxpat",
+					"name" : "UiActive.maxpat",
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -165,7 +165,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Thwomp Biquad Filter.maxpat",
+					"name" : "UiBiquadFilter.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -268,14 +268,14 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Thwomp Active.maxpat",
+				"name" : "UiActive.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Thwomp Biquad Filter.maxpat",
+				"name" : "UiBiquadFilter.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
