@@ -603,7 +603,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "UiAdEnvelope.maxpat",
+				"name" : "UiAdEnv.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -617,14 +617,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "UiBiquadFilterWrapper.maxpat",
+				"name" : "UiBiquadFiltWrapper.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "UiBiquadFilter.maxpat",
+				"name" : "UiBiquadFilt.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -638,28 +638,28 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "UiFrequencyBank.maxpat",
+				"name" : "UiFreqBank.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "UiFrequencySwitch.maxpat",
+				"name" : "UiFreqSwitch.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "UiFunctionEnvelope.maxpat",
+				"name" : "UiFunctionEnv.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "UiPitchEnvelope.maxpat",
+				"name" : "UiPitchEnv.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

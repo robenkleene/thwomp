@@ -132,7 +132,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "UiFrequencyBank.maxpat",
+					"name" : "UiFreqBank.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -230,7 +230,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "UiFrequencyBank.maxpat",
+				"name" : "UiFreqBank.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/thwomp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
