@@ -52,7 +52,7 @@
 							"parameter_annotation_name" : "Pitch Envelope Duration",
 							"parameter_exponent" : 5.0,
 							"parameter_info" : "The duration of the pitch envelope (the time over which it is applied).",
-							"parameter_longname" : "#1-Pitch-Envelope-Duration",
+							"parameter_longname" : "#1-PitchEnvDur",
 							"parameter_mmax" : 15000.0,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -85,7 +85,7 @@
 							"parameter_annotation_name" : "Pitch Envelope Amount",
 							"parameter_exponent" : 5.0,
 							"parameter_info" : "The amount of adjustment made by the pitch envelope.",
-							"parameter_longname" : "#1-Pitch-Envelope-Amount",
+							"parameter_longname" : "#1-PitchEnvAmt",
 							"parameter_mmax" : 15000.0,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -215,8 +215,8 @@
  ],
 		"originid" : "pat-26868",
 		"parameters" : 		{
-			"obj-17" : [ "#1-Pitch-Envelope-Amount", "Amount", 0 ],
-			"obj-18" : [ "#1-Pitch-Envelope-Duration", "Duration", 0 ],
+			"obj-17" : [ "#1-PitchEnvAmt", "Amount", 0 ],
+			"obj-18" : [ "#1-PitchEnvDur", "Duration", 0 ],
 			"obj-20::obj-30" : [ "#1-Function", "Function", 1 ],
 			"parameterbanks" : 			{
 

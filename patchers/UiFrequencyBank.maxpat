@@ -85,7 +85,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "Semitone",
 							"parameter_info" : "The semitone offset of the incoming note.",
-							"parameter_longname" : "#1-Oscillator-Semitones",
+							"parameter_longname" : "#1-OscSemi",
 							"parameter_mmax" : 48.0,
 							"parameter_mmin" : -48.0,
 							"parameter_modmode" : 0,
@@ -312,7 +312,7 @@
  ],
 		"originid" : "pat-8506",
 		"parameters" : 		{
-			"obj-11" : [ "#1-Oscillator-Semitones", "Semi", 0 ],
+			"obj-11" : [ "#1-OscSemi", "Semi", 0 ],
 			"obj-14" : [ "#1-OscFreq", "Freq", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{

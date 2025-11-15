@@ -65,7 +65,7 @@
 							"parameter_annotation_name" : "Note",
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_info" : "If toggled on, the income MIDI note will be used, and a semitone adjustment will be visible. If toggled off, a specific frequency will be used regardless of income MIDI note.",
-							"parameter_longname" : "#1-Oscillator-Note",
+							"parameter_longname" : "#1-OscNote",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -214,9 +214,9 @@
  ],
 		"originid" : "pat-8660",
 		"parameters" : 		{
-			"obj-1::obj-11" : [ "#1-Oscillator-Semitones", "Semi", 0 ],
+			"obj-1::obj-11" : [ "#1-OscSemi", "Semi", 0 ],
 			"obj-1::obj-14" : [ "#1-OscFreq", "Freq", 0 ],
-			"obj-5" : [ "#1-Oscillator-Note", "Note", 0 ],
+			"obj-5" : [ "#1-OscNote", "Note", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
