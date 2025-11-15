@@ -52,7 +52,7 @@
 							"parameter_annotation_name" : "Filter Cutoff",
 							"parameter_exponent" : 5.0,
 							"parameter_info" : "The filter cutoff frequency.",
-							"parameter_longname" : "#1-Filter-Frequency",
+							"parameter_longname" : "#1-FiltFreq",
 							"parameter_mmax" : 22000.0,
 							"parameter_mmin" : 30.0,
 							"parameter_modmode" : 0,
@@ -85,7 +85,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "Filter Q",
 							"parameter_info" : "The filter resonance.",
-							"parameter_longname" : "#1-Filter-Q",
+							"parameter_longname" : "#1-FiltQ",
 							"parameter_mmax" : 10.0,
 							"parameter_mmin" : 0.3,
 							"parameter_modmode" : 0,
@@ -193,7 +193,7 @@
 							"parameter_annotation_name" : "Filter Type",
 							"parameter_enum" : [ "one", "two", "three", "four" ],
 							"parameter_info" : "The filter type.",
-							"parameter_longname" : "#1-Filter-Type",
+							"parameter_longname" : "#1-FiltType",
 							"parameter_mmax" : 3,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -437,9 +437,9 @@
  ],
 		"originid" : "pat-8920",
 		"parameters" : 		{
-			"obj-1" : [ "#1-Filter-Frequency", "Freq", 0 ],
-			"obj-11" : [ "#1-Filter-Q", "Q", 0 ],
-			"obj-6" : [ "#1-Filter-Type", "Type", 0 ],
+			"obj-1" : [ "#1-FiltFreq", "Freq", 0 ],
+			"obj-11" : [ "#1-FiltQ", "Q", 0 ],
+			"obj-6" : [ "#1-FiltType", "Type", 0 ],
 			"parameterbanks" : 			{
 
 			}

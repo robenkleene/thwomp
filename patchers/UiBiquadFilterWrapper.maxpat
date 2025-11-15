@@ -256,9 +256,9 @@
  ],
 		"originid" : "pat-26464",
 		"parameters" : 		{
-			"obj-1::obj-1" : [ "#1-Filter-Frequency", "Freq", 0 ],
-			"obj-1::obj-11" : [ "#1-Filter-Q", "Q", 0 ],
-			"obj-1::obj-6" : [ "#1-Filter-Type", "Type", 0 ],
+			"obj-1::obj-1" : [ "#1-FiltFreq", "Freq", 0 ],
+			"obj-1::obj-11" : [ "#1-FiltQ", "Q", 0 ],
+			"obj-1::obj-6" : [ "#1-FiltType", "Type", 0 ],
 			"obj-7" : [ "#1-Filter", "Filter", 0 ],
 			"parameterbanks" : 			{
 

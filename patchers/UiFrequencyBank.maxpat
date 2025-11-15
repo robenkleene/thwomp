@@ -52,7 +52,7 @@
 							"parameter_annotation_name" : "Frequency",
 							"parameter_exponent" : 5.0,
 							"parameter_info" : "The frequency of the oscillator.",
-							"parameter_longname" : "#1-Oscillator-Frequency",
+							"parameter_longname" : "#1-OscFreq",
 							"parameter_mmax" : 22000.0,
 							"parameter_mmin" : 30.0,
 							"parameter_modmode" : 0,
@@ -313,7 +313,7 @@
 		"originid" : "pat-8506",
 		"parameters" : 		{
 			"obj-11" : [ "#1-Oscillator-Semitones", "Semi", 0 ],
-			"obj-14" : [ "#1-Oscillator-Frequency", "Freq", 0 ],
+			"obj-14" : [ "#1-OscFreq", "Freq", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,

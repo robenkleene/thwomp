@@ -210,7 +210,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "#1-Oscillator",
+                            "parameter_longname": "#1-Osc",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Osc",
@@ -592,20 +592,20 @@
             }
         ],
         "parameters": {
-            "obj-12::obj-1::obj-1": [ "#1-Filter-Frequency", "Freq", 0 ],
-            "obj-12::obj-1::obj-11": [ "#1-Filter-Q", "Q", 0 ],
-            "obj-12::obj-1::obj-6": [ "#1-Filter-Type", "Type", 0 ],
+            "obj-12::obj-1::obj-1": [ "#1-FiltFreq", "Freq", 0 ],
+            "obj-12::obj-1::obj-11": [ "#1-FiltQ", "Q", 0 ],
+            "obj-12::obj-1::obj-6": [ "#1-FiltType", "Type", 0 ],
             "obj-12::obj-7": [ "#1-Filter", "Filter", 0 ],
             "obj-17::obj-17": [ "#1-Pitch-Envelope-Amount", "Amount", 0 ],
             "obj-17::obj-18": [ "#1-Pitch-Envelope-Duration", "Duration", 0 ],
             "obj-17::obj-20::obj-30": [ "#1-Function", "Function", 1 ],
             "obj-2::obj-1::obj-11": [ "#1-Oscillator-Semitones", "Semi", 0 ],
-            "obj-2::obj-1::obj-14": [ "#1-Oscillator-Frequency", "Freq", 0 ],
+            "obj-2::obj-1::obj-14": [ "#1-OscFreq", "Freq", 0 ],
             "obj-2::obj-5": [ "#1-Oscillator-Note", "Note", 0 ],
-            "obj-4::obj-3": [ "#1-Amplifier-Decay", "Decay", 0 ],
-            "obj-4::obj-7": [ "#1-Amplifier-Attack", "Attack", 0 ],
+            "obj-4::obj-3": [ "#1-AmpDecay", "Decay", 0 ],
+            "obj-4::obj-7": [ "#1-AmpAttack", "Attack", 0 ],
             "obj-5": [ "#1-Oscillator-Gain", "Gain", 0 ],
-            "obj-7": [ "#1-Oscillator", "Osc", 0 ],
+            "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-Oscillator-Shape", "Shape", 0 ],
             "inherited_shortname": 1
         },

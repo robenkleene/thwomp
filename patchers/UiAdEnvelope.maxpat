@@ -51,7 +51,7 @@
 							"parameter_annotation_name" : "Amplifier Attack",
 							"parameter_exponent" : 5.0,
 							"parameter_info" : "Amplifier envelope attack.",
-							"parameter_longname" : "#1-Amplifier-Attack",
+							"parameter_longname" : "#1-AmpAttack",
 							"parameter_mmax" : 15000.0,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -84,7 +84,7 @@
 							"parameter_annotation_name" : "Amplifier Decay",
 							"parameter_exponent" : 5.0,
 							"parameter_info" : "Amplifier envelope decay.",
-							"parameter_longname" : "#1-Amplifier-Decay",
+							"parameter_longname" : "#1-AmpDecay",
 							"parameter_mmax" : 15000.0,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -141,8 +141,8 @@
  ],
 		"originid" : "pat-26866",
 		"parameters" : 		{
-			"obj-3" : [ "#1-Amplifier-Decay", "Decay", 0 ],
-			"obj-7" : [ "#1-Amplifier-Attack", "Attack", 0 ],
+			"obj-3" : [ "#1-AmpDecay", "Decay", 0 ],
+			"obj-7" : [ "#1-AmpAttack", "Attack", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
