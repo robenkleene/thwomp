@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 377.0, 108.0, 1023.0, 907.0 ],
+        "rect": [ 183.0, 115.0, 1023.0, 907.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -49,7 +49,7 @@
                         "Overwrite": [ 0.0 ],
                         "Read": [ 0.0 ],
                         "Tab": [ 0.0 ],
-                        "Volume": [ 0.0 ],
+                        "Vol": [ 0.0 ],
                         "Write": [ 0.0 ]
                     },
                     "text": "autopattr",
@@ -251,16 +251,16 @@
                     "presentation_rect": [ 296.0, 120.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "Volume",
+                            "parameter_longname": "Vol",
                             "parameter_mmax": 6.0,
                             "parameter_mmin": -70.0,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Volume",
+                            "parameter_shortname": "Vol",
                             "parameter_type": 0,
                             "parameter_unitstyle": 4
                         }
                     },
-                    "varname": "Volume"
+                    "varname": "Vol"
                 }
             },
             {
@@ -445,7 +445,7 @@
                     "patching_rect": [ 16.0, 224.0, 248.0, 160.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 40.0, 8.0, 256.0, 160.0 ],
-                    "varname": "Drum Synth Modules",
+                    "varname": "UiDrumSynthBank",
                     "viewvisibility": 1
                 }
             }
@@ -621,7 +621,7 @@
             }
         ],
         "parameters": {
-            "obj-11": [ "Volume", "Volume", 0 ],
+            "obj-11": [ "Vol", "Vol", 0 ],
             "obj-19": [ "Tab", "Tab", 0 ],
             "obj-1::obj-17::obj-12::obj-1::obj-1": [ "3-FiltFreq", "Freq", 0 ],
             "obj-1::obj-17::obj-12::obj-1::obj-11": [ "3-FiltQ", "Q", 0 ],

@@ -24,7 +24,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 384.0, 40.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-Frequency": [ 30.0 ],
+                        "#1-Freq": [ 30.0 ],
                         "#1-Q": [ 0.3 ],
                         "#1-Type": [ 0.0 ]
                     },
@@ -57,7 +57,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "varname": "#1-Frequency"
+                    "varname": "#1-Freq"
                 }
             },
             {
@@ -389,14 +389,6 @@
             "obj-1": [ "#1-FiltFreq", "Freq", 0 ],
             "obj-11": [ "#1-FiltQ", "Q", 0 ],
             "obj-6": [ "#1-FiltType", "Type", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0

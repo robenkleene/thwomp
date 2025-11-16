@@ -24,7 +24,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 328.0, 160.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-Fil": [ 0.0 ]
+                        "#1-Filt": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u892006714"
@@ -51,13 +51,13 @@
                             "parameter_longname": "#1-Filt",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Filter",
+                            "parameter_shortname": "Filt",
                             "parameter_type": 2
                         }
                     },
-                    "text": "Fil",
-                    "texton": "Fil",
-                    "varname": "#1-Fil"
+                    "text": "Filt",
+                    "texton": "Filt",
+                    "varname": "#1-Filt"
                 }
             },
             {
@@ -198,14 +198,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-4", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-2", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-4", 0 ]
                 }
             },
@@ -234,15 +234,7 @@
             "obj-1::obj-1": [ "#1-FiltFreq", "Freq", 0 ],
             "obj-1::obj-11": [ "#1-FiltQ", "Q", 0 ],
             "obj-1::obj-6": [ "#1-FiltType", "Type", 0 ],
-            "obj-7": [ "#1-Filt", "Filter", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
+            "obj-7": [ "#1-Filt", "Filt", 0 ],
             "inherited_shortname": 1
         },
         "autosave": 0

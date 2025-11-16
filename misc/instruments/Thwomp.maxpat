@@ -110,7 +110,7 @@
                     "patching_rect": [ 15.0, 135.0, 337.0, 169.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 64.0, 0.0, 344.0, 168.0 ],
-                    "varname": "Drum Synth Rack",
+                    "varname": "UiDrumSynthRack",
                     "viewvisibility": 1
                 }
             },
@@ -237,7 +237,7 @@
             }
         ],
         "parameters": {
-            "obj-1::obj-11": [ "Volume", "Volume", 0 ],
+            "obj-1::obj-11": [ "Volume", "Vol", 0 ],
             "obj-1::obj-19": [ "Tab", "Tab", 0 ],
             "obj-1::obj-1::obj-17::obj-12::obj-1::obj-1": [ "3-FiltFreq", "Freq", 0 ],
             "obj-1::obj-1::obj-17::obj-12::obj-1::obj-11": [ "3-FiltQ", "Q", 0 ],
@@ -302,12 +302,21 @@
             "obj-1::obj-24": [ "Overwrite", "Overwrite", 0 ],
             "obj-1::obj-29": [ "Write", "Write", 0 ],
             "obj-1::obj-30": [ "Read", "Read", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+            "parameter_overrides": {
+                "obj-1::obj-11": {
+                    "parameter_longname": "Volume"
+                },
+                "obj-1::obj-1::obj-17::obj-12::obj-7": {
+                    "parameter_longname": "3-Filter"
+                },
+                "obj-1::obj-1::obj-1::obj-12::obj-7": {
+                    "parameter_longname": "1-Filter"
+                },
+                "obj-1::obj-1::obj-3::obj-12::obj-7": {
+                    "parameter_longname": "2-Filter"
+                },
+                "obj-1::obj-1::obj-44::obj-12::obj-7": {
+                    "parameter_longname": "4-Filter"
                 }
             },
             "inherited_shortname": 1
