@@ -196,14 +196,6 @@
             "obj-1::obj-11": [ "#1-OscSemi", "Semi", 0 ],
             "obj-1::obj-14": [ "#1-OscFreq", "Freq", 0 ],
             "obj-5": [ "#1-OscNote", "Note", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0

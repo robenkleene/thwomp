@@ -25,7 +25,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 352.0, 16.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-Frequency": [ 30.0 ],
+                        "#1-Freq": [ 30.0 ],
                         "#1-Semi": [ 0.0 ]
                     },
                     "text": "autopattr",
@@ -57,7 +57,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "varname": "#1-Frequency"
+                    "varname": "#1-Freq"
                 }
             },
             {
@@ -278,14 +278,6 @@
         "parameters": {
             "obj-11": [ "#1-OscSemi", "Semi", 0 ],
             "obj-14": [ "#1-OscFreq", "Freq", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
