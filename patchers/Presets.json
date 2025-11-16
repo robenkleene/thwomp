@@ -71,7 +71,6 @@
                     "UiDrumSynthBank::3-UiDrumSynth::UiFreqRack::UiFreqBank::3-Freq": [ 30.0 ],
                     "UiDrumSynthBank::3-UiDrumSynth::UiFreqRack::UiFreqBank::3-Semi": [ 0.0 ]
                 }
-
             },
             "2": {
                 "id": 2,
@@ -142,7 +141,6 @@
                     "UiDrumSynthBank::3-UiDrumSynth::UiFreqRack::UiFreqBank::3-Freq": [ 30 ],
                     "UiDrumSynthBank::3-UiDrumSynth::UiFreqRack::UiFreqBank::3-Semi": [ 0.0 ]
                 }
-
             },
             "3": {
                 "id": 3,
@@ -213,7 +211,6 @@
                     "UiDrumSynthBank::3-UiDrumSynth::UiFreqRack::UiFreqBank::3-Freq": [ 30 ],
                     "UiDrumSynthBank::3-UiDrumSynth::UiFreqRack::UiFreqBank::3-Semi": [ 0.0 ]
                 }
-
             },
             "4": {
                 "id": 4,
@@ -284,7 +281,6 @@
                     "UiDrumSynthBank::3-UiDrumSynth::UiFreqRack::UiFreqBank::3-Freq": [ 30 ],
                     "UiDrumSynthBank::3-UiDrumSynth::UiFreqRack::UiFreqBank::3-Semi": [ 0.0 ]
                 }
-
             },
             "5": {
                 "id": 5,
@@ -355,7 +351,6 @@
                     "UiDrumSynthBank::3-UiDrumSynth::UiFreqRack::UiFreqBank::3-Freq": [ 30 ],
                     "UiDrumSynthBank::3-UiDrumSynth::UiFreqRack::UiFreqBank::3-Semi": [ 0.0 ]
                 }
-
             },
             "9": {
                 "id": 9,
