@@ -337,7 +337,7 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "UiBiquadFiltWrapper.maxpat",
+                    "name": "UiBiquadFilt.maxpat",
                     "numinlets": 2,
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
@@ -345,7 +345,7 @@
                     "patching_rect": [ 192.0, 592.0, 112.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 136.0, 112.0, 112.0, 48.0 ],
-                    "varname": "UiBiquadFiltWrapper",
+                    "varname": "UiBiquadFilt",
                     "viewvisibility": 1
                 }
             },
@@ -408,7 +408,7 @@
                     "enablevscroll": 0,
                     "id": "obj-17",
                     "lockeddragscroll": 0,
-                    "lockedsize": 0,
+                    "lockedsize": 1,
                     "maxclass": "bpatcher",
                     "name": "UiPitchEnv.maxpat",
                     "numinlets": 1,
@@ -424,18 +424,6 @@
             }
         ],
         "lines": [
-            {
-                "patchline": {
-                    "destination": [ "obj-30", 0 ],
-                    "source": [ "obj-12", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-34", 0 ],
-                    "source": [ "obj-12", 1 ]
-                }
-            },
             {
                 "patchline": {
                     "destination": [ "obj-13", 0 ],
@@ -464,20 +452,6 @@
                 "patchline": {
                     "destination": [ "obj-20", 1 ],
                     "source": [ "obj-2", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-12", 1 ],
-                    "order": 0,
-                    "source": [ "obj-20", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-12", 0 ],
-                    "order": 1,
-                    "source": [ "obj-20", 0 ]
                 }
             },
             {
@@ -595,9 +569,9 @@
             "obj-12::obj-1::obj-1": [ "#1-FiltFreq", "Freq", 0 ],
             "obj-12::obj-1::obj-11": [ "#1-FiltQ", "Q", 0 ],
             "obj-12::obj-1::obj-6": [ "#1-FiltType", "Type", 0 ],
-            "obj-12::obj-7": [ "#1-Filt", "Filter", 0 ],
-            "obj-17::obj-17": [ "#1-PitchEnvAmt", "Amount", 0 ],
-            "obj-17::obj-18": [ "#1-PitchEnvDur", "Duration", 0 ],
+            "obj-12::obj-7": [ "#1-Filt", "Filt", 0 ],
+            "obj-17::obj-17": [ "#1-PitchEnvAmt", "Amt", 0 ],
+            "obj-17::obj-18": [ "#1-PitchEnvDur", "Dur", 0 ],
             "obj-17::obj-20::obj-30": [ "#1-Function", "Function", 1 ],
             "obj-2::obj-1::obj-11": [ "#1-OscSemi", "Semi", 0 ],
             "obj-2::obj-1::obj-14": [ "#1-OscFreq", "Freq", 0 ],
@@ -607,14 +581,6 @@
             "obj-5": [ "#1-OscGain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0

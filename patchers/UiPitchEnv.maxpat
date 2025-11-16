@@ -140,7 +140,7 @@
                     "patching_rect": [ 8.0, 120.0, 211.0, 143.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 152.0, 112.0 ],
-                    "varname": "Function Envelope",
+                    "varname": "UiFunctionEnv",
                     "viewvisibility": 1
                 }
             },
@@ -194,6 +194,14 @@
             "obj-17": [ "#1-PitchEnvAmt", "Amt", 0 ],
             "obj-18": [ "#1-PitchEnvDur", "Dur", 0 ],
             "obj-20::obj-30": [ "#1-Function", "Function", 1 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
