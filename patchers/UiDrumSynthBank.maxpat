@@ -230,7 +230,7 @@
                     "patching_rect": [ 15.0, 705.0, 249.0, 159.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 336.0, 248.0, 160.0 ],
-                    "varname": "Drum Synth Module 3",
+                    "varname": "3-UiDrumSynth",
                     "viewvisibility": 1
                 }
             },
@@ -291,7 +291,7 @@
                     "patching_rect": [ 15.0, 435.0, 249.0, 165.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 168.0, 248.0, 160.0 ],
-                    "varname": "Drum Synth Module 2",
+                    "varname": "2-UiDrumSynth",
                     "viewvisibility": 1
                 }
             },
@@ -315,7 +315,7 @@
                     "patching_rect": [ 15.0, 150.0, 249.0, 162.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 248.0, 160.0 ],
-                    "varname": "Drum Synth Module 1",
+                    "varname": "1-UiDrumSynth",
                     "viewvisibility": 1
                 }
             },
@@ -339,7 +339,7 @@
                     "patching_rect": [ 15.0, 975.0, 249.0, 161.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 504.0, 248.0, 160.0 ],
-                    "varname": "Drum Synth Module 4",
+                    "varname": "4-UiDrumSynth",
                     "viewvisibility": 1
                 }
             }
@@ -470,9 +470,9 @@
             "obj-17::obj-12::obj-1::obj-1": [ "3-FiltFreq", "Freq", 0 ],
             "obj-17::obj-12::obj-1::obj-11": [ "3-FiltQ", "Q", 0 ],
             "obj-17::obj-12::obj-1::obj-6": [ "3-FiltType", "Type", 0 ],
-            "obj-17::obj-12::obj-7": [ "3-Filt", "Filter", 0 ],
-            "obj-17::obj-17::obj-17": [ "3-PitchEnvAmt", "Amount", 0 ],
-            "obj-17::obj-17::obj-18": [ "3-PitchEnvDur", "Duration", 0 ],
+            "obj-17::obj-12::obj-7": [ "3-Filt", "Filt", 0 ],
+            "obj-17::obj-17::obj-17": [ "3-PitchEnvAmt", "Amt", 0 ],
+            "obj-17::obj-17::obj-18": [ "3-PitchEnvDur", "Dur", 0 ],
             "obj-17::obj-17::obj-20::obj-30": [ "3-Function", "Function", 1 ],
             "obj-17::obj-2::obj-1::obj-11": [ "3-OscSemi", "Semi", 0 ],
             "obj-17::obj-2::obj-1::obj-14": [ "3-OscFreq", "Freq", 0 ],
@@ -485,9 +485,9 @@
             "obj-1::obj-12::obj-1::obj-1": [ "1-FiltFreq", "Freq", 0 ],
             "obj-1::obj-12::obj-1::obj-11": [ "1-FiltQ", "Q", 0 ],
             "obj-1::obj-12::obj-1::obj-6": [ "1-FiltType", "Type", 0 ],
-            "obj-1::obj-12::obj-7": [ "1-Filt", "Filter", 0 ],
-            "obj-1::obj-17::obj-17": [ "1-PitchEnvAmt", "Amount", 0 ],
-            "obj-1::obj-17::obj-18": [ "1-PitchEnvDur", "Duration", 0 ],
+            "obj-1::obj-12::obj-7": [ "1-Filt", "Filt", 0 ],
+            "obj-1::obj-17::obj-17": [ "1-PitchEnvAmt", "Amt", 0 ],
+            "obj-1::obj-17::obj-18": [ "1-PitchEnvDur", "Dur", 0 ],
             "obj-1::obj-17::obj-20::obj-30": [ "1-Function", "Function", 1 ],
             "obj-1::obj-2::obj-1::obj-11": [ "1-OscSemi", "Semi", 0 ],
             "obj-1::obj-2::obj-1::obj-14": [ "1-OscFreq", "Freq", 0 ],
@@ -500,9 +500,9 @@
             "obj-3::obj-12::obj-1::obj-1": [ "2-FiltFreq", "Freq", 0 ],
             "obj-3::obj-12::obj-1::obj-11": [ "2-FiltQ", "Q", 0 ],
             "obj-3::obj-12::obj-1::obj-6": [ "2-FiltType", "Type", 0 ],
-            "obj-3::obj-12::obj-7": [ "2-Filt", "Filter", 0 ],
-            "obj-3::obj-17::obj-17": [ "2-PitchEnvAmt", "Amount", 0 ],
-            "obj-3::obj-17::obj-18": [ "2-PitchEnvDur", "Duration", 0 ],
+            "obj-3::obj-12::obj-7": [ "2-Filt", "Filt", 0 ],
+            "obj-3::obj-17::obj-17": [ "2-PitchEnvAmt", "Amt", 0 ],
+            "obj-3::obj-17::obj-18": [ "2-PitchEnvDur", "Dur", 0 ],
             "obj-3::obj-17::obj-20::obj-30": [ "2-Function", "Function", 1 ],
             "obj-3::obj-2::obj-1::obj-11": [ "2-OscSemi", "Semi", 0 ],
             "obj-3::obj-2::obj-1::obj-14": [ "2-OscFreq", "Freq", 0 ],
@@ -515,9 +515,9 @@
             "obj-44::obj-12::obj-1::obj-1": [ "4-FiltFreq", "Freq", 0 ],
             "obj-44::obj-12::obj-1::obj-11": [ "4-FiltQ", "Q", 0 ],
             "obj-44::obj-12::obj-1::obj-6": [ "4-FiltType", "Type", 0 ],
-            "obj-44::obj-12::obj-7": [ "4-Filt", "Filter", 0 ],
-            "obj-44::obj-17::obj-17": [ "4-PitchEnvAmt", "Amount", 0 ],
-            "obj-44::obj-17::obj-18": [ "4-PitchEnvDur", "Duration", 0 ],
+            "obj-44::obj-12::obj-7": [ "4-Filt", "Filt", 0 ],
+            "obj-44::obj-17::obj-17": [ "4-PitchEnvAmt", "Amt", 0 ],
+            "obj-44::obj-17::obj-18": [ "4-PitchEnvDur", "Dur", 0 ],
             "obj-44::obj-17::obj-20::obj-30": [ "4-Function", "Function", 1 ],
             "obj-44::obj-2::obj-1::obj-11": [ "4-OscSemi", "Semi", 0 ],
             "obj-44::obj-2::obj-1::obj-14": [ "4-OscFreq", "Freq", 0 ],
@@ -527,6 +527,14 @@
             "obj-44::obj-5": [ "4-OscGain", "Gain", 0 ],
             "obj-44::obj-7": [ "4-Osc", "Osc", 0 ],
             "obj-44::obj-9": [ "4-OscShape", "Shape", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

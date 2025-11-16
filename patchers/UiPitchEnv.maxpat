@@ -25,8 +25,8 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 312.0, 16.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-Amount": [ 0.0 ],
-                        "#1-Duration": [ 0.0 ]
+                        "#1-Amt": [ 0.0 ],
+                        "#1-Dur": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u627002945"
@@ -51,12 +51,12 @@
                             "parameter_longname": "#1-PitchEnvDur",
                             "parameter_mmax": 15000.0,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Duration",
+                            "parameter_shortname": "Dur",
                             "parameter_type": 0,
                             "parameter_unitstyle": 2
                         }
                     },
-                    "varname": "#1-Duration"
+                    "varname": "#1-Dur"
                 }
             },
             {
@@ -78,12 +78,12 @@
                             "parameter_longname": "#1-PitchEnvAmt",
                             "parameter_mmax": 15000.0,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Amount",
+                            "parameter_shortname": "Amt",
                             "parameter_type": 0,
                             "parameter_unitstyle": 3
                         }
                     },
-                    "varname": "#1-Amount"
+                    "varname": "#1-Amt"
                 }
             },
             {
@@ -140,7 +140,7 @@
                     "patching_rect": [ 8.0, 120.0, 211.0, 143.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 152.0, 112.0 ],
-                    "varname": "Function Envelope",
+                    "varname": "UiFunctionEnv",
                     "viewvisibility": 1
                 }
             },
@@ -191,8 +191,8 @@
             }
         ],
         "parameters": {
-            "obj-17": [ "#1-PitchEnvAmt", "Amount", 0 ],
-            "obj-18": [ "#1-PitchEnvDur", "Duration", 0 ],
+            "obj-17": [ "#1-PitchEnvAmt", "Amt", 0 ],
+            "obj-18": [ "#1-PitchEnvDur", "Dur", 0 ],
             "obj-20::obj-30": [ "#1-Function", "Function", 1 ],
             "parameterbanks": {
                 "0": {

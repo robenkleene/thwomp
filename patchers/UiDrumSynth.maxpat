@@ -242,7 +242,7 @@
                     "patching_rect": [ 216.0, 320.0, 40.0, 64.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 40.0, 40.0, 64.0 ],
-                    "varname": "Frequency Switch",
+                    "varname": "UiFreqRack",
                     "viewvisibility": 1
                 }
             },
@@ -337,15 +337,15 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "UiBiquadFiltWrapper.maxpat",
+                    "name": "UiBiquadFilt.maxpat",
                     "numinlets": 2,
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 192.0, 592.0, 112.0, 48.0 ],
+                    "patching_rect": [ 192.0, 616.0, 112.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 136.0, 112.0, 112.0, 48.0 ],
-                    "varname": "Biquad Filter Plugin",
+                    "varname": "UiBiquadFilt",
                     "viewvisibility": 1
                 }
             },
@@ -382,7 +382,7 @@
                     "patching_rect": [ 528.0, 440.0, 40.0, 104.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 208.0, 0.0, 40.0, 104.0 ],
-                    "varname": "AD Envelope",
+                    "varname": "UiAdEnv",
                     "viewvisibility": 1
                 }
             },
@@ -408,7 +408,7 @@
                     "enablevscroll": 0,
                     "id": "obj-17",
                     "lockeddragscroll": 0,
-                    "lockedsize": 0,
+                    "lockedsize": 1,
                     "maxclass": "bpatcher",
                     "name": "UiPitchEnv.maxpat",
                     "numinlets": 1,
@@ -418,7 +418,7 @@
                     "patching_rect": [ 344.0, 208.0, 152.0, 160.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 48.0, 0.0, 160.0, 160.0 ],
-                    "varname": "Pitch Envelope",
+                    "varname": "UiPitchEnv",
                     "viewvisibility": 1
                 }
             }
@@ -595,9 +595,9 @@
             "obj-12::obj-1::obj-1": [ "#1-FiltFreq", "Freq", 0 ],
             "obj-12::obj-1::obj-11": [ "#1-FiltQ", "Q", 0 ],
             "obj-12::obj-1::obj-6": [ "#1-FiltType", "Type", 0 ],
-            "obj-12::obj-7": [ "#1-Filt", "Filter", 0 ],
-            "obj-17::obj-17": [ "#1-PitchEnvAmt", "Amount", 0 ],
-            "obj-17::obj-18": [ "#1-PitchEnvDur", "Duration", 0 ],
+            "obj-12::obj-7": [ "#1-Filt", "Filt", 0 ],
+            "obj-17::obj-17": [ "#1-PitchEnvAmt", "Amt", 0 ],
+            "obj-17::obj-18": [ "#1-PitchEnvDur", "Dur", 0 ],
             "obj-17::obj-20::obj-30": [ "#1-Function", "Function", 1 ],
             "obj-2::obj-1::obj-11": [ "#1-OscSemi", "Semi", 0 ],
             "obj-2::obj-1::obj-14": [ "#1-OscFreq", "Freq", 0 ],
