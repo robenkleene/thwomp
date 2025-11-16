@@ -342,7 +342,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 192.0, 592.0, 112.0, 48.0 ],
+                    "patching_rect": [ 192.0, 616.0, 112.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 136.0, 112.0, 112.0, 48.0 ],
                     "varname": "UiBiquadFilt",
@@ -426,6 +426,18 @@
         "lines": [
             {
                 "patchline": {
+                    "destination": [ "obj-30", 0 ],
+                    "source": [ "obj-12", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-34", 0 ],
+                    "source": [ "obj-12", 1 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-13", 0 ],
                     "source": [ "obj-16", 0 ]
                 }
@@ -452,6 +464,20 @@
                 "patchline": {
                     "destination": [ "obj-20", 1 ],
                     "source": [ "obj-2", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-12", 1 ],
+                    "order": 0,
+                    "source": [ "obj-20", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-12", 0 ],
+                    "order": 1,
+                    "source": [ "obj-20", 0 ]
                 }
             },
             {
@@ -581,14 +607,6 @@
             "obj-5": [ "#1-OscGain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
