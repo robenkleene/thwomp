@@ -95,7 +95,7 @@
             },
             {
                 "box": {
-                    "comment": "(Signal) Ch 2",
+                    "comment": "(signal) Ch 2",
                     "id": "obj-12",
                     "index": 0,
                     "maxclass": "outlet",
@@ -106,7 +106,7 @@
             },
             {
                 "box": {
-                    "comment": "(Signal) Ch 1",
+                    "comment": "(signal) Ch 1",
                     "id": "obj-17",
                     "index": 0,
                     "maxclass": "outlet",
@@ -207,6 +207,14 @@
             "obj-1::obj-11": [ "#1-FiltQ", "Q", 0 ],
             "obj-1::obj-6": [ "#1-FiltType", "Type", 0 ],
             "obj-7": [ "#1-Filt", "Filt", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
