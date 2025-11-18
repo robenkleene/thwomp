@@ -87,7 +87,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(float, ms) decay",
                     "id": "obj-25",
                     "index": 0,
                     "maxclass": "outlet",
@@ -98,7 +98,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(float, ms) attack",
                     "id": "obj-24",
                     "index": 0,
                     "maxclass": "outlet",
@@ -125,6 +125,14 @@
         "parameters": {
             "obj-3": [ "#1-AmpDecay", "Decay", 0 ],
             "obj-7": [ "#1-AmpAttack", "Attack", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

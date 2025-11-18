@@ -33,7 +33,7 @@
             },
             {
                 "box": {
-                    "comment": "(Signal) Envelope",
+                    "comment": "(list) function",
                     "id": "obj-14",
                     "index": 0,
                     "maxclass": "outlet",
@@ -44,7 +44,7 @@
             },
             {
                 "box": {
-                    "comment": "Bang Triggers, Messages",
+                    "comment": "(bang) output function",
                     "id": "obj-13",
                     "index": 0,
                     "maxclass": "inlet",
@@ -197,6 +197,14 @@
         ],
         "parameters": {
             "obj-30": [ "#1-Function", "Function", 1 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

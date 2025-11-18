@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 750.0, 335.0, 1388.0, 902.0 ],
+        "rect": [ 962.0, 320.0, 626.0, 902.0 ],
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
@@ -88,6 +88,10 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 312.0, 8.0, 26.0, 20.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": [ "(int)", "osc" ],
+                        "c": [ "(int)", "osc" ]
+                    },
                     "text": "in 5"
                 }
             },
@@ -99,6 +103,10 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 272.0, 8.0, 26.0, 20.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": [ "(float", ",", "hz)", "pitch", "env", "amt" ],
+                        "c": [ "(float", ",", "hz)", "pitch", "env", "amt" ]
+                    },
                     "text": "in 4"
                 }
             },
@@ -110,6 +118,10 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 208.0, 8.0, 26.0, 20.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": [ "(list)", "pitch", "env", "function" ],
+                        "c": [ "(list)", "pitch", "env", "function" ]
+                    },
                     "text": "in 3"
                 }
             },
@@ -121,6 +133,10 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 64.0, 8.0, 26.0, 20.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": [ "(float", ",", "hz)", "frequency" ],
+                        "c": [ "(float", ",", "hz)", "frequency" ]
+                    },
                     "text": "in 2"
                 }
             },
@@ -132,6 +148,10 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 8.0, 8.0, 26.0, 20.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": [ "(int)", "velocity" ],
+                        "c": [ "(int)", "velocity" ]
+                    },
                     "text": "in 1"
                 }
             },
@@ -642,7 +662,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 522.0, 192.0, 414.0, 434.0 ],
+                        "rect": [ 976.0, 709.0, 414.0, 434.0 ],
                         "default_fontsize": 10.0,
                         "default_fontname": "Arial Bold",
                         "gridsize": [ 8.0, 8.0 ],
@@ -690,7 +710,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "",
+                                    "comment": "(float) target value",
                                     "id": "obj-7",
                                     "index": 1,
                                     "maxclass": "inlet",
@@ -702,7 +722,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "",
+                                    "comment": "(float) offset",
                                     "id": "obj-8",
                                     "index": 3,
                                     "maxclass": "inlet",
@@ -714,7 +734,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "",
+                                    "comment": "(float, ms) ramp time",
                                     "id": "obj-9",
                                     "index": 2,
                                     "maxclass": "inlet",
