@@ -134,7 +134,7 @@
             },
             {
                 "box": {
-                    "comment": "(float, hz) frequency",
+                    "comment": "(float, hz) freq",
                     "id": "obj-5",
                     "index": 0,
                     "maxclass": "outlet",
@@ -278,14 +278,6 @@
         "parameters": {
             "obj-11": [ "#1-OscSemi", "Semi", 0 ],
             "obj-14": [ "#1-OscFreq", "Freq", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0

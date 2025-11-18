@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 962.0, 320.0, 626.0, 902.0 ],
+        "rect": [ 368.0, 308.0, 1045.0, 902.0 ],
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
@@ -57,7 +57,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 440.0, 8.0, 26.0, 20.0 ],
+                    "patching_rect": [ 408.0, 8.0, 26.0, 20.0 ],
                     "saved_object_attributes": {
                         "attr_comment": [ "(float", ",", "ms)", "decay" ],
                         "c": [ "(float", ",", "ms)", "decay" ]
@@ -72,7 +72,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 384.0, 8.0, 26.0, 20.0 ],
+                    "patching_rect": [ 376.0, 8.0, 26.0, 20.0 ],
                     "saved_object_attributes": {
                         "attr_comment": [ "(float", ",", "ms)", "attack" ],
                         "c": [ "(float", ",", "ms)", "attack" ]
@@ -87,7 +87,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 312.0, 8.0, 26.0, 20.0 ],
+                    "patching_rect": [ 280.0, 8.0, 26.0, 20.0 ],
                     "saved_object_attributes": {
                         "attr_comment": [ "(int)", "osc", "shape" ],
                         "c": [ "(int)", "osc", "shape" ]
@@ -102,7 +102,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 272.0, 8.0, 26.0, 20.0 ],
+                    "patching_rect": [ 232.0, 8.0, 26.0, 20.0 ],
                     "saved_object_attributes": {
                         "attr_comment": [ "(float", ",", "hz)", "pitch", "env", "amt" ],
                         "c": [ "(float", ",", "hz)", "pitch", "env", "amt" ]
@@ -117,7 +117,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 208.0, 8.0, 26.0, 20.0 ],
+                    "patching_rect": [ 192.0, 8.0, 26.0, 20.0 ],
                     "saved_object_attributes": {
                         "attr_comment": [ "(list)", "pitch", "env", "function" ],
                         "c": [ "(list)", "pitch", "env", "function" ]
@@ -134,8 +134,8 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 64.0, 8.0, 26.0, 20.0 ],
                     "saved_object_attributes": {
-                        "attr_comment": [ "(float", ",", "hz)", "frequency" ],
-                        "c": [ "(float", ",", "hz)", "frequency" ]
+                        "attr_comment": [ "(float", ",", "hz)", "freq" ],
+                        "c": [ "(float", ",", "hz)", "freq" ]
                     },
                     "text": "in 2"
                 }
@@ -427,12 +427,12 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 336.0, 288.0, 125.0, 20.0 ],
+                    "patching_rect": [ 336.0, 288.0, 91.0, 20.0 ],
                     "saved_object_attributes": {
                         "fontname": "Arial Bold",
                         "fontsize": 10.0
                     },
-                    "text": "p amp_envelope_engine"
+                    "text": "p AmpEnvEngine"
                 }
             },
             {
@@ -452,12 +452,13 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 996.0, 386.0, 640.0, 480.0 ],
+                        "rect": [ 1087.0, 397.0, 640.0, 480.0 ],
                         "default_fontsize": 10.0,
                         "default_fontname": "Arial Bold",
                         "gridsize": [ 8.0, 8.0 ],
                         "gridsnaponopen": 2,
                         "objectsnaponopen": 0,
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -534,7 +535,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "",
+                                    "comment": "(int) osc shape",
                                     "id": "obj-16",
                                     "index": 2,
                                     "maxclass": "inlet",
@@ -546,7 +547,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "",
+                                    "comment": "(float, hz) freq",
                                     "id": "obj-17",
                                     "index": 1,
                                     "maxclass": "inlet",
@@ -558,7 +559,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "",
+                                    "comment": "(signal) mono",
                                     "id": "obj-18",
                                     "index": 1,
                                     "maxclass": "outlet",
@@ -637,12 +638,12 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 232.0, 168.0, 100.0, 20.0 ],
+                    "patching_rect": [ 232.0, 168.0, 70.0, 20.0 ],
                     "saved_object_attributes": {
                         "fontname": "Arial Bold",
                         "fontsize": 10.0
                     },
-                    "text": "p oscillator_engine"
+                    "text": "p OscEngine"
                 }
             },
             {
@@ -746,7 +747,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "",
+                                    "comment": "(signal) mono",
                                     "id": "obj-10",
                                     "index": 1,
                                     "maxclass": "outlet",
@@ -795,12 +796,12 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 152.0, 104.0, 139.0, 20.0 ],
+                    "patching_rect": [ 152.0, 104.0, 96.0, 20.0 ],
                     "saved_object_attributes": {
                         "fontname": "Arial Bold",
                         "fontsize": 10.0
                     },
-                    "text": "p pitch_modulation_engine"
+                    "text": "p PitchModEngine"
                 }
             },
             {
