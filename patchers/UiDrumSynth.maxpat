@@ -82,7 +82,7 @@
             },
             {
                 "box": {
-                    "comment": "int: 0 note off, 1 note on",
+                    "comment": "(int) 0 note off, 1 note on",
                     "id": "obj-15",
                     "index": 0,
                     "maxclass": "outlet",
@@ -316,7 +316,7 @@
             },
             {
                 "box": {
-                    "comment": "(Signal) Mono",
+                    "comment": "(signal) mono",
                     "id": "obj-13",
                     "index": 0,
                     "maxclass": "outlet",
@@ -388,7 +388,7 @@
             },
             {
                 "box": {
-                    "comment": "Note In",
+                    "comment": "(bang) play",
                     "id": "obj-3",
                     "index": 0,
                     "maxclass": "inlet",

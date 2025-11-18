@@ -59,8 +59,8 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 440.0, 8.0, 26.0, 20.0 ],
                     "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
+                        "attr_comment": [ "(float", ",", "ms)", "decay" ],
+                        "c": [ "(float", ",", "ms)", "decay" ]
                     },
                     "text": "in 7"
                 }
@@ -74,8 +74,8 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 384.0, 8.0, 26.0, 20.0 ],
                     "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
+                        "attr_comment": [ "(float", ",", "ms)", "attack" ],
+                        "c": [ "(float", ",", "ms)", "attack" ]
                     },
                     "text": "in 6"
                 }
@@ -89,8 +89,8 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 312.0, 8.0, 26.0, 20.0 ],
                     "saved_object_attributes": {
-                        "attr_comment": [ "(int)", "osc" ],
-                        "c": [ "(int)", "osc" ]
+                        "attr_comment": [ "(int)", "osc", "shape" ],
+                        "c": [ "(int)", "osc", "shape" ]
                     },
                     "text": "in 5"
                 }

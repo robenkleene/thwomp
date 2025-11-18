@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 404.0, 211.0, 565.0, 726.0 ],
+        "rect": [ 864.0, 271.0, 565.0, 726.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -88,14 +88,14 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 15.0, 450.0, 33.0, 38.0 ],
+                    "patching_rect": [ 15.0, 450.0, 105.0, 46.0 ],
                     "varname": "Active",
                     "viewvisibility": 1
                 }
             },
             {
                 "box": {
-                    "comment": "(signal) Ch 2",
+                    "comment": "(signal) ch 2",
                     "id": "obj-12",
                     "index": 0,
                     "maxclass": "outlet",
@@ -106,7 +106,7 @@
             },
             {
                 "box": {
-                    "comment": "(signal) Ch 1",
+                    "comment": "(signal) ch 1",
                     "id": "obj-17",
                     "index": 0,
                     "maxclass": "outlet",
@@ -117,7 +117,7 @@
             },
             {
                 "box": {
-                    "comment": "(Signal) Ch 2",
+                    "comment": "(signal) ch 2",
                     "id": "obj-9",
                     "index": 0,
                     "maxclass": "inlet",
@@ -129,7 +129,7 @@
             },
             {
                 "box": {
-                    "comment": "(Signal) Ch 1, Messages",
+                    "comment": "(signal) ch 1",
                     "id": "obj-4",
                     "index": 0,
                     "maxclass": "inlet",
@@ -167,6 +167,18 @@
         "lines": [
             {
                 "patchline": {
+                    "destination": [ "obj-2", 3 ],
+                    "source": [ "obj-1", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-2", 2 ],
+                    "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-12", 0 ],
                     "source": [ "obj-2", 1 ]
                 }
@@ -185,7 +197,15 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-1", 0 ],
+                    "order": 0,
+                    "source": [ "obj-4", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-2", 0 ],
+                    "order": 1,
                     "source": [ "obj-4", 0 ]
                 }
             },
@@ -197,7 +217,15 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-1", 1 ],
+                    "order": 0,
+                    "source": [ "obj-9", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-2", 1 ],
+                    "order": 1,
                     "source": [ "obj-9", 0 ]
                 }
             }
@@ -207,14 +235,6 @@
             "obj-1::obj-11": [ "#1-FiltQ", "Q", 0 ],
             "obj-1::obj-6": [ "#1-FiltType", "Type", 0 ],
             "obj-7": [ "#1-Filt", "Filt", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
