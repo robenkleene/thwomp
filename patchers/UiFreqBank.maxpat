@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 175.0, 210.0, 787.0, 556.0 ],
+        "rect": [ 257.0, 700.0, 787.0, 556.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -94,7 +94,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 184.0, 152.0, 32.0, 22.0 ],
+                    "patching_rect": [ 184.0, 160.0, 32.0, 22.0 ],
                     "text": "mtof"
                 }
             },
@@ -134,13 +134,13 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(float, hz) frequency",
                     "id": "obj-5",
                     "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 96.0, 264.0, 30.0, 30.0 ]
+                    "patching_rect": [ 88.0, 264.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -167,7 +167,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(int) 0 use freq, 1 use note",
                     "id": "obj-3",
                     "index": 0,
                     "maxclass": "inlet",
@@ -184,20 +184,20 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "bang", "int" ],
-                    "patching_rect": [ 104.0, 48.0, 29.5, 22.0 ],
+                    "patching_rect": [ 264.0, 48.0, 29.5, 22.0 ],
                     "text": "t b i"
                 }
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(int) pitch",
                     "id": "obj-4",
                     "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 104.0, 8.0, 30.0, 30.0 ]
+                    "patching_rect": [ 264.0, 8.0, 30.0, 30.0 ]
                 }
             }
         ],
@@ -278,6 +278,14 @@
         "parameters": {
             "obj-11": [ "#1-OscSemi", "Semi", 0 ],
             "obj-14": [ "#1-OscFreq", "Freq", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
