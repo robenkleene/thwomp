@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 218.0, 192.0, 830.0, 538.0 ],
+        "rect": [ 826.0, 495.0, 830.0, 538.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -33,7 +33,7 @@
             },
             {
                 "box": {
-                    "comment": "int: 0 note off, 1 note on",
+                    "comment": "(int) 0 note off, 1 note on",
                     "id": "obj-9",
                     "index": 0,
                     "maxclass": "outlet",
@@ -75,7 +75,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(float, hz) frequency",
                     "id": "obj-8",
                     "index": 0,
                     "maxclass": "outlet",
@@ -134,7 +134,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(int) pitch",
                     "id": "obj-4",
                     "index": 0,
                     "maxclass": "inlet",
@@ -196,6 +196,14 @@
             "obj-1::obj-11": [ "#1-OscSemi", "Semi", 0 ],
             "obj-1::obj-14": [ "#1-OscFreq", "Freq", 0 ],
             "obj-5": [ "#1-OscNote", "Note", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
