@@ -69,7 +69,7 @@
             },
             {
                 "box": {
-                    "comment": "int: Selected tab",
+                    "comment": "(int) selected tab",
                     "id": "obj-17",
                     "index": 0,
                     "maxclass": "outlet",
@@ -228,7 +228,7 @@
             },
             {
                 "box": {
-                    "comment": "(Signal) Mono",
+                    "comment": "(signal) ch 2",
                     "id": "obj-15",
                     "index": 0,
                     "maxclass": "outlet",
@@ -265,7 +265,7 @@
             },
             {
                 "box": {
-                    "comment": "(Signal) Mono",
+                    "comment": "(signal) ch 1",
                     "id": "obj-8",
                     "index": 0,
                     "maxclass": "outlet",
@@ -276,7 +276,7 @@
             },
             {
                 "box": {
-                    "comment": "Bang Plays",
+                    "comment": "(bang) play sound",
                     "id": "obj-3",
                     "index": 0,
                     "maxclass": "inlet",

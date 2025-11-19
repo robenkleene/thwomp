@@ -219,7 +219,7 @@
             },
             {
                 "box": {
-                    "comment": "(xignal) ch 1",
+                    "comment": "(signal) ch 1",
                     "id": "obj-31",
                     "index": 0,
                     "maxclass": "inlet",
@@ -389,6 +389,14 @@
             "obj-1": [ "#1-FiltFreq", "Freq", 0 ],
             "obj-11": [ "#1-FiltQ", "Q", 0 ],
             "obj-6": [ "#1-FiltType", "Type", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

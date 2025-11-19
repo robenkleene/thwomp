@@ -162,6 +162,10 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 336.0, 368.0, 38.0, 20.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": [ "(signal)", "mono" ],
+                        "c": [ "(signal)", "mono" ]
+                    },
                     "text": "out~ 1"
                 }
             },
@@ -452,13 +456,12 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 1087.0, 397.0, 640.0, 480.0 ],
+                        "rect": [ 426.0, 399.0, 640.0, 480.0 ],
                         "default_fontsize": 10.0,
                         "default_fontname": "Arial Bold",
                         "gridsize": [ 8.0, 8.0 ],
                         "gridsnaponopen": 2,
                         "objectsnaponopen": 0,
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
