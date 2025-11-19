@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 464.0, 359.0, 841.0, 504.0 ],
+        "rect": [ 603.0, 536.0, 841.0, 504.0 ],
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
@@ -25,8 +25,8 @@
                     "numoutlets": 0,
                     "patching_rect": [ 8.0, 160.0, 38.0, 20.0 ],
                     "saved_object_attributes": {
-                        "attr_comment": [ "(float", ",", "hz)", "freq" ],
-                        "c": [ "(float", ",", "hz)", "freq" ]
+                        "attr_comment": [ "(signal)", "mono" ],
+                        "c": [ "(signal)", "mono" ]
                     },
                     "text": "out~ 1"
                 }
@@ -40,8 +40,8 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 56.0, 8.0, 26.0, 20.0 ],
                     "saved_object_attributes": {
-                        "attr_comment": [ "(float", ",", "hz)", "phase" ],
-                        "c": [ "(float", ",", "hz)", "phase" ]
+                        "attr_comment": [ "(bang)", "reset", "phase" ],
+                        "c": [ "(bang)", "reset", "phase" ]
                     },
                     "text": "in 2"
                 }
@@ -55,8 +55,8 @@
                     "outlettype": [ "signal" ],
                     "patching_rect": [ 8.0, 8.0, 32.0, 20.0 ],
                     "saved_object_attributes": {
-                        "attr_comment": [ "(float", ",", "hz)", "freq" ],
-                        "c": [ "(float", ",", "hz)", "freq" ]
+                        "attr_comment": [ "(signal)", "freq" ],
+                        "c": [ "(signal)", "freq" ]
                     },
                     "text": "in~ 1"
                 }

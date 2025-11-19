@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 842.0, 414.0, 819.0, 472.0 ],
+        "rect": [ 842.0, 414.0, 468.0, 564.0 ],
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
@@ -38,6 +38,10 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 48.0, 8.0, 26.0, 20.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "no-op",
+                        "c": "no-op"
+                    },
                     "text": "in 2"
                 }
             },
@@ -63,6 +67,10 @@
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
                     "patching_rect": [ 8.0, 8.0, 32.0, 20.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": [ "control", "messages" ],
+                        "c": [ "control", "messages" ]
+                    },
                     "text": "in~ 1"
                 }
             }
