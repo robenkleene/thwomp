@@ -53,7 +53,7 @@
             },
             {
                 "box": {
-                    "comment": "Bang Triggers",
+                    "comment": "(bang) output note",
                     "id": "obj-3",
                     "index": 0,
                     "maxclass": "inlet",
@@ -94,7 +94,7 @@
             },
             {
                 "box": {
-                    "comment": "Note",
+                    "comment": "(list) note",
                     "id": "obj-7",
                     "index": 0,
                     "maxclass": "outlet",
