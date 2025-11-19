@@ -12,11 +12,19 @@ Thwomp's interface is designed to be transparent and predictable. Every paramete
 
 ## Installation
 
-Drag `max-for-live/instruments/Thwomp.amxd` to `User Library/Presets/Instruments/Max Instrument/`.
+### Installing in Ableton Live
 
-## Stand-Alone Mode
+Drag `max-for-live/instruments/Thwomp.amxd` to the `User Library` (e.g., under `User Library/Presets/Instruments/Max Instrument/`).
 
-To open any of the `maxpat` files, the Sidewinder folder should be in your [Project Search Paths](https://docs.cycling74.com/max8/vignettes/projects_searchpath), `~/Documents/Max 8/Projects` by default, so that referenced files can be found.
+### Installing in Ableton Push standalone mode
+
+1. Launch Push in standalone mode
+2. In Live's sidebar, select `Places > Push`
+3. Drag `max-for-live/instruments/Thwomp.amxd` to `Places > Push > User Library` (e.g., under `User Library/Presets/Instruments/Max Instrument/` [note that Push *does not* create this folder by default like Live does].
+
+## Using in Max (without Live)
+
+To open any of the `maxpat` files, the Thwomp folder should be in Max's `Project Search Paths`, so that the referenced files can be found.
 
 Thwomp can also be opened in standalone mode by opening the `misc/instruments/Thwomp.maxpat`  outside of Ableton Live, it offers some additional features.
 
@@ -78,6 +86,10 @@ Thwomp support Ableton Push. When using Push, the leftmost knob always chooses t
 - Oscillator
 - Envelope
 - Filter
+
+### Using the Device on Push
+
+After Thwomp has been installed in the Push `User Library`, the device can be added by choosing it under `Device > User Library`.
 
 ## Presets
 
