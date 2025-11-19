@@ -12,7 +12,7 @@ Thwomp's interface is designed to be transparent and predictable. Every paramete
 
 ## Installation
 
-Drag `max-for-live/instruments/Thwomp.amxd` to `User Library/Presets/Instruments/Max Instrument/`. There's an optional `install.sh` script that will do this automatically.
+Drag `max-for-live/instruments/Thwomp.amxd` to `User Library/Presets/Instruments/Max Instrument/`.
 
 ## Stand-Alone Mode
 
@@ -25,10 +25,6 @@ Thwomp can also be opened in standalone mode by opening the `misc/instruments/Th
 - **Velocity**: Select the MIDI note velocity
 - DAC Toggle: Toggles whether the audio engine is on
 - Typing the `s` will play the note
-
-## Troubleshooting
-
-- Thwomp allows a really low attack which will cause clicks and pops if it's set too low, if you're experiencing click and pops, try increasing the attack.
 
 ## Global Parameters
 
