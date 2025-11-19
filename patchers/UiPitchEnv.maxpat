@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 469.0, 298.0, 634.0, 724.0 ],
+        "rect": [ 1111.0, 411.0, 634.0, 724.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -88,7 +88,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(bang) output function",
                     "id": "obj-16",
                     "index": 0,
                     "maxclass": "inlet",
@@ -100,7 +100,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(float, hz) amt",
                     "id": "obj-3",
                     "index": 0,
                     "maxclass": "outlet",
@@ -111,7 +111,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(list) function",
                     "id": "obj-2",
                     "index": 0,
                     "maxclass": "outlet",
@@ -194,14 +194,6 @@
             "obj-17": [ "#1-PitchEnvAmt", "Amt", 0 ],
             "obj-18": [ "#1-PitchEnvDur", "Dur", 0 ],
             "obj-20::obj-30": [ "#1-Function", "Function", 1 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0

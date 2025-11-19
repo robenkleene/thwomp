@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 218.0, 192.0, 830.0, 538.0 ],
+        "rect": [ 826.0, 495.0, 830.0, 538.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -33,7 +33,7 @@
             },
             {
                 "box": {
-                    "comment": "int: 0 note off, 1 note on",
+                    "comment": "(int) 0 note off, 1 note on",
                     "id": "obj-9",
                     "index": 0,
                     "maxclass": "outlet",
@@ -75,7 +75,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(float, hz) freq",
                     "id": "obj-8",
                     "index": 0,
                     "maxclass": "outlet",
@@ -134,7 +134,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(int) pitch",
                     "id": "obj-4",
                     "index": 0,
                     "maxclass": "inlet",

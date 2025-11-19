@@ -33,18 +33,18 @@
             },
             {
                 "box": {
-                    "comment": "(Signal) Envelope",
+                    "comment": "(list) function",
                     "id": "obj-14",
                     "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 16.0, 456.0, 25.0, 25.0 ]
+                    "patching_rect": [ 72.0, 312.0, 25.0, 25.0 ]
                 }
             },
             {
                 "box": {
-                    "comment": "Bang Triggers, Messages",
+                    "comment": "(bang) output function",
                     "id": "obj-13",
                     "index": 0,
                     "maxclass": "inlet",
@@ -63,7 +63,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "float" ],
-                    "patching_rect": [ 121.0, 244.0, 33.0, 20.0 ],
+                    "patching_rect": [ 121.0, 123.0, 33.0, 20.0 ],
                     "text": "float"
                 }
             },
@@ -76,7 +76,7 @@
                     "numinlets": 4,
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 16.0, 169.0, 180.0, 20.0 ],
+                    "patching_rect": [ 16.0, 48.0, 180.0, 20.0 ],
                     "text": "route bang setduration reset"
                 }
             },
@@ -89,7 +89,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 121.0, 274.0, 143.0, 20.0 ],
+                    "patching_rect": [ 121.0, 153.0, 143.0, 20.0 ],
                     "text": "clear, 0 0, 0 1, $1 1, $1 0"
                 }
             },
@@ -102,7 +102,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 31.0, 274.0, 83.0, 20.0 ],
+                    "patching_rect": [ 31.0, 153.0, 83.0, 20.0 ],
                     "text": "setdomain $1"
                 }
             },
@@ -118,7 +118,7 @@
                     "numoutlets": 4,
                     "outlettype": [ "float", "", "", "bang" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 16.0, 304.0, 195.0, 105.0 ],
+                    "patching_rect": [ 16.0, 183.0, 195.0, 105.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 152.0, 104.0 ],
                     "saved_attribute_attributes": {

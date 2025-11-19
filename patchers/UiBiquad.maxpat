@@ -185,7 +185,7 @@
             },
             {
                 "box": {
-                    "comment": "(Signal) Ch 2",
+                    "comment": "(signal) ch 2",
                     "id": "obj-34",
                     "index": 0,
                     "maxclass": "inlet",
@@ -197,7 +197,7 @@
             },
             {
                 "box": {
-                    "comment": "(Signal) Ch 2",
+                    "comment": "(signal) ch 2",
                     "id": "obj-33",
                     "index": 0,
                     "maxclass": "outlet",
@@ -208,7 +208,7 @@
             },
             {
                 "box": {
-                    "comment": "(Signal) Ch 1",
+                    "comment": "(signal) ch 1",
                     "id": "obj-32",
                     "index": 0,
                     "maxclass": "outlet",
@@ -219,7 +219,7 @@
             },
             {
                 "box": {
-                    "comment": "(Signal) Ch 1",
+                    "comment": "(signal) ch 1",
                     "id": "obj-31",
                     "index": 0,
                     "maxclass": "inlet",
@@ -389,6 +389,14 @@
             "obj-1": [ "#1-FiltFreq", "Freq", 0 ],
             "obj-11": [ "#1-FiltQ", "Q", 0 ],
             "obj-6": [ "#1-FiltType", "Type", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

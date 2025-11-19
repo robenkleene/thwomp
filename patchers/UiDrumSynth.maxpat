@@ -82,7 +82,7 @@
             },
             {
                 "box": {
-                    "comment": "int: 0 note off, 1 note on",
+                    "comment": "(int) 0 note off, 1 note on",
                     "id": "obj-15",
                     "index": 0,
                     "maxclass": "outlet",
@@ -316,7 +316,7 @@
             },
             {
                 "box": {
-                    "comment": "(Signal) Mono",
+                    "comment": "(signal) mono",
                     "id": "obj-13",
                     "index": 0,
                     "maxclass": "outlet",
@@ -388,7 +388,7 @@
             },
             {
                 "box": {
-                    "comment": "Note In",
+                    "comment": "(bang) play sound",
                     "id": "obj-3",
                     "index": 0,
                     "maxclass": "inlet",
@@ -607,6 +607,14 @@
             "obj-5": [ "#1-OscGain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

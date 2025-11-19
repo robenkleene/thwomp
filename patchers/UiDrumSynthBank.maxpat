@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 620.0, 101.0, 617.0, 977.0 ],
+        "rect": [ 620.0, 101.0, 1230.0, 977.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
@@ -63,7 +63,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(list) note on off messages",
                     "id": "obj-2",
                     "index": 0,
                     "maxclass": "outlet",
@@ -95,20 +95,20 @@
                     "numinlets": 3,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 15.0, 45.0, 110.0, 20.0 ],
+                    "patching_rect": [ 8.0, 40.0, 110.0, 20.0 ],
                     "text": "routepass note offset"
                 }
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(bang) play sound",
                     "id": "obj-6",
                     "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 15.0, 15.0, 25.0, 25.0 ]
+                    "patching_rect": [ 8.0, 8.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -119,19 +119,19 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 16.0, 72.0, 59.0, 20.0 ],
+                    "patching_rect": [ 8.0, 72.0, 59.0, 20.0 ],
                     "text": "s #1-note"
                 }
             },
             {
                 "box": {
-                    "comment": "(Signal) Ch 1",
+                    "comment": "(signal) mono",
                     "id": "obj-4",
                     "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 165.0, 45.0, 25.0, 25.0 ]
+                    "patching_rect": [ 160.0, 40.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -255,7 +255,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 165.0, 15.0, 106.0, 20.0 ],
+                    "patching_rect": [ 160.0, 8.0, 106.0, 20.0 ],
                     "text": "receive~ #1-sound"
                 }
             },
