@@ -12,23 +12,31 @@ Thwomp's interface is designed to be transparent and predictable. Every paramete
 
 ## Installation
 
-Drag `max-for-live/instruments/Thwomp.amxd` to `User Library/Presets/Instruments/Max Instrument/`. There's an optional `install.sh` script that will do this automatically.
+### Installing in Ableton Live
 
-## Stand-Alone Mode
+Drag `max-for-live/instruments/Thwomp.amxd` to the `User Library` (e.g., under `User Library/Presets/Instruments/Max Instrument/`).
 
-To open any of the `maxpat` files, the Sidewinder folder should be in your [Project Search Paths](https://docs.cycling74.com/max8/vignettes/projects_searchpath), `~/Documents/Max 8/Projects` by default, so that referenced files can be found.
+### Installing in Ableton Push standalone mode
 
-Thwomp can also be opened in standalone mode by opening the `misc/instruments/Thwomp.maxpat`  outside of Ableton Live, it offers some additional features.
+1. Launch Push in standalone mode
+2. In Live's sidebar, select `Places > Push`
+3. Drag `max-for-live/instruments/Thwomp.amxd` to `Places > Push > User Library` (e.g., under `User Library/Presets/Instruments/Max Instrument/` [note that in the Push Use Library this folder is *not* create by default like it is in the Live User Library]).
+
+### Using the Device on Push
+
+After Thwomp has been installed in the Push `User Library`, the device can be added by choosing it under `Device > User Library`.
+
+## Opening in Max Directly
+
+To open in Max directly without Live, the Thwomp folder should be in Max's `Project Search Paths`, so that the referenced files can be found (e.g., `~/Documents/Max <max-version>/Projects` on macOS or `(User Folder)\My Documents\Max <max-version>\Projects` on Windows).
+
+Once the  `misc/instruments/Thwomp.maxpat`  outside of Ableton Live, it offers some additional features.
 
 - **Button**: Trigger the MIDI note
 - **Pitch**: Select the MIDI note pitch
 - **Velocity**: Select the MIDI note velocity
 - DAC Toggle: Toggles whether the audio engine is on
-- Typing the `s` will play the note
-
-## Troubleshooting
-
-- Thwomp allows a really low attack which will cause clicks and pops if it's set too low, if you're experiencing click and pops, try increasing the attack.
+- Typing the letter "s" plays the note
 
 ## Global Parameters
 
@@ -72,7 +80,7 @@ Thwomp can also be opened in standalone mode by opening the `misc/instruments/Th
 - **Attack**: Attack
 - **Decay**: Decay
 
-## Ableton Push
+## Push Parameters
 
 Thwomp support Ableton Push. When using Push, the leftmost knob always chooses the selected Oscillator. There's four different banks that allow all of Thwomp's parameters to be accessed.
 
