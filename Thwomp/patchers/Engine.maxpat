@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 368.0, 308.0, 1045.0, 902.0 ],
+        "rect": [ 252.0, 319.0, 1045.0, 902.0 ],
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
@@ -456,12 +456,13 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 426.0, 399.0, 640.0, 480.0 ],
+                        "rect": [ 490.0, 436.0, 640.0, 480.0 ],
                         "default_fontsize": 10.0,
                         "default_fontname": "Arial Bold",
                         "gridsize": [ 8.0, 8.0 ],
                         "gridsnaponopen": 2,
                         "objectsnaponopen": 0,
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -477,7 +478,7 @@
                             {
                                 "box": {
                                     "id": "obj-9",
-                                    "items": [ "OscCycle.maxpat", ",", "OscTri.maxpat", ",", "OscRect.maxpat", ",", "OscSaw.maxpat", ",", "OscNoise.maxpat", ",", "OscPink.maxpat" ],
+                                    "items": [ "OscCycle", ",", "OscTri", ",", "OscRect", ",", "OscSaw", ",", "OscNoise", ",", "OscPink" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,

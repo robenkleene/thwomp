@@ -2,8 +2,8 @@
     "name": "Thwomp",
     "version": 1,
     "creationdate": 3846570744,
-    "modificationdate": 3846657837,
-    "viewrect": [ 940.0, 390.0, 593.0, 715.0 ],
+    "modificationdate": 3846659850,
+    "viewrect": [ 609.0, 376.0, 593.0, 715.0 ],
     "autoorganize": 1,
     "hideprojectwindow": 0,
     "showdependencies": 1,
@@ -91,12 +91,16 @@
             },
             "Thwomp.maxpat": {
                 "kind": "patcher",
-                "local": 1,
-                "toplevel": 1
+                "local": 1
             },
             "Thwomp.amxd": {
                 "kind": "maxforlive",
                 "local": 1
+            },
+            "ThwompM4l.maxpat": {
+                "kind": "patcher",
+                "local": 1,
+                "toplevel": 1
             }
         },
         "media": {        },
@@ -114,7 +118,7 @@
     "readonly": 0,
     "devpathtype": 0,
     "devpath": ".",
-    "sortmode": 0,
+    "sortmode": 1,
     "viewmode": 0,
     "includepackages": 0
 }
