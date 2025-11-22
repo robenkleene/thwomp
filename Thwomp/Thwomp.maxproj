@@ -2,7 +2,7 @@
     "name": "Thwomp",
     "version": 1,
     "creationdate": 3846570744,
-    "modificationdate": 3846571047,
+    "modificationdate": 3846655164,
     "viewrect": [ 96.0, 163.0, 593.0, 715.0 ],
     "autoorganize": 1,
     "hideprojectwindow": 0,
@@ -72,12 +72,16 @@
             },
             "UiNotePacker.maxpat": {
                 "kind": "patcher"
+            },
+            "Thwomp.maxpat": {
+                "kind": "patcher"
             }
         },
         "media": {        },
         "data": {
             "Presets.json": {
-                "kind": "json"
+                "kind": "json",
+                "local": 1
             }
         }
     },
