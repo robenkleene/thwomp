@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 368.0, 308.0, 1045.0, 902.0 ],
+        "rect": [ 252.0, 319.0, 1045.0, 902.0 ],
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
@@ -456,7 +456,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 426.0, 399.0, 640.0, 480.0 ],
+                        "rect": [ 490.0, 436.0, 640.0, 480.0 ],
                         "default_fontsize": 10.0,
                         "default_fontname": "Arial Bold",
                         "gridsize": [ 8.0, 8.0 ],
@@ -470,20 +470,20 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 256.0, 96.0, 113.0, 20.0 ],
+                                    "patching_rect": [ 256.0, 144.0, 113.0, 20.0 ],
                                     "text": "prepend patchername"
                                 }
                             },
                             {
                                 "box": {
                                     "id": "obj-9",
-                                    "items": [ "OscCycle.maxpat", ",", "OscTri.maxpat", ",", "OscRect.maxpat", ",", "OscSaw.maxpat", ",", "OscNoise.maxpat", ",", "OscPink.maxpat" ],
+                                    "items": [ "OscCycle", ",", "OscTri", ",", "OscRect", ",", "OscSaw", ",", "OscNoise", ",", "OscPink" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
                                     "outlettype": [ "int", "", "" ],
                                     "parameter_enable": 0,
-                                    "patching_rect": [ 256.0, 56.0, 248.0, 20.0 ]
+                                    "patching_rect": [ 256.0, 104.0, 248.0, 20.0 ]
                                 }
                             },
                             {
@@ -493,7 +493,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "signal" ],
-                                    "patching_rect": [ 32.0, 168.0, 110.0, 20.0 ],
+                                    "patching_rect": [ 32.0, 168.0, 83.0, 20.0 ],
                                     "text": "poly~ OscCycle"
                                 }
                             },
