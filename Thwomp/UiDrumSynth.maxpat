@@ -18,6 +18,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-18",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 728.0, 704.0, 54.0, 22.0 ],
+                    "text": "deferlow"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-19",
                     "linecount": 8,
                     "maxclass": "comment",
@@ -456,6 +467,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-20", 4 ],
+                    "source": [ "obj-18", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-15", 0 ],
                     "source": [ "obj-2", 1 ]
                 }
@@ -586,7 +603,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-20", 4 ],
+                    "destination": [ "obj-18", 0 ],
                     "source": [ "obj-9", 0 ]
                 }
             }
@@ -607,14 +624,6 @@
             "obj-5": [ "#1-OscGain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
