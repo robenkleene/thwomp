@@ -2,8 +2,8 @@
     "name": "Thwomp",
     "version": 1,
     "creationdate": 3846570744,
-    "modificationdate": 3846681893,
-    "viewrect": [ 207.0, 396.0, 593.0, 715.0 ],
+    "modificationdate": 3846682235,
+    "viewrect": [ 208.0, 395.0, 593.0, 715.0 ],
     "autoorganize": 0,
     "hideprojectwindow": 0,
     "showdependencies": 1,
@@ -12,8 +12,7 @@
         "patchers": {
             "BankGatedPrint.maxpat": {
                 "kind": "patcher",
-                "local": 1,
-                "toplevel": 1
+                "local": 1
             },
             "BankNote.maxpat": {
                 "kind": "patcher",
@@ -45,10 +44,6 @@
             },
             "OscTri.maxpat": {
                 "kind": "patcher",
-                "local": 1
-            },
-            "Thwomp.amxd": {
-                "kind": "maxforlive",
                 "local": 1
             },
             "Thwomp.maxpat": {
