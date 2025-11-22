@@ -18,12 +18,23 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-25",
+                    "linecount": 4,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 384.0, 464.0, 150.0, 60.0 ],
+                    "text": "Without `deferlow` this was causing a message on startup for `no patcher <osc-patcher-name`"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-18",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 728.0, 704.0, 54.0, 22.0 ],
+                    "patching_rect": [ 328.0, 464.0, 54.0, 22.0 ],
                     "text": "deferlow"
                 }
             },
@@ -183,7 +194,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 416.0, 504.0, 40.0, 15.0 ],
+                    "patching_rect": [ 328.0, 440.0, 40.0, 15.0 ],
                     "pictures": [ "sine.svg", "updown.svg", "square.svg", "up.svg", "random.svg", "random.svg" ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 24.0, 32.0, 15.0 ],
@@ -390,7 +401,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 528.0, 440.0, 40.0, 104.0 ],
+                    "patching_rect": [ 544.0, 424.0, 40.0, 104.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 208.0, 0.0, 40.0, 104.0 ],
                     "varname": "UiAdEnv",
@@ -624,6 +635,14 @@
             "obj-5": [ "#1-OscGain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
