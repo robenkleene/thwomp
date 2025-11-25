@@ -8,19 +8,19 @@ Thwomp is a four oscillator drum synthesizer for [Max for Live](https://www.able
 - Prominent pitch envelope for creating kick drums.
 - No sustain or release, because those aren't features of percussive instruments.
 
-Thwomp's interface is designed to be transparent and predictable. Every parameter is labeled with its [unit type](https://en.wikipedia.org/wiki/Unit_of_measurement).
+Thwomp's interface is designed to be transparent and predictable, e.g., every parameter is labeled with its [unit type](https://en.wikipedia.org/wiki/Unit_of_measurement).
 
 ## Installation
 
 ### Installing in Ableton Live
 
-Drag `max-for-live/instruments/Thwomp.amxd` to the `User Library` (e.g., under `User Library/Presets/Instruments/Max Instrument/`).
+Drag `Thwomp/Thwomp.amxd` to the `User Library` (e.g., under `User Library/Presets/Instruments/Max Instrument/`).
 
 ### Installing in Ableton Push standalone mode
 
 1. Launch Push in standalone mode
 2. In Live's sidebar, select `Places > Push`
-3. Drag `max-for-live/instruments/Thwomp.amxd` to `Places > Push > User Library` (e.g., under `User Library/Presets/Instruments/Max Instrument/` [note that in the Push Use Library this folder is *not* create by default like it is in the Live User Library]).
+3. Drag `Thwomp/Thwomp.amxd` to `Places > Push > User Library` (e.g., under `User Library/Presets/Instruments/Max Instrument/` [note that in the Push Use Library this folder is *not* create by default like it is in the Live User Library]).
 
 ### Using the Device on Push
 
@@ -30,7 +30,7 @@ After Thwomp has been installed in the Push `User Library`, the device can be ad
 
 To open in Max directly without Live, the Thwomp folder should be in Max's `Project Search Paths`, so that the referenced files can be found (e.g., `~/Documents/Max <max-version>/Projects` on macOS or `(User Folder)\My Documents\Max <max-version>\Projects` on Windows).
 
-Once the  `misc/instruments/Thwomp.maxpat`  outside of Ableton Live, it offers some additional features.
+Once the  `Thwomp/Thwomp.maxpat`  outside of Ableton Live, it offers some additional features.
 
 - **Button**: Trigger the MIDI note
 - **Pitch**: Select the MIDI note pitch
