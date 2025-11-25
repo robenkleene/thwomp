@@ -28,9 +28,7 @@ After Thwomp has been installed in the Push `User Library`, the device can be ad
 
 ## Opening in Max Directly
 
-To open in Max directly without Live, the Thwomp folder should be in Max's `Project Search Paths`, so that the referenced files can be found (e.g., `~/Documents/Max <max-version>/Projects` on macOS or `(User Folder)\My Documents\Max <max-version>\Projects` on Windows).
-
-Once the  `Thwomp/Thwomp.maxpat`  outside of Ableton Live, it offers some additional features.
+To open in Max directly without Live, open `Thwomp/Thwomp.maxpat`, Thwomp has some some additional features when opened outside of Live:
 
 - **Button**: Trigger the MIDI note
 - **Pitch**: Select the MIDI note pitch
