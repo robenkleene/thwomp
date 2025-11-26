@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 377.0, 93.0, 1113.0, 1033.0 ],
+        "rect": [ 186.0, 328.0, 1113.0, 1033.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -404,7 +404,7 @@
                     "patching_rect": [ 544.0, 424.0, 40.0, 104.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 208.0, 0.0, 40.0, 104.0 ],
-                    "varname": "UiAdEnv",
+                    "varname": "AdEnv",
                     "viewvisibility": 1
                 }
             },
@@ -635,6 +635,14 @@
             "obj-5": [ "#1-OscGain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
