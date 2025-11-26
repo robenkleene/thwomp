@@ -192,7 +192,7 @@ The following presets are built-in, they're numbered from the upper left to the 
 - `Noise`
 - `0ms` Attack
 - `150ms` Decay
-- `0db` Gain
+- `-4db` Gain
 
 #### Filter
 
@@ -208,7 +208,7 @@ The following presets are built-in, they're numbered from the upper left to the 
 - `Saw`
 - `0ms` Attack
 - `125ms` Decay
-- `-20db` Gain
+- `-30db` Gain
 
 #### Filter
 
@@ -222,7 +222,7 @@ The following presets are built-in, they're numbered from the upper left to the 
 - `Cycle`
 - `0ms` Attack
 - `125ms` Decay
-- `-14db` Gain
+- `-10db` Gain
 
 #### Filter
 
@@ -235,7 +235,7 @@ The following presets are built-in, they're numbered from the upper left to the 
 - `Pink`
 - `0ms` Attack
 - `200ms` Decay
-- `-14db` Gain
+- `-20db` Gain
 
 #### Filter
 
