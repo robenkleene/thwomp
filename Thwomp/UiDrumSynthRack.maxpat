@@ -445,7 +445,7 @@
                     "patching_rect": [ 16.0, 224.0, 248.0, 160.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 40.0, 8.0, 256.0, 160.0 ],
-                    "varname": "UiDrumSynthBank",
+                    "varname": "DrumSynthBank",
                     "viewvisibility": 1
                 }
             }
@@ -686,6 +686,14 @@
             "obj-24": [ "Overwrite", "Overwrite", 0 ],
             "obj-29": [ "Write", "Write", 0 ],
             "obj-30": [ "Read", "Read", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

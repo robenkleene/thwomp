@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 377.0, 93.0, 1113.0, 1033.0 ],
+        "rect": [ 186.0, 328.0, 1113.0, 1033.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -264,7 +264,7 @@
                     "patching_rect": [ 216.0, 320.0, 40.0, 64.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 40.0, 40.0, 64.0 ],
-                    "varname": "UiFreqRack",
+                    "varname": "FreqRack",
                     "viewvisibility": 1
                 }
             },
@@ -367,7 +367,7 @@
                     "patching_rect": [ 192.0, 616.0, 112.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 136.0, 112.0, 112.0, 48.0 ],
-                    "varname": "UiBiquadFilt",
+                    "varname": "BiquadFilt",
                     "viewvisibility": 1
                 }
             },
@@ -404,7 +404,7 @@
                     "patching_rect": [ 544.0, 424.0, 40.0, 104.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 208.0, 0.0, 40.0, 104.0 ],
-                    "varname": "UiAdEnv",
+                    "varname": "AdEnv",
                     "viewvisibility": 1
                 }
             },
@@ -440,7 +440,7 @@
                     "patching_rect": [ 344.0, 208.0, 152.0, 160.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 48.0, 0.0, 160.0, 160.0 ],
-                    "varname": "UiPitchEnv",
+                    "varname": "PitchEnv",
                     "viewvisibility": 1
                 }
             }

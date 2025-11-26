@@ -128,7 +128,7 @@
                     "patching_rect": [ 8.0, 144.0, 88.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 16.0, 40.0, 48.0 ],
-                    "varname": "UiFreqBank",
+                    "varname": "FreqBank",
                     "viewvisibility": 1
                 }
             },
@@ -196,6 +196,14 @@
             "obj-1::obj-11": [ "#1-OscSemi", "Semi", 0 ],
             "obj-1::obj-14": [ "#1-OscFreq", "Freq", 0 ],
             "obj-5": [ "#1-OscNote", "Note", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
