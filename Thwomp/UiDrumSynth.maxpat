@@ -264,7 +264,7 @@
                     "patching_rect": [ 216.0, 320.0, 40.0, 64.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 40.0, 40.0, 64.0 ],
-                    "varname": "UiFreqRack",
+                    "varname": "FreqRack",
                     "viewvisibility": 1
                 }
             },
@@ -367,7 +367,7 @@
                     "patching_rect": [ 192.0, 616.0, 112.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 136.0, 112.0, 112.0, 48.0 ],
-                    "varname": "UiBiquadFilt",
+                    "varname": "BiquadFilt",
                     "viewvisibility": 1
                 }
             },
@@ -440,7 +440,7 @@
                     "patching_rect": [ 344.0, 208.0, 152.0, 160.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 48.0, 0.0, 160.0, 160.0 ],
-                    "varname": "UiPitchEnv",
+                    "varname": "PitchEnv",
                     "viewvisibility": 1
                 }
             }
@@ -635,14 +635,6 @@
             "obj-5": [ "#1-OscGain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0

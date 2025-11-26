@@ -230,7 +230,7 @@
                     "patching_rect": [ 15.0, 705.0, 249.0, 159.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 336.0, 248.0, 160.0 ],
-                    "varname": "3-UiDrumSynth",
+                    "varname": "3-DrumSynth",
                     "viewvisibility": 1
                 }
             },
@@ -291,7 +291,7 @@
                     "patching_rect": [ 15.0, 435.0, 249.0, 165.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 168.0, 248.0, 160.0 ],
-                    "varname": "2-UiDrumSynth",
+                    "varname": "2-DrumSynth",
                     "viewvisibility": 1
                 }
             },
@@ -315,7 +315,7 @@
                     "patching_rect": [ 15.0, 150.0, 249.0, 162.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 248.0, 160.0 ],
-                    "varname": "1-UiDrumSynth",
+                    "varname": "1-DrumSynth",
                     "viewvisibility": 1
                 }
             },
@@ -339,7 +339,7 @@
                     "patching_rect": [ 15.0, 975.0, 249.0, 161.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 504.0, 248.0, 160.0 ],
-                    "varname": "4-UiDrumSynth",
+                    "varname": "4-DrumSynth",
                     "viewvisibility": 1
                 }
             }
@@ -527,14 +527,6 @@
             "obj-44::obj-5": [ "4-OscGain", "Gain", 0 ],
             "obj-44::obj-7": [ "4-Osc", "Osc", 0 ],
             "obj-44::obj-9": [ "4-OscShape", "Shape", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0

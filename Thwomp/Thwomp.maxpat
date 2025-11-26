@@ -86,7 +86,7 @@
                     "patching_rect": [ 16.0, 8.0, 64.0, 80.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 8.0, 64.0, 80.0 ],
-                    "varname": "Thwomp Note Packer",
+                    "varname": "NotePacker",
                     "viewvisibility": 1
                 }
             },
@@ -110,7 +110,7 @@
                     "patching_rect": [ 15.0, 135.0, 337.0, 169.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 64.0, 0.0, 344.0, 168.0 ],
-                    "varname": "UiDrumSynthRack",
+                    "varname": "DrumSynthRack",
                     "viewvisibility": 1
                 }
             },
@@ -157,6 +157,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int" ],
                     "patching_rect": [ 120.0, 56.0, 104.0, 35.0 ],
+                    "varname": "ActiveKey",
                     "viewvisibility": 1
                 }
             },
@@ -168,7 +169,8 @@
                     "numoutlets": 0,
                     "patching_rect": [ 15.0, 345.0, 45.0, 45.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 8.0, 120.0, 48.0, 48.0 ]
+                    "presentation_rect": [ 8.0, 120.0, 48.0, 48.0 ],
+                    "varname": "Dac"
                 }
             }
         ],
