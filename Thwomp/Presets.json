@@ -116,7 +116,7 @@
                     "DrumSynthBank::2-DrumSynth::PitchEnv::2-Amt": [ 0 ],
                     "DrumSynthBank::2-DrumSynth::PitchEnv::2-Dur": [ 0 ],
                     "DrumSynthBank::2-DrumSynth::PitchEnv::FunctionEnv::2-Function": [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
-                    "DrumSynthBank::2-DrumSynth::AdEnv::2-Attack": [ 0 ],
+                    "DrumSynthBank::2-DrumSynth::AdEnv::2-Attack": [ 1.9999999999999993 ],
                     "DrumSynthBank::2-DrumSynth::AdEnv::2-Decay": [ 76 ],
                     "DrumSynthBank::2-DrumSynth::BiquadFilt::2-Filt": [ 1.0 ],
                     "DrumSynthBank::2-DrumSynth::BiquadFilt::Biquad::2-Freq": [ 1447.0000000000005 ],
