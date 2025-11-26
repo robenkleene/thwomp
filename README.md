@@ -159,7 +159,7 @@ The following presets are built-in, they're numbered from the upper left to the 
 - `Cycle`
 - `2ms` Attack
 - `500ms` Decay
-- `0db` Gain
+- `-8db` Gain
 
 ##### Pitch Envelope
 
@@ -177,7 +177,7 @@ The following presets are built-in, they're numbered from the upper left to the 
 - `Pink`
 - `2ms` Attack
 - `200ms` Decay
-- `-14db` Gain
+- `-30db` Gain
 
 ##### Filter
 
