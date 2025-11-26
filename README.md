@@ -130,7 +130,7 @@ The following presets are built-in, they're numbered from the upper left to the 
 - `Cycle`
 - `1ms` Attack
 - `60ms` Decay
-- `0db` Gain
+- `-6db` Gain
 
 ##### Filter
 
@@ -142,14 +142,14 @@ The following presets are built-in, they're numbered from the upper left to the 
 
 - `Noise`
 - `0ms` Attack
-- `76ms` Decay
-- `-14db` Gain
+- `140ms` Decay
+- `-40db` Gain
 
 ##### Filter
 
 - `highpass`
-- `1447hz`
-- `1.4Q`
+- `1000hz`
+- `0.4Q`
 
 ### 3. Tom
 
