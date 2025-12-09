@@ -4,18 +4,43 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 1,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 186.0, 328.0, 1113.0, 1033.0 ],
+        "rect": [ 247.0, 241.0, 1113.0, 1033.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "toolbars_unpinned_last_save": 4,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-24",
+                    "maxclass": "live.dial",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 760.0, 512.0, 41.0, 48.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 208.0, 0.0, 41.0, 48.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_longname": "Overdrive",
+                            "parameter_mmax": 10.0,
+                            "parameter_mmin": 1.0,
+                            "parameter_modmode": 3,
+                            "parameter_shortname": "Overdrive",
+                            "parameter_type": 0,
+                            "parameter_unitstyle": 0
+                        }
+                    },
+                    "varname": "Overdrive"
+                }
+            },
             {
                 "box": {
                     "id": "obj-25",
@@ -82,7 +107,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 616.0, 152.0, 5.0, 100.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 40.0, 112.0, 8.0, 48.0 ]
+                    "presentation_rect": [ 248.0, 8.0, 8.0, 96.0 ]
                 }
             },
             {
@@ -96,7 +121,8 @@
                     "restore": {
                         "#1-Gain": [ 0.0 ],
                         "#1-Osc": [ 0.0 ],
-                        "#1-Shape": [ 0.0 ]
+                        "#1-Shape": [ 0.0 ],
+                        "Overdrive": [ 1.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u676004119"
@@ -169,7 +195,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 320.0, 592.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 112.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 256.0, 112.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "#1-OscGain",
@@ -197,7 +223,7 @@
                     "patching_rect": [ 328.0, 440.0, 40.0, 15.0 ],
                     "pictures": [ "sine.svg", "updown.svg", "square.svg", "up.svg", "random.svg", "random.svg" ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 24.0, 32.0, 15.0 ],
+                    "presentation_rect": [ 0.0, 16.0, 32.0, 15.0 ],
                     "remapsvgcolors": 1,
                     "saved_attribute_attributes": {
                         "valueof": {
@@ -316,7 +342,7 @@
                 "box": {
                     "id": "obj-20",
                     "maxclass": "newobj",
-                    "numinlets": 7,
+                    "numinlets": 8,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
                     "patching_rect": [ 192.0, 560.0, 136.0, 22.0 ],
@@ -403,7 +429,7 @@
                     "outlettype": [ "", "" ],
                     "patching_rect": [ 544.0, 424.0, 40.0, 104.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 208.0, 0.0, 40.0, 104.0 ],
+                    "presentation_rect": [ 256.0, 0.0, 40.0, 104.0 ],
                     "varname": "AdEnv",
                     "viewvisibility": 1
                 }
@@ -534,6 +560,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-20", 5 ],
+                    "source": [ "obj-24", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-21", 0 ],
                     "source": [ "obj-28", 0 ]
                 }
@@ -572,13 +604,13 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-20", 6 ],
+                    "destination": [ "obj-20", 7 ],
                     "source": [ "obj-4", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-20", 5 ],
+                    "destination": [ "obj-20", 6 ],
                     "source": [ "obj-4", 0 ]
                 }
             },
@@ -627,6 +659,7 @@
             "obj-17::obj-17": [ "#1-PitchEnvAmt", "Amt", 0 ],
             "obj-17::obj-18": [ "#1-PitchEnvDur", "Dur", 0 ],
             "obj-17::obj-20::obj-30": [ "#1-Function", "Function", 1 ],
+            "obj-24": [ "Overdrive", "Overdrive", 0 ],
             "obj-2::obj-1::obj-11": [ "#1-OscSemi", "Semi", 0 ],
             "obj-2::obj-1::obj-14": [ "#1-OscFreq", "Freq", 0 ],
             "obj-2::obj-5": [ "#1-OscNote", "Note", 0 ],
@@ -635,14 +668,6 @@
             "obj-5": [ "#1-OscGain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
