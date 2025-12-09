@@ -24,7 +24,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 760.0, 512.0, 41.0, 48.0 ],
+                    "patching_rect": [ 576.0, 440.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 208.0, 0.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -32,10 +32,10 @@
                             "parameter_longname": "Overdrive",
                             "parameter_mmax": 10.0,
                             "parameter_mmin": 1.0,
-                            "parameter_modmode": 3,
+                            "parameter_modmode": 4,
                             "parameter_shortname": "Overdrive",
                             "parameter_type": 0,
-                            "parameter_unitstyle": 0
+                            "parameter_unitstyle": 1
                         }
                     },
                     "varname": "Overdrive"
@@ -48,7 +48,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 384.0, 464.0, 150.0, 60.0 ],
+                    "patching_rect": [ 560.0, 312.0, 150.0, 60.0 ],
                     "text": "Without `deferlow` this was causing a message on startup for `no patcher <osc-patcher-name`"
                 }
             },
@@ -59,19 +59,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 328.0, 464.0, 54.0, 22.0 ],
+                    "patching_rect": [ 504.0, 344.0, 54.0, 22.0 ],
                     "text": "deferlow"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-19",
-                    "linecount": 8,
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 472.0, 560.0, 150.0, 114.0 ],
-                    "text": "The clicking issue was resolved by adding `@steal 1` that probably means occassionally voices weren't being properly freed (i.e., the `mute 1, 0` message never firing)."
                 }
             },
             {
@@ -136,7 +125,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 344.0, 792.0, 30.0, 30.0 ]
+                    "patching_rect": [ 344.0, 904.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -146,7 +135,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 288.0, 712.0, 34.0, 22.0 ],
+                    "patching_rect": [ 288.0, 824.0, 34.0, 22.0 ],
                     "text": "*~ 0."
                 }
             },
@@ -157,7 +146,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 320.0, 648.0, 132.0, 22.0 ],
+                    "patching_rect": [ 312.0, 624.0, 132.0, 22.0 ],
                     "text": "expr pow(10.\\, $f1 / 20.)"
                 }
             },
@@ -168,7 +157,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 192.0, 712.0, 34.0, 22.0 ],
+                    "patching_rect": [ 192.0, 824.0, 34.0, 22.0 ],
                     "text": "*~ 0."
                 }
             },
@@ -179,7 +168,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 192.0, 752.0, 32.0, 22.0 ],
+                    "patching_rect": [ 192.0, 864.0, 32.0, 22.0 ],
                     "text": "/~ 2."
                 }
             },
@@ -193,7 +182,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 320.0, 592.0, 41.0, 48.0 ],
+                    "patching_rect": [ 312.0, 568.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 256.0, 112.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -220,7 +209,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 328.0, 440.0, 40.0, 15.0 ],
+                    "patching_rect": [ 504.0, 320.0, 40.0, 15.0 ],
                     "pictures": [ "sine.svg", "updown.svg", "square.svg", "up.svg", "random.svg", "random.svg" ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 16.0, 32.0, 15.0 ],
@@ -287,7 +276,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 216.0, 320.0, 40.0, 64.0 ],
+                    "patching_rect": [ 256.0, 464.0, 40.0, 64.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 40.0, 40.0, 64.0 ],
                     "varname": "FreqRack",
@@ -301,7 +290,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 192.0, 528.0, 49.0, 22.0 ],
+                    "patching_rect": [ 184.0, 504.0, 49.0, 22.0 ],
                     "text": "note $1"
                 }
             },
@@ -345,7 +334,7 @@
                     "numinlets": 8,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 192.0, 560.0, 136.0, 22.0 ],
+                    "patching_rect": [ 184.0, 536.0, 568.0, 22.0 ],
                     "text": "poly~ Engine 8"
                 }
             },
@@ -370,7 +359,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 192.0, 792.0, 25.0, 25.0 ]
+                    "patching_rect": [ 192.0, 904.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -390,7 +379,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 192.0, 616.0, 112.0, 48.0 ],
+                    "patching_rect": [ 184.0, 592.0, 112.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 136.0, 112.0, 112.0, 48.0 ],
                     "varname": "BiquadFilt",
@@ -427,7 +416,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 544.0, 424.0, 40.0, 104.0 ],
+                    "patching_rect": [ 656.0, 384.0, 40.0, 104.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 256.0, 0.0, 40.0, 104.0 ],
                     "varname": "AdEnv",
@@ -463,7 +452,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 344.0, 208.0, 152.0, 160.0 ],
+                    "patching_rect": [ 320.0, 368.0, 152.0, 160.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 48.0, 0.0, 160.0, 160.0 ],
                     "varname": "PitchEnv",
@@ -668,6 +657,14 @@
             "obj-5": [ "#1-OscGain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
