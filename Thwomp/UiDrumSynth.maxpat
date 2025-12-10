@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 247.0, 241.0, 1113.0, 1033.0 ],
+        "rect": [ 200.0, 100.0, 1113.0, 1033.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -18,13 +18,37 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-19",
+                    "maxclass": "live.dial",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 592.0, 440.0, 41.0, 48.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 208.0, 56.0, 41.0, 48.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_longname": "Overtone",
+                            "parameter_mmax": 100.0,
+                            "parameter_modmode": 4,
+                            "parameter_shortname": "Overtone",
+                            "parameter_type": 0,
+                            "parameter_unitstyle": 5
+                        }
+                    },
+                    "varname": "Overtone"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-24",
                     "maxclass": "live.dial",
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 576.0, 440.0, 41.0, 48.0 ],
+                    "patching_rect": [ 528.0, 440.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 208.0, 0.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -111,7 +135,8 @@
                         "#1-Gain": [ 0.0 ],
                         "#1-Osc": [ 0.0 ],
                         "#1-Shape": [ 0.0 ],
-                        "Overdrive": [ 1.0 ]
+                        "Overdrive": [ 1.0 ],
+                        "Overtone": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u676004119"
@@ -331,7 +356,7 @@
                 "box": {
                     "id": "obj-20",
                     "maxclass": "newobj",
-                    "numinlets": 8,
+                    "numinlets": 9,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
                     "patching_rect": [ 184.0, 536.0, 568.0, 22.0 ],
@@ -499,6 +524,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-20", 6 ],
+                    "source": [ "obj-19", 1 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-15", 0 ],
                     "source": [ "obj-2", 1 ]
                 }
@@ -593,13 +624,13 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-20", 7 ],
+                    "destination": [ "obj-20", 8 ],
                     "source": [ "obj-4", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-20", 6 ],
+                    "destination": [ "obj-20", 7 ],
                     "source": [ "obj-4", 0 ]
                 }
             },
@@ -648,6 +679,7 @@
             "obj-17::obj-17": [ "#1-PitchEnvAmt", "Amt", 0 ],
             "obj-17::obj-18": [ "#1-PitchEnvDur", "Dur", 0 ],
             "obj-17::obj-20::obj-30": [ "#1-Function", "Function", 1 ],
+            "obj-19": [ "Overtone", "Overtone", 0 ],
             "obj-24": [ "Overdrive", "Overdrive", 0 ],
             "obj-2::obj-1::obj-11": [ "#1-OscSemi", "Semi", 0 ],
             "obj-2::obj-1::obj-14": [ "#1-OscFreq", "Freq", 0 ],
