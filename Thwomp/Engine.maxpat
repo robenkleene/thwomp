@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 252.0, 460.0, 1045.0, 902.0 ],
+        "rect": [ 490.0, 316.0, 1045.0, 902.0 ],
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
@@ -60,13 +60,24 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 726.0, 93.0, 1000.0, 1124.0 ],
+                        "rect": [ 1088.0, 93.0, 653.0, 966.0 ],
                         "gridsize": [ 8.0, 8.0 ],
                         "gridsnaponopen": 2,
                         "objectsnaponopen": 0,
                         "subpatcher_template": "roben-kleene-max-for-live",
                         "visible": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-25",
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 72.0, 480.0, 29.5, 22.0 ],
+                                    "text": "0."
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-23",
@@ -107,13 +118,13 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "signal" ],
-                                    "patching_rect": [ 80.0, 520.0, 43.0, 22.0 ],
+                                    "patching_rect": [ 48.0, 520.0, 43.0, 22.0 ],
                                     "text": "cycle~"
                                 }
                             },
                             {
                                 "box": {
-                                    "fontface": 1,
+                                    "fontface": 0,
                                     "id": "obj-45",
                                     "maxclass": "newobj",
                                     "numinlets": 2,
@@ -153,7 +164,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "signal" ],
-                                    "patching_rect": [ 173.0, 258.0, 31.0, 22.0 ],
+                                    "patching_rect": [ 48.0, 392.0, 31.0, 22.0 ],
                                     "text": "sig~"
                                 }
                             },
@@ -181,7 +192,7 @@
                             },
                             {
                                 "box": {
-                                    "fontface": 1,
+                                    "fontface": 0,
                                     "id": "obj-26",
                                     "maxclass": "newobj",
                                     "numinlets": 2,
@@ -200,7 +211,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "signal" ],
-                                    "patching_rect": [ 80.0, 472.0, 46.0, 22.0 ],
+                                    "patching_rect": [ 48.0, 424.0, 46.0, 22.0 ],
                                     "text": "+~ 220"
                                 }
                             },
@@ -224,7 +235,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "signal" ],
-                                    "patching_rect": [ 136.0, 472.0, 42.0, 22.0 ],
+                                    "patching_rect": [ 136.0, 488.0, 42.0, 22.0 ],
                                     "text": "pink~"
                                 }
                             },
@@ -299,10 +310,10 @@
                                     "id": "obj-5",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
-                                    "numoutlets": 3,
-                                    "outlettype": [ "bang", "float", "float" ],
-                                    "patching_rect": [ 165.0, 122.0, 40.0, 22.0 ],
-                                    "text": "t b f f"
+                                    "numoutlets": 4,
+                                    "outlettype": [ "bang", "float", "float", "bang" ],
+                                    "patching_rect": [ 165.0, 122.0, 50.5, 22.0 ],
+                                    "text": "t b f f b"
                                 }
                             },
                             {
@@ -474,6 +485,12 @@
                             },
                             {
                                 "patchline": {
+                                    "destination": [ "obj-20", 1 ],
+                                    "source": [ "obj-25", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
                                     "destination": [ "obj-13", 0 ],
                                     "source": [ "obj-26", 0 ]
                                 }
@@ -512,6 +529,12 @@
                                 "patchline": {
                                     "destination": [ "obj-23", 0 ],
                                     "source": [ "obj-5", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-25", 0 ],
+                                    "source": [ "obj-5", 3 ]
                                 }
                             },
                             {
