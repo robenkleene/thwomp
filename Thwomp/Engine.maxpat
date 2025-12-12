@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 333.0, 207.0, 1045.0, 902.0 ],
+        "rect": [ 434.0, 284.0, 1226.0, 751.0 ],
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
@@ -25,6 +25,10 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 384.0, 8.0, 26.0, 20.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": [ "(float)", "overtone" ],
+                        "c": [ "(float)", "overtone" ]
+                    },
                     "text": "in 6"
                 }
             },
@@ -725,6 +729,10 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 464.0, 8.0, 26.0, 20.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": [ "(float)", "overdrive" ],
+                        "c": [ "(float)", "overdrive" ]
+                    },
                     "text": "in 7"
                 }
             },
@@ -769,6 +777,10 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 568.0, 8.0, 26.0, 20.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": [ "(float", ",", "ms)", "decay" ],
+                        "c": [ "(float", ",", "ms)", "decay" ]
+                    },
                     "text": "in 9"
                 }
             },
@@ -780,6 +792,10 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 536.0, 8.0, 26.0, 20.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": [ "(float", ",", "ms)", "attack" ],
+                        "c": [ "(float", ",", "ms)", "attack" ]
+                    },
                     "text": "in 8"
                 }
             },
