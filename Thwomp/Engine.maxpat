@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 434.0, 284.0, 1226.0, 751.0 ],
+        "rect": [ 136.0, 321.0, 1226.0, 751.0 ],
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
@@ -49,12 +49,11 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 1088.0, 93.0, 653.0, 966.0 ],
+                        "rect": [ 241.0, 93.0, 819.0, 1104.0 ],
                         "gridsize": [ 8.0, 8.0 ],
                         "gridsnaponopen": 2,
                         "objectsnaponopen": 0,
                         "subpatcher_template": "roben-kleene-max-for-live",
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -543,6 +542,12 @@
                                     "destination": [ "obj-9", 0 ],
                                     "order": 0,
                                     "source": [ "obj-6", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-24", 0 ],
+                                    "source": [ "obj-7", 1 ]
                                 }
                             },
                             {
