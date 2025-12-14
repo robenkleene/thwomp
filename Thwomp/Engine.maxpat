@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 965.0, 371.0, 1226.0, 751.0 ],
+        "rect": [ 58.0, 418.0, 1226.0, 751.0 ],
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
@@ -432,7 +432,7 @@
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 16.0, 1000.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 16.0, 1056.0, 30.0, 30.0 ]
                                 }
                             },
                             {
