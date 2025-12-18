@@ -1636,7 +1636,7 @@
                                     "maxclass": "inlet",
                                     "numinlets": 0,
                                     "numoutlets": 1,
-                                    "outlettype": [ "bang" ],
+                                    "outlettype": [ "signal" ],
                                     "patching_rect": [ 32.0, 8.0, 30.0, 30.0 ]
                                 }
                             },

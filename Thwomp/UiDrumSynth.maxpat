@@ -359,8 +359,8 @@
                     "numinlets": 9,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 184.0, 536.0, 568.0, 22.0 ],
-                    "text": "poly~ Engine 8"
+                    "patching_rect": [ 184.0, 536.0, 512.0, 22.0 ],
+                    "text": "poly~ Engine 8 @steal 1"
                 }
             },
             {
@@ -689,14 +689,6 @@
             "obj-5": [ "#1-OscGain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
