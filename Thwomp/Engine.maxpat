@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 439.0, 223.0, 1332.0, 938.0 ],
+        "rect": [ 733.0, 228.0, 1332.0, 938.0 ],
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
@@ -1285,7 +1285,6 @@
                         "gridsize": [ 8.0, 8.0 ],
                         "gridsnaponopen": 2,
                         "objectsnaponopen": 0,
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -1294,7 +1293,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 136.0, 136.0, 150.0, 29.0 ],
+                                    "patching_rect": [ 136.0, 136.0, 152.0, 29.0 ],
                                     "text": "Go to `1` over the attack time, and `0` over the decay time."
                                 }
                             },
@@ -1764,7 +1763,6 @@
                         "gridsize": [ 8.0, 8.0 ],
                         "gridsnaponopen": 2,
                         "objectsnaponopen": 0,
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
