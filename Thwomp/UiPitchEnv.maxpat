@@ -125,7 +125,7 @@
                     "args": [ "#1" ],
                     "bgmode": 0,
                     "border": 0,
-                    "clickthrough": 0,
+                    "clickthrough": 1,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
                     "id": "obj-20",

@@ -1285,7 +1285,19 @@
                         "gridsize": [ 8.0, 8.0 ],
                         "gridsnaponopen": 2,
                         "objectsnaponopen": 0,
+                        "visible": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-3",
+                                    "linecount": 2,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 136.0, 136.0, 150.0, 29.0 ],
+                                    "text": "Go to `1` over the attack time, and `0` over the decay time."
+                                }
+                            },
                             {
                                 "box": {
                                     "comment": "(bang) env finish ",
@@ -1294,7 +1306,7 @@
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 72.0, 320.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 80.0, 320.0, 30.0, 30.0 ]
                                 }
                             },
                             {
@@ -1420,7 +1432,7 @@
                                     "maxclass": "inlet",
                                     "numinlets": 0,
                                     "numoutlets": 1,
-                                    "outlettype": [ "signal" ],
+                                    "outlettype": [ "bang" ],
                                     "patching_rect": [ 8.0, 8.0, 30.0, 30.0 ]
                                 }
                             },
@@ -1636,7 +1648,7 @@
                                     "maxclass": "inlet",
                                     "numinlets": 0,
                                     "numoutlets": 1,
-                                    "outlettype": [ "signal" ],
+                                    "outlettype": [ "bang" ],
                                     "patching_rect": [ 32.0, 8.0, 30.0, 30.0 ]
                                 }
                             },
@@ -1746,12 +1758,13 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 278.0, 742.0, 639.0, 358.0 ],
+                        "rect": [ 1090.0, 823.0, 639.0, 358.0 ],
                         "default_fontsize": 10.0,
                         "default_fontname": "Arial Bold",
                         "gridsize": [ 8.0, 8.0 ],
                         "gridsnaponopen": 2,
                         "objectsnaponopen": 0,
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -1770,11 +1783,11 @@
                                     "fontsize": 10.0,
                                     "id": "obj-27",
                                     "maxclass": "newobj",
-                                    "numinlets": 2,
+                                    "numinlets": 3,
                                     "numoutlets": 2,
                                     "outlettype": [ "signal", "bang" ],
-                                    "patching_rect": [ 48.0, 144.0, 36.0, 20.0 ],
-                                    "text": "line~"
+                                    "patching_rect": [ 48.0, 144.0, 41.0, 20.0 ],
+                                    "text": "curve~"
                                 }
                             },
                             {

@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 1,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 273.0, 100.0, 1471.0, 975.0 ],
+        "rect": [ 996.0, 545.0, 1471.0, 975.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -25,7 +25,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 336.0, 24.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-Function": [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 0.0, 0.0, 0, 0.0, 1.0, 0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ]
+                        "#1-Function": [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.0, 1.0, 0, 0.0, 0.0, 0.0, 0, 0.0, 0.0, 1.0, 0, 0.0, 0.0, 0.0, 0, 0.0, 0.0, 1.0, 0, 0.0, 1000.0, 1.0, 0, 0.0, 1000.0, 0.0, 0, 0.0, "curve" ]
                     },
                     "text": "autopattr",
                     "varname": "u990001634"
@@ -108,12 +108,13 @@
             },
             {
                 "box": {
-                    "addpoints": [ 0.0, 0.0, 0, 0.0, 1.0, 0, 0.0, 0.0, 0, 0.0, 1.0, 0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0 ],
+                    "addpoints_with_curve": [ 0.0, 0.0, 0, 0.0, 0.0, 1.0, 0, 0.0, 0.0, 0.0, 0, 0.0, 0.0, 1.0, 0, 0.0, 0.0, 0.0, 0, 0.0, 0.0, 1.0, 0, 0.0, 1000.0, 1.0, 0, 0.0, 1000.0, 0.0, 0, 0.0 ],
                     "annotation": "The graph of the pitch envelope, the bottom is zero (no effect), and the top is the full amount.",
                     "annotation_name": "Pitch Envelope Graph",
                     "classic_curve": 1,
                     "id": "obj-30",
                     "maxclass": "function",
+                    "mode": 1,
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "float", "", "", "bang" ],
@@ -197,6 +198,14 @@
         ],
         "parameters": {
             "obj-30": [ "#1-Function", "Function", 1 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
