@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1333.0, 693.0, 841.0, 504.0 ],
+        "rect": [ 1641.0, 306.0, 841.0, 504.0 ],
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
@@ -17,6 +17,17 @@
         "objectsnaponopen": 0,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-3",
+                    "linecount": 9,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 96.0, 8.0, 150.0, 107.0 ],
+                    "text": "Note that sending `0` as a single event to phase input only overrides a single sample, e.g., \n`sin(0.723) → sin(0.728) → sin(0.733)` `sin(0.723) → 0 → sin(0.733)`. I.e., it doesn't *also* reset the phase of the oscillator."
+                }
+            },
             {
                 "box": {
                     "id": "obj-5",
