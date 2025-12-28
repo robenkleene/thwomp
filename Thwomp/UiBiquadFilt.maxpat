@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
@@ -158,7 +158,7 @@
                     "outlettype": [ "signal", "signal" ],
                     "patching_rect": [ 75.0, 120.0, 53.0, 128.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 112.0, 48.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 48.0, 160.0 ],
                     "varname": "Biquad",
                     "viewvisibility": 1
                 }
@@ -198,14 +198,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-4", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-2", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-4", 0 ]
                 }
             },
@@ -235,14 +235,6 @@
             "obj-1::obj-11": [ "#1-FiltQ", "Q", 0 ],
             "obj-1::obj-6": [ "#1-FiltType", "Type", 0 ],
             "obj-7": [ "#1-Filt", "Filt", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0

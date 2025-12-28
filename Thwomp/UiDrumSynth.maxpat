@@ -18,6 +18,18 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-14",
+                    "justification": 1,
+                    "maxclass": "live.line",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 201.0, 3.0, 5.0, 100.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 216.0, 0.0, 8.0, 160.0 ]
+                }
+            },
+            {
+                "box": {
                     "id": "obj-19",
                     "maxclass": "live.dial",
                     "numinlets": 1,
@@ -26,7 +38,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 480.0, 472.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 344.0, 56.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 224.0, 56.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "Overtone",
@@ -50,7 +62,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 552.0, 472.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 344.0, 0.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 224.0, 0.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "Overdrive",
@@ -89,18 +101,6 @@
             },
             {
                 "box": {
-                    "id": "obj-14",
-                    "justification": 1,
-                    "maxclass": "live.line",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 632.0, 152.0, 5.0, 100.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 344.0, 104.0, 40.0, 8.0 ]
-                }
-            },
-            {
-                "box": {
                     "id": "obj-11",
                     "justification": 1,
                     "maxclass": "live.line",
@@ -120,7 +120,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 616.0, 152.0, 5.0, 100.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 384.0, 8.0, 8.0, 96.0 ]
+                    "presentation_rect": [ 264.0, 0.0, 8.0, 104.0 ]
                 }
             },
             {
@@ -209,7 +209,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 312.0, 592.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 296.0, 112.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 272.0, 112.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "#1-Gain",
@@ -405,7 +405,7 @@
                     "outlettype": [ "signal", "signal" ],
                     "patching_rect": [ 184.0, 592.0, 112.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 184.0, 112.0, 112.0, 48.0 ],
+                    "presentation_rect": [ 176.0, 0.0, 48.0, 160.0 ],
                     "varname": "BiquadFilt",
                     "viewvisibility": 1
                 }
@@ -442,7 +442,7 @@
                     "outlettype": [ "", "" ],
                     "patching_rect": [ 616.0, 416.0, 40.0, 104.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 392.0, 0.0, 40.0, 104.0 ],
+                    "presentation_rect": [ 272.0, 0.0, 40.0, 104.0 ],
                     "varname": "AdEnv",
                     "viewvisibility": 1
                 }
@@ -478,7 +478,7 @@
                     "outlettype": [ "", "" ],
                     "patching_rect": [ 304.0, 360.0, 128.0, 160.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 48.0, 0.0, 160.0, 160.0 ],
+                    "presentation_rect": [ 48.0, 0.0, 128.0, 160.0 ],
                     "varname": "PitchEnv",
                     "viewvisibility": 1
                 }
@@ -689,6 +689,14 @@
             "obj-5": [ "#1-Gain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
