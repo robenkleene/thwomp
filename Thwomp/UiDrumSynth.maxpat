@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 630.0, 174.0, 1113.0, 1033.0 ],
+        "rect": [ 538.0, 129.0, 1113.0, 1033.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -26,7 +26,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 480.0, 472.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 208.0, 56.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 344.0, 56.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "Overtone",
@@ -50,7 +50,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 552.0, 472.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 208.0, 0.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 344.0, 0.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "Overdrive",
@@ -96,7 +96,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 632.0, 152.0, 5.0, 100.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 208.0, 104.0, 40.0, 8.0 ]
+                    "presentation_rect": [ 344.0, 104.0, 40.0, 8.0 ]
                 }
             },
             {
@@ -108,7 +108,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 648.0, 152.0, 5.0, 100.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 128.0, 112.0, 8.0, 48.0 ]
+                    "presentation_rect": [ 168.0, 112.0, 8.0, 48.0 ]
                 }
             },
             {
@@ -120,7 +120,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 616.0, 152.0, 5.0, 100.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 248.0, 8.0, 8.0, 96.0 ]
+                    "presentation_rect": [ 384.0, 8.0, 8.0, 96.0 ]
                 }
             },
             {
@@ -209,10 +209,10 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 312.0, 592.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 256.0, 112.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 296.0, 112.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "#1-OscGain",
+                            "parameter_longname": "#1-Gain",
                             "parameter_mmax": 6.0,
                             "parameter_mmin": -70.0,
                             "parameter_modmode": 0,
@@ -405,7 +405,7 @@
                     "outlettype": [ "signal", "signal" ],
                     "patching_rect": [ 184.0, 592.0, 112.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 136.0, 112.0, 112.0, 48.0 ],
+                    "presentation_rect": [ 184.0, 112.0, 112.0, 48.0 ],
                     "varname": "BiquadFilt",
                     "viewvisibility": 1
                 }
@@ -442,7 +442,7 @@
                     "outlettype": [ "", "" ],
                     "patching_rect": [ 616.0, 416.0, 40.0, 104.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 256.0, 0.0, 40.0, 104.0 ],
+                    "presentation_rect": [ 392.0, 0.0, 40.0, 104.0 ],
                     "varname": "AdEnv",
                     "viewvisibility": 1
                 }
@@ -464,19 +464,19 @@
                     "args": [ "#1" ],
                     "bgmode": 0,
                     "border": 0,
-                    "clickthrough": 1,
+                    "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
                     "id": "obj-17",
                     "lockeddragscroll": 0,
-                    "lockedsize": 1,
+                    "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "UiPitchEnv.maxpat",
                     "numinlets": 1,
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 304.0, 360.0, 152.0, 160.0 ],
+                    "patching_rect": [ 304.0, 360.0, 128.0, 160.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 48.0, 0.0, 160.0, 160.0 ],
                     "varname": "PitchEnv",
@@ -678,6 +678,7 @@
             "obj-17::obj-17": [ "#1-PitchEnvAmt", "Amt", 0 ],
             "obj-17::obj-18": [ "#1-PitchEnvDur", "Dur", 0 ],
             "obj-17::obj-20::obj-30": [ "#1-Function", "Function", 1 ],
+            "obj-17::obj-26": [ "#1-Curve", "Curve", 0 ],
             "obj-19": [ "Overtone", "Overtone", 0 ],
             "obj-24": [ "Overdrive", "Overdrive", 0 ],
             "obj-2::obj-1::obj-11": [ "#1-OscSemi", "Semi", 0 ],
@@ -685,17 +686,9 @@
             "obj-2::obj-5": [ "#1-OscNote", "Note", 0 ],
             "obj-4::obj-3": [ "#1-AmpDecay", "Decay", 0 ],
             "obj-4::obj-7": [ "#1-AmpAttack", "Attack", 0 ],
-            "obj-5": [ "#1-OscGain", "Gain", 0 ],
+            "obj-5": [ "#1-Gain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0

@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 394.0, 135.0, 1471.0, 975.0 ],
+        "rect": [ 1478.0, 404.0, 1471.0, 975.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -132,7 +132,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 16.0, 216.0, 195.0, 105.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 152.0, 104.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 120.0, 104.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_invisible": 1,
