@@ -4,18 +4,29 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 996.0, 545.0, 1471.0, 975.0 ],
+        "rect": [ 394.0, 135.0, 1471.0, 975.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "subpatcher_template": "Roben Kleene",
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-3",
+                    "maxclass": "button",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 280.0, 152.0, 24.0, 24.0 ]
+                }
+            },
             {
                 "box": {
                     "id": "obj-1",
@@ -25,7 +36,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 336.0, 24.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-Function": [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.0, 1.0, 0, 0.0, 0.0, 0.0, 0, 0.0, 0.0, 1.0, 0, 0.0, 0.0, 0.0, 0, 0.0, 0.0, 1.0, 0, 0.0, 1000.0, 1.0, 0, 0.0, 1000.0, 0.0, 0, 0.0, "curve" ]
+                        "#1-Function": [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, "curve" ]
                     },
                     "text": "autopattr",
                     "varname": "u990001634"
@@ -39,7 +50,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 72.0, 312.0, 25.0, 25.0 ]
+                    "patching_rect": [ 72.0, 345.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -108,7 +119,7 @@
             },
             {
                 "box": {
-                    "addpoints_with_curve": [ 0.0, 0.0, 0, 0.0, 0.0, 1.0, 0, 0.0, 0.0, 0.0, 0, 0.0, 0.0, 1.0, 0, 0.0, 0.0, 0.0, 0, 0.0, 0.0, 1.0, 0, 0.0, 1000.0, 1.0, 0, 0.0, 1000.0, 0.0, 0, 0.0 ],
+                    "addpoints_with_curve": [ 0.0, 0.0, 0, 0.0 ],
                     "annotation": "The graph of the pitch envelope, the bottom is zero (no effect), and the top is the full amount.",
                     "annotation_name": "Pitch Envelope Graph",
                     "classic_curve": 1,
@@ -119,13 +130,11 @@
                     "numoutlets": 4,
                     "outlettype": [ "float", "", "", "bang" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 16.0, 183.0, 195.0, 105.0 ],
+                    "patching_rect": [ 16.0, 216.0, 195.0, 105.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 152.0, 104.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_initial": [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 0, 1000.0, 1.0, 0, 1000.0, 0.0, 0, "linear" ],
-                            "parameter_initial_enable": 1,
                             "parameter_invisible": 1,
                             "parameter_longname": "#1-Function",
                             "parameter_modmode": 0,
@@ -187,6 +196,12 @@
                 "patchline": {
                     "destination": [ "obj-30", 0 ],
                     "source": [ "obj-29", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-30", 0 ],
+                    "source": [ "obj-3", 0 ]
                 }
             },
             {
