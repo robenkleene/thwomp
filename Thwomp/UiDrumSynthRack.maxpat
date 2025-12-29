@@ -125,7 +125,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 420.0, 50.0, 32.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 360.0, 8.0, 24.0, 16.0 ],
+                    "presentation_rect": [ 296.0, 8.0, 24.0, 16.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -154,7 +154,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 460.0, 50.0, 32.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 360.0, 24.0, 24.0, 16.0 ],
+                    "presentation_rect": [ 296.0, 24.0, 24.0, 16.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -182,7 +182,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 500.0, 50.0, 32.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 360.0, 40.0, 24.0, 15.0 ],
+                    "presentation_rect": [ 296.0, 40.0, 24.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -248,7 +248,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 64.0, 400.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 360.0, 120.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 296.0, 120.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "Vol",
@@ -422,7 +422,7 @@
                     "patching_rect": [ 568.0, 184.0, 77.0, 29.0 ],
                     "pattrstorage": "Presets",
                     "presentation": 1,
-                    "presentation_rect": [ 360.0, 64.0, 40.0, 48.0 ]
+                    "presentation_rect": [ 296.0, 64.0, 40.0, 48.0 ]
                 }
             },
             {
@@ -444,7 +444,7 @@
                     "outlettype": [ "signal", "" ],
                     "patching_rect": [ 16.0, 224.0, 248.0, 160.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 40.0, 8.0, 312.0, 160.0 ],
+                    "presentation_rect": [ 40.0, 8.0, 256.0, 160.0 ],
                     "varname": "DrumSynthBank",
                     "viewvisibility": 1
                 }
@@ -627,10 +627,9 @@
             "obj-1::obj-17::obj-12::obj-1::obj-11": [ "3-FiltQ", "Q", 0 ],
             "obj-1::obj-17::obj-12::obj-1::obj-6": [ "3-FiltType", "Type", 0 ],
             "obj-1::obj-17::obj-12::obj-7": [ "3-Filt", "Filt", 0 ],
-            "obj-1::obj-17::obj-17::obj-17": [ "3-PitchEnvAmt", "Amt", 0 ],
-            "obj-1::obj-17::obj-17::obj-18": [ "3-PitchEnvDur", "Dur", 0 ],
-            "obj-1::obj-17::obj-17::obj-20::obj-30": [ "3-Function", "Function", 1 ],
-            "obj-1::obj-17::obj-17::obj-26": [ "3-Curve", "Curve", 0 ],
+            "obj-1::obj-17::obj-17::obj-17": [ "3-PitchEnvAmt", "PchAmt", 0 ],
+            "obj-1::obj-17::obj-17::obj-18": [ "3-PitchEnvDur", "PchDur", 0 ],
+            "obj-1::obj-17::obj-17::obj-26": [ "3-Curve", "PchCur", 0 ],
             "obj-1::obj-17::obj-19": [ "Overtone[3]", "Overtone", 0 ],
             "obj-1::obj-17::obj-24": [ "Overdrive[3]", "Overdrive", 0 ],
             "obj-1::obj-17::obj-2::obj-1::obj-11": [ "3-OscSemi", "Semi", 0 ],
@@ -645,10 +644,9 @@
             "obj-1::obj-1::obj-12::obj-1::obj-11": [ "1-FiltQ", "Q", 0 ],
             "obj-1::obj-1::obj-12::obj-1::obj-6": [ "1-FiltType", "Type", 0 ],
             "obj-1::obj-1::obj-12::obj-7": [ "1-Filt", "Filt", 0 ],
-            "obj-1::obj-1::obj-17::obj-17": [ "1-PitchEnvAmt", "Amt", 0 ],
-            "obj-1::obj-1::obj-17::obj-18": [ "1-PitchEnvDur", "Dur", 0 ],
-            "obj-1::obj-1::obj-17::obj-20::obj-30": [ "1-Function", "Function", 1 ],
-            "obj-1::obj-1::obj-17::obj-26": [ "1-Curve", "Curve", 0 ],
+            "obj-1::obj-1::obj-17::obj-17": [ "1-PitchEnvAmt", "PchAmt", 0 ],
+            "obj-1::obj-1::obj-17::obj-18": [ "1-PitchEnvDur", "PchDur", 0 ],
+            "obj-1::obj-1::obj-17::obj-26": [ "1-Curve", "PchCur", 0 ],
             "obj-1::obj-1::obj-19": [ "Overtone[1]", "Overtone", 0 ],
             "obj-1::obj-1::obj-24": [ "Overdrive[1]", "Overdrive", 0 ],
             "obj-1::obj-1::obj-2::obj-1::obj-11": [ "1-OscSemi", "Semi", 0 ],
@@ -663,10 +661,9 @@
             "obj-1::obj-3::obj-12::obj-1::obj-11": [ "2-FiltQ", "Q", 0 ],
             "obj-1::obj-3::obj-12::obj-1::obj-6": [ "2-FiltType", "Type", 0 ],
             "obj-1::obj-3::obj-12::obj-7": [ "2-Filt", "Filt", 0 ],
-            "obj-1::obj-3::obj-17::obj-17": [ "2-PitchEnvAmt", "Amt", 0 ],
-            "obj-1::obj-3::obj-17::obj-18": [ "2-PitchEnvDur", "Dur", 0 ],
-            "obj-1::obj-3::obj-17::obj-20::obj-30": [ "2-Function", "Function", 1 ],
-            "obj-1::obj-3::obj-17::obj-26": [ "2-Curve", "Curve", 0 ],
+            "obj-1::obj-3::obj-17::obj-17": [ "2-PitchEnvAmt", "PchAmt", 0 ],
+            "obj-1::obj-3::obj-17::obj-18": [ "2-PitchEnvDur", "PchDur", 0 ],
+            "obj-1::obj-3::obj-17::obj-26": [ "2-Curve", "PchCur", 0 ],
             "obj-1::obj-3::obj-19": [ "Overtone[2]", "Overtone", 0 ],
             "obj-1::obj-3::obj-24": [ "Overdrive[2]", "Overdrive", 0 ],
             "obj-1::obj-3::obj-2::obj-1::obj-11": [ "2-OscSemi", "Semi", 0 ],
@@ -681,10 +678,9 @@
             "obj-1::obj-44::obj-12::obj-1::obj-11": [ "4-FiltQ", "Q", 0 ],
             "obj-1::obj-44::obj-12::obj-1::obj-6": [ "4-FiltType", "Type", 0 ],
             "obj-1::obj-44::obj-12::obj-7": [ "4-Filt", "Filt", 0 ],
-            "obj-1::obj-44::obj-17::obj-17": [ "4-PitchEnvAmt", "Amt", 0 ],
-            "obj-1::obj-44::obj-17::obj-18": [ "4-PitchEnvDur", "Dur", 0 ],
-            "obj-1::obj-44::obj-17::obj-20::obj-30": [ "4-Function", "Function", 1 ],
-            "obj-1::obj-44::obj-17::obj-26": [ "4-Curve", "Curve", 0 ],
+            "obj-1::obj-44::obj-17::obj-17": [ "4-PitchEnvAmt", "PchAmt", 0 ],
+            "obj-1::obj-44::obj-17::obj-18": [ "4-PitchEnvDur", "PchDur", 0 ],
+            "obj-1::obj-44::obj-17::obj-26": [ "4-Curve", "PchCur", 0 ],
             "obj-1::obj-44::obj-19": [ "Overtone", "Overtone", 0 ],
             "obj-1::obj-44::obj-24": [ "Overdrive", "Overdrive", 0 ],
             "obj-1::obj-44::obj-2::obj-1::obj-11": [ "4-OscSemi", "Semi", 0 ],
@@ -698,14 +694,6 @@
             "obj-24": [ "Overwrite", "Overwrite", 0 ],
             "obj-29": [ "Write", "Write", 0 ],
             "obj-30": [ "Read", "Read", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-1::obj-17::obj-19": {
                     "parameter_longname": "Overtone[3]"
