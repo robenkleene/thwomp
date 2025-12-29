@@ -677,7 +677,7 @@
             "obj-12::obj-7": [ "#1-Filt", "Filt", 0 ],
             "obj-17::obj-17": [ "#1-PitchEnvAmt", "PchAmt", 0 ],
             "obj-17::obj-18": [ "#1-PitchEnvDur", "PchDur", 0 ],
-            "obj-17::obj-26": [ "#1-Curve", "PchCur", 0 ],
+            "obj-17::obj-26": [ "#1-PitchEnvCurve", "PchCur", 0 ],
             "obj-19": [ "Overtone", "Overtone", 0 ],
             "obj-24": [ "Overdrive", "Overdrive", 0 ],
             "obj-2::obj-1::obj-11": [ "#1-OscSemi", "Semi", 0 ],
@@ -688,14 +688,6 @@
             "obj-5": [ "#1-Gain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0

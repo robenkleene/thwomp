@@ -629,7 +629,7 @@
             "obj-1::obj-17::obj-12::obj-7": [ "3-Filt", "Filt", 0 ],
             "obj-1::obj-17::obj-17::obj-17": [ "3-PitchEnvAmt", "PchAmt", 0 ],
             "obj-1::obj-17::obj-17::obj-18": [ "3-PitchEnvDur", "PchDur", 0 ],
-            "obj-1::obj-17::obj-17::obj-26": [ "3-Curve", "PchCur", 0 ],
+            "obj-1::obj-17::obj-17::obj-26": [ "3-PitchEnvCurve", "PchCur", 0 ],
             "obj-1::obj-17::obj-19": [ "Overtone[3]", "Overtone", 0 ],
             "obj-1::obj-17::obj-24": [ "Overdrive[3]", "Overdrive", 0 ],
             "obj-1::obj-17::obj-2::obj-1::obj-11": [ "3-OscSemi", "Semi", 0 ],
@@ -646,7 +646,7 @@
             "obj-1::obj-1::obj-12::obj-7": [ "1-Filt", "Filt", 0 ],
             "obj-1::obj-1::obj-17::obj-17": [ "1-PitchEnvAmt", "PchAmt", 0 ],
             "obj-1::obj-1::obj-17::obj-18": [ "1-PitchEnvDur", "PchDur", 0 ],
-            "obj-1::obj-1::obj-17::obj-26": [ "1-Curve", "PchCur", 0 ],
+            "obj-1::obj-1::obj-17::obj-26": [ "1-PitchEnvCurve", "PchCur", 0 ],
             "obj-1::obj-1::obj-19": [ "Overtone[1]", "Overtone", 0 ],
             "obj-1::obj-1::obj-24": [ "Overdrive[1]", "Overdrive", 0 ],
             "obj-1::obj-1::obj-2::obj-1::obj-11": [ "1-OscSemi", "Semi", 0 ],
@@ -663,7 +663,7 @@
             "obj-1::obj-3::obj-12::obj-7": [ "2-Filt", "Filt", 0 ],
             "obj-1::obj-3::obj-17::obj-17": [ "2-PitchEnvAmt", "PchAmt", 0 ],
             "obj-1::obj-3::obj-17::obj-18": [ "2-PitchEnvDur", "PchDur", 0 ],
-            "obj-1::obj-3::obj-17::obj-26": [ "2-Curve", "PchCur", 0 ],
+            "obj-1::obj-3::obj-17::obj-26": [ "2-PitchEnvCurve", "PchCur", 0 ],
             "obj-1::obj-3::obj-19": [ "Overtone[2]", "Overtone", 0 ],
             "obj-1::obj-3::obj-24": [ "Overdrive[2]", "Overdrive", 0 ],
             "obj-1::obj-3::obj-2::obj-1::obj-11": [ "2-OscSemi", "Semi", 0 ],
@@ -680,7 +680,7 @@
             "obj-1::obj-44::obj-12::obj-7": [ "4-Filt", "Filt", 0 ],
             "obj-1::obj-44::obj-17::obj-17": [ "4-PitchEnvAmt", "PchAmt", 0 ],
             "obj-1::obj-44::obj-17::obj-18": [ "4-PitchEnvDur", "PchDur", 0 ],
-            "obj-1::obj-44::obj-17::obj-26": [ "4-Curve", "PchCur", 0 ],
+            "obj-1::obj-44::obj-17::obj-26": [ "4-PitchEnvCurve", "PchCur", 0 ],
             "obj-1::obj-44::obj-19": [ "Overtone", "Overtone", 0 ],
             "obj-1::obj-44::obj-24": [ "Overdrive", "Overdrive", 0 ],
             "obj-1::obj-44::obj-2::obj-1::obj-11": [ "4-OscSemi", "Semi", 0 ],
@@ -694,14 +694,6 @@
             "obj-24": [ "Overwrite", "Overwrite", 0 ],
             "obj-29": [ "Write", "Write", 0 ],
             "obj-30": [ "Read", "Read", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-1::obj-17::obj-19": {
                     "parameter_longname": "Overtone[3]"

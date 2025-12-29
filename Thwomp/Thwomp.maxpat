@@ -247,7 +247,7 @@
             "obj-1::obj-1::obj-17::obj-12::obj-7": [ "3-Filt", "Filt", 0 ],
             "obj-1::obj-1::obj-17::obj-17::obj-17": [ "3-PitchEnvAmt", "PchAmt", 0 ],
             "obj-1::obj-1::obj-17::obj-17::obj-18": [ "3-PitchEnvDur", "PchDur", 0 ],
-            "obj-1::obj-1::obj-17::obj-17::obj-26": [ "3-Curve", "PchCur", 0 ],
+            "obj-1::obj-1::obj-17::obj-17::obj-26": [ "3-PitchEnvCurve", "PchCur", 0 ],
             "obj-1::obj-1::obj-17::obj-19": [ "Overtone[3]", "Overtone", 0 ],
             "obj-1::obj-1::obj-17::obj-24": [ "Overdrive[3]", "Overdrive", 0 ],
             "obj-1::obj-1::obj-17::obj-2::obj-1::obj-11": [ "3-OscSemi", "Semi", 0 ],
@@ -255,7 +255,7 @@
             "obj-1::obj-1::obj-17::obj-2::obj-5": [ "3-OscNote", "Note", 0 ],
             "obj-1::obj-1::obj-17::obj-4::obj-3": [ "3-AmpDecay", "Decay", 0 ],
             "obj-1::obj-1::obj-17::obj-4::obj-7": [ "3-AmpAttack", "Attack", 0 ],
-            "obj-1::obj-1::obj-17::obj-5": [ "3-OscGain", "Gain", 0 ],
+            "obj-1::obj-1::obj-17::obj-5": [ "3-Gain", "Gain", 0 ],
             "obj-1::obj-1::obj-17::obj-7": [ "3-Osc", "Osc", 0 ],
             "obj-1::obj-1::obj-17::obj-9": [ "3-OscShape", "Shape", 0 ],
             "obj-1::obj-1::obj-1::obj-12::obj-1::obj-1": [ "1-FiltFreq", "Freq", 0 ],
@@ -264,7 +264,7 @@
             "obj-1::obj-1::obj-1::obj-12::obj-7": [ "1-Filt", "Filt", 0 ],
             "obj-1::obj-1::obj-1::obj-17::obj-17": [ "1-PitchEnvAmt", "PchAmt", 0 ],
             "obj-1::obj-1::obj-1::obj-17::obj-18": [ "1-PitchEnvDur", "PchDur", 0 ],
-            "obj-1::obj-1::obj-1::obj-17::obj-26": [ "1-Curve", "PchCur", 0 ],
+            "obj-1::obj-1::obj-1::obj-17::obj-26": [ "1-PitchEnvCurve", "PchCur", 0 ],
             "obj-1::obj-1::obj-1::obj-19": [ "Overtone[1]", "Overtone", 0 ],
             "obj-1::obj-1::obj-1::obj-24": [ "Overdrive[1]", "Overdrive", 0 ],
             "obj-1::obj-1::obj-1::obj-2::obj-1::obj-11": [ "1-OscSemi", "Semi", 0 ],
@@ -272,7 +272,7 @@
             "obj-1::obj-1::obj-1::obj-2::obj-5": [ "1-OscNote", "Note", 0 ],
             "obj-1::obj-1::obj-1::obj-4::obj-3": [ "1-AmpDecay", "Decay", 0 ],
             "obj-1::obj-1::obj-1::obj-4::obj-7": [ "1-AmpAttack", "Attack", 0 ],
-            "obj-1::obj-1::obj-1::obj-5": [ "1-OscGain", "Gain", 0 ],
+            "obj-1::obj-1::obj-1::obj-5": [ "1-Gain", "Gain", 0 ],
             "obj-1::obj-1::obj-1::obj-7": [ "1-Osc", "Osc", 0 ],
             "obj-1::obj-1::obj-1::obj-9": [ "1-OscShape", "Shape", 0 ],
             "obj-1::obj-1::obj-3::obj-12::obj-1::obj-1": [ "2-FiltFreq", "Freq", 0 ],
@@ -281,7 +281,7 @@
             "obj-1::obj-1::obj-3::obj-12::obj-7": [ "2-Filt", "Filt", 0 ],
             "obj-1::obj-1::obj-3::obj-17::obj-17": [ "2-PitchEnvAmt", "PchAmt", 0 ],
             "obj-1::obj-1::obj-3::obj-17::obj-18": [ "2-PitchEnvDur", "PchDur", 0 ],
-            "obj-1::obj-1::obj-3::obj-17::obj-26": [ "2-Curve", "PchCur", 0 ],
+            "obj-1::obj-1::obj-3::obj-17::obj-26": [ "2-PitchEnvCurve", "PchCur", 0 ],
             "obj-1::obj-1::obj-3::obj-19": [ "Overtone[2]", "Overtone", 0 ],
             "obj-1::obj-1::obj-3::obj-24": [ "Overdrive[2]", "Overdrive", 0 ],
             "obj-1::obj-1::obj-3::obj-2::obj-1::obj-11": [ "2-OscSemi", "Semi", 0 ],
@@ -289,7 +289,7 @@
             "obj-1::obj-1::obj-3::obj-2::obj-5": [ "2-OscNote", "Note", 0 ],
             "obj-1::obj-1::obj-3::obj-4::obj-3": [ "2-AmpDecay", "Decay", 0 ],
             "obj-1::obj-1::obj-3::obj-4::obj-7": [ "2-AmpAttack", "Attack", 0 ],
-            "obj-1::obj-1::obj-3::obj-5": [ "2-OscGain", "Gain", 0 ],
+            "obj-1::obj-1::obj-3::obj-5": [ "2-Gain", "Gain", 0 ],
             "obj-1::obj-1::obj-3::obj-7": [ "2-Osc", "Osc", 0 ],
             "obj-1::obj-1::obj-3::obj-9": [ "2-OscShape", "Shape", 0 ],
             "obj-1::obj-1::obj-44::obj-12::obj-1::obj-1": [ "4-FiltFreq", "Freq", 0 ],
@@ -298,7 +298,7 @@
             "obj-1::obj-1::obj-44::obj-12::obj-7": [ "4-Filt", "Filt", 0 ],
             "obj-1::obj-1::obj-44::obj-17::obj-17": [ "4-PitchEnvAmt", "PchAmt", 0 ],
             "obj-1::obj-1::obj-44::obj-17::obj-18": [ "4-PitchEnvDur", "PchDur", 0 ],
-            "obj-1::obj-1::obj-44::obj-17::obj-26": [ "4-Curve", "PchCur", 0 ],
+            "obj-1::obj-1::obj-44::obj-17::obj-26": [ "4-PitchEnvCurve", "PchCur", 0 ],
             "obj-1::obj-1::obj-44::obj-19": [ "Overtone", "Overtone", 0 ],
             "obj-1::obj-1::obj-44::obj-24": [ "Overdrive", "Overdrive", 0 ],
             "obj-1::obj-1::obj-44::obj-2::obj-1::obj-11": [ "4-OscSemi", "Semi", 0 ],
@@ -306,12 +306,20 @@
             "obj-1::obj-1::obj-44::obj-2::obj-5": [ "4-OscNote", "Note", 0 ],
             "obj-1::obj-1::obj-44::obj-4::obj-3": [ "4-AmpDecay", "Decay", 0 ],
             "obj-1::obj-1::obj-44::obj-4::obj-7": [ "4-AmpAttack", "Attack", 0 ],
-            "obj-1::obj-1::obj-44::obj-5": [ "4-OscGain", "Gain", 0 ],
+            "obj-1::obj-1::obj-44::obj-5": [ "4-Gain", "Gain", 0 ],
             "obj-1::obj-1::obj-44::obj-7": [ "4-Osc", "Osc", 0 ],
             "obj-1::obj-1::obj-44::obj-9": [ "4-OscShape", "Shape", 0 ],
             "obj-1::obj-24": [ "Overwrite", "Overwrite", 0 ],
             "obj-1::obj-29": [ "Write", "Write", 0 ],
             "obj-1::obj-30": [ "Read", "Read", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-1::obj-1::obj-17::obj-19": {
                     "parameter_longname": "Overtone[3]"
@@ -319,29 +327,17 @@
                 "obj-1::obj-1::obj-17::obj-24": {
                     "parameter_longname": "Overdrive[3]"
                 },
-                "obj-1::obj-1::obj-17::obj-5": {
-                    "parameter_longname": "3-OscGain"
-                },
                 "obj-1::obj-1::obj-1::obj-19": {
                     "parameter_longname": "Overtone[1]"
                 },
                 "obj-1::obj-1::obj-1::obj-24": {
                     "parameter_longname": "Overdrive[1]"
                 },
-                "obj-1::obj-1::obj-1::obj-5": {
-                    "parameter_longname": "1-OscGain"
-                },
                 "obj-1::obj-1::obj-3::obj-19": {
                     "parameter_longname": "Overtone[2]"
                 },
                 "obj-1::obj-1::obj-3::obj-24": {
                     "parameter_longname": "Overdrive[2]"
-                },
-                "obj-1::obj-1::obj-3::obj-5": {
-                    "parameter_longname": "2-OscGain"
-                },
-                "obj-1::obj-1::obj-44::obj-5": {
-                    "parameter_longname": "4-OscGain"
                 }
             },
             "inherited_shortname": 1
