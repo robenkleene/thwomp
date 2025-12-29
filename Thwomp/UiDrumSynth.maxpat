@@ -23,7 +23,7 @@
                     "maxclass": "live.line",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 201.0, 3.0, 5.0, 100.0 ],
+                    "patching_rect": [ 680.0, 152.0, 5.0, 100.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 144.0, 0.0, 8.0, 160.0 ]
                 }
@@ -688,6 +688,14 @@
             "obj-5": [ "#1-Gain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
