@@ -18,6 +18,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-7",
+                    "maxclass": "newobj",
+                    "numinlets": 5,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 144.0, 160.0, 89.0, 22.0 ],
+                    "text": "zmap 0. 1. -1 1"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-1",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -207,20 +218,9 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 8.0, 136.0, 85.0, 22.0 ],
+                    "patching_rect": [ 8.0, 248.0, 85.0, 22.0 ],
                     "text": "p FunctionEnv",
                     "varname": "FunctionEnv[1]"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-21",
-                    "linecount": 6,
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 304.0, 8.0, 150.0, 87.0 ],
-                    "text": "Curve values of zero are ignored to avoid restoring parameters from overwriting a set curve. E.g., a value of 0 means ignore this value."
                 }
             },
             {
@@ -230,7 +230,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 144.0, 80.0, 81.0, 22.0 ],
+                    "patching_rect": [ 144.0, 192.0, 81.0, 22.0 ],
                     "text": "setcurve 1 $1"
                 }
             },
@@ -244,21 +244,21 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 240.0, 8.0, 41.0, 48.0 ],
+                    "patching_rect": [ 128.0, 8.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 112.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "#1-Curve",
-                            "parameter_mmax": 1.0,
-                            "parameter_mmin": -1.0,
+                            "parameter_longname": "#1-PitchEnvCurve",
+                            "parameter_mmax": 100.0,
+                            "parameter_mmin": -100.0,
                             "parameter_modmode": 3,
                             "parameter_shortname": "PchCur",
                             "parameter_type": 0,
-                            "parameter_unitstyle": 1
+                            "parameter_unitstyle": 5
                         }
                     },
-                    "varname": "#1-Curve"
+                    "varname": "#1-PitchEnvCurve"
                 }
             },
             {
@@ -268,11 +268,11 @@
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 472.0, 40.0, 56.0, 22.0 ],
+                    "patching_rect": [ 472.0, 24.0, 56.0, 22.0 ],
                     "restore": {
                         "#1-Amt": [ 0.0 ],
-                        "#1-Curve": [ 0.0 ],
-                        "#1-Dur": [ 0.0 ]
+                        "#1-Dur": [ 0.0 ],
+                        "#1-PitchEnvCurve": [ 100.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u627002945"
@@ -352,7 +352,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 48.0, 200.0, 30.0, 30.0 ]
+                    "patching_rect": [ 48.0, 312.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -363,7 +363,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 8.0, 200.0, 30.0, 30.0 ]
+                    "patching_rect": [ 8.0, 312.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -375,7 +375,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 48.0, 80.0, 87.0, 20.0 ],
+                    "patching_rect": [ 48.0, 192.0, 87.0, 20.0 ],
                     "text": "setduration $1"
                 }
             }
@@ -413,8 +413,8 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-6", 0 ],
-                    "source": [ "obj-26", 0 ]
+                    "destination": [ "obj-7", 0 ],
+                    "source": [ "obj-26", 1 ]
                 }
             },
             {
@@ -422,20 +422,18 @@
                     "destination": [ "obj-1", 0 ],
                     "source": [ "obj-6", 0 ]
                 }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-6", 0 ],
+                    "source": [ "obj-7", 0 ]
+                }
             }
         ],
         "parameters": {
             "obj-17": [ "#1-PitchEnvAmt", "PchAmt", 0 ],
             "obj-18": [ "#1-PitchEnvDur", "PchDur", 0 ],
-            "obj-26": [ "#1-Curve", "PchCur", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
+            "obj-26": [ "#1-PitchEnvCurve", "PchCur", 0 ],
             "inherited_shortname": 1
         },
         "autosave": 0
