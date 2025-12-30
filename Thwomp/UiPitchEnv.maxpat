@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 861.0, 343.0, 814.0, 738.0 ],
+        "rect": [ 918.0, 364.0, 814.0, 738.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -18,13 +18,24 @@
         "boxes": [
             {
                 "box": {
-                    "id": "obj-8",
-                    "maxclass": "newobj",
+                    "id": "obj-21",
+                    "maxclass": "message",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 136.0, 288.0, 55.0, 22.0 ],
-                    "text": "pak 0. 0."
+                    "patching_rect": [ 240.0, 336.0, 81.0, 22.0 ],
+                    "text": "setcurve 1 $1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-13",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 136.0, 216.0, 69.0, 22.0 ],
+                    "text": "bondo 0. 0."
                 }
             },
             {
@@ -45,8 +56,8 @@
                     "numinlets": 5,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 152.0, 160.0, 89.0, 22.0 ],
-                    "text": "zmap 0. 1. -1 1"
+                    "patching_rect": [ 152.0, 112.0, 95.0, 22.0 ],
+                    "text": "zmap 0. 1. -1. 1."
                 }
             },
             {
@@ -85,10 +96,10 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 472.0, 24.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-Amt": [ 0.0 ],
-                        "#1-Dur": [ 0.6446400165101361 ],
-                        "#1-Function": [ 0.6446400284767151, 0.0, 1.0, "curve" ],
-                        "#1-PitchEnvCurve": [ 37.00787401574808 ]
+                        "#1-Amt": [ 0.11297409851011478 ],
+                        "#1-Dur": [ 189.86809904943308 ],
+                        "#1-Function": [ 189.86810302734375, 0.0, 1.0, 0.0, 1.0, 0, 0.0, 189.86809904943308, 0.0, 0, -0.5905511811023588, "curve" ],
+                        "#1-PitchEnvCurve": [ -59.05511811023588 ]
                     },
                     "text": "autopattr",
                     "varname": "u627002945"
@@ -190,8 +201,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 136.0, 336.0, 111.0, 22.0 ],
-                    "text": "clear, 0. 1. 0 $1 0 0"
+                    "patching_rect": [ 136.0, 336.0, 94.0, 22.0 ],
+                    "text": "clear, 0. 1., $1 0"
                 }
             },
             {
@@ -203,15 +214,16 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 48.0, 336.0, 81.0, 22.0 ],
-                    "text": "setdomain $1"
+                    "text": "domain $1"
                 }
             },
             {
                 "box": {
+                    "addpoints_with_curve": [ 0.0, 1.0, 0, 0.0, 189.86809904943308, 0.0, 0, -0.5905511811023588 ],
                     "annotation": "The graph of the pitch envelope, the bottom is zero (no effect), and the top is the full amount.",
                     "annotation_name": "Pitch Envelope Graph",
                     "classic_curve": 1,
-                    "domain": 0.6446400284767151,
+                    "domain": 189.86810302734375,
                     "id": "obj-30",
                     "maxclass": "function",
                     "mode": 1,
@@ -225,6 +237,18 @@
             }
         ],
         "lines": [
+            {
+                "patchline": {
+                    "destination": [ "obj-21", 0 ],
+                    "source": [ "obj-13", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-28", 0 ],
+                    "source": [ "obj-13", 1 ]
+                }
+            },
             {
                 "patchline": {
                     "destination": [ "obj-30", 0 ],
@@ -241,6 +265,12 @@
                 "patchline": {
                     "destination": [ "obj-5", 0 ],
                     "source": [ "obj-18", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-30", 0 ],
+                    "source": [ "obj-21", 0 ]
                 }
             },
             {
@@ -269,26 +299,20 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-13", 1 ],
+                    "source": [ "obj-5", 1 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-29", 0 ],
                     "source": [ "obj-5", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-8", 0 ],
-                    "source": [ "obj-5", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-8", 1 ],
+                    "destination": [ "obj-13", 0 ],
                     "source": [ "obj-7", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-28", 0 ],
-                    "source": [ "obj-8", 0 ]
                 }
             }
         ],
