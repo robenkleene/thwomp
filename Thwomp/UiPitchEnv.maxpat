@@ -72,7 +72,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 128.0, 8.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 112.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 0.0, 56.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "#1-PitchEnvCurve",
@@ -96,7 +96,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 472.0, 24.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-Amt": [ 0.11297409851011478 ],
+                        "#1-Amt": [ 0.1129740985101147 ],
                         "#1-Dur": [ 189.86809904943308 ],
                         "#1-Function": [ 189.86810302734375, 0.0, 1.0, 0.0, 1.0, 0, 0.0, 189.86809904943308, 0.0, 0, -0.5905511811023588, "curve" ],
                         "#1-PitchEnvCurve": [ -59.05511811023588 ]
@@ -144,7 +144,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 88.0, 8.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 56.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 0.0, 112.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 5.0,
@@ -320,14 +320,6 @@
             "obj-17": [ "#1-PitchEnvAmt", "PchAmt", 0 ],
             "obj-18": [ "#1-PitchEnvDur", "PchDur", 0 ],
             "obj-26": [ "#1-PitchEnvCurve", "PchCur", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0

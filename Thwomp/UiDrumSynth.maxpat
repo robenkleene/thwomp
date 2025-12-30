@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 831.0, 187.0, 1113.0, 1033.0 ],
+        "rect": [ 501.0, 158.0, 1113.0, 1033.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -41,7 +41,7 @@
                     "presentation_rect": [ 152.0, 56.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "Overtone",
+                            "parameter_longname": "#1-Overtone",
                             "parameter_mmax": 100.0,
                             "parameter_modmode": 4,
                             "parameter_shortname": "Overtone",
@@ -49,7 +49,7 @@
                             "parameter_unitstyle": 5
                         }
                     },
-                    "varname": "Overtone"
+                    "varname": "#1-Overtone"
                 }
             },
             {
@@ -65,7 +65,7 @@
                     "presentation_rect": [ 152.0, 0.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "Overdrive",
+                            "parameter_longname": "#1-Overdrive",
                             "parameter_mmax": 10.0,
                             "parameter_mmin": 1.0,
                             "parameter_modmode": 4,
@@ -74,7 +74,7 @@
                             "parameter_unitstyle": 1
                         }
                     },
-                    "varname": "Overdrive"
+                    "varname": "#1-Overdrive"
                 }
             },
             {
@@ -134,9 +134,9 @@
                     "restore": {
                         "#1-Gain": [ 0.0 ],
                         "#1-Osc": [ 0.0 ],
-                        "#1-Shape": [ 0.0 ],
-                        "Overdrive": [ 1.0 ],
-                        "Overtone": [ 0.0 ]
+                        "#1-Overdrive": [ 1.0 ],
+                        "#1-Overtone": [ 0.0 ],
+                        "#1-Shape": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u676004119"
@@ -476,7 +476,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 304.0, 360.0, 128.0, 160.0 ],
+                    "patching_rect": [ 304.0, 360.0, 40.0, 160.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 48.0, 0.0, 40.0, 160.0 ],
                     "varname": "PitchEnv",
@@ -678,8 +678,8 @@
             "obj-17::obj-17": [ "#1-PitchEnvAmt", "PchAmt", 0 ],
             "obj-17::obj-18": [ "#1-PitchEnvDur", "PchDur", 0 ],
             "obj-17::obj-26": [ "#1-PitchEnvCurve", "PchCur", 0 ],
-            "obj-19": [ "Overtone", "Overtone", 0 ],
-            "obj-24": [ "Overdrive", "Overdrive", 0 ],
+            "obj-19": [ "#1-Overtone", "Overtone", 0 ],
+            "obj-24": [ "#1-Overdrive", "Overdrive", 0 ],
             "obj-2::obj-1::obj-11": [ "#1-OscSemi", "Semi", 0 ],
             "obj-2::obj-1::obj-14": [ "#1-OscFreq", "Freq", 0 ],
             "obj-2::obj-5": [ "#1-OscNote", "Note", 0 ],
@@ -688,14 +688,6 @@
             "obj-5": [ "#1-Gain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
