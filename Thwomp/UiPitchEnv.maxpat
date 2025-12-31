@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 918.0, 364.0, 814.0, 738.0 ],
+        "rect": [ 1137.0, 354.0, 814.0, 738.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -18,35 +18,35 @@
         "boxes": [
             {
                 "box": {
-                    "id": "obj-21",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 240.0, 336.0, 81.0, 22.0 ],
-                    "text": "setcurve 1 $1"
+                    "id": "obj-12",
+                    "linecount": 6,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 40.0, 392.0, 150.0, 87.0 ],
+                    "text": "Send first `1` representing a starting point at `x = 0, y = 1.0`, then a second point with three numbers: `y = 0`, `x = duration`, `curve factor`. "
                 }
             },
             {
                 "box": {
-                    "id": "obj-13",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "patching_rect": [ 136.0, 216.0, 69.0, 22.0 ],
-                    "text": "bondo 0. 0."
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-5",
+                    "id": "obj-10",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 2,
-                    "outlettype": [ "float", "float" ],
-                    "patching_rect": [ 48.0, 96.0, 29.5, 22.0 ],
-                    "text": "t f f"
+                    "outlettype": [ "", "int" ],
+                    "patching_rect": [ 8.0, 392.0, 29.5, 22.0 ],
+                    "text": "t l 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-8",
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 8.0, 320.0, 74.0, 22.0 ],
+                    "text": "pack 0. 0. 0."
                 }
             },
             {
@@ -96,10 +96,9 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 472.0, 24.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-Amt": [ 0.1129740985101147 ],
-                        "#1-Dur": [ 189.86809904943308 ],
-                        "#1-Function": [ 189.86810302734375, 0.0, 1.0, 0.0, 1.0, 0, 0.0, 189.86809904943308, 0.0, 0, -0.5905511811023588, "curve" ],
-                        "#1-PitchEnvCurve": [ -59.05511811023588 ]
+                        "#1-Amt": [ 0.11297409851011463 ],
+                        "#1-Dur": [ 104.12666141662342 ],
+                        "#1-PitchEnvCurve": [ -59.055118110235874 ]
                     },
                     "text": "autopattr",
                     "varname": "u627002945"
@@ -192,66 +191,24 @@
                     "numoutlets": 0,
                     "patching_rect": [ 8.0, 552.0, 30.0, 30.0 ]
                 }
-            },
-            {
-                "box": {
-                    "fontsize": 12.0,
-                    "id": "obj-28",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 136.0, 336.0, 94.0, 22.0 ],
-                    "text": "clear, 0. 1., $1 0"
-                }
-            },
-            {
-                "box": {
-                    "fontsize": 12.0,
-                    "id": "obj-29",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 48.0, 336.0, 81.0, 22.0 ],
-                    "text": "domain $1"
-                }
-            },
-            {
-                "box": {
-                    "addpoints_with_curve": [ 0.0, 1.0, 0, 0.0, 189.86809904943308, 0.0, 0, -0.5905511811023588 ],
-                    "annotation": "The graph of the pitch envelope, the bottom is zero (no effect), and the top is the full amount.",
-                    "annotation_name": "Pitch Envelope Graph",
-                    "classic_curve": 1,
-                    "domain": 189.86810302734375,
-                    "id": "obj-30",
-                    "maxclass": "function",
-                    "mode": 1,
-                    "numinlets": 1,
-                    "numoutlets": 4,
-                    "outlettype": [ "float", "", "", "bang" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 8.0, 384.0, 195.0, 105.0 ],
-                    "varname": "#1-Function"
-                }
             }
         ],
         "lines": [
             {
                 "patchline": {
-                    "destination": [ "obj-21", 0 ],
-                    "source": [ "obj-13", 0 ]
+                    "destination": [ "obj-2", 0 ],
+                    "source": [ "obj-10", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-28", 0 ],
-                    "source": [ "obj-13", 1 ]
+                    "destination": [ "obj-2", 0 ],
+                    "source": [ "obj-10", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-30", 0 ],
+                    "destination": [ "obj-8", 0 ],
                     "source": [ "obj-16", 0 ]
                 }
             },
@@ -263,14 +220,8 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-5", 0 ],
+                    "destination": [ "obj-8", 1 ],
                     "source": [ "obj-18", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-30", 0 ],
-                    "source": [ "obj-21", 0 ]
                 }
             },
             {
@@ -281,38 +232,14 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-30", 0 ],
-                    "source": [ "obj-28", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-30", 0 ],
-                    "source": [ "obj-29", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-2", 0 ],
-                    "source": [ "obj-30", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-13", 1 ],
-                    "source": [ "obj-5", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-29", 0 ],
-                    "source": [ "obj-5", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-13", 0 ],
+                    "destination": [ "obj-8", 2 ],
                     "source": [ "obj-7", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-10", 0 ],
+                    "source": [ "obj-8", 0 ]
                 }
             }
         ],
@@ -320,6 +247,14 @@
             "obj-17": [ "#1-PitchEnvAmt", "PchAmt", 0 ],
             "obj-18": [ "#1-PitchEnvDur", "PchDur", 0 ],
             "obj-26": [ "#1-PitchEnvCurve", "PchCur", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
