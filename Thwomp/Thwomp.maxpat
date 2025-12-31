@@ -312,6 +312,14 @@
             "obj-1::obj-24": [ "Overwrite", "Overwrite", 0 ],
             "obj-1::obj-29": [ "Write", "Write", 0 ],
             "obj-1::obj-30": [ "Read", "Read", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
