@@ -35,7 +35,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 368.0, 88.0, 150.0, 141.0 ],
+                    "patching_rect": [ 400.0, 312.0, 151.0, 141.0 ],
                     "text": "For the reset case, we set the `cycle~` to `0` (so the frequency matches `phasor~` input to inlet 2.\n\nThe `curve~` \"bumps\" the phase forward by creating a short spike and multiplying it by `100` and adding it to the frequency, this pushes the phase forward to a new cycle reseting the oscillator."
                 }
             },
@@ -193,7 +193,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 112.0, 48.0, 120.0, 174.0 ],
+                    "patching_rect": [ 112.0, 48.0, 122.0, 174.0 ],
                     "text": "For non-reset case, we send a `0` to set the phase, and just use the raw ferquency as for the oscillator.\n\nNote that sending the `0` to set the phase only overrides a single sample, e.g., \n`sin(0.723) > sin(0.728) > sin(0.733)` `sin(0.723) > 0 > sin(0.733)`. I.e., it doesn't *also* reset the phase of the oscillator."
                 }
             },

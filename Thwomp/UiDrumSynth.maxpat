@@ -42,7 +42,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "#1-Reset",
+                            "parameter_longname": "#1-OscReset",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Reset",
@@ -51,7 +51,7 @@
                     },
                     "text": "Reset",
                     "texton": "Reset",
-                    "varname": "#1-Reset"
+                    "varname": "#1-OscReset"
                 }
             },
             {
@@ -172,9 +172,9 @@
                     "restore": {
                         "#1-Gain": [ 0.0 ],
                         "#1-Osc": [ 0.0 ],
+                        "#1-OscReset": [ 0.0 ],
                         "#1-Overdrive": [ 1.0 ],
                         "#1-Overtone": [ 0.0 ],
-                        "#1-Reset": [ 0.0 ],
                         "#1-Shape": [ 0.0 ]
                     },
                     "text": "autopattr",
@@ -725,7 +725,7 @@
             "obj-17::obj-26": [ "#1-PitchEnvCurve", "PchCur", 0 ],
             "obj-19": [ "#1-Overtone", "Overtone", 0 ],
             "obj-24": [ "#1-Overdrive", "Overdrive", 0 ],
-            "obj-26": [ "#1-Reset", "Reset", 0 ],
+            "obj-26": [ "#1-OscReset", "Reset", 0 ],
             "obj-2::obj-1::obj-11": [ "#1-OscSemi", "Semi", 0 ],
             "obj-2::obj-1::obj-14": [ "#1-OscFreq", "Freq", 0 ],
             "obj-2::obj-5": [ "#1-OscNote", "Note", 0 ],
@@ -734,14 +734,6 @@
             "obj-5": [ "#1-Gain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
