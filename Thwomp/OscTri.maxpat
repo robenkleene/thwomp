@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 744.0, 415.0, 567.0, 561.0 ],
+        "rect": [ 1261.0, 404.0, 567.0, 561.0 ],
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
@@ -17,6 +17,21 @@
         "objectsnaponopen": 0,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-2",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 80.0, 8.0, 26.0, 20.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
+                    "text": "in 3"
+                }
+            },
             {
                 "box": {
                     "id": "obj-8",

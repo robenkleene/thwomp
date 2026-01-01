@@ -18,6 +18,44 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-27",
+                    "justification": 1,
+                    "maxclass": "live.line",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 664.0, 152.0, 5.0, 100.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 40.0, 0.0, 8.0, 160.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-26",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 464.0, 400.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 72.0, 32.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "#1-Reset",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Reset",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Reset",
+                    "texton": "Reset",
+                    "varname": "#1-Reset"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-14",
                     "justification": 1,
                     "maxclass": "live.line",
@@ -36,7 +74,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 480.0, 472.0, 41.0, 48.0 ],
+                    "patching_rect": [ 496.0, 472.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 152.0, 56.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -60,7 +98,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 552.0, 472.0, 41.0, 48.0 ],
+                    "patching_rect": [ 568.0, 472.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 152.0, 0.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -84,7 +122,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 560.0, 312.0, 150.0, 60.0 ],
+                    "patching_rect": [ 464.0, 304.0, 150.0, 60.0 ],
                     "text": "Without `deferlow` this was causing a message on startup for `no patcher <osc-patcher-name`"
                 }
             },
@@ -95,7 +133,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 504.0, 344.0, 54.0, 22.0 ],
+                    "patching_rect": [ 408.0, 336.0, 54.0, 22.0 ],
                     "text": "deferlow"
                 }
             },
@@ -118,7 +156,7 @@
                     "maxclass": "live.line",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 616.0, 152.0, 5.0, 100.0 ],
+                    "patching_rect": [ 632.0, 152.0, 5.0, 100.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 200.0, 0.0, 8.0, 104.0 ]
                 }
@@ -136,6 +174,7 @@
                         "#1-Osc": [ 0.0 ],
                         "#1-Overdrive": [ 1.0 ],
                         "#1-Overtone": [ 0.0 ],
+                        "#1-Reset": [ 0.0 ],
                         "#1-Shape": [ 0.0 ]
                     },
                     "text": "autopattr",
@@ -234,10 +273,10 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 504.0, 320.0, 40.0, 15.0 ],
+                    "patching_rect": [ 408.0, 312.0, 40.0, 15.0 ],
                     "pictures": [ "sine.svg", "updown.svg", "square.svg", "up.svg", "random.svg", "random.svg" ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 16.0, 32.0, 15.0 ],
+                    "presentation_rect": [ 0.0, 48.0, 32.0, 15.0 ],
                     "remapsvgcolors": 1,
                     "saved_attribute_attributes": {
                         "valueof": {
@@ -268,7 +307,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 184.0, 24.0, 32.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 32.0, 16.0 ],
+                    "presentation_rect": [ 0.0, 24.0, 32.0, 16.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -303,7 +342,7 @@
                     "outlettype": [ "", "" ],
                     "patching_rect": [ 248.0, 456.0, 40.0, 64.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 40.0, 40.0, 64.0 ],
+                    "presentation_rect": [ 0.0, 96.0, 40.0, 64.0 ],
                     "varname": "FreqRack",
                     "viewvisibility": 1
                 }
@@ -356,10 +395,10 @@
                 "box": {
                     "id": "obj-20",
                     "maxclass": "newobj",
-                    "numinlets": 9,
+                    "numinlets": 10,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 184.0, 536.0, 512.0, 22.0 ],
+                    "patching_rect": [ 184.0, 536.0, 520.0, 22.0 ],
                     "text": "poly~ Engine 8 @steal 1"
                 }
             },
@@ -440,7 +479,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 616.0, 416.0, 40.0, 104.0 ],
+                    "patching_rect": [ 632.0, 416.0, 40.0, 104.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 208.0, 0.0, 40.0, 104.0 ],
                     "varname": "AdEnv",
@@ -523,7 +562,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-20", 5 ],
+                    "destination": [ "obj-20", 6 ],
                     "source": [ "obj-19", 1 ]
                 }
             },
@@ -579,8 +618,14 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-20", 6 ],
+                    "destination": [ "obj-20", 7 ],
                     "source": [ "obj-24", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-20", 5 ],
+                    "source": [ "obj-26", 0 ]
                 }
             },
             {
@@ -623,13 +668,13 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-20", 8 ],
+                    "destination": [ "obj-20", 9 ],
                     "source": [ "obj-4", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-20", 7 ],
+                    "destination": [ "obj-20", 8 ],
                     "source": [ "obj-4", 0 ]
                 }
             },
@@ -680,6 +725,7 @@
             "obj-17::obj-26": [ "#1-PitchEnvCurve", "PchCur", 0 ],
             "obj-19": [ "#1-Overtone", "Overtone", 0 ],
             "obj-24": [ "#1-Overdrive", "Overdrive", 0 ],
+            "obj-26": [ "#1-Reset", "Reset", 0 ],
             "obj-2::obj-1::obj-11": [ "#1-OscSemi", "Semi", 0 ],
             "obj-2::obj-1::obj-14": [ "#1-OscFreq", "Freq", 0 ],
             "obj-2::obj-5": [ "#1-OscNote", "Note", 0 ],
