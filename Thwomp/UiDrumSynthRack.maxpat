@@ -632,6 +632,7 @@
             "obj-1::obj-17::obj-17::obj-26": [ "3-PitchEnvCurve", "PchCur", 0 ],
             "obj-1::obj-17::obj-19": [ "3-Overtone", "Overtone", 0 ],
             "obj-1::obj-17::obj-24": [ "3-Overdrive", "Overdrive", 0 ],
+            "obj-1::obj-17::obj-26": [ "3-OscReset", "Reset", 0 ],
             "obj-1::obj-17::obj-2::obj-1::obj-11": [ "3-OscSemi", "Semi", 0 ],
             "obj-1::obj-17::obj-2::obj-1::obj-14": [ "3-OscFreq", "Freq", 0 ],
             "obj-1::obj-17::obj-2::obj-5": [ "3-OscNote", "Note", 0 ],
@@ -649,6 +650,7 @@
             "obj-1::obj-1::obj-17::obj-26": [ "1-PitchEnvCurve", "PchCur", 0 ],
             "obj-1::obj-1::obj-19": [ "1-Overtone", "Overtone", 0 ],
             "obj-1::obj-1::obj-24": [ "1-Overdrive", "Overdrive", 0 ],
+            "obj-1::obj-1::obj-26": [ "1-OscReset", "Reset", 0 ],
             "obj-1::obj-1::obj-2::obj-1::obj-11": [ "1-OscSemi", "Semi", 0 ],
             "obj-1::obj-1::obj-2::obj-1::obj-14": [ "1-OscFreq", "Freq", 0 ],
             "obj-1::obj-1::obj-2::obj-5": [ "1-OscNote", "Note", 0 ],
@@ -666,6 +668,7 @@
             "obj-1::obj-3::obj-17::obj-26": [ "2-PitchEnvCurve", "PchCur", 0 ],
             "obj-1::obj-3::obj-19": [ "2-Overtone", "Overtone", 0 ],
             "obj-1::obj-3::obj-24": [ "2-Overdrive", "Overdrive", 0 ],
+            "obj-1::obj-3::obj-26": [ "2-OscReset", "Reset", 0 ],
             "obj-1::obj-3::obj-2::obj-1::obj-11": [ "2-OscSemi", "Semi", 0 ],
             "obj-1::obj-3::obj-2::obj-1::obj-14": [ "2-OscFreq", "Freq", 0 ],
             "obj-1::obj-3::obj-2::obj-5": [ "2-OscNote", "Note", 0 ],
@@ -683,6 +686,7 @@
             "obj-1::obj-44::obj-17::obj-26": [ "4-PitchEnvCurve", "PchCur", 0 ],
             "obj-1::obj-44::obj-19": [ "4-Overtone", "Overtone", 0 ],
             "obj-1::obj-44::obj-24": [ "4-Overdrive", "Overdrive", 0 ],
+            "obj-1::obj-44::obj-26": [ "4-OscReset", "Reset", 0 ],
             "obj-1::obj-44::obj-2::obj-1::obj-11": [ "4-OscSemi", "Semi", 0 ],
             "obj-1::obj-44::obj-2::obj-1::obj-14": [ "4-OscFreq", "Freq", 0 ],
             "obj-1::obj-44::obj-2::obj-5": [ "4-OscNote", "Note", 0 ],
@@ -694,6 +698,14 @@
             "obj-24": [ "Overwrite", "Overwrite", 0 ],
             "obj-29": [ "Write", "Write", 0 ],
             "obj-30": [ "Read", "Read", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
