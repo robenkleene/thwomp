@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 966.0, 294.0, 841.0, 980.0 ],
+        "rect": [ 1037.0, 213.0, 543.0, 980.0 ],
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
