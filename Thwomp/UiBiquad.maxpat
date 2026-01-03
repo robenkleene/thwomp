@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 517.0, 198.0, 601.0, 787.0 ],
+        "rect": [ 660.0, 216.0, 601.0, 787.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -44,7 +44,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 384.0, 240.0, 40.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 32.0, 0.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 0.0, 56.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 5.0,
@@ -72,7 +72,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 464.0, 240.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 72.0, 0.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 0.0, 112.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "#1-FiltQ",
@@ -166,7 +166,7 @@
                     "patching_rect": [ 184.0, 112.0, 48.0, 15.0 ],
                     "pictures": [ "highcut.svg", "lowcut.svg", "bandpass.svg", "notch.svg" ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 16.0, 32.0, 15.0 ],
+                    "presentation_rect": [ 0.0, 24.0, 32.0, 15.0 ],
                     "remapsvgcolors": 1,
                     "saved_attribute_attributes": {
                         "valueof": {
@@ -389,14 +389,6 @@
             "obj-1": [ "#1-FiltFreq", "Freq", 0 ],
             "obj-11": [ "#1-FiltQ", "Q", 0 ],
             "obj-6": [ "#1-FiltType", "Type", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0

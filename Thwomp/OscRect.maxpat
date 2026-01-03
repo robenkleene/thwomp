@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 609.0, 621.0, 310.0, 501.0 ],
+        "rect": [ 776.0, 386.0, 310.0, 501.0 ],
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
@@ -19,6 +19,43 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-4",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 56.0, 72.0, 37.0, 20.0 ],
+                    "text": "click~"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-3",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 40.0, 112.0, 35.0, 20.0 ],
+                    "text": "gate~"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-2",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 80.0, 8.0, 26.0, 20.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": [ "(int)", "toggle", "reset" ],
+                        "c": [ "(int)", "toggle", "reset" ]
+                    },
+                    "text": "in 3"
+                }
+            },
+            {
+                "box": {
                     "fontname": "Arial Bold",
                     "fontsize": 10.0,
                     "id": "obj-9",
@@ -26,7 +63,7 @@
                     "numinlets": 3,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 8.0, 40.0, 51.0, 20.0 ],
+                    "patching_rect": [ 8.0, 160.0, 51.0, 20.0 ],
                     "text": "rect~ 0."
                 }
             },
@@ -39,8 +76,8 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 48.0, 8.0, 26.0, 20.0 ],
                     "saved_object_attributes": {
-                        "attr_comment": "no-op",
-                        "c": "no-op"
+                        "attr_comment": [ "(bang)", "reset" ],
+                        "c": [ "(bang)", "reset" ]
                     },
                     "text": "in 2"
                 }
@@ -51,7 +88,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 8.0, 72.0, 38.0, 20.0 ],
+                    "patching_rect": [ 8.0, 192.0, 38.0, 20.0 ],
                     "saved_object_attributes": {
                         "attr_comment": [ "(signal)", "mono" ],
                         "c": [ "(signal)", "mono" ]
@@ -80,6 +117,30 @@
                 "patchline": {
                     "destination": [ "obj-9", 0 ],
                     "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-3", 0 ],
+                    "source": [ "obj-2", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-9", 2 ],
+                    "source": [ "obj-3", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-3", 1 ],
+                    "source": [ "obj-4", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-4", 0 ],
+                    "source": [ "obj-8", 0 ]
                 }
             },
             {

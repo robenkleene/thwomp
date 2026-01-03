@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1111.0, 411.0, 634.0, 724.0 ],
+        "rect": [ 1137.0, 354.0, 814.0, 738.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -18,15 +18,87 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-12",
+                    "linecount": 6,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 40.0, 392.0, 150.0, 87.0 ],
+                    "text": "Send first `1` representing a starting point at `x = 0, y = 1.0`, then a second point with three numbers: `y = 0`, `x = duration`, `curve factor`. "
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-10",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "int" ],
+                    "patching_rect": [ 8.0, 392.0, 29.5, 22.0 ],
+                    "text": "t l 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-8",
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 8.0, 320.0, 74.0, 22.0 ],
+                    "text": "pack 0. 0. 0."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-7",
+                    "maxclass": "newobj",
+                    "numinlets": 5,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 152.0, 112.0, 95.0, 22.0 ],
+                    "text": "zmap 0. 1. -1. 1."
+                }
+            },
+            {
+                "box": {
+                    "annotation": "The curve factor for the pitch envelope, values greater than zero produce an exponential curve, and values less than zero create a logarithmic curve. A value of zero creates a straight line, and the farther the value is from zero, the steeper the curve.",
+                    "annotation_name": "Pitch Envelope Curve",
+                    "id": "obj-26",
+                    "maxclass": "live.dial",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 128.0, 8.0, 41.0, 48.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 56.0, 41.0, 48.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_longname": "#1-PitchEnvCurve",
+                            "parameter_mmax": 100.0,
+                            "parameter_mmin": -100.0,
+                            "parameter_modmode": 3,
+                            "parameter_shortname": "PchCur",
+                            "parameter_type": 0,
+                            "parameter_unitstyle": 5
+                        }
+                    },
+                    "varname": "#1-PitchEnvCurve"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-4",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 312.0, 16.0, 56.0, 22.0 ],
+                    "patching_rect": [ 472.0, 24.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-Amt": [ 0.0 ],
-                        "#1-Dur": [ 0.0 ]
+                        "#1-Amt": [ 0.11297409851011463 ],
+                        "#1-Dur": [ 104.12666141662342 ],
+                        "#1-PitchEnvCurve": [ -59.055118110235874 ]
                     },
                     "text": "autopattr",
                     "varname": "u627002945"
@@ -44,14 +116,14 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 48.0, 8.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 40.0, 112.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 5.0,
                             "parameter_longname": "#1-PitchEnvDur",
                             "parameter_mmax": 15000.0,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Dur",
+                            "parameter_shortname": "PchDur",
                             "parameter_type": 0,
                             "parameter_unitstyle": 2
                         }
@@ -78,7 +150,7 @@
                             "parameter_longname": "#1-PitchEnvAmt",
                             "parameter_mmax": 15000.0,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Amt",
+                            "parameter_shortname": "PchAmt",
                             "parameter_type": 0,
                             "parameter_unitstyle": 3
                         }
@@ -106,7 +178,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 48.0, 320.0, 30.0, 30.0 ]
+                    "patching_rect": [ 88.0, 552.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -117,57 +189,26 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 8.0, 320.0, 30.0, 30.0 ]
-                }
-            },
-            {
-                "box": {
-                    "args": [ "#1" ],
-                    "bgmode": 0,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-20",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "UiFunctionEnv.maxpat",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 8.0, 120.0, 211.0, 143.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 152.0, 112.0 ],
-                    "varname": "FunctionEnv",
-                    "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
-                    "id": "obj-10",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 48.0, 80.0, 87.0, 20.0 ],
-                    "text": "setduration $1"
+                    "patching_rect": [ 8.0, 552.0, 30.0, 30.0 ]
                 }
             }
         ],
         "lines": [
             {
                 "patchline": {
-                    "destination": [ "obj-20", 0 ],
+                    "destination": [ "obj-2", 0 ],
+                    "source": [ "obj-10", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-2", 0 ],
                     "source": [ "obj-10", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-20", 0 ],
+                    "destination": [ "obj-8", 0 ],
                     "source": [ "obj-16", 0 ]
                 }
             },
@@ -179,21 +220,33 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-10", 0 ],
+                    "destination": [ "obj-8", 1 ],
                     "source": [ "obj-18", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-2", 0 ],
-                    "source": [ "obj-20", 0 ]
+                    "destination": [ "obj-7", 0 ],
+                    "source": [ "obj-26", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-8", 2 ],
+                    "source": [ "obj-7", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-10", 0 ],
+                    "source": [ "obj-8", 0 ]
                 }
             }
         ],
         "parameters": {
-            "obj-17": [ "#1-PitchEnvAmt", "Amt", 0 ],
-            "obj-18": [ "#1-PitchEnvDur", "Dur", 0 ],
-            "obj-20::obj-30": [ "#1-Function", "Function", 1 ],
+            "obj-17": [ "#1-PitchEnvAmt", "PchAmt", 0 ],
+            "obj-18": [ "#1-PitchEnvDur", "PchDur", 0 ],
+            "obj-26": [ "#1-PitchEnvCurve", "PchCur", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
