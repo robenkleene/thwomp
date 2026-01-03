@@ -69,16 +69,16 @@ To open in Max directly without Live, open `Thwomp/Thwomp.maxpat`, Thwomp has so
 ### Waveform
 
 - **Osc** Toggle: Toggle the oscillator on or off
-- Waveform
-- **Note** Toggle: Toggle whether to use the incoming MIDI note frequency (when off, the frequency is specified)
+- Waveform: The waveform of the oscillator
+- **Note** Toggle: Toggle whether to use the incoming MIDI note frequency (when off, the frequency is specified by the **Freq** control)
 - **Freq**: Specify a frequency (only visible when **note** is off)
 - **Semi**: Specify a semitone offset (only visible when **note** is on)
 
 ### Pitch Envelope
 
-- Pitch Envelope Graph
-- **Amount**: Pitch envelope amount
-- **Duration**: Pitch envelope decay
+- **PchDur**: Pitch envelope duration
+- **PchCur**: Pitch envelope curve
+- **PchAmt**: Pitch envelope amount
 
 ### Filter
 
