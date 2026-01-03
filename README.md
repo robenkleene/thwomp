@@ -87,6 +87,13 @@ To open in Max directly without Live, open `Thwomp/Thwomp.maxpat`, Thwomp has so
 - **Freq**: Filter cutoff
 - **Q**: Filter Q
 
+### Effects
+
+- **Overdrive:** Overdrive distortion
+- **Overtone:** Overtone harmonics
+
+The Overdrive and Overtone implementations were borrowed from the DS Kick Ableton Max for Live device.
+
 ### Envelope
 
 - **Attack**: Attack
