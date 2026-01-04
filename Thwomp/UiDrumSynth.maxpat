@@ -9,13 +9,24 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 501.0, 158.0, 1113.0, 1033.0 ],
+        "rect": [ 639.0, 161.0, 1113.0, 1033.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "toolbars_unpinned_last_save": 4,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-31",
+                    "linecount": 16,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 680.0, 536.0, 150.0, 221.0 ],
+                    "text": "Only use a single `poly~` voice (the default), because with multiple voices, overlapping decays introduces variation (this can be simulated by playing consecutive notes with long decays quickly which a voice count `>1`.\n\n`@steal 1` is necessary with to prefer new notes (otherwise new notes won't start if a note is playing). "
+                }
+            },
             {
                 "box": {
                     "id": "obj-27",
@@ -36,7 +47,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 464.0, 400.0, 44.0, 15.0 ],
+                    "patching_rect": [ 440.0, 400.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 72.0, 32.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -122,7 +133,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 464.0, 304.0, 150.0, 60.0 ],
+                    "patching_rect": [ 448.0, 304.0, 150.0, 60.0 ],
                     "text": "Without `deferlow` this was causing a message on startup for `no patcher <osc-patcher-name`"
                 }
             },
@@ -133,7 +144,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 408.0, 336.0, 54.0, 22.0 ],
+                    "patching_rect": [ 392.0, 336.0, 54.0, 22.0 ],
                     "text": "deferlow"
                 }
             },
@@ -273,7 +284,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 408.0, 312.0, 40.0, 15.0 ],
+                    "patching_rect": [ 392.0, 312.0, 40.0, 15.0 ],
                     "pictures": [ "sine.svg", "updown.svg", "square.svg", "up.svg", "random.svg", "random.svg" ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 48.0, 32.0, 15.0 ],
@@ -398,8 +409,8 @@
                     "numinlets": 10,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 184.0, 536.0, 520.0, 22.0 ],
-                    "text": "poly~ Engine 8 @steal 1"
+                    "patching_rect": [ 184.0, 536.0, 488.0, 22.0 ],
+                    "text": "poly~ Engine @steal 1"
                 }
             },
             {
@@ -568,7 +579,15 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-12", 1 ],
+                    "order": 1,
+                    "source": [ "obj-2", 1 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-15", 0 ],
+                    "order": 0,
                     "source": [ "obj-2", 1 ]
                 }
             },
