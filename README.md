@@ -70,6 +70,7 @@ To open in Max directly without Live, open `Thwomp/Thwomp.maxpat`, Thwomp has so
 
 - **Osc** Toggle: Toggle the oscillator on or off
 - Waveform: The waveform of the oscillator
+- **Reset:** Toggle resetting the oscillator phase on each new note
 - **Note** Toggle: Toggle whether to use the incoming MIDI note frequency (when off, the frequency is specified by the **Freq** control)
 - **Freq**: Specify a frequency (only visible when **note** is off)
 - **Semi**: Specify a semitone offset (only visible when **note** is on)
