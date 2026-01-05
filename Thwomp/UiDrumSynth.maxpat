@@ -23,7 +23,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 680.0, 536.0, 150.0, 221.0 ],
+                    "patching_rect": [ 776.0, 648.0, 150.0, 221.0 ],
                     "text": "Only use a single `poly~` voice (the default), because with multiple voices, overlapping decays introduces variation (this can be simulated by playing consecutive notes with long decays quickly which a voice count `>1`.\n\n`@steal 1` is necessary with to prefer new notes (otherwise new notes won't start if a note is playing). "
                 }
             },
@@ -85,7 +85,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 496.0, 472.0, 41.0, 48.0 ],
+                    "patching_rect": [ 536.0, 472.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 152.0, 56.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -109,7 +109,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 568.0, 472.0, 41.0, 48.0 ],
+                    "patching_rect": [ 608.0, 472.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 152.0, 0.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -406,10 +406,10 @@
                 "box": {
                     "id": "obj-20",
                     "maxclass": "newobj",
-                    "numinlets": 10,
-                    "numoutlets": 1,
-                    "outlettype": [ "signal" ],
-                    "patching_rect": [ 184.0, 536.0, 488.0, 22.0 ],
+                    "numinlets": 11,
+                    "numoutlets": 2,
+                    "outlettype": [ "signal", "signal" ],
+                    "patching_rect": [ 184.0, 536.0, 528.0, 22.0 ],
                     "text": "poly~ Engine @steal 1"
                 }
             },
@@ -490,7 +490,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 632.0, 416.0, 40.0, 104.0 ],
+                    "patching_rect": [ 672.0, 416.0, 40.0, 104.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 208.0, 0.0, 40.0, 104.0 ],
                     "varname": "AdEnv",
@@ -573,7 +573,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-20", 6 ],
+                    "destination": [ "obj-20", 7 ],
                     "source": [ "obj-19", 1 ]
                 }
             },
@@ -637,7 +637,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-20", 7 ],
+                    "destination": [ "obj-20", 8 ],
                     "source": [ "obj-24", 0 ]
                 }
             },
@@ -687,13 +687,13 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-20", 9 ],
+                    "destination": [ "obj-20", 10 ],
                     "source": [ "obj-4", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-20", 8 ],
+                    "destination": [ "obj-20", 9 ],
                     "source": [ "obj-4", 0 ]
                 }
             },
@@ -753,6 +753,14 @@
             "obj-5": [ "#1-Gain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
