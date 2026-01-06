@@ -203,7 +203,7 @@
                     "annotation": "Which oscillator is selected.",
                     "id": "obj-19",
                     "maxclass": "live.tab",
-                    "num_lines_patching": 4,
+                    "num_lines_patching": 2,
                     "num_lines_presentation": 4,
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -214,9 +214,9 @@
                     "presentation_rect": [ 0.0, 8.0, 32.0, 160.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "1", "2", "3", "4" ],
+                            "parameter_enum": [ "1", "2" ],
                             "parameter_longname": "Tab",
-                            "parameter_mmax": 3,
+                            "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Tab",
                             "parameter_type": 2,
@@ -698,14 +698,6 @@
             "obj-24": [ "Overwrite", "Overwrite", 0 ],
             "obj-29": [ "Write", "Write", 0 ],
             "obj-30": [ "Read", "Read", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
