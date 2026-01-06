@@ -47,7 +47,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 440.0, 400.0, 44.0, 15.0 ],
+                    "patching_rect": [ 464.0, 440.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 72.0, 32.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -85,7 +85,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 536.0, 472.0, 41.0, 48.0 ],
+                    "patching_rect": [ 528.0, 472.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 152.0, 56.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -109,7 +109,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 608.0, 472.0, 41.0, 48.0 ],
+                    "patching_rect": [ 592.0, 472.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 152.0, 0.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -133,7 +133,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 448.0, 304.0, 150.0, 60.0 ],
+                    "patching_rect": [ 464.0, 352.0, 150.0, 60.0 ],
                     "text": "Without `deferlow` this was causing a message on startup for `no patcher <osc-patcher-name`"
                 }
             },
@@ -144,7 +144,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 392.0, 336.0, 54.0, 22.0 ],
+                    "patching_rect": [ 408.0, 384.0, 54.0, 22.0 ],
                     "text": "deferlow"
                 }
             },
@@ -284,7 +284,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 392.0, 312.0, 40.0, 15.0 ],
+                    "patching_rect": [ 408.0, 360.0, 40.0, 15.0 ],
                     "pictures": [ "sine.svg", "updown.svg", "square.svg", "up.svg", "random.svg", "random.svg" ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 48.0, 32.0, 15.0 ],
@@ -406,7 +406,7 @@
                 "box": {
                     "id": "obj-20",
                     "maxclass": "newobj",
-                    "numinlets": 11,
+                    "numinlets": 10,
                     "numoutlets": 2,
                     "outlettype": [ "signal", "signal" ],
                     "patching_rect": [ 184.0, 536.0, 528.0, 22.0 ],
@@ -573,7 +573,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-20", 7 ],
+                    "destination": [ "obj-20", 6 ],
                     "source": [ "obj-19", 1 ]
                 }
             },
@@ -637,7 +637,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-20", 8 ],
+                    "destination": [ "obj-20", 7 ],
                     "source": [ "obj-24", 0 ]
                 }
             },
@@ -687,13 +687,13 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-20", 10 ],
+                    "destination": [ "obj-20", 9 ],
                     "source": [ "obj-4", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-20", 9 ],
+                    "destination": [ "obj-20", 8 ],
                     "source": [ "obj-4", 0 ]
                 }
             },
@@ -753,6 +753,14 @@
             "obj-5": [ "#1-Gain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

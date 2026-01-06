@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 494.0, 200.0, 1332.0, 938.0 ],
+        "rect": [ 258.0, 330.0, 1332.0, 938.0 ],
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
@@ -19,26 +19,11 @@
         "boxes": [
             {
                 "box": {
-                    "id": "obj-24",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 400.0, 8.0, 26.0, 20.0 ],
-                    "saved_object_attributes": {
-                        "attr_comment": [ "(signal)", "ring", "mod" ],
-                        "c": [ "(signal)", "ring", "mod" ]
-                    },
-                    "text": "in 7"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-22",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 664.0, 408.0, 38.0, 20.0 ],
+                    "patching_rect": [ 544.0, 408.0, 38.0, 20.0 ],
                     "saved_object_attributes": {
                         "attr_comment": [ "(signal)", "raw", "osc" ],
                         "c": [ "(signal)", "raw", "osc" ]
@@ -68,12 +53,12 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 488.0, 8.0, 26.0, 20.0 ],
+                    "patching_rect": [ 368.0, 8.0, 26.0, 20.0 ],
                     "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
+                        "attr_comment": [ "(float)", "overtone" ],
+                        "c": [ "(float)", "overtone" ]
                     },
-                    "text": "in 8"
+                    "text": "in 7"
                 }
             },
             {
@@ -758,7 +743,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 448.0, 192.0, 61.0, 20.0 ],
+                    "patching_rect": [ 328.0, 192.0, 61.0, 20.0 ],
                     "text": "p Overtone"
                 }
             },
@@ -820,7 +805,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "(float) overdrive amt",
+                                    "comment": "(float) overdrive",
                                     "id": "obj-4",
                                     "index": 2,
                                     "maxclass": "inlet",
@@ -898,7 +883,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 512.0, 232.0, 64.0, 20.0 ],
+                    "patching_rect": [ 392.0, 232.0, 64.0, 20.0 ],
                     "text": "p Overdrive"
                 }
             },
@@ -909,12 +894,12 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 552.0, 8.0, 26.0, 20.0 ],
+                    "patching_rect": [ 432.0, 8.0, 26.0, 20.0 ],
                     "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
+                        "attr_comment": [ "(float)", "overdrive" ],
+                        "c": [ "(float)", "overdrive" ]
                     },
-                    "text": "in 9"
+                    "text": "in 8"
                 }
             },
             {
@@ -935,7 +920,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 480.0, 352.0, 29.5, 20.0 ],
+                    "patching_rect": [ 360.0, 352.0, 29.5, 20.0 ],
                     "text": "*~ 1."
                 }
             },
@@ -946,7 +931,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "int", "int", "int" ],
-                    "patching_rect": [ 528.0, 408.0, 119.0, 20.0 ],
+                    "patching_rect": [ 408.0, 408.0, 119.0, 20.0 ],
                     "text": "thispoly~ @automute 1"
                 }
             },
@@ -957,12 +942,12 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 648.0, 8.0, 31.0, 20.0 ],
+                    "patching_rect": [ 528.0, 8.0, 31.0, 20.0 ],
                     "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
+                        "attr_comment": [ "(float", ",", "ms)", "decay" ],
+                        "c": [ "(float", ",", "ms)", "decay" ]
                     },
-                    "text": "in 11"
+                    "text": "in 10"
                 }
             },
             {
@@ -972,12 +957,12 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 616.0, 8.0, 31.0, 20.0 ],
+                    "patching_rect": [ 496.0, 8.0, 26.0, 20.0 ],
                     "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
+                        "attr_comment": [ "(float", ",", "ms)", "attack" ],
+                        "c": [ "(float", ",", "ms)", "attack" ]
                     },
-                    "text": "in 10"
+                    "text": "in 9"
                 }
             },
             {
@@ -1061,7 +1046,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 480.0, 408.0, 38.0, 20.0 ],
+                    "patching_rect": [ 360.0, 408.0, 38.0, 20.0 ],
                     "saved_object_attributes": {
                         "attr_comment": [ "(signal)", "mono" ],
                         "c": [ "(signal)", "mono" ]
@@ -1334,7 +1319,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 616.0, 304.0, 58.0, 20.0 ],
+                    "patching_rect": [ 496.0, 304.0, 58.0, 20.0 ],
                     "saved_object_attributes": {
                         "fontname": "Arial Bold",
                         "fontsize": 10.0
