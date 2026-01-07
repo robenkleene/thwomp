@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 795.0, 104.0, 1230.0, 977.0 ],
+        "rect": [ 532.0, 120.0, 1230.0, 977.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
@@ -17,6 +17,28 @@
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "boxes": [
+            {
+                "box": {
+                    "comment": "(signal) raw osc 2",
+                    "id": "obj-12",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 512.0, 704.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "comment": "(signal) raw osc 1",
+                    "id": "obj-11",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 416.0, 704.0, 30.0, 30.0 ]
+                }
+            },
             {
                 "box": {
                     "id": "obj-8",
@@ -189,9 +211,9 @@
                     "maxclass": "bpatcher",
                     "name": "UiDrumSynth.maxpat",
                     "numinlets": 1,
-                    "numoutlets": 2,
+                    "numoutlets": 3,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "signal", "" ],
+                    "outlettype": [ "signal", "", "signal" ],
                     "patching_rect": [ 15.0, 435.0, 249.0, 165.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 168.0, 256.0, 160.0 ],
@@ -213,9 +235,9 @@
                     "maxclass": "bpatcher",
                     "name": "UiDrumSynth.maxpat",
                     "numinlets": 1,
-                    "numoutlets": 2,
+                    "numoutlets": 3,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "signal", "" ],
+                    "outlettype": [ "signal", "", "signal" ],
                     "patching_rect": [ 15.0, 150.0, 249.0, 162.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 256.0, 160.0 ],
@@ -229,6 +251,12 @@
                 "patchline": {
                     "destination": [ "obj-10", 0 ],
                     "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-11", 0 ],
+                    "source": [ "obj-1", 2 ]
                 }
             },
             {
@@ -247,6 +275,12 @@
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
                     "source": [ "obj-27", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-12", 0 ],
+                    "source": [ "obj-3", 2 ]
                 }
             },
             {
@@ -335,6 +369,14 @@
             "obj-3::obj-5": [ "2-Gain", "Gain", 0 ],
             "obj-3::obj-7": [ "2-Osc", "Osc", 0 ],
             "obj-3::obj-9": [ "2-OscShape", "Shape", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
