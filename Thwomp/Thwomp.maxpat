@@ -280,6 +280,180 @@
             "obj-1::obj-24": [ "Overwrite", "Overwrite", 0 ],
             "obj-1::obj-29": [ "Write", "Write", 0 ],
             "obj-1::obj-30": [ "Read", "Read", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "parameter_overrides": {
+                "obj-1::obj-11": {
+                    "parameter_initial": -2.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-19": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-1::obj-12::obj-1::obj-1": {
+                    "parameter_initial": 30.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-1::obj-12::obj-1::obj-11": {
+                    "parameter_initial": 0.3,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-1::obj-12::obj-1::obj-6": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-1::obj-12::obj-7": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-1::obj-17::obj-17": {
+                    "parameter_initial": 120.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-1::obj-17::obj-18": {
+                    "parameter_initial": 99.99999999999994,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-1::obj-17::obj-26": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-1::obj-19": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-1::obj-24": {
+                    "parameter_initial": 1.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-1::obj-26": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-1::obj-2::obj-1::obj-11": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-1::obj-2::obj-1::obj-14": {
+                    "parameter_initial": 65.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-1::obj-2::obj-5": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-1::obj-4::obj-3": {
+                    "parameter_initial": 383.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-1::obj-4::obj-7": {
+                    "parameter_initial": 1.9999999999999976,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-1::obj-5": {
+                    "parameter_initial": -2.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-1::obj-7": {
+                    "parameter_initial": 1.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-1::obj-9": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-3::obj-12::obj-1::obj-1": {
+                    "parameter_initial": 499.9999999999999,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-3::obj-12::obj-1::obj-11": {
+                    "parameter_initial": 5.6,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-3::obj-12::obj-1::obj-6": {
+                    "parameter_initial": 2.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-3::obj-12::obj-7": {
+                    "parameter_initial": 1.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-3::obj-17::obj-17": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-3::obj-17::obj-18": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-3::obj-17::obj-26": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-3::obj-19": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-3::obj-24": {
+                    "parameter_initial": 1.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-3::obj-26": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-3::obj-2::obj-1::obj-11": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-3::obj-2::obj-1::obj-14": {
+                    "parameter_initial": 8786.738812514122,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-3::obj-2::obj-5": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-3::obj-4::obj-3": {
+                    "parameter_initial": 25.99999999999999,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-3::obj-4::obj-7": {
+                    "parameter_initial": 0.9999999999999962,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-3::obj-5": {
+                    "parameter_initial": -2.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-3::obj-7": {
+                    "parameter_initial": 1.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-1::obj-3::obj-9": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-24": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-29": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-30": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
