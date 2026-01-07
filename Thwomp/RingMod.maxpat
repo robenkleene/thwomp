@@ -50,7 +50,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 200.0, 32.0, 30.0, 30.0 ]
+                    "patching_rect": [ 200.0, 40.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -60,7 +60,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "float" ],
-                    "patching_rect": [ 224.0, 88.0, 34.0, 20.0 ],
+                    "patching_rect": [ 224.0, 96.0, 34.0, 20.0 ],
                     "text": "/ 100."
                 }
             },
@@ -71,7 +71,7 @@
                     "numinlets": 3,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 200.0, 120.0, 54.0, 20.0 ],
+                    "patching_rect": [ 200.0, 128.0, 48.0, 20.0 ],
                     "text": "clip 0. 1."
                 }
             },
@@ -104,7 +104,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "signal", "bang" ],
-                    "patching_rect": [ 200.0, 152.0, 48.0, 20.0 ],
+                    "patching_rect": [ 200.0, 160.0, 43.0, 20.0 ],
                     "text": "line~ 0."
                 }
             },
@@ -115,7 +115,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "float" ],
-                    "patching_rect": [ 240.0, 120.0, 32.0, 20.0 ],
+                    "patching_rect": [ 256.0, 128.0, 29.5, 20.0 ],
                     "text": "!- 1."
                 }
             },
@@ -126,7 +126,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "signal", "bang" ],
-                    "patching_rect": [ 256.0, 152.0, 48.0, 20.0 ],
+                    "patching_rect": [ 256.0, 160.0, 43.0, 20.0 ],
                     "text": "line~ 0."
                 }
             },
