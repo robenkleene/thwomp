@@ -84,7 +84,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 160.0, 536.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 320.0, 352.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 184.0, 272.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -110,12 +110,12 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 256.0, 440.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 256.0, 344.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 184.0, 296.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RingMix",
                             "parameter_modmode": 3,
-                            "parameter_shortname": "Mix",
+                            "parameter_shortname": "RingMix",
                             "parameter_type": 0,
                             "parameter_unitstyle": 0
                         }
@@ -1029,7 +1029,7 @@
             }
         ],
         "parameters": {
-            "obj-10": [ "RingMix", "Mix", 0 ],
+            "obj-10": [ "RingMix", "RingMix", 0 ],
             "obj-11": [ "Vol", "Vol", 0 ],
             "obj-19": [ "Tab", "Tab", 0 ],
             "obj-1::obj-1::obj-12::obj-1::obj-1": [ "1-FiltFreq", "Freq", 0 ],
@@ -1073,6 +1073,14 @@
             "obj-29": [ "Write", "Write", 0 ],
             "obj-30": [ "Read", "Read", 0 ],
             "obj-31": [ "RingAmt", "RingAmt", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
