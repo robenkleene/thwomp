@@ -25,7 +25,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 512.0, 704.0, 30.0, 30.0 ]
+                    "patching_rect": [ 128.0, 720.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -36,7 +36,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 416.0, 704.0, 30.0, 30.0 ]
+                    "patching_rect": [ 168.0, 720.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -46,7 +46,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 336.0, 624.0, 80.0, 20.0 ],
+                    "patching_rect": [ 248.0, 616.0, 80.0, 20.0 ],
                     "text": "prepend note 2"
                 }
             },
@@ -57,7 +57,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 312.0, 368.0, 80.0, 20.0 ],
+                    "patching_rect": [ 248.0, 328.0, 80.0, 20.0 ],
                     "text": "prepend note 1"
                 }
             },
@@ -69,7 +69,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 312.0, 704.0, 30.0, 30.0 ]
+                    "patching_rect": [ 600.0, 704.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -131,7 +131,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 160.0, 40.0, 25.0, 25.0 ]
+                    "patching_rect": [ 16.0, 728.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -181,7 +181,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 160.0, 8.0, 106.0, 20.0 ],
+                    "patching_rect": [ 16.0, 696.0, 106.0, 20.0 ],
                     "text": "receive~ #1-sound"
                 }
             },
@@ -213,7 +213,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "signal", "", "signal" ],
+                    "outlettype": [ "signal", "signal", "" ],
                     "patching_rect": [ 15.0, 435.0, 249.0, 165.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 168.0, 256.0, 160.0 ],
@@ -237,7 +237,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "signal", "", "signal" ],
+                    "outlettype": [ "signal", "signal", "" ],
                     "patching_rect": [ 15.0, 150.0, 249.0, 162.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 256.0, 160.0 ],
@@ -256,13 +256,13 @@
             {
                 "patchline": {
                     "destination": [ "obj-11", 0 ],
-                    "source": [ "obj-1", 2 ]
+                    "source": [ "obj-1", 1 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-5", 0 ],
-                    "source": [ "obj-1", 1 ]
+                    "source": [ "obj-1", 2 ]
                 }
             },
             {
@@ -280,7 +280,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-12", 0 ],
-                    "source": [ "obj-3", 2 ]
+                    "source": [ "obj-3", 1 ]
                 }
             },
             {
@@ -292,7 +292,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-8", 0 ],
-                    "source": [ "obj-3", 1 ]
+                    "source": [ "obj-3", 2 ]
                 }
             },
             {
@@ -369,14 +369,6 @@
             "obj-3::obj-5": [ "2-Gain", "Gain", 0 ],
             "obj-3::obj-7": [ "2-Osc", "Osc", 0 ],
             "obj-3::obj-9": [ "2-OscShape", "Shape", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
