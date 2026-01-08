@@ -17,6 +17,110 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-35",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 560.0, 632.0, 34.0, 22.0 ],
+                    "text": "*~ 0."
+                }
+            },
+            {
+                "box": {
+                    "annotation": "The volume of this device.",
+                    "id": "obj-31",
+                    "maxclass": "live.dial",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 600.0, 544.0, 41.0, 48.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 311.0, 135.0, 41.0, 48.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_longname": "RingAmt",
+                            "parameter_mmax": 6.0,
+                            "parameter_mmin": -70.0,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "RingAmt",
+                            "parameter_type": 0,
+                            "parameter_unitstyle": 4
+                        }
+                    },
+                    "varname": "RingAmt"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-27",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 600.0, 600.0, 132.0, 22.0 ],
+                    "text": "expr pow(10.\\, $f1 / 20.)"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-26",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 560.0, 488.0, 39.0, 22.0 ],
+                    "text": "gate~"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-25",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 528.0, 464.0, 44.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "Ring",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Ring",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Ring",
+                    "texton": "Ring",
+                    "varname": "Ring"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-10",
+                    "maxclass": "live.dial",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 624.0, 360.0, 41.0, 48.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_longname": "RingMix",
+                            "parameter_modmode": 3,
+                            "parameter_shortname": "Mix",
+                            "parameter_type": 0,
+                            "parameter_unitstyle": 0
+                        }
+                    },
+                    "varname": "RingMix"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-9",
                     "maxclass": "newobj",
                     "numinlets": 3,
@@ -36,7 +140,6 @@
                         "gridsize": [ 8.0, 8.0 ],
                         "gridsnaponopen": 2,
                         "objectsnaponopen": 0,
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -168,7 +271,7 @@
                                     "maxclass": "inlet",
                                     "numinlets": 0,
                                     "numoutlets": 1,
-                                    "outlettype": [ "" ],
+                                    "outlettype": [ "signal" ],
                                     "patching_rect": [ 104.0, 8.0, 30.0, 30.0 ]
                                 }
                             },
@@ -180,7 +283,7 @@
                                     "maxclass": "inlet",
                                     "numinlets": 0,
                                     "numoutlets": 1,
-                                    "outlettype": [ "" ],
+                                    "outlettype": [ "signal" ],
                                     "patching_rect": [ 8.0, 8.0, 30.0, 30.0 ]
                                 }
                             }
@@ -272,7 +375,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 568.0, 472.0, 67.0, 22.0 ],
+                    "patching_rect": [ 576.0, 432.0, 67.0, 22.0 ],
                     "text": "p RingMod"
                 }
             },
@@ -309,6 +412,9 @@
                     "restore": {
                         "Overwrite": [ 0.0 ],
                         "Read": [ 0.0 ],
+                        "Ring": [ 0.0 ],
+                        "RingAmt": [ 0.0 ],
+                        "RingMix": [ 0.0 ],
                         "Tab": [ 0.0 ],
                         "Vol": [ 0.0 ],
                         "Write": [ 0.0 ]
@@ -324,7 +430,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 224.0, 472.0, 73.0, 22.0 ],
+                    "patching_rect": [ 656.0, 736.0, 73.0, 22.0 ],
                     "text": "prepend tab"
                 }
             },
@@ -336,18 +442,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 224.0, 536.0, 30.0, 30.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-34",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "signal" ],
-                    "patching_rect": [ 48.0, 496.0, 34.0, 22.0 ],
-                    "text": "*~ 0."
+                    "patching_rect": [ 656.0, 816.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -357,7 +452,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 16.0, 496.0, 34.0, 22.0 ],
+                    "patching_rect": [ 16.0, 624.0, 34.0, 22.0 ],
                     "text": "*~ 0."
                 }
             },
@@ -368,7 +463,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 64.0, 456.0, 132.0, 22.0 ],
+                    "patching_rect": [ 32.0, 592.0, 132.0, 22.0 ],
                     "text": "expr pow(10.\\, $f1 / 20.)"
                 }
             },
@@ -495,7 +590,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 48.0, 536.0, 30.0, 30.0 ]
+                    "patching_rect": [ 56.0, 704.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -507,7 +602,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 64.0, 400.0, 41.0, 48.0 ],
+                    "patching_rect": [ 32.0, 536.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 296.0, 120.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -532,7 +627,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 16.0, 536.0, 29.0, 29.0 ]
+                    "patching_rect": [ 16.0, 704.0, 29.0, 29.0 ]
                 }
             },
             {
@@ -721,15 +816,25 @@
             {
                 "patchline": {
                     "destination": [ "obj-20", 0 ],
-                    "order": 1,
                     "source": [ "obj-1", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-34", 0 ],
-                    "order": 0,
-                    "source": [ "obj-1", 0 ]
+                    "destination": [ "obj-9", 1 ],
+                    "source": [ "obj-1", 3 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-9", 0 ],
+                    "source": [ "obj-1", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-9", 2 ],
+                    "source": [ "obj-10", 0 ]
                 }
             },
             {
@@ -790,7 +895,15 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-15", 0 ],
+                    "order": 0,
+                    "source": [ "obj-20", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-8", 0 ],
+                    "order": 1,
                     "source": [ "obj-20", 0 ]
                 }
             },
@@ -804,6 +917,24 @@
                 "patchline": {
                     "destination": [ "obj-16", 0 ],
                     "source": [ "obj-24", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-26", 0 ],
+                    "source": [ "obj-25", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-35", 0 ],
+                    "source": [ "obj-26", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-35", 1 ],
+                    "source": [ "obj-27", 0 ]
                 }
             },
             {
@@ -832,6 +963,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-27", 0 ],
+                    "source": [ "obj-31", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-12", 1 ],
                     "source": [ "obj-32", 0 ]
                 }
@@ -839,21 +976,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-20", 1 ],
-                    "order": 1,
                     "source": [ "obj-33", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-34", 1 ],
-                    "order": 0,
-                    "source": [ "obj-33", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-15", 0 ],
-                    "source": [ "obj-34", 0 ]
                 }
             },
             {
@@ -879,9 +1002,16 @@
                     "destination": [ "obj-5", 0 ],
                     "source": [ "obj-7", 0 ]
                 }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-26", 1 ],
+                    "source": [ "obj-9", 0 ]
+                }
             }
         ],
         "parameters": {
+            "obj-10": [ "RingMix", "Mix", 0 ],
             "obj-11": [ "Vol", "Vol", 0 ],
             "obj-19": [ "Tab", "Tab", 0 ],
             "obj-1::obj-1::obj-12::obj-1::obj-1": [ "1-FiltFreq", "Freq", 0 ],
@@ -921,8 +1051,10 @@
             "obj-1::obj-3::obj-7": [ "2-Osc", "Osc", 0 ],
             "obj-1::obj-3::obj-9": [ "2-OscShape", "Shape", 0 ],
             "obj-24": [ "Overwrite", "Overwrite", 0 ],
+            "obj-25": [ "Ring", "Ring", 0 ],
             "obj-29": [ "Write", "Write", 0 ],
             "obj-30": [ "Read", "Read", 0 ],
+            "obj-31": [ "RingAmt", "RingAmt", 0 ],
             "inherited_shortname": 1
         },
         "autosave": 0
