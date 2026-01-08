@@ -17,6 +17,71 @@
         "boxes": [
             {
                 "box": {
+                    "annotation": "Amplifier envelope attack.",
+                    "annotation_name": "Ring Amplifier Attack",
+                    "id": "obj-34",
+                    "maxclass": "live.dial",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 208.0, 504.0, 41.0, 48.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 232.0, 272.0, 41.0, 48.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_exponent": 5.0,
+                            "parameter_longname": "#1-RingAttack",
+                            "parameter_mmax": 15000.0,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "RingAtt",
+                            "parameter_type": 0,
+                            "parameter_unitstyle": 2
+                        }
+                    },
+                    "varname": "#1-RingAttack"
+                }
+            },
+            {
+                "box": {
+                    "annotation": "Amplifier envelope decay.",
+                    "annotation_name": "Ring Amplifier Decay",
+                    "id": "obj-36",
+                    "maxclass": "live.dial",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 256.0, 504.0, 41.0, 48.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 232.0, 320.0, 41.0, 48.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_exponent": 5.0,
+                            "parameter_longname": "#1-RingDecay",
+                            "parameter_mmax": 15000.0,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "RingDec",
+                            "parameter_type": 0,
+                            "parameter_unitstyle": 2
+                        }
+                    },
+                    "varname": "#1-RingDecay"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-2",
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 2,
+                    "outlettype": [ "signal", "bang" ],
+                    "patching_rect": [ 192.0, 568.0, 54.0, 22.0 ],
+                    "text": "AmpEnv"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-35",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -37,7 +102,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 232.0, 616.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 184.0, 344.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 232.0, 368.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RingAmt",
@@ -70,7 +135,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 192.0, 560.0, 39.0, 22.0 ],
+                    "patching_rect": [ 80.0, 520.0, 39.0, 22.0 ],
                     "text": "gate~"
                 }
             },
@@ -82,7 +147,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 160.0, 536.0, 44.0, 15.0 ],
+                    "patching_rect": [ 48.0, 496.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 184.0, 272.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -108,7 +173,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 256.0, 440.0, 41.0, 48.0 ],
+                    "patching_rect": [ 144.0, 408.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 184.0, 296.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -379,7 +444,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 208.0, 504.0, 67.0, 22.0 ],
+                    "patching_rect": [ 96.0, 464.0, 67.0, 22.0 ],
                     "text": "p RingMod"
                 }
             },
@@ -414,6 +479,8 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 168.0, 80.0, 56.0, 22.0 ],
                     "restore": {
+                        "#1-RingAttack": [ 0.0 ],
+                        "#1-RingDecay": [ 0.0 ],
                         "Overwrite": [ 0.0 ],
                         "Read": [ 0.0 ],
                         "Ring": [ 0.0 ],
@@ -456,7 +523,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 16.0, 712.0, 34.0, 22.0 ],
+                    "patching_rect": [ 16.0, 704.0, 34.0, 22.0 ],
                     "text": "*~ 0."
                 }
             },
@@ -467,7 +534,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 32.0, 680.0, 132.0, 22.0 ],
+                    "patching_rect": [ 32.0, 672.0, 132.0, 22.0 ],
                     "text": "expr pow(10.\\, $f1 / 20.)"
                 }
             },
@@ -606,7 +673,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 32.0, 624.0, 41.0, 48.0 ],
+                    "patching_rect": [ 32.0, 616.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 296.0, 120.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -899,6 +966,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-35", 0 ],
+                    "source": [ "obj-2", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-15", 0 ],
                     "order": 0,
                     "source": [ "obj-20", 0 ]
@@ -931,7 +1004,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-35", 0 ],
+                    "destination": [ "obj-2", 0 ],
                     "source": [ "obj-26", 0 ]
                 }
             },
@@ -985,6 +1058,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-2", 1 ],
+                    "source": [ "obj-34", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-15", 0 ],
                     "order": 0,
                     "source": [ "obj-35", 0 ]
@@ -995,6 +1074,12 @@
                     "destination": [ "obj-8", 0 ],
                     "order": 1,
                     "source": [ "obj-35", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-2", 2 ],
+                    "source": [ "obj-36", 0 ]
                 }
             },
             {
@@ -1073,6 +1158,8 @@
             "obj-29": [ "Write", "Write", 0 ],
             "obj-30": [ "Read", "Read", 0 ],
             "obj-31": [ "RingAmt", "RingAmt", 0 ],
+            "obj-34": [ "#1-RingAttack", "RingAtt", 0 ],
+            "obj-36": [ "#1-RingDecay", "RingDec", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
