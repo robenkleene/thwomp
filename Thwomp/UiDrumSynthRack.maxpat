@@ -31,9 +31,10 @@
                     "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 264.0, 224.0, 96.0, 168.0 ],
+                    "patching_rect": [ 264.0, 224.0, 96.0, 160.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 288.0, 8.0, 96.0, 160.0 ],
+                    "varname": "RingMod",
                     "viewvisibility": 1
                 }
             },
@@ -500,6 +501,18 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-40", 1 ],
+                    "source": [ "obj-1", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-40", 0 ],
+                    "source": [ "obj-1", 1 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-33", 0 ],
                     "source": [ "obj-11", 0 ]
                 }
@@ -618,6 +631,20 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-15", 0 ],
+                    "order": 0,
+                    "source": [ "obj-40", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-8", 0 ],
+                    "order": 1,
+                    "source": [ "obj-40", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-1", 0 ],
                     "source": [ "obj-5", 0 ]
                 }
@@ -625,6 +652,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
+                    "order": 1,
                     "source": [ "obj-6", 1 ]
                 }
             },
@@ -632,6 +660,13 @@
                 "patchline": {
                     "destination": [ "obj-23", 0 ],
                     "source": [ "obj-6", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-40", 0 ],
+                    "order": 0,
+                    "source": [ "obj-6", 1 ]
                 }
             },
             {
