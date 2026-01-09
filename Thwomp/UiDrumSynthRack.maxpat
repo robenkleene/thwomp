@@ -22,7 +22,7 @@
                     "maxclass": "live.line",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 663.0, 167.0, 5.0, 100.0 ],
+                    "patching_rect": [ 584.0, 224.0, 5.0, 100.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 280.0, 8.0, 8.0, 160.0 ]
                 }
@@ -34,7 +34,7 @@
                     "maxclass": "live.line",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 647.0, 167.0, 5.0, 100.0 ],
+                    "patching_rect": [ 568.0, 224.0, 5.0, 100.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 376.0, 8.0, 8.0, 161.0 ]
                 }
@@ -1184,14 +1184,6 @@
             "obj-31": [ "RingAmt", "RingAmt", 0 ],
             "obj-34": [ "#1-RingAttack", "RingAtt", 0 ],
             "obj-36": [ "#1-RingDecay", "RingDec", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
