@@ -9,12 +9,36 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 183.0, 115.0, 1023.0, 907.0 ],
+        "rect": [ 184.0, 114.0, 1023.0, 907.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-37",
+                    "justification": 1,
+                    "maxclass": "live.line",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 663.0, 167.0, 5.0, 100.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 280.0, 8.0, 8.0, 160.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-38",
+                    "justification": 1,
+                    "maxclass": "live.line",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 647.0, 167.0, 5.0, 100.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 376.0, 8.0, 8.0, 161.0 ]
+                }
+            },
             {
                 "box": {
                     "annotation": "Amplifier envelope attack.",
@@ -27,7 +51,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 208.0, 504.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 232.0, 272.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 336.0, 8.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 5.0,
@@ -54,7 +78,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 256.0, 504.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 232.0, 320.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 336.0, 64.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 5.0,
@@ -102,7 +126,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 232.0, 616.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 232.0, 368.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 336.0, 120.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RingAmt",
@@ -149,7 +173,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 48.0, 496.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 184.0, 272.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 288.0, 8.0, 44.0, 16.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -175,7 +199,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 144.0, 408.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 184.0, 296.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 288.0, 64.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RingMix",
@@ -552,7 +576,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 420.0, 50.0, 32.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 296.0, 8.0, 24.0, 16.0 ],
+                    "presentation_rect": [ 384.0, 8.0, 24.0, 17.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -581,7 +605,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 460.0, 50.0, 32.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 296.0, 24.0, 24.0, 16.0 ],
+                    "presentation_rect": [ 384.0, 24.0, 24.0, 17.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -609,7 +633,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 500.0, 50.0, 32.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 296.0, 40.0, 24.0, 15.0 ],
+                    "presentation_rect": [ 384.0, 40.0, 24.0, 16.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -675,7 +699,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 32.0, 616.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 296.0, 120.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 384.0, 120.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "Vol",
@@ -849,7 +873,7 @@
                     "patching_rect": [ 568.0, 184.0, 77.0, 29.0 ],
                     "pattrstorage": "Presets",
                     "presentation": 1,
-                    "presentation_rect": [ 296.0, 64.0, 40.0, 48.0 ]
+                    "presentation_rect": [ 384.0, 64.0, 40.0, 49.0 ]
                 }
             },
             {

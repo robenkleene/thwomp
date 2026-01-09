@@ -85,7 +85,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 680.0, 152.0, 5.0, 100.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 144.0, 0.0, 8.0, 160.0 ]
+                    "presentation_rect": [ 136.0, 0.0, 8.0, 160.0 ]
                 }
             },
             {
@@ -98,7 +98,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 528.0, 472.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 152.0, 56.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 144.0, 56.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "#1-Overtone",
@@ -122,7 +122,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 592.0, 472.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 152.0, 0.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 144.0, 0.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "#1-Overdrive",
@@ -180,7 +180,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 632.0, 152.0, 5.0, 100.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 200.0, 0.0, 8.0, 104.0 ]
+                    "presentation_rect": [ 192.0, 0.0, 8.0, 104.0 ]
                 }
             },
             {
@@ -270,7 +270,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 312.0, 592.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 208.0, 112.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 200.0, 112.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "#1-Gain",
@@ -503,7 +503,7 @@
                     "outlettype": [ "", "" ],
                     "patching_rect": [ 672.0, 416.0, 40.0, 104.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 208.0, 0.0, 40.0, 104.0 ],
+                    "presentation_rect": [ 200.0, 0.0, 40.0, 104.0 ],
                     "varname": "AdEnv",
                     "viewvisibility": 1
                 }
@@ -770,14 +770,6 @@
             "obj-5": [ "#1-Gain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0

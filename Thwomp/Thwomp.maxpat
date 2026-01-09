@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "openrect": [ 248.0, 316.0, 410.0, 176.0 ],
+        "openrect": [ 522.0, 298.0, 496.0, 174.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
         "default_fontsize": 10.0,
@@ -17,7 +17,7 @@
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
-        "devicewidth": 410.0,
+        "devicewidth": 496.0,
         "boxes": [
             {
                 "box": {
@@ -109,7 +109,7 @@
                     "outlettype": [ "signal", "signal", "" ],
                     "patching_rect": [ 15.0, 135.0, 337.0, 169.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 64.0, 0.0, 344.0, 168.0 ],
+                    "presentation_rect": [ 64.0, 0.0, 432.0, 168.0 ],
                     "varname": "DrumSynthRack",
                     "viewvisibility": 1
                 }
@@ -239,6 +239,7 @@
             }
         ],
         "parameters": {
+            "obj-1::obj-10": [ "RingMix", "RingMix", 0 ],
             "obj-1::obj-11": [ "Vol", "Vol", 0 ],
             "obj-1::obj-19": [ "Tab", "Tab", 0 ],
             "obj-1::obj-1::obj-1::obj-12::obj-1::obj-1": [ "1-FiltFreq", "Freq", 0 ],
@@ -278,8 +279,12 @@
             "obj-1::obj-1::obj-3::obj-7": [ "2-Osc", "Osc", 0 ],
             "obj-1::obj-1::obj-3::obj-9": [ "2-OscShape", "Shape", 0 ],
             "obj-1::obj-24": [ "Overwrite", "Overwrite", 0 ],
+            "obj-1::obj-25": [ "Ring", "Ring", 0 ],
             "obj-1::obj-29": [ "Write", "Write", 0 ],
             "obj-1::obj-30": [ "Read", "Read", 0 ],
+            "obj-1::obj-31": [ "RingAmt", "RingAmt", 0 ],
+            "obj-1::obj-34": [ "#0-RingAttack", "RingAtt", 0 ],
+            "obj-1::obj-36": [ "#0-RingDecay", "RingDec", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
