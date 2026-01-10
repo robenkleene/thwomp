@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 435.0, 145.0, 1140.0, 983.0 ],
+        "rect": [ 393.0, 103.0, 1140.0, 983.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -330,10 +330,11 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 665.0, 636.0, 1000.0, 780.0 ],
+                        "rect": [ 665.0, 567.0, 1000.0, 780.0 ],
                         "gridsize": [ 8.0, 8.0 ],
                         "gridsnaponopen": 2,
                         "objectsnaponopen": 0,
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -362,10 +363,10 @@
                                     "id": "obj-11",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
-                                    "numoutlets": 2,
-                                    "outlettype": [ "signal", "signal" ],
-                                    "patching_rect": [ 8.0, 72.0, 81.0, 22.0 ],
-                                    "text": "t signal signal"
+                                    "numoutlets": 1,
+                                    "outlettype": [ "signal" ],
+                                    "patching_rect": [ 8.0, 72.0, 47.0, 22.0 ],
+                                    "text": "t signal"
                                 }
                             },
                             {
@@ -397,7 +398,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "signal" ],
-                                    "patching_rect": [ 96.0, 224.0, 29.5, 22.0 ],
+                                    "patching_rect": [ 104.0, 224.0, 29.5, 22.0 ],
                                     "text": "*~"
                                 }
                             },
@@ -503,19 +504,13 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-8", 0 ],
-                                    "source": [ "obj-11", 1 ]
-                                }
-                            },
-                            {
-                                "patchline": {
                                     "destination": [ "obj-10", 0 ],
                                     "source": [ "obj-12", 0 ]
                                 }
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-8", 1 ],
+                                    "destination": [ "obj-8", 0 ],
                                     "source": [ "obj-14", 0 ]
                                 }
                             },
@@ -540,6 +535,14 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-14", 1 ],
+                                    "order": 1,
+                                    "source": [ "obj-5", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-8", 1 ],
+                                    "order": 0,
                                     "source": [ "obj-5", 0 ]
                                 }
                             },
@@ -714,14 +717,6 @@
             "obj-31": [ "RingAmt", "RingAmt", 0 ],
             "obj-34": [ "#1-RingAttack", "RingAtt", 0 ],
             "obj-36": [ "#1-RingDecay", "RingDec", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
