@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 476.0, 210.0, 1000.0, 780.0 ],
+        "rect": [ 435.0, 145.0, 1140.0, 983.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -24,7 +24,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 200.0, 8.0, 30.0, 30.0 ]
+                    "patching_rect": [ 240.0, 8.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -651,6 +651,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-9", 1 ],
+                    "source": [ "obj-6", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-16", 0 ],
                     "source": [ "obj-8", 0 ]
                 }
@@ -674,6 +680,14 @@
             "obj-31": [ "RingAmt", "RingAmt", 0 ],
             "obj-34": [ "#1-RingAttack", "RingAtt", 0 ],
             "obj-36": [ "#1-RingDecay", "RingDec", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
