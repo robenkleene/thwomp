@@ -285,7 +285,7 @@
                             "parameter_modmode": 3,
                             "parameter_shortname": "RingMix",
                             "parameter_type": 0,
-                            "parameter_unitstyle": 0
+                            "parameter_unitstyle": 5
                         }
                     },
                     "varname": "RingMix"
@@ -431,7 +431,7 @@
                                     "maxclass": "inlet",
                                     "numinlets": 0,
                                     "numoutlets": 1,
-                                    "outlettype": [ "" ],
+                                    "outlettype": [ "float" ],
                                     "patching_rect": [ 216.0, 8.0, 30.0, 30.0 ]
                                 }
                             },
@@ -562,7 +562,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-9", 2 ],
-                    "source": [ "obj-10", 0 ]
+                    "source": [ "obj-10", 1 ]
                 }
             },
             {
@@ -680,14 +680,6 @@
             "obj-31": [ "RingAmt", "RingAmt", 0 ],
             "obj-34": [ "#1-RingAttack", "RingAtt", 0 ],
             "obj-36": [ "#1-RingDecay", "RingDec", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0

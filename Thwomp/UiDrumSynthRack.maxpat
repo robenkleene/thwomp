@@ -652,7 +652,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-6", 1 ]
                 }
             },
@@ -665,7 +665,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-40", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-6", 1 ]
                 }
             },
@@ -723,6 +723,14 @@
             "obj-40::obj-31": [ "RingAmt", "RingAmt", 0 ],
             "obj-40::obj-34": [ "0-RingAttack", "RingAtt", 0 ],
             "obj-40::obj-36": [ "0-RingDecay", "RingDec", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
