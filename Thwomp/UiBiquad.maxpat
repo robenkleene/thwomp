@@ -24,9 +24,9 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 384.0, 40.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-Freq": [ 30.0 ],
-                        "#1-Q": [ 0.3 ],
-                        "#1-Type": [ 0.0 ]
+                        "FiltFreq": [ 30.0 ],
+                        "FiltQ": [ 0.3 ],
+                        "FiltType": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u096009360"
@@ -48,7 +48,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 5.0,
-                            "parameter_longname": "#1-FiltFreq",
+                            "parameter_longname": "FiltFreq",
                             "parameter_mmax": 22000.0,
                             "parameter_mmin": 30.0,
                             "parameter_modmode": 0,
@@ -57,7 +57,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "varname": "#1-Freq"
+                    "varname": "FiltFreq"
                 }
             },
             {
@@ -75,7 +75,7 @@
                     "presentation_rect": [ 0.0, 112.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "#1-FiltQ",
+                            "parameter_longname": "FiltQ",
                             "parameter_mmax": 10.0,
                             "parameter_mmin": 0.3,
                             "parameter_modmode": 0,
@@ -84,7 +84,7 @@
                             "parameter_unitstyle": 1
                         }
                     },
-                    "varname": "#1-Q"
+                    "varname": "FiltQ"
                 }
             },
             {
@@ -171,7 +171,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "one", "two", "three", "four" ],
-                            "parameter_longname": "#1-FiltType",
+                            "parameter_longname": "FiltType",
                             "parameter_mmax": 3,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Type",
@@ -180,7 +180,7 @@
                     },
                     "usepicture": 1,
                     "usesvgviewbox": 1,
-                    "varname": "#1-Type"
+                    "varname": "FiltType"
                 }
             },
             {
@@ -386,9 +386,17 @@
             }
         ],
         "parameters": {
-            "obj-1": [ "#1-FiltFreq", "Freq", 0 ],
-            "obj-11": [ "#1-FiltQ", "Q", 0 ],
-            "obj-6": [ "#1-FiltType", "Type", 0 ],
+            "obj-1": [ "FiltFreq", "Freq", 0 ],
+            "obj-11": [ "FiltQ", "Q", 0 ],
+            "obj-6": [ "FiltType", "Type", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

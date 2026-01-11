@@ -729,7 +729,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-6", 1 ]
                 }
             },
@@ -742,7 +742,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-40", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-6", 1 ]
                 }
             },
@@ -803,18 +803,10 @@
             "obj-40::obj-31": [ "RingAmt", "RingAmt", 0 ],
             "obj-40::obj-34": [ "RingAttack", "RingAtt", 0 ],
             "obj-40::obj-36": [ "RingDecay", "RingDec", 0 ],
-            "obj-9::obj-1::obj-1": [ "0-FiltFreq", "Freq", 0 ],
-            "obj-9::obj-1::obj-11": [ "0-FiltQ", "Q", 0 ],
-            "obj-9::obj-1::obj-6": [ "0-FiltType", "Type", 0 ],
-            "obj-9::obj-7": [ "0-Filt", "Filt", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
+            "obj-9::obj-1::obj-1": [ "FiltFreq", "Freq", 0 ],
+            "obj-9::obj-1::obj-11": [ "FiltQ", "Q", 0 ],
+            "obj-9::obj-1::obj-6": [ "FiltType", "Type", 0 ],
+            "obj-9::obj-7": [ "Filt", "Filt", 0 ],
             "inherited_shortname": 1
         },
         "autosave": 0

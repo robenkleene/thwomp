@@ -223,14 +223,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-7", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-3", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-7", 0 ]
                 }
             },
@@ -248,10 +248,6 @@
             }
         ],
         "parameters": {
-            "obj-1::obj-12::obj-1::obj-1": [ "1-FiltFreq", "Freq", 0 ],
-            "obj-1::obj-12::obj-1::obj-11": [ "1-FiltQ", "Q", 0 ],
-            "obj-1::obj-12::obj-1::obj-6": [ "1-FiltType", "Type", 0 ],
-            "obj-1::obj-12::obj-7": [ "1-Filt", "Filt", 0 ],
             "obj-1::obj-17::obj-17": [ "1-PitchEnvAmt", "PchAmt", 0 ],
             "obj-1::obj-17::obj-18": [ "1-PitchEnvDur", "PchDur", 0 ],
             "obj-1::obj-17::obj-26": [ "1-PitchEnvCurve", "PchCur", 0 ],
@@ -266,10 +262,6 @@
             "obj-1::obj-5": [ "1-Gain", "Gain", 0 ],
             "obj-1::obj-7": [ "1-Osc", "Osc", 0 ],
             "obj-1::obj-9": [ "1-OscShape", "Shape", 0 ],
-            "obj-3::obj-12::obj-1::obj-1": [ "2-FiltFreq", "Freq", 0 ],
-            "obj-3::obj-12::obj-1::obj-11": [ "2-FiltQ", "Q", 0 ],
-            "obj-3::obj-12::obj-1::obj-6": [ "2-FiltType", "Type", 0 ],
-            "obj-3::obj-12::obj-7": [ "2-Filt", "Filt", 0 ],
             "obj-3::obj-17::obj-17": [ "2-PitchEnvAmt", "PchAmt", 0 ],
             "obj-3::obj-17::obj-18": [ "2-PitchEnvDur", "PchDur", 0 ],
             "obj-3::obj-17::obj-26": [ "2-PitchEnvCurve", "PchCur", 0 ],
@@ -284,14 +276,6 @@
             "obj-3::obj-5": [ "2-Gain", "Gain", 0 ],
             "obj-3::obj-7": [ "2-Osc", "Osc", 0 ],
             "obj-3::obj-9": [ "2-OscShape", "Shape", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
