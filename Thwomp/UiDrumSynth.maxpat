@@ -18,6 +18,54 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-16",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 432.0, 696.0, 85.0, 22.0 ],
+                    "text": "prepend filt #1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-12",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 432.0, 648.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 72.0, 40.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "#1-OscFilt",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "OscFilt",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "OscFilt",
+                    "texton": "OscFilt",
+                    "varname": "#1-OscFilt"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-11",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 592.0, 696.0, 96.0, 22.0 ],
+                    "text": "prepend note #1"
+                }
+            },
+            {
+                "box": {
                     "comment": "(signal) raw osc",
                     "id": "obj-29",
                     "index": 0,
@@ -60,7 +108,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 464.0, 440.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 72.0, 32.0, 15.0 ],
+                    "presentation_rect": [ 0.0, 48.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -182,6 +230,7 @@
                     "restore": {
                         "#1-Gain": [ 0.0 ],
                         "#1-Osc": [ 0.0 ],
+                        "#1-OscFilt": [ 0.0 ],
                         "#1-OscReset": [ 0.0 ],
                         "#1-Overdrive": [ 1.0 ],
                         "#1-Overtone": [ 0.0 ],
@@ -199,7 +248,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 680.0, 760.0, 24.0, 24.0 ]
+                    "patching_rect": [ 592.0, 760.0, 24.0, 24.0 ]
                 }
             },
             {
@@ -264,7 +313,7 @@
                     "patching_rect": [ 408.0, 360.0, 40.0, 15.0 ],
                     "pictures": [ "sine.svg", "updown.svg", "square.svg", "up.svg", "random.svg", "random.svg" ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 48.0, 32.0, 15.0 ],
+                    "presentation_rect": [ 0.0, 24.0, 40.0, 15.0 ],
                     "remapsvgcolors": 1,
                     "saved_attribute_attributes": {
                         "valueof": {
@@ -295,7 +344,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 184.0, 24.0, 32.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 24.0, 32.0, 16.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 40.0, 16.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -490,6 +539,24 @@
         "lines": [
             {
                 "patchline": {
+                    "destination": [ "obj-15", 0 ],
+                    "source": [ "obj-11", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-16", 0 ],
+                    "source": [ "obj-12", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-15", 0 ],
+                    "source": [ "obj-16", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-20", 3 ],
                     "source": [ "obj-17", 1 ]
                 }
@@ -514,7 +581,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-15", 0 ],
+                    "destination": [ "obj-11", 0 ],
                     "source": [ "obj-2", 1 ]
                 }
             },
@@ -646,6 +713,7 @@
             }
         ],
         "parameters": {
+            "obj-12": [ "#1-OscFilt", "OscFilt", 0 ],
             "obj-17::obj-17": [ "#1-PitchEnvAmt", "PchAmt", 0 ],
             "obj-17::obj-18": [ "#1-PitchEnvDur", "PchDur", 0 ],
             "obj-17::obj-26": [ "#1-PitchEnvCurve", "PchCur", 0 ],
@@ -660,14 +728,6 @@
             "obj-5": [ "#1-Gain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0

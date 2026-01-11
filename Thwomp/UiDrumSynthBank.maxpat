@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 532.0, 120.0, 1230.0, 977.0 ],
+        "rect": [ 682.0, 190.0, 1230.0, 977.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
@@ -19,13 +19,35 @@
         "boxes": [
             {
                 "box": {
+                    "comment": "(signal) osc 1",
+                    "id": "obj-10",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 24.0, 712.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "comment": "(signal) osc 2",
+                    "id": "obj-9",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 136.0, 712.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
                     "comment": "(signal) raw osc 2",
                     "id": "obj-12",
                     "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 200.0, 720.0, 30.0, 30.0 ]
+                    "patching_rect": [ 384.0, 712.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -36,34 +58,12 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 104.0, 720.0, 30.0, 30.0 ]
+                    "patching_rect": [ 288.0, 712.0, 30.0, 30.0 ]
                 }
             },
             {
                 "box": {
-                    "id": "obj-8",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 368.0, 616.0, 80.0, 20.0 ],
-                    "text": "prepend note 2"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-5",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 369.0, 330.0, 80.0, 20.0 ],
-                    "text": "prepend note 1"
-                }
-            },
-            {
-                "box": {
-                    "comment": "(list) note on off messages",
+                    "comment": "(list) control messages",
                     "id": "obj-2",
                     "index": 0,
                     "maxclass": "outlet",
@@ -109,17 +109,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 8.0, 8.0, 25.0, 25.0 ]
-                }
-            },
-            {
-                "box": {
-                    "comment": "(signal) mono",
-                    "id": "obj-4",
-                    "index": 0,
-                    "maxclass": "outlet",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 16.0, 720.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -174,19 +163,19 @@
         "lines": [
             {
                 "patchline": {
+                    "destination": [ "obj-10", 0 ],
+                    "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-11", 0 ],
                     "source": [ "obj-1", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-4", 0 ],
-                    "source": [ "obj-1", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-5", 0 ],
+                    "destination": [ "obj-2", 0 ],
                     "source": [ "obj-1", 2 ]
                 }
             },
@@ -198,20 +187,14 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-4", 0 ],
-                    "source": [ "obj-3", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-8", 0 ],
+                    "destination": [ "obj-2", 0 ],
                     "source": [ "obj-3", 2 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-2", 0 ],
-                    "source": [ "obj-5", 0 ]
+                    "destination": [ "obj-9", 0 ],
+                    "source": [ "obj-3", 0 ]
                 }
             },
             {
@@ -223,14 +206,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-7", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-3", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-7", 0 ]
                 }
             },
@@ -238,12 +221,6 @@
                 "patchline": {
                     "destination": [ "obj-38", 0 ],
                     "source": [ "obj-7", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-2", 0 ],
-                    "source": [ "obj-8", 0 ]
                 }
             }
         ],
@@ -276,6 +253,14 @@
             "obj-3::obj-5": [ "2-Gain", "Gain", 0 ],
             "obj-3::obj-7": [ "2-Osc", "Osc", 0 ],
             "obj-3::obj-9": [ "2-OscShape", "Shape", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
