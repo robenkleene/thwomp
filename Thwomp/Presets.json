@@ -28,7 +28,7 @@
                     "DrumSynthBank::1-DrumSynth::FreqRack::FreqBank::1-Semi": [ 0.0 ],
                     "DrumSynthBank::2-DrumSynth::2-Gain": [ -2.0 ],
                     "DrumSynthBank::2-DrumSynth::2-Osc": [ 1.0 ],
-                    "DrumSynthBank::2-DrumSynth::2-OscFilt": [ 0.0 ],
+                    "DrumSynthBank::2-DrumSynth::2-OscFilt": [ 1.0 ],
                     "DrumSynthBank::2-DrumSynth::2-OscReset": [ 0.0 ],
                     "DrumSynthBank::2-DrumSynth::2-Overdrive": [ 1.0 ],
                     "DrumSynthBank::2-DrumSynth::2-Overtone": [ 0.0 ],
@@ -41,10 +41,10 @@
                     "DrumSynthBank::2-DrumSynth::FreqRack::2-Note": [ 0.0 ],
                     "DrumSynthBank::2-DrumSynth::FreqRack::FreqBank::2-Freq": [ 8786.738812514122 ],
                     "DrumSynthBank::2-DrumSynth::FreqRack::FreqBank::2-Semi": [ 0.0 ],
-                    "BiquadFilt::Filt": [ 0.0 ],
-                    "BiquadFilt::Biquad::FiltFreq": [ 30.0 ],
-                    "BiquadFilt::Biquad::FiltQ": [ 0.30000001192092896 ],
-                    "BiquadFilt::Biquad::FiltType": [ 0.0 ]
+                    "BiquadFilt::Filt": [ 1.0 ],
+                    "BiquadFilt::Biquad::FiltFreq": [ 547.0918633890018 ],
+                    "BiquadFilt::Biquad::FiltQ": [ 5.570078752078412 ],
+                    "BiquadFilt::Biquad::FiltType": [ 2.0 ]
                 }
             },
             "2": {
