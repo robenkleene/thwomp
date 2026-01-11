@@ -41,10 +41,10 @@
                     "DrumSynthBank::2-DrumSynth::FreqRack::2-Note": [ 0.0 ],
                     "DrumSynthBank::2-DrumSynth::FreqRack::FreqBank::2-Freq": [ 8786.738812514122 ],
                     "DrumSynthBank::2-DrumSynth::FreqRack::FreqBank::2-Semi": [ 0.0 ],
-                    "UiBiquadFilt::Filt": [ 0.0 ],
-                    "UiBiquadFilt::Biquad::FiltFreq": [ 30.0 ],
-                    "UiBiquadFilt::Biquad::FiltQ": [ 0.30000001192092896 ],
-                    "UiBiquadFilt::Biquad::FiltType": [ 0.0 ]
+                    "BiquadFilt::Filt": [ 0.0 ],
+                    "BiquadFilt::Biquad::FiltFreq": [ 30.0 ],
+                    "BiquadFilt::Biquad::FiltQ": [ 0.30000001192092896 ],
+                    "BiquadFilt::Biquad::FiltType": [ 0.0 ]
                 }
             },
             "2": {
@@ -86,10 +86,10 @@
                     "DrumSynthBank::2-DrumSynth::FreqRack::2-Note": [ 0 ],
                     "DrumSynthBank::2-DrumSynth::FreqRack::FreqBank::2-Freq": [ 30 ],
                     "DrumSynthBank::2-DrumSynth::FreqRack::FreqBank::2-Semi": [ 0.0 ],
-                    "UiBiquadFilt::Filt": [ 0.0 ],
-                    "UiBiquadFilt::Biquad::FiltFreq": [ 30.0 ],
-                    "UiBiquadFilt::Biquad::FiltQ": [ 0.30000001192092896 ],
-                    "UiBiquadFilt::Biquad::FiltType": [ 0.0 ]
+                    "BiquadFilt::Filt": [ 0.0 ],
+                    "BiquadFilt::Biquad::FiltFreq": [ 30.0 ],
+                    "BiquadFilt::Biquad::FiltQ": [ 0.30000001192092896 ],
+                    "BiquadFilt::Biquad::FiltType": [ 0.0 ]
                 }
             },
             "3": {
@@ -131,10 +131,10 @@
                     "DrumSynthBank::2-DrumSynth::FreqRack::2-Note": [ 0 ],
                     "DrumSynthBank::2-DrumSynth::FreqRack::FreqBank::2-Freq": [ 30 ],
                     "DrumSynthBank::2-DrumSynth::FreqRack::FreqBank::2-Semi": [ 0.0 ],
-                    "UiBiquadFilt::Filt": [ 0.0 ],
-                    "UiBiquadFilt::Biquad::FiltFreq": [ 30.0 ],
-                    "UiBiquadFilt::Biquad::FiltQ": [ 0.30000001192092896 ],
-                    "UiBiquadFilt::Biquad::FiltType": [ 0.0 ]
+                    "BiquadFilt::Filt": [ 0.0 ],
+                    "BiquadFilt::Biquad::FiltFreq": [ 30.0 ],
+                    "BiquadFilt::Biquad::FiltQ": [ 0.30000001192092896 ],
+                    "BiquadFilt::Biquad::FiltType": [ 0.0 ]
                 }
             },
             "4": {
@@ -176,10 +176,10 @@
                     "DrumSynthBank::2-DrumSynth::FreqRack::2-Note": [ 0 ],
                     "DrumSynthBank::2-DrumSynth::FreqRack::FreqBank::2-Freq": [ 30 ],
                     "DrumSynthBank::2-DrumSynth::FreqRack::FreqBank::2-Semi": [ 0.0 ],
-                    "UiBiquadFilt::Filt": [ 0.0 ],
-                    "UiBiquadFilt::Biquad::FiltFreq": [ 30.0 ],
-                    "UiBiquadFilt::Biquad::FiltQ": [ 0.30000001192092896 ],
-                    "UiBiquadFilt::Biquad::FiltType": [ 0.0 ]
+                    "BiquadFilt::Filt": [ 0.0 ],
+                    "BiquadFilt::Biquad::FiltFreq": [ 30.0 ],
+                    "BiquadFilt::Biquad::FiltQ": [ 0.30000001192092896 ],
+                    "BiquadFilt::Biquad::FiltType": [ 0.0 ]
                 }
             },
             "5": {
@@ -221,10 +221,10 @@
                     "DrumSynthBank::2-DrumSynth::FreqRack::2-Note": [ 0 ],
                     "DrumSynthBank::2-DrumSynth::FreqRack::FreqBank::2-Freq": [ 725 ],
                     "DrumSynthBank::2-DrumSynth::FreqRack::FreqBank::2-Semi": [ 0.0 ],
-                    "UiBiquadFilt::Filt": [ 0.0 ],
-                    "UiBiquadFilt::Biquad::FiltFreq": [ 30.0 ],
-                    "UiBiquadFilt::Biquad::FiltQ": [ 0.30000001192092896 ],
-                    "UiBiquadFilt::Biquad::FiltType": [ 0.0 ]
+                    "BiquadFilt::Filt": [ 0.0 ],
+                    "BiquadFilt::Biquad::FiltFreq": [ 30.0 ],
+                    "BiquadFilt::Biquad::FiltQ": [ 0.30000001192092896 ],
+                    "BiquadFilt::Biquad::FiltType": [ 0.0 ]
                 }
             },
             "9": {
@@ -266,10 +266,10 @@
                     "DrumSynthBank::2-DrumSynth::FreqRack::2-Note": [ 0 ],
                     "DrumSynthBank::2-DrumSynth::FreqRack::FreqBank::2-Freq": [ 30 ],
                     "DrumSynthBank::2-DrumSynth::FreqRack::FreqBank::2-Semi": [ 0.0 ],
-                    "UiBiquadFilt::Filt": [ 0.0 ],
-                    "UiBiquadFilt::Biquad::FiltFreq": [ 30.0 ],
-                    "UiBiquadFilt::Biquad::FiltQ": [ 0.30000001192092896 ],
-                    "UiBiquadFilt::Biquad::FiltType": [ 0.0 ]
+                    "BiquadFilt::Filt": [ 0.0 ],
+                    "BiquadFilt::Biquad::FiltFreq": [ 30.0 ],
+                    "BiquadFilt::Biquad::FiltQ": [ 0.30000001192092896 ],
+                    "BiquadFilt::Biquad::FiltType": [ 0.0 ]
                 }
             }
         }
