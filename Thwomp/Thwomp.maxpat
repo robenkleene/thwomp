@@ -280,11 +280,18 @@
             "obj-1::obj-24": [ "Overwrite", "Overwrite", 0 ],
             "obj-1::obj-29": [ "Write", "Write", 0 ],
             "obj-1::obj-30": [ "Read", "Read", 0 ],
-            "obj-1::obj-40::obj-10": [ "RingMix", "RingMix", 0 ],
             "obj-1::obj-40::obj-25": [ "Ring", "Ring", 0 ],
             "obj-1::obj-40::obj-31": [ "RingAmt", "RingAmt", 0 ],
-            "obj-1::obj-40::obj-34": [ "0-RingAttack", "RingAtt", 0 ],
-            "obj-1::obj-40::obj-36": [ "0-RingDecay", "RingDec", 0 ],
+            "obj-1::obj-40::obj-34": [ "RingAttack", "RingAtt", 0 ],
+            "obj-1::obj-40::obj-36": [ "RingDecay", "RingDec", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

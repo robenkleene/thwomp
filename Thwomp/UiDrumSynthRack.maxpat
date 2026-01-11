@@ -17,6 +17,63 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-27",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 16.0, 608.0, 29.5, 22.0 ],
+                    "text": "/~ 2"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-10",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 16.0, 576.0, 29.5, 22.0 ],
+                    "text": "+~"
+                }
+            },
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-9",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiBiquadFilt.maxpat",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "signal", "signal" ],
+                    "patching_rect": [ 16.0, 400.0, 48.0, 160.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 240.0, 8.0, 48.0, 160.0 ],
+                    "varname": "UiBiquadFilt",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-2",
+                    "justification": 1,
+                    "maxclass": "live.line",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 600.0, 224.0, 5.0, 100.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 232.0, 8.0, 8.0, 160.0 ]
+                }
+            },
+            {
+                "box": {
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -143,7 +200,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 32.0, 672.0, 132.0, 22.0 ],
+                    "patching_rect": [ 72.0, 608.0, 132.0, 22.0 ],
                     "text": "expr pow(10.\\, $f1 / 20.)"
                 }
             },
@@ -282,7 +339,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 32.0, 616.0, 41.0, 48.0 ],
+                    "patching_rect": [ 72.0, 552.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 384.0, 120.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -495,12 +552,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-20", 0 ],
-                    "source": [ "obj-1", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-40", 1 ],
                     "source": [ "obj-1", 2 ]
                 }
@@ -509,6 +560,26 @@
                 "patchline": {
                     "destination": [ "obj-40", 0 ],
                     "source": [ "obj-1", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-9", 1 ],
+                    "order": 0,
+                    "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-9", 0 ],
+                    "order": 1,
+                    "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-27", 0 ],
+                    "source": [ "obj-10", 0 ]
                 }
             },
             {
@@ -595,6 +666,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-20", 0 ],
+                    "source": [ "obj-27", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-23", 0 ],
                     "source": [ "obj-28", 0 ]
                 }
@@ -674,15 +751,23 @@
                     "destination": [ "obj-5", 0 ],
                     "source": [ "obj-7", 0 ]
                 }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-10", 1 ],
+                    "source": [ "obj-9", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-10", 0 ],
+                    "source": [ "obj-9", 0 ]
+                }
             }
         ],
         "parameters": {
             "obj-11": [ "Vol", "Vol", 0 ],
             "obj-19": [ "Tab", "Tab", 0 ],
-            "obj-1::obj-1::obj-12::obj-1::obj-1": [ "1-FiltFreq", "Freq", 0 ],
-            "obj-1::obj-1::obj-12::obj-1::obj-11": [ "1-FiltQ", "Q", 0 ],
-            "obj-1::obj-1::obj-12::obj-1::obj-6": [ "1-FiltType", "Type", 0 ],
-            "obj-1::obj-1::obj-12::obj-7": [ "1-Filt", "Filt", 0 ],
             "obj-1::obj-1::obj-17::obj-17": [ "1-PitchEnvAmt", "PchAmt", 0 ],
             "obj-1::obj-1::obj-17::obj-18": [ "1-PitchEnvDur", "PchDur", 0 ],
             "obj-1::obj-1::obj-17::obj-26": [ "1-PitchEnvCurve", "PchCur", 0 ],
@@ -697,10 +782,6 @@
             "obj-1::obj-1::obj-5": [ "1-Gain", "Gain", 0 ],
             "obj-1::obj-1::obj-7": [ "1-Osc", "Osc", 0 ],
             "obj-1::obj-1::obj-9": [ "1-OscShape", "Shape", 0 ],
-            "obj-1::obj-3::obj-12::obj-1::obj-1": [ "2-FiltFreq", "Freq", 0 ],
-            "obj-1::obj-3::obj-12::obj-1::obj-11": [ "2-FiltQ", "Q", 0 ],
-            "obj-1::obj-3::obj-12::obj-1::obj-6": [ "2-FiltType", "Type", 0 ],
-            "obj-1::obj-3::obj-12::obj-7": [ "2-Filt", "Filt", 0 ],
             "obj-1::obj-3::obj-17::obj-17": [ "2-PitchEnvAmt", "PchAmt", 0 ],
             "obj-1::obj-3::obj-17::obj-18": [ "2-PitchEnvDur", "PchDur", 0 ],
             "obj-1::obj-3::obj-17::obj-26": [ "2-PitchEnvCurve", "PchCur", 0 ],
@@ -718,11 +799,14 @@
             "obj-24": [ "Overwrite", "Overwrite", 0 ],
             "obj-29": [ "Write", "Write", 0 ],
             "obj-30": [ "Read", "Read", 0 ],
-            "obj-40::obj-10": [ "RingMix", "RingMix", 0 ],
             "obj-40::obj-25": [ "Ring", "Ring", 0 ],
             "obj-40::obj-31": [ "RingAmt", "RingAmt", 0 ],
-            "obj-40::obj-34": [ "0-RingAttack", "RingAtt", 0 ],
-            "obj-40::obj-36": [ "0-RingDecay", "RingDec", 0 ],
+            "obj-40::obj-34": [ "RingAttack", "RingAtt", 0 ],
+            "obj-40::obj-36": [ "RingDecay", "RingDec", 0 ],
+            "obj-9::obj-1::obj-1": [ "0-FiltFreq", "Freq", 0 ],
+            "obj-9::obj-1::obj-11": [ "0-FiltQ", "Q", 0 ],
+            "obj-9::obj-1::obj-6": [ "0-FiltType", "Type", 0 ],
+            "obj-9::obj-7": [ "0-Filt", "Filt", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
