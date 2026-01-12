@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "openrect": [ 248.0, 316.0, 410.0, 176.0 ],
+        "openrect": [ 522.0, 298.0, 496.0, 174.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
         "default_fontsize": 10.0,
@@ -17,7 +17,7 @@
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
-        "devicewidth": 410.0,
+        "devicewidth": 496.0,
         "boxes": [
             {
                 "box": {
@@ -109,7 +109,7 @@
                     "outlettype": [ "signal", "signal", "" ],
                     "patching_rect": [ 15.0, 135.0, 337.0, 169.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 64.0, 0.0, 344.0, 168.0 ],
+                    "presentation_rect": [ 64.0, 0.0, 432.0, 168.0 ],
                     "varname": "DrumSynthRack",
                     "viewvisibility": 1
                 }
@@ -241,28 +241,7 @@
         "parameters": {
             "obj-1::obj-11": [ "Vol", "Vol", 0 ],
             "obj-1::obj-19": [ "Tab", "Tab", 0 ],
-            "obj-1::obj-1::obj-17::obj-12::obj-1::obj-1": [ "3-FiltFreq", "Freq", 0 ],
-            "obj-1::obj-1::obj-17::obj-12::obj-1::obj-11": [ "3-FiltQ", "Q", 0 ],
-            "obj-1::obj-1::obj-17::obj-12::obj-1::obj-6": [ "3-FiltType", "Type", 0 ],
-            "obj-1::obj-1::obj-17::obj-12::obj-7": [ "3-Filt", "Filt", 0 ],
-            "obj-1::obj-1::obj-17::obj-17::obj-17": [ "3-PitchEnvAmt", "PchAmt", 0 ],
-            "obj-1::obj-1::obj-17::obj-17::obj-18": [ "3-PitchEnvDur", "PchDur", 0 ],
-            "obj-1::obj-1::obj-17::obj-17::obj-26": [ "3-PitchEnvCurve", "PchCur", 0 ],
-            "obj-1::obj-1::obj-17::obj-19": [ "3-Overtone", "Overtone", 0 ],
-            "obj-1::obj-1::obj-17::obj-24": [ "3-Overdrive", "Overdrive", 0 ],
-            "obj-1::obj-1::obj-17::obj-26": [ "3-OscReset", "Reset", 0 ],
-            "obj-1::obj-1::obj-17::obj-2::obj-1::obj-11": [ "3-OscSemi", "Semi", 0 ],
-            "obj-1::obj-1::obj-17::obj-2::obj-1::obj-14": [ "3-OscFreq", "Freq", 0 ],
-            "obj-1::obj-1::obj-17::obj-2::obj-5": [ "3-OscNote", "Note", 0 ],
-            "obj-1::obj-1::obj-17::obj-4::obj-3": [ "3-AmpDecay", "Decay", 0 ],
-            "obj-1::obj-1::obj-17::obj-4::obj-7": [ "3-AmpAttack", "Attack", 0 ],
-            "obj-1::obj-1::obj-17::obj-5": [ "3-Gain", "Gain", 0 ],
-            "obj-1::obj-1::obj-17::obj-7": [ "3-Osc", "Osc", 0 ],
-            "obj-1::obj-1::obj-17::obj-9": [ "3-OscShape", "Shape", 0 ],
-            "obj-1::obj-1::obj-1::obj-12::obj-1::obj-1": [ "1-FiltFreq", "Freq", 0 ],
-            "obj-1::obj-1::obj-1::obj-12::obj-1::obj-11": [ "1-FiltQ", "Q", 0 ],
-            "obj-1::obj-1::obj-1::obj-12::obj-1::obj-6": [ "1-FiltType", "Type", 0 ],
-            "obj-1::obj-1::obj-1::obj-12::obj-7": [ "1-Filt", "Filt", 0 ],
+            "obj-1::obj-1::obj-1::obj-12": [ "1-OscFilt", "OscFilt", 0 ],
             "obj-1::obj-1::obj-1::obj-17::obj-17": [ "1-PitchEnvAmt", "PchAmt", 0 ],
             "obj-1::obj-1::obj-1::obj-17::obj-18": [ "1-PitchEnvDur", "PchDur", 0 ],
             "obj-1::obj-1::obj-1::obj-17::obj-26": [ "1-PitchEnvCurve", "PchCur", 0 ],
@@ -277,10 +256,7 @@
             "obj-1::obj-1::obj-1::obj-5": [ "1-Gain", "Gain", 0 ],
             "obj-1::obj-1::obj-1::obj-7": [ "1-Osc", "Osc", 0 ],
             "obj-1::obj-1::obj-1::obj-9": [ "1-OscShape", "Shape", 0 ],
-            "obj-1::obj-1::obj-3::obj-12::obj-1::obj-1": [ "2-FiltFreq", "Freq", 0 ],
-            "obj-1::obj-1::obj-3::obj-12::obj-1::obj-11": [ "2-FiltQ", "Q", 0 ],
-            "obj-1::obj-1::obj-3::obj-12::obj-1::obj-6": [ "2-FiltType", "Type", 0 ],
-            "obj-1::obj-1::obj-3::obj-12::obj-7": [ "2-Filt", "Filt", 0 ],
+            "obj-1::obj-1::obj-3::obj-12": [ "2-OscFilt", "OscFilt", 0 ],
             "obj-1::obj-1::obj-3::obj-17::obj-17": [ "2-PitchEnvAmt", "PchAmt", 0 ],
             "obj-1::obj-1::obj-3::obj-17::obj-18": [ "2-PitchEnvDur", "PchDur", 0 ],
             "obj-1::obj-1::obj-3::obj-17::obj-26": [ "2-PitchEnvCurve", "PchCur", 0 ],
@@ -295,345 +271,18 @@
             "obj-1::obj-1::obj-3::obj-5": [ "2-Gain", "Gain", 0 ],
             "obj-1::obj-1::obj-3::obj-7": [ "2-Osc", "Osc", 0 ],
             "obj-1::obj-1::obj-3::obj-9": [ "2-OscShape", "Shape", 0 ],
-            "obj-1::obj-1::obj-44::obj-12::obj-1::obj-1": [ "4-FiltFreq", "Freq", 0 ],
-            "obj-1::obj-1::obj-44::obj-12::obj-1::obj-11": [ "4-FiltQ", "Q", 0 ],
-            "obj-1::obj-1::obj-44::obj-12::obj-1::obj-6": [ "4-FiltType", "Type", 0 ],
-            "obj-1::obj-1::obj-44::obj-12::obj-7": [ "4-Filt", "Filt", 0 ],
-            "obj-1::obj-1::obj-44::obj-17::obj-17": [ "4-PitchEnvAmt", "PchAmt", 0 ],
-            "obj-1::obj-1::obj-44::obj-17::obj-18": [ "4-PitchEnvDur", "PchDur", 0 ],
-            "obj-1::obj-1::obj-44::obj-17::obj-26": [ "4-PitchEnvCurve", "PchCur", 0 ],
-            "obj-1::obj-1::obj-44::obj-19": [ "4-Overtone", "Overtone", 0 ],
-            "obj-1::obj-1::obj-44::obj-24": [ "4-Overdrive", "Overdrive", 0 ],
-            "obj-1::obj-1::obj-44::obj-26": [ "4-OscReset", "Reset", 0 ],
-            "obj-1::obj-1::obj-44::obj-2::obj-1::obj-11": [ "4-OscSemi", "Semi", 0 ],
-            "obj-1::obj-1::obj-44::obj-2::obj-1::obj-14": [ "4-OscFreq", "Freq", 0 ],
-            "obj-1::obj-1::obj-44::obj-2::obj-5": [ "4-OscNote", "Note", 0 ],
-            "obj-1::obj-1::obj-44::obj-4::obj-3": [ "4-AmpDecay", "Decay", 0 ],
-            "obj-1::obj-1::obj-44::obj-4::obj-7": [ "4-AmpAttack", "Attack", 0 ],
-            "obj-1::obj-1::obj-44::obj-5": [ "4-Gain", "Gain", 0 ],
-            "obj-1::obj-1::obj-44::obj-7": [ "4-Osc", "Osc", 0 ],
-            "obj-1::obj-1::obj-44::obj-9": [ "4-OscShape", "Shape", 0 ],
             "obj-1::obj-24": [ "Overwrite", "Overwrite", 0 ],
+            "obj-1::obj-25": [ "RingFilt", "RingFilt", 0 ],
             "obj-1::obj-29": [ "Write", "Write", 0 ],
             "obj-1::obj-30": [ "Read", "Read", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
-            "parameter_overrides": {
-                "obj-1::obj-11": {
-                    "parameter_initial": -2.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-19": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-17::obj-12::obj-1::obj-1": {
-                    "parameter_initial": 30.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-17::obj-12::obj-1::obj-11": {
-                    "parameter_initial": 0.3,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-17::obj-12::obj-1::obj-6": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-17::obj-12::obj-7": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-17::obj-17::obj-17": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-17::obj-17::obj-18": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-17::obj-17::obj-26": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-17::obj-19": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-17::obj-24": {
-                    "parameter_initial": 1.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-17::obj-26": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-17::obj-2::obj-1::obj-11": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-17::obj-2::obj-1::obj-14": {
-                    "parameter_initial": 30.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-17::obj-2::obj-5": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-17::obj-4::obj-3": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-17::obj-4::obj-7": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-17::obj-5": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-17::obj-7": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-17::obj-9": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-1::obj-12::obj-1::obj-1": {
-                    "parameter_initial": 30.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-1::obj-12::obj-1::obj-11": {
-                    "parameter_initial": 0.3,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-1::obj-12::obj-1::obj-6": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-1::obj-12::obj-7": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-1::obj-17::obj-17": {
-                    "parameter_initial": 120.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-1::obj-17::obj-18": {
-                    "parameter_initial": 99.99999999999994,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-1::obj-17::obj-26": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-1::obj-19": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-1::obj-24": {
-                    "parameter_initial": 1.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-1::obj-26": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-1::obj-2::obj-1::obj-11": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-1::obj-2::obj-1::obj-14": {
-                    "parameter_initial": 65.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-1::obj-2::obj-5": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-1::obj-4::obj-3": {
-                    "parameter_initial": 383.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-1::obj-4::obj-7": {
-                    "parameter_initial": 1.9999999999999976,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-1::obj-5": {
-                    "parameter_initial": -2.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-1::obj-7": {
-                    "parameter_initial": 1.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-1::obj-9": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-3::obj-12::obj-1::obj-1": {
-                    "parameter_initial": 499.9999999999999,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-3::obj-12::obj-1::obj-11": {
-                    "parameter_initial": 5.6,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-3::obj-12::obj-1::obj-6": {
-                    "parameter_initial": 2.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-3::obj-12::obj-7": {
-                    "parameter_initial": 1.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-3::obj-17::obj-17": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-3::obj-17::obj-18": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-3::obj-17::obj-26": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-3::obj-19": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-3::obj-24": {
-                    "parameter_initial": 1.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-3::obj-26": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-3::obj-2::obj-1::obj-11": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-3::obj-2::obj-1::obj-14": {
-                    "parameter_initial": 8786.738812514122,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-3::obj-2::obj-5": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-3::obj-4::obj-3": {
-                    "parameter_initial": 25.99999999999999,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-3::obj-4::obj-7": {
-                    "parameter_initial": 0.9999999999999962,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-3::obj-5": {
-                    "parameter_initial": -2.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-3::obj-7": {
-                    "parameter_initial": 1.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-3::obj-9": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-44::obj-12::obj-1::obj-1": {
-                    "parameter_initial": 30.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-44::obj-12::obj-1::obj-11": {
-                    "parameter_initial": 0.3,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-44::obj-12::obj-1::obj-6": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-44::obj-12::obj-7": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-44::obj-17::obj-17": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-44::obj-17::obj-18": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-44::obj-17::obj-26": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-44::obj-19": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-44::obj-24": {
-                    "parameter_initial": 1.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-44::obj-26": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-44::obj-2::obj-1::obj-11": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-44::obj-2::obj-1::obj-14": {
-                    "parameter_initial": 30.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-44::obj-2::obj-5": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-44::obj-4::obj-3": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-44::obj-4::obj-7": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-44::obj-5": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-44::obj-7": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-1::obj-44::obj-9": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-24": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-29": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                },
-                "obj-1::obj-30": {
-                    "parameter_initial": 0.0,
-                    "parameter_initial_enable": 1
-                }
-            },
+            "obj-1::obj-40::obj-25": [ "Ring", "Ring", 0 ],
+            "obj-1::obj-40::obj-31": [ "RingAmt", "RingAmt", 0 ],
+            "obj-1::obj-40::obj-34": [ "RingAttack", "RingAtt", 0 ],
+            "obj-1::obj-40::obj-36": [ "RingDecay", "RingDec", 0 ],
+            "obj-1::obj-9::obj-1::obj-1": [ "FiltFreq", "Freq", 0 ],
+            "obj-1::obj-9::obj-1::obj-11": [ "FiltQ", "Q", 0 ],
+            "obj-1::obj-9::obj-1::obj-6": [ "FiltType", "Type", 0 ],
+            "obj-1::obj-9::obj-7": [ "Filt", "Filt", 0 ],
             "inherited_shortname": 1
         },
         "autosave": 0

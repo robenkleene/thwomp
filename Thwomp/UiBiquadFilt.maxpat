@@ -24,7 +24,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 328.0, 160.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-Filt": [ 0.0 ]
+                        "Filt": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u892006714"
@@ -48,7 +48,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "#1-Filt",
+                            "parameter_longname": "Filt",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Filt",
@@ -57,7 +57,7 @@
                     },
                     "text": "Filt",
                     "texton": "Filt",
-                    "varname": "#1-Filt"
+                    "varname": "Filt"
                 }
             },
             {
@@ -141,7 +141,6 @@
             },
             {
                 "box": {
-                    "args": [ "#1" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -231,10 +230,10 @@
             }
         ],
         "parameters": {
-            "obj-1::obj-1": [ "#1-FiltFreq", "Freq", 0 ],
-            "obj-1::obj-11": [ "#1-FiltQ", "Q", 0 ],
-            "obj-1::obj-6": [ "#1-FiltType", "Type", 0 ],
-            "obj-7": [ "#1-Filt", "Filt", 0 ],
+            "obj-1::obj-1": [ "FiltFreq", "Freq", 0 ],
+            "obj-1::obj-11": [ "FiltQ", "Q", 0 ],
+            "obj-1::obj-6": [ "FiltType", "Type", 0 ],
+            "obj-7": [ "Filt", "Filt", 0 ],
             "inherited_shortname": 1
         },
         "autosave": 0
