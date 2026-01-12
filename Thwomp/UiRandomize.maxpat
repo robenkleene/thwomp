@@ -16,13 +16,109 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-6",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 8.0, 112.0, 44.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "RandOscReset",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "RandOscReset",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Reset",
+                    "texton": "Reset",
+                    "varname": "RandOscFreq[1]"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-5",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 8.0, 144.0, 44.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "RandOscFreq",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "RandOscFreq",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Freq",
+                    "texton": "Freq",
+                    "varname": "RandOscFreq"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-4",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 8.0, 72.0, 44.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "RandOscFilt",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "RandOscFilt",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "OscFilt",
+                    "texton": "OscFilt",
+                    "varname": "RandOscFilt"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-3",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 8.0, 56.0, 44.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "RandOscShape",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "RandOscShape",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "OscShape",
+                    "texton": "OscShape",
+                    "varname": "RandOscShape"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-2",
                     "maxclass": "live.text",
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 216.0, 168.0, 44.0, 15.0 ],
+                    "patching_rect": [ 8.0, 32.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -46,7 +142,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 216.0, 144.0, 44.0, 15.0 ],
+                    "patching_rect": [ 8.0, 8.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -67,6 +163,10 @@
         "parameters": {
             "obj-1": [ "Rand1", "Rand1", 0 ],
             "obj-2": [ "Rand2", "Rand2", 0 ],
+            "obj-3": [ "RandOscShape", "RandOscShape", 0 ],
+            "obj-4": [ "RandOscFilt", "RandOscFilt", 0 ],
+            "obj-5": [ "RandOscFreq", "RandOscFreq", 0 ],
+            "obj-6": [ "RandOscReset", "RandOscReset", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
