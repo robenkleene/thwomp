@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 256.0, 114.0, 1113.0, 1033.0 ],
+        "rect": [ 533.0, 150.0, 1113.0, 1033.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -311,7 +311,7 @@
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
                     "patching_rect": [ 408.0, 360.0, 40.0, 15.0 ],
-                    "pictures": [ "sine.svg", "updown.svg", "square.svg", "up.svg", "random.svg", "random.svg" ],
+                    "pictures": [ "sine.svg", "updown.svg", "square.svg", "up.svg", "random.svg", "SHrounded.svg" ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 24.0, 40.0, 15.0 ],
                     "remapsvgcolors": 1,
@@ -728,6 +728,14 @@
             "obj-5": [ "#1-Gain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
