@@ -16,6 +16,72 @@
         "boxes": [
             {
                 "box": {
+                    "args": [ "RandPitchEnvAmt", "Amt" ],
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-14",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiMinMaxHz.maxpat",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "int", "int" ],
+                    "patching_rect": [ 528.0, 160.0, 41.0, 96.0 ],
+                    "varname": "RandPitchEnvAmt",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-15",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 528.0, 128.0, 146.0, 22.0 ],
+                    "text": "loadmess setup 0. 15000."
+                }
+            },
+            {
+                "box": {
+                    "args": [ "RandPitchEnvCurve", "Cur" ],
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-12",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiMinMaxPercent.maxpat",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "int", "int" ],
+                    "patching_rect": [ 328.0, 160.0, 41.0, 96.0 ],
+                    "varname": "RandPitchEnvCurve",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-13",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 328.0, 128.0, 150.0, 22.0 ],
+                    "text": "loadmess setup -100. 100."
+                }
+            },
+            {
+                "box": {
                     "args": [ "RandPitchEnvDur", "Dur" ],
                     "bgmode": 0,
                     "border": 0,
@@ -32,7 +98,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 168.0, 160.0, 41.0, 96.0 ],
-                    "varname": "UiMinMaxMs",
+                    "varname": "RandPitchEnvDur",
                     "viewvisibility": 1
                 }
             },
@@ -233,6 +299,18 @@
         "lines": [
             {
                 "patchline": {
+                    "destination": [ "obj-12", 0 ],
+                    "source": [ "obj-13", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-14", 0 ],
+                    "source": [ "obj-15", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-10", 0 ],
                     "source": [ "obj-9", 0 ]
                 }
@@ -242,6 +320,10 @@
             "obj-1": [ "Rand1", "Rand1", 0 ],
             "obj-10::obj-1": [ "RandPitchEnvDur-Min", "DurMin", 0 ],
             "obj-10::obj-2": [ "RandPitchEnvDur-Max", "DurMax", 0 ],
+            "obj-12::obj-1": [ "RandPitchEnvDur-Min[1]", "CurMin", 0 ],
+            "obj-12::obj-2": [ "RandPitchEnvDur-Max[1]", "CurMax", 0 ],
+            "obj-14::obj-1": [ "RandPitchEnvCurve-Min", "AmtMin", 0 ],
+            "obj-14::obj-2": [ "RandPitchEnvCurve-Max", "AmtMax", 0 ],
             "obj-2": [ "Rand2", "Rand2", 0 ],
             "obj-3": [ "RandOscShape", "RandOscShape", 0 ],
             "obj-4": [ "RandOscFilt", "RandOscFilt", 0 ],
@@ -254,6 +336,18 @@
                 },
                 "obj-10::obj-2": {
                     "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-12::obj-1": {
+                    "parameter_longname": "RandPitchEnvDur-Min[1]"
+                },
+                "obj-12::obj-2": {
+                    "parameter_longname": "RandPitchEnvDur-Max[1]"
+                },
+                "obj-14::obj-1": {
+                    "parameter_longname": "RandPitchEnvCurve-Min"
+                },
+                "obj-14::obj-2": {
+                    "parameter_longname": "RandPitchEnvCurve-Max"
                 }
             },
             "inherited_shortname": 1
