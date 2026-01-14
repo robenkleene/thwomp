@@ -16,6 +16,96 @@
         "boxes": [
             {
                 "box": {
+                    "annotation": "The filter type.",
+                    "annotation_name": "Filter Type",
+                    "id": "obj-28",
+                    "maxclass": "live.menu",
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 600.0, 560.0, 48.0, 15.0 ],
+                    "pictures": [ "highcut.svg", "lowcut.svg", "bandpass.svg", "notch.svg" ],
+                    "presentation": 1,
+                    "presentation_rect": [ 600.0, 562.0, 32.0, 15.0 ],
+                    "remapsvgcolors": 1,
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "one", "two", "three", "four" ],
+                            "parameter_longname": "FiltTypeMax",
+                            "parameter_mmax": 3,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Type",
+                            "parameter_type": 2
+                        }
+                    },
+                    "usepicture": 1,
+                    "usesvgviewbox": 1,
+                    "varname": "FiltTypeMax"
+                }
+            },
+            {
+                "box": {
+                    "annotation": "The filter type.",
+                    "annotation_name": "Filter Type",
+                    "id": "obj-27",
+                    "maxclass": "live.menu",
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 600.0, 536.0, 48.0, 15.0 ],
+                    "pictures": [ "highcut.svg", "lowcut.svg", "bandpass.svg", "notch.svg" ],
+                    "presentation": 1,
+                    "presentation_rect": [ 45.0, 69.0, 32.0, 15.0 ],
+                    "remapsvgcolors": 1,
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "one", "two", "three", "four" ],
+                            "parameter_longname": "FiltTypeMin",
+                            "parameter_mmax": 3,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Type",
+                            "parameter_type": 2
+                        }
+                    },
+                    "usepicture": 1,
+                    "usesvgviewbox": 1,
+                    "varname": "FiltTypeMin"
+                }
+            },
+            {
+                "box": {
+                    "annotation": "The shape of the oscillator.",
+                    "annotation_name": "Oscillator Shape",
+                    "id": "obj-26",
+                    "maxclass": "live.menu",
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 8.0, 112.0, 40.0, 15.0 ],
+                    "pictures": [ "sine.svg", "updown.svg", "square.svg", "up.svg", "random.svg", "SHrounded.svg" ],
+                    "presentation": 1,
+                    "presentation_rect": [ 30.0, 54.0, 40.0, 15.0 ],
+                    "remapsvgcolors": 1,
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "sine", "tri", "square", "saw", "noise", "pink" ],
+                            "parameter_longname": "OscShapeMin",
+                            "parameter_mmax": 5,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Shape",
+                            "parameter_type": 2
+                        }
+                    },
+                    "usepicture": 1,
+                    "usesvgviewbox": 1,
+                    "varname": "#1-OscShapeMin"
+                }
+            },
+            {
+                "box": {
                     "args": [ "RandGain", "Gain" ],
                     "bgmode": 0,
                     "border": 0,
@@ -328,7 +418,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 8.0, 112.0, 44.0, 15.0 ],
+                    "patching_rect": [ 8.0, 240.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 8.0, 112.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -354,7 +444,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 8.0, 144.0, 44.0, 15.0 ],
+                    "patching_rect": [ 8.0, 272.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 8.0, 144.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -380,7 +470,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 8.0, 72.0, 44.0, 15.0 ],
+                    "patching_rect": [ 8.0, 200.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 8.0, 72.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -406,7 +496,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 8.0, 56.0, 44.0, 15.0 ],
+                    "patching_rect": [ 8.0, 96.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 8.0, 56.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -544,6 +634,9 @@
             "obj-20::obj-2": [ "RandAttack-Max", "DecMax", 0 ],
             "obj-24::obj-1": [ "RandDecay-Min", "GainMin", 0 ],
             "obj-24::obj-2": [ "RandDecay-Max", "GainMax", 0 ],
+            "obj-26": [ "OscShapeMin", "Shape", 0 ],
+            "obj-27": [ "FiltTypeMin", "Type", 0 ],
+            "obj-28": [ "FiltTypeMax", "Type", 0 ],
             "obj-3": [ "RandOscShape", "RandOscShape", 0 ],
             "obj-4": [ "RandOscFilt", "RandOscFilt", 0 ],
             "obj-5": [ "RandOscFreq", "RandOscFreq", 0 ],

@@ -231,9 +231,9 @@
                         "#1-Osc": [ 0.0 ],
                         "#1-OscFilt": [ 0.0 ],
                         "#1-OscReset": [ 0.0 ],
+                        "#1-OscShape": [ 0.0 ],
                         "#1-Overdrive": [ 1.0 ],
-                        "#1-Overtone": [ 0.0 ],
-                        "#1-Shape": [ 0.0 ]
+                        "#1-Overtone": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u676004119"
@@ -326,7 +326,7 @@
                     },
                     "usepicture": 1,
                     "usesvgviewbox": 1,
-                    "varname": "#1-Shape"
+                    "varname": "#1-OscShape"
                 }
             },
             {
@@ -727,6 +727,14 @@
             "obj-5": [ "#1-Gain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
