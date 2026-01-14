@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 258.0, 330.0, 1332.0, 938.0 ],
+        "rect": [ 656.0, 409.0, 1332.0, 938.0 ],
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
@@ -839,8 +839,34 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 872.0, 295.0, 570.0, 780.0 ],
+                        "rect": [ 725.0, 296.0, 570.0, 780.0 ],
+                        "gridsize": [ 8.0, 8.0 ],
+                        "gridsnaponopen": 2,
+                        "objectsnaponopen": 0,
+                        "visible": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-11",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "signal" ],
+                                    "patching_rect": [ 8.0, 56.0, 47.0, 22.0 ],
+                                    "text": "t signal"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-7",
+                                    "maxclass": "newobj",
+                                    "numinlets": 5,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 144.0, 56.0, 98.0, 22.0 ],
+                                    "text": "zmap 0. 1. 1. 10."
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-8",
@@ -848,7 +874,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 168.0, 88.0, 150.0, 47.0 ],
+                                    "patching_rect": [ 216.0, 96.0, 150.0, 47.0 ],
                                     "text": "`onepole~` prevents \"zipper effect\" when modulating parameter."
                                 }
                             },
@@ -859,7 +885,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "signal" ],
-                                    "patching_rect": [ 88.0, 88.0, 68.0, 22.0 ],
+                                    "patching_rect": [ 144.0, 120.0, 68.0, 22.0 ],
                                     "text": "onepole~ 8"
                                 }
                             },
@@ -870,7 +896,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "signal" ],
-                                    "patching_rect": [ 88.0, 56.0, 31.0, 22.0 ],
+                                    "patching_rect": [ 144.0, 88.0, 31.0, 22.0 ],
                                     "text": "sig~"
                                 }
                             },
@@ -883,7 +909,7 @@
                                     "numinlets": 0,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 88.0, 8.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 144.0, 8.0, 30.0, 30.0 ]
                                 }
                             },
                             {
@@ -894,7 +920,7 @@
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 8.0, 160.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 8.0, 200.0, 30.0, 30.0 ]
                                 }
                             },
                             {
@@ -916,7 +942,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "signal" ],
-                                    "patching_rect": [ 8.0, 120.0, 75.0, 22.0 ],
+                                    "patching_rect": [ 8.0, 160.0, 75.0, 22.0 ],
                                     "text": "overdrive~ 1"
                                 }
                             }
@@ -931,12 +957,18 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-1", 0 ],
+                                    "source": [ "obj-11", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-11", 0 ],
                                     "source": [ "obj-2", 0 ]
                                 }
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-5", 0 ],
+                                    "destination": [ "obj-7", 0 ],
                                     "source": [ "obj-4", 0 ]
                                 }
                             },
@@ -950,6 +982,12 @@
                                 "patchline": {
                                     "destination": [ "obj-1", 1 ],
                                     "source": [ "obj-6", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-5", 0 ],
+                                    "source": [ "obj-7", 0 ]
                                 }
                             }
                         ],

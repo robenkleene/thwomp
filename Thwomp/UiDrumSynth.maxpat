@@ -174,12 +174,11 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "#1-Overdrive",
-                            "parameter_mmax": 10.0,
-                            "parameter_mmin": 1.0,
+                            "parameter_mmax": 100.0,
                             "parameter_modmode": 4,
                             "parameter_shortname": "Overdrive",
                             "parameter_type": 0,
-                            "parameter_unitstyle": 1
+                            "parameter_unitstyle": 5
                         }
                     },
                     "varname": "#1-Overdrive"
@@ -214,7 +213,7 @@
                     "maxclass": "live.line",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 632.0, 152.0, 5.0, 100.0 ],
+                    "patching_rect": [ 648.0, 152.0, 5.0, 100.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 144.0, 0.0, 8.0, 104.0 ]
                 }
@@ -630,7 +629,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-20", 7 ],
-                    "source": [ "obj-24", 0 ]
+                    "source": [ "obj-24", 1 ]
                 }
             },
             {
@@ -728,14 +727,6 @@
             "obj-5": [ "#1-Gain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
