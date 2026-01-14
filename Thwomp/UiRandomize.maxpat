@@ -16,6 +16,41 @@
         "boxes": [
             {
                 "box": {
+                    "args": [ "RandGain", "Gain" ],
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-24",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiMinMaxDb.maxpat",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "int", "int" ],
+                    "patching_rect": [ 160.0, 520.0, 41.0, 96.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 769.0, 356.0, 41.0, 96.0 ],
+                    "varname": "RandGain",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-25",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 160.0, 488.0, 130.0, 22.0 ],
+                    "text": "loadmess setup -70. 6."
+                }
+            },
+            {
+                "box": {
                     "args": [ "RandDecay", "Dec" ],
                     "bgmode": 0,
                     "border": 0,
@@ -481,6 +516,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-24", 0 ],
+                    "source": [ "obj-25", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-10", 0 ],
                     "source": [ "obj-9", 0 ]
                 }
@@ -501,6 +542,8 @@
             "obj-2": [ "Rand2", "Rand2", 0 ],
             "obj-20::obj-1": [ "RandAttack-Min", "DecMin", 0 ],
             "obj-20::obj-2": [ "RandAttack-Max", "DecMax", 0 ],
+            "obj-24::obj-1": [ "RandDecay-Min", "GainMin", 0 ],
+            "obj-24::obj-2": [ "RandDecay-Max", "GainMax", 0 ],
             "obj-3": [ "RandOscShape", "RandOscShape", 0 ],
             "obj-4": [ "RandOscFilt", "RandOscFilt", 0 ],
             "obj-5": [ "RandOscFreq", "RandOscFreq", 0 ],
@@ -556,6 +599,12 @@
                 },
                 "obj-20::obj-2": {
                     "parameter_longname": "RandAttack-Max"
+                },
+                "obj-24::obj-1": {
+                    "parameter_longname": "RandDecay-Min"
+                },
+                "obj-24::obj-2": {
+                    "parameter_longname": "RandDecay-Max"
                 },
                 "obj-8::obj-1": {
                     "parameter_longname": "RandPitchEnvCurve-Min[1]"
