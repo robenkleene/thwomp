@@ -16,6 +16,84 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-44",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 712.0, 568.0, 48.0, 16.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 711.0, 566.0, 44.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "RandFiltQ",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "RandFiltQ",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "FiltQ",
+                    "texton": "FiltQ",
+                    "varname": "RandFiltQ"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-43",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 560.0, 568.0, 48.0, 16.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 558.0, 564.0, 44.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "RandFiltFreq",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "RandGain",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "FiltFrq",
+                    "texton": "FiltFrq",
+                    "varname": "RandFiltFreq"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-42",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 776.0, 288.0, 48.0, 16.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 778.0, 288.0, 44.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "RandGain",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "RandGain",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Gain",
+                    "texton": "Gain",
+                    "varname": "RandGain[1]"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-41",
                     "maxclass": "live.text",
                     "numinlets": 1,
@@ -126,7 +204,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 496.0, 104.0, 44.0, 15.0 ],
+                    "patching_rect": [ 696.0, 96.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 494.0, 106.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -152,7 +230,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 328.0, 104.0, 44.0, 15.0 ],
+                    "patching_rect": [ 528.0, 96.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 328.0, 101.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -187,7 +265,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 976.0, 496.0, 41.0, 96.0 ],
+                    "patching_rect": [ 168.0, 152.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 1051.0, 500.0, 41.0, 96.0 ],
                     "varname": "RandFilterFreq[1]",
@@ -201,7 +279,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 976.0, 464.0, 146.0, 22.0 ],
+                    "patching_rect": [ 168.0, 120.0, 146.0, 22.0 ],
                     "text": "loadmess setup 0. 15000."
                 }
             },
@@ -252,7 +330,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 832.0, 496.0, 41.0, 96.0 ],
+                    "patching_rect": [ 712.0, 624.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 520.0, 16.0, 41.0, 96.0 ],
                     "varname": "RandFilterQ",
@@ -266,13 +344,13 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 832.0, 464.0, 133.0, 22.0 ],
+                    "patching_rect": [ 712.0, 592.0, 133.0, 22.0 ],
                     "text": "loadmess setup 0.3 10."
                 }
             },
             {
                 "box": {
-                    "args": [ "RandFilterFreq", "FFrq" ],
+                    "args": [ "RandFilFreq", "FFrq" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -287,10 +365,10 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 680.0, 496.0, 41.0, 96.0 ],
+                    "patching_rect": [ 560.0, 624.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 480.0, 16.0, 41.0, 96.0 ],
-                    "varname": "RandFilterFreq",
+                    "varname": "RandFiltFreqMinMax",
                     "viewvisibility": 1
                 }
             },
@@ -301,7 +379,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 680.0, 464.0, 146.0, 22.0 ],
+                    "patching_rect": [ 560.0, 592.0, 146.0, 22.0 ],
                     "text": "loadmess setup 0. 15000."
                 }
             },
@@ -313,7 +391,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 600.0, 496.0, 44.0, 15.0 ],
+                    "patching_rect": [ 480.0, 624.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 432.0, 16.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -339,7 +417,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 600.0, 520.0, 44.0, 15.0 ],
+                    "patching_rect": [ 480.0, 648.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 432.0, 32.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -367,7 +445,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 600.0, 568.0, 48.0, 15.0 ],
+                    "patching_rect": [ 480.0, 696.0, 48.0, 15.0 ],
                     "pictures": [ "highcut.svg", "lowcut.svg", "bandpass.svg", "notch.svg" ],
                     "presentation": 1,
                     "presentation_rect": [ 433.0, 64.0, 32.0, 15.0 ],
@@ -397,7 +475,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 600.0, 544.0, 48.0, 15.0 ],
+                    "patching_rect": [ 480.0, 672.0, 48.0, 15.0 ],
                     "pictures": [ "highcut.svg", "lowcut.svg", "bandpass.svg", "notch.svg" ],
                     "presentation": 1,
                     "presentation_rect": [ 433.0, 48.0, 32.0, 15.0 ],
@@ -464,7 +542,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 160.0, 520.0, 41.0, 96.0 ],
+                    "patching_rect": [ 776.0, 344.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 392.0, 16.0, 41.0, 96.0 ],
                     "varname": "RandGain",
@@ -478,7 +556,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 160.0, 488.0, 130.0, 22.0 ],
+                    "patching_rect": [ 776.0, 312.0, 130.0, 22.0 ],
                     "text": "loadmess setup -70. 6."
                 }
             },
@@ -639,7 +717,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 496.0, 160.0, 41.0, 96.0 ],
+                    "patching_rect": [ 696.0, 152.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 176.0, 16.0, 41.0, 96.0 ],
                     "varname": "RandPchEnvAmtMinMax",
@@ -653,7 +731,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 496.0, 128.0, 146.0, 22.0 ],
+                    "patching_rect": [ 696.0, 120.0, 146.0, 22.0 ],
                     "text": "loadmess setup 0. 15000."
                 }
             },
@@ -674,7 +752,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 328.0, 160.0, 41.0, 96.0 ],
+                    "patching_rect": [ 528.0, 152.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 136.0, 16.0, 41.0, 96.0 ],
                     "varname": "RandPchEnvCurMinMax",
@@ -688,7 +766,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 328.0, 128.0, 150.0, 22.0 ],
+                    "patching_rect": [ 528.0, 120.0, 150.0, 22.0 ],
                     "text": "loadmess setup -100. 100."
                 }
             },
@@ -1108,7 +1186,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 192.0, 160.0, 41.0, 96.0 ],
+                    "patching_rect": [ 392.0, 152.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 96.0, 16.0, 41.0, 96.0 ],
                     "varname": "RandPchEnvDurMinMax",
@@ -1122,7 +1200,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 192.0, 128.0, 126.0, 22.0 ],
+                    "patching_rect": [ 392.0, 120.0, 126.0, 22.0 ],
                     "text": "loadmess setup 0. 15."
                 }
             },
@@ -1134,7 +1212,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 192.0, 104.0, 44.0, 15.0 ],
+                    "patching_rect": [ 392.0, 96.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 96.0, 0.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -1186,22 +1264,22 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 8.0, 272.0, 44.0, 15.0 ],
+                    "patching_rect": [ 168.0, 96.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 48.0, 0.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandOscFreq",
+                            "parameter_longname": "RandFreq",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandOscFreq",
+                            "parameter_shortname": "RandFreq",
                             "parameter_type": 2
                         }
                     },
                     "text": "Freq",
                     "texton": "Freq",
-                    "varname": "RandOscFreq"
+                    "varname": "RandFreq"
                 }
             },
             {
@@ -1414,7 +1492,10 @@
             "obj-4": [ "RandOscFilt", "RandOscFilt", 0 ],
             "obj-40": [ "RandOverdrive", "RandOverdrive", 0 ],
             "obj-41": [ "RandAmpEnvDecay", "RandAmpEnvDecay", 0 ],
-            "obj-5": [ "RandOscFreq", "RandOscFreq", 0 ],
+            "obj-42": [ "RandGain", "RandGain", 0 ],
+            "obj-43": [ "RandFiltFreq", "RandGain", 0 ],
+            "obj-44": [ "RandFiltQ", "RandFiltQ", 0 ],
+            "obj-5": [ "RandFreq", "RandFreq", 0 ],
             "obj-6": [ "RandOscReset", "RandOscReset", 0 ],
             "obj-7": [ "RandPchEnvDur", "RandPchEnvDur", 0 ],
             "obj-8::obj-1": [ "RandPitchEnvCurve-Min[1]", "OvrMin", 0 ],
