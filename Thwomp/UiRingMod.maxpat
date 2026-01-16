@@ -17,6 +17,26 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-7",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 440.0, 112.0, 100.0, 22.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 376.0, 96.0, 56.0, 22.0 ],
+                    "restore": {
+                        "Ring": [ 0.0 ],
+                        "RingAttack": [ 0.0 ],
+                        "RingDecay": [ 0.0 ],
+                        "RingGain": [ 0.0 ]
+                    },
+                    "text": "autopattr",
+                    "varname": "u712009370"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-4",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -435,6 +455,14 @@
             "obj-31": [ "RingGain", "Gain", 0 ],
             "obj-34": [ "RingAttack", "Attack", 0 ],
             "obj-36": [ "RingDecay", "Decay", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
