@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 380.0, 209.0, 842.0, 983.0 ],
+        "rect": [ 1163.0, 114.0, 842.0, 983.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -170,7 +170,7 @@
                             "parameter_longname": "RingAttack",
                             "parameter_mmax": 15000.0,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RingAtt",
+                            "parameter_shortname": "Attack",
                             "parameter_type": 0,
                             "parameter_unitstyle": 2
                         }
@@ -197,7 +197,7 @@
                             "parameter_longname": "RingDecay",
                             "parameter_mmax": 15000.0,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RingDec",
+                            "parameter_shortname": "Decay",
                             "parameter_type": 0,
                             "parameter_unitstyle": 2
                         }
@@ -241,16 +241,16 @@
                     "presentation_rect": [ 48.0, 112.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "RingAmt",
+                            "parameter_longname": "RingGain",
                             "parameter_mmax": 6.0,
                             "parameter_mmin": -70.0,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RingAmt",
+                            "parameter_shortname": "Gain",
                             "parameter_type": 0,
                             "parameter_unitstyle": 4
                         }
                     },
-                    "varname": "RingAmt"
+                    "varname": "RingGain"
                 }
             },
             {
@@ -432,17 +432,9 @@
         ],
         "parameters": {
             "obj-25": [ "Ring", "Ring", 0 ],
-            "obj-31": [ "RingAmt", "RingAmt", 0 ],
-            "obj-34": [ "RingAttack", "RingAtt", 0 ],
-            "obj-36": [ "RingDecay", "RingDec", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
+            "obj-31": [ "RingGain", "Gain", 0 ],
+            "obj-34": [ "RingAttack", "Attack", 0 ],
+            "obj-36": [ "RingDecay", "Decay", 0 ],
             "inherited_shortname": 1
         },
         "autosave": 0

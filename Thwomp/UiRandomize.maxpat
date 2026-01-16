@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 180.0, 162.0, 1671.0, 893.0 ],
+        "rect": [ 157.0, 92.0, 1671.0, 893.0 ],
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
@@ -22,7 +22,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 712.0, 568.0, 48.0, 16.0 ],
+                    "patching_rect": [ 320.0, 480.0, 48.0, 16.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 711.0, 566.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -48,7 +48,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 560.0, 568.0, 48.0, 16.0 ],
+                    "patching_rect": [ 168.0, 480.0, 48.0, 16.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 558.0, 564.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -293,7 +293,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 8.0, 128.0, 40.0, 15.0 ],
+                    "patching_rect": [ 8.0, 96.0, 40.0, 15.0 ],
                     "pictures": [ "sine.svg", "updown.svg", "square.svg", "up.svg", "random.svg", "SHrounded.svg" ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 64.0, 40.0, 15.0 ],
@@ -330,7 +330,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 712.0, 624.0, 41.0, 96.0 ],
+                    "patching_rect": [ 320.0, 536.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 520.0, 16.0, 41.0, 96.0 ],
                     "varname": "RandFilterQ",
@@ -344,7 +344,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 712.0, 592.0, 133.0, 22.0 ],
+                    "patching_rect": [ 320.0, 504.0, 133.0, 22.0 ],
                     "text": "loadmess setup 0.3 10."
                 }
             },
@@ -365,7 +365,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 560.0, 624.0, 41.0, 96.0 ],
+                    "patching_rect": [ 168.0, 536.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 480.0, 16.0, 41.0, 96.0 ],
                     "varname": "RandFiltFreqMinMax",
@@ -379,7 +379,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 560.0, 592.0, 146.0, 22.0 ],
+                    "patching_rect": [ 168.0, 504.0, 146.0, 22.0 ],
                     "text": "loadmess setup 0. 15000."
                 }
             },
@@ -391,7 +391,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 480.0, 624.0, 44.0, 15.0 ],
+                    "patching_rect": [ 88.0, 536.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 432.0, 16.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -417,7 +417,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 480.0, 648.0, 44.0, 15.0 ],
+                    "patching_rect": [ 88.0, 560.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 432.0, 32.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -445,7 +445,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 480.0, 696.0, 48.0, 15.0 ],
+                    "patching_rect": [ 88.0, 608.0, 48.0, 15.0 ],
                     "pictures": [ "highcut.svg", "lowcut.svg", "bandpass.svg", "notch.svg" ],
                     "presentation": 1,
                     "presentation_rect": [ 433.0, 64.0, 32.0, 15.0 ],
@@ -475,7 +475,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 480.0, 672.0, 48.0, 15.0 ],
+                    "patching_rect": [ 88.0, 584.0, 48.0, 15.0 ],
                     "pictures": [ "highcut.svg", "lowcut.svg", "bandpass.svg", "notch.svg" ],
                     "presentation": 1,
                     "presentation_rect": [ 433.0, 48.0, 32.0, 15.0 ],
@@ -505,7 +505,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 8.0, 112.0, 40.0, 15.0 ],
+                    "patching_rect": [ 8.0, 72.0, 40.0, 15.0 ],
                     "pictures": [ "sine.svg", "updown.svg", "square.svg", "up.svg", "random.svg", "SHrounded.svg" ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 48.0, 40.0, 15.0 ],
@@ -1238,7 +1238,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 8.0, 240.0, 44.0, 15.0 ],
+                    "patching_rect": [ 8.0, 144.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 96.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -1290,7 +1290,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 8.0, 200.0, 44.0, 15.0 ],
+                    "patching_rect": [ 8.0, 120.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 80.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -1316,7 +1316,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 8.0, 96.0, 44.0, 15.0 ],
+                    "patching_rect": [ 8.0, 56.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 32.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -1329,8 +1329,8 @@
                             "parameter_type": 2
                         }
                     },
-                    "text": "OscShape",
-                    "texton": "OscShape",
+                    "text": "Shape",
+                    "texton": "Shape",
                     "varname": "RandOscShape"
                 }
             },
@@ -1500,6 +1500,14 @@
             "obj-7": [ "RandPchEnvDur", "RandPchEnvDur", 0 ],
             "obj-8::obj-1": [ "RandPitchEnvCurve-Min[1]", "OvrMin", 0 ],
             "obj-8::obj-2": [ "RandPitchEnvCurve-Max[1]", "OvrMax", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]

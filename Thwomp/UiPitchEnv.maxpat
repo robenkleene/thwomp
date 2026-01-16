@@ -23,7 +23,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 40.0, 392.0, 150.0, 87.0 ],
+                    "patching_rect": [ 40.0, 392.0, 151.0, 87.0 ],
                     "text": "Send first `1` representing a starting point at `x = 0, y = 1.0`, then a second point with three numbers: `y = 0`, `x = duration`, `curve factor`. "
                 }
             },
@@ -96,9 +96,9 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 472.0, 24.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-Amt": [ 0.11297409851011463 ],
-                        "#1-Dur": [ 104.12666141662342 ],
-                        "#1-PitchEnvCurve": [ -59.055118110235874 ]
+                        "#1-PitchEnvAmt": [ 0.11297409851011453 ],
+                        "#1-PitchEnvCurve": [ -59.055118110235874 ],
+                        "#1-PitchEnvDur": [ 104.12666141662342 ]
                     },
                     "text": "autopattr",
                     "varname": "u627002945"
@@ -128,7 +128,7 @@
                             "parameter_unitstyle": 2
                         }
                     },
-                    "varname": "#1-Dur"
+                    "varname": "#1-PitchEnvDur"
                 }
             },
             {
@@ -155,7 +155,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "varname": "#1-Amt"
+                    "varname": "#1-PitchEnvAmt"
                 }
             },
             {
@@ -247,14 +247,6 @@
             "obj-17": [ "#1-PitchEnvAmt", "PchAmt", 0 ],
             "obj-18": [ "#1-PitchEnvDur", "PchDur", 0 ],
             "obj-26": [ "#1-PitchEnvCurve", "PchCur", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0

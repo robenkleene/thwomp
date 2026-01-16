@@ -135,8 +135,8 @@
                             "parameter_type": 2
                         }
                     },
-                    "text": "RingFilt",
-                    "texton": "RingFilt",
+                    "text": "Filt",
+                    "texton": "Filt",
                     "varname": "RingFilt"
                 }
             },
@@ -943,7 +943,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-6", 1 ]
                 }
             },
@@ -956,7 +956,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-40", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-6", 1 ]
                 }
             },
@@ -1017,9 +1017,9 @@
             "obj-29": [ "Write", "Write", 0 ],
             "obj-30": [ "Read", "Read", 0 ],
             "obj-40::obj-25": [ "Ring", "Ring", 0 ],
-            "obj-40::obj-31": [ "RingAmt", "RingAmt", 0 ],
-            "obj-40::obj-34": [ "RingAttack", "RingAtt", 0 ],
-            "obj-40::obj-36": [ "RingDecay", "RingDec", 0 ],
+            "obj-40::obj-31": [ "RingGain", "Gain", 0 ],
+            "obj-40::obj-34": [ "RingAttack", "Attack", 0 ],
+            "obj-40::obj-36": [ "RingDecay", "Decay", 0 ],
             "obj-9::obj-1::obj-1": [ "FiltFreq", "Freq", 0 ],
             "obj-9::obj-1::obj-11": [ "FiltQ", "Q", 0 ],
             "obj-9::obj-1::obj-6": [ "FiltType", "Type", 0 ],
