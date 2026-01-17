@@ -9,11 +9,246 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 157.0, 92.0, 1671.0, 893.0 ],
+        "rect": [ 623.0, 231.0, 1421.0, 1115.0 ],
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-57",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 856.0, 472.0, 48.0, 16.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 858.0, 470.0, 44.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "RandRingGain",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "RandRingGain",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Gain",
+                    "texton": "Gain",
+                    "varname": "RandRingGain"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-58",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 720.0, 472.0, 48.0, 16.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 722.0, 470.0, 44.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "RandAmpEnvDecay[1]",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "RandAmpEnvDecay",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Decay",
+                    "texton": "Decay",
+                    "varname": "RandAmpEnvAttack[2]"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-59",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 560.0, 472.0, 48.0, 16.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 562.0, 470.0, 44.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "RandRingAttack",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "RandRingAttack",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Attack",
+                    "texton": "Attack",
+                    "varname": "RandAmpEnvAttack[3]"
+                }
+            },
+            {
+                "box": {
+                    "args": [ "RandGain", "Gain" ],
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-60",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiMinMaxDb.maxpat",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "int", "int" ],
+                    "patching_rect": [ 856.0, 528.0, 41.0, 96.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 858.0, 526.0, 41.0, 96.0 ],
+                    "varname": "RandGain[3]",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-61",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 856.0, 496.0, 130.0, 22.0 ],
+                    "text": "loadmess setup -70. 6."
+                }
+            },
+            {
+                "box": {
+                    "args": [ "RandRingDecay", "Dec" ],
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-62",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiMinMaxMs.maxpat",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "int", "int" ],
+                    "patching_rect": [ 720.0, 528.0, 41.0, 96.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 722.0, 526.0, 41.0, 96.0 ],
+                    "varname": "RandRingDecayMinMax",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-63",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 720.0, 496.0, 126.0, 22.0 ],
+                    "text": "loadmess setup 0. 15."
+                }
+            },
+            {
+                "box": {
+                    "args": [ "RandRingAttack", "Att" ],
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-64",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiMinMaxMs.maxpat",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "int", "int" ],
+                    "patching_rect": [ 560.0, 528.0, 41.0, 96.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 562.0, 526.0, 41.0, 96.0 ],
+                    "varname": "RandRingAttackMinMax",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-65",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 560.0, 496.0, 126.0, 22.0 ],
+                    "text": "loadmess setup 0. 15."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-46",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 504.0, 496.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 506.0, 497.0, 44.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "RandRingFilt",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Filt",
+                    "texton": "Filt",
+                    "varname": "RandRingFilt"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-45",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 504.0, 472.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 504.0, 469.0, 44.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "RandRing",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "RandRing",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Ring",
+                    "texton": "Ring",
+                    "varname": "RandRing"
+                }
+            },
             {
                 "box": {
                     "id": "obj-44",
@@ -22,7 +257,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 320.0, 480.0, 48.0, 16.0 ],
+                    "patching_rect": [ 320.0, 472.0, 48.0, 16.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 711.0, 566.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -48,7 +283,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 168.0, 480.0, 48.0, 16.0 ],
+                    "patching_rect": [ 168.0, 472.0, 48.0, 16.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 558.0, 564.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -74,7 +309,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 776.0, 288.0, 48.0, 16.0 ],
+                    "patching_rect": [ 752.0, 184.0, 48.0, 16.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 778.0, 288.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -100,16 +335,16 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 608.0, 288.0, 48.0, 16.0 ],
+                    "patching_rect": [ 616.0, 184.0, 48.0, 16.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 612.0, 285.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandAmpEnvDecay",
+                            "parameter_longname": "RandDecay",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandAmpEnvDecay",
+                            "parameter_shortname": "RandDecay",
                             "parameter_type": 2
                         }
                     },
@@ -126,7 +361,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 472.0, 288.0, 48.0, 16.0 ],
+                    "patching_rect": [ 456.0, 184.0, 48.0, 16.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 475.0, 287.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -135,7 +370,7 @@
                             "parameter_longname": "RandAttack",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandAmpEnvAttack",
+                            "parameter_shortname": "RandAttack",
                             "parameter_type": 2
                         }
                     },
@@ -152,7 +387,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 328.0, 288.0, 48.0, 16.0 ],
+                    "patching_rect": [ 320.0, 184.0, 48.0, 16.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 328.0, 290.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -178,7 +413,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 168.0, 288.0, 48.0, 16.0 ],
+                    "patching_rect": [ 168.0, 184.0, 48.0, 16.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 169.0, 299.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -204,7 +439,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 696.0, 96.0, 44.0, 15.0 ],
+                    "patching_rect": [ 616.0, 8.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 494.0, 106.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -230,7 +465,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 528.0, 96.0, 44.0, 15.0 ],
+                    "patching_rect": [ 456.0, 8.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 328.0, 101.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -265,7 +500,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 168.0, 152.0, 41.0, 96.0 ],
+                    "patching_rect": [ 168.0, 64.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 1051.0, 500.0, 41.0, 96.0 ],
                     "varname": "RandFilterFreq[1]",
@@ -279,7 +514,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 168.0, 120.0, 146.0, 22.0 ],
+                    "patching_rect": [ 168.0, 32.0, 146.0, 22.0 ],
                     "text": "loadmess setup 0. 15000."
                 }
             },
@@ -330,7 +565,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 320.0, 536.0, 41.0, 96.0 ],
+                    "patching_rect": [ 320.0, 528.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 520.0, 16.0, 41.0, 96.0 ],
                     "varname": "RandFilterQ",
@@ -344,7 +579,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 320.0, 504.0, 133.0, 22.0 ],
+                    "patching_rect": [ 320.0, 496.0, 133.0, 22.0 ],
                     "text": "loadmess setup 0.3 10."
                 }
             },
@@ -365,7 +600,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 168.0, 536.0, 41.0, 96.0 ],
+                    "patching_rect": [ 168.0, 528.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 480.0, 16.0, 41.0, 96.0 ],
                     "varname": "RandFiltFreqMinMax",
@@ -379,7 +614,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 168.0, 504.0, 146.0, 22.0 ],
+                    "patching_rect": [ 168.0, 496.0, 146.0, 22.0 ],
                     "text": "loadmess setup 0. 15000."
                 }
             },
@@ -391,7 +626,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 88.0, 536.0, 44.0, 15.0 ],
+                    "patching_rect": [ 88.0, 472.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 432.0, 16.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -417,7 +652,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 88.0, 560.0, 44.0, 15.0 ],
+                    "patching_rect": [ 88.0, 496.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 432.0, 32.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -445,7 +680,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 88.0, 608.0, 48.0, 15.0 ],
+                    "patching_rect": [ 88.0, 544.0, 48.0, 15.0 ],
                     "pictures": [ "highcut.svg", "lowcut.svg", "bandpass.svg", "notch.svg" ],
                     "presentation": 1,
                     "presentation_rect": [ 433.0, 64.0, 32.0, 15.0 ],
@@ -475,7 +710,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 88.0, 584.0, 48.0, 15.0 ],
+                    "patching_rect": [ 88.0, 520.0, 48.0, 15.0 ],
                     "pictures": [ "highcut.svg", "lowcut.svg", "bandpass.svg", "notch.svg" ],
                     "presentation": 1,
                     "presentation_rect": [ 433.0, 48.0, 32.0, 15.0 ],
@@ -542,7 +777,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 776.0, 344.0, 41.0, 96.0 ],
+                    "patching_rect": [ 752.0, 240.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 392.0, 16.0, 41.0, 96.0 ],
                     "varname": "RandGain",
@@ -556,13 +791,13 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 776.0, 312.0, 130.0, 22.0 ],
+                    "patching_rect": [ 752.0, 208.0, 130.0, 22.0 ],
                     "text": "loadmess setup -70. 6."
                 }
             },
             {
                 "box": {
-                    "args": [ "RandAmpEnvDecay", "Dec" ],
+                    "args": [ "RandDecay", "Dec" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -577,10 +812,10 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 608.0, 344.0, 41.0, 96.0 ],
+                    "patching_rect": [ 616.0, 240.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 352.0, 16.0, 41.0, 96.0 ],
-                    "varname": "RandAmpEnvDecayMinMax",
+                    "varname": "RandDecayMinMax",
                     "viewvisibility": 1
                 }
             },
@@ -591,13 +826,13 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 608.0, 312.0, 126.0, 22.0 ],
+                    "patching_rect": [ 616.0, 208.0, 126.0, 22.0 ],
                     "text": "loadmess setup 0. 15."
                 }
             },
             {
                 "box": {
-                    "args": [ "RandAmpEnvAttack", "Att" ],
+                    "args": [ "RandAttack", "Att" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -612,10 +847,10 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 472.0, 344.0, 41.0, 96.0 ],
+                    "patching_rect": [ 456.0, 240.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 312.0, 16.0, 41.0, 96.0 ],
-                    "varname": "RandAmpEnvAttackMinMax",
+                    "varname": "RandAttackMinMax",
                     "viewvisibility": 1
                 }
             },
@@ -626,7 +861,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 472.0, 312.0, 126.0, 22.0 ],
+                    "patching_rect": [ 456.0, 208.0, 126.0, 22.0 ],
                     "text": "loadmess setup 0. 15."
                 }
             },
@@ -647,7 +882,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 328.0, 344.0, 41.0, 96.0 ],
+                    "patching_rect": [ 320.0, 240.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 264.0, 16.0, 41.0, 96.0 ],
                     "varname": "RandOvertone",
@@ -661,7 +896,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 328.0, 312.0, 133.0, 22.0 ],
+                    "patching_rect": [ 320.0, 208.0, 133.0, 22.0 ],
                     "text": "loadmess setup 0. 100."
                 }
             },
@@ -682,7 +917,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 168.0, 344.0, 41.0, 96.0 ],
+                    "patching_rect": [ 168.0, 240.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 224.0, 16.0, 41.0, 96.0 ],
                     "varname": "RandOverdriveMinMax",
@@ -696,7 +931,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 168.0, 312.0, 133.0, 22.0 ],
+                    "patching_rect": [ 168.0, 208.0, 133.0, 22.0 ],
                     "text": "loadmess setup 0. 100."
                 }
             },
@@ -717,7 +952,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 696.0, 152.0, 41.0, 96.0 ],
+                    "patching_rect": [ 616.0, 64.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 176.0, 16.0, 41.0, 96.0 ],
                     "varname": "RandPchEnvAmtMinMax",
@@ -731,7 +966,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 696.0, 120.0, 146.0, 22.0 ],
+                    "patching_rect": [ 616.0, 32.0, 146.0, 22.0 ],
                     "text": "loadmess setup 0. 15000."
                 }
             },
@@ -752,7 +987,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 528.0, 152.0, 41.0, 96.0 ],
+                    "patching_rect": [ 456.0, 64.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 136.0, 16.0, 41.0, 96.0 ],
                     "varname": "RandPchEnvCurMinMax",
@@ -766,7 +1001,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 528.0, 120.0, 150.0, 22.0 ],
+                    "patching_rect": [ 456.0, 32.0, 150.0, 22.0 ],
                     "text": "loadmess setup -100. 100."
                 }
             },
@@ -1186,7 +1421,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 392.0, 152.0, 41.0, 96.0 ],
+                    "patching_rect": [ 320.0, 64.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 96.0, 16.0, 41.0, 96.0 ],
                     "varname": "RandPchEnvDurMinMax",
@@ -1200,7 +1435,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 392.0, 120.0, 126.0, 22.0 ],
+                    "patching_rect": [ 320.0, 32.0, 126.0, 22.0 ],
                     "text": "loadmess setup 0. 15."
                 }
             },
@@ -1212,7 +1447,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 392.0, 96.0, 44.0, 15.0 ],
+                    "patching_rect": [ 320.0, 8.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 96.0, 0.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -1264,7 +1499,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 168.0, 96.0, 44.0, 15.0 ],
+                    "patching_rect": [ 168.0, 8.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 48.0, 0.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -1303,8 +1538,8 @@
                             "parameter_type": 2
                         }
                     },
-                    "text": "OscFilt",
-                    "texton": "OscFilt",
+                    "text": "Filt",
+                    "texton": "Filt",
                     "varname": "RandOscFilt"
                 }
             },
@@ -1450,6 +1685,24 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-60", 0 ],
+                    "source": [ "obj-61", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-62", 0 ],
+                    "source": [ "obj-63", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-64", 0 ],
+                    "source": [ "obj-65", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-10", 0 ],
                     "source": [ "obj-9", 0 ]
                 }
@@ -1471,7 +1724,7 @@
             "obj-20::obj-1": [ "RandAttack-Min", "DecMin", 0 ],
             "obj-20::obj-2": [ "RandAttack-Max", "DecMax", 0 ],
             "obj-22": [ "RandOvertone", "RandOvertone", 0 ],
-            "obj-23": [ "RandAttack", "RandAmpEnvAttack", 0 ],
+            "obj-23": [ "RandAttack", "RandAttack", 0 ],
             "obj-24::obj-1": [ "RandDecay-Min", "GainMin", 0 ],
             "obj-24::obj-2": [ "RandDecay-Max", "GainMax", 0 ],
             "obj-26": [ "OscShapeMin", "Shape", 0 ],
@@ -1491,23 +1744,26 @@
             "obj-39": [ "RandPchEnvAmt", "RandPchEnvAmt", 0 ],
             "obj-4": [ "RandOscFilt", "RandOscFilt", 0 ],
             "obj-40": [ "RandOverdrive", "RandOverdrive", 0 ],
-            "obj-41": [ "RandAmpEnvDecay", "RandAmpEnvDecay", 0 ],
+            "obj-41": [ "RandDecay", "RandDecay", 0 ],
             "obj-42": [ "RandGain", "RandGain", 0 ],
             "obj-43": [ "RandFiltFreq", "RandGain", 0 ],
             "obj-44": [ "RandFiltQ", "RandFiltQ", 0 ],
+            "obj-45": [ "RandRing", "RandRing", 0 ],
+            "obj-46": [ "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss", "RandRingFilt", 0 ],
             "obj-5": [ "RandFreq", "RandFreq", 0 ],
+            "obj-57": [ "RandRingGain", "RandRingGain", 0 ],
+            "obj-58": [ "RandAmpEnvDecay[1]", "RandAmpEnvDecay", 0 ],
+            "obj-59": [ "RandRingAttack", "RandRingAttack", 0 ],
             "obj-6": [ "RandOscReset", "RandOscReset", 0 ],
+            "obj-60::obj-1": [ "RandGain-Min", "GainMin", 0 ],
+            "obj-60::obj-2": [ "RandGain-Max", "GainMax", 0 ],
+            "obj-62::obj-1": [ "RandAmpEnvDecay-Min", "DecMin", 0 ],
+            "obj-62::obj-2": [ "RandAmpEnvDecay-Max", "DecMax", 0 ],
+            "obj-64::obj-1": [ "RandAmpEnvAttack-Min", "AttMin", 0 ],
+            "obj-64::obj-2": [ "RandAmpEnvAttack-Max", "AttMax", 0 ],
             "obj-7": [ "RandPchEnvDur", "RandPchEnvDur", 0 ],
             "obj-8::obj-1": [ "RandPitchEnvCurve-Min[1]", "OvrMin", 0 ],
             "obj-8::obj-2": [ "RandPitchEnvCurve-Max[1]", "OvrMax", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
@@ -1586,6 +1842,18 @@
                 "obj-36::obj-2": {
                     "parameter_longname": "RandFilterFreq-Max[1]",
                     "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-62::obj-1": {
+                    "parameter_longname": "RandAmpEnvDecay-Min"
+                },
+                "obj-62::obj-2": {
+                    "parameter_longname": "RandAmpEnvDecay-Max"
+                },
+                "obj-64::obj-1": {
+                    "parameter_longname": "RandAmpEnvAttack-Min"
+                },
+                "obj-64::obj-2": {
+                    "parameter_longname": "RandAmpEnvAttack-Max"
                 },
                 "obj-8::obj-1": {
                     "parameter_longname": "RandPitchEnvCurve-Min[1]",
