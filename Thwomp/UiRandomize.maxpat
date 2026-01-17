@@ -16,6 +16,67 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-66",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 1040.0, 472.0, 48.0, 16.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 1038.0, 469.0, 44.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "RandVol",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "RandVol",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Vol",
+                    "texton": "Vol",
+                    "varname": "RandVol"
+                }
+            },
+            {
+                "box": {
+                    "args": [ "RandGain", "Gain" ],
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-67",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiMinMaxDb.maxpat",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "int", "int" ],
+                    "patching_rect": [ 1040.0, 528.0, 41.0, 96.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 1038.0, 525.0, 41.0, 96.0 ],
+                    "varname": "RandGain[2]",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-68",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1040.0, 496.0, 130.0, 22.0 ],
+                    "text": "loadmess setup -70. 6."
+                }
+            },
+            {
+                "box": {
                     "id": "obj-57",
                     "maxclass": "live.text",
                     "numinlets": 1,
@@ -1703,6 +1764,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-67", 0 ],
+                    "source": [ "obj-68", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-10", 0 ],
                     "source": [ "obj-9", 0 ]
                 }
@@ -1761,6 +1828,9 @@
             "obj-62::obj-2": [ "RandAmpEnvDecay-Max", "DecMax", 0 ],
             "obj-64::obj-1": [ "RandAmpEnvAttack-Min", "AttMin", 0 ],
             "obj-64::obj-2": [ "RandAmpEnvAttack-Max", "AttMax", 0 ],
+            "obj-66": [ "RandVol", "RandVol", 0 ],
+            "obj-67::obj-1": [ "RandGain-Min[1]", "GainMin", 0 ],
+            "obj-67::obj-2": [ "RandGain-Max[1]", "GainMax", 0 ],
             "obj-7": [ "RandPchEnvDur", "RandPchEnvDur", 0 ],
             "obj-8::obj-1": [ "RandPitchEnvCurve-Min[1]", "OvrMin", 0 ],
             "obj-8::obj-2": [ "RandPitchEnvCurve-Max[1]", "OvrMax", 0 ],
@@ -1854,6 +1924,12 @@
                 },
                 "obj-64::obj-2": {
                     "parameter_longname": "RandAmpEnvAttack-Max"
+                },
+                "obj-67::obj-1": {
+                    "parameter_longname": "RandGain-Min[1]"
+                },
+                "obj-67::obj-2": {
+                    "parameter_longname": "RandGain-Max[1]"
                 },
                 "obj-8::obj-1": {
                     "parameter_longname": "RandPitchEnvCurve-Min[1]",
