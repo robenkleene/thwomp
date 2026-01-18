@@ -31,6 +31,8 @@
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 0.0, 8.0, 400.0, 152.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 8.0, 400.0, 152.0 ],
                     "varname": "UiRandomize",
                     "viewvisibility": 1
                 }
@@ -96,14 +98,6 @@
             "obj-1::obj-7": [ "RandPchEnvDur", "RandPchEnvDur", 0 ],
             "obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
