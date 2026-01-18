@@ -9,7 +9,8 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 294.0, 196.0, 1564.0, 1112.0 ],
+        "rect": [ 381.0, 142.0, 1564.0, 1112.0 ],
+        "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
