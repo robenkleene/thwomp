@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 184.0, 114.0, 1649.0, 1082.0 ],
+        "rect": [ 184.0, 114.0, 951.0, 309.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -278,7 +278,7 @@
                         "Overwrite": [ 0.0 ],
                         "Read": [ 0.0 ],
                         "RingFilt": [ 0.0 ],
-                        "Tab": [ 0.0 ],
+                        "Tab": [ 2.0 ],
                         "Vol": [ 0.0 ],
                         "Write": [ 0.0 ]
                     },
@@ -423,7 +423,7 @@
                     "id": "obj-19",
                     "maxclass": "live.tab",
                     "num_lines_patching": 3,
-                    "num_lines_presentation": 2,
+                    "num_lines_presentation": 3,
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
@@ -659,11 +659,11 @@
                     "name": "UiDrumSynthBank.maxpat",
                     "numinlets": 1,
                     "numoutlets": 5,
-                    "offset": [ 0.0, 0.0 ],
+                    "offset": [ 0.0, -336.0 ],
                     "outlettype": [ "signal", "signal", "signal", "signal", "" ],
                     "patching_rect": [ 16.0, 224.0, 248.0, 160.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 40.0, 8.0, 256.0, 160.0 ],
+                    "presentation_rect": [ 40.0, 8.0, 200.0, 160.0 ],
                     "varname": "DrumSynthBank",
                     "viewvisibility": 1
                 }
@@ -1070,6 +1070,7 @@
             "obj-1::obj-8::obj-1::obj-7": [ "RandPchEnvDur", "RandPchEnvDur", 0 ],
             "obj-1::obj-8::obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-1::obj-8::obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
+            "obj-1::obj-8::obj-2": [ "live.tab", "live.tab", 0 ],
             "obj-24": [ "Overwrite", "Overwrite", 0 ],
             "obj-25": [ "RingFilt", "RingFilt", 0 ],
             "obj-29": [ "Write", "Write", 0 ],

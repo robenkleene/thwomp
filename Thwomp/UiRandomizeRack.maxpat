@@ -9,12 +9,39 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 59.0, 111.0, 1000.0, 780.0 ],
+        "rect": [ 265.0, 483.0, 1000.0, 780.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-2",
+                    "maxclass": "live.tab",
+                    "num_lines_patching": 0,
+                    "num_lines_presentation": 1,
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 312.0, 272.0, 100.0, 20.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 0.0, 100.0, 16.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "one", "two", "three" ],
+                            "parameter_longname": "live.tab",
+                            "parameter_mmax": 2,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "live.tab",
+                            "parameter_type": 2,
+                            "parameter_unitstyle": 9
+                        }
+                    },
+                    "varname": "live.tab"
+                }
+            },
             {
                 "box": {
                     "bgmode": 0,
@@ -32,7 +59,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 0.0, 8.0, 400.0, 152.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 8.0, 400.0, 152.0 ],
+                    "presentation_rect": [ 0.0, 16.0, 192.0, 144.0 ],
                     "varname": "UiRandomize",
                     "viewvisibility": 1
                 }
@@ -98,6 +125,7 @@
             "obj-1::obj-7": [ "RandPchEnvDur", "RandPchEnvDur", 0 ],
             "obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
+            "obj-2": [ "live.tab", "live.tab", 0 ],
             "parameter_overrides": {
                 "obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
