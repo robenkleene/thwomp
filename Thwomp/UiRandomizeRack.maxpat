@@ -17,15 +17,41 @@
         "boxes": [
             {
                 "box": {
+                    "fontname": "Arial Bold",
+                    "fontsize": 10.0,
+                    "id": "obj-7",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "int" ],
+                    "patching_rect": [ 0.0, -54.0, 37.0, 20.0 ],
+                    "text": "* -168"
+                }
+            },
+            {
+                "box": {
+                    "fontname": "Arial Bold",
+                    "fontsize": 10.0,
+                    "id": "obj-5",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 0.0, -24.0, 58.0, 20.0 ],
+                    "text": "offset $1 0"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-2",
                     "maxclass": "live.tab",
-                    "num_lines_patching": 0,
+                    "num_lines_patching": 1,
                     "num_lines_presentation": 1,
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 312.0, 272.0, 100.0, 20.0 ],
+                    "patching_rect": [ 0.0, -88.0, 100.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 100.0, 16.0 ],
                     "saved_attribute_attributes": {
@@ -54,10 +80,10 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "UiRandomize.maxpat",
-                    "numinlets": 0,
+                    "numinlets": 1,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 0.0, 8.0, 400.0, 152.0 ],
+                    "patching_rect": [ 0.0, 8.0, 192.0, 144.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 16.0, 192.0, 144.0 ],
                     "varname": "UiRandomize",
@@ -65,7 +91,26 @@
                 }
             }
         ],
-        "lines": [],
+        "lines": [
+            {
+                "patchline": {
+                    "destination": [ "obj-7", 0 ],
+                    "source": [ "obj-2", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-1", 0 ],
+                    "source": [ "obj-5", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-5", 0 ],
+                    "source": [ "obj-7", 0 ]
+                }
+            }
+        ],
         "parameters": {
             "obj-1::obj-1": [ "Rand1", "Rand1", 0 ],
             "obj-1::obj-10::obj-1": [ "RandPitchEnvDur-Min", "PDurMin", 0 ],
