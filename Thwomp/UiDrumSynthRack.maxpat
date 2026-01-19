@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 184.0, 114.0, 951.0, 309.0 ],
+        "rect": [ 184.0, 114.0, 1430.0, 863.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -342,7 +342,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 420.0, 50.0, 32.0, 16.0 ],
+                    "patching_rect": [ 376.0, 80.0, 32.0, 16.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 384.0, 8.0, 24.0, 17.0 ],
                     "saved_attribute_attributes": {
@@ -371,7 +371,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 460.0, 50.0, 32.0, 16.0 ],
+                    "patching_rect": [ 456.0, 80.0, 32.0, 16.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 384.0, 24.0, 24.0, 17.0 ],
                     "saved_attribute_attributes": {
@@ -399,7 +399,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 500.0, 50.0, 32.0, 16.0 ],
+                    "patching_rect": [ 496.0, 80.0, 32.0, 16.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 384.0, 40.0, 24.0, 16.0 ],
                     "saved_attribute_attributes": {
@@ -507,123 +507,165 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
+                    "bgcolor": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
+                    "bgcolor2": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
+                    "bgfillcolor_angle": 270.0,
+                    "bgfillcolor_color": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
+                    "bgfillcolor_color1": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
+                    "bgfillcolor_color2": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
+                    "bgfillcolor_proportion": 0.39,
+                    "bgfillcolor_type": "gradient",
+                    "fontface": 0,
+                    "fontsize": 12.0,
+                    "gradient": 1,
                     "id": "obj-32",
                     "maxclass": "message",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 462.0, 106.0, 36.0, 20.0 ],
+                    "patching_rect": [ 456.0, 112.0, 36.0, 22.0 ],
                     "text": "write"
                 }
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
+                    "bgcolor": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
+                    "bgcolor2": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
+                    "bgfillcolor_angle": 270.0,
+                    "bgfillcolor_color": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
+                    "bgfillcolor_color1": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
+                    "bgfillcolor_color2": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
+                    "bgfillcolor_proportion": 0.39,
+                    "bgfillcolor_type": "gradient",
+                    "fontface": 0,
+                    "fontsize": 12.0,
+                    "gradient": 1,
                     "id": "obj-28",
                     "maxclass": "message",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 372.0, 106.0, 35.0, 20.0 ],
+                    "patching_rect": [ 376.0, 112.0, 35.0, 22.0 ],
                     "text": "read"
                 }
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
+                    "fontface": 0,
+                    "fontsize": 12.0,
                     "id": "obj-7",
                     "maxclass": "newobj",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 45.0, 150.0, 37.0, 20.0 ],
+                    "patching_rect": [ 48.0, 152.0, 41.0, 22.0 ],
                     "text": "* -168"
                 }
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
+                    "bgcolor": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
+                    "bgcolor2": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
+                    "bgfillcolor_angle": 270.0,
+                    "bgfillcolor_color": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
+                    "bgfillcolor_color1": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
+                    "bgfillcolor_color2": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
+                    "bgfillcolor_proportion": 0.39,
+                    "bgfillcolor_type": "gradient",
+                    "fontface": 0,
+                    "fontsize": 12.0,
+                    "gradient": 1,
                     "id": "obj-5",
                     "maxclass": "message",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 45.0, 180.0, 66.0, 20.0 ],
+                    "patching_rect": [ 48.0, 184.0, 64.0, 22.0 ],
                     "text": "offset 0 $1"
                 }
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
+                    "bgcolor": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
+                    "bgcolor2": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
+                    "bgfillcolor_angle": 270.0,
+                    "bgfillcolor_color": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
+                    "bgfillcolor_color1": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
+                    "bgfillcolor_color2": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
+                    "bgfillcolor_proportion": 0.39,
+                    "bgfillcolor_type": "gradient",
+                    "fontface": 0,
+                    "fontsize": 12.0,
+                    "gradient": 1,
                     "id": "obj-18",
                     "maxclass": "message",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 312.0, 136.0, 91.0, 20.0 ],
+                    "patching_rect": [ 312.0, 144.0, 91.0, 22.0 ],
                     "text": "storagewindow"
                 }
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
+                    "fontface": 0,
+                    "fontsize": 12.0,
                     "id": "obj-16",
                     "maxclass": "newobj",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 417.0, 106.0, 32.5, 20.0 ],
+                    "patching_rect": [ 416.0, 112.0, 32.5, 22.0 ],
                     "text": "+ 1"
                 }
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
+                    "bgcolor": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
+                    "bgcolor2": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
+                    "bgfillcolor_angle": 270.0,
+                    "bgfillcolor_color": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
+                    "bgfillcolor_color1": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
+                    "bgfillcolor_color2": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
+                    "bgfillcolor_proportion": 0.39,
+                    "bgfillcolor_type": "gradient",
+                    "fontface": 0,
+                    "fontsize": 12.0,
+                    "gradient": 1,
                     "id": "obj-14",
                     "maxclass": "message",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 477.0, 136.0, 65.0, 20.0 ],
+                    "patching_rect": [ 480.0, 144.0, 65.0, 22.0 ],
                     "text": "writeagain"
                 }
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
+                    "fontface": 0,
+                    "fontsize": 12.0,
                     "id": "obj-12",
                     "maxclass": "newobj",
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 417.0, 136.0, 54.0, 20.0 ],
+                    "patching_rect": [ 416.0, 144.0, 54.0, 22.0 ],
                     "text": "gate 2 1"
                 }
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
+                    "fontface": 0,
+                    "fontsize": 12.0,
                     "id": "obj-23",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 420.0, 186.0, 106.0, 20.0 ],
+                    "patching_rect": [ 416.0, 192.0, 117.0, 22.0 ],
                     "saved_object_attributes": {
-                        "client_rect": [ 4, 44, 358, 172 ],
-                        "parameter_enable": 0,
-                        "parameter_mappable": 0,
-                        "storage_rect": [ 583, 69, 1034, 197 ]
+                        "parameter_enable": 0
                     },
                     "text": "pattrstorage Presets",
                     "varname": "Presets"
@@ -1083,14 +1125,6 @@
             "obj-9::obj-1::obj-11": [ "FiltQ", "Q", 0 ],
             "obj-9::obj-1::obj-6": [ "FiltType", "Type", 0 ],
             "obj-9::obj-7": [ "Filt", "Filt", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-1::obj-8::obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
