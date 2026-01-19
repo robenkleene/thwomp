@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 231.0, 365.0, 1000.0, 780.0 ],
+        "rect": [ 622.0, 274.0, 1000.0, 780.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -25,7 +25,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
                     "patching_rect": [ 0.0, -56.0, 41.0, 22.0 ],
-                    "text": "* -168"
+                    "text": "* -200"
                 }
             },
             {
@@ -33,6 +33,7 @@
                     "bgcolor": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
                     "bgcolor2": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
                     "bgfillcolor_angle": 270.0,
+                    "bgfillcolor_autogradient": 0.0,
                     "bgfillcolor_color": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
                     "bgfillcolor_color1": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
                     "bgfillcolor_color2": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
@@ -62,12 +63,12 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 0.0, -88.0, 100.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 100.0, 16.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 192.0, 16.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "one", "two", "three" ],
+                            "parameter_enum": [ "osc", "env", "effect", "ring" ],
                             "parameter_longname": "live.tab",
-                            "parameter_mmax": 2,
+                            "parameter_mmax": 3,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.tab",
                             "parameter_type": 2,
@@ -91,10 +92,10 @@
                     "name": "UiRandomize.maxpat",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "offset": [ 0.0, 0.0 ],
+                    "offset": [ -210.0, 0.0 ],
                     "patching_rect": [ 0.0, 24.0, 192.0, 144.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 16.0, 200.0, 144.0 ],
+                    "presentation_rect": [ 0.0, 16.0, 192.0, 144.0 ],
                     "varname": "UiRandomize",
                     "viewvisibility": 1
                 }
@@ -180,14 +181,6 @@
             "obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
             "obj-2": [ "live.tab", "live.tab", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
