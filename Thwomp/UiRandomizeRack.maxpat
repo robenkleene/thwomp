@@ -91,8 +91,9 @@
                     "maxclass": "bpatcher",
                     "name": "UiRandomize.maxpat",
                     "numinlets": 1,
-                    "numoutlets": 0,
-                    "offset": [ -210.0, 0.0 ],
+                    "numoutlets": 1,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "bang" ],
                     "patching_rect": [ 0.0, 24.0, 192.0, 144.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 16.0, 192.0, 144.0 ],
@@ -131,6 +132,8 @@
             "obj-1::obj-14::obj-2": [ "RandPitchEnvAmt-Max", "PAmtMax", 0 ],
             "obj-1::obj-16::obj-1": [ "RandOvertone-Min", "OvtMin", 0 ],
             "obj-1::obj-16::obj-2": [ "RandOvertone-Max", "OvtMax", 0 ],
+            "obj-1::obj-170": [ "RandomizeTrigger", "Trigger", 0 ],
+            "obj-1::obj-175": [ "RandomizeTriggerSet", "Set", 0 ],
             "obj-1::obj-18::obj-1": [ "RandAttack-Min", "AttMin", 0 ],
             "obj-1::obj-18::obj-2": [ "RandAttack-Max", "AttMax", 0 ],
             "obj-1::obj-2": [ "Rand2", "Rand2", 0 ],
@@ -178,17 +181,10 @@
             "obj-1::obj-67::obj-1": [ "RandVol-Min", "VolMin", 0 ],
             "obj-1::obj-67::obj-2": [ "RandVol-Max", "VolMax", 0 ],
             "obj-1::obj-7": [ "RandPchEnvDur", "RandPchEnvDur", 0 ],
+            "obj-1::obj-76": [ "RandomizeAuto", "Auto", 0 ],
             "obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
             "obj-2": [ "live.tab", "live.tab", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
