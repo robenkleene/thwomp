@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 265.0, 483.0, 1000.0, 780.0 ],
+        "rect": [ 231.0, 365.0, 1000.0, 780.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -94,7 +94,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 0.0, 24.0, 192.0, 144.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 16.0, 192.0, 144.0 ],
+                    "presentation_rect": [ 0.0, 16.0, 200.0, 144.0 ],
                     "varname": "UiRandomize",
                     "viewvisibility": 1
                 }

@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 788.0, 244.0, 1564.0, 1112.0 ],
+        "rect": [ 1030.0, 310.0, 1564.0, 1112.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -75,7 +75,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 1072.0, 712.0, 48.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1040.0, 512.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 776.0, 40.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -110,7 +110,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 1072.0, 768.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1040.0, 528.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 776.0, 56.0, 41.0, 96.0 ],
                     "varname": "RandVolMinMax",
                     "viewvisibility": 1
                 }
@@ -136,7 +136,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 888.0, 712.0, 48.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 856.0, 512.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 704.0, 40.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -147,8 +147,8 @@
                             "parameter_type": 2
                         }
                     },
-                    "text": "Gain",
-                    "texton": "Gain",
+                    "text": "RGain",
+                    "texton": "RGain",
                     "varname": "RandRingGain"
                 }
             },
@@ -162,7 +162,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 752.0, 712.0, 48.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 648.0, 512.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 664.0, 40.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -188,7 +188,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 592.0, 712.0, 48.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 608.0, 512.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 624.0, 40.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -223,8 +223,8 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 888.0, 768.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 856.0, 528.0, 41.0, 96.0 ],
-                    "varname": "RandGain[3]",
+                    "presentation_rect": [ 704.0, 56.0, 41.0, 96.0 ],
+                    "varname": "RandRingGainMinMax",
                     "viewvisibility": 1
                 }
             },
@@ -258,7 +258,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 752.0, 768.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 648.0, 528.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 664.0, 56.0, 41.0, 96.0 ],
                     "varname": "RandRingDecayMinMax",
                     "viewvisibility": 1
                 }
@@ -293,7 +293,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 592.0, 768.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 608.0, 528.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 624.0, 56.0, 41.0, 96.0 ],
                     "varname": "RandRingAttackMinMax",
                     "viewvisibility": 1
                 }
@@ -319,7 +319,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 536.0, 736.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 568.0, 528.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 584.0, 56.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -345,7 +345,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 536.0, 712.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 568.0, 512.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 584.0, 40.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -371,7 +371,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 352.0, 712.0, 48.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 368.0, 544.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 512.0, 40.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -397,7 +397,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 248.0, 848.0, 48.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 328.0, 544.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 472.0, 40.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -423,7 +423,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 784.0, 424.0, 48.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 392.0, 32.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 360.0, 32.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -449,7 +449,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 648.0, 424.0, 48.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 352.0, 32.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 320.0, 32.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -475,7 +475,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 488.0, 424.0, 48.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 312.0, 32.0, 40.0, 16.0 ],
+                    "presentation_rect": [ 280.0, 32.0, 40.0, 16.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -501,7 +501,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 352.0, 424.0, 48.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 272.0, 32.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 240.0, 32.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -527,7 +527,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 200.0, 424.0, 48.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 232.0, 32.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 200.0, 32.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -553,7 +553,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 648.0, 248.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 176.0, 32.0, 43.0, 15.0 ],
+                    "presentation_rect": [ 152.0, 32.0, 43.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -579,7 +579,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 488.0, 248.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 136.0, 32.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 112.0, 32.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -614,7 +614,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 200.0, 304.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 48.0, 48.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 32.0, 48.0, 41.0, 96.0 ],
                     "varname": "RandFilterFreq[1]",
                     "viewvisibility": 1
                 }
@@ -643,7 +643,7 @@
                     "patching_rect": [ 40.0, 336.0, 40.0, 15.0 ],
                     "pictures": [ "sine.svg", "updown.svg", "square.svg", "up.svg", "random.svg", "SHrounded.svg" ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 64.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 0.0, 64.0, 32.0, 15.0 ],
                     "remapsvgcolors": 1,
                     "saved_attribute_attributes": {
                         "valueof": {
@@ -679,7 +679,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 352.0, 768.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 368.0, 560.0, 40.0, 96.0 ],
+                    "presentation_rect": [ 512.0, 56.0, 40.0, 96.0 ],
                     "varname": "RandFilterQ",
                     "viewvisibility": 1
                 }
@@ -714,7 +714,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 200.0, 768.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 328.0, 560.0, 40.0, 96.0 ],
+                    "presentation_rect": [ 472.0, 56.0, 40.0, 96.0 ],
                     "varname": "RandFiltFreqMinMax",
                     "viewvisibility": 1
                 }
@@ -740,7 +740,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 120.0, 712.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 280.0, 560.0, 43.0, 15.0 ],
+                    "presentation_rect": [ 424.0, 56.0, 24.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -766,7 +766,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 120.0, 736.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 280.0, 576.0, 43.0, 15.0 ],
+                    "presentation_rect": [ 424.0, 72.0, 43.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -777,8 +777,8 @@
                             "parameter_type": 2
                         }
                     },
-                    "text": "FiltType",
-                    "texton": "FiltType",
+                    "text": "FType",
+                    "texton": "FType",
                     "varname": "RandFiltType"
                 }
             },
@@ -795,7 +795,7 @@
                     "patching_rect": [ 120.0, 784.0, 48.0, 15.0 ],
                     "pictures": [ "highcut.svg", "lowcut.svg", "bandpass.svg", "notch.svg" ],
                     "presentation": 1,
-                    "presentation_rect": [ 281.0, 608.0, 31.0, 15.0 ],
+                    "presentation_rect": [ 425.0, 104.0, 31.0, 15.0 ],
                     "remapsvgcolors": 1,
                     "saved_attribute_attributes": {
                         "valueof": {
@@ -825,7 +825,7 @@
                     "patching_rect": [ 120.0, 760.0, 48.0, 15.0 ],
                     "pictures": [ "highcut.svg", "lowcut.svg", "bandpass.svg", "notch.svg" ],
                     "presentation": 1,
-                    "presentation_rect": [ 281.0, 592.0, 31.0, 15.0 ],
+                    "presentation_rect": [ 425.0, 88.0, 31.0, 15.0 ],
                     "remapsvgcolors": 1,
                     "saved_attribute_attributes": {
                         "valueof": {
@@ -855,7 +855,7 @@
                     "patching_rect": [ 40.0, 312.0, 40.0, 15.0 ],
                     "pictures": [ "sine.svg", "updown.svg", "square.svg", "up.svg", "random.svg", "SHrounded.svg" ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 48.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 0.0, 48.0, 32.0, 15.0 ],
                     "remapsvgcolors": 1,
                     "saved_attribute_attributes": {
                         "valueof": {
@@ -891,7 +891,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 784.0, 480.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 392.0, 48.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 360.0, 48.0, 41.0, 96.0 ],
                     "varname": "RandGain",
                     "viewvisibility": 1
                 }
@@ -926,7 +926,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 648.0, 480.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 352.0, 48.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 320.0, 48.0, 41.0, 96.0 ],
                     "varname": "RandDecayMinMax",
                     "viewvisibility": 1
                 }
@@ -961,7 +961,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 488.0, 480.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 312.0, 48.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 280.0, 48.0, 41.0, 96.0 ],
                     "varname": "RandAttackMinMax",
                     "viewvisibility": 1
                 }
@@ -996,7 +996,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 352.0, 480.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 272.0, 48.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 240.0, 48.0, 41.0, 96.0 ],
                     "varname": "RandOvertone",
                     "viewvisibility": 1
                 }
@@ -1031,7 +1031,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 200.0, 480.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 232.0, 48.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 200.0, 48.0, 41.0, 96.0 ],
                     "varname": "RandOverdriveMinMax",
                     "viewvisibility": 1
                 }
@@ -1066,7 +1066,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 648.0, 304.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 176.0, 48.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 152.0, 48.0, 41.0, 96.0 ],
                     "varname": "RandPchEnvAmtMinMax",
                     "viewvisibility": 1
                 }
@@ -1101,7 +1101,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 488.0, 304.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 136.0, 48.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 112.0, 48.0, 41.0, 96.0 ],
                     "varname": "RandPchEnvCurMinMax",
                     "viewvisibility": 1
                 }
@@ -1535,7 +1535,7 @@
                     },
                     "patching_rect": [ 352.0, 304.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 96.0, 48.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 72.0, 48.0, 41.0, 96.0 ],
                     "varname": "RandPchEnvDurMinMax",
                     "viewvisibility": 1
                 }
@@ -1561,7 +1561,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 352.0, 248.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 96.0, 32.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 72.0, 32.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -1587,7 +1587,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 40.0, 384.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 96.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 0.0, 96.0, 32.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -1613,7 +1613,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 200.0, 248.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 48.0, 32.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 32.0, 32.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -1639,7 +1639,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 40.0, 360.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 80.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 0.0, 80.0, 32.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -1665,7 +1665,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 40.0, 296.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 32.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 0.0, 32.0, 32.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -1691,7 +1691,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 40.0, 272.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 16.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 0.0, 16.0, 32.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -1717,7 +1717,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 40.0, 248.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 32.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -1897,14 +1897,6 @@
             "obj-7": [ "RandPchEnvDur", "RandPchEnvDur", 0 ],
             "obj-8::obj-1": [ "RandPitchEnvCurve-Min[1]", "OvrMin", 0 ],
             "obj-8::obj-2": [ "RandPitchEnvCurve-Max[1]", "OvrMax", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
