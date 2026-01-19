@@ -61,12 +61,12 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 0.0, -88.0, 100.0, 20.0 ],
+                    "patching_rect": [ 0.0, -88.0, 200.0, 16.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 192.0, 16.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "osc", "env", "effect", "ring" ],
+                            "parameter_enum": [ "Osc", "Env", "Effect", "Ring" ],
                             "parameter_longname": "live.tab",
                             "parameter_mmax": 3,
                             "parameter_modmode": 0,
@@ -181,6 +181,14 @@
             "obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
             "obj-2": [ "live.tab", "live.tab", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
