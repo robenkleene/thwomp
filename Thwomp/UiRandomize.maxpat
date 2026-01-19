@@ -136,7 +136,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 888.0, 712.0, 48.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 680.0, 32.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 696.0, 32.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -162,7 +162,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 752.0, 712.0, 48.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 640.0, 32.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 648.0, 32.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -223,7 +223,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 888.0, 768.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 680.0, 48.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 696.0, 48.0, 41.0, 96.0 ],
                     "varname": "RandRingGainMinMax",
                     "viewvisibility": 1
                 }
@@ -258,7 +258,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 752.0, 768.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 640.0, 48.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 648.0, 48.0, 41.0, 96.0 ],
                     "varname": "RandRingDecayMinMax",
                     "viewvisibility": 1
                 }
@@ -319,7 +319,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 536.0, 736.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 640.0, 0.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 648.0, 0.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -1897,6 +1897,14 @@
             "obj-7": [ "RandPchEnvDur", "RandPchEnvDur", 0 ],
             "obj-8::obj-1": [ "RandPitchEnvCurve-Min[1]", "OvrMin", 0 ],
             "obj-8::obj-2": [ "RandPitchEnvCurve-Max[1]", "OvrMax", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
