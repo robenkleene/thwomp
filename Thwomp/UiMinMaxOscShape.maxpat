@@ -4,17 +4,77 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 127.0, 100.0, 975.0, 911.0 ],
+        "rect": [ 835.0, 222.0, 975.0, 911.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "boxes": [
+            {
+                "box": {
+                    "annotation": "#1 maximum value.",
+                    "annotation_name": "#1 Max",
+                    "id": "obj-35",
+                    "maxclass": "live.menu",
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 128.0, 280.0, 40.0, 15.0 ],
+                    "pictures": [ "sine.svg", "updown.svg", "square.svg", "up.svg", "random.svg", "SHrounded.svg" ],
+                    "presentation": 1,
+                    "presentation_rect": [ 48.0, 0.0, 40.0, 15.0 ],
+                    "remapsvgcolors": 1,
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "sine", "tri", "square", "saw", "noise", "pink" ],
+                            "parameter_longname": "#1-Max",
+                            "parameter_mmax": 5,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "#2Max",
+                            "parameter_type": 2
+                        }
+                    },
+                    "usepicture": 1,
+                    "usesvgviewbox": 1,
+                    "varname": "#1-Max"
+                }
+            },
+            {
+                "box": {
+                    "annotation": "#1 minimum value.",
+                    "annotation_name": "#1 Min",
+                    "id": "obj-26",
+                    "maxclass": "live.menu",
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 8.0, 280.0, 40.0, 15.0 ],
+                    "pictures": [ "sine.svg", "updown.svg", "square.svg", "up.svg", "random.svg", "SHrounded.svg" ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 0.0, 40.0, 15.0 ],
+                    "remapsvgcolors": 1,
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "sine", "tri", "square", "saw", "noise", "pink" ],
+                            "parameter_longname": "#1-Min",
+                            "parameter_mmax": 5,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "#2Min",
+                            "parameter_type": 2
+                        }
+                    },
+                    "usepicture": 1,
+                    "usesvgviewbox": 1,
+                    "varname": "#1-Min"
+                }
+            },
             {
                 "box": {
                     "id": "obj-6",
@@ -29,58 +89,6 @@
                     },
                     "text": "autopattr",
                     "varname": "u190004041"
-                }
-            },
-            {
-                "box": {
-                    "annotation": "#1 maximum value.",
-                    "annotation_name": "#1 Max",
-                    "id": "obj-2",
-                    "maxclass": "live.menu",
-                    "numinlets": 1,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 128.0, 280.0, 48.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 0.0, 16.0, 40.0, 15.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "1/128", "1/64", "1/32", "1/16", "1/8", "1/4", "1/2" ],
-                            "parameter_longname": "#1-Max",
-                            "parameter_mmax": 6,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "#2Max",
-                            "parameter_type": 2
-                        }
-                    },
-                    "varname": "#1-Max"
-                }
-            },
-            {
-                "box": {
-                    "annotation": "#1 minimum value.",
-                    "annotation_name": "#1 Min",
-                    "id": "obj-1",
-                    "maxclass": "live.menu",
-                    "numinlets": 1,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 8.0, 280.0, 48.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 40.0, 15.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "1/128", "1/64", "1/32", "1/16", "1/8", "1/4", "1/2" ],
-                            "parameter_longname": "#1-Min",
-                            "parameter_mmax": 6,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "#2Min",
-                            "parameter_type": 2
-                        }
-                    },
-                    "varname": "#1-Min"
                 }
             },
             {
@@ -221,12 +229,6 @@
         "lines": [
             {
                 "patchline": {
-                    "destination": [ "obj-11", 0 ],
-                    "source": [ "obj-1", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-12", 1 ],
                     "order": 0,
                     "source": [ "obj-11", 1 ]
@@ -267,14 +269,8 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-2", 0 ],
+                    "destination": [ "obj-35", 0 ],
                     "source": [ "obj-14", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-3", 0 ],
-                    "source": [ "obj-2", 0 ]
                 }
             },
             {
@@ -285,8 +281,14 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-2", 0 ],
+                    "destination": [ "obj-35", 0 ],
                     "source": [ "obj-21", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-11", 0 ],
+                    "source": [ "obj-26", 0 ]
                 }
             },
             {
@@ -319,7 +321,13 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-1", 0 ],
+                    "destination": [ "obj-3", 0 ],
+                    "source": [ "obj-35", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-26", 0 ],
                     "source": [ "obj-4", 1 ]
                 }
             },
@@ -331,26 +339,26 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-1", 0 ],
+                    "destination": [ "obj-26", 0 ],
                     "source": [ "obj-5", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-2", 0 ],
+                    "destination": [ "obj-35", 0 ],
                     "source": [ "obj-5", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-1", 0 ],
+                    "destination": [ "obj-26", 0 ],
                     "source": [ "obj-8", 0 ]
                 }
             }
         ],
         "parameters": {
-            "obj-1": [ "#1-Min", "#2Min", 0 ],
-            "obj-2": [ "#1-Max", "#2Max", 0 ],
+            "obj-26": [ "#1-Min", "#2Min", 0 ],
+            "obj-35": [ "#1-Max", "#2Max", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,

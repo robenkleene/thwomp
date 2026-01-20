@@ -22,6 +22,29 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
+                    "id": "obj-127",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiMinMaxOscShape.maxpat",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "int", "int" ],
+                    "patching_rect": [ 40.0, 320.0, 88.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 96.0, 16.0, 88.0, 15.0 ],
+                    "varname": "UiMinMaxOscShape",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
                     "id": "obj-126",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
@@ -1625,36 +1648,6 @@
             },
             {
                 "box": {
-                    "annotation": "The shape of the oscillator.",
-                    "annotation_name": "Oscillator Shape",
-                    "id": "obj-35",
-                    "maxclass": "live.menu",
-                    "numinlets": 1,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 40.0, 336.0, 40.0, 15.0 ],
-                    "pictures": [ "sine.svg", "updown.svg", "square.svg", "up.svg", "random.svg", "SHrounded.svg" ],
-                    "presentation": 1,
-                    "presentation_rect": [ 144.0, 16.0, 40.0, 15.0 ],
-                    "remapsvgcolors": 1,
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "sine", "tri", "square", "saw", "noise", "pink" ],
-                            "parameter_longname": "OscShapeMax",
-                            "parameter_mmax": 5,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Shape",
-                            "parameter_type": 2
-                        }
-                    },
-                    "usepicture": 1,
-                    "usesvgviewbox": 1,
-                    "varname": "#1-OscShapeMax"
-                }
-            },
-            {
-                "box": {
                     "args": [ "RandFilterQ", "Q" ],
                     "bgmode": 0,
                     "border": 0,
@@ -1773,36 +1766,6 @@
                     "text": "FType",
                     "texton": "FType",
                     "varname": "RandFiltType"
-                }
-            },
-            {
-                "box": {
-                    "annotation": "The shape of the oscillator.",
-                    "annotation_name": "Oscillator Shape",
-                    "id": "obj-26",
-                    "maxclass": "live.menu",
-                    "numinlets": 1,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 40.0, 312.0, 40.0, 15.0 ],
-                    "pictures": [ "sine.svg", "updown.svg", "square.svg", "up.svg", "random.svg", "SHrounded.svg" ],
-                    "presentation": 1,
-                    "presentation_rect": [ 96.0, 16.0, 40.0, 15.0 ],
-                    "remapsvgcolors": 1,
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "sine", "tri", "square", "saw", "noise", "pink" ],
-                            "parameter_longname": "OscShapeMin",
-                            "parameter_mmax": 5,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Shape",
-                            "parameter_type": 2
-                        }
-                    },
-                    "usepicture": 1,
-                    "usesvgviewbox": 1,
-                    "varname": "#1-OscShapeMin"
                 }
             },
             {
@@ -2518,7 +2481,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 40.0, 384.0, 44.0, 15.0 ],
+                    "patching_rect": [ 40.0, 368.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 16.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -2570,7 +2533,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 40.0, 360.0, 44.0, 15.0 ],
+                    "patching_rect": [ 40.0, 344.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 48.0, 16.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -3513,6 +3476,8 @@
             "obj-10::obj-2": [ "RandPitchEnvDur-Max", "PDurMax", 0 ],
             "obj-126::obj-27": [ "0-Min", "0Min", 0 ],
             "obj-126::obj-28": [ "0-Max", "0Max", 0 ],
+            "obj-127::obj-26": [ "0-Min[1]", "0Min", 0 ],
+            "obj-127::obj-35": [ "0-Max[1]", "0Max", 0 ],
             "obj-12::obj-1": [ "RandPitchEnvDur-Min[1]", "PCurMin", 0 ],
             "obj-12::obj-2": [ "RandPitchEnvDur-Max[1]", "PCurMax", 0 ],
             "obj-14::obj-1": [ "RandPitchEnvCurve-Min", "PAmtMin", 0 ],
@@ -3530,7 +3495,6 @@
             "obj-23": [ "RandAttack", "RandAttack", 0 ],
             "obj-24::obj-1": [ "RandDecay-Min", "GainMin", 0 ],
             "obj-24::obj-2": [ "RandDecay-Max", "GainMax", 0 ],
-            "obj-26": [ "OscShapeMin", "Shape", 0 ],
             "obj-29": [ "RandFiltType", "RandFiltType", 0 ],
             "obj-3": [ "RandOscShape", "RandOscShape", 0 ],
             "obj-30": [ "RandFilt", "RandFilt", 0 ],
@@ -3538,7 +3502,6 @@
             "obj-31::obj-2": [ "RandPitchEnvAmt-Max", "FFrqMax", 0 ],
             "obj-33::obj-1": [ "RandFilterFreq-Min", "QMin", 0 ],
             "obj-33::obj-2": [ "RandFilterFreq-Max", "QMax", 0 ],
-            "obj-35": [ "OscShapeMax", "Shape", 0 ],
             "obj-36::obj-1": [ "RandFilterFreq-Min[1]", "FrqMin", 0 ],
             "obj-36::obj-2": [ "RandFilterFreq-Max[1]", "FrqMax", 0 ],
             "obj-38": [ "RandPchEnvCur", "RandPchEnvCur", 0 ],
@@ -3575,6 +3538,12 @@
                 },
                 "obj-10::obj-2": {
                     "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-127::obj-26": {
+                    "parameter_longname": "0-Min[1]"
+                },
+                "obj-127::obj-35": {
+                    "parameter_longname": "0-Max[1]"
                 },
                 "obj-12::obj-1": {
                     "parameter_longname": "RandPitchEnvDur-Min[1]",
