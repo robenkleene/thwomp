@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 682.0, 190.0, 1230.0, 977.0 ],
+        "rect": [ 342.0, 139.0, 1230.0, 977.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -17,6 +17,7 @@
         "boxes": [
             {
                 "box": {
+                    "args": [ "#1" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -284,6 +285,8 @@
             "obj-8::obj-1::obj-14::obj-2": [ "RandPitchEnvAmt-Max", "PAmtMax", 0 ],
             "obj-8::obj-1::obj-16::obj-1": [ "RandOvertone-Min", "OvtMin", 0 ],
             "obj-8::obj-1::obj-16::obj-2": [ "RandOvertone-Max", "OvtMax", 0 ],
+            "obj-8::obj-1::obj-170": [ "RandomizeTrigger", "Trigger", 0 ],
+            "obj-8::obj-1::obj-175": [ "RandomizeTriggerSet", "Set", 0 ],
             "obj-8::obj-1::obj-18::obj-1": [ "RandAttack-Min", "AttMin", 0 ],
             "obj-8::obj-1::obj-18::obj-2": [ "RandAttack-Max", "AttMax", 0 ],
             "obj-8::obj-1::obj-2": [ "Rand2", "Rand2", 0 ],
@@ -331,9 +334,18 @@
             "obj-8::obj-1::obj-67::obj-1": [ "RandVol-Min", "VolMin", 0 ],
             "obj-8::obj-1::obj-67::obj-2": [ "RandVol-Max", "VolMax", 0 ],
             "obj-8::obj-1::obj-7": [ "RandPchEnvDur", "RandPchEnvDur", 0 ],
+            "obj-8::obj-1::obj-76": [ "RandomizeAuto", "Auto", 0 ],
             "obj-8::obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-8::obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
             "obj-8::obj-2": [ "live.tab", "live.tab", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-8::obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
