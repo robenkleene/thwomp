@@ -1211,7 +1211,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 120.0, 712.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 496.0, 0.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 448.0, 16.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -1237,7 +1237,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 120.0, 736.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 544.0, 0.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 496.0, 0.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -2110,7 +2110,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 40.0, 360.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 144.0, 0.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 48.0, 16.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -2645,14 +2645,6 @@
             "obj-76": [ "RandomizeAuto", "Auto", 0 ],
             "obj-8::obj-1": [ "RandPitchEnvCurve-Min[1]", "OvrMin", 0 ],
             "obj-8::obj-2": [ "RandPitchEnvCurve-Max[1]", "OvrMax", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
