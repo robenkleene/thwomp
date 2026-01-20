@@ -17,6 +17,29 @@
         "boxes": [
             {
                 "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-126",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiMinMaxFiltType.maxpat",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "int", "int" ],
+                    "patching_rect": [ 96.0, 608.0, 88.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 496.0, 16.0, 88.0, 15.0 ],
+                    "varname": "UiMinMaxFiltType",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
                     "id": "obj-125",
                     "maxclass": "message",
                     "numinlets": 2,
@@ -1750,66 +1773,6 @@
                     "text": "FType",
                     "texton": "FType",
                     "varname": "RandFiltType"
-                }
-            },
-            {
-                "box": {
-                    "annotation": "The filter type.",
-                    "annotation_name": "Filter Type",
-                    "id": "obj-28",
-                    "maxclass": "live.menu",
-                    "numinlets": 1,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 136.0, 632.0, 48.0, 15.0 ],
-                    "pictures": [ "highcut.svg", "lowcut.svg", "bandpass.svg", "notch.svg" ],
-                    "presentation": 1,
-                    "presentation_rect": [ 544.0, 16.0, 40.0, 15.0 ],
-                    "remapsvgcolors": 1,
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "one", "two", "three", "four" ],
-                            "parameter_longname": "FiltTypeMax",
-                            "parameter_mmax": 3,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Type",
-                            "parameter_type": 2
-                        }
-                    },
-                    "usepicture": 1,
-                    "usesvgviewbox": 1,
-                    "varname": "FiltTypeMax"
-                }
-            },
-            {
-                "box": {
-                    "annotation": "The filter type.",
-                    "annotation_name": "Filter Type",
-                    "id": "obj-27",
-                    "maxclass": "live.menu",
-                    "numinlets": 1,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 136.0, 608.0, 48.0, 15.0 ],
-                    "pictures": [ "highcut.svg", "lowcut.svg", "bandpass.svg", "notch.svg" ],
-                    "presentation": 1,
-                    "presentation_rect": [ 496.0, 16.0, 40.0, 15.0 ],
-                    "remapsvgcolors": 1,
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "one", "two", "three", "four" ],
-                            "parameter_longname": "RandFiltTypeMin",
-                            "parameter_mmax": 3,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Type",
-                            "parameter_type": 2
-                        }
-                    },
-                    "usepicture": 1,
-                    "usesvgviewbox": 1,
-                    "varname": "RandFiltTypeMin"
                 }
             },
             {
@@ -3548,6 +3511,8 @@
             "obj-1": [ "Rand1", "Rand1", 0 ],
             "obj-10::obj-1": [ "RandPitchEnvDur-Min", "PDurMin", 0 ],
             "obj-10::obj-2": [ "RandPitchEnvDur-Max", "PDurMax", 0 ],
+            "obj-126::obj-27": [ "0-Min", "0Min", 0 ],
+            "obj-126::obj-28": [ "0-Max", "0Max", 0 ],
             "obj-12::obj-1": [ "RandPitchEnvDur-Min[1]", "PCurMin", 0 ],
             "obj-12::obj-2": [ "RandPitchEnvDur-Max[1]", "PCurMax", 0 ],
             "obj-14::obj-1": [ "RandPitchEnvCurve-Min", "PAmtMin", 0 ],
@@ -3566,8 +3531,6 @@
             "obj-24::obj-1": [ "RandDecay-Min", "GainMin", 0 ],
             "obj-24::obj-2": [ "RandDecay-Max", "GainMax", 0 ],
             "obj-26": [ "OscShapeMin", "Shape", 0 ],
-            "obj-27": [ "RandFiltTypeMin", "Type", 0 ],
-            "obj-28": [ "FiltTypeMax", "Type", 0 ],
             "obj-29": [ "RandFiltType", "RandFiltType", 0 ],
             "obj-3": [ "RandOscShape", "RandOscShape", 0 ],
             "obj-30": [ "RandFilt", "RandFilt", 0 ],
