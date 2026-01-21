@@ -17,7 +17,18 @@
         "boxes": [
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(message) randomize messages",
+                    "id": "obj-4",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 0.0, 208.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "comment": "(message) control messages",
                     "id": "obj-3",
                     "index": 0,
                     "maxclass": "inlet",
@@ -117,6 +128,12 @@
         "lines": [
             {
                 "patchline": {
+                    "destination": [ "obj-4", 0 ],
+                    "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-7", 0 ],
                     "source": [ "obj-2", 0 ]
                 }
@@ -203,14 +220,6 @@
             "obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
             "obj-2": [ "live.tab", "live.tab", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
