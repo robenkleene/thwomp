@@ -9,12 +9,23 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 342.0, 139.0, 1230.0, 977.0 ],
+        "rect": [ 866.0, 235.0, 1230.0, 977.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-4",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "patching_rect": [ 496.0, 184.0, 22.0, 22.0 ],
+                    "text": "t b"
+                }
+            },
             {
                 "box": {
                     "args": [ "#1" ],
@@ -28,7 +39,7 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "UiRandomizeRack.maxpat",
-                    "numinlets": 0,
+                    "numinlets": 1,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 496.0, 440.0, 249.0, 165.0 ],
@@ -113,11 +124,11 @@
                     "fontsize": 12.0,
                     "id": "obj-7",
                     "maxclass": "newobj",
-                    "numinlets": 3,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 8.0, 48.0, 120.0, 22.0 ],
-                    "text": "routepass note offset"
+                    "numinlets": 4,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 8.0, 48.0, 180.0, 22.0 ],
+                    "text": "routepass note offset randomize"
                 }
             },
             {
@@ -220,6 +231,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-8", 0 ],
+                    "source": [ "obj-4", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-7", 0 ],
                     "source": [ "obj-6", 0 ]
                 }
@@ -227,14 +244,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-7", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-3", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-7", 0 ]
                 }
             },
@@ -242,6 +259,12 @@
                 "patchline": {
                     "destination": [ "obj-38", 0 ],
                     "source": [ "obj-7", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-4", 0 ],
+                    "source": [ "obj-7", 2 ]
                 }
             }
         ],
@@ -279,6 +302,10 @@
             "obj-8::obj-1::obj-1": [ "Rand1", "Rand1", 0 ],
             "obj-8::obj-1::obj-10::obj-1": [ "RandPitchEnvDur-Min", "PDurMin", 0 ],
             "obj-8::obj-1::obj-10::obj-2": [ "RandPitchEnvDur-Max", "PDurMax", 0 ],
+            "obj-8::obj-1::obj-126::obj-27": [ "0-Min", "0Min", 0 ],
+            "obj-8::obj-1::obj-126::obj-28": [ "0-Max", "0Max", 0 ],
+            "obj-8::obj-1::obj-127::obj-26": [ "0-Min[1]", "0Min", 0 ],
+            "obj-8::obj-1::obj-127::obj-35": [ "0-Max[1]", "0Max", 0 ],
             "obj-8::obj-1::obj-12::obj-1": [ "RandPitchEnvCurve-Min", "PCurMin", 0 ],
             "obj-8::obj-1::obj-12::obj-2": [ "RandPitchEnvCurve-Max", "PCurMax", 0 ],
             "obj-8::obj-1::obj-14::obj-1": [ "RandPitchEnvAmt-Min", "PAmtMin", 0 ],
@@ -296,9 +323,6 @@
             "obj-8::obj-1::obj-23": [ "RandAttack", "RandAttack", 0 ],
             "obj-8::obj-1::obj-24::obj-1": [ "RandGain-Min", "GainMin", 0 ],
             "obj-8::obj-1::obj-24::obj-2": [ "RandGain-Max", "GainMax", 0 ],
-            "obj-8::obj-1::obj-26": [ "OscShapeMin", "Shape", 0 ],
-            "obj-8::obj-1::obj-27": [ "RandFiltTypeMin", "Type", 0 ],
-            "obj-8::obj-1::obj-28": [ "FiltTypeMax", "Type", 0 ],
             "obj-8::obj-1::obj-29": [ "RandFiltType", "RandFiltType", 0 ],
             "obj-8::obj-1::obj-3": [ "RandOscShape", "RandOscShape", 0 ],
             "obj-8::obj-1::obj-30": [ "RandFilt", "RandFilt", 0 ],
@@ -306,7 +330,6 @@
             "obj-8::obj-1::obj-31::obj-2": [ "RandFilFreq-Max", "FFrqMax", 0 ],
             "obj-8::obj-1::obj-33::obj-1": [ "RandFilterQ-Min", "QMin", 0 ],
             "obj-8::obj-1::obj-33::obj-2": [ "RandFilterQ-Max", "QMax", 0 ],
-            "obj-8::obj-1::obj-35": [ "OscShapeMax", "Shape", 0 ],
             "obj-8::obj-1::obj-36::obj-1": [ "RandFreq-Min", "FrqMin", 0 ],
             "obj-8::obj-1::obj-36::obj-2": [ "RandFreq-Max", "FrqMax", 0 ],
             "obj-8::obj-1::obj-38": [ "RandPchEnvCur", "RandPchEnvCur", 0 ],
@@ -324,12 +347,12 @@
             "obj-8::obj-1::obj-58": [ "RandAmpEnvDecay[1]", "RandAmpEnvDecay", 0 ],
             "obj-8::obj-1::obj-59": [ "RandRingAttack", "RandRingAttack", 0 ],
             "obj-8::obj-1::obj-6": [ "RandOscReset", "RandOscReset", 0 ],
-            "obj-8::obj-1::obj-60::obj-1": [ "RandGain-Min[1]", "GainMin", 0 ],
-            "obj-8::obj-1::obj-60::obj-2": [ "RandGain-Max[1]", "GainMax", 0 ],
-            "obj-8::obj-1::obj-62::obj-1": [ "RandRingDecay-Min", "DecMin", 0 ],
-            "obj-8::obj-1::obj-62::obj-2": [ "RandRingDecay-Max", "DecMax", 0 ],
-            "obj-8::obj-1::obj-64::obj-1": [ "RandRingAttack-Min", "AttMin", 0 ],
-            "obj-8::obj-1::obj-64::obj-2": [ "RandRingAttack-Max", "AttMax", 0 ],
+            "obj-8::obj-1::obj-60::obj-1": [ "RandGain-Min[1]", "RGaiMin", 0 ],
+            "obj-8::obj-1::obj-60::obj-2": [ "RandGain-Max[1]", "RGaiMax", 0 ],
+            "obj-8::obj-1::obj-62::obj-1": [ "RandRingDecay-Min", "RDecMin", 0 ],
+            "obj-8::obj-1::obj-62::obj-2": [ "RandRingDecay-Max", "RDecMax", 0 ],
+            "obj-8::obj-1::obj-64::obj-1": [ "RandRingAttack-Min", "RAttMin", 0 ],
+            "obj-8::obj-1::obj-64::obj-2": [ "RandRingAttack-Max", "RAttMax", 0 ],
             "obj-8::obj-1::obj-66": [ "RandVol", "RandVol", 0 ],
             "obj-8::obj-1::obj-67::obj-1": [ "RandVol-Min", "VolMin", 0 ],
             "obj-8::obj-1::obj-67::obj-2": [ "RandVol-Max", "VolMax", 0 ],
@@ -338,20 +361,18 @@
             "obj-8::obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-8::obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
             "obj-8::obj-2": [ "live.tab", "live.tab", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-8::obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
                 },
                 "obj-8::obj-1::obj-10::obj-2": {
                     "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-8::obj-1::obj-127::obj-26": {
+                    "parameter_longname": "0-Min[1]"
+                },
+                "obj-8::obj-1::obj-127::obj-35": {
+                    "parameter_longname": "0-Max[1]"
                 },
                 "obj-8::obj-1::obj-12::obj-1": {
                     "parameter_range": [ -100.0, 100.0 ]
