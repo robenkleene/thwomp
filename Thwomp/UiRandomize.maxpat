@@ -33,8 +33,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 720.0, 1080.0, 90.0, 22.0 ],
-                    "text": "loadmess rgain"
+                    "patching_rect": [ 720.0, 1080.0, 109.0, 22.0 ],
+                    "text": "loadmess ring gain"
                 }
             },
             {
@@ -44,8 +44,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 584.0, 1080.0, 87.0, 22.0 ],
-                    "text": "loadmess rdec"
+                    "patching_rect": [ 584.0, 1080.0, 119.0, 22.0 ],
+                    "text": "loadmess ring decay"
                 }
             },
             {
@@ -55,8 +55,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 440.0, 1080.0, 81.0, 22.0 ],
-                    "text": "loadmess ratt"
+                    "patching_rect": [ 440.0, 1080.0, 119.0, 22.0 ],
+                    "text": "loadmess ring attack"
                 }
             },
             {
@@ -66,8 +66,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 192.0, 704.0, 89.0, 22.0 ],
-                    "text": "loadmess ftype"
+                    "patching_rect": [ 192.0, 704.0, 101.0, 22.0 ],
+                    "text": "loadmess filt type"
                 }
             },
             {
@@ -77,8 +77,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 344.0, 768.0, 89.0, 22.0 ],
-                    "text": "loadmess filtfrq"
+                    "patching_rect": [ 344.0, 768.0, 93.0, 22.0 ],
+                    "text": "loadmess filt frq"
                 }
             },
             {
@@ -88,8 +88,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 496.0, 728.0, 82.0, 22.0 ],
-                    "text": "loadmess filtq"
+                    "patching_rect": [ 496.0, 728.0, 85.0, 22.0 ],
+                    "text": "loadmess filt q"
                 }
             },
             {
@@ -132,8 +132,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 344.0, 472.0, 110.0, 22.0 ],
-                    "text": "loadmess overtone"
+                    "patching_rect": [ 344.0, 472.0, 142.0, 22.0 ],
+                    "text": "loadmess effect overtone"
                 }
             },
             {
@@ -143,8 +143,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 192.0, 472.0, 113.0, 22.0 ],
-                    "text": "loadmess overdrive"
+                    "patching_rect": [ 192.0, 472.0, 145.0, 22.0 ],
+                    "text": "loadmess effect overdrive"
                 }
             },
             {
@@ -219,8 +219,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 320.0, 992.0, 72.0, 22.0 ],
-                    "text": "append ring"
+                    "patching_rect": [ 320.0, 992.0, 87.0, 22.0 ],
+                    "text": "append ring filt"
                 }
             },
             {
@@ -262,8 +262,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 192.0, 992.0, 72.0, 22.0 ],
-                    "text": "append ring"
+                    "patching_rect": [ 192.0, 992.0, 95.0, 22.0 ],
+                    "text": "append ring ring"
                 }
             },
             {
@@ -391,8 +391,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 944.0, 392.0, 71.0, 22.0 ],
-                    "text": "append ofilt"
+                    "patching_rect": [ 944.0, 392.0, 64.0, 22.0 ],
+                    "text": "append filt"
                 }
             },
             {
@@ -774,7 +774,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 720.0, 1040.0, 89.0, 22.0 ],
+                    "patching_rect": [ 720.0, 1048.0, 89.0, 22.0 ],
                     "text": "r #1-randomize"
                 }
             },
@@ -4536,6 +4536,14 @@
             "obj-76": [ "RandomizeAuto", "Auto", 0 ],
             "obj-8::obj-1": [ "RandPitchEnvCurve-Min[1]", "OvrMin", 0 ],
             "obj-8::obj-2": [ "RandPitchEnvCurve-Max[1]", "OvrMax", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
