@@ -9,12 +9,64 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 184.0, 114.0, 1430.0, 863.0 ],
+        "rect": [ 819.0, 391.0, 1430.0, 863.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-46",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "patching_rect": [ 96.0, 8.0, 22.0, 22.0 ],
+                    "text": "t b"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-44",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 136.0, 184.0, 65.0, 22.0 ],
+                    "text": "randomize"
+                }
+            },
+            {
+                "box": {
+                    "annotation": "Randomize the sequencer.",
+                    "annotation_name": "Randomize",
+                    "automation": "Off",
+                    "automationon": "On",
+                    "id": "obj-45",
+                    "maxclass": "live.text",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 136.0, 160.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 152.0, 32.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "Off", "On" ],
+                            "parameter_longname": "Randomize",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Rand",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "R",
+                    "varname": "Randomize"
+                }
+            },
             {
                 "box": {
                     "id": "obj-43",
@@ -248,11 +300,11 @@
                 "box": {
                     "id": "obj-6",
                     "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "patching_rect": [ 16.0, -24.0, 93.0, 22.0 ],
-                    "text": "routepass recall"
+                    "numinlets": 3,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "" ],
+                    "patching_rect": [ 16.0, -24.0, 153.0, 22.0 ],
+                    "text": "routepass recall randomize"
                 }
             },
             {
@@ -276,6 +328,7 @@
                     "patching_rect": [ 168.0, 80.0, 56.0, 22.0 ],
                     "restore": {
                         "Overwrite": [ 0.0 ],
+                        "Randomize": [ 0.0 ],
                         "Read": [ 0.0 ],
                         "RingFilt": [ 0.0 ],
                         "Tab": [ 2.0 ],
@@ -430,7 +483,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 48.0, 16.0, 40.0, 120.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 8.0, 32.0, 160.0 ],
+                    "presentation_rect": [ 0.0, 8.0, 32.0, 144.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "1", "2", "R" ],
@@ -510,6 +563,7 @@
                     "bgcolor": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
                     "bgcolor2": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
                     "bgfillcolor_angle": 270.0,
+                    "bgfillcolor_autogradient": 0.0,
                     "bgfillcolor_color": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
                     "bgfillcolor_color1": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
                     "bgfillcolor_color2": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
@@ -532,6 +586,7 @@
                     "bgcolor": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
                     "bgcolor2": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
                     "bgfillcolor_angle": 270.0,
+                    "bgfillcolor_autogradient": 0.0,
                     "bgfillcolor_color": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
                     "bgfillcolor_color1": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
                     "bgfillcolor_color2": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
@@ -567,6 +622,7 @@
                     "bgcolor": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
                     "bgcolor2": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
                     "bgfillcolor_angle": 270.0,
+                    "bgfillcolor_autogradient": 0.0,
                     "bgfillcolor_color": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
                     "bgfillcolor_color1": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
                     "bgfillcolor_color2": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
@@ -589,6 +645,7 @@
                     "bgcolor": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
                     "bgcolor2": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
                     "bgfillcolor_angle": 270.0,
+                    "bgfillcolor_autogradient": 0.0,
                     "bgfillcolor_color": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
                     "bgfillcolor_color1": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
                     "bgfillcolor_color2": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
@@ -624,6 +681,7 @@
                     "bgcolor": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
                     "bgcolor2": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
                     "bgfillcolor_angle": 270.0,
+                    "bgfillcolor_autogradient": 0.0,
                     "bgfillcolor_color": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
                     "bgfillcolor_color1": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
                     "bgfillcolor_color2": [ 0.7285453159843065, 0.7285451443566503, 0.7285451892056988, 1 ],
@@ -665,7 +723,10 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 416.0, 192.0, 117.0, 22.0 ],
                     "saved_object_attributes": {
-                        "parameter_enable": 0
+                        "client_rect": [ 4, 44, 358, 172 ],
+                        "parameter_enable": 0,
+                        "parameter_mappable": 0,
+                        "storage_rect": [ 583, 69, 1034, 197 ]
                     },
                     "text": "pattrstorage Presets",
                     "varname": "Presets"
@@ -979,14 +1040,32 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
+                    "source": [ "obj-44", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-44", 0 ],
+                    "source": [ "obj-45", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-45", 0 ],
+                    "source": [ "obj-46", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-1", 0 ],
                     "source": [ "obj-5", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
-                    "order": 1,
-                    "source": [ "obj-6", 1 ]
+                    "order": 0,
+                    "source": [ "obj-6", 2 ]
                 }
             },
             {
@@ -998,7 +1077,13 @@
             {
                 "patchline": {
                     "destination": [ "obj-40", 0 ],
-                    "order": 0,
+                    "order": 1,
+                    "source": [ "obj-6", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-46", 0 ],
                     "source": [ "obj-6", 1 ]
                 }
             },
@@ -1057,12 +1142,18 @@
             "obj-1::obj-8::obj-1::obj-1": [ "Rand1", "Rand1", 0 ],
             "obj-1::obj-8::obj-1::obj-10::obj-1": [ "RandPitchEnvDur-Min", "PDurMin", 0 ],
             "obj-1::obj-8::obj-1::obj-10::obj-2": [ "RandPitchEnvDur-Max", "PDurMax", 0 ],
+            "obj-1::obj-8::obj-1::obj-126::obj-27": [ "0-Min", "0Min", 0 ],
+            "obj-1::obj-8::obj-1::obj-126::obj-28": [ "0-Max", "0Max", 0 ],
+            "obj-1::obj-8::obj-1::obj-127::obj-26": [ "0-Min[1]", "0Min", 0 ],
+            "obj-1::obj-8::obj-1::obj-127::obj-35": [ "0-Max[1]", "0Max", 0 ],
             "obj-1::obj-8::obj-1::obj-12::obj-1": [ "RandPitchEnvCurve-Min", "PCurMin", 0 ],
             "obj-1::obj-8::obj-1::obj-12::obj-2": [ "RandPitchEnvCurve-Max", "PCurMax", 0 ],
             "obj-1::obj-8::obj-1::obj-14::obj-1": [ "RandPitchEnvAmt-Min", "PAmtMin", 0 ],
             "obj-1::obj-8::obj-1::obj-14::obj-2": [ "RandPitchEnvAmt-Max", "PAmtMax", 0 ],
             "obj-1::obj-8::obj-1::obj-16::obj-1": [ "RandOvertone-Min", "OvtMin", 0 ],
             "obj-1::obj-8::obj-1::obj-16::obj-2": [ "RandOvertone-Max", "OvtMax", 0 ],
+            "obj-1::obj-8::obj-1::obj-170": [ "RandomizeTrigger", "Trigger", 0 ],
+            "obj-1::obj-8::obj-1::obj-175": [ "RandomizeTriggerSet", "Set", 0 ],
             "obj-1::obj-8::obj-1::obj-18::obj-1": [ "RandAttack-Min", "AttMin", 0 ],
             "obj-1::obj-8::obj-1::obj-18::obj-2": [ "RandAttack-Max", "AttMax", 0 ],
             "obj-1::obj-8::obj-1::obj-2": [ "Rand2", "Rand2", 0 ],
@@ -1072,9 +1163,6 @@
             "obj-1::obj-8::obj-1::obj-23": [ "RandAttack", "RandAttack", 0 ],
             "obj-1::obj-8::obj-1::obj-24::obj-1": [ "RandGain-Min", "GainMin", 0 ],
             "obj-1::obj-8::obj-1::obj-24::obj-2": [ "RandGain-Max", "GainMax", 0 ],
-            "obj-1::obj-8::obj-1::obj-26": [ "OscShapeMin", "Shape", 0 ],
-            "obj-1::obj-8::obj-1::obj-27": [ "RandFiltTypeMin", "Type", 0 ],
-            "obj-1::obj-8::obj-1::obj-28": [ "FiltTypeMax", "Type", 0 ],
             "obj-1::obj-8::obj-1::obj-29": [ "RandFiltType", "RandFiltType", 0 ],
             "obj-1::obj-8::obj-1::obj-3": [ "RandOscShape", "RandOscShape", 0 ],
             "obj-1::obj-8::obj-1::obj-30": [ "RandFilt", "RandFilt", 0 ],
@@ -1082,7 +1170,6 @@
             "obj-1::obj-8::obj-1::obj-31::obj-2": [ "RandFilFreq-Max", "FFrqMax", 0 ],
             "obj-1::obj-8::obj-1::obj-33::obj-1": [ "RandFilterQ-Min", "QMin", 0 ],
             "obj-1::obj-8::obj-1::obj-33::obj-2": [ "RandFilterQ-Max", "QMax", 0 ],
-            "obj-1::obj-8::obj-1::obj-35": [ "OscShapeMax", "Shape", 0 ],
             "obj-1::obj-8::obj-1::obj-36::obj-1": [ "RandFreq-Min", "FrqMin", 0 ],
             "obj-1::obj-8::obj-1::obj-36::obj-2": [ "RandFreq-Max", "FrqMax", 0 ],
             "obj-1::obj-8::obj-1::obj-38": [ "RandPchEnvCur", "RandPchEnvCur", 0 ],
@@ -1100,16 +1187,17 @@
             "obj-1::obj-8::obj-1::obj-58": [ "RandAmpEnvDecay[1]", "RandAmpEnvDecay", 0 ],
             "obj-1::obj-8::obj-1::obj-59": [ "RandRingAttack", "RandRingAttack", 0 ],
             "obj-1::obj-8::obj-1::obj-6": [ "RandOscReset", "RandOscReset", 0 ],
-            "obj-1::obj-8::obj-1::obj-60::obj-1": [ "RandGain-Min[1]", "GainMin", 0 ],
-            "obj-1::obj-8::obj-1::obj-60::obj-2": [ "RandGain-Max[1]", "GainMax", 0 ],
-            "obj-1::obj-8::obj-1::obj-62::obj-1": [ "RandRingDecay-Min", "DecMin", 0 ],
-            "obj-1::obj-8::obj-1::obj-62::obj-2": [ "RandRingDecay-Max", "DecMax", 0 ],
-            "obj-1::obj-8::obj-1::obj-64::obj-1": [ "RandRingAttack-Min", "AttMin", 0 ],
-            "obj-1::obj-8::obj-1::obj-64::obj-2": [ "RandRingAttack-Max", "AttMax", 0 ],
+            "obj-1::obj-8::obj-1::obj-60::obj-1": [ "RandGain-Min[1]", "RGaiMin", 0 ],
+            "obj-1::obj-8::obj-1::obj-60::obj-2": [ "RandGain-Max[1]", "RGaiMax", 0 ],
+            "obj-1::obj-8::obj-1::obj-62::obj-1": [ "RandRingDecay-Min", "RDecMin", 0 ],
+            "obj-1::obj-8::obj-1::obj-62::obj-2": [ "RandRingDecay-Max", "RDecMax", 0 ],
+            "obj-1::obj-8::obj-1::obj-64::obj-1": [ "RandRingAttack-Min", "RAttMin", 0 ],
+            "obj-1::obj-8::obj-1::obj-64::obj-2": [ "RandRingAttack-Max", "RAttMax", 0 ],
             "obj-1::obj-8::obj-1::obj-66": [ "RandVol", "RandVol", 0 ],
             "obj-1::obj-8::obj-1::obj-67::obj-1": [ "RandVol-Min", "VolMin", 0 ],
             "obj-1::obj-8::obj-1::obj-67::obj-2": [ "RandVol-Max", "VolMax", 0 ],
             "obj-1::obj-8::obj-1::obj-7": [ "RandPchEnvDur", "RandPchEnvDur", 0 ],
+            "obj-1::obj-8::obj-1::obj-76": [ "RandomizeAuto", "Auto", 0 ],
             "obj-1::obj-8::obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-1::obj-8::obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
             "obj-1::obj-8::obj-2": [ "live.tab", "live.tab", 0 ],
@@ -1121,16 +1209,31 @@
             "obj-40::obj-31": [ "RingGain", "Gain", 0 ],
             "obj-40::obj-34": [ "RingAttack", "Attack", 0 ],
             "obj-40::obj-36": [ "RingDecay", "Decay", 0 ],
+            "obj-45": [ "Randomize", "Rand", 0 ],
             "obj-9::obj-1::obj-1": [ "FiltFreq", "Freq", 0 ],
             "obj-9::obj-1::obj-11": [ "FiltQ", "Q", 0 ],
             "obj-9::obj-1::obj-6": [ "FiltType", "Type", 0 ],
             "obj-9::obj-7": [ "Filt", "Filt", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-1::obj-8::obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
                 },
                 "obj-1::obj-8::obj-1::obj-10::obj-2": {
                     "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-1::obj-8::obj-1::obj-127::obj-26": {
+                    "parameter_longname": "0-Min[1]"
+                },
+                "obj-1::obj-8::obj-1::obj-127::obj-35": {
+                    "parameter_longname": "0-Max[1]"
                 },
                 "obj-1::obj-8::obj-1::obj-12::obj-1": {
                     "parameter_range": [ -100.0, 100.0 ]
