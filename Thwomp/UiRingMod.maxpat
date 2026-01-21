@@ -265,7 +265,7 @@
                             "parameter_mmax": 6.0,
                             "parameter_mmin": -70.0,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Gain",
+                            "parameter_shortname": "RGain",
                             "parameter_type": 0,
                             "parameter_unitstyle": 4
                         }
@@ -452,17 +452,9 @@
         ],
         "parameters": {
             "obj-25": [ "Ring", "Ring", 0 ],
-            "obj-31": [ "RingGain", "Gain", 0 ],
+            "obj-31": [ "RingGain", "RGain", 0 ],
             "obj-34": [ "RingAttack", "Attack", 0 ],
             "obj-36": [ "RingDecay", "Decay", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0

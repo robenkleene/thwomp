@@ -52,7 +52,7 @@
                             "parameter_mmax": 22000.0,
                             "parameter_mmin": 30.0,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Freq",
+                            "parameter_shortname": "FFreq",
                             "parameter_type": 0,
                             "parameter_unitstyle": 3
                         }
@@ -386,17 +386,9 @@
             }
         ],
         "parameters": {
-            "obj-1": [ "FiltFreq", "Freq", 0 ],
+            "obj-1": [ "FiltFreq", "FFreq", 0 ],
             "obj-11": [ "FiltQ", "Q", 0 ],
             "obj-6": [ "FiltType", "Type", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
