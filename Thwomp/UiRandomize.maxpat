@@ -2080,7 +2080,7 @@
                             "parameter_longname": "RandFiltQ",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandFiltQ",
+                            "parameter_shortname": "FiltQ",
                             "parameter_type": 2
                         }
                     },
@@ -2106,7 +2106,7 @@
                             "parameter_longname": "RandFiltFreq",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandGain",
+                            "parameter_shortname": "Gain",
                             "parameter_type": 2
                         }
                     },
@@ -2132,7 +2132,7 @@
                             "parameter_longname": "RandOscGain",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandOscGain",
+                            "parameter_shortname": "OGain",
                             "parameter_type": 2
                         }
                     },
@@ -2158,7 +2158,7 @@
                             "parameter_longname": "RandOscDecay",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandOscDecay",
+                            "parameter_shortname": "Decay",
                             "parameter_type": 2
                         }
                     },
@@ -2184,7 +2184,7 @@
                             "parameter_longname": "RandOscAttack",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandOscAttack",
+                            "parameter_shortname": "Attack",
                             "parameter_type": 2
                         }
                     },
@@ -2210,7 +2210,7 @@
                             "parameter_longname": "RandOvertone",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandOvertone",
+                            "parameter_shortname": "Overtone",
                             "parameter_type": 2
                         }
                     },
@@ -2236,7 +2236,7 @@
                             "parameter_longname": "RandOverdrive",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandOverdrive",
+                            "parameter_shortname": "Overdrive",
                             "parameter_type": 2
                         }
                     },
@@ -2259,16 +2259,16 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandPchEnvAmt",
+                            "parameter_longname": "RandOscPchEnvAmt",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandPchEnvAmt",
+                            "parameter_shortname": "PAmt",
                             "parameter_type": 2
                         }
                     },
                     "text": "PchAmt",
                     "texton": "PchAmt",
-                    "varname": "RandPchEnvAmt"
+                    "varname": "RandOscPchEnvAmt"
                 }
             },
             {
@@ -2288,7 +2288,7 @@
                             "parameter_longname": "RandOscPchEnvCur",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandOscPchEnvCur",
+                            "parameter_shortname": "PCur",
                             "parameter_type": 2
                         }
                     },
@@ -2419,7 +2419,7 @@
                             "parameter_longname": "RandFilt",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandFilt",
+                            "parameter_shortname": "Filt",
                             "parameter_type": 2
                         }
                     },
@@ -2445,7 +2445,7 @@
                             "parameter_longname": "RandFiltType",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandFiltType",
+                            "parameter_shortname": "FType",
                             "parameter_type": 2
                         }
                     },
@@ -2631,7 +2631,7 @@
             },
             {
                 "box": {
-                    "args": [ "RandOscPitchEnvAmt", "PAmt" ],
+                    "args": [ "RandOscPchEnvAmt", "PAmt" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -2666,7 +2666,7 @@
             },
             {
                 "box": {
-                    "args": [ "RandOscPitchEnvCurve", "PCur" ],
+                    "args": [ "RandOscPchEnvCurve", "PCur" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -3150,7 +3150,7 @@
                             "parameter_longname": "RandOscPchEnvDur",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandOscPchEnvDur",
+                            "parameter_shortname": "PDur",
                             "parameter_type": 2
                         }
                     },
@@ -3176,7 +3176,7 @@
                             "parameter_longname": "RandOscReset",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandOscReset",
+                            "parameter_shortname": "Reset",
                             "parameter_type": 2
                         }
                     },
@@ -3202,7 +3202,7 @@
                             "parameter_longname": "RandFreq",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandFreq",
+                            "parameter_shortname": "Freq",
                             "parameter_type": 2
                         }
                     },
@@ -3228,7 +3228,7 @@
                             "parameter_longname": "RandOscFilt",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandOscFilt",
+                            "parameter_shortname": "OFilt",
                             "parameter_type": 2
                         }
                     },
@@ -3254,7 +3254,7 @@
                             "parameter_longname": "RandOscShape",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandOscShape",
+                            "parameter_shortname": "Shape",
                             "parameter_type": 2
                         }
                     },
@@ -3280,7 +3280,7 @@
                             "parameter_longname": "RandOsc2",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandOsc2",
+                            "parameter_shortname": "Osc2",
                             "parameter_type": 2
                         }
                     },
@@ -3306,7 +3306,7 @@
                             "parameter_longname": "RandOsc1",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandOsc1",
+                            "parameter_shortname": "Osc1",
                             "parameter_type": 2
                         }
                     },
@@ -4477,54 +4477,54 @@
             }
         ],
         "parameters": {
-            "obj-1": [ "RandOsc1", "RandOsc1", 0 ],
+            "obj-1": [ "RandOsc1", "Osc1", 0 ],
             "obj-10::obj-1": [ "RandPitchEnvDur-Min", "PDurMin", 0 ],
             "obj-10::obj-2": [ "RandPitchEnvDur-Max", "PDurMax", 0 ],
             "obj-126::obj-27": [ "RandFiltType-Min", "FTypeMin", 0 ],
             "obj-126::obj-28": [ "RandFiltType-Max", "FTypeMax", 0 ],
             "obj-127::obj-26": [ "RandOscShape-Min", "ShapeMin", 0 ],
             "obj-127::obj-35": [ "RandOscShape-Max", "ShapeMax", 0 ],
-            "obj-12::obj-1": [ "RandOscPitchEnvCurve-Min", "PCurMin", 0 ],
-            "obj-12::obj-2": [ "RandOscPitchEnvCurve-Max", "PCurMax", 0 ],
-            "obj-14::obj-1": [ "RandOscPitchEnvAmt-Min", "PAmtMin", 0 ],
-            "obj-14::obj-2": [ "RandOscPitchEnvAmt-Max", "PAmtMax", 0 ],
+            "obj-12::obj-1": [ "RandOscPchEnvCurve-Min", "PCurMin", 0 ],
+            "obj-12::obj-2": [ "RandOscPchEnvCurve-Max", "PCurMax", 0 ],
+            "obj-14::obj-1": [ "RandOscPchEnvAmt-Min", "PAmtMin", 0 ],
+            "obj-14::obj-2": [ "RandOscPchEnvAmt-Max", "PAmtMax", 0 ],
             "obj-16::obj-1": [ "RandOvertone-Min", "OvtMin", 0 ],
             "obj-16::obj-2": [ "RandOvertone-Max", "OvtMax", 0 ],
             "obj-170": [ "RandTrig", "Trigger", 0 ],
             "obj-175": [ "RandTrigSet", "RandTrigSet", 0 ],
             "obj-18::obj-1": [ "RandOscAttack-Min", "AttMin", 0 ],
             "obj-18::obj-2": [ "RandOscAttack-Max", "AttMax", 0 ],
-            "obj-2": [ "RandOsc2", "RandOsc2", 0 ],
+            "obj-2": [ "RandOsc2", "Osc2", 0 ],
             "obj-20::obj-1": [ "RandOscDecay-Min", "DecMin", 0 ],
             "obj-20::obj-2": [ "RandOscDecay-Max", "DecMax", 0 ],
-            "obj-22": [ "RandOvertone", "RandOvertone", 0 ],
-            "obj-23": [ "RandOscAttack", "RandOscAttack", 0 ],
+            "obj-22": [ "RandOvertone", "Overtone", 0 ],
+            "obj-23": [ "RandOscAttack", "Attack", 0 ],
             "obj-24::obj-1": [ "RandOscGain-Min", "GainMin", 0 ],
             "obj-24::obj-2": [ "RandOscGain-Max", "GainMax", 0 ],
-            "obj-29": [ "RandFiltType", "RandFiltType", 0 ],
-            "obj-3": [ "RandOscShape", "RandOscShape", 0 ],
-            "obj-30": [ "RandFilt", "RandFilt", 0 ],
+            "obj-29": [ "RandFiltType", "FType", 0 ],
+            "obj-3": [ "RandOscShape", "Shape", 0 ],
+            "obj-30": [ "RandFilt", "Filt", 0 ],
             "obj-31::obj-1": [ "RandFilFreq-Min", "FFrqMin", 0 ],
             "obj-31::obj-2": [ "RandFilFreq-Max", "FFrqMax", 0 ],
             "obj-33::obj-1": [ "RandFiltQ-Min", "QMin", 0 ],
             "obj-33::obj-2": [ "RandFiltQ-Max", "QMax", 0 ],
             "obj-36::obj-1": [ "RandOscFreq-Min", "FrqMin", 0 ],
             "obj-36::obj-2": [ "RandOscFreq-Max", "FrqMax", 0 ],
-            "obj-38": [ "RandOscPchEnvCur", "RandOscPchEnvCur", 0 ],
-            "obj-39": [ "RandPchEnvAmt", "RandPchEnvAmt", 0 ],
-            "obj-4": [ "RandOscFilt", "RandOscFilt", 0 ],
-            "obj-40": [ "RandOverdrive", "RandOverdrive", 0 ],
-            "obj-41": [ "RandOscDecay", "RandOscDecay", 0 ],
-            "obj-42": [ "RandOscGain", "RandOscGain", 0 ],
-            "obj-43": [ "RandFiltFreq", "RandGain", 0 ],
-            "obj-44": [ "RandFiltQ", "RandFiltQ", 0 ],
+            "obj-38": [ "RandOscPchEnvCur", "PCur", 0 ],
+            "obj-39": [ "RandOscPchEnvAmt", "PAmt", 0 ],
+            "obj-4": [ "RandOscFilt", "OFilt", 0 ],
+            "obj-40": [ "RandOverdrive", "Overdrive", 0 ],
+            "obj-41": [ "RandOscDecay", "Decay", 0 ],
+            "obj-42": [ "RandOscGain", "OGain", 0 ],
+            "obj-43": [ "RandFiltFreq", "Gain", 0 ],
+            "obj-44": [ "RandFiltQ", "FiltQ", 0 ],
             "obj-45": [ "RandRing", "RandRing", 0 ],
             "obj-46": [ "RandRingFilt", "RandRingFilt", 0 ],
-            "obj-5": [ "RandFreq", "RandFreq", 0 ],
+            "obj-5": [ "RandFreq", "Freq", 0 ],
             "obj-57": [ "RandRingGain", "RandRingGain", 0 ],
             "obj-58": [ "RandRingDecay", "RandRingDecay", 0 ],
             "obj-59": [ "RandRingAttack", "RandRingAttack", 0 ],
-            "obj-6": [ "RandOscReset", "RandOscReset", 0 ],
+            "obj-6": [ "RandOscReset", "Reset", 0 ],
             "obj-60::obj-1": [ "RandRingGain-Min", "RGaiMin", 0 ],
             "obj-60::obj-2": [ "RandRingGain-Max", "RGaiMax", 0 ],
             "obj-62::obj-1": [ "RandRingDecay-Min", "RDecMin", 0 ],
@@ -4534,7 +4534,7 @@
             "obj-66": [ "RandVol", "RandVol", 0 ],
             "obj-67::obj-1": [ "RandVol-Min", "VolMin", 0 ],
             "obj-67::obj-2": [ "RandVol-Max", "VolMax", 0 ],
-            "obj-7": [ "RandOscPchEnvDur", "RandOscPchEnvDur", 0 ],
+            "obj-7": [ "RandOscPchEnvDur", "PDur", 0 ],
             "obj-76": [ "RandAuto", "Auto", 0 ],
             "obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
@@ -4546,15 +4546,19 @@
                     "parameter_range": [ 0.0, 15.0 ]
                 },
                 "obj-12::obj-1": {
+                    "parameter_longname": "RandOscPchEnvCurve-Min",
                     "parameter_range": [ -100.0, 100.0 ]
                 },
                 "obj-12::obj-2": {
+                    "parameter_longname": "RandOscPchEnvCurve-Max",
                     "parameter_range": [ -100.0, 100.0 ]
                 },
                 "obj-14::obj-1": {
+                    "parameter_longname": "RandOscPchEnvAmt-Min",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-14::obj-2": {
+                    "parameter_longname": "RandOscPchEnvAmt-Max",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-16::obj-1": {
