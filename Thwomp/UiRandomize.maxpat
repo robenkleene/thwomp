@@ -41,8 +41,8 @@
                         "RandOscPchEnvDur": [ 0.0 ],
                         "RandOscReset": [ 0.0 ],
                         "RandOscShape": [ 0.0 ],
-                        "RandOverdrive[1]": [ 0.0 ],
-                        "RandOverdrive[2]": [ 0.0 ],
+                        "RandOverdrive": [ 0.0 ],
+                        "RandOvertone": [ 0.0 ],
                         "RandRing": [ 0.0 ],
                         "RandRingAttack": [ 0.0 ],
                         "RandRingDecay": [ 0.0 ],
@@ -2257,7 +2257,7 @@
                     },
                     "text": "Overton",
                     "texton": "Overtone",
-                    "varname": "RandOverdrive[2]"
+                    "varname": "RandOvertone"
                 }
             },
             {
@@ -2283,7 +2283,7 @@
                     },
                     "text": "Overdri",
                     "texton": "Overdri",
-                    "varname": "RandOverdrive[1]"
+                    "varname": "RandOverdrive"
                 }
             },
             {
@@ -2620,7 +2620,7 @@
                     "patching_rect": [ 344.0, 328.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 448.0, 48.0, 41.0, 96.0 ],
-                    "varname": "RandOvertone",
+                    "varname": "RandOvertoneMinMax",
                     "viewvisibility": 1
                 }
             },
