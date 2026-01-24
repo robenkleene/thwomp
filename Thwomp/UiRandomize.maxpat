@@ -3233,7 +3233,7 @@
                         }
                     },
                     "text": "OFilt",
-                    "texton": "Filt",
+                    "texton": "OFilt",
                     "varname": "RandOscFilt"
                 }
             },
@@ -4538,6 +4538,106 @@
             "obj-76": [ "RandAuto", "Auto", 0 ],
             "obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "parameter_overrides": {
+                "obj-10::obj-1": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-10::obj-2": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-12::obj-1": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-12::obj-2": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-14::obj-1": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-14::obj-2": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-16::obj-1": {
+                    "parameter_range": [ 0.0, 100.0 ]
+                },
+                "obj-16::obj-2": {
+                    "parameter_range": [ 0.0, 100.0 ]
+                },
+                "obj-18::obj-1": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-18::obj-2": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-20::obj-1": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-20::obj-2": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-24::obj-1": {
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-24::obj-2": {
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-31::obj-1": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-31::obj-2": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-33::obj-1": {
+                    "parameter_range": [ 0.3, 10.0 ]
+                },
+                "obj-33::obj-2": {
+                    "parameter_range": [ 0.3, 10.0 ]
+                },
+                "obj-36::obj-1": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-36::obj-2": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-60::obj-1": {
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-60::obj-2": {
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-62::obj-1": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-62::obj-2": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-64::obj-1": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-64::obj-2": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-67::obj-1": {
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-67::obj-2": {
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-8::obj-1": {
+                    "parameter_range": [ 0.0, 100.0 ]
+                },
+                "obj-8::obj-2": {
+                    "parameter_range": [ 0.0, 100.0 ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
