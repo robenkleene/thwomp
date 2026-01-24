@@ -2742,8 +2742,8 @@
                                     "outlettype": [ "", "", "", "" ],
                                     "patching_rect": [ 360.0, 64.0, 56.0, 22.0 ],
                                     "restore": {
-                                        "RandPchEnvDur-Max": [ 15.0 ],
-                                        "RandPchEnvDur-Min": [ 0.0 ]
+                                        "RandOscPchEnvDur-Max": [ 0.0 ],
+                                        "RandOscPchEnvDur-Min": [ 0.0 ]
                                     },
                                     "text": "autopattr",
                                     "varname": "u973012548"
@@ -4482,34 +4482,34 @@
             "obj-10::obj-2": [ "RandPitchEnvDur-Max", "PDurMax", 0 ],
             "obj-126::obj-27": [ "RandFiltType-Min", "FTypeMin", 0 ],
             "obj-126::obj-28": [ "RandFiltType-Max", "FTypeMax", 0 ],
-            "obj-127::obj-26": [ "RandShape-Min", "ShapeMin", 0 ],
-            "obj-127::obj-35": [ "RandShape-Max", "ShapeMax", 0 ],
-            "obj-12::obj-1": [ "RandPitchEnvCurve-Min", "PCurMin", 0 ],
-            "obj-12::obj-2": [ "RandPitchEnvCurve-Max", "PCurMax", 0 ],
-            "obj-14::obj-1": [ "RandPitchEnvAmt-Min", "PAmtMin", 0 ],
-            "obj-14::obj-2": [ "RandPitchEnvAmt-Max", "PAmtMax", 0 ],
+            "obj-127::obj-26": [ "RandOscShape-Min", "ShapeMin", 0 ],
+            "obj-127::obj-35": [ "RandOscShape-Max", "ShapeMax", 0 ],
+            "obj-12::obj-1": [ "RandOscPitchEnvCurve-Min", "PCurMin", 0 ],
+            "obj-12::obj-2": [ "RandOscPitchEnvCurve-Max", "PCurMax", 0 ],
+            "obj-14::obj-1": [ "RandOscPitchEnvAmt-Min", "PAmtMin", 0 ],
+            "obj-14::obj-2": [ "RandOscPitchEnvAmt-Max", "PAmtMax", 0 ],
             "obj-16::obj-1": [ "RandOvertone-Min", "OvtMin", 0 ],
             "obj-16::obj-2": [ "RandOvertone-Max", "OvtMax", 0 ],
             "obj-170": [ "RandTrig", "Trigger", 0 ],
             "obj-175": [ "RandomizeTriggerSet", "Set", 0 ],
-            "obj-18::obj-1": [ "RandAttack-Min", "AttMin", 0 ],
-            "obj-18::obj-2": [ "RandAttack-Max", "AttMax", 0 ],
+            "obj-18::obj-1": [ "RandOscAttack-Min", "AttMin", 0 ],
+            "obj-18::obj-2": [ "RandOscAttack-Max", "AttMax", 0 ],
             "obj-2": [ "RandOsc2", "RandOsc2", 0 ],
-            "obj-20::obj-1": [ "RandDecay-Min", "DecMin", 0 ],
-            "obj-20::obj-2": [ "RandDecay-Max", "DecMax", 0 ],
+            "obj-20::obj-1": [ "RandOscDecay-Min", "DecMin", 0 ],
+            "obj-20::obj-2": [ "RandOscDecay-Max", "DecMax", 0 ],
             "obj-22": [ "RandOvertone", "RandOvertone", 0 ],
             "obj-23": [ "RandOscAttack", "RandOscAttack", 0 ],
-            "obj-24::obj-1": [ "RandGain-Min", "GainMin", 0 ],
-            "obj-24::obj-2": [ "RandGain-Max", "GainMax", 0 ],
+            "obj-24::obj-1": [ "RandOscGain-Min", "GainMin", 0 ],
+            "obj-24::obj-2": [ "RandOscGain-Max", "GainMax", 0 ],
             "obj-29": [ "RandFiltType", "RandFiltType", 0 ],
             "obj-3": [ "RandOscShape", "RandOscShape", 0 ],
             "obj-30": [ "RandFilt", "RandFilt", 0 ],
             "obj-31::obj-1": [ "RandFilFreq-Min", "FFrqMin", 0 ],
             "obj-31::obj-2": [ "RandFilFreq-Max", "FFrqMax", 0 ],
-            "obj-33::obj-1": [ "RandFilterQ-Min", "QMin", 0 ],
-            "obj-33::obj-2": [ "RandFilterQ-Max", "QMax", 0 ],
-            "obj-36::obj-1": [ "RandFreq-Min", "FrqMin", 0 ],
-            "obj-36::obj-2": [ "RandFreq-Max", "FrqMax", 0 ],
+            "obj-33::obj-1": [ "RandFiltQ-Min", "QMin", 0 ],
+            "obj-33::obj-2": [ "RandFiltQ-Max", "QMax", 0 ],
+            "obj-36::obj-1": [ "RandOscFreq-Min", "FrqMin", 0 ],
+            "obj-36::obj-2": [ "RandOscFreq-Max", "FrqMax", 0 ],
             "obj-38": [ "RandOscPchEnvCur", "RandOscPchEnvCur", 0 ],
             "obj-39": [ "RandPchEnvAmt", "RandPchEnvAmt", 0 ],
             "obj-4": [ "RandOscFilt", "RandOscFilt", 0 ],
@@ -4544,56 +4544,6 @@
                     "name": "",
                     "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
                     "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
-            "parameter_overrides": {
-                "obj-127::obj-26": {
-                    "parameter_longname": "RandShape-Min"
-                },
-                "obj-127::obj-35": {
-                    "parameter_longname": "RandShape-Max"
-                },
-                "obj-12::obj-1": {
-                    "parameter_longname": "RandPitchEnvCurve-Min"
-                },
-                "obj-12::obj-2": {
-                    "parameter_longname": "RandPitchEnvCurve-Max"
-                },
-                "obj-14::obj-1": {
-                    "parameter_longname": "RandPitchEnvAmt-Min"
-                },
-                "obj-14::obj-2": {
-                    "parameter_longname": "RandPitchEnvAmt-Max"
-                },
-                "obj-18::obj-1": {
-                    "parameter_longname": "RandAttack-Min"
-                },
-                "obj-18::obj-2": {
-                    "parameter_longname": "RandAttack-Max"
-                },
-                "obj-20::obj-1": {
-                    "parameter_longname": "RandDecay-Min"
-                },
-                "obj-20::obj-2": {
-                    "parameter_longname": "RandDecay-Max"
-                },
-                "obj-24::obj-1": {
-                    "parameter_longname": "RandGain-Min"
-                },
-                "obj-24::obj-2": {
-                    "parameter_longname": "RandGain-Max"
-                },
-                "obj-33::obj-1": {
-                    "parameter_longname": "RandFilterQ-Min"
-                },
-                "obj-33::obj-2": {
-                    "parameter_longname": "RandFilterQ-Max"
-                },
-                "obj-36::obj-1": {
-                    "parameter_longname": "RandFreq-Min"
-                },
-                "obj-36::obj-2": {
-                    "parameter_longname": "RandFreq-Max"
                 }
             },
             "inherited_shortname": 1
