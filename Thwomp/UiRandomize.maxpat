@@ -1332,10 +1332,10 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "RandomizeTriggerSet",
+                            "parameter_longname": "RandTrigSet",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Set",
+                            "parameter_shortname": "RandTrigSet",
                             "parameter_type": 2
                         }
                     },
@@ -2742,7 +2742,7 @@
                                     "outlettype": [ "", "", "", "" ],
                                     "patching_rect": [ 360.0, 64.0, 56.0, 22.0 ],
                                     "restore": {
-                                        "RandOscPchEnvDur-Max": [ 0.0 ],
+                                        "RandOscPchEnvDur-Max": [ 15.0 ],
                                         "RandOscPchEnvDur-Min": [ 0.0 ]
                                     },
                                     "text": "autopattr",
@@ -4491,7 +4491,7 @@
             "obj-16::obj-1": [ "RandOvertone-Min", "OvtMin", 0 ],
             "obj-16::obj-2": [ "RandOvertone-Max", "OvtMax", 0 ],
             "obj-170": [ "RandTrig", "Trigger", 0 ],
-            "obj-175": [ "RandomizeTriggerSet", "Set", 0 ],
+            "obj-175": [ "RandTrigSet", "RandTrigSet", 0 ],
             "obj-18::obj-1": [ "RandOscAttack-Min", "AttMin", 0 ],
             "obj-18::obj-2": [ "RandOscAttack-Max", "AttMax", 0 ],
             "obj-2": [ "RandOsc2", "RandOsc2", 0 ],
@@ -4538,12 +4538,96 @@
             "obj-76": [ "RandAuto", "Auto", 0 ],
             "obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+            "parameter_overrides": {
+                "obj-10::obj-1": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-10::obj-2": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-12::obj-1": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-12::obj-2": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-14::obj-1": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-14::obj-2": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-16::obj-1": {
+                    "parameter_range": [ 0.0, 100.0 ]
+                },
+                "obj-16::obj-2": {
+                    "parameter_range": [ 0.0, 100.0 ]
+                },
+                "obj-18::obj-1": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-18::obj-2": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-20::obj-1": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-20::obj-2": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-24::obj-1": {
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-24::obj-2": {
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-31::obj-1": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-31::obj-2": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-33::obj-1": {
+                    "parameter_range": [ 0.3, 10.0 ]
+                },
+                "obj-33::obj-2": {
+                    "parameter_range": [ 0.3, 10.0 ]
+                },
+                "obj-36::obj-1": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-36::obj-2": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-60::obj-1": {
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-60::obj-2": {
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-62::obj-1": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-62::obj-2": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-64::obj-1": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-64::obj-2": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-67::obj-1": {
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-67::obj-2": {
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-8::obj-1": {
+                    "parameter_range": [ 0.0, 100.0 ]
+                },
+                "obj-8::obj-2": {
+                    "parameter_range": [ 0.0, 100.0 ]
                 }
             },
             "inherited_shortname": 1
