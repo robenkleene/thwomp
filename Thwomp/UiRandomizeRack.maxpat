@@ -90,10 +90,10 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Osc", "Env", "Effect", "Ring" ],
-                            "parameter_longname": "live.tab",
+                            "parameter_longname": "RandTab",
                             "parameter_mmax": 3,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "live.tab",
+                            "parameter_shortname": "Tab",
                             "parameter_type": 2,
                             "parameter_unitstyle": 9
                         }
@@ -219,15 +219,7 @@
             "obj-1::obj-76": [ "RandAuto", "Auto", 0 ],
             "obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
-            "obj-2": [ "live.tab", "live.tab", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
+            "obj-2": [ "RandTab", "Tab", 0 ],
             "parameter_overrides": {
                 "obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]

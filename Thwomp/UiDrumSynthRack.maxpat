@@ -1200,7 +1200,7 @@
             "obj-1::obj-8::obj-1::obj-76": [ "RandAuto", "Auto", 0 ],
             "obj-1::obj-8::obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-1::obj-8::obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
-            "obj-1::obj-8::obj-2": [ "live.tab", "live.tab", 0 ],
+            "obj-1::obj-8::obj-2": [ "RandTab", "Tab", 0 ],
             "obj-24": [ "Overwrite", "Overwrite", 0 ],
             "obj-25": [ "RingFilt", "RingFilt", 0 ],
             "obj-29": [ "Write", "Write", 0 ],
@@ -1214,14 +1214,6 @@
             "obj-9::obj-1::obj-11": [ "FiltQ", "Q", 0 ],
             "obj-9::obj-1::obj-6": [ "FiltType", "Type", 0 ],
             "obj-9::obj-7": [ "Filt", "Filt", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-1::obj-8::obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
