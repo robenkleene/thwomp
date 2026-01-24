@@ -348,8 +348,8 @@
             "obj-8::obj-1::obj-58": [ "RandAmpEnvDecay[1]", "RandAmpEnvDecay", 0 ],
             "obj-8::obj-1::obj-59": [ "RandRingAttack", "RandRingAttack", 0 ],
             "obj-8::obj-1::obj-6": [ "RandOscReset", "RandOscReset", 0 ],
-            "obj-8::obj-1::obj-60::obj-1": [ "RandGain-Min[1]", "RGaiMin", 0 ],
-            "obj-8::obj-1::obj-60::obj-2": [ "RandGain-Max[1]", "RGaiMax", 0 ],
+            "obj-8::obj-1::obj-60::obj-1": [ "RandRingGain-Min", "RGaiMin", 0 ],
+            "obj-8::obj-1::obj-60::obj-2": [ "RandRingGain-Max", "RGaiMax", 0 ],
             "obj-8::obj-1::obj-62::obj-1": [ "RandRingDecay-Min", "RDecMin", 0 ],
             "obj-8::obj-1::obj-62::obj-2": [ "RandRingDecay-Max", "RDecMax", 0 ],
             "obj-8::obj-1::obj-64::obj-1": [ "RandRingAttack-Min", "RAttMin", 0 ],
@@ -362,6 +362,14 @@
             "obj-8::obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-8::obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
             "obj-8::obj-2": [ "live.tab", "live.tab", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-8::obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
@@ -430,11 +438,9 @@
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-8::obj-1::obj-60::obj-1": {
-                    "parameter_longname": "RandGain-Min[1]",
                     "parameter_range": [ -70.0, 6.0 ]
                 },
                 "obj-8::obj-1::obj-60::obj-2": {
-                    "parameter_longname": "RandGain-Max[1]",
                     "parameter_range": [ -70.0, 6.0 ]
                 },
                 "obj-8::obj-1::obj-62::obj-1": {

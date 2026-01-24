@@ -331,7 +331,7 @@
                         "Randomize": [ 0.0 ],
                         "Read": [ 0.0 ],
                         "RingFilt": [ 0.0 ],
-                        "Tab": [ 2.0 ],
+                        "Tab": [ 0.0 ],
                         "Vol": [ 0.0 ],
                         "Write": [ 0.0 ]
                     },
@@ -1064,7 +1064,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-6", 2 ]
                 }
             },
@@ -1077,7 +1077,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-40", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-6", 2 ]
                 }
             },
@@ -1187,8 +1187,8 @@
             "obj-1::obj-8::obj-1::obj-58": [ "RandAmpEnvDecay[1]", "RandAmpEnvDecay", 0 ],
             "obj-1::obj-8::obj-1::obj-59": [ "RandRingAttack", "RandRingAttack", 0 ],
             "obj-1::obj-8::obj-1::obj-6": [ "RandOscReset", "RandOscReset", 0 ],
-            "obj-1::obj-8::obj-1::obj-60::obj-1": [ "RandGain-Min[1]", "RGaiMin", 0 ],
-            "obj-1::obj-8::obj-1::obj-60::obj-2": [ "RandGain-Max[1]", "RGaiMax", 0 ],
+            "obj-1::obj-8::obj-1::obj-60::obj-1": [ "RandRingGain-Min", "RGaiMin", 0 ],
+            "obj-1::obj-8::obj-1::obj-60::obj-2": [ "RandRingGain-Max", "RGaiMax", 0 ],
             "obj-1::obj-8::obj-1::obj-62::obj-1": [ "RandRingDecay-Min", "RDecMin", 0 ],
             "obj-1::obj-8::obj-1::obj-62::obj-2": [ "RandRingDecay-Max", "RDecMax", 0 ],
             "obj-1::obj-8::obj-1::obj-64::obj-1": [ "RandRingAttack-Min", "RAttMin", 0 ],
@@ -1206,22 +1206,14 @@
             "obj-29": [ "Write", "Write", 0 ],
             "obj-30": [ "Read", "Read", 0 ],
             "obj-40::obj-25": [ "Ring", "Ring", 0 ],
-            "obj-40::obj-31": [ "RingGain", "Gain", 0 ],
+            "obj-40::obj-31": [ "RingGain", "RGain", 0 ],
             "obj-40::obj-34": [ "RingAttack", "Attack", 0 ],
             "obj-40::obj-36": [ "RingDecay", "Decay", 0 ],
             "obj-45": [ "Randomize", "Rand", 0 ],
-            "obj-9::obj-1::obj-1": [ "FiltFreq", "Freq", 0 ],
+            "obj-9::obj-1::obj-1": [ "FiltFreq", "FFreq", 0 ],
             "obj-9::obj-1::obj-11": [ "FiltQ", "Q", 0 ],
             "obj-9::obj-1::obj-6": [ "FiltType", "Type", 0 ],
             "obj-9::obj-7": [ "Filt", "Filt", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-1::obj-8::obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
@@ -1290,11 +1282,9 @@
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-1::obj-8::obj-1::obj-60::obj-1": {
-                    "parameter_longname": "RandGain-Min[1]",
                     "parameter_range": [ -70.0, 6.0 ]
                 },
                 "obj-1::obj-8::obj-1::obj-60::obj-2": {
-                    "parameter_longname": "RandGain-Max[1]",
                     "parameter_range": [ -70.0, 6.0 ]
                 },
                 "obj-1::obj-8::obj-1::obj-62::obj-1": {
