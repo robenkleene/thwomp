@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 433.0, 107.0, 1753.0, 1111.0 ],
+        "rect": [ 116.0, 105.0, 1753.0, 1111.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -701,6 +701,7 @@
             },
             {
                 "box": {
+                    "args": [ "RandShape", "Shape" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -718,12 +719,13 @@
                     "patching_rect": [ 192.0, 96.0, 88.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 96.0, 16.0, 88.0, 15.0 ],
-                    "varname": "UiMinMaxOscShape",
+                    "varname": "UiMinMaxShape",
                     "viewvisibility": 1
                 }
             },
             {
                 "box": {
+                    "args": [ "RandFiltType", "FType" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -1866,16 +1868,16 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandAmpEnvDecay[1]",
+                            "parameter_longname": "RandRingDecay",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandAmpEnvDecay",
+                            "parameter_shortname": "RandRingDecay",
                             "parameter_type": 2
                         }
                     },
                     "text": "RDec",
                     "texton": "RDec",
-                    "varname": "RandAmpEnvAttack[2]"
+                    "varname": "RandRingDecay"
                 }
             },
             {
@@ -1901,7 +1903,7 @@
                     },
                     "text": "RAtt",
                     "texton": "RAtt",
-                    "varname": "RandAmpEnvAttack[3]"
+                    "varname": "RandRingAttack"
                 }
             },
             {
@@ -2023,7 +2025,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+                            "parameter_longname": "RandRingFilt",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "RandRingFilt",
@@ -2162,7 +2164,7 @@
                     },
                     "text": "Decay",
                     "texton": "Decay",
-                    "varname": "RandAmpEnvAttack[1]"
+                    "varname": "RandDecay"
                 }
             },
             {
@@ -2188,7 +2190,7 @@
                     },
                     "text": "Attack",
                     "texton": "Attack",
-                    "varname": "RandAmpEnvAttack"
+                    "varname": "RandAttack"
                 }
             },
             {
@@ -2332,7 +2334,7 @@
             },
             {
                 "box": {
-                    "args": [ "RandFilterQ", "Q" ],
+                    "args": [ "RandFiltQ", "Q" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -2350,7 +2352,7 @@
                     "patching_rect": [ 496.0, 624.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 544.0, 48.0, 40.0, 96.0 ],
-                    "varname": "RandFilterQ",
+                    "varname": "RandFiltQMinMax",
                     "viewvisibility": 1
                 }
             },
@@ -4478,36 +4480,36 @@
             "obj-1": [ "Rand1", "Rand1", 0 ],
             "obj-10::obj-1": [ "RandPitchEnvDur-Min", "PDurMin", 0 ],
             "obj-10::obj-2": [ "RandPitchEnvDur-Max", "PDurMax", 0 ],
-            "obj-126::obj-27": [ "0-Min", "0Min", 0 ],
-            "obj-126::obj-28": [ "0-Max", "0Max", 0 ],
-            "obj-127::obj-26": [ "0-Min[1]", "0Min", 0 ],
-            "obj-127::obj-35": [ "0-Max[1]", "0Max", 0 ],
-            "obj-12::obj-1": [ "RandPitchEnvDur-Min[1]", "PCurMin", 0 ],
-            "obj-12::obj-2": [ "RandPitchEnvDur-Max[1]", "PCurMax", 0 ],
-            "obj-14::obj-1": [ "RandPitchEnvCurve-Min", "PAmtMin", 0 ],
-            "obj-14::obj-2": [ "RandPitchEnvCurve-Max", "PAmtMax", 0 ],
-            "obj-16::obj-1": [ "RandOverdrive-Min", "OvtMin", 0 ],
-            "obj-16::obj-2": [ "RandOverdrive-Max", "OvtMax", 0 ],
+            "obj-126::obj-27": [ "RandFiltType-Min", "FTypeMin", 0 ],
+            "obj-126::obj-28": [ "RandFiltType-Max", "FTypeMax", 0 ],
+            "obj-127::obj-26": [ "RandShape-Min", "ShapeMin", 0 ],
+            "obj-127::obj-35": [ "RandShape-Max", "ShapeMax", 0 ],
+            "obj-12::obj-1": [ "RandPitchEnvCurve-Min", "PCurMin", 0 ],
+            "obj-12::obj-2": [ "RandPitchEnvCurve-Max", "PCurMax", 0 ],
+            "obj-14::obj-1": [ "RandPitchEnvAmt-Min", "PAmtMin", 0 ],
+            "obj-14::obj-2": [ "RandPitchEnvAmt-Max", "PAmtMax", 0 ],
+            "obj-16::obj-1": [ "RandOvertone-Min", "OvtMin", 0 ],
+            "obj-16::obj-2": [ "RandOvertone-Max", "OvtMax", 0 ],
             "obj-170": [ "RandomizeTrigger", "Trigger", 0 ],
             "obj-175": [ "RandomizeTriggerSet", "Set", 0 ],
-            "obj-18::obj-1": [ "RandPitchEnvDur-Min[2]", "AttMin", 0 ],
-            "obj-18::obj-2": [ "RandPitchEnvDur-Max[2]", "AttMax", 0 ],
+            "obj-18::obj-1": [ "RandAttack-Min", "AttMin", 0 ],
+            "obj-18::obj-2": [ "RandAttack-Max", "AttMax", 0 ],
             "obj-2": [ "Rand2", "Rand2", 0 ],
-            "obj-20::obj-1": [ "RandAttack-Min", "DecMin", 0 ],
-            "obj-20::obj-2": [ "RandAttack-Max", "DecMax", 0 ],
+            "obj-20::obj-1": [ "RandDecay-Min", "DecMin", 0 ],
+            "obj-20::obj-2": [ "RandDecay-Max", "DecMax", 0 ],
             "obj-22": [ "RandOvertone", "RandOvertone", 0 ],
             "obj-23": [ "RandAttack", "RandAttack", 0 ],
-            "obj-24::obj-1": [ "RandDecay-Min", "GainMin", 0 ],
-            "obj-24::obj-2": [ "RandDecay-Max", "GainMax", 0 ],
+            "obj-24::obj-1": [ "RandGain-Min", "GainMin", 0 ],
+            "obj-24::obj-2": [ "RandGain-Max", "GainMax", 0 ],
             "obj-29": [ "RandFiltType", "RandFiltType", 0 ],
             "obj-3": [ "RandOscShape", "RandOscShape", 0 ],
             "obj-30": [ "RandFilt", "RandFilt", 0 ],
-            "obj-31::obj-1": [ "RandPitchEnvAmt-Min", "FFrqMin", 0 ],
-            "obj-31::obj-2": [ "RandPitchEnvAmt-Max", "FFrqMax", 0 ],
-            "obj-33::obj-1": [ "RandFilterFreq-Min", "QMin", 0 ],
-            "obj-33::obj-2": [ "RandFilterFreq-Max", "QMax", 0 ],
-            "obj-36::obj-1": [ "RandFilterFreq-Min[1]", "FrqMin", 0 ],
-            "obj-36::obj-2": [ "RandFilterFreq-Max[1]", "FrqMax", 0 ],
+            "obj-31::obj-1": [ "RandFilFreq-Min", "FFrqMin", 0 ],
+            "obj-31::obj-2": [ "RandFilFreq-Max", "FFrqMax", 0 ],
+            "obj-33::obj-1": [ "RandFilterQ-Min", "QMin", 0 ],
+            "obj-33::obj-2": [ "RandFilterQ-Max", "QMax", 0 ],
+            "obj-36::obj-1": [ "RandFreq-Min", "FrqMin", 0 ],
+            "obj-36::obj-2": [ "RandFreq-Max", "FrqMax", 0 ],
             "obj-38": [ "RandPchEnvCur", "RandPchEnvCur", 0 ],
             "obj-39": [ "RandPchEnvAmt", "RandPchEnvAmt", 0 ],
             "obj-4": [ "RandOscFilt", "RandOscFilt", 0 ],
@@ -4517,149 +4519,39 @@
             "obj-43": [ "RandFiltFreq", "RandGain", 0 ],
             "obj-44": [ "RandFiltQ", "RandFiltQ", 0 ],
             "obj-45": [ "RandRing", "RandRing", 0 ],
-            "obj-46": [ "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss", "RandRingFilt", 0 ],
+            "obj-46": [ "RandRingFilt", "RandRingFilt", 0 ],
             "obj-5": [ "RandFreq", "RandFreq", 0 ],
             "obj-57": [ "RandRingGain", "RandRingGain", 0 ],
-            "obj-58": [ "RandAmpEnvDecay[1]", "RandAmpEnvDecay", 0 ],
+            "obj-58": [ "RandRingDecay", "RandRingDecay", 0 ],
             "obj-59": [ "RandRingAttack", "RandRingAttack", 0 ],
             "obj-6": [ "RandOscReset", "RandOscReset", 0 ],
-            "obj-60::obj-1": [ "RandGain-Min", "RGaiMin", 0 ],
-            "obj-60::obj-2": [ "RandGain-Max", "RGaiMax", 0 ],
-            "obj-62::obj-1": [ "RandAmpEnvDecay-Min", "RDecMin", 0 ],
-            "obj-62::obj-2": [ "RandAmpEnvDecay-Max", "RDecMax", 0 ],
-            "obj-64::obj-1": [ "RandAmpEnvAttack-Min", "RAttMin", 0 ],
-            "obj-64::obj-2": [ "RandAmpEnvAttack-Max", "RAttMax", 0 ],
+            "obj-60::obj-1": [ "RandRingGain-Min", "RGaiMin", 0 ],
+            "obj-60::obj-2": [ "RandRingGain-Max", "RGaiMax", 0 ],
+            "obj-62::obj-1": [ "RandRingDecay-Min", "RDecMin", 0 ],
+            "obj-62::obj-2": [ "RandRingDecay-Max", "RDecMax", 0 ],
+            "obj-64::obj-1": [ "RandRingAttack-Min", "RAttMin", 0 ],
+            "obj-64::obj-2": [ "RandRingAttack-Max", "RAttMax", 0 ],
             "obj-66": [ "RandVol", "RandVol", 0 ],
-            "obj-67::obj-1": [ "RandGain-Min[1]", "VolMin", 0 ],
-            "obj-67::obj-2": [ "RandGain-Max[1]", "VolMax", 0 ],
+            "obj-67::obj-1": [ "RandVol-Min", "VolMin", 0 ],
+            "obj-67::obj-2": [ "RandVol-Max", "VolMax", 0 ],
             "obj-7": [ "RandPchEnvDur", "RandPchEnvDur", 0 ],
             "obj-76": [ "RandomizeAuto", "Auto", 0 ],
-            "obj-8::obj-1": [ "RandPitchEnvCurve-Min[1]", "OvrMin", 0 ],
-            "obj-8::obj-2": [ "RandPitchEnvCurve-Max[1]", "OvrMax", 0 ],
+            "obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
+            "obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
-                "obj-10::obj-1": {
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-10::obj-2": {
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-127::obj-26": {
-                    "parameter_longname": "0-Min[1]"
-                },
-                "obj-127::obj-35": {
-                    "parameter_longname": "0-Max[1]"
-                },
-                "obj-12::obj-1": {
-                    "parameter_longname": "RandPitchEnvDur-Min[1]",
-                    "parameter_range": [ -100.0, 100.0 ]
-                },
-                "obj-12::obj-2": {
-                    "parameter_longname": "RandPitchEnvDur-Max[1]",
-                    "parameter_range": [ -100.0, 100.0 ]
-                },
-                "obj-14::obj-1": {
-                    "parameter_longname": "RandPitchEnvCurve-Min",
-                    "parameter_range": [ 0.0, 15000.0 ]
-                },
-                "obj-14::obj-2": {
-                    "parameter_longname": "RandPitchEnvCurve-Max",
-                    "parameter_range": [ 0.0, 15000.0 ]
-                },
-                "obj-16::obj-1": {
-                    "parameter_longname": "RandOverdrive-Min",
-                    "parameter_range": [ 0.0, 100.0 ]
-                },
-                "obj-16::obj-2": {
-                    "parameter_longname": "RandOverdrive-Max",
-                    "parameter_range": [ 0.0, 100.0 ]
-                },
-                "obj-18::obj-1": {
-                    "parameter_longname": "RandPitchEnvDur-Min[2]",
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-18::obj-2": {
-                    "parameter_longname": "RandPitchEnvDur-Max[2]",
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-20::obj-1": {
-                    "parameter_longname": "RandAttack-Min",
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-20::obj-2": {
-                    "parameter_longname": "RandAttack-Max",
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-24::obj-1": {
-                    "parameter_longname": "RandDecay-Min",
-                    "parameter_range": [ -70.0, 6.0 ]
-                },
-                "obj-24::obj-2": {
-                    "parameter_longname": "RandDecay-Max",
-                    "parameter_range": [ -70.0, 6.0 ]
-                },
-                "obj-31::obj-1": {
-                    "parameter_longname": "RandPitchEnvAmt-Min",
-                    "parameter_range": [ 0.0, 15000.0 ]
-                },
-                "obj-31::obj-2": {
-                    "parameter_longname": "RandPitchEnvAmt-Max",
-                    "parameter_range": [ 0.0, 15000.0 ]
-                },
                 "obj-33::obj-1": {
-                    "parameter_longname": "RandFilterFreq-Min",
-                    "parameter_range": [ 0.3, 10.0 ]
+                    "parameter_longname": "RandFilterQ-Min"
                 },
                 "obj-33::obj-2": {
-                    "parameter_longname": "RandFilterFreq-Max",
-                    "parameter_range": [ 0.3, 10.0 ]
-                },
-                "obj-36::obj-1": {
-                    "parameter_longname": "RandFilterFreq-Min[1]",
-                    "parameter_range": [ 0.0, 15000.0 ]
-                },
-                "obj-36::obj-2": {
-                    "parameter_longname": "RandFilterFreq-Max[1]",
-                    "parameter_range": [ 0.0, 15000.0 ]
-                },
-                "obj-60::obj-1": {
-                    "parameter_longname": "RandGain-Min",
-                    "parameter_range": [ -70.0, 6.0 ]
-                },
-                "obj-60::obj-2": {
-                    "parameter_longname": "RandGain-Max",
-                    "parameter_range": [ -70.0, 6.0 ]
-                },
-                "obj-62::obj-1": {
-                    "parameter_longname": "RandAmpEnvDecay-Min",
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-62::obj-2": {
-                    "parameter_longname": "RandAmpEnvDecay-Max",
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-64::obj-1": {
-                    "parameter_longname": "RandAmpEnvAttack-Min",
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-64::obj-2": {
-                    "parameter_longname": "RandAmpEnvAttack-Max",
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-67::obj-1": {
-                    "parameter_longname": "RandGain-Min[1]",
-                    "parameter_range": [ -70.0, 6.0 ]
-                },
-                "obj-67::obj-2": {
-                    "parameter_longname": "RandGain-Max[1]",
-                    "parameter_range": [ -70.0, 6.0 ]
-                },
-                "obj-8::obj-1": {
-                    "parameter_longname": "RandPitchEnvCurve-Min[1]",
-                    "parameter_range": [ 0.0, 100.0 ]
-                },
-                "obj-8::obj-2": {
-                    "parameter_longname": "RandPitchEnvCurve-Max[1]",
-                    "parameter_range": [ 0.0, 100.0 ]
+                    "parameter_longname": "RandFilterQ-Max"
                 }
             },
             "inherited_shortname": 1
