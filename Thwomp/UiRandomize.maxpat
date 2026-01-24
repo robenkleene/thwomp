@@ -17,6 +17,47 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-26",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 1304.0, 40.0, 56.0, 22.0 ],
+                    "restore": {
+                        "Rand1": [ 0.0 ],
+                        "RandAuto": [ 0.0 ],
+                        "RandFilt": [ 0.0 ],
+                        "RandFiltFreq": [ 0.0 ],
+                        "RandFiltQ": [ 0.0 ],
+                        "RandFiltType": [ 0.0 ],
+                        "RandOsc2": [ 0.0 ],
+                        "RandOscAttack": [ 0.0 ],
+                        "RandOscDecay": [ 0.0 ],
+                        "RandOscFilt": [ 0.0 ],
+                        "RandOscFreq": [ 0.0 ],
+                        "RandOscGain": [ 0.0 ],
+                        "RandOscPchEnvAmt": [ 0.0 ],
+                        "RandOscPchEnvCur": [ 0.0 ],
+                        "RandOscPchEnvDur": [ 0.0 ],
+                        "RandOscReset": [ 0.0 ],
+                        "RandOscShape": [ 0.0 ],
+                        "RandOverdrive[1]": [ 0.0 ],
+                        "RandOverdrive[2]": [ 0.0 ],
+                        "RandRing": [ 0.0 ],
+                        "RandRingAttack": [ 0.0 ],
+                        "RandRingDecay": [ 0.0 ],
+                        "RandRingFilt": [ 0.0 ],
+                        "RandRingGain": [ 0.0 ],
+                        "RandTrig": [ 0.0 ],
+                        "RandTrigSet": [ 0.0 ],
+                        "RandVol": [ 0.0 ]
+                    },
+                    "text": "autopattr",
+                    "varname": "u678017121"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-202",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -4538,14 +4579,6 @@
             "obj-76": [ "RandAuto", "Auto", 0 ],
             "obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
