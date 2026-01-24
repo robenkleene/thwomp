@@ -1335,7 +1335,7 @@
                             "parameter_longname": "RandTrigSet",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandTrigSet",
+                            "parameter_shortname": "TrigSet",
                             "parameter_type": 2
                         }
                     },
@@ -1372,7 +1372,7 @@
                         "valueof": {
                             "parameter_longname": "RandTrig",
                             "parameter_modmode": 4,
-                            "parameter_shortname": "Trigger",
+                            "parameter_shortname": "Trig",
                             "parameter_type": 1,
                             "parameter_unitstyle": 8
                         }
@@ -1784,7 +1784,7 @@
                             "parameter_longname": "RandVol",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandVol",
+                            "parameter_shortname": "Vol",
                             "parameter_type": 2
                         }
                     },
@@ -1845,7 +1845,7 @@
                             "parameter_longname": "RandRingGain",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandRingGain",
+                            "parameter_shortname": "RGain",
                             "parameter_type": 2
                         }
                     },
@@ -1871,7 +1871,7 @@
                             "parameter_longname": "RandRingDecay",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandRingDecay",
+                            "parameter_shortname": "RDecay",
                             "parameter_type": 2
                         }
                     },
@@ -1897,7 +1897,7 @@
                             "parameter_longname": "RandRingAttack",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandRingAttack",
+                            "parameter_shortname": "RAttack",
                             "parameter_type": 2
                         }
                     },
@@ -2028,7 +2028,7 @@
                             "parameter_longname": "RandRingFilt",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandRingFilt",
+                            "parameter_shortname": "RFilt",
                             "parameter_type": 2
                         }
                     },
@@ -2054,7 +2054,7 @@
                             "parameter_longname": "RandRing",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandRing",
+                            "parameter_shortname": "Ring",
                             "parameter_type": 2
                         }
                     },
@@ -2106,7 +2106,7 @@
                             "parameter_longname": "RandFiltFreq",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Gain",
+                            "parameter_shortname": "FFrq",
                             "parameter_type": 2
                         }
                     },
@@ -2369,7 +2369,7 @@
             },
             {
                 "box": {
-                    "args": [ "RandFilFreq", "FFrq" ],
+                    "args": [ "RandFiltFreq", "FFrq" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -4490,8 +4490,8 @@
             "obj-14::obj-2": [ "RandOscPchEnvAmt-Max", "PAmtMax", 0 ],
             "obj-16::obj-1": [ "RandOvertone-Min", "OvtMin", 0 ],
             "obj-16::obj-2": [ "RandOvertone-Max", "OvtMax", 0 ],
-            "obj-170": [ "RandTrig", "Trigger", 0 ],
-            "obj-175": [ "RandTrigSet", "RandTrigSet", 0 ],
+            "obj-170": [ "RandTrig", "Trig", 0 ],
+            "obj-175": [ "RandTrigSet", "TrigSet", 0 ],
             "obj-18::obj-1": [ "RandOscAttack-Min", "AttMin", 0 ],
             "obj-18::obj-2": [ "RandOscAttack-Max", "AttMax", 0 ],
             "obj-2": [ "RandOsc2", "Osc2", 0 ],
@@ -4504,8 +4504,8 @@
             "obj-29": [ "RandFiltType", "FType", 0 ],
             "obj-3": [ "RandOscShape", "Shape", 0 ],
             "obj-30": [ "RandFilt", "Filt", 0 ],
-            "obj-31::obj-1": [ "RandFilFreq-Min", "FFrqMin", 0 ],
-            "obj-31::obj-2": [ "RandFilFreq-Max", "FFrqMax", 0 ],
+            "obj-31::obj-1": [ "RandFiltFreq-Min", "FFrqMin", 0 ],
+            "obj-31::obj-2": [ "RandFiltFreq-Max", "FFrqMax", 0 ],
             "obj-33::obj-1": [ "RandFiltQ-Min", "QMin", 0 ],
             "obj-33::obj-2": [ "RandFiltQ-Max", "QMax", 0 ],
             "obj-36::obj-1": [ "RandOscFreq-Min", "FrqMin", 0 ],
@@ -4516,14 +4516,14 @@
             "obj-40": [ "RandOverdrive", "Overdrive", 0 ],
             "obj-41": [ "RandOscDecay", "Decay", 0 ],
             "obj-42": [ "RandOscGain", "OGain", 0 ],
-            "obj-43": [ "RandFiltFreq", "Gain", 0 ],
+            "obj-43": [ "RandFiltFreq", "FFrq", 0 ],
             "obj-44": [ "RandFiltQ", "FiltQ", 0 ],
-            "obj-45": [ "RandRing", "RandRing", 0 ],
-            "obj-46": [ "RandRingFilt", "RandRingFilt", 0 ],
+            "obj-45": [ "RandRing", "Ring", 0 ],
+            "obj-46": [ "RandRingFilt", "RFilt", 0 ],
             "obj-5": [ "RandFreq", "Freq", 0 ],
-            "obj-57": [ "RandRingGain", "RandRingGain", 0 ],
-            "obj-58": [ "RandRingDecay", "RandRingDecay", 0 ],
-            "obj-59": [ "RandRingAttack", "RandRingAttack", 0 ],
+            "obj-57": [ "RandRingGain", "RGain", 0 ],
+            "obj-58": [ "RandRingDecay", "RDecay", 0 ],
+            "obj-59": [ "RandRingAttack", "RAttack", 0 ],
             "obj-6": [ "RandOscReset", "Reset", 0 ],
             "obj-60::obj-1": [ "RandRingGain-Min", "RGaiMin", 0 ],
             "obj-60::obj-2": [ "RandRingGain-Max", "RGaiMax", 0 ],
@@ -4531,109 +4531,13 @@
             "obj-62::obj-2": [ "RandRingDecay-Max", "RDecMax", 0 ],
             "obj-64::obj-1": [ "RandRingAttack-Min", "RAttMin", 0 ],
             "obj-64::obj-2": [ "RandRingAttack-Max", "RAttMax", 0 ],
-            "obj-66": [ "RandVol", "RandVol", 0 ],
+            "obj-66": [ "RandVol", "Vol", 0 ],
             "obj-67::obj-1": [ "RandVol-Min", "VolMin", 0 ],
             "obj-67::obj-2": [ "RandVol-Max", "VolMax", 0 ],
             "obj-7": [ "RandOscPchEnvDur", "PDur", 0 ],
             "obj-76": [ "RandAuto", "Auto", 0 ],
             "obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
-            "parameter_overrides": {
-                "obj-10::obj-1": {
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-10::obj-2": {
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-12::obj-1": {
-                    "parameter_longname": "RandOscPchEnvCurve-Min",
-                    "parameter_range": [ -100.0, 100.0 ]
-                },
-                "obj-12::obj-2": {
-                    "parameter_longname": "RandOscPchEnvCurve-Max",
-                    "parameter_range": [ -100.0, 100.0 ]
-                },
-                "obj-14::obj-1": {
-                    "parameter_longname": "RandOscPchEnvAmt-Min",
-                    "parameter_range": [ 0.0, 15000.0 ]
-                },
-                "obj-14::obj-2": {
-                    "parameter_longname": "RandOscPchEnvAmt-Max",
-                    "parameter_range": [ 0.0, 15000.0 ]
-                },
-                "obj-16::obj-1": {
-                    "parameter_range": [ 0.0, 100.0 ]
-                },
-                "obj-16::obj-2": {
-                    "parameter_range": [ 0.0, 100.0 ]
-                },
-                "obj-18::obj-1": {
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-18::obj-2": {
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-20::obj-1": {
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-20::obj-2": {
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-24::obj-1": {
-                    "parameter_range": [ -70.0, 6.0 ]
-                },
-                "obj-24::obj-2": {
-                    "parameter_range": [ -70.0, 6.0 ]
-                },
-                "obj-31::obj-1": {
-                    "parameter_range": [ 0.0, 15000.0 ]
-                },
-                "obj-31::obj-2": {
-                    "parameter_range": [ 0.0, 15000.0 ]
-                },
-                "obj-33::obj-1": {
-                    "parameter_range": [ 0.3, 10.0 ]
-                },
-                "obj-33::obj-2": {
-                    "parameter_range": [ 0.3, 10.0 ]
-                },
-                "obj-36::obj-1": {
-                    "parameter_range": [ 0.0, 15000.0 ]
-                },
-                "obj-36::obj-2": {
-                    "parameter_range": [ 0.0, 15000.0 ]
-                },
-                "obj-60::obj-1": {
-                    "parameter_range": [ -70.0, 6.0 ]
-                },
-                "obj-60::obj-2": {
-                    "parameter_range": [ -70.0, 6.0 ]
-                },
-                "obj-62::obj-1": {
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-62::obj-2": {
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-64::obj-1": {
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-64::obj-2": {
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-67::obj-1": {
-                    "parameter_range": [ -70.0, 6.0 ]
-                },
-                "obj-67::obj-2": {
-                    "parameter_range": [ -70.0, 6.0 ]
-                },
-                "obj-8::obj-1": {
-                    "parameter_range": [ 0.0, 100.0 ]
-                },
-                "obj-8::obj-2": {
-                    "parameter_range": [ 0.0, 100.0 ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
