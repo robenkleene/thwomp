@@ -17,6 +17,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-6",
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "" ],
+                    "patching_rect": [ 16.0, 56.0, 130.0, 22.0 ],
+                    "text": "route signal randomize"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-5",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -124,7 +135,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 45.0, 15.0, 25.0, 25.0 ]
+                    "patching_rect": [ 48.0, 16.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -136,7 +147,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 15.0, 15.0, 25.0, 25.0 ]
+                    "patching_rect": [ 16.0, 16.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -196,16 +207,22 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-1", 0 ],
-                    "order": 0,
+                    "destination": [ "obj-6", 0 ],
                     "source": [ "obj-4", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-2", 0 ],
+                    "destination": [ "obj-1", 0 ],
                     "order": 1,
-                    "source": [ "obj-4", 0 ]
+                    "source": [ "obj-6", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-2", 0 ],
+                    "order": 0,
+                    "source": [ "obj-6", 0 ]
                 }
             },
             {
@@ -230,10 +247,18 @@
             }
         ],
         "parameters": {
-            "obj-1::obj-1": [ "FiltFreq", "Freq", 0 ],
+            "obj-1::obj-1": [ "FiltFreq", "FFreq", 0 ],
             "obj-1::obj-11": [ "FiltQ", "Q", 0 ],
             "obj-1::obj-6": [ "FiltType", "Type", 0 ],
             "obj-7": [ "Filt", "Filt", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

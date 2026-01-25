@@ -9,12 +9,33 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 349.0, 92.0, 842.0, 983.0 ],
+        "rect": [ 349.0, 92.0, 1362.0, 983.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-17",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 736.0, 112.0, 89.0, 22.0 ],
+                    "text": "r #1-randomize"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-9",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 64.0, 144.0, 91.0, 22.0 ],
+                    "text": "s #1-randomize"
+                }
+            },
             {
                 "box": {
                     "id": "obj-12",
@@ -100,7 +121,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 80.0, 112.0, 47.0, 22.0 ],
+                    "patching_rect": [ 112.0, 56.0, 47.0, 22.0 ],
                     "text": "t signal"
                 }
             },
@@ -198,11 +219,11 @@
                 "box": {
                     "id": "obj-21",
                     "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "patching_rect": [ 8.0, 112.0, 63.0, 22.0 ],
-                    "text": "route note"
+                    "numinlets": 3,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "" ],
+                    "patching_rect": [ 8.0, 112.0, 122.0, 22.0 ],
+                    "text": "route note randomize"
                 }
             },
             {
@@ -426,6 +447,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-9", 0 ],
+                    "source": [ "obj-21", 1 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-8", 0 ],
                     "source": [ "obj-22", 1 ]
                 }
@@ -515,14 +542,6 @@
             "obj-31": [ "RingGain", "RGain", 0 ],
             "obj-34": [ "RingAttack", "Attack", 0 ],
             "obj-36": [ "RingDecay", "Decay", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
