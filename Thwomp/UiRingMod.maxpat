@@ -9,12 +9,60 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1163.0, 114.0, 842.0, 983.0 ],
+        "rect": [ 349.0, 92.0, 842.0, 983.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-12",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 488.0, 560.0, 68.0, 22.0 ],
+                    "text": "prepend filt"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-11",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 488.0, 536.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 16.0, 44.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "RingFilt",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "RingFilt",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "RFilt",
+                    "texton": "RFilt",
+                    "varname": "RingFilt"
+                }
+            },
+            {
+                "box": {
+                    "comment": "(message) control message",
+                    "id": "obj-10",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 488.0, 608.0, 30.0, 30.0 ]
+                }
+            },
             {
                 "box": {
                     "id": "obj-7",
@@ -23,12 +71,11 @@
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 440.0, 112.0, 100.0, 22.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 376.0, 96.0, 56.0, 22.0 ],
                     "restore": {
                         "Ring": [ 0.0 ],
                         "RingAttack": [ 0.0 ],
                         "RingDecay": [ 0.0 ],
+                        "RingFilt": [ 0.0 ],
                         "RingGain": [ 0.0 ]
                     },
                     "text": "autopattr",
@@ -331,6 +378,18 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-12", 0 ],
+                    "source": [ "obj-11", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-10", 0 ],
+                    "source": [ "obj-12", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-4", 1 ],
                     "source": [ "obj-13", 0 ]
                 }
@@ -451,10 +510,19 @@
             }
         ],
         "parameters": {
+            "obj-11": [ "RingFilt", "RingFilt", 0 ],
             "obj-25": [ "Ring", "Ring", 0 ],
             "obj-31": [ "RingGain", "RGain", 0 ],
             "obj-34": [ "RingAttack", "Attack", 0 ],
             "obj-36": [ "RingDecay", "Decay", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

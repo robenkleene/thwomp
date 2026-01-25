@@ -9,12 +9,23 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 482.0, 291.0, 1132.0, 863.0 ],
+        "rect": [ 1390.0, 269.0, 1132.0, 863.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-25",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 344.0, 424.0, 51.0, 22.0 ],
+                    "text": "route filt"
+                }
+            },
             {
                 "box": {
                     "id": "obj-46",
@@ -168,32 +179,6 @@
             },
             {
                 "box": {
-                    "id": "obj-25",
-                    "maxclass": "live.text",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 264.0, 400.0, 44.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 288.0, 32.0, 44.0, 15.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RingFilt",
-                            "parameter_mmax": 1,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "RingFilt",
-                            "parameter_type": 2
-                        }
-                    },
-                    "text": "RFilt",
-                    "texton": "RFilt",
-                    "varname": "RingFilt"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-27",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -262,9 +247,9 @@
                     "maxclass": "bpatcher",
                     "name": "UiRingMod.maxpat",
                     "numinlets": 2,
-                    "numoutlets": 1,
+                    "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "signal" ],
+                    "outlettype": [ "signal", "" ],
                     "patching_rect": [ 264.0, 224.0, 96.0, 160.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 288.0, 8.0, 96.0, 160.0 ],
@@ -330,7 +315,6 @@
                         "Overwrite": [ 0.0 ],
                         "Randomize": [ 0.0 ],
                         "Read": [ 0.0 ],
-                        "RingFilt": [ 0.0 ],
                         "Tab": [ 0.0 ],
                         "Vol": [ 0.0 ],
                         "Write": [ 0.0 ]
@@ -1001,6 +985,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-25", 0 ],
+                    "source": [ "obj-40", 1 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-31", 1 ],
                     "source": [ "obj-40", 0 ]
                 }
@@ -1202,9 +1192,9 @@
             "obj-1::obj-8::obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
             "obj-1::obj-8::obj-2": [ "RandTab", "Tab", 0 ],
             "obj-24": [ "Overwrite", "Overwrite", 0 ],
-            "obj-25": [ "RingFilt", "RingFilt", 0 ],
             "obj-29": [ "Write", "Write", 0 ],
             "obj-30": [ "Read", "Read", 0 ],
+            "obj-40::obj-11": [ "RingFilt", "RingFilt", 0 ],
             "obj-40::obj-25": [ "Ring", "Ring", 0 ],
             "obj-40::obj-31": [ "RingGain", "RGain", 0 ],
             "obj-40::obj-34": [ "RingAttack", "Attack", 0 ],
