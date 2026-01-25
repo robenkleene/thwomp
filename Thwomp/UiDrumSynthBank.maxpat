@@ -9,12 +9,67 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 983.0, 288.0, 1230.0, 977.0 ],
+        "rect": [ 227.0, 125.0, 1230.0, 977.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-16",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 552.0, 552.0, 112.0, 22.0 ],
+                    "text": "prepend randomize"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-15",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 520.0, 520.0, 112.0, 22.0 ],
+                    "text": "prepend randomize"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-14",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 496.0, 488.0, 112.0, 22.0 ],
+                    "text": "prepend randomize"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-13",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 496.0, 416.0, 95.0, 22.0 ],
+                    "text": "route randomize"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-5",
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "" ],
+                    "patching_rect": [ 496.0, 448.0, 93.0, 22.0 ],
+                    "text": "route osc1 osc2"
+                }
+            },
             {
                 "box": {
                     "id": "obj-4",
@@ -43,9 +98,9 @@
                     "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "" ],
-                    "patching_rect": [ 496.0, 440.0, 249.0, 165.0 ],
+                    "patching_rect": [ 496.0, 224.0, 200.0, 168.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 336.0, 256.0, 160.0 ],
+                    "presentation_rect": [ 0.0, 336.0, 200.0, 160.0 ],
                     "varname": "Randomize",
                     "viewvisibility": 1
                 }
@@ -161,9 +216,9 @@
                     "numoutlets": 3,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal", "" ],
-                    "patching_rect": [ 136.0, 437.0, 249.0, 165.0 ],
+                    "patching_rect": [ 136.0, 437.0, 200.0, 163.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 168.0, 256.0, 160.0 ],
+                    "presentation_rect": [ 0.0, 168.0, 200.0, 160.0 ],
                     "varname": "2-DrumSynth",
                     "viewvisibility": 1
                 }
@@ -185,9 +240,9 @@
                     "numoutlets": 3,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal", "" ],
-                    "patching_rect": [ 136.0, 152.0, 249.0, 162.0 ],
+                    "patching_rect": [ 136.0, 152.0, 200.0, 168.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 256.0, 160.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 200.0, 160.0 ],
                     "varname": "1-DrumSynth",
                     "viewvisibility": 1
                 }
@@ -214,6 +269,30 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-5", 0 ],
+                    "source": [ "obj-13", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-1", 0 ],
+                    "source": [ "obj-14", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-3", 0 ],
+                    "source": [ "obj-15", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-2", 0 ],
+                    "source": [ "obj-16", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-12", 0 ],
                     "source": [ "obj-3", 1 ]
                 }
@@ -234,6 +313,24 @@
                 "patchline": {
                     "destination": [ "obj-8", 0 ],
                     "source": [ "obj-4", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-14", 0 ],
+                    "source": [ "obj-5", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-15", 0 ],
+                    "source": [ "obj-5", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-16", 0 ],
+                    "source": [ "obj-5", 2 ]
                 }
             },
             {
@@ -266,6 +363,12 @@
                 "patchline": {
                     "destination": [ "obj-4", 0 ],
                     "source": [ "obj-7", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-13", 0 ],
+                    "source": [ "obj-8", 0 ]
                 }
             }
         ],
@@ -362,6 +465,14 @@
             "obj-8::obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-8::obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
             "obj-8::obj-2": [ "RandTab", "Tab", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-8::obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
