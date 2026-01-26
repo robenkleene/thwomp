@@ -9,13 +9,34 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 94.0, 149.0, 1502.0, 1033.0 ],
+        "rect": [ 210.0, 148.0, 1515.0, 1075.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "toolbars_unpinned_last_save": 4,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-36",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 304.0, 328.0, 72.0, 22.0 ],
+                    "text": "r #1-pchenv"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-35",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1096.0, 216.0, 74.0, 22.0 ],
+                    "text": "s #1-pchenv"
+                }
+            },
             {
                 "box": {
                     "id": "obj-34",
@@ -508,7 +529,7 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "UiAdEnv.maxpat",
-                    "numinlets": 0,
+                    "numinlets": 2,
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "" ],
@@ -691,6 +712,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-17", 0 ],
+                    "source": [ "obj-36", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-20", 9 ],
                     "source": [ "obj-4", 1 ]
                 }
@@ -754,6 +781,14 @@
             "obj-5": [ "#1-Gain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

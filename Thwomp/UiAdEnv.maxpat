@@ -4,17 +4,41 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 302.0, 100.0, 868.0, 922.0 ],
+        "rect": [ 856.0, 302.0, 868.0, 922.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "boxes": [
+            {
+                "box": {
+                    "comment": "(float, ms) decay",
+                    "id": "obj-6",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 40.0, 0.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "comment": "(float, ms) attack",
+                    "id": "obj-2",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 0.0, 0.0, 30.0, 30.0 ]
+                }
+            },
             {
                 "box": {
                     "id": "obj-1",
@@ -41,7 +65,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 0.0, 72.0, 41.0, 48.0 ],
+                    "patching_rect": [ 0.0, 56.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -68,7 +92,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 40.0, 72.0, 41.0, 48.0 ],
+                    "patching_rect": [ 40.0, 56.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 56.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -93,7 +117,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 40.0, 144.0, 30.0, 30.0 ]
+                    "patching_rect": [ 40.0, 128.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -104,15 +128,27 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 0.0, 144.0, 30.0, 30.0 ]
+                    "patching_rect": [ 0.0, 128.0, 30.0, 30.0 ]
                 }
             }
         ],
         "lines": [
             {
                 "patchline": {
+                    "destination": [ "obj-7", 0 ],
+                    "source": [ "obj-2", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-25", 0 ],
                     "source": [ "obj-3", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-3", 0 ],
+                    "source": [ "obj-6", 0 ]
                 }
             },
             {
@@ -125,14 +161,6 @@
         "parameters": {
             "obj-3": [ "#1-AmpDecay", "Decay", 0 ],
             "obj-7": [ "#1-AmpAttack", "Attack", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
