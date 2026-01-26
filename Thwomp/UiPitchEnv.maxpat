@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1137.0, 354.0, 814.0, 738.0 ],
+        "rect": [ 670.0, 336.0, 814.0, 738.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -18,12 +18,47 @@
         "boxes": [
             {
                 "box": {
+                    "comment": "(float, -1 - 1) curve",
+                    "id": "obj-6",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 120.0, 8.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "comment": "(float, hz) amount",
+                    "id": "obj-5",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 80.0, 8.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-1",
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "" ],
+                    "patching_rect": [ 8.0, 80.0, 92.0, 22.0 ],
+                    "text": "route bang float"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-12",
                     "linecount": 6,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 40.0, 392.0, 151.0, 87.0 ],
+                    "patching_rect": [ 40.0, 392.0, 154.0, 87.0 ],
                     "text": "Send first `1` representing a starting point at `x = 0, y = 1.0`, then a second point with three numbers: `y = 0`, `x = duration`, `curve factor`. "
                 }
             },
@@ -56,7 +91,7 @@
                     "numinlets": 5,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 152.0, 112.0, 95.0, 22.0 ],
+                    "patching_rect": [ 144.0, 248.0, 95.0, 22.0 ],
                     "text": "zmap 0. 1. -1. 1."
                 }
             },
@@ -70,7 +105,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 128.0, 8.0, 41.0, 48.0 ],
+                    "patching_rect": [ 120.0, 144.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 56.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -96,7 +131,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 472.0, 24.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-PitchEnvAmt": [ 0.11297409851011453 ],
+                        "#1-PitchEnvAmt": [ 0.11297409851011446 ],
                         "#1-PitchEnvCurve": [ -59.055118110235874 ],
                         "#1-PitchEnvDur": [ 104.12666141662342 ]
                     },
@@ -114,7 +149,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 48.0, 8.0, 41.0, 48.0 ],
+                    "patching_rect": [ 40.0, 144.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -141,7 +176,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 88.0, 8.0, 41.0, 48.0 ],
+                    "patching_rect": [ 80.0, 144.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 112.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -160,7 +195,7 @@
             },
             {
                 "box": {
-                    "comment": "(bang) output function",
+                    "comment": "(float, ms) duration",
                     "id": "obj-16",
                     "index": 0,
                     "maxclass": "inlet",
@@ -196,6 +231,18 @@
         "lines": [
             {
                 "patchline": {
+                    "destination": [ "obj-18", 0 ],
+                    "source": [ "obj-1", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-8", 0 ],
+                    "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-2", 0 ],
                     "source": [ "obj-10", 1 ]
                 }
@@ -208,7 +255,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-8", 0 ],
+                    "destination": [ "obj-1", 0 ],
                     "source": [ "obj-16", 0 ]
                 }
             },
@@ -232,6 +279,18 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-17", 0 ],
+                    "source": [ "obj-5", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-26", 0 ],
+                    "source": [ "obj-6", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-8", 2 ],
                     "source": [ "obj-7", 0 ]
                 }
@@ -247,6 +306,14 @@
             "obj-17": [ "#1-PitchEnvAmt", "PchAmt", 0 ],
             "obj-18": [ "#1-PitchEnvDur", "PchDur", 0 ],
             "obj-26": [ "#1-PitchEnvCurve", "PchCur", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
