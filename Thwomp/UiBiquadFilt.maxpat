@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 773.0, 317.0, 565.0, 726.0 ],
+        "rect": [ 1032.0, 303.0, 565.0, 726.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -75,7 +75,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 208.0, 152.0, 32.0, 16.0 ],
+                    "patching_rect": [ 80.0, 184.0, 32.0, 16.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 32.0, 16.0 ],
                     "saved_attribute_attributes": {
@@ -91,17 +91,6 @@
                     "text": "Filt",
                     "texton": "Filt",
                     "varname": "Filt"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-3",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 136.0, 392.0, 109.0, 22.0 ],
-                    "text": "loadmess set Filter"
                 }
             },
             {
@@ -188,7 +177,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 80.0, 184.0, 53.0, 128.0 ],
+                    "patching_rect": [ 80.0, 184.0, 48.0, 168.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 48.0, 160.0 ],
                     "varname": "Biquad",
@@ -231,12 +220,6 @@
                 "patchline": {
                     "destination": [ "obj-17", 0 ],
                     "source": [ "obj-2", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-2", 0 ],
-                    "source": [ "obj-3", 0 ]
                 }
             },
             {
