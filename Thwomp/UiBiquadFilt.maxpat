@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1032.0, 303.0, 565.0, 726.0 ],
+        "rect": [ 427.0, 282.0, 565.0, 726.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -55,7 +55,7 @@
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 328.0, 160.0, 56.0, 22.0 ],
+                    "patching_rect": [ 272.0, 16.0, 56.0, 22.0 ],
                     "restore": {
                         "Filt": [ 0.0 ]
                     },
@@ -110,7 +110,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 15.0, 450.0, 105.0, 46.0 ],
+                    "patching_rect": [ 16.0, 384.0, 105.0, 46.0 ],
                     "varname": "Active",
                     "viewvisibility": 1
                 }
@@ -123,7 +123,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 104.0, 552.0, 25.0, 25.0 ]
+                    "patching_rect": [ 105.0, 462.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -134,7 +134,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 16.0, 552.0, 25.0, 25.0 ]
+                    "patching_rect": [ 17.0, 462.0, 25.0, 25.0 ]
                 }
             },
             {
