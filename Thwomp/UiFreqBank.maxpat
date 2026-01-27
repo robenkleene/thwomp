@@ -42,7 +42,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 264.0, 104.0, 41.0, 48.0 ],
+                    "patching_rect": [ 264.0, 136.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -70,7 +70,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 328.0, 104.0, 40.0, 48.0 ],
+                    "patching_rect": [ 328.0, 136.0, 40.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 48.0, 40.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -94,7 +94,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 184.0, 160.0, 32.0, 22.0 ],
+                    "patching_rect": [ 184.0, 192.0, 32.0, 22.0 ],
                     "text": "mtof"
                 }
             },
@@ -105,7 +105,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "float" ],
-                    "patching_rect": [ 184.0, 128.0, 29.5, 22.0 ],
+                    "patching_rect": [ 184.0, 160.0, 29.5, 22.0 ],
                     "text": "+ 0."
                 }
             },
@@ -140,7 +140,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 64.0, 264.0, 30.0, 30.0 ]
+                    "patching_rect": [ 168.0, 320.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -150,7 +150,7 @@
                     "numinlets": 3,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 64.0, 224.0, 62.0, 22.0 ],
+                    "patching_rect": [ 168.0, 280.0, 62.0, 22.0 ],
                     "text": "switch 2 1"
                 }
             },
@@ -161,7 +161,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 64.0, 192.0, 29.5, 22.0 ],
+                    "patching_rect": [ 168.0, 248.0, 29.5, 22.0 ],
                     "text": "+ 1"
                 }
             },
@@ -184,7 +184,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "bang", "int" ],
-                    "patching_rect": [ 264.0, 48.0, 29.5, 22.0 ],
+                    "patching_rect": [ 264.0, 56.0, 29.5, 22.0 ],
                     "text": "t b i"
                 }
             },
@@ -265,19 +265,19 @@
             {
                 "patchline": {
                     "destination": [ "obj-11", 0 ],
-                    "source": [ "obj-7", 3 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-14", 0 ],
                     "source": [ "obj-7", 2 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-26", 0 ],
+                    "destination": [ "obj-14", 0 ],
                     "source": [ "obj-7", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-26", 0 ],
+                    "source": [ "obj-7", 3 ]
                 }
             },
             {
@@ -290,14 +290,6 @@
         "parameters": {
             "obj-11": [ "#1-OscSemi", "Semi", 0 ],
             "obj-14": [ "#1-OscFreq", "Freq", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
