@@ -9,12 +9,45 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 660.0, 216.0, 601.0, 787.0 ],
+        "rect": [ 1179.0, 308.0, 1041.0, 884.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-10",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 16.0, 144.0, 47.0, 22.0 ],
+                    "text": "t signal"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-8",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 104.0, 64.0, 47.0, 22.0 ],
+                    "text": "t signal"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-4",
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "" ],
+                    "patching_rect": [ 16.0, 104.0, 130.0, 22.0 ],
+                    "text": "route signal randomize"
+                }
+            },
             {
                 "box": {
                     "id": "obj-3",
@@ -192,7 +225,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 105.0, 15.0, 25.0, 25.0 ]
+                    "patching_rect": [ 104.0, 16.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -282,6 +315,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-30", 0 ],
+                    "source": [ "obj-10", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-2", 7 ],
                     "source": [ "obj-11", 0 ]
                 }
@@ -308,13 +347,13 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-30", 0 ],
+                    "destination": [ "obj-4", 0 ],
                     "source": [ "obj-31", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-5", 0 ],
+                    "destination": [ "obj-8", 0 ],
                     "source": [ "obj-34", 0 ]
                 }
             },
@@ -322,6 +361,12 @@
                 "patchline": {
                     "destination": [ "obj-7", 0 ],
                     "source": [ "obj-37", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-10", 0 ],
+                    "source": [ "obj-4", 0 ]
                 }
             },
             {
@@ -362,6 +407,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-5", 0 ],
+                    "source": [ "obj-8", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-37", 0 ],
                     "source": [ "obj-9", 0 ]
                 }
@@ -389,14 +440,6 @@
             "obj-1": [ "FiltFreq", "FFreq", 0 ],
             "obj-11": [ "FiltQ", "Q", 0 ],
             "obj-6": [ "FiltType", "Type", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
