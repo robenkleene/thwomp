@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 524.0, 249.0, 565.0, 726.0 ],
+        "rect": [ 906.0, 316.0, 565.0, 726.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -17,12 +17,23 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-10",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "signal", "signal" ],
+                    "patching_rect": [ 48.0, 56.0, 81.0, 22.0 ],
+                    "text": "t signal signal"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-8",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 16.0, 88.0, 81.0, 22.0 ],
+                    "patching_rect": [ 16.0, 136.0, 81.0, 22.0 ],
                     "text": "t signal signal"
                 }
             },
@@ -33,8 +44,8 @@
                     "numinlets": 3,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 16.0, 56.0, 130.0, 22.0 ],
-                    "text": "route signal randomize"
+                    "patching_rect": [ 16.0, 96.0, 224.0, 22.0 ],
+                    "text": "routepass signal randomize"
                 }
             },
             {
@@ -177,7 +188,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 75.0, 120.0, 53.0, 128.0 ],
+                    "patching_rect": [ 80.0, 184.0, 53.0, 128.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 48.0, 160.0 ],
                     "varname": "Biquad",
@@ -196,6 +207,18 @@
                 "patchline": {
                     "destination": [ "obj-2", 2 ],
                     "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-1", 1 ],
+                    "source": [ "obj-10", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-2", 1 ],
+                    "source": [ "obj-10", 0 ]
                 }
             },
             {
@@ -224,6 +247,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-1", 0 ],
+                    "source": [ "obj-6", 1 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-8", 0 ],
                     "source": [ "obj-6", 0 ]
                 }
@@ -248,15 +277,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-1", 1 ],
-                    "order": 0,
-                    "source": [ "obj-9", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-2", 1 ],
-                    "order": 1,
+                    "destination": [ "obj-10", 0 ],
                     "source": [ "obj-9", 0 ]
                 }
             }
@@ -266,6 +287,14 @@
             "obj-1::obj-11": [ "FiltQ", "Q", 0 ],
             "obj-1::obj-6": [ "FiltType", "Type", 0 ],
             "obj-7": [ "Filt", "Filt", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
