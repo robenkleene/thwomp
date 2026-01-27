@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 257.0, 700.0, 787.0, 556.0 ],
+        "rect": [ 524.0, 471.0, 787.0, 556.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -42,7 +42,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 352.0, 120.0, 41.0, 48.0 ],
+                    "patching_rect": [ 264.0, 104.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -70,7 +70,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 352.0, 184.0, 40.0, 48.0 ],
+                    "patching_rect": [ 328.0, 104.0, 40.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 48.0, 40.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -140,7 +140,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 88.0, 264.0, 30.0, 30.0 ]
+                    "patching_rect": [ 80.0, 264.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -150,7 +150,7 @@
                     "numinlets": 3,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 88.0, 224.0, 62.0, 22.0 ],
+                    "patching_rect": [ 80.0, 224.0, 62.0, 22.0 ],
                     "text": "switch 2 1"
                 }
             },
@@ -161,7 +161,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 56.0, 192.0, 29.5, 22.0 ],
+                    "patching_rect": [ 80.0, 192.0, 29.5, 22.0 ],
                     "text": "+ 1"
                 }
             },
@@ -278,6 +278,14 @@
         "parameters": {
             "obj-11": [ "#1-OscSemi", "Semi", 0 ],
             "obj-14": [ "#1-OscFreq", "Freq", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 826.0, 495.0, 830.0, 538.0 ],
+        "rect": [ 1294.0, 344.0, 517.0, 821.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -125,7 +125,7 @@
                     "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "" ],
-                    "patching_rect": [ 8.0, 144.0, 88.0, 48.0 ],
+                    "patching_rect": [ 8.0, 144.0, 40.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 16.0, 40.0, 48.0 ],
                     "varname": "FreqBank",
@@ -196,14 +196,6 @@
             "obj-1::obj-11": [ "#1-OscSemi", "Semi", 0 ],
             "obj-1::obj-14": [ "#1-OscFreq", "Freq", 0 ],
             "obj-5": [ "#1-OscNote", "Note", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
