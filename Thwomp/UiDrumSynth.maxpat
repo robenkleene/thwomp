@@ -9,13 +9,90 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 544.0, 135.0, 1263.0, 942.0 ],
+        "rect": [ 392.0, 182.0, 1263.0, 942.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "toolbars_unpinned_last_save": 4,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-59",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1048.0, 376.0, 131.0, 22.0 ],
+                    "text": "pattrforward #1-OscFilt"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-58",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 952.0, 280.0, 115.0, 22.0 ],
+                    "text": "pattrforward #1-Osc"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-57",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 984.0, 312.0, 128.0, 22.0 ],
+                    "text": "pattrforward #1-Shape"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-56",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1016.0, 344.0, 125.0, 22.0 ],
+                    "text": "pattrforward #1-Reset"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-55",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1080.0, 416.0, 145.0, 22.0 ],
+                    "text": "pattrforward #1-Overdrive"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-54",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1120.0, 448.0, 143.0, 22.0 ],
+                    "text": "pattrforward #1-Overtone"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-53",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1160.0, 480.0, 119.0, 22.0 ],
+                    "text": "pattrforward #1-Gain"
+                }
+            },
             {
                 "box": {
                     "id": "obj-52",
@@ -193,11 +270,11 @@
                 "box": {
                     "id": "obj-40",
                     "maxclass": "newobj",
-                    "numinlets": 4,
-                    "numoutlets": 4,
-                    "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 832.0, 144.0, 133.0, 22.0 ],
-                    "text": "route env pitchenv note"
+                    "numinlets": 11,
+                    "numoutlets": 11,
+                    "outlettype": [ "", "", "", "", "", "", "", "", "", "", "" ],
+                    "patching_rect": [ 832.0, 144.0, 365.0, 22.0 ],
+                    "text": "route env pitchenv note osc shape reset filt overdrive overtone gain"
                 }
             },
             {
@@ -958,6 +1035,48 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-53", 0 ],
+                    "source": [ "obj-40", 9 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-54", 0 ],
+                    "source": [ "obj-40", 8 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-55", 0 ],
+                    "source": [ "obj-40", 7 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-56", 0 ],
+                    "source": [ "obj-40", 5 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-57", 0 ],
+                    "source": [ "obj-40", 4 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-58", 0 ],
+                    "source": [ "obj-40", 3 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-59", 0 ],
+                    "source": [ "obj-40", 6 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-43", 0 ],
                     "source": [ "obj-41", 0 ]
                 }
@@ -1087,6 +1206,14 @@
             "obj-5": [ "#1-Gain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
