@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1147.0, 364.0, 1369.0, 1062.0 ],
+        "rect": [ 752.0, 171.0, 1263.0, 942.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -125,22 +125,12 @@
             },
             {
                 "box": {
-                    "id": "obj-35",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 1096.0, 216.0, 74.0, 22.0 ],
-                    "text": "s #1-pchenv"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-34",
                     "maxclass": "newobj",
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 832.0, 96.0, 89.0, 22.0 ],
+                    "patching_rect": [ 832.0, 104.0, 89.0, 22.0 ],
                     "text": "r #1-randomize"
                 }
             },
@@ -931,14 +921,6 @@
             "obj-5": [ "#1-Gain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
