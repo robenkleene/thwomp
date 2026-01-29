@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 670.0, 336.0, 814.0, 738.0 ],
+        "rect": [ 768.0, 234.0, 814.0, 738.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -114,7 +114,7 @@
                             "parameter_mmax": 100.0,
                             "parameter_mmin": -100.0,
                             "parameter_modmode": 3,
-                            "parameter_shortname": "PchCur",
+                            "parameter_shortname": "PEnvCur",
                             "parameter_type": 0,
                             "parameter_unitstyle": 5
                         }
@@ -131,7 +131,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 472.0, 24.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-PitchEnvAmt": [ 0.11297409851011446 ],
+                        "#1-PitchEnvAmt": [ 0.11297409851011436 ],
                         "#1-PitchEnvCurve": [ -59.055118110235874 ],
                         "#1-PitchEnvDur": [ 104.12666141662342 ]
                     },
@@ -158,7 +158,7 @@
                             "parameter_longname": "#1-PitchEnvDur",
                             "parameter_mmax": 15000.0,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "PchDur",
+                            "parameter_shortname": "PEnvDur",
                             "parameter_type": 0,
                             "parameter_unitstyle": 2
                         }
@@ -185,7 +185,7 @@
                             "parameter_longname": "#1-PitchEnvAmt",
                             "parameter_mmax": 15000.0,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "PchAmt",
+                            "parameter_shortname": "PEnvAmt",
                             "parameter_type": 0,
                             "parameter_unitstyle": 3
                         }
@@ -303,17 +303,9 @@
             }
         ],
         "parameters": {
-            "obj-17": [ "#1-PitchEnvAmt", "PchAmt", 0 ],
-            "obj-18": [ "#1-PitchEnvDur", "PchDur", 0 ],
-            "obj-26": [ "#1-PitchEnvCurve", "PchCur", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
+            "obj-17": [ "#1-PitchEnvAmt", "PEnvAmt", 0 ],
+            "obj-18": [ "#1-PitchEnvDur", "PEnvDur", 0 ],
+            "obj-26": [ "#1-PitchEnvCurve", "PEnvCur", 0 ],
             "inherited_shortname": 1
         },
         "autosave": 0

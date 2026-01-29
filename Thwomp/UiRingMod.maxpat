@@ -9,12 +9,56 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 786.0, 163.0, 1362.0, 983.0 ],
+        "rect": [ 516.0, 135.0, 1362.0, 983.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-23",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 816.0, 240.0, 126.0, 22.0 ],
+                    "text": "pattrforward RingGain"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-20",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 776.0, 208.0, 135.0, 22.0 ],
+                    "text": "pattrforward RingDecay"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-19",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 736.0, 176.0, 134.0, 22.0 ],
+                    "text": "pattrforward RingAttack"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-18",
+                    "maxclass": "newobj",
+                    "numinlets": 4,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 736.0, 144.0, 133.0, 22.0 ],
+                    "text": "route attack decay gain"
+                }
+            },
             {
                 "box": {
                     "id": "obj-17",
@@ -258,7 +302,7 @@
                             "parameter_longname": "RingAttack",
                             "parameter_mmax": 15000.0,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Attack",
+                            "parameter_shortname": "RAttack",
                             "parameter_type": 0,
                             "parameter_unitstyle": 2
                         }
@@ -285,7 +329,7 @@
                             "parameter_longname": "RingDecay",
                             "parameter_mmax": 15000.0,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Decay",
+                            "parameter_shortname": "RDecay",
                             "parameter_type": 0,
                             "parameter_unitstyle": 2
                         }
@@ -435,6 +479,30 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-18", 0 ],
+                    "source": [ "obj-17", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-19", 0 ],
+                    "source": [ "obj-18", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-20", 0 ],
+                    "source": [ "obj-18", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-23", 0 ],
+                    "source": [ "obj-18", 2 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-35", 0 ],
                     "source": [ "obj-2", 0 ]
                 }
@@ -540,8 +608,16 @@
             "obj-11": [ "RingFilt", "RingFilt", 0 ],
             "obj-25": [ "Ring", "Ring", 0 ],
             "obj-31": [ "RingGain", "RGain", 0 ],
-            "obj-34": [ "RingAttack", "Attack", 0 ],
-            "obj-36": [ "RingDecay", "Decay", 0 ],
+            "obj-34": [ "RingAttack", "RAttack", 0 ],
+            "obj-36": [ "RingDecay", "RDecay", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
