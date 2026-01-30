@@ -18,23 +18,34 @@
         "boxes": [
             {
                 "box": {
-                    "id": "obj-13",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 176.0, 112.0, 56.0, 22.0 ],
-                    "text": "#1-$1 $2"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-55",
+                    "id": "obj-47",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 176.0, 144.0, 114.0, 22.0 ],
+                    "patching_rect": [ 264.0, 152.0, 69.0, 22.0 ],
+                    "text": "prepend #1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-37",
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 264.0, 184.0, 102.0, 22.0 ],
+                    "text": "sprintf %s-%s %s"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-11",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 264.0, 216.0, 114.0, 22.0 ],
                     "text": "prepend script send"
                 }
             },
@@ -45,7 +56,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 176.0, 176.0, 67.0, 22.0 ],
+                    "patching_rect": [ 264.0, 248.0, 67.0, 22.0 ],
                     "save": [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
                     "text": "thispatcher"
                 }
@@ -165,7 +176,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 472.0, 24.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-PitchEnvAmt": [ 0.11297409851011429 ],
+                        "#1-PitchEnvAmt": [ 0.1129740985101142 ],
                         "#1-PitchEnvCurve": [ -59.055118110235874 ],
                         "#1-PitchEnvDur": [ 104.12666141662342 ]
                     },
@@ -265,14 +276,14 @@
         "lines": [
             {
                 "patchline": {
-                    "destination": [ "obj-13", 0 ],
-                    "source": [ "obj-1", 2 ]
+                    "destination": [ "obj-18", 0 ],
+                    "source": [ "obj-1", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-18", 0 ],
-                    "source": [ "obj-1", 1 ]
+                    "destination": [ "obj-47", 0 ],
+                    "source": [ "obj-1", 2 ]
                 }
             },
             {
@@ -295,8 +306,8 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-55", 0 ],
-                    "source": [ "obj-13", 0 ]
+                    "destination": [ "obj-9", 0 ],
+                    "source": [ "obj-11", 0 ]
                 }
             },
             {
@@ -325,14 +336,20 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-17", 0 ],
-                    "source": [ "obj-5", 0 ]
+                    "destination": [ "obj-11", 0 ],
+                    "source": [ "obj-37", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-9", 0 ],
-                    "source": [ "obj-55", 0 ]
+                    "destination": [ "obj-37", 0 ],
+                    "source": [ "obj-47", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-17", 0 ],
+                    "source": [ "obj-5", 0 ]
                 }
             },
             {
@@ -358,14 +375,6 @@
             "obj-17": [ "#1-PitchEnvAmt", "PEnvAmt", 0 ],
             "obj-18": [ "#1-PitchEnvDur", "PEnvDur", 0 ],
             "obj-26": [ "#1-PitchEnvCurve", "PEnvCur", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
