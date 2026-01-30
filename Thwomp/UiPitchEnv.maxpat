@@ -9,13 +9,47 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 768.0, 234.0, 814.0, 738.0 ],
+        "rect": [ 1095.0, 363.0, 814.0, 738.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "subpatcher_template": "Roben Kleene",
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-13",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 176.0, 112.0, 56.0, 22.0 ],
+                    "text": "#1-$1 $2"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-55",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 176.0, 144.0, 114.0, 22.0 ],
+                    "text": "prepend script send"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-9",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 176.0, 176.0, 67.0, 22.0 ],
+                    "save": [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+                    "text": "thispatcher"
+                }
+            },
             {
                 "box": {
                     "comment": "(float, -1 - 1) curve",
@@ -44,11 +78,11 @@
                 "box": {
                     "id": "obj-1",
                     "maxclass": "newobj",
-                    "numinlets": 3,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 8.0, 80.0, 92.0, 22.0 ],
-                    "text": "route bang float"
+                    "numinlets": 4,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 8.0, 80.0, 151.0, 22.0 ],
+                    "text": "route bang float randomize"
                 }
             },
             {
@@ -131,7 +165,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 472.0, 24.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-PitchEnvAmt": [ 0.11297409851011436 ],
+                        "#1-PitchEnvAmt": [ 0.11297409851011429 ],
                         "#1-PitchEnvCurve": [ -59.055118110235874 ],
                         "#1-PitchEnvDur": [ 104.12666141662342 ]
                     },
@@ -231,6 +265,12 @@
         "lines": [
             {
                 "patchline": {
+                    "destination": [ "obj-13", 0 ],
+                    "source": [ "obj-1", 2 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-18", 0 ],
                     "source": [ "obj-1", 1 ]
                 }
@@ -251,6 +291,12 @@
                 "patchline": {
                     "destination": [ "obj-2", 0 ],
                     "source": [ "obj-10", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-55", 0 ],
+                    "source": [ "obj-13", 0 ]
                 }
             },
             {
@@ -285,6 +331,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-9", 0 ],
+                    "source": [ "obj-55", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-26", 0 ],
                     "source": [ "obj-6", 0 ]
                 }
@@ -306,6 +358,14 @@
             "obj-17": [ "#1-PitchEnvAmt", "PEnvAmt", 0 ],
             "obj-18": [ "#1-PitchEnvDur", "PEnvDur", 0 ],
             "obj-26": [ "#1-PitchEnvCurve", "PEnvCur", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
