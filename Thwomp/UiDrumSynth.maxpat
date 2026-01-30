@@ -9,13 +9,23 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1248.0, 217.0, 1212.0, 980.0 ],
+        "rect": [ 331.0, 157.0, 1212.0, 980.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "toolbars_unpinned_last_save": 4,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-35",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1032.0, 576.0, 54.0, 22.0 ],
+                    "text": "print osc"
+                }
+            },
             {
                 "box": {
                     "id": "obj-57",
@@ -832,7 +842,15 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-35", 0 ],
+                    "order": 0,
+                    "source": [ "obj-34", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-40", 0 ],
+                    "order": 1,
                     "source": [ "obj-34", 0 ]
                 }
             },
@@ -973,6 +991,14 @@
             "obj-5": [ "#1-Gain", "Gain", 0 ],
             "obj-7": [ "#1-Osc", "Osc", 0 ],
             "obj-9": [ "#1-OscShape", "Shape", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
