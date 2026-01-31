@@ -104,8 +104,8 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 456.0, 56.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-Attack": [ 0.0 ],
-                        "#1-Decay": [ 0.0 ]
+                        "#1-AmpAttack": [ 0.0 ],
+                        "#1-AmpDecay": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u526009117"
@@ -135,7 +135,7 @@
                             "parameter_unitstyle": 2
                         }
                     },
-                    "varname": "#1-Attack"
+                    "varname": "#1-AmpAttack"
                 }
             },
             {
@@ -162,7 +162,7 @@
                             "parameter_unitstyle": 2
                         }
                     },
-                    "varname": "#1-Decay"
+                    "varname": "#1-AmpDecay"
                 }
             },
             {
@@ -247,6 +247,14 @@
         "parameters": {
             "obj-3": [ "#1-AmpDecay", "Decay", 0 ],
             "obj-7": [ "#1-AmpAttack", "Attack", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

@@ -309,8 +309,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 344.0, 472.0, 145.0, 22.0 ],
-                    "text": "loadmess effect Overtone"
+                    "patching_rect": [ 344.0, 472.0, 113.0, 22.0 ],
+                    "text": "loadmess Overtone"
                 }
             },
             {
@@ -320,8 +320,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 192.0, 472.0, 148.0, 22.0 ],
-                    "text": "loadmess effect Overdrive"
+                    "patching_rect": [ 192.0, 472.0, 115.0, 22.0 ],
+                    "text": "loadmess Overdrive"
                 }
             },
             {

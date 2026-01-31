@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 331.0, 157.0, 1212.0, 980.0 ],
+        "rect": [ 45.0, 92.0, 1212.0, 980.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -23,7 +23,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 976.0, 280.0, 69.0, 22.0 ],
+                    "patching_rect": [ 976.0, 272.0, 69.0, 22.0 ],
                     "text": "prepend #1"
                 }
             },
@@ -34,7 +34,7 @@
                     "numinlets": 3,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 976.0, 312.0, 102.0, 22.0 ],
+                    "patching_rect": [ 976.0, 304.0, 102.0, 22.0 ],
                     "text": "sprintf %s-%s %s"
                 }
             },
@@ -45,7 +45,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 976.0, 376.0, 67.0, 22.0 ],
+                    "patching_rect": [ 976.0, 368.0, 67.0, 22.0 ],
                     "save": [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
                     "text": "thispatcher"
                 }
@@ -57,7 +57,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 976.0, 344.0, 114.0, 22.0 ],
+                    "patching_rect": [ 976.0, 336.0, 114.0, 22.0 ],
                     "text": "prepend script send"
                 }
             },
@@ -89,7 +89,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 832.0, 248.0, 55.0, 22.0 ],
+                    "patching_rect": [ 832.0, 240.0, 55.0, 22.0 ],
                     "text": "s #1-env"
                 }
             },
@@ -99,7 +99,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 912.0, 312.0, 59.0, 22.0 ],
+                    "patching_rect": [ 912.0, 304.0, 59.0, 22.0 ],
                     "text": "s #1-note"
                 }
             },
@@ -109,7 +109,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 872.0, 280.0, 74.0, 22.0 ],
+                    "patching_rect": [ 872.0, 272.0, 74.0, 22.0 ],
                     "text": "s #1-pchenv"
                 }
             },
@@ -120,7 +120,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 912.0, 248.0, 112.0, 22.0 ],
+                    "patching_rect": [ 912.0, 240.0, 112.0, 22.0 ],
                     "text": "prepend randomize"
                 }
             },
@@ -131,7 +131,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 872.0, 216.0, 112.0, 22.0 ],
+                    "patching_rect": [ 872.0, 208.0, 112.0, 22.0 ],
                     "text": "prepend randomize"
                 }
             },
@@ -142,7 +142,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 832.0, 184.0, 112.0, 22.0 ],
+                    "patching_rect": [ 832.0, 176.0, 112.0, 22.0 ],
                     "text": "prepend randomize"
                 }
             },
@@ -175,7 +175,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 832.0, 104.0, 89.0, 22.0 ],
+                    "patching_rect": [ 832.0, 112.0, 89.0, 22.0 ],
                     "text": "r #1-randomize"
                 }
             },
