@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 296.0, 232.0, 1477.0, 1064.0 ],
+        "rect": [ 747.0, 190.0, 1477.0, 1064.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -17,34 +17,25 @@
         "boxes": [
             {
                 "box": {
-                    "id": "obj-66",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 680.0, 520.0, 112.0, 22.0 ],
-                    "text": "prepend randomize"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-65",
-                    "maxclass": "newobj",
-                    "numinlets": 0,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 80.0, 960.0, 49.0, 22.0 ],
-                    "text": "r #1-vol"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-56",
                     "maxclass": "newobj",
                     "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 680.0, 552.0, 51.0, 22.0 ],
-                    "text": "s #1-vol"
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 736.0, 520.0, 67.0, 22.0 ],
+                    "save": [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+                    "text": "thispatcher"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-67",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 736.0, 488.0, 114.0, 22.0 ],
+                    "text": "prepend script send"
                 }
             },
             {
@@ -157,11 +148,11 @@
                 "box": {
                     "id": "obj-53",
                     "maxclass": "newobj",
-                    "numinlets": 4,
-                    "numoutlets": 4,
-                    "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 560.0, 424.0, 93.0, 22.0 ],
-                    "text": "route filt ring vol"
+                    "numinlets": 3,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "" ],
+                    "patching_rect": [ 560.0, 424.0, 75.0, 22.0 ],
+                    "text": "route filt ring"
                 }
             },
             {
@@ -1301,7 +1292,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-66", 0 ],
+                    "destination": [ "obj-67", 0 ],
                     "source": [ "obj-53", 2 ]
                 }
             },
@@ -1367,14 +1358,8 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-11", 0 ],
-                    "source": [ "obj-65", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-56", 0 ],
-                    "source": [ "obj-66", 0 ]
+                    "source": [ "obj-67", 0 ]
                 }
             },
             {
@@ -1400,9 +1385,9 @@
             "obj-11": [ "Vol", "Vol", 0 ],
             "obj-19": [ "Tab", "Tab", 0 ],
             "obj-1::obj-1::obj-12": [ "1-OscFilt", "OscFilt", 0 ],
-            "obj-1::obj-1::obj-17::obj-17": [ "1-PitchEnvAmt", "PchAmt", 0 ],
-            "obj-1::obj-1::obj-17::obj-18": [ "1-PitchEnvDur", "PchDur", 0 ],
-            "obj-1::obj-1::obj-17::obj-26": [ "1-PitchEnvCurve", "PchCur", 0 ],
+            "obj-1::obj-1::obj-17::obj-17": [ "1-PitchEnvAmt", "PEnvAmt", 0 ],
+            "obj-1::obj-1::obj-17::obj-18": [ "1-PitchEnvDur", "PEnvDur", 0 ],
+            "obj-1::obj-1::obj-17::obj-26": [ "1-PitchEnvCurve", "PEnvCur", 0 ],
             "obj-1::obj-1::obj-19": [ "1-Overtone", "Overtone", 0 ],
             "obj-1::obj-1::obj-24": [ "1-Overdrive", "Overdrive", 0 ],
             "obj-1::obj-1::obj-26": [ "1-OscReset", "Reset", 0 ],
@@ -1415,9 +1400,9 @@
             "obj-1::obj-1::obj-7": [ "1-Osc", "Osc", 0 ],
             "obj-1::obj-1::obj-9": [ "1-OscShape", "Shape", 0 ],
             "obj-1::obj-3::obj-12": [ "2-OscFilt", "OscFilt", 0 ],
-            "obj-1::obj-3::obj-17::obj-17": [ "2-PitchEnvAmt", "PchAmt", 0 ],
-            "obj-1::obj-3::obj-17::obj-18": [ "2-PitchEnvDur", "PchDur", 0 ],
-            "obj-1::obj-3::obj-17::obj-26": [ "2-PitchEnvCurve", "PchCur", 0 ],
+            "obj-1::obj-3::obj-17::obj-17": [ "2-PitchEnvAmt", "PEnvAmt", 0 ],
+            "obj-1::obj-3::obj-17::obj-18": [ "2-PitchEnvDur", "PEnvDur", 0 ],
+            "obj-1::obj-3::obj-17::obj-26": [ "2-PitchEnvCurve", "PEnvCur", 0 ],
             "obj-1::obj-3::obj-19": [ "2-Overtone", "Overtone", 0 ],
             "obj-1::obj-3::obj-24": [ "2-Overdrive", "Overdrive", 0 ],
             "obj-1::obj-3::obj-26": [ "2-OscReset", "Reset", 0 ],
@@ -1498,8 +1483,8 @@
             "obj-40::obj-11": [ "RingFilt", "RingFilt", 0 ],
             "obj-40::obj-25": [ "Ring", "Ring", 0 ],
             "obj-40::obj-31": [ "RingGain", "RGain", 0 ],
-            "obj-40::obj-34": [ "RingAttack", "Attack", 0 ],
-            "obj-40::obj-36": [ "RingDecay", "Decay", 0 ],
+            "obj-40::obj-34": [ "RingAttack", "RAttack", 0 ],
+            "obj-40::obj-36": [ "RingDecay", "RDecay", 0 ],
             "obj-45": [ "Randomize", "Rand", 0 ],
             "obj-9::obj-1::obj-1": [ "FiltFreq", "FFreq", 0 ],
             "obj-9::obj-1::obj-11": [ "FiltQ", "Q", 0 ],

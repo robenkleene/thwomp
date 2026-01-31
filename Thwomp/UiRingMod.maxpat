@@ -17,67 +17,25 @@
         "boxes": [
             {
                 "box": {
-                    "id": "obj-23",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 816.0, 240.0, 126.0, 22.0 ],
-                    "text": "pattrforward RingGain"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-20",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 776.0, 208.0, 135.0, 22.0 ],
-                    "text": "pattrforward RingDecay"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-19",
                     "maxclass": "newobj",
                     "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 736.0, 176.0, 134.0, 22.0 ],
-                    "text": "pattrforward RingAttack"
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 64.0, 176.0, 67.0, 22.0 ],
+                    "save": [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+                    "text": "thispatcher"
                 }
             },
             {
                 "box": {
                     "id": "obj-18",
                     "maxclass": "newobj",
-                    "numinlets": 4,
-                    "numoutlets": 4,
-                    "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 736.0, 144.0, 133.0, 22.0 ],
-                    "text": "route attack decay gain"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-17",
-                    "maxclass": "newobj",
-                    "numinlets": 0,
+                    "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 736.0, 112.0, 89.0, 22.0 ],
-                    "text": "r #1-randomize"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-9",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 64.0, 144.0, 91.0, 22.0 ],
-                    "text": "s #1-randomize"
+                    "patching_rect": [ 64.0, 144.0, 114.0, 22.0 ],
+                    "text": "prepend script send"
                 }
             },
             {
@@ -479,26 +437,8 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-18", 0 ],
-                    "source": [ "obj-17", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-19", 0 ],
                     "source": [ "obj-18", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-20", 0 ],
-                    "source": [ "obj-18", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-23", 0 ],
-                    "source": [ "obj-18", 2 ]
                 }
             },
             {
@@ -509,14 +449,14 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-22", 0 ],
-                    "source": [ "obj-21", 0 ]
+                    "destination": [ "obj-18", 0 ],
+                    "source": [ "obj-21", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-9", 0 ],
-                    "source": [ "obj-21", 1 ]
+                    "destination": [ "obj-22", 0 ],
+                    "source": [ "obj-21", 0 ]
                 }
             },
             {
@@ -610,14 +550,6 @@
             "obj-31": [ "RingGain", "RGain", 0 ],
             "obj-34": [ "RingAttack", "RAttack", 0 ],
             "obj-36": [ "RingDecay", "RDecay", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
