@@ -600,7 +600,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 32.0, 256.0, 114.0, 22.0 ],
+                    "patching_rect": [ 32.0, 272.0, 114.0, 22.0 ],
                     "text": "s #1-randomize-osc"
                 }
             },
@@ -786,7 +786,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 32.0, 224.0, 76.0, 22.0 ],
+                    "patching_rect": [ 32.0, 240.0, 76.0, 22.0 ],
                     "text": "p OscRouter"
                 }
             },
@@ -3448,7 +3448,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 88.0, 200.0, 44.0, 15.0 ],
+                    "patching_rect": [ 88.0, 208.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 48.0, 0.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -3474,7 +3474,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 56.0, 184.0, 44.0, 15.0 ],
+                    "patching_rect": [ 64.0, 184.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -3488,7 +3488,7 @@
                         }
                     },
                     "text": "1",
-                    "texton": "2",
+                    "texton": "1",
                     "varname": "Rand1"
                 }
             }
@@ -4776,6 +4776,14 @@
             "obj-76": [ "RandAuto", "Auto", 0 ],
             "obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
