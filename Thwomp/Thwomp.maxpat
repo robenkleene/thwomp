@@ -290,6 +290,7 @@
             "obj-1::obj-1::obj-8::obj-1::obj-18::obj-1": [ "RandOscAttack-Min", "AttMin", 0 ],
             "obj-1::obj-1::obj-8::obj-1::obj-18::obj-2": [ "RandOscAttack-Max", "AttMax", 0 ],
             "obj-1::obj-1::obj-8::obj-1::obj-2": [ "RandOsc2", "Osc2", 0 ],
+            "obj-1::obj-1::obj-8::obj-1::obj-204": [ "RandOsc", "Note", 0 ],
             "obj-1::obj-1::obj-8::obj-1::obj-20::obj-1": [ "RandOscDecay-Min", "DecMin", 0 ],
             "obj-1::obj-1::obj-8::obj-1::obj-20::obj-2": [ "RandOscDecay-Max", "DecMax", 0 ],
             "obj-1::obj-1::obj-8::obj-1::obj-22": [ "RandOvertone", "Overtone", 0 ],
@@ -347,14 +348,6 @@
             "obj-1::obj-9::obj-1::obj-11": [ "FiltQ", "Q", 0 ],
             "obj-1::obj-9::obj-1::obj-6": [ "FiltType", "Type", 0 ],
             "obj-1::obj-9::obj-7": [ "Filt", "Filt", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-1::obj-1::obj-8::obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]

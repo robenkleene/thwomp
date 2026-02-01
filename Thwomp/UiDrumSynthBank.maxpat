@@ -342,14 +342,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-7", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-3", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-7", 0 ]
                 }
             },
@@ -374,9 +374,9 @@
         ],
         "parameters": {
             "obj-1::obj-12": [ "1-OscFilt", "OscFilt", 0 ],
-            "obj-1::obj-17::obj-17": [ "1-PitchEnvAmt", "PchAmt", 0 ],
-            "obj-1::obj-17::obj-18": [ "1-PitchEnvDur", "PchDur", 0 ],
-            "obj-1::obj-17::obj-26": [ "1-PitchEnvCurve", "PchCur", 0 ],
+            "obj-1::obj-17::obj-17": [ "1-PitchEnvAmt", "PEnvAmt", 0 ],
+            "obj-1::obj-17::obj-18": [ "1-PitchEnvDur", "PEnvDur", 0 ],
+            "obj-1::obj-17::obj-26": [ "1-PitchEnvCurve", "PEnvCur", 0 ],
             "obj-1::obj-19": [ "1-Overtone", "Overtone", 0 ],
             "obj-1::obj-24": [ "1-Overdrive", "Overdrive", 0 ],
             "obj-1::obj-26": [ "1-OscReset", "Reset", 0 ],
@@ -389,9 +389,9 @@
             "obj-1::obj-7": [ "1-Osc", "Osc", 0 ],
             "obj-1::obj-9": [ "1-OscShape", "Shape", 0 ],
             "obj-3::obj-12": [ "2-OscFilt", "OscFilt", 0 ],
-            "obj-3::obj-17::obj-17": [ "2-PitchEnvAmt", "PchAmt", 0 ],
-            "obj-3::obj-17::obj-18": [ "2-PitchEnvDur", "PchDur", 0 ],
-            "obj-3::obj-17::obj-26": [ "2-PitchEnvCurve", "PchCur", 0 ],
+            "obj-3::obj-17::obj-17": [ "2-PitchEnvAmt", "PEnvAmt", 0 ],
+            "obj-3::obj-17::obj-18": [ "2-PitchEnvDur", "PEnvDur", 0 ],
+            "obj-3::obj-17::obj-26": [ "2-PitchEnvCurve", "PEnvCur", 0 ],
             "obj-3::obj-19": [ "2-Overtone", "Overtone", 0 ],
             "obj-3::obj-24": [ "2-Overdrive", "Overdrive", 0 ],
             "obj-3::obj-26": [ "2-OscReset", "Reset", 0 ],
@@ -422,6 +422,7 @@
             "obj-8::obj-1::obj-18::obj-1": [ "RandOscAttack-Min", "AttMin", 0 ],
             "obj-8::obj-1::obj-18::obj-2": [ "RandOscAttack-Max", "AttMax", 0 ],
             "obj-8::obj-1::obj-2": [ "RandOsc2", "Osc2", 0 ],
+            "obj-8::obj-1::obj-204": [ "RandOsc", "Note", 0 ],
             "obj-8::obj-1::obj-20::obj-1": [ "RandOscDecay-Min", "DecMin", 0 ],
             "obj-8::obj-1::obj-20::obj-2": [ "RandOscDecay-Max", "DecMax", 0 ],
             "obj-8::obj-1::obj-22": [ "RandOvertone", "Overtone", 0 ],
@@ -466,14 +467,6 @@
             "obj-8::obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-8::obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
             "obj-8::obj-2": [ "RandTab", "Tab", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-8::obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
