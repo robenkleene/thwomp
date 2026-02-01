@@ -9,13 +9,24 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 45.0, 92.0, 1212.0, 980.0 ],
+        "rect": [ 692.0, 230.0, 1212.0, 980.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "toolbars_unpinned_last_save": 4,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-48",
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "" ],
+                    "patching_rect": [ 200.0, 64.0, 122.0, 22.0 ],
+                    "text": "route note randomize"
+                }
+            },
             {
                 "box": {
                     "id": "obj-47",
@@ -185,7 +196,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 280.0, 168.0, 91.0, 22.0 ],
+                    "patching_rect": [ 256.0, 96.0, 91.0, 22.0 ],
                     "text": "s #1-randomize"
                 }
             },
@@ -585,19 +596,8 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 184.0, 128.0, 47.0, 22.0 ],
+                    "patching_rect": [ 184.0, 136.0, 47.0, 22.0 ],
                     "text": "unpack"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-21",
-                    "maxclass": "newobj",
-                    "numinlets": 3,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 184.0, 96.0, 122.0, 22.0 ],
-                    "text": "route note randomize"
                 }
             },
             {
@@ -619,7 +619,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 184.0, 64.0, 32.0, 22.0 ],
+                    "patching_rect": [ 184.0, 96.0, 32.0, 22.0 ],
                     "text": "gate"
                 }
             },
@@ -777,18 +777,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-22", 0 ],
-                    "source": [ "obj-21", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-32", 0 ],
-                    "source": [ "obj-21", 1 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-23", 0 ],
                     "source": [ "obj-22", 0 ]
                 }
@@ -819,13 +807,13 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-21", 0 ],
+                    "destination": [ "obj-22", 0 ],
                     "source": [ "obj-28", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-28", 1 ],
+                    "destination": [ "obj-48", 0 ],
                     "source": [ "obj-3", 0 ]
                 }
             },
@@ -929,6 +917,18 @@
                 "patchline": {
                     "destination": [ "obj-37", 0 ],
                     "source": [ "obj-47", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-28", 1 ],
+                    "source": [ "obj-48", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-32", 0 ],
+                    "source": [ "obj-48", 1 ]
                 }
             },
             {
