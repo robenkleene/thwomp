@@ -9,12 +9,44 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 747.0, 190.0, 1477.0, 1064.0 ],
+        "rect": [ 300.0, 103.0, 1477.0, 1064.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-78",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 120.0, 8.0, 61.0, 22.0 ],
+                    "text": "NoteFilter"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-66",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 200.0, -32.0, 81.0, 22.0 ],
+                    "text": "r #1-randnote"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-65",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 176.0, 520.0, 83.0, 22.0 ],
+                    "text": "s #1-randnote"
+                }
+            },
             {
                 "box": {
                     "id": "obj-56",
@@ -98,7 +130,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 136.0, 0.0, 31.0, 22.0 ],
+                    "patching_rect": [ 120.0, 40.0, 31.0, 22.0 ],
                     "text": "t s s"
                 }
             },
@@ -108,7 +140,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 200.0, 40.0, 55.0, 22.0 ],
+                    "patching_rect": [ 184.0, 80.0, 55.0, 22.0 ],
                     "text": "s #1-ring"
                 }
             },
@@ -118,7 +150,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 136.0, 40.0, 54.0, 22.0 ],
+                    "patching_rect": [ 120.0, 80.0, 54.0, 22.0 ],
                     "text": "s #1-osc"
                 }
             },
@@ -236,7 +268,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 88.0, 0.0, 22.0, 22.0 ],
+                    "patching_rect": [ 88.0, 8.0, 22.0, 22.0 ],
                     "text": "t b"
                 }
             },
@@ -351,11 +383,11 @@
                 "box": {
                     "id": "obj-26",
                     "maxclass": "newobj",
-                    "numinlets": 3,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 152.0, 424.0, 111.0, 22.0 ],
-                    "text": "route filt randomize"
+                    "numinlets": 4,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 96.0, 424.0, 161.0, 22.0 ],
+                    "text": "route filt randomize randnote"
                 }
             },
             {
@@ -518,8 +550,8 @@
                         "Overwrite": [ 0.0 ],
                         "Randomize": [ 0.0 ],
                         "Read": [ 0.0 ],
-                        "Tab": [ 0.0 ],
-                        "Vol": [ 0.0 ],
+                        "Tab": [ 2.0 ],
+                        "Vol": [ -2.0 ],
                         "Write": [ 0.0 ]
                     },
                     "text": "autopattr",
@@ -949,7 +981,7 @@
                     "name": "UiDrumSynthBank.maxpat",
                     "numinlets": 1,
                     "numoutlets": 5,
-                    "offset": [ 0.0, 0.0 ],
+                    "offset": [ 0.0, -336.0 ],
                     "outlettype": [ "signal", "signal", "signal", "signal", "" ],
                     "patching_rect": [ 16.0, 224.0, 248.0, 160.0 ],
                     "presentation": 1,
@@ -1093,13 +1125,19 @@
             {
                 "patchline": {
                     "destination": [ "obj-49", 0 ],
-                    "source": [ "obj-26", 2 ]
+                    "source": [ "obj-26", 3 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-52", 0 ],
                     "source": [ "obj-26", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-65", 0 ],
+                    "source": [ "obj-26", 2 ]
                 }
             },
             {
@@ -1334,7 +1372,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-59", 0 ],
+                    "destination": [ "obj-78", 0 ],
                     "source": [ "obj-6", 2 ]
                 }
             },
@@ -1358,6 +1396,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-78", 1 ],
+                    "source": [ "obj-66", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-56", 0 ],
                     "source": [ "obj-67", 0 ]
                 }
@@ -1366,6 +1410,12 @@
                 "patchline": {
                     "destination": [ "obj-5", 0 ],
                     "source": [ "obj-7", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-59", 0 ],
+                    "source": [ "obj-78", 0 ]
                 }
             },
             {
@@ -1491,14 +1541,6 @@
             "obj-9::obj-1::obj-11": [ "FiltQ", "Q", 0 ],
             "obj-9::obj-1::obj-6": [ "FiltType", "Type", 0 ],
             "obj-9::obj-7": [ "Filt", "Filt", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-1::obj-8::obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]

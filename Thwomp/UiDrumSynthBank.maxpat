@@ -17,6 +17,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-19",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 680.0, 416.0, 103.0, 22.0 ],
+                    "text": "prepend randnote"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-16",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -95,9 +106,9 @@
                     "maxclass": "bpatcher",
                     "name": "UiRandomizeRack.maxpat",
                     "numinlets": 1,
-                    "numoutlets": 1,
+                    "numoutlets": 3,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "" ],
+                    "outlettype": [ "", "bang", "" ],
                     "patching_rect": [ 496.0, 224.0, 200.0, 168.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 336.0, 200.0, 160.0 ],
@@ -293,6 +304,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-2", 0 ],
+                    "source": [ "obj-19", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-12", 0 ],
                     "source": [ "obj-3", 1 ]
                 }
@@ -342,14 +359,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-7", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-3", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-7", 0 ]
                 }
             },
@@ -369,6 +386,18 @@
                 "patchline": {
                     "destination": [ "obj-13", 0 ],
                     "source": [ "obj-8", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-19", 0 ],
+                    "source": [ "obj-8", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-4", 0 ],
+                    "source": [ "obj-8", 1 ]
                 }
             }
         ],

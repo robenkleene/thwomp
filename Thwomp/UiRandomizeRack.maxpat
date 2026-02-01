@@ -17,6 +17,28 @@
         "boxes": [
             {
                 "box": {
+                    "comment": "(note) randomize note trigger",
+                    "id": "obj-8",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 168.0, 208.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "comment": "(bang) trigger randomize",
+                    "id": "obj-6",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 88.0, 208.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
                     "comment": "(message) randomize messages",
                     "id": "obj-4",
                     "index": 0,
@@ -114,9 +136,9 @@
                     "maxclass": "bpatcher",
                     "name": "UiRandomize.maxpat",
                     "numinlets": 1,
-                    "numoutlets": 2,
+                    "numoutlets": 3,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "", "bang" ],
+                    "outlettype": [ "", "bang", "" ],
                     "patching_rect": [ 0.0, 24.0, 192.0, 144.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 16.0, 192.0, 144.0 ],
@@ -130,6 +152,18 @@
                 "patchline": {
                     "destination": [ "obj-4", 0 ],
                     "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-6", 0 ],
+                    "source": [ "obj-1", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-8", 0 ],
+                    "source": [ "obj-1", 2 ]
                 }
             },
             {
