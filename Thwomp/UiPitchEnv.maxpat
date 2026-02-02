@@ -155,7 +155,7 @@
                     "presentation_rect": [ 0.0, 56.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "#1-PitchEnvCurve",
+                            "parameter_longname": "#2-PitchEnvCurve",
                             "parameter_mmax": 100.0,
                             "parameter_mmin": -100.0,
                             "parameter_modmode": 3,
@@ -164,7 +164,7 @@
                             "parameter_unitstyle": 5
                         }
                     },
-                    "varname": "#1-PitchEnvCurve"
+                    "varname": "#2-PitchEnvCurve"
                 }
             },
             {
@@ -176,9 +176,9 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 472.0, 24.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-PitchEnvAmt": [ 0.1129740985101142 ],
-                        "#1-PitchEnvCurve": [ -59.055118110235874 ],
-                        "#1-PitchEnvDur": [ 104.12666141662342 ]
+                        "#2-PitchEnvAmt": [ 0.1129740985101142 ],
+                        "#2-PitchEnvCurve": [ -59.055118110235874 ],
+                        "#2-PitchEnvDur": [ 104.12666141662342 ]
                     },
                     "text": "autopattr",
                     "varname": "u627002945"
@@ -200,7 +200,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 5.0,
-                            "parameter_longname": "#1-PitchEnvDur",
+                            "parameter_longname": "#2-PitchEnvDur",
                             "parameter_mmax": 15000.0,
                             "parameter_modmode": 0,
                             "parameter_shortname": "PEnvDur",
@@ -208,7 +208,7 @@
                             "parameter_unitstyle": 2
                         }
                     },
-                    "varname": "#1-PitchEnvDur"
+                    "varname": "#2-PitchEnvDur"
                 }
             },
             {
@@ -227,7 +227,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 5.0,
-                            "parameter_longname": "#1-PitchEnvAmt",
+                            "parameter_longname": "#2-PitchEnvAmt",
                             "parameter_mmax": 15000.0,
                             "parameter_modmode": 0,
                             "parameter_shortname": "PEnvAmt",
@@ -235,7 +235,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "varname": "#1-PitchEnvAmt"
+                    "varname": "#2-PitchEnvAmt"
                 }
             },
             {
@@ -372,9 +372,17 @@
             }
         ],
         "parameters": {
-            "obj-17": [ "#1-PitchEnvAmt", "PEnvAmt", 0 ],
-            "obj-18": [ "#1-PitchEnvDur", "PEnvDur", 0 ],
-            "obj-26": [ "#1-PitchEnvCurve", "PEnvCur", 0 ],
+            "obj-17": [ "#2-PitchEnvAmt", "PEnvAmt", 0 ],
+            "obj-18": [ "#2-PitchEnvDur", "PEnvDur", 0 ],
+            "obj-26": [ "#2-PitchEnvCurve", "PEnvCur", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

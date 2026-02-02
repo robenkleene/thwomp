@@ -69,8 +69,8 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 352.0, 16.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-OscFreq": [ 30.0 ],
-                        "#1-OscSemi": [ 0.0 ]
+                        "#2-OscFreq": [ 30.0 ],
+                        "#2-OscSemi": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u665013921"
@@ -92,7 +92,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 5.0,
-                            "parameter_longname": "#1-OscFreq",
+                            "parameter_longname": "#2-OscFreq",
                             "parameter_mmax": 22000.0,
                             "parameter_mmin": 30.0,
                             "parameter_modmode": 0,
@@ -101,7 +101,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "varname": "#1-OscFreq"
+                    "varname": "#2-OscFreq"
                 }
             },
             {
@@ -119,7 +119,7 @@
                     "presentation_rect": [ 0.0, 48.0, 40.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "#1-OscSemi",
+                            "parameter_longname": "#2-OscSemi",
                             "parameter_mmax": 48.0,
                             "parameter_mmin": -48.0,
                             "parameter_modmode": 0,
@@ -128,7 +128,7 @@
                             "parameter_unitstyle": 7
                         }
                     },
-                    "varname": "#1-OscSemi"
+                    "varname": "#2-OscSemi"
                 }
             },
             {
@@ -344,16 +344,8 @@
             }
         ],
         "parameters": {
-            "obj-11": [ "#1-OscSemi", "Semi", 0 ],
-            "obj-14": [ "#1-OscFreq", "Freq", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
+            "obj-11": [ "#2-OscSemi", "Semi", 0 ],
+            "obj-14": [ "#2-OscFreq", "Freq", 0 ],
             "inherited_shortname": 1
         },
         "autosave": 0

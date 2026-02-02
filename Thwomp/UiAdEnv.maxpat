@@ -104,8 +104,8 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 456.0, 56.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-AmpAttack": [ 0.0 ],
-                        "#1-AmpDecay": [ 0.0 ]
+                        "#2-AmpAttack": [ 0.0 ],
+                        "#2-AmpDecay": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u526009117"
@@ -127,7 +127,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 5.0,
-                            "parameter_longname": "#1-AmpAttack",
+                            "parameter_longname": "#2-AmpAttack",
                             "parameter_mmax": 15000.0,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Attack",
@@ -135,7 +135,7 @@
                             "parameter_unitstyle": 2
                         }
                     },
-                    "varname": "#1-AmpAttack"
+                    "varname": "#2-AmpAttack"
                 }
             },
             {
@@ -154,7 +154,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 5.0,
-                            "parameter_longname": "#1-AmpDecay",
+                            "parameter_longname": "#2-AmpDecay",
                             "parameter_mmax": 15000.0,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Decay",
@@ -162,7 +162,7 @@
                             "parameter_unitstyle": 2
                         }
                     },
-                    "varname": "#1-AmpDecay"
+                    "varname": "#2-AmpDecay"
                 }
             },
             {
@@ -245,8 +245,8 @@
             }
         ],
         "parameters": {
-            "obj-3": [ "#1-AmpDecay", "Decay", 0 ],
-            "obj-7": [ "#1-AmpAttack", "Attack", 0 ],
+            "obj-3": [ "#2-AmpDecay", "Decay", 0 ],
+            "obj-7": [ "#2-AmpAttack", "Attack", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,

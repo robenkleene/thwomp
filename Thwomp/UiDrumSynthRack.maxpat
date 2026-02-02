@@ -436,6 +436,7 @@
             },
             {
                 "box": {
+                    "args": [ "#1" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -471,6 +472,7 @@
             },
             {
                 "box": {
+                    "args": [ "#1" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -550,8 +552,8 @@
                         "Overwrite": [ 0.0 ],
                         "Randomize": [ 0.0 ],
                         "Read": [ 0.0 ],
-                        "Tab": [ 2.0 ],
-                        "Vol": [ -2.0 ],
+                        "Tab": [ 0.0 ],
+                        "Vol": [ 0.0 ],
                         "Write": [ 0.0 ]
                     },
                     "text": "autopattr",
@@ -981,7 +983,7 @@
                     "name": "UiDrumSynthBank.maxpat",
                     "numinlets": 1,
                     "numoutlets": 5,
-                    "offset": [ 0.0, -336.0 ],
+                    "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal", "signal", "signal", "" ],
                     "patching_rect": [ 16.0, 224.0, 248.0, 160.0 ],
                     "presentation": 1,

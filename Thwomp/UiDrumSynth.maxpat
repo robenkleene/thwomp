@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 692.0, 230.0, 1212.0, 980.0 ],
+        "rect": [ 523.0, 189.0, 1212.0, 980.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -225,7 +225,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "#1-OscFilt",
+                            "parameter_longname": "#2-OscFilt",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "OscFilt",
@@ -234,7 +234,7 @@
                     },
                     "text": "OFilt",
                     "texton": "OFilt",
-                    "varname": "#1-OscFilt"
+                    "varname": "#2-OscFilt"
                 }
             },
             {
@@ -296,7 +296,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "#1-OscReset",
+                            "parameter_longname": "#2-OscReset",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Reset",
@@ -305,7 +305,7 @@
                     },
                     "text": "Reset",
                     "texton": "Reset",
-                    "varname": "#1-OscReset"
+                    "varname": "#2-OscReset"
                 }
             },
             {
@@ -333,7 +333,7 @@
                     "presentation_rect": [ 96.0, 56.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "#1-Overtone",
+                            "parameter_longname": "#2-Overtone",
                             "parameter_mmax": 100.0,
                             "parameter_modmode": 4,
                             "parameter_shortname": "Overtone",
@@ -341,7 +341,7 @@
                             "parameter_unitstyle": 5
                         }
                     },
-                    "varname": "#1-Overtone"
+                    "varname": "#2-Overtone"
                 }
             },
             {
@@ -357,7 +357,7 @@
                     "presentation_rect": [ 96.0, 0.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "#1-Overdrive",
+                            "parameter_longname": "#2-Overdrive",
                             "parameter_mmax": 100.0,
                             "parameter_modmode": 4,
                             "parameter_shortname": "Overdrive",
@@ -365,7 +365,7 @@
                             "parameter_unitstyle": 5
                         }
                     },
-                    "varname": "#1-Overdrive"
+                    "varname": "#2-Overdrive"
                 }
             },
             {
@@ -411,13 +411,13 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 640.0, 16.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-Gain": [ 0.0 ],
-                        "#1-Osc": [ 0.0 ],
-                        "#1-OscFilt": [ 0.0 ],
-                        "#1-OscReset": [ 0.0 ],
-                        "#1-OscShape": [ 0.0 ],
-                        "#1-Overdrive": [ 0.0 ],
-                        "#1-Overtone": [ 0.0 ]
+                        "#2-Gain": [ 0.0 ],
+                        "#2-Osc": [ 0.0 ],
+                        "#2-OscFilt": [ 0.0 ],
+                        "#2-OscReset": [ 0.0 ],
+                        "#2-OscShape": [ 0.0 ],
+                        "#2-Overdrive": [ 0.0 ],
+                        "#2-Overtone": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u676004119"
@@ -471,7 +471,7 @@
                     "presentation_rect": [ 152.0, 112.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "#1-Gain",
+                            "parameter_longname": "#2-Gain",
                             "parameter_mmax": 6.0,
                             "parameter_mmin": -70.0,
                             "parameter_modmode": 0,
@@ -480,7 +480,7 @@
                             "parameter_unitstyle": 4
                         }
                     },
-                    "varname": "#1-Gain"
+                    "varname": "#2-Gain"
                 }
             },
             {
@@ -501,7 +501,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "sine", "tri", "square", "saw", "noise", "pink" ],
-                            "parameter_longname": "#1-OscShape",
+                            "parameter_longname": "#2-OscShape",
                             "parameter_mmax": 5,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Shape",
@@ -510,7 +510,7 @@
                     },
                     "usepicture": 1,
                     "usesvgviewbox": 1,
-                    "varname": "#1-OscShape"
+                    "varname": "#2-OscShape"
                 }
             },
             {
@@ -531,7 +531,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "#1-Osc",
+                            "parameter_longname": "#2-Osc",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Osc",
@@ -540,12 +540,12 @@
                     },
                     "text": "Osc",
                     "texton": "Osc",
-                    "varname": "#1-Osc"
+                    "varname": "#2-Osc"
                 }
             },
             {
                 "box": {
-                    "args": [ "#1" ],
+                    "args": [ "#1", "#2" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -649,7 +649,7 @@
             },
             {
                 "box": {
-                    "args": [ "#1" ],
+                    "args": [ "#1", "#2" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -685,7 +685,7 @@
             },
             {
                 "box": {
-                    "args": [ "#1" ],
+                    "args": [ "#1", "#2" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -975,21 +975,29 @@
             }
         ],
         "parameters": {
-            "obj-12": [ "#1-OscFilt", "OscFilt", 0 ],
-            "obj-17::obj-17": [ "#1-PitchEnvAmt", "PEnvAmt", 0 ],
-            "obj-17::obj-18": [ "#1-PitchEnvDur", "PEnvDur", 0 ],
-            "obj-17::obj-26": [ "#1-PitchEnvCurve", "PEnvCur", 0 ],
-            "obj-19": [ "#1-Overtone", "Overtone", 0 ],
-            "obj-24": [ "#1-Overdrive", "Overdrive", 0 ],
-            "obj-26": [ "#1-OscReset", "Reset", 0 ],
-            "obj-2::obj-1::obj-11": [ "#1-OscSemi", "Semi", 0 ],
-            "obj-2::obj-1::obj-14": [ "#1-OscFreq", "Freq", 0 ],
-            "obj-2::obj-5": [ "#1-OscNote", "Note", 0 ],
-            "obj-4::obj-3": [ "#1-AmpDecay", "Decay", 0 ],
-            "obj-4::obj-7": [ "#1-AmpAttack", "Attack", 0 ],
-            "obj-5": [ "#1-Gain", "Gain", 0 ],
-            "obj-7": [ "#1-Osc", "Osc", 0 ],
-            "obj-9": [ "#1-OscShape", "Shape", 0 ],
+            "obj-12": [ "#2-OscFilt", "OscFilt", 0 ],
+            "obj-17::obj-17": [ "#2-PitchEnvAmt", "PEnvAmt", 0 ],
+            "obj-17::obj-18": [ "#2-PitchEnvDur", "PEnvDur", 0 ],
+            "obj-17::obj-26": [ "#2-PitchEnvCurve", "PEnvCur", 0 ],
+            "obj-19": [ "#2-Overtone", "Overtone", 0 ],
+            "obj-24": [ "#2-Overdrive", "Overdrive", 0 ],
+            "obj-26": [ "#2-OscReset", "Reset", 0 ],
+            "obj-2::obj-1::obj-11": [ "#2-OscSemi", "Semi", 0 ],
+            "obj-2::obj-1::obj-14": [ "#2-OscFreq", "Freq", 0 ],
+            "obj-2::obj-5": [ "#2-OscNote", "Note", 0 ],
+            "obj-4::obj-3": [ "#2-AmpDecay", "Decay", 0 ],
+            "obj-4::obj-7": [ "#2-AmpAttack", "Attack", 0 ],
+            "obj-5": [ "#2-Gain", "Gain", 0 ],
+            "obj-7": [ "#2-Osc", "Osc", 0 ],
+            "obj-9": [ "#2-OscShape", "Shape", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

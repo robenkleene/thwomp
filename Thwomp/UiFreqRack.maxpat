@@ -81,7 +81,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 352.0, 8.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-Note": [ 1.0 ]
+                        "#2-OscNote": [ 1.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u245010073"
@@ -116,7 +116,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "#1-OscNote",
+                            "parameter_longname": "#2-OscNote",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Note",
@@ -126,7 +126,7 @@
                     },
                     "text": "Note",
                     "texton": "Note",
-                    "varname": "#1-Note"
+                    "varname": "#2-OscNote"
                 }
             },
             {
@@ -166,7 +166,7 @@
             },
             {
                 "box": {
-                    "args": [ "#1" ],
+                    "args": [ "#1", "#2" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -290,7 +290,23 @@
         "parameters": {
             "obj-1::obj-11": [ "#1-OscSemi", "Semi", 0 ],
             "obj-1::obj-14": [ "#1-OscFreq", "Freq", 0 ],
-            "obj-5": [ "#1-OscNote", "Note", 0 ],
+            "obj-5": [ "#2-OscNote", "Note", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "parameter_overrides": {
+                "obj-1::obj-11": {
+                    "parameter_longname": "#1-OscSemi"
+                },
+                "obj-1::obj-14": {
+                    "parameter_longname": "#1-OscFreq"
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
