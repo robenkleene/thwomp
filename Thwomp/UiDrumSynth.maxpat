@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 523.0, 189.0, 1212.0, 980.0 ],
+        "rect": [ 568.0, 122.0, 1212.0, 980.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -35,7 +35,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 976.0, 272.0, 69.0, 22.0 ],
-                    "text": "prepend #1"
+                    "text": "prepend #2"
                 }
             },
             {
@@ -208,7 +208,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 432.0, 696.0, 85.0, 22.0 ],
-                    "text": "prepend filt #1"
+                    "text": "prepend filt #2"
                 }
             },
             {
@@ -245,7 +245,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 592.0, 696.0, 96.0, 22.0 ],
-                    "text": "prepend note #1"
+                    "text": "prepend note #2"
                 }
             },
             {
@@ -990,14 +990,6 @@
             "obj-5": [ "#2-Gain", "Gain", 0 ],
             "obj-7": [ "#2-Osc", "Osc", 0 ],
             "obj-9": [ "#2-OscShape", "Shape", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
