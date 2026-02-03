@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 692.0, 287.0, 1041.0, 884.0 ],
+        "rect": [ 295.0, 356.0, 1041.0, 884.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -17,46 +17,25 @@
         "boxes": [
             {
                 "box": {
-                    "id": "obj-18",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 656.0, 256.0, 118.0, 22.0 ],
-                    "text": "pattrforward FiltType"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-17",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 752.0, 320.0, 101.0, 22.0 ],
-                    "text": "pattrforward FiltQ"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-16",
                     "maxclass": "newobj",
                     "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 704.0, 288.0, 117.0, 22.0 ],
-                    "text": "pattrforward FiltFreq"
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 656.0, 256.0, 67.0, 22.0 ],
+                    "save": [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+                    "text": "thispatcher"
                 }
             },
             {
                 "box": {
                     "id": "obj-14",
                     "maxclass": "newobj",
-                    "numinlets": 4,
-                    "numoutlets": 4,
-                    "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 656.0, 224.0, 154.0, 22.0 ],
-                    "text": "route FiltType FiltFreq FiltQ"
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 656.0, 224.0, 114.0, 22.0 ],
+                    "text": "prepend script send"
                 }
             },
             {
@@ -397,18 +376,6 @@
             {
                 "patchline": {
                     "destination": [ "obj-16", 0 ],
-                    "source": [ "obj-14", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-17", 0 ],
-                    "source": [ "obj-14", 2 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-18", 0 ],
                     "source": [ "obj-14", 0 ]
                 }
             },
@@ -533,14 +500,6 @@
             "obj-1": [ "FiltFreq", "FFreq", 0 ],
             "obj-11": [ "FiltQ", "Q", 0 ],
             "obj-6": [ "FiltType", "Type", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0

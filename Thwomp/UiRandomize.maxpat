@@ -17,6 +17,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-219",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 496.0, 736.0, 89.0, 22.0 ],
+                    "text": "r #1-randomize"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-208",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -462,7 +473,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 496.0, 728.0, 104.0, 22.0 ],
+                    "patching_rect": [ 496.0, 768.0, 104.0, 22.0 ],
                     "text": "loadmess filt FiltQ"
                 }
             },
@@ -1342,7 +1353,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 496.0, 792.0, 77.0, 22.0 ],
+                    "patching_rect": [ 496.0, 832.0, 77.0, 22.0 ],
                     "text": "s #1-output"
                 }
             },
@@ -1586,7 +1597,7 @@
                     "numinlets": 5,
                     "numoutlets": 2,
                     "outlettype": [ "", "int" ],
-                    "patching_rect": [ 496.0, 760.0, 89.0, 22.0 ],
+                    "patching_rect": [ 496.0, 800.0, 89.0, 22.0 ],
                     "text": "RandomParam"
                 }
             },
@@ -4453,6 +4464,12 @@
                 "patchline": {
                     "destination": [ "obj-217", 1 ],
                     "source": [ "obj-218", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-79", 0 ],
+                    "source": [ "obj-219", 0 ]
                 }
             },
             {
