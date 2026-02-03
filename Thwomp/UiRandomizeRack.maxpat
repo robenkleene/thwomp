@@ -213,8 +213,11 @@
             "obj-1::obj-18::obj-2": [ "RandOscAttack-Max", "AttMax", 0 ],
             "obj-1::obj-2": [ "RandOsc2", "Osc2", 0 ],
             "obj-1::obj-204": [ "RandOsc", "Note", 0 ],
+            "obj-1::obj-206::obj-1": [ "RandOscSemi-Min", "SemiMin", 0 ],
+            "obj-1::obj-206::obj-2": [ "RandOscSemi-Max", "SemiMax", 0 ],
             "obj-1::obj-20::obj-1": [ "RandOscDecay-Min", "DecMin", 0 ],
             "obj-1::obj-20::obj-2": [ "RandOscDecay-Max", "DecMax", 0 ],
+            "obj-1::obj-218": [ "RandOscSemi", "Freq", 0 ],
             "obj-1::obj-22": [ "RandOvertone", "Overtone", 0 ],
             "obj-1::obj-23": [ "RandOscAttack", "Attack", 0 ],
             "obj-1::obj-24::obj-1": [ "RandOscGain-Min", "GainMin", 0 ],
@@ -257,6 +260,14 @@
             "obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
             "obj-2": [ "RandTab", "Tab", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
@@ -288,6 +299,12 @@
                 "obj-1::obj-18::obj-2": {
                     "parameter_range": [ 0.0, 15.0 ]
                 },
+                "obj-1::obj-206::obj-1": {
+                    "parameter_range": [ -48, 48 ]
+                },
+                "obj-1::obj-206::obj-2": {
+                    "parameter_range": [ -48, 48 ]
+                },
                 "obj-1::obj-20::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
                 },
@@ -317,6 +334,9 @@
                 },
                 "obj-1::obj-36::obj-2": {
                     "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-1::obj-5": {
+                    "parameter_longname": "RandFreq"
                 },
                 "obj-1::obj-60::obj-1": {
                     "parameter_range": [ -70.0, 6.0 ]
