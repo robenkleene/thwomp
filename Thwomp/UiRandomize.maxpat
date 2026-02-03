@@ -5059,6 +5059,14 @@
             "obj-76": [ "RandAuto", "Auto", 0 ],
             "obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
@@ -5091,10 +5099,12 @@
                     "parameter_range": [ 0.0, 15.0 ]
                 },
                 "obj-206::obj-1": {
-                    "parameter_longname": "RandOverdrive-Min[1]"
+                    "parameter_longname": "RandOverdrive-Min[1]",
+                    "parameter_range": [ -48, 48 ]
                 },
                 "obj-206::obj-2": {
-                    "parameter_longname": "RandOverdrive-Max[1]"
+                    "parameter_longname": "RandOverdrive-Max[1]",
+                    "parameter_range": [ -48, 48 ]
                 },
                 "obj-20::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
