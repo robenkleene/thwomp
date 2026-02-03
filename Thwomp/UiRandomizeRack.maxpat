@@ -241,7 +241,7 @@
             "obj-1::obj-44": [ "RandFiltQ", "FiltQ", 0 ],
             "obj-1::obj-45": [ "RandRing", "Ring", 0 ],
             "obj-1::obj-46": [ "RandRingFilt", "RFilt", 0 ],
-            "obj-1::obj-5": [ "RandFreq", "Freq", 0 ],
+            "obj-1::obj-5": [ "RandOscFreq", "Freq", 0 ],
             "obj-1::obj-57": [ "RandRingGain", "RGain", 0 ],
             "obj-1::obj-58": [ "RandRingDecay", "RDecay", 0 ],
             "obj-1::obj-59": [ "RandRingAttack", "RAttack", 0 ],
@@ -260,14 +260,6 @@
             "obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
             "obj-2": [ "RandTab", "Tab", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
@@ -334,9 +326,6 @@
                 },
                 "obj-1::obj-36::obj-2": {
                     "parameter_range": [ 0.0, 15000.0 ]
-                },
-                "obj-1::obj-5": {
-                    "parameter_longname": "RandFreq"
                 },
                 "obj-1::obj-60::obj-1": {
                     "parameter_range": [ -70.0, 6.0 ]
