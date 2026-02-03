@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 267.0, 443.0, 787.0, 556.0 ],
+        "rect": [ 512.0, 485.0, 787.0, 556.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -35,7 +35,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 40.0, 128.0, 69.0, 22.0 ],
-                    "text": "prepend #1"
+                    "text": "prepend #2"
                 }
             },
             {
