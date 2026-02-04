@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 698.0, 165.0, 283.0, 644.0 ],
+        "rect": [ 698.0, 165.0, 638.0, 644.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
@@ -64,7 +64,7 @@
                     "numinlets": 3,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 135.0, 345.0, 80.0, 20.0 ],
+                    "patching_rect": [ 160.0, 344.0, 80.0, 20.0 ],
                     "text": "selector~ 2 1"
                 }
             },
@@ -89,7 +89,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 135.0, 405.0, 25.0, 25.0 ]
+                    "patching_rect": [ 160.0, 404.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -112,7 +112,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 248.0, 8.0, 25.0, 25.0 ]
+                    "patching_rect": [ 192.0, 8.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -124,7 +124,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 216.0, 8.0, 25.0, 25.0 ]
+                    "patching_rect": [ 160.0, 8.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -136,7 +136,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 72.0, 8.0, 25.0, 25.0 ]
+                    "patching_rect": [ 56.0, 8.0, 25.0, 25.0 ]
                 }
             },
             {
