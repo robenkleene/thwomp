@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 512.0, 485.0, 787.0, 556.0 ],
+        "rect": [ 612.0, 563.0, 787.0, 486.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -18,12 +18,23 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-16",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 8.0, 80.0, 52.0, 22.0 ],
+                    "text": "route int"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-13",
                     "maxclass": "newobj",
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 40.0, 96.0, 95.0, 22.0 ],
+                    "patching_rect": [ 40.0, 216.0, 95.0, 22.0 ],
                     "text": "route randomize"
                 }
             },
@@ -34,7 +45,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 40.0, 128.0, 69.0, 22.0 ],
+                    "patching_rect": [ 40.0, 248.0, 69.0, 22.0 ],
                     "text": "prepend #2"
                 }
             },
@@ -45,7 +56,7 @@
                     "numinlets": 3,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 40.0, 160.0, 102.0, 22.0 ],
+                    "patching_rect": [ 40.0, 280.0, 102.0, 22.0 ],
                     "text": "sprintf %s-%s %s"
                 }
             },
@@ -56,7 +67,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 40.0, 192.0, 114.0, 22.0 ],
+                    "patching_rect": [ 40.0, 312.0, 114.0, 22.0 ],
                     "text": "prepend script send"
                 }
             },
@@ -160,7 +171,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 8.0, 224.0, 67.0, 22.0 ],
+                    "patching_rect": [ 8.0, 344.0, 67.0, 22.0 ],
                     "save": [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
                     "text": "thispatcher"
                 }
@@ -172,7 +183,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 8.0, 56.0, 94.0, 22.0 ],
+                    "patching_rect": [ 8.0, 176.0, 94.0, 22.0 ],
                     "text": "routepass offset"
                 }
             },
@@ -278,6 +289,18 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-26", 0 ],
+                    "source": [ "obj-16", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-7", 0 ],
+                    "source": [ "obj-16", 1 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-10", 0 ],
                     "source": [ "obj-2", 1 ]
                 }
@@ -302,7 +325,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-7", 0 ],
+                    "destination": [ "obj-16", 0 ],
                     "source": [ "obj-3", 0 ]
                 }
             },
