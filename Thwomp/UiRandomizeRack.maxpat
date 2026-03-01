@@ -63,7 +63,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-7",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -85,7 +84,6 @@
                     "bgfillcolor_proportion": 0.39,
                     "bgfillcolor_type": "gradient",
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "gradient": 1,
                     "id": "obj-5",
                     "maxclass": "message",
@@ -260,6 +258,14 @@
             "obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
             "obj-2": [ "RandTab", "Tab", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]

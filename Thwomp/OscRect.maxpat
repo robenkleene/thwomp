@@ -10,8 +10,6 @@
         },
         "classnamespace": "box",
         "rect": [ 776.0, 386.0, 310.0, 501.0 ],
-        "default_fontsize": 10.0,
-        "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
@@ -24,7 +22,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 56.0, 72.0, 37.0, 20.0 ],
+                    "patching_rect": [ 56.0, 72.0, 39.0, 22.0 ],
                     "text": "click~"
                 }
             },
@@ -35,7 +33,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 40.0, 112.0, 35.0, 20.0 ],
+                    "patching_rect": [ 40.0, 112.0, 39.0, 22.0 ],
                     "text": "gate~"
                 }
             },
@@ -46,7 +44,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 80.0, 8.0, 26.0, 20.0 ],
+                    "patching_rect": [ 80.0, 8.0, 28.0, 22.0 ],
                     "saved_object_attributes": {
                         "attr_comment": [ "(int)", "toggle", "reset" ],
                         "c": [ "(int)", "toggle", "reset" ]
@@ -56,14 +54,12 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-9",
                     "maxclass": "newobj",
                     "numinlets": 3,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 8.0, 160.0, 51.0, 20.0 ],
+                    "patching_rect": [ 8.0, 160.0, 51.0, 22.0 ],
                     "text": "rect~ 0."
                 }
             },
@@ -74,7 +70,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 48.0, 8.0, 26.0, 20.0 ],
+                    "patching_rect": [ 48.0, 8.0, 28.0, 22.0 ],
                     "saved_object_attributes": {
                         "attr_comment": [ "(bang)", "reset" ],
                         "c": [ "(bang)", "reset" ]
@@ -88,7 +84,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 8.0, 192.0, 38.0, 20.0 ],
+                    "patching_rect": [ 8.0, 192.0, 42.0, 22.0 ],
                     "saved_object_attributes": {
                         "attr_comment": [ "(signal)", "mono" ],
                         "c": [ "(signal)", "mono" ]
@@ -103,7 +99,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 8.0, 8.0, 32.0, 20.0 ],
+                    "patching_rect": [ 8.0, 8.0, 35.0, 22.0 ],
                     "saved_object_attributes": {
                         "attr_comment": [ "(signal)", "freq" ],
                         "c": [ "(signal)", "freq" ]

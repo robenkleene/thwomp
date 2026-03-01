@@ -11,8 +11,6 @@
         "classnamespace": "box",
         "rect": [ 698.0, 165.0, 638.0, 644.0 ],
         "openinpresentation": 1,
-        "default_fontsize": 10.0,
-        "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
@@ -24,7 +22,7 @@
                     "numinlets": 3,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 24.0, 80.0, 103.0, 20.0 ],
+                    "patching_rect": [ 24.0, 80.0, 112.0, 22.0 ],
                     "text": "routepass signal int"
                 }
             },
@@ -44,40 +42,34 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-5",
                     "maxclass": "newobj",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 72.0, 206.0, 32.5, 20.0 ],
+                    "patching_rect": [ 72.0, 206.0, 32.5, 22.0 ],
                     "text": "+ 1"
                 }
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-6",
                     "maxclass": "newobj",
                     "numinlets": 3,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 160.0, 344.0, 80.0, 20.0 ],
+                    "patching_rect": [ 160.0, 344.0, 80.0, 22.0 ],
                     "text": "selector~ 2 1"
                 }
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-7",
                     "maxclass": "newobj",
                     "numinlets": 3,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 30.0, 345.0, 80.0, 20.0 ],
+                    "patching_rect": [ 30.0, 345.0, 80.0, 22.0 ],
                     "text": "selector~ 2 1"
                 }
             },

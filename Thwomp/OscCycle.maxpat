@@ -10,8 +10,6 @@
         },
         "classnamespace": "box",
         "rect": [ 1037.0, 213.0, 543.0, 980.0 ],
-        "default_fontsize": 10.0,
-        "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
@@ -24,7 +22,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 288.0, 408.0, 29.5, 20.0 ],
+                    "patching_rect": [ 288.0, 408.0, 29.5, 22.0 ],
                     "text": "+~"
                 }
             },
@@ -35,7 +33,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 400.0, 312.0, 151.0, 141.0 ],
+                    "patching_rect": [ 400.0, 312.0, 157.0, 167.0 ],
                     "text": "For the reset case, we set the `cycle~` to `0` (so the frequency matches `phasor~` input to inlet 2.\n\nThe `curve~` \"bumps\" the phase forward by creating a short spike and multiplying it by `100` and adding it to the frequency, this pushes the phase forward to a new cycle reseting the oscillator."
                 }
             },
@@ -46,7 +44,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "int", "int", "int" ],
-                    "patching_rect": [ 256.0, 64.0, 40.0, 20.0 ],
+                    "patching_rect": [ 256.0, 64.0, 40.0, 22.0 ],
                     "text": "t i i i"
                 }
             },
@@ -57,7 +55,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 176.0, 480.0, 29.5, 20.0 ],
+                    "patching_rect": [ 176.0, 480.0, 32.0, 22.0 ],
                     "text": "gate"
                 }
             },
@@ -68,7 +66,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 88.0, 416.0, 29.5, 20.0 ],
+                    "patching_rect": [ 88.0, 416.0, 29.5, 22.0 ],
                     "text": "t i i"
                 }
             },
@@ -79,7 +77,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 56.0, 480.0, 29.5, 20.0 ],
+                    "patching_rect": [ 56.0, 480.0, 32.0, 22.0 ],
                     "text": "gate"
                 }
             },
@@ -90,7 +88,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 88.0, 384.0, 29.5, 20.0 ],
+                    "patching_rect": [ 88.0, 384.0, 33.0, 22.0 ],
                     "text": "== 0"
                 }
             },
@@ -101,7 +99,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 8.0, 480.0, 35.0, 20.0 ],
+                    "patching_rect": [ 8.0, 480.0, 39.0, 22.0 ],
                     "text": "gate~"
                 }
             },
@@ -112,7 +110,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 272.0, 480.0, 35.0, 20.0 ],
+                    "patching_rect": [ 272.0, 480.0, 39.0, 22.0 ],
                     "text": "gate~"
                 }
             },
@@ -123,7 +121,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "bang", "float", "float" ],
-                    "patching_rect": [ 56.0, 48.0, 43.0, 20.0 ],
+                    "patching_rect": [ 56.0, 48.0, 49.0, 22.0 ],
                     "text": "t b 0. 0."
                 }
             },
@@ -134,7 +132,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 288.0, 440.0, 48.0, 20.0 ],
+                    "patching_rect": [ 288.0, 440.0, 52.0, 22.0 ],
                     "text": "phasor~"
                 }
             },
@@ -145,7 +143,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 288.0, 376.0, 38.0, 20.0 ],
+                    "patching_rect": [ 288.0, 376.0, 44.0, 22.0 ],
                     "text": "*~ 100"
                 }
             },
@@ -156,7 +154,7 @@
                     "numinlets": 3,
                     "numoutlets": 2,
                     "outlettype": [ "signal", "bang" ],
-                    "patching_rect": [ 288.0, 344.0, 41.0, 20.0 ],
+                    "patching_rect": [ 288.0, 344.0, 45.0, 22.0 ],
                     "text": "curve~"
                 }
             },
@@ -167,7 +165,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 288.0, 312.0, 104.0, 20.0 ],
+                    "patching_rect": [ 288.0, 312.0, 123.0, 22.0 ],
                     "text": "0., 1. 1. -0.8 0. 5. -0.6"
                 }
             },
@@ -178,7 +176,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 256.0, 8.0, 26.0, 20.0 ],
+                    "patching_rect": [ 256.0, 8.0, 28.0, 22.0 ],
                     "saved_object_attributes": {
                         "attr_comment": [ "(int)", "toggle", "reset" ],
                         "c": [ "(int)", "toggle", "reset" ]
@@ -193,7 +191,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 112.0, 48.0, 122.0, 174.0 ],
+                    "patching_rect": [ 112.0, 48.0, 138.0, 208.0 ],
                     "text": "For non-reset case, we send a `0` to set the phase, and just use the raw ferquency as for the oscillator.\n\nNote that sending the `0` to set the phase only overrides a single sample, e.g., \n`sin(0.723) > sin(0.728) > sin(0.733)` `sin(0.723) > 0 > sin(0.733)`. I.e., it doesn't *also* reset the phase of the oscillator."
                 }
             },
@@ -203,7 +201,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 8.0, 576.0, 38.0, 20.0 ],
+                    "patching_rect": [ 8.0, 576.0, 42.0, 22.0 ],
                     "saved_object_attributes": {
                         "attr_comment": [ "(signal)", "mono" ],
                         "c": [ "(signal)", "mono" ]
@@ -218,7 +216,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 56.0, 8.0, 26.0, 20.0 ],
+                    "patching_rect": [ 56.0, 8.0, 28.0, 22.0 ],
                     "saved_object_attributes": {
                         "attr_comment": [ "(bang)", "reset", "phase" ],
                         "c": [ "(bang)", "reset", "phase" ]
@@ -233,7 +231,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 16.0, 8.0, 32.0, 20.0 ],
+                    "patching_rect": [ 16.0, 8.0, 35.0, 22.0 ],
                     "saved_object_attributes": {
                         "attr_comment": [ "(signal)", "freq" ],
                         "c": [ "(signal)", "freq" ]
@@ -243,14 +241,12 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-7",
                     "maxclass": "newobj",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 8.0, 528.0, 45.0, 20.0 ],
+                    "patching_rect": [ 8.0, 528.0, 45.0, 22.0 ],
                     "text": "cycle~"
                 }
             }

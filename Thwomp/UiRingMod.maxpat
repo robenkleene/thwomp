@@ -231,7 +231,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-8",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -550,6 +549,14 @@
             "obj-31": [ "RingGain", "RGain", 0 ],
             "obj-34": [ "RingAttack", "RAttack", 0 ],
             "obj-36": [ "RingDecay", "RDecay", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

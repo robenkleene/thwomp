@@ -12,8 +12,6 @@
         "openrect": [ 522.0, 298.0, 496.0, 174.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
-        "default_fontsize": 10.0,
-        "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
@@ -26,14 +24,12 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 240.0, 96.0, 92.0, 20.0 ],
+                    "patching_rect": [ 240.0, 96.0, 102.0, 22.0 ],
                     "text": "loadmess recall 1"
                 }
             },
             {
                 "box": {
-                    "fontname": "Ableton Sans Medium Regular",
-                    "fontsize": 11.0,
                     "hidden": 1,
                     "id": "obj-9",
                     "maxclass": "comment",
@@ -52,7 +48,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "bang", "" ],
-                    "patching_rect": [ 176.0, 96.0, 46.0, 20.0 ],
+                    "patching_rect": [ 176.0, 96.0, 51.0, 22.0 ],
                     "text": "select S"
                 }
             },
@@ -63,7 +59,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 16.0, 96.0, 72.0, 20.0 ],
+                    "patching_rect": [ 16.0, 96.0, 79.0, 22.0 ],
                     "text": "prepend note"
                 }
             },
@@ -116,27 +112,23 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-11",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 120.0, 24.0, 42.0, 20.0 ],
+                    "patching_rect": [ 120.0, 24.0, 42.0, 22.0 ],
                     "text": "active"
                 }
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-8",
                     "maxclass": "newobj",
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "bang", "" ],
-                    "patching_rect": [ 120.0, 96.0, 51.0, 20.0 ],
+                    "patching_rect": [ 120.0, 96.0, 51.0, 22.0 ],
                     "text": "select s"
                 }
             },
@@ -351,6 +343,14 @@
             "obj-1::obj-9::obj-1::obj-11": [ "FiltQ", "Q", 0 ],
             "obj-1::obj-9::obj-1::obj-6": [ "FiltType", "Type", 0 ],
             "obj-1::obj-9::obj-7": [ "Filt", "Filt", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-1::obj-1::obj-8::obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]

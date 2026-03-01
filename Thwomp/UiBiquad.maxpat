@@ -287,7 +287,6 @@
             },
             {
                 "box": {
-                    "fontsize": 12.0,
                     "id": "obj-30",
                     "maxclass": "newobj",
                     "numinlets": 6,
@@ -299,7 +298,6 @@
             },
             {
                 "box": {
-                    "fontsize": 12.0,
                     "id": "obj-5",
                     "maxclass": "newobj",
                     "numinlets": 6,
@@ -473,6 +471,14 @@
             "obj-1": [ "FiltFreq", "FFreq", 0 ],
             "obj-11": [ "FiltQ", "Q", 0 ],
             "obj-6": [ "FiltType", "Type", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
