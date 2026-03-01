@@ -10,8 +10,6 @@
         },
         "classnamespace": "box",
         "rect": [ 1037.0, 213.0, 543.0, 980.0 ],
-        "default_fontsize": 10.0,
-        "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
