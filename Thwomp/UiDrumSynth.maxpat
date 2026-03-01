@@ -425,7 +425,7 @@
             },
             {
                 "box": {
-                    "comment": "(int) 0 note off, 1 note on",
+                    "comment": "(message) control messages",
                     "id": "obj-15",
                     "index": 0,
                     "maxclass": "outlet",
@@ -990,6 +990,14 @@
             "obj-5": [ "#2-Gain", "Gain", 0 ],
             "obj-7": [ "#2-Osc", "Osc", 0 ],
             "obj-9": [ "#2-OscShape", "Shape", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
