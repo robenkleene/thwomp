@@ -82,8 +82,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-14",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -95,8 +93,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-15",
                     "maxclass": "newobj",
                     "numinlets": 3,
@@ -108,8 +104,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-9",
                     "maxclass": "newobj",
                     "numinlets": 2,

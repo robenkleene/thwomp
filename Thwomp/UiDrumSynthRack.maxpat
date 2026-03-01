@@ -791,7 +791,6 @@
                     "bgfillcolor_proportion": 0.39,
                     "bgfillcolor_type": "gradient",
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "gradient": 1,
                     "id": "obj-32",
                     "maxclass": "message",
@@ -814,7 +813,6 @@
                     "bgfillcolor_proportion": 0.39,
                     "bgfillcolor_type": "gradient",
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "gradient": 1,
                     "id": "obj-28",
                     "maxclass": "message",
@@ -828,7 +826,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-7",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -850,7 +847,6 @@
                     "bgfillcolor_proportion": 0.39,
                     "bgfillcolor_type": "gradient",
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "gradient": 1,
                     "id": "obj-5",
                     "maxclass": "message",
@@ -873,7 +869,6 @@
                     "bgfillcolor_proportion": 0.39,
                     "bgfillcolor_type": "gradient",
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "gradient": 1,
                     "id": "obj-18",
                     "maxclass": "message",
@@ -887,7 +882,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-16",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -909,7 +903,6 @@
                     "bgfillcolor_proportion": 0.39,
                     "bgfillcolor_type": "gradient",
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "gradient": 1,
                     "id": "obj-14",
                     "maxclass": "message",
@@ -923,7 +916,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-12",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -936,7 +928,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-23",
                     "maxclass": "newobj",
                     "numinlets": 1,

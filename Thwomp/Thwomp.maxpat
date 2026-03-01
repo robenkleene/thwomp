@@ -30,8 +30,6 @@
             },
             {
                 "box": {
-                    "fontname": "Ableton Sans Medium Regular",
-                    "fontsize": 11.0,
                     "hidden": 1,
                     "id": "obj-9",
                     "maxclass": "comment",
@@ -114,8 +112,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-11",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -127,8 +123,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-8",
                     "maxclass": "newobj",
                     "numinlets": 2,

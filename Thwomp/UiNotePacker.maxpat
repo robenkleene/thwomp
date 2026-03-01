@@ -39,8 +39,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-1",
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -63,8 +61,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-6",
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -75,8 +71,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-2",
                     "maxclass": "number",
                     "maximum": 127,
@@ -103,8 +97,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-29",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -116,8 +108,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-27",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -129,8 +119,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "format": 5,
                     "id": "obj-12",
                     "maxclass": "number",
@@ -145,8 +133,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-10",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -171,8 +157,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-93",
                     "maxclass": "newobj",
                     "numinlets": 3,

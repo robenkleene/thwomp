@@ -30,8 +30,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-8",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -43,8 +41,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-7",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -68,8 +64,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-3",
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -93,8 +87,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-11",
                     "maxclass": "newobj",
                     "numinlets": 3,
@@ -106,8 +98,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-12",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -119,8 +109,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-13",
                     "maxclass": "newobj",
                     "numinlets": 0,

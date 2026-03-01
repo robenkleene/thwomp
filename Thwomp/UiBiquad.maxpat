@@ -287,7 +287,6 @@
             },
             {
                 "box": {
-                    "fontsize": 12.0,
                     "id": "obj-30",
                     "maxclass": "newobj",
                     "numinlets": 6,
@@ -299,7 +298,6 @@
             },
             {
                 "box": {
-                    "fontsize": 12.0,
                     "id": "obj-5",
                     "maxclass": "newobj",
                     "numinlets": 6,

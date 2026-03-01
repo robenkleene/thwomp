@@ -241,8 +241,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-7",
                     "maxclass": "newobj",
                     "numinlets": 2,

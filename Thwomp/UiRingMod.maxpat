@@ -231,7 +231,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-8",
                     "maxclass": "newobj",
                     "numinlets": 1,

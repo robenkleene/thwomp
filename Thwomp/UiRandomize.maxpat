@@ -1767,8 +1767,6 @@
             },
             {
                 "box": {
-                    "fontname": "Ableton Sans Medium",
-                    "fontsize": 9.5,
                     "id": "obj-166",
                     "linecount": 2,
                     "maxclass": "comment",
@@ -2068,8 +2066,6 @@
             },
             {
                 "box": {
-                    "fontname": "Ableton Sans Medium",
-                    "fontsize": 9.5,
                     "id": "obj-74",
                     "linecount": 2,
                     "maxclass": "comment",
@@ -2108,7 +2104,6 @@
             },
             {
                 "box": {
-                    "fontsize": 12.0,
                     "id": "obj-47",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -2121,7 +2116,6 @@
             },
             {
                 "box": {
-                    "fontsize": 12.0,
                     "id": "obj-48",
                     "maxclass": "newobj",
                     "numinlets": 3,

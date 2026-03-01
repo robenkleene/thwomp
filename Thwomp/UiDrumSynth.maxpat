@@ -613,7 +613,6 @@
             },
             {
                 "box": {
-                    "fontsize": 12.0,
                     "id": "obj-28",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -637,7 +636,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-8",
                     "maxclass": "newobj",
                     "numinlets": 1,

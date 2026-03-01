@@ -17,7 +17,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-18",
                     "maxclass": "newobj",
                     "numinlets": 3,
@@ -30,7 +29,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-22",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -46,7 +44,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-21",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -63,7 +60,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-17",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -80,7 +76,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-14",
                     "maxclass": "newobj",
                     "numinlets": 3,
@@ -104,7 +99,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-28",
                                     "maxclass": "newobj",
                                     "numinlets": 2,
@@ -117,7 +111,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-48",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -130,7 +123,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-41",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -142,7 +134,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-39",
                                     "maxclass": "newobj",
                                     "numinlets": 2,
@@ -155,7 +146,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-37",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -167,7 +157,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-35",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -179,7 +168,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-65",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -191,7 +179,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-32",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -203,7 +190,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-5",
                                     "maxclass": "newobj",
                                     "numinlets": 2,
@@ -216,7 +202,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-24",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -229,7 +214,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-7",
                                     "maxclass": "newobj",
                                     "numinlets": 3,
@@ -242,7 +226,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-25",
                                     "maxclass": "message",
                                     "numinlets": 2,
@@ -255,7 +238,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-23",
                                     "maxclass": "newobj",
                                     "numinlets": 2,
@@ -268,7 +250,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-22",
                                     "maxclass": "newobj",
                                     "numinlets": 6,
@@ -281,7 +262,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-21",
                                     "maxclass": "newobj",
                                     "numinlets": 5,
@@ -294,7 +274,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-20",
                                     "maxclass": "newobj",
                                     "numinlets": 2,
@@ -307,7 +286,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-45",
                                     "maxclass": "newobj",
                                     "numinlets": 2,
@@ -320,7 +298,6 @@
                             {
                                 "box": {
                                     "fontface": 1,
-                                    "fontsize": 12.0,
                                     "id": "obj-27",
                                     "maxclass": "newobj",
                                     "numinlets": 2,
@@ -333,7 +310,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-19",
                                     "maxclass": "newobj",
                                     "numinlets": 2,
@@ -346,7 +322,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-18",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -359,7 +334,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-17",
                                     "maxclass": "newobj",
                                     "numinlets": 2,
@@ -372,7 +346,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-16",
                                     "maxclass": "newobj",
                                     "numinlets": 2,
@@ -385,7 +358,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-26",
                                     "maxclass": "newobj",
                                     "numinlets": 2,
@@ -398,7 +370,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-54",
                                     "maxclass": "newobj",
                                     "numinlets": 2,
@@ -411,7 +382,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-13",
                                     "maxclass": "newobj",
                                     "numinlets": 3,
@@ -424,7 +394,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-15",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -437,7 +406,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-12",
                                     "maxclass": "newobj",
                                     "numinlets": 2,
@@ -450,7 +418,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-11",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -463,7 +430,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-10",
                                     "maxclass": "newobj",
                                     "numinlets": 2,
@@ -476,7 +442,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-9",
                                     "maxclass": "newobj",
                                     "numinlets": 2,
@@ -489,7 +454,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-8",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -502,7 +466,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-6",
                                     "maxclass": "newobj",
                                     "numinlets": 3,
@@ -515,7 +478,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-14",
                                     "maxclass": "message",
                                     "numinlets": 2,
@@ -823,7 +785,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-13",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -1005,7 +966,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-20",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -1022,7 +982,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-16",
                     "maxclass": "newobj",
                     "numinlets": 5,
@@ -1035,7 +994,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-15",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -1048,7 +1006,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-3",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -1061,7 +1018,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-2",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -1078,7 +1034,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-1",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -1095,7 +1050,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-12",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -1112,7 +1066,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-11",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -1129,7 +1082,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-10",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -1146,7 +1098,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-9",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -1163,7 +1114,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-6",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -1180,7 +1130,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-4",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -1196,7 +1145,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-8",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -1209,7 +1157,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-19",
                     "maxclass": "newobj",
                     "numinlets": 3,
@@ -1233,7 +1180,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-3",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -1246,7 +1192,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-2",
                                     "maxclass": "newobj",
                                     "numinlets": 2,
@@ -1271,7 +1216,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-10",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -1284,7 +1228,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-9",
                                     "items": [ "OscCycle", ",", "OscTri", ",", "OscRect", ",", "OscSaw", ",", "OscNoise", ",", "OscPink" ],
                                     "maxclass": "umenu",
@@ -1298,7 +1241,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-13",
                                     "maxclass": "newobj",
                                     "numinlets": 3,
@@ -1311,7 +1253,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-14",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -1324,7 +1265,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-5",
                                     "maxclass": "newobj",
                                     "numinlets": 3,
@@ -1452,7 +1392,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-7",
                     "maxclass": "newobj",
                     "numinlets": 3,
@@ -1476,7 +1415,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-4",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -1489,7 +1427,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-27",
                                     "maxclass": "newobj",
                                     "numinlets": 3,
@@ -1502,7 +1439,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-17",
                                     "maxclass": "newobj",
                                     "numinlets": 2,
@@ -1515,7 +1451,6 @@
                             {
                                 "box": {
                                     "fontface": 0,
-                                    "fontsize": 12.0,
                                     "id": "obj-19",
                                     "maxclass": "newobj",
                                     "numinlets": 2,
@@ -1631,7 +1566,6 @@
             {
                 "box": {
                     "fontface": 0,
-                    "fontsize": 12.0,
                     "id": "obj-5",
                     "maxclass": "newobj",
                     "numinlets": 1,
