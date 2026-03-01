@@ -65,7 +65,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 192.0, 104.0, 158.0, 87.0 ],
+                    "patching_rect": [ 192.0, 104.0, 161.0, 87.0 ],
                     "text": "Go to `1` over the attack time, and `0` over the decay time. `-0.5` is the curve for the decay, this means the envelope spends less time \"loud\" than a linear ramp."
                 }
             },
@@ -87,7 +87,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 8.0, 104.0, 44.0, 20.0 ],
+                    "patching_rect": [ 8.0, 104.0, 47.0, 22.0 ],
                     "text": "t signal"
                 }
             },
@@ -98,7 +98,7 @@
                     "numinlets": 3,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 8.0, 64.0, 92.0, 20.0 ],
+                    "patching_rect": [ 8.0, 64.0, 101.0, 22.0 ],
                     "text": "route signal bang"
                 }
             },
@@ -109,7 +109,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 8.0, 256.0, 29.5, 20.0 ],
+                    "patching_rect": [ 8.0, 256.0, 34.0, 22.0 ],
                     "text": "*~ 0."
                 }
             },

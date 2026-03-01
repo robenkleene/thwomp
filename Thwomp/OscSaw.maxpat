@@ -22,7 +22,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 56.0, 80.0, 37.0, 20.0 ],
+                    "patching_rect": [ 56.0, 80.0, 39.0, 22.0 ],
                     "text": "click~"
                 }
             },
@@ -33,7 +33,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 40.0, 120.0, 35.0, 20.0 ],
+                    "patching_rect": [ 40.0, 120.0, 39.0, 22.0 ],
                     "text": "gate~"
                 }
             },
@@ -44,7 +44,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 80.0, 8.0, 26.0, 20.0 ],
+                    "patching_rect": [ 80.0, 8.0, 28.0, 22.0 ],
                     "saved_object_attributes": {
                         "attr_comment": [ "(int)", "toggle", "reset" ],
                         "c": [ "(int)", "toggle", "reset" ]
@@ -59,7 +59,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 8.0, 168.0, 52.0, 20.0 ],
+                    "patching_rect": [ 8.0, 168.0, 52.0, 22.0 ],
                     "text": "saw~ 0."
                 }
             },
@@ -70,7 +70,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 48.0, 8.0, 26.0, 20.0 ],
+                    "patching_rect": [ 48.0, 8.0, 28.0, 22.0 ],
                     "saved_object_attributes": {
                         "attr_comment": [ "(bang)", "reset" ],
                         "c": [ "(bang)", "reset" ]
@@ -84,7 +84,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 8.0, 200.0, 38.0, 20.0 ],
+                    "patching_rect": [ 8.0, 200.0, 42.0, 22.0 ],
                     "saved_object_attributes": {
                         "attr_comment": [ "(signal)", "mono" ],
                         "c": [ "(signal)", "mono" ]
@@ -99,7 +99,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 8.0, 8.0, 32.0, 20.0 ],
+                    "patching_rect": [ 8.0, 8.0, 35.0, 22.0 ],
                     "saved_object_attributes": {
                         "attr_comment": [ "(signal)", "freq" ],
                         "c": [ "(signal)", "freq" ]

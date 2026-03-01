@@ -22,7 +22,7 @@
                     "numinlets": 3,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 24.0, 80.0, 103.0, 20.0 ],
+                    "patching_rect": [ 24.0, 80.0, 112.0, 22.0 ],
                     "text": "routepass signal int"
                 }
             },
@@ -47,7 +47,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 72.0, 206.0, 32.5, 20.0 ],
+                    "patching_rect": [ 72.0, 206.0, 32.5, 22.0 ],
                     "text": "+ 1"
                 }
             },
@@ -58,7 +58,7 @@
                     "numinlets": 3,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 160.0, 344.0, 80.0, 20.0 ],
+                    "patching_rect": [ 160.0, 344.0, 80.0, 22.0 ],
                     "text": "selector~ 2 1"
                 }
             },
@@ -69,7 +69,7 @@
                     "numinlets": 3,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 30.0, 345.0, 80.0, 20.0 ],
+                    "patching_rect": [ 30.0, 345.0, 80.0, 22.0 ],
                     "text": "selector~ 2 1"
                 }
             },

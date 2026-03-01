@@ -375,6 +375,14 @@
             "obj-17": [ "#2-PitchEnvAmt", "PEnvAmt", 0 ],
             "obj-18": [ "#2-PitchEnvDur", "PEnvDur", 0 ],
             "obj-26": [ "#2-PitchEnvCurve", "PEnvCur", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

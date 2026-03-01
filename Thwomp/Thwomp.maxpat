@@ -24,7 +24,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 240.0, 96.0, 92.0, 20.0 ],
+                    "patching_rect": [ 240.0, 96.0, 102.0, 22.0 ],
                     "text": "loadmess recall 1"
                 }
             },
@@ -48,7 +48,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "bang", "" ],
-                    "patching_rect": [ 176.0, 96.0, 46.0, 20.0 ],
+                    "patching_rect": [ 176.0, 96.0, 51.0, 22.0 ],
                     "text": "select S"
                 }
             },
@@ -59,7 +59,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 16.0, 96.0, 72.0, 20.0 ],
+                    "patching_rect": [ 16.0, 96.0, 79.0, 22.0 ],
                     "text": "prepend note"
                 }
             },
@@ -117,7 +117,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 120.0, 24.0, 42.0, 20.0 ],
+                    "patching_rect": [ 120.0, 24.0, 42.0, 22.0 ],
                     "text": "active"
                 }
             },
@@ -128,7 +128,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "bang", "" ],
-                    "patching_rect": [ 120.0, 96.0, 51.0, 20.0 ],
+                    "patching_rect": [ 120.0, 96.0, 51.0, 22.0 ],
                     "text": "select s"
                 }
             },
@@ -343,6 +343,14 @@
             "obj-1::obj-9::obj-1::obj-11": [ "FiltQ", "Q", 0 ],
             "obj-1::obj-9::obj-1::obj-6": [ "FiltType", "Type", 0 ],
             "obj-1::obj-9::obj-7": [ "Filt", "Filt", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-1::obj-1::obj-8::obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]

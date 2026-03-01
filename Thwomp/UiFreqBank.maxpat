@@ -369,14 +369,6 @@
         "parameters": {
             "obj-11": [ "#2-OscSemi", "Semi", 0 ],
             "obj-14": [ "#2-OscFreq", "Freq", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0

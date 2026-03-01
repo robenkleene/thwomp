@@ -24,7 +24,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 360.0, 64.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-Max": [ 8.976377952755916 ],
+                        "#1-Max": [ 9.0 ],
                         "#1-Min": [ 4.0 ]
                     },
                     "text": "autopattr",
@@ -401,6 +401,14 @@
         "parameters": {
             "obj-1": [ "#1-Min", "#2Min", 0 ],
             "obj-2": [ "#1-Max", "#2Max", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

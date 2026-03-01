@@ -22,11 +22,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 80.0, 8.0, 26.0, 20.0 ],
-                    "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
-                    },
+                    "patching_rect": [ 80.0, 8.0, 28.0, 22.0 ],
                     "text": "in 3"
                 }
             },
@@ -37,7 +33,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 8.0, 40.0, 46.0, 20.0 ],
+                    "patching_rect": [ 8.0, 40.0, 46.0, 22.0 ],
                     "text": "noise~"
                 }
             },
@@ -48,7 +44,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 48.0, 8.0, 26.0, 20.0 ],
+                    "patching_rect": [ 48.0, 8.0, 28.0, 22.0 ],
                     "saved_object_attributes": {
                         "attr_comment": "no-op",
                         "c": "no-op"
@@ -62,7 +58,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 8.0, 72.0, 38.0, 20.0 ],
+                    "patching_rect": [ 8.0, 72.0, 42.0, 22.0 ],
                     "saved_object_attributes": {
                         "attr_comment": [ "(signal)", "mono" ],
                         "c": [ "(signal)", "mono" ]
@@ -77,7 +73,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 8.0, 8.0, 32.0, 20.0 ],
+                    "patching_rect": [ 8.0, 8.0, 35.0, 22.0 ],
                     "saved_object_attributes": {
                         "attr_comment": [ "control", "messages" ],
                         "c": [ "control", "messages" ]

@@ -311,14 +311,6 @@
             "obj-1::obj-11": [ "FiltQ", "Q", 0 ],
             "obj-1::obj-6": [ "FiltType", "Type", 0 ],
             "obj-7": [ "Filt", "Filt", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0

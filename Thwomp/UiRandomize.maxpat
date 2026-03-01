@@ -1772,9 +1772,9 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1688.0, 603.0, 39.0, 29.0 ],
+                    "patching_rect": [ 1688.0, 603.0, 39.0, 33.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 696.0, 0.0, 48.0, 18.0 ],
+                    "presentation_rect": [ 696.0, 0.0, 57.0, 20.0 ],
                     "text": "Note Trig"
                 }
             },
@@ -2071,9 +2071,9 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1576.0, 381.0, 32.0, 29.0 ],
+                    "patching_rect": [ 1576.0, 381.0, 34.0, 33.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 648.0, 16.0, 45.0, 18.0 ],
+                    "presentation_rect": [ 648.0, 16.0, 54.0, 20.0 ],
                     "text": "Auto Bts"
                 }
             },
@@ -5070,14 +5070,6 @@
             "obj-76": [ "RandAuto", "Auto", 0 ],
             "obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
