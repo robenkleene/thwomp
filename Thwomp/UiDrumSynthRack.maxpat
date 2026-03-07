@@ -776,7 +776,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 16.0, -72.0, 25.0, 25.0 ]
+                    "patching_rect": [ 16.0, -72.0, 30.0, 30.0 ]
                 }
             },
             {
