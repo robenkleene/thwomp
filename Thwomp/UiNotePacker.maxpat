@@ -119,9 +119,11 @@
             },
             {
                 "box": {
-                    "format": 5,
+                    "format": 4,
                     "id": "obj-12",
                     "maxclass": "number",
+                    "maximum": 127,
+                    "minimum": 0,
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
