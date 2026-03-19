@@ -257,7 +257,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 360.0, 424.0, 51.0, 22.0 ],
+                    "patching_rect": [ 408.0, 424.0, 51.0, 22.0 ],
                     "text": "route filt"
                 }
             },
@@ -386,7 +386,7 @@
                     "numinlets": 4,
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 96.0, 424.0, 161.0, 22.0 ],
+                    "patching_rect": [ 48.0, 424.0, 161.0, 22.0 ],
                     "text": "route filt randomize randnote"
                 }
             },
@@ -408,7 +408,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 280.0, 456.0, 49.0, 22.0 ],
+                    "patching_rect": [ 328.0, 456.0, 49.0, 22.0 ],
                     "text": "gate~ 2"
                 }
             },
@@ -1483,6 +1483,7 @@
             "obj-1::obj-8::obj-1::obj-20::obj-2": [ "RandOscDecay-Max", "DecMax", 0 ],
             "obj-1::obj-8::obj-1::obj-218": [ "RandOscSemi", "Freq", 0 ],
             "obj-1::obj-8::obj-1::obj-22": [ "RandOvertone", "Overtone", 0 ],
+            "obj-1::obj-8::obj-1::obj-221": [ "RandTrigToggle", "RandTrigToggle", 0 ],
             "obj-1::obj-8::obj-1::obj-23": [ "RandOscAttack", "Attack", 0 ],
             "obj-1::obj-8::obj-1::obj-24::obj-1": [ "RandOscGain-Min", "GainMin", 0 ],
             "obj-1::obj-8::obj-1::obj-24::obj-2": [ "RandOscGain-Max", "GainMax", 0 ],
