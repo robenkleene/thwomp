@@ -137,7 +137,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "", "bang", "" ],
+                    "outlettype": [ "", "bang", "int" ],
                     "patching_rect": [ 0.0, 24.0, 192.0, 144.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 16.0, 192.0, 144.0 ],
@@ -217,6 +217,7 @@
             "obj-1::obj-20::obj-2": [ "RandOscDecay-Max", "DecMax", 0 ],
             "obj-1::obj-218": [ "RandOscSemi", "Freq", 0 ],
             "obj-1::obj-22": [ "RandOvertone", "Overtone", 0 ],
+            "obj-1::obj-221": [ "RandTrigToggle", "RandTrigToggle", 0 ],
             "obj-1::obj-23": [ "RandOscAttack", "Attack", 0 ],
             "obj-1::obj-24::obj-1": [ "RandOscGain-Min", "GainMin", 0 ],
             "obj-1::obj-24::obj-2": [ "RandOscGain-Max", "GainMax", 0 ],
@@ -258,14 +259,6 @@
             "obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
             "obj-2": [ "RandTab", "Tab", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
