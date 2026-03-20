@@ -403,7 +403,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
-                    "order": 0,
+                    "order": 2,
                     "source": [ "obj-7", 0 ]
                 }
             },
@@ -423,7 +423,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-8", 0 ],
-                    "order": 2,
+                    "order": 0,
                     "source": [ "obj-7", 0 ]
                 }
             },

@@ -1907,8 +1907,8 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1688.0, 603.0, 39.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 688.0, 0.0, 51.0, 20.0 ],
-                    "text": "Trigg"
+                    "presentation_rect": [ 696.0, 0.0, 29.0, 20.0 ],
+                    "text": "Trig"
                 }
             },
             {
@@ -2206,8 +2206,8 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1576.0, 381.0, 37.0, 33.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 640.0, 16.0, 54.0, 20.0 ],
-                    "text": "Auto Bts"
+                    "presentation_rect": [ 648.0, 16.0, 51.0, 20.0 ],
+                    "text": "AutoBts"
                 }
             },
             {
@@ -5274,14 +5274,6 @@
             "obj-76": [ "RandAuto", "Auto", 0 ],
             "obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]

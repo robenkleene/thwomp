@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 566.0, 92.0, 1477.0, 1064.0 ],
+        "rect": [ 821.0, 282.0, 1477.0, 1064.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -32,7 +32,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 948.0, 219.0, 1000.0, 780.0 ],
+                        "rect": [ 1209.0, 311.0, 1000.0, 780.0 ],
                         "boxes": [
                             {
                                 "box": {
@@ -204,7 +204,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 120.0, 160.0, 79.0, 22.0 ],
+                    "patching_rect": [ 168.0, 176.0, 79.0, 22.0 ],
                     "text": "prepend note"
                 }
             },
@@ -215,7 +215,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 208.0, 160.0, 139.0, 22.0 ],
+                    "patching_rect": [ 120.0, 144.0, 139.0, 22.0 ],
                     "text": "prepend randomize note"
                 }
             },
@@ -323,7 +323,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 120.0, 192.0, 31.0, 22.0 ],
+                    "patching_rect": [ 168.0, 208.0, 31.0, 22.0 ],
                     "text": "t s s"
                 }
             },
@@ -333,7 +333,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 128.0, 224.0, 55.0, 22.0 ],
+                    "patching_rect": [ 176.0, 240.0, 55.0, 22.0 ],
                     "text": "s #1-ring"
                 }
             },
@@ -429,7 +429,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 200.0, 264.0, 52.0, 22.0 ],
+                    "patching_rect": [ 64.0, 264.0, 52.0, 22.0 ],
                     "text": "s #1-tab"
                 }
             },
@@ -451,7 +451,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 80.0, 112.0, 22.0, 22.0 ],
+                    "patching_rect": [ 120.0, 232.0, 22.0, 22.0 ],
                     "text": "t b"
                 }
             },
@@ -462,7 +462,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 96.0, 296.0, 95.0, 22.0 ],
+                    "patching_rect": [ 120.0, 296.0, 95.0, 22.0 ],
                     "text": "randomize bang"
                 }
             },
@@ -479,7 +479,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 96.0, 264.0, 44.0, 15.0 ],
+                    "patching_rect": [ 120.0, 264.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 152.0, 32.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -1603,13 +1603,13 @@
             {
                 "patchline": {
                     "destination": [ "obj-61", 0 ],
-                    "source": [ "obj-70", 1 ]
+                    "source": [ "obj-70", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-69", 0 ],
-                    "source": [ "obj-70", 0 ]
+                    "source": [ "obj-70", 1 ]
                 }
             },
             {
@@ -1739,14 +1739,6 @@
             "obj-9::obj-1::obj-11": [ "FiltQ", "Q", 0 ],
             "obj-9::obj-1::obj-6": [ "FiltType", "Type", 0 ],
             "obj-9::obj-7": [ "Filt", "Filt", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-1::obj-8::obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
