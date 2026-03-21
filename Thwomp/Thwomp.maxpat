@@ -13,9 +13,6 @@
         "openrect": [ 0.0, 0.0, 512.0, 170.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
-        "gridsize": [ 8.0, 8.0 ],
-        "gridsnaponopen": 2,
-        "objectsnaponopen": 0,
         "devicewidth": 512.0,
         "boxes": [
             {

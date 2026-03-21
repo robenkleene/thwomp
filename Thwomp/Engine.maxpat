@@ -10,9 +10,6 @@
         },
         "classnamespace": "box",
         "rect": [ 656.0, 409.0, 1332.0, 938.0 ],
-        "gridsize": [ 8.0, 8.0 ],
-        "gridsnaponopen": 2,
-        "objectsnaponopen": 0,
         "boxes": [
             {
                 "box": {
@@ -92,9 +89,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 690.0, 92.0, 695.0, 1083.0 ],
-                        "gridsize": [ 8.0, 8.0 ],
-                        "gridsnaponopen": 2,
-                        "objectsnaponopen": 0,
                         "boxes": [
                             {
                                 "box": {
@@ -801,9 +795,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 725.0, 296.0, 570.0, 780.0 ],
-                        "gridsize": [ 8.0, 8.0 ],
-                        "gridsnaponopen": 2,
-                        "objectsnaponopen": 0,
                         "visible": 1,
                         "boxes": [
                             {
@@ -1173,9 +1164,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 392.0, 553.0, 898.0, 494.0 ],
-                        "gridsize": [ 8.0, 8.0 ],
-                        "gridsnaponopen": 2,
-                        "objectsnaponopen": 0,
                         "boxes": [
                             {
                                 "box": {
@@ -1408,9 +1396,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 752.0, 482.0, 786.0, 570.0 ],
-                        "gridsize": [ 8.0, 8.0 ],
-                        "gridsnaponopen": 2,
-                        "objectsnaponopen": 0,
                         "boxes": [
                             {
                                 "box": {

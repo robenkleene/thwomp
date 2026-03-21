@@ -11,9 +11,6 @@
         "classnamespace": "box",
         "rect": [ 228.0, 144.0, 1632.0, 1111.0 ],
         "openinpresentation": 1,
-        "gridsize": [ 8.0, 8.0 ],
-        "gridsnaponopen": 2,
-        "objectsnaponopen": 0,
         "boxes": [
             {
                 "box": {
@@ -975,9 +972,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 485.0, 473.0, 1000.0, 780.0 ],
-                        "gridsize": [ 8.0, 8.0 ],
-                        "gridsnaponopen": 2,
-                        "objectsnaponopen": 0,
                         "boxes": [
                             {
                                 "box": {
@@ -3243,9 +3237,6 @@
                         "classnamespace": "box",
                         "rect": [ 153.0, 112.0, 1365.0, 970.0 ],
                         "openinpresentation": 1,
-                        "gridsize": [ 8.0, 8.0 ],
-                        "gridsnaponopen": 2,
-                        "objectsnaponopen": 0,
                         "boxes": [
                             {
                                 "box": {
