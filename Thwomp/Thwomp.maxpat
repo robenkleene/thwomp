@@ -9,13 +9,14 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "openrect": [ 522.0, 298.0, 496.0, 174.0 ],
+        "rect": [ 522.0, 298.0, 1099.0, 531.0 ],
+        "openrect": [ 0.0, 0.0, 512.0, 170.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
-        "devicewidth": 496.0,
+        "devicewidth": 512.0,
         "boxes": [
             {
                 "box": {
@@ -81,7 +82,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 16.0, 8.0, 64.0, 80.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 8.0, 64.0, 80.0 ],
+                    "presentation_rect": [ 448.0, 0.0, 64.0, 80.0 ],
                     "varname": "NotePacker",
                     "viewvisibility": 1
                 }
@@ -105,7 +106,7 @@
                     "outlettype": [ "signal", "signal", "" ],
                     "patching_rect": [ 15.0, 135.0, 337.0, 169.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 64.0, 0.0, 432.0, 168.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 456.0, 168.0 ],
                     "varname": "DrumSynthRack",
                     "viewvisibility": 1
                 }
@@ -161,7 +162,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 15.0, 345.0, 45.0, 45.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 8.0, 120.0, 48.0, 48.0 ],
+                    "presentation_rect": [ 456.0, 120.0, 48.0, 48.0 ],
                     "varname": "Dac"
                 }
             }
@@ -289,6 +290,7 @@
             "obj-1::obj-1::obj-8::obj-1::obj-20::obj-2": [ "RandOscDecay-Max", "DecMax", 0 ],
             "obj-1::obj-1::obj-8::obj-1::obj-218": [ "RandOscSemi", "Freq", 0 ],
             "obj-1::obj-1::obj-8::obj-1::obj-22": [ "RandOvertone", "Overtone", 0 ],
+            "obj-1::obj-1::obj-8::obj-1::obj-221": [ "RandTrigToggle", "RandTrigToggle", 0 ],
             "obj-1::obj-1::obj-8::obj-1::obj-23": [ "RandOscAttack", "Attack", 0 ],
             "obj-1::obj-1::obj-8::obj-1::obj-24::obj-1": [ "RandOscGain-Min", "GainMin", 0 ],
             "obj-1::obj-1::obj-8::obj-1::obj-24::obj-2": [ "RandOscGain-Max", "GainMax", 0 ],
@@ -343,14 +345,6 @@
             "obj-1::obj-9::obj-1::obj-11": [ "FiltQ", "Q", 0 ],
             "obj-1::obj-9::obj-1::obj-6": [ "FiltType", "Type", 0 ],
             "obj-1::obj-9::obj-7": [ "Filt", "Filt", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-1::obj-1::obj-8::obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]

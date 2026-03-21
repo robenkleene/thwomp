@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 821.0, 282.0, 1477.0, 1064.0 ],
+        "rect": [ 572.0, 111.0, 1477.0, 1064.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -648,7 +648,7 @@
                     "maxclass": "live.line",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 600.0, 336.0, 5.0, 100.0 ],
+                    "patching_rect": [ 584.0, 336.0, 5.0, 100.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 232.0, 8.0, 8.0, 160.0 ]
                 }
@@ -684,21 +684,9 @@
                     "maxclass": "live.line",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 584.0, 336.0, 5.0, 100.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 280.0, 8.0, 8.0, 160.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-38",
-                    "justification": 1,
-                    "maxclass": "live.line",
-                    "numinlets": 1,
-                    "numoutlets": 0,
                     "patching_rect": [ 568.0, 336.0, 5.0, 100.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 376.0, 8.0, 8.0, 161.0 ]
+                    "presentation_rect": [ 280.0, 8.0, 8.0, 160.0 ]
                 }
             },
             {
@@ -801,7 +789,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 376.0, 192.0, 32.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 384.0, 8.0, 24.0, 17.0 ],
+                    "presentation_rect": [ 400.0, 8.0, 24.0, 17.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -830,7 +818,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 456.0, 192.0, 32.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 384.0, 24.0, 24.0, 17.0 ],
+                    "presentation_rect": [ 400.0, 152.0, 24.0, 17.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -858,7 +846,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 496.0, 192.0, 32.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 384.0, 40.0, 24.0, 16.0 ],
+                    "presentation_rect": [ 424.0, 152.0, 24.0, 16.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -924,7 +912,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 80.0, 1112.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 384.0, 120.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 288.0, 120.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "Vol",
@@ -1139,7 +1127,7 @@
                     "patching_rect": [ 568.0, 296.0, 77.0, 29.0 ],
                     "pattrstorage": "Presets",
                     "presentation": 1,
-                    "presentation_rect": [ 384.0, 64.0, 40.0, 49.0 ]
+                    "presentation_rect": [ 400.0, 32.0, 40.0, 112.0 ]
                 }
             },
             {
