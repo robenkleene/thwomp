@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 522.0, 298.0, 1099.0, 531.0 ],
+        "rect": [ 522.0, 298.0, 1485.0, 725.0 ],
         "openrect": [ 0.0, 0.0, 512.0, 170.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
@@ -101,7 +101,7 @@
                     "numoutlets": 3,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal", "" ],
-                    "patching_rect": [ 15.0, 135.0, 337.0, 169.0 ],
+                    "patching_rect": [ 15.0, 135.0, 456.0, 175.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 456.0, 168.0 ],
                     "varname": "DrumSynthRack",
@@ -342,6 +342,14 @@
             "obj-1::obj-9::obj-1::obj-11": [ "FiltQ", "Q", 0 ],
             "obj-1::obj-9::obj-1::obj-6": [ "FiltType", "Type", 0 ],
             "obj-1::obj-9::obj-7": [ "Filt", "Filt", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-1::obj-1::obj-8::obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]

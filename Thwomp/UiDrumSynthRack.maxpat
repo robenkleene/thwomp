@@ -9,9 +9,56 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 572.0, 111.0, 1477.0, 1064.0 ],
+        "rect": [ 451.0, 105.0, 1477.0, 1064.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-77",
+                    "maxclass": "textbutton",
+                    "mode": 1,
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "int" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 497.5, 188.0, 30.0, 20.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 400.0, 125.0, 30.0, 20.0 ],
+                    "text": "OW",
+                    "texton": "OW",
+                    "varname": "Overwrite"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-75",
+                    "maxclass": "textbutton",
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "int" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 456.0, 189.5, 25.0, 20.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 400.0, 149.5, 25.0, 20.0 ],
+                    "text": "W",
+                    "varname": "Write"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-73",
+                    "maxclass": "textbutton",
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "int" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 376.0, 188.0, 25.0, 20.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 400.0, 8.0, 25.0, 20.0 ],
+                    "text": "R",
+                    "varname": "Read"
+                }
+            },
             {
                 "box": {
                     "id": "obj-70",
@@ -717,12 +764,12 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 568.0, 192.0, 56.0, 22.0 ],
                     "restore": {
-                        "Overwrite": [ 0.0 ],
+                        "Overwrite": [ 0 ],
                         "Randomize": [ 0.0 ],
-                        "Read": [ 0.0 ],
+                        "Read": [ -1 ],
                         "Tab": [ 0.0 ],
                         "Vol": [ 0.0 ],
-                        "Write": [ 0.0 ]
+                        "Write": [ -1 ]
                     },
                     "text": "autopattr",
                     "varname": "u061005779"
@@ -770,93 +817,6 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 80.0, 1168.0, 132.0, 22.0 ],
                     "text": "expr pow(10.\\, $f1 / 20.)"
-                }
-            },
-            {
-                "box": {
-                    "annotation": "Read presets from a JSON file.",
-                    "automation": "Off",
-                    "automationon": "On",
-                    "id": "obj-30",
-                    "maxclass": "live.text",
-                    "mode": 0,
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 376.0, 192.0, 32.0, 16.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 400.0, 8.0, 24.0, 17.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "Read",
-                            "parameter_mmax": 1,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Read",
-                            "parameter_type": 2
-                        }
-                    },
-                    "text": "R",
-                    "varname": "Read"
-                }
-            },
-            {
-                "box": {
-                    "annotation": "Write presets to a JSON file.",
-                    "automation": "Off",
-                    "automationon": "On",
-                    "id": "obj-29",
-                    "maxclass": "live.text",
-                    "mode": 0,
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 456.0, 192.0, 32.0, 16.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 400.0, 152.0, 24.0, 17.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "Write",
-                            "parameter_mmax": 1,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Write",
-                            "parameter_type": 2
-                        }
-                    },
-                    "text": "W",
-                    "varname": "Write"
-                }
-            },
-            {
-                "box": {
-                    "annotation": "If toggled on, \"Write\" overwrites the last loaded presets file. If it's toggled off, then a file dialog will appear.",
-                    "automation": "Off",
-                    "automationon": "On",
-                    "id": "obj-24",
-                    "maxclass": "live.text",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 496.0, 192.0, 32.0, 16.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 424.0, 152.0, 24.0, 16.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "Overwrite",
-                            "parameter_mmax": 1,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Overwrite",
-                            "parameter_type": 2
-                        }
-                    },
-                    "text": "OW",
-                    "texton": "OW",
-                    "varname": "Overwrite"
                 }
             },
             {
@@ -1124,7 +1084,7 @@
                     "patching_rect": [ 568.0, 296.0, 77.0, 29.0 ],
                     "pattrstorage": "Presets",
                     "presentation": 1,
-                    "presentation_rect": [ 400.0, 32.0, 40.0, 112.0 ]
+                    "presentation_rect": [ 400.0, 32.0, 40.0, 88.0 ]
                 }
             },
             {
@@ -1267,12 +1227,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-16", 0 ],
-                    "source": [ "obj-24", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-34", 0 ],
                     "source": [ "obj-25", 0 ]
                 }
@@ -1315,20 +1269,8 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-32", 0 ],
-                    "source": [ "obj-29", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-57", 0 ],
                     "source": [ "obj-3", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-28", 0 ],
-                    "source": [ "obj-30", 0 ]
                 }
             },
             {
@@ -1599,6 +1541,24 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-28", 0 ],
+                    "source": [ "obj-73", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-32", 0 ],
+                    "source": [ "obj-75", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-16", 0 ],
+                    "source": [ "obj-77", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-10", 1 ],
                     "source": [ "obj-9", 1 ]
                 }
@@ -1711,9 +1671,6 @@
             "obj-1::obj-8::obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-1::obj-8::obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
             "obj-1::obj-8::obj-2": [ "RandTab", "Tab", 0 ],
-            "obj-24": [ "Overwrite", "Overwrite", 0 ],
-            "obj-29": [ "Write", "Write", 0 ],
-            "obj-30": [ "Read", "Read", 0 ],
             "obj-40::obj-11": [ "RingFilt", "RingFilt", 0 ],
             "obj-40::obj-25": [ "Ring", "Ring", 0 ],
             "obj-40::obj-31": [ "RingGain", "RGain", 0 ],
@@ -1724,6 +1681,14 @@
             "obj-9::obj-1::obj-11": [ "FiltQ", "Q", 0 ],
             "obj-9::obj-1::obj-6": [ "FiltType", "Type", 0 ],
             "obj-9::obj-7": [ "Filt", "Filt", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-1::obj-8::obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]
