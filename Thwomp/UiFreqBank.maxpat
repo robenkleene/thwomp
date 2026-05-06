@@ -47,7 +47,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 315.0, 136.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 32.0, 24.5, 46.0, 15.0 ],
+                    "presentation_rect": [ 32.0, 24.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "#2-OscSemi",

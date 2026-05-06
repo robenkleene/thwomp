@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1379.0, 450.0, 517.0, 821.0 ],
+        "rect": [ 1309.0, 449.0, 517.0, 821.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
@@ -78,7 +78,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 352.0, 8.0, 56.0, 22.0 ],
                     "restore": {
-                        "#2-OscNote": [ 1.0 ]
+                        "#2-OscNote": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u245010073"
@@ -109,7 +109,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 240.0, 64.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 32.0, 16.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 46.0, 16.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -145,7 +145,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
                     "patching_rect": [ 264.0, 136.0, 34.0, 22.0 ],
-                    "text": "* -48"
+                    "text": "* -21"
                 }
             },
             {
@@ -174,11 +174,11 @@
                     "name": "UiFreqBank.maxpat",
                     "numinlets": 2,
                     "numoutlets": 1,
-                    "offset": [ 0.0, -48.0 ],
+                    "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "" ],
-                    "patching_rect": [ 8.0, 168.0, 40.0, 48.0 ],
+                    "patching_rect": [ 8.0, 168.0, 80.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 16.0, 40.0, 48.0 ],
+                    "presentation_rect": [ 47.0, -3.0, 79.0, 20.0 ],
                     "varname": "FreqBank",
                     "viewvisibility": 1
                 }
@@ -283,8 +283,8 @@
             }
         ],
         "parameters": {
-            "obj-1::obj-11": [ "#1-OscSemi", "Semi", 0 ],
-            "obj-1::obj-14": [ "#1-OscFreq", "Freq", 0 ],
+            "obj-1::obj-15": [ "live.numbox", "Freq", 0 ],
+            "obj-1::obj-17": [ "live.numbox[1]", "Semi", 0 ],
             "obj-5": [ "#2-OscNote", "Note", 0 ],
             "parameterbanks": {
                 "0": {
@@ -295,11 +295,11 @@
                 }
             },
             "parameter_overrides": {
-                "obj-1::obj-11": {
-                    "parameter_longname": "#1-OscSemi"
+                "obj-1::obj-15": {
+                    "parameter_longname": "live.numbox"
                 },
-                "obj-1::obj-14": {
-                    "parameter_longname": "#1-OscFreq"
+                "obj-1::obj-17": {
+                    "parameter_longname": "live.numbox[1]"
                 }
             },
             "inherited_shortname": 1
