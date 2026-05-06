@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 919.0, 340.0, 1041.0, 884.0 ],
+        "rect": [ 1363.0, 372.0, 488.0, 577.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -97,7 +97,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 400.0, 232.0, 40.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 3.0, 26.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 2.0, 26.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 5.0,
@@ -125,7 +125,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 480.0, 232.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 50.0, 26.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 49.0, 26.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "FiltQ",
@@ -219,7 +219,7 @@
                     "patching_rect": [ 200.0, 104.0, 48.0, 15.0 ],
                     "pictures": [ "highcut.svg", "lowcut.svg", "bandpass.svg", "notch.svg" ],
                     "presentation": 1,
-                    "presentation_rect": [ 47.0, -1.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 47.0, 0.0, 46.0, 15.0 ],
                     "remapsvgcolors": 1,
                     "saved_attribute_attributes": {
                         "valueof": {

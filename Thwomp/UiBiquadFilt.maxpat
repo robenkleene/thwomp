@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 691.0, 307.0, 671.0, 726.0 ],
+        "rect": [ 713.0, 371.0, 339.0, 637.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -76,7 +76,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 272.0, 16.0, 56.0, 22.0 ],
                     "restore": {
-                        "Filt": [ 0.0 ]
+                        "Filt": [ 1.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u892006714"
@@ -96,7 +96,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 136.0, 384.0, 32.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 32.0, 16.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -107,8 +107,8 @@
                             "parameter_type": 2
                         }
                     },
-                    "text": "Filt",
-                    "texton": "Filt",
+                    "text": "Filter",
+                    "texton": "Filter",
                     "varname": "Filt"
                 }
             },
@@ -199,7 +199,7 @@
                     "outlettype": [ "signal", "signal" ],
                     "patching_rect": [ 80.0, 232.0, 48.0, 168.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 48.0, 160.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 98.0, 80.0 ],
                     "varname": "Biquad",
                     "viewvisibility": 1
                 }
@@ -304,10 +304,18 @@
             }
         ],
         "parameters": {
-            "obj-1::obj-1": [ "FiltFreq", "FFreq", 0 ],
-            "obj-1::obj-11": [ "FiltQ", "Q", 0 ],
+            "obj-1::obj-1": [ "FiltFreq", "Freq", 0 ],
+            "obj-1::obj-11": [ "FiltQ", "Res", 0 ],
             "obj-1::obj-6": [ "FiltType", "Type", 0 ],
             "obj-7": [ "Filt", "Filt", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
