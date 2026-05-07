@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
@@ -84,7 +84,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 128.0, 304.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 48.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 0.0, 60.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "#1-Max",
