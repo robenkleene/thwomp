@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 516.0, 135.0, 1362.0, 983.0 ],
+        "rect": [ 531.0, 320.0, 1362.0, 983.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -56,7 +56,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 488.0, 536.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 16.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 47.0, 0.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -67,8 +67,8 @@
                             "parameter_type": 2
                         }
                     },
-                    "text": "RFilt",
-                    "texton": "RFilt",
+                    "text": "Filter",
+                    "texton": "Filter",
                     "varname": "RingFilt"
                 }
             },
@@ -249,14 +249,14 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 232.0, 320.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 48.0, 0.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 2.5, 28.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 5.0,
                             "parameter_longname": "RingAttack",
                             "parameter_mmax": 15000.0,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RAttack",
+                            "parameter_shortname": "Attack",
                             "parameter_type": 0,
                             "parameter_unitstyle": 2
                         }
@@ -276,14 +276,14 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 280.0, 320.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 48.0, 56.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 49.5, 28.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 5.0,
                             "parameter_longname": "RingDecay",
                             "parameter_mmax": 15000.0,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RDecay",
+                            "parameter_shortname": "Decay",
                             "parameter_type": 0,
                             "parameter_unitstyle": 2
                         }
@@ -324,14 +324,14 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 256.0, 432.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 48.0, 112.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 96.5, 28.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RingGain",
                             "parameter_mmax": 6.0,
                             "parameter_mmin": -70.0,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RGain",
+                            "parameter_shortname": "Gain",
                             "parameter_type": 0,
                             "parameter_unitstyle": 4
                         }
@@ -371,7 +371,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 184.0, 224.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 44.0, 16.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -543,9 +543,9 @@
         "parameters": {
             "obj-11": [ "RingFilt", "RingFilt", 0 ],
             "obj-25": [ "Ring", "Ring", 0 ],
-            "obj-31": [ "RingGain", "RGain", 0 ],
-            "obj-34": [ "RingAttack", "RAttack", 0 ],
-            "obj-36": [ "RingDecay", "RDecay", 0 ],
+            "obj-31": [ "RingGain", "Gain", 0 ],
+            "obj-34": [ "RingAttack", "Attack", 0 ],
+            "obj-36": [ "RingDecay", "Decay", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
