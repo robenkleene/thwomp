@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1095.0, 363.0, 814.0, 738.0 ],
+        "rect": [ 622.0, 377.0, 814.0, 738.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "Roben Kleene",
         "boxes": [
@@ -149,14 +149,14 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 120.0, 144.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 56.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 94.0, 0.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "#2-PitchEnvCurve",
                             "parameter_mmax": 100.0,
                             "parameter_mmin": -100.0,
                             "parameter_modmode": 3,
-                            "parameter_shortname": "PEnvCur",
+                            "parameter_shortname": "Curve",
                             "parameter_type": 0,
                             "parameter_unitstyle": 5
                         }
@@ -200,7 +200,7 @@
                             "parameter_longname": "#2-PitchEnvDur",
                             "parameter_mmax": 15000.0,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "PEnvDur",
+                            "parameter_shortname": "Duration",
                             "parameter_type": 0,
                             "parameter_unitstyle": 2
                         }
@@ -220,14 +220,14 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 80.0, 144.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 112.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 47.0, 0.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 5.0,
                             "parameter_longname": "#2-PitchEnvAmt",
                             "parameter_mmax": 15000.0,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "PEnvAmt",
+                            "parameter_shortname": "Amount",
                             "parameter_type": 0,
                             "parameter_unitstyle": 3
                         }
@@ -369,9 +369,9 @@
             }
         ],
         "parameters": {
-            "obj-17": [ "#2-PitchEnvAmt", "PEnvAmt", 0 ],
-            "obj-18": [ "#2-PitchEnvDur", "PEnvDur", 0 ],
-            "obj-26": [ "#2-PitchEnvCurve", "PEnvCur", 0 ],
+            "obj-17": [ "#2-PitchEnvAmt", "Amount", 0 ],
+            "obj-18": [ "#2-PitchEnvDur", "Duration", 0 ],
+            "obj-26": [ "#2-PitchEnvCurve", "Curve", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
