@@ -9,9 +9,31 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 932.0, 134.0, 1477.0, 1064.0 ],
+        "rect": [ 466.0, 92.0, 1477.0, 1064.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-2",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiTabs.maxpat",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "int" ],
+                    "patching_rect": [ 16.0, 172.5, 66.0, 61.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ -2.0, 9.0, 51.0, 59.0 ],
+                    "viewvisibility": 1
+                }
+            },
             {
                 "box": {
                     "id": "obj-77",
@@ -23,7 +45,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 497.5, 188.0, 30.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 400.0, 125.0, 30.0, 20.0 ],
+                    "presentation_rect": [ 404.0, 125.0, 30.0, 20.0 ],
                     "text": "OW",
                     "texton": "OW",
                     "varname": "Overwrite"
@@ -39,7 +61,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 456.0, 189.5, 25.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 400.0, 149.5, 25.0, 20.0 ],
+                    "presentation_rect": [ 404.0, 150.0, 25.0, 20.0 ],
                     "text": "W",
                     "varname": "Write"
                 }
@@ -54,7 +76,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 376.0, 188.0, 25.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 400.0, 8.0, 25.0, 20.0 ],
+                    "presentation_rect": [ 404.0, 8.0, 25.0, 20.0 ],
                     "text": "R",
                     "varname": "Read"
                 }
@@ -525,7 +547,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 120.0, 264.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 152.0, 32.0, 15.0 ],
+                    "presentation_rect": [ 0.0, 152.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -536,7 +558,7 @@
                             "parameter_type": 2
                         }
                     },
-                    "text": "R",
+                    "text": "Rand",
                     "varname": "Randomize"
                 }
             },
@@ -680,7 +702,7 @@
                     "outlettype": [ "signal", "signal" ],
                     "patching_rect": [ 272.0, 896.0, 48.0, 160.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 236.0, 86.0, 103.0, 84.0 ],
+                    "presentation_rect": [ 240.0, 86.0, 103.0, 84.0 ],
                     "varname": "BiquadFilt",
                     "viewvisibility": 1
                 }
@@ -704,7 +726,7 @@
                     "outlettype": [ "signal", "" ],
                     "patching_rect": [ 264.0, 336.0, 96.0, 160.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 236.0, 0.0, 144.0, 93.0 ],
+                    "presentation_rect": [ 240.0, 0.0, 144.0, 93.0 ],
                     "varname": "RingMod",
                     "viewvisibility": 1
                 }
@@ -743,7 +765,6 @@
                         "Overwrite": [ 0 ],
                         "Randomize": [ 0.0 ],
                         "Read": [ -1 ],
-                        "Tab": [ 0.0 ],
                         "Vol": [ 0.0 ],
                         "Write": [ -1 ]
                     },
@@ -797,34 +818,6 @@
             },
             {
                 "box": {
-                    "annotation": "Which oscillator is selected.",
-                    "id": "obj-19",
-                    "maxclass": "live.tab",
-                    "num_lines_patching": 3,
-                    "num_lines_presentation": 3,
-                    "numinlets": 1,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 16.0, 128.0, 40.0, 120.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 0.0, 8.0, 32.0, 144.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "1", "2", "R" ],
-                            "parameter_longname": "Tab",
-                            "parameter_mmax": 2,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Tab",
-                            "parameter_type": 2,
-                            "parameter_unitstyle": 9
-                        }
-                    },
-                    "varname": "Tab"
-                }
-            },
-            {
-                "box": {
                     "comment": "(signal) ch 2",
                     "id": "obj-15",
                     "index": 0,
@@ -845,7 +838,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 80.0, 1112.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 336.0, 115.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 340.0, 115.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "Vol",
@@ -936,7 +929,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
                     "patching_rect": [ 16.0, 264.0, 41.0, 22.0 ],
-                    "text": "* -168"
+                    "text": "* -171"
                 }
             },
             {
@@ -1060,7 +1053,7 @@
                     "patching_rect": [ 568.0, 296.0, 77.0, 29.0 ],
                     "pattrstorage": "Presets",
                     "presentation": 1,
-                    "presentation_rect": [ 400.0, 32.0, 40.0, 88.0 ]
+                    "presentation_rect": [ 404.0, 32.0, 40.0, 88.0 ]
                 }
             },
             {
@@ -1078,11 +1071,11 @@
                     "name": "UiDrumSynthBank.maxpat",
                     "numinlets": 1,
                     "numoutlets": 5,
-                    "offset": [ 0.0, 0.0 ],
+                    "offset": [ 0.0, -171.0 ],
                     "outlettype": [ "signal", "signal", "signal", "signal", "" ],
                     "patching_rect": [ 16.0, 336.0, 248.0, 160.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 40.0, 0.0, 200.0, 169.0 ],
+                    "presentation_rect": [ 44.0, 0.0, 200.0, 169.0 ],
                     "varname": "DrumSynthBank",
                     "viewvisibility": 1
                 }
@@ -1171,14 +1164,14 @@
                 "patchline": {
                     "destination": [ "obj-47", 0 ],
                     "order": 0,
-                    "source": [ "obj-19", 0 ]
+                    "source": [ "obj-2", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-7", 0 ],
                     "order": 1,
-                    "source": [ "obj-19", 0 ]
+                    "source": [ "obj-2", 0 ]
                 }
             },
             {
@@ -1548,7 +1541,6 @@
         ],
         "parameters": {
             "obj-11": [ "Vol", "Vol", 0 ],
-            "obj-19": [ "Tab", "Tab", 0 ],
             "obj-1::obj-1::obj-12": [ "1-OscFilt", "OscFilt", 0 ],
             "obj-1::obj-1::obj-17::obj-17": [ "1-PitchEnvAmt", "Amount", 0 ],
             "obj-1::obj-1::obj-17::obj-18": [ "1-PitchEnvDur", "Duration", 0 ],
@@ -1647,6 +1639,9 @@
             "obj-1::obj-8::obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-1::obj-8::obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
             "obj-1::obj-8::obj-2": [ "RandTab", "Tab", 0 ],
+            "obj-2::obj-13": [ "TabOsc1", "TabOsc1", 0 ],
+            "obj-2::obj-7": [ "TabOsc2", "TabOsc2", 0 ],
+            "obj-2::obj-9": [ "TabRand", "TabRand", 0 ],
             "obj-40::obj-11": [ "RingFilt", "RingFilt", 0 ],
             "obj-40::obj-25": [ "Ring", "Ring", 0 ],
             "obj-40::obj-31": [ "RingGain", "Gain", 0 ],
