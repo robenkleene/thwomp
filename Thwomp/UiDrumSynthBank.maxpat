@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 361.0, 165.0, 1230.0, 977.0 ],
+        "rect": [ 635.0, 369.0, 1230.0, 977.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -130,7 +130,7 @@
                     "outlettype": [ "", "bang", "int" ],
                     "patching_rect": [ 536.0, 360.0, 200.0, 168.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 336.0, 200.0, 160.0 ],
+                    "presentation_rect": [ 0.0, 343.0, 200.0, 169.0 ],
                     "varname": "Randomize",
                     "viewvisibility": 1
                 }
@@ -246,7 +246,7 @@
                     "outlettype": [ "signal", "signal", "" ],
                     "patching_rect": [ 176.0, 573.0, 200.0, 163.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 168.0, 200.0, 160.0 ],
+                    "presentation_rect": [ 0.0, 171.0, 200.0, 169.0 ],
                     "varname": "2-DrumSynth",
                     "viewvisibility": 1
                 }
@@ -270,7 +270,7 @@
                     "outlettype": [ "signal", "signal", "" ],
                     "patching_rect": [ 176.0, 288.0, 200.0, 168.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 200.0, 160.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 200.0, 169.0 ],
                     "varname": "1-DrumSynth",
                     "viewvisibility": 1
                 }
@@ -445,14 +445,14 @@
         ],
         "parameters": {
             "obj-1::obj-12": [ "1-OscFilt", "OscFilt", 0 ],
-            "obj-1::obj-17::obj-17": [ "1-PitchEnvAmt", "PEnvAmt", 0 ],
-            "obj-1::obj-17::obj-18": [ "1-PitchEnvDur", "PEnvDur", 0 ],
-            "obj-1::obj-17::obj-26": [ "1-PitchEnvCurve", "PEnvCur", 0 ],
+            "obj-1::obj-17::obj-17": [ "1-PitchEnvAmt", "Amount", 0 ],
+            "obj-1::obj-17::obj-18": [ "1-PitchEnvDur", "Duration", 0 ],
+            "obj-1::obj-17::obj-26": [ "1-PitchEnvCurve", "Curve", 0 ],
             "obj-1::obj-19": [ "1-Overtone", "Overtone", 0 ],
             "obj-1::obj-24": [ "1-Overdrive", "Overdrive", 0 ],
             "obj-1::obj-26": [ "1-OscReset", "Reset", 0 ],
-            "obj-1::obj-2::obj-1::obj-11": [ "1-OscSemi", "Semi", 0 ],
-            "obj-1::obj-2::obj-1::obj-14": [ "1-OscFreq", "Freq", 0 ],
+            "obj-1::obj-2::obj-1::obj-15": [ "1-OscFreq", "Freq", 0 ],
+            "obj-1::obj-2::obj-1::obj-17": [ "1-OscSemi", "Semi", 0 ],
             "obj-1::obj-2::obj-5": [ "1-OscNote", "Note", 0 ],
             "obj-1::obj-4::obj-3": [ "1-AmpDecay", "Decay", 0 ],
             "obj-1::obj-4::obj-7": [ "1-AmpAttack", "Attack", 0 ],
@@ -460,14 +460,14 @@
             "obj-1::obj-7": [ "1-Osc", "Osc", 0 ],
             "obj-1::obj-9": [ "1-OscShape", "Shape", 0 ],
             "obj-3::obj-12": [ "2-OscFilt", "OscFilt", 0 ],
-            "obj-3::obj-17::obj-17": [ "2-PitchEnvAmt", "PEnvAmt", 0 ],
-            "obj-3::obj-17::obj-18": [ "2-PitchEnvDur", "PEnvDur", 0 ],
-            "obj-3::obj-17::obj-26": [ "2-PitchEnvCurve", "PEnvCur", 0 ],
+            "obj-3::obj-17::obj-17": [ "2-PitchEnvAmt", "Amount", 0 ],
+            "obj-3::obj-17::obj-18": [ "2-PitchEnvDur", "Duration", 0 ],
+            "obj-3::obj-17::obj-26": [ "2-PitchEnvCurve", "Curve", 0 ],
             "obj-3::obj-19": [ "2-Overtone", "Overtone", 0 ],
             "obj-3::obj-24": [ "2-Overdrive", "Overdrive", 0 ],
             "obj-3::obj-26": [ "2-OscReset", "Reset", 0 ],
-            "obj-3::obj-2::obj-1::obj-11": [ "2-OscSemi", "Semi", 0 ],
-            "obj-3::obj-2::obj-1::obj-14": [ "2-OscFreq", "Freq", 0 ],
+            "obj-3::obj-2::obj-1::obj-15": [ "2-OscFreq", "Freq", 0 ],
+            "obj-3::obj-2::obj-1::obj-17": [ "2-OscSemi", "Semi", 0 ],
             "obj-3::obj-2::obj-5": [ "2-OscNote", "Note", 0 ],
             "obj-3::obj-4::obj-3": [ "2-AmpDecay", "Decay", 0 ],
             "obj-3::obj-4::obj-7": [ "2-AmpAttack", "Attack", 0 ],
@@ -650,6 +650,16 @@
             },
             "inherited_shortname": 1
         },
-        "autosave": 0
+        "autosave": 0,
+        "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "editing_bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "saved_attribute_attributes": {
+            "editing_bgcolor": {
+                "expression": "themecolor.live_macro_title"
+            },
+            "locked_bgcolor": {
+                "expression": "themecolor.live_macro_title"
+            }
+        }
     }
 }

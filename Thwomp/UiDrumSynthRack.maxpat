@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
@@ -71,7 +71,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1106,7 +1106,7 @@
                     "outlettype": [ "signal", "signal", "signal", "signal", "" ],
                     "patching_rect": [ 16.0, 336.0, 248.0, 160.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 40.0, 8.0, 200.0, 160.0 ],
+                    "presentation_rect": [ 40.0, 0.0, 200.0, 169.0 ],
                     "varname": "DrumSynthBank",
                     "viewvisibility": 1
                 }
@@ -1574,14 +1574,14 @@
             "obj-11": [ "Vol", "Vol", 0 ],
             "obj-19": [ "Tab", "Tab", 0 ],
             "obj-1::obj-1::obj-12": [ "1-OscFilt", "OscFilt", 0 ],
-            "obj-1::obj-1::obj-17::obj-17": [ "1-PitchEnvAmt", "PEnvAmt", 0 ],
-            "obj-1::obj-1::obj-17::obj-18": [ "1-PitchEnvDur", "PEnvDur", 0 ],
-            "obj-1::obj-1::obj-17::obj-26": [ "1-PitchEnvCurve", "PEnvCur", 0 ],
+            "obj-1::obj-1::obj-17::obj-17": [ "1-PitchEnvAmt", "Amount", 0 ],
+            "obj-1::obj-1::obj-17::obj-18": [ "1-PitchEnvDur", "Duration", 0 ],
+            "obj-1::obj-1::obj-17::obj-26": [ "1-PitchEnvCurve", "Curve", 0 ],
             "obj-1::obj-1::obj-19": [ "1-Overtone", "Overtone", 0 ],
             "obj-1::obj-1::obj-24": [ "1-Overdrive", "Overdrive", 0 ],
             "obj-1::obj-1::obj-26": [ "1-OscReset", "Reset", 0 ],
-            "obj-1::obj-1::obj-2::obj-1::obj-11": [ "1-OscSemi", "Semi", 0 ],
-            "obj-1::obj-1::obj-2::obj-1::obj-14": [ "1-OscFreq", "Freq", 0 ],
+            "obj-1::obj-1::obj-2::obj-1::obj-15": [ "1-OscFreq", "Freq", 0 ],
+            "obj-1::obj-1::obj-2::obj-1::obj-17": [ "1-OscSemi", "Semi", 0 ],
             "obj-1::obj-1::obj-2::obj-5": [ "1-OscNote", "Note", 0 ],
             "obj-1::obj-1::obj-4::obj-3": [ "1-AmpDecay", "Decay", 0 ],
             "obj-1::obj-1::obj-4::obj-7": [ "1-AmpAttack", "Attack", 0 ],
@@ -1589,14 +1589,14 @@
             "obj-1::obj-1::obj-7": [ "1-Osc", "Osc", 0 ],
             "obj-1::obj-1::obj-9": [ "1-OscShape", "Shape", 0 ],
             "obj-1::obj-3::obj-12": [ "2-OscFilt", "OscFilt", 0 ],
-            "obj-1::obj-3::obj-17::obj-17": [ "2-PitchEnvAmt", "PEnvAmt", 0 ],
-            "obj-1::obj-3::obj-17::obj-18": [ "2-PitchEnvDur", "PEnvDur", 0 ],
-            "obj-1::obj-3::obj-17::obj-26": [ "2-PitchEnvCurve", "PEnvCur", 0 ],
+            "obj-1::obj-3::obj-17::obj-17": [ "2-PitchEnvAmt", "Amount", 0 ],
+            "obj-1::obj-3::obj-17::obj-18": [ "2-PitchEnvDur", "Duration", 0 ],
+            "obj-1::obj-3::obj-17::obj-26": [ "2-PitchEnvCurve", "Curve", 0 ],
             "obj-1::obj-3::obj-19": [ "2-Overtone", "Overtone", 0 ],
             "obj-1::obj-3::obj-24": [ "2-Overdrive", "Overdrive", 0 ],
             "obj-1::obj-3::obj-26": [ "2-OscReset", "Reset", 0 ],
-            "obj-1::obj-3::obj-2::obj-1::obj-11": [ "2-OscSemi", "Semi", 0 ],
-            "obj-1::obj-3::obj-2::obj-1::obj-14": [ "2-OscFreq", "Freq", 0 ],
+            "obj-1::obj-3::obj-2::obj-1::obj-15": [ "2-OscFreq", "Freq", 0 ],
+            "obj-1::obj-3::obj-2::obj-1::obj-17": [ "2-OscSemi", "Semi", 0 ],
             "obj-1::obj-3::obj-2::obj-5": [ "2-OscNote", "Note", 0 ],
             "obj-1::obj-3::obj-4::obj-3": [ "2-AmpDecay", "Decay", 0 ],
             "obj-1::obj-3::obj-4::obj-7": [ "2-AmpAttack", "Attack", 0 ],
@@ -1673,12 +1673,12 @@
             "obj-1::obj-8::obj-2": [ "RandTab", "Tab", 0 ],
             "obj-40::obj-11": [ "RingFilt", "RingFilt", 0 ],
             "obj-40::obj-25": [ "Ring", "Ring", 0 ],
-            "obj-40::obj-31": [ "RingGain", "RGain", 0 ],
-            "obj-40::obj-34": [ "RingAttack", "RAttack", 0 ],
-            "obj-40::obj-36": [ "RingDecay", "RDecay", 0 ],
+            "obj-40::obj-31": [ "RingGain", "Gain", 0 ],
+            "obj-40::obj-34": [ "RingAttack", "Attack", 0 ],
+            "obj-40::obj-36": [ "RingDecay", "Decay", 0 ],
             "obj-45": [ "Randomize", "Rand", 0 ],
-            "obj-9::obj-1::obj-1": [ "FiltFreq", "FFreq", 0 ],
-            "obj-9::obj-1::obj-11": [ "FiltQ", "Q", 0 ],
+            "obj-9::obj-1::obj-1": [ "FiltFreq", "Freq", 0 ],
+            "obj-9::obj-1::obj-11": [ "FiltQ", "Res", 0 ],
             "obj-9::obj-1::obj-6": [ "FiltType", "Type", 0 ],
             "obj-9::obj-7": [ "Filt", "Filt", 0 ],
             "parameterbanks": {
@@ -1789,6 +1789,16 @@
             },
             "inherited_shortname": 1
         },
-        "autosave": 0
+        "autosave": 0,
+        "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "editing_bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "saved_attribute_attributes": {
+            "editing_bgcolor": {
+                "expression": "themecolor.live_macro_title"
+            },
+            "locked_bgcolor": {
+                "expression": "themecolor.live_macro_title"
+            }
+        }
     }
 }
