@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 451.0, 105.0, 1477.0, 1064.0 ],
+        "rect": [ 932.0, 134.0, 1477.0, 1064.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -680,21 +680,9 @@
                     "outlettype": [ "signal", "signal" ],
                     "patching_rect": [ 272.0, 896.0, 48.0, 160.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 240.0, 8.0, 48.0, 160.0 ],
+                    "presentation_rect": [ 236.0, 86.0, 103.0, 84.0 ],
                     "varname": "BiquadFilt",
                     "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-2",
-                    "justification": 1,
-                    "maxclass": "live.line",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 584.0, 336.0, 5.0, 100.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 232.0, 8.0, 8.0, 160.0 ]
                 }
             },
             {
@@ -716,21 +704,9 @@
                     "outlettype": [ "signal", "" ],
                     "patching_rect": [ 264.0, 336.0, 96.0, 160.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 288.0, 8.0, 96.0, 160.0 ],
+                    "presentation_rect": [ 236.0, 0.0, 144.0, 93.0 ],
                     "varname": "RingMod",
                     "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-37",
-                    "justification": 1,
-                    "maxclass": "live.line",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 568.0, 336.0, 5.0, 100.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 280.0, 8.0, 8.0, 160.0 ]
                 }
             },
             {
@@ -869,7 +845,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 80.0, 1112.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 288.0, 120.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 336.0, 115.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "Vol",

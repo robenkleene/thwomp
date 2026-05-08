@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 713.0, 371.0, 339.0, 637.0 ],
+        "rect": [ 849.0, 404.0, 339.0, 637.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -96,7 +96,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 136.0, 384.0, 32.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 3.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -199,9 +199,30 @@
                     "outlettype": [ "signal", "signal" ],
                     "patching_rect": [ 80.0, 232.0, 48.0, 168.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 98.0, 80.0 ],
+                    "presentation_rect": [ 3.0, 3.0, 98.0, 80.0 ],
                     "varname": "Biquad",
                     "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "angle": 270.0,
+                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
+                    "id": "obj-panel",
+                    "maxclass": "panel",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 608.0, 432.0, 46.0, 170.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 0.0, 99.0, 82.5 ],
+                    "proportion": 0.39,
+                    "rounded": 4,
+                    "saved_attribute_attributes": {
+                        "bgfillcolor": {
+                            "expression": "themecolor.live_surface_bg"
+                        }
+                    }
                 }
             }
         ],
@@ -318,6 +339,16 @@
             },
             "inherited_shortname": 1
         },
-        "autosave": 0
+        "autosave": 0,
+        "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "editing_bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "saved_attribute_attributes": {
+            "editing_bgcolor": {
+                "expression": "themecolor.live_macro_title"
+            },
+            "locked_bgcolor": {
+                "expression": "themecolor.live_macro_title"
+            }
+        }
     }
 }

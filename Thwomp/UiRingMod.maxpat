@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 531.0, 320.0, 1362.0, 983.0 ],
+        "rect": [ 778.0, 355.0, 1362.0, 983.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -56,7 +56,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 488.0, 536.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 47.0, 0.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 50.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -249,7 +249,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 232.0, 320.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 2.5, 28.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 6.0, 31.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 5.0,
@@ -276,7 +276,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 280.0, 320.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 49.5, 28.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 53.0, 31.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 5.0,
@@ -324,7 +324,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 256.0, 432.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 96.5, 28.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 100.0, 31.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RingGain",
@@ -371,7 +371,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 184.0, 224.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 3.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -385,6 +385,26 @@
                     "text": "Ring",
                     "texton": "Ring",
                     "varname": "Ring"
+                }
+            },
+            {
+                "box": {
+                    "angle": 270.0,
+                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
+                    "id": "obj-9",
+                    "maxclass": "panel",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 304.0, 298.0, 128.0, 128.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 0.0, 142.0, 84.0 ],
+                    "proportion": 0.39,
+                    "saved_attribute_attributes": {
+                        "bgfillcolor": {
+                            "expression": "themecolor.live_surface_bg"
+                        }
+                    }
                 }
             }
         ],
@@ -556,6 +576,16 @@
             },
             "inherited_shortname": 1
         },
-        "autosave": 0
+        "autosave": 0,
+        "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "editing_bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "saved_attribute_attributes": {
+            "editing_bgcolor": {
+                "expression": "themecolor.live_macro_title"
+            },
+            "locked_bgcolor": {
+                "expression": "themecolor.live_macro_title"
+            }
+        }
     }
 }
