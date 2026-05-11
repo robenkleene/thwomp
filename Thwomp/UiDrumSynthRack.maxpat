@@ -640,7 +640,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 129.0, 296.0, 95.0, 22.0 ],
+                    "patching_rect": [ 160.0, 296.0, 95.0, 22.0 ],
                     "text": "randomize bang"
                 }
             },
@@ -1187,7 +1187,7 @@
                     "outlettype": [ "signal", "signal", "signal", "signal", "" ],
                     "patching_rect": [ 16.0, 336.0, 248.0, 160.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 44.0, 0.0, 200.0, 169.0 ],
+                    "presentation_rect": [ 44.0, 0.0, 337.0, 169.0 ],
                     "varname": "DrumSynthBank",
                     "viewvisibility": 1
                 }
