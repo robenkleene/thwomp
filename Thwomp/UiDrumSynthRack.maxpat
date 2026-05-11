@@ -45,7 +45,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 497.5, 188.0, 30.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 404.0, 125.0, 30.0, 20.0 ],
+                    "presentation_rect": [ 385.0, 146.0, 40.0, 20.0 ],
                     "text": "OW",
                     "texton": "OW",
                     "varname": "Overwrite"
@@ -61,7 +61,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 456.0, 189.5, 25.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 404.0, 150.0, 25.0, 20.0 ],
+                    "presentation_rect": [ 385.0, 124.0, 40.0, 20.0 ],
                     "text": "W",
                     "varname": "Write"
                 }
@@ -76,7 +76,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 376.0, 188.0, 25.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 404.0, 8.0, 25.0, 20.0 ],
+                    "presentation_rect": [ 385.0, 0.0, 40.0, 20.0 ],
                     "text": "R",
                     "varname": "Read"
                 }
@@ -1053,7 +1053,7 @@
                     "patching_rect": [ 568.0, 296.0, 77.0, 29.0 ],
                     "pattrstorage": "Presets",
                     "presentation": 1,
-                    "presentation_rect": [ 404.0, 32.0, 40.0, 88.0 ]
+                    "presentation_rect": [ 385.0, 22.0, 40.0, 100.0 ]
                 }
             },
             {
@@ -1071,7 +1071,7 @@
                     "name": "UiDrumSynthBank.maxpat",
                     "numinlets": 1,
                     "numoutlets": 5,
-                    "offset": [ 0.0, -171.0 ],
+                    "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal", "signal", "signal", "" ],
                     "patching_rect": [ 16.0, 336.0, 248.0, 160.0 ],
                     "presentation": 1,
