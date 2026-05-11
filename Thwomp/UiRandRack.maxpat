@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 622.0, 274.0, 1000.0, 780.0 ],
+        "rect": [ 107.0, 254.0, 1595.0, 1008.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -20,7 +20,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 168.0, 208.0, 30.0, 30.0 ]
+                    "patching_rect": [ 173.0, 204.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -31,7 +31,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 88.0, 208.0, 30.0, 30.0 ]
+                    "patching_rect": [ 86.5, 204.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -42,7 +42,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 0.0, 208.0, 30.0, 30.0 ]
+                    "patching_rect": [ 0.0, 204.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -130,7 +130,7 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "UiRandomize.maxpat",
+                    "name": "UiRand.maxpat",
                     "numinlets": 1,
                     "numoutlets": 3,
                     "offset": [ 0.0, 0.0 ],
@@ -138,7 +138,7 @@
                     "patching_rect": [ 0.0, 24.0, 192.0, 144.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 16.0, 192.0, 144.0 ],
-                    "varname": "UiRandomize",
+                    "varname": "UiRand",
                     "viewvisibility": 1
                 }
             }
@@ -256,6 +256,14 @@
             "obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
             "obj-2": [ "RandTab", "Tab", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-1::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15.0 ]

@@ -547,7 +547,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 120.0, 264.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 152.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 0.0, 152.0, 42.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
