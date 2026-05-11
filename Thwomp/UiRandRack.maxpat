@@ -14,6 +14,28 @@
         "boxes": [
             {
                 "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-9",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiRandTabs.maxpat",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "int" ],
+                    "patching_rect": [ 48.0, -74.5, 146.0, 19.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 15.0, 0.0, 146.0, 19.0 ],
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
                     "comment": "(note) randomize note trigger",
                     "id": "obj-8",
                     "index": 0,
@@ -66,7 +88,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
                     "patching_rect": [ 48.0, -48.0, 41.0, 22.0 ],
-                    "text": "* -200"
+                    "text": "* -171"
                 }
             },
             {
@@ -88,34 +110,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 48.0, -16.0, 64.0, 22.0 ],
-                    "text": "offset $1 0"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-2",
-                    "maxclass": "live.tab",
-                    "num_lines_patching": 1,
-                    "num_lines_presentation": 1,
-                    "numinlets": 1,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 48.0, -80.0, 200.0, 16.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 192.0, 16.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "Osc", "Env", "Effect", "Ring" ],
-                            "parameter_longname": "RandTab",
-                            "parameter_mmax": 3,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Tab",
-                            "parameter_type": 2,
-                            "parameter_unitstyle": 9
-                        }
-                    },
-                    "varname": "live.tab"
+                    "text": "offset 0 $1"
                 }
             },
             {
@@ -164,12 +159,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-7", 0 ],
-                    "source": [ "obj-2", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-1", 0 ],
                     "source": [ "obj-3", 0 ]
                 }
@@ -184,6 +173,12 @@
                 "patchline": {
                     "destination": [ "obj-5", 0 ],
                     "source": [ "obj-7", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-7", 0 ],
+                    "source": [ "obj-9", 0 ]
                 }
             }
         ],
@@ -255,7 +250,9 @@
             "obj-1::obj-76": [ "RandAuto", "Auto", 0 ],
             "obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
-            "obj-2": [ "RandTab", "Tab", 0 ],
+            "obj-9::obj-1": [ "live.text", "live.text", 0 ],
+            "obj-9::obj-2": [ "live.text[1]", "live.text", 0 ],
+            "obj-9::obj-3": [ "live.text[2]", "live.text", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
@@ -364,6 +361,16 @@
             },
             "inherited_shortname": 1
         },
-        "autosave": 0
+        "autosave": 0,
+        "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "editing_bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "saved_attribute_attributes": {
+            "editing_bgcolor": {
+                "expression": "themecolor.live_macro_title"
+            },
+            "locked_bgcolor": {
+                "expression": "themecolor.live_macro_title"
+            }
+        }
     }
 }
