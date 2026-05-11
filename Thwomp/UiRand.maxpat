@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 228.0, 144.0, 1632.0, 1111.0 ],
+        "rect": [ 330.0, 171.0, 1632.0, 1111.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -266,7 +266,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 344.0, 40.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 48.0, 48.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 48.0, 48.0, 41.0, 113.0 ],
                     "varname": "RandOscSemiMinMax",
                     "viewvisibility": 1
                 }
@@ -966,7 +966,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2320,7 +2320,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 912.0, 928.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 744.0, 48.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 744.0, 48.0, 41.0, 113.0 ],
                     "varname": "RandVolMinMax",
                     "viewvisibility": 1
                 }
@@ -2433,7 +2433,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 760.0, 928.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 696.0, 48.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 696.0, 48.0, 41.0, 113.0 ],
                     "varname": "RandRingGainMinMax",
                     "viewvisibility": 1
                 }
@@ -2468,7 +2468,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 608.0, 928.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 648.0, 48.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 648.0, 48.0, 41.0, 113.0 ],
                     "varname": "RandRingDecayMinMax",
                     "viewvisibility": 1
                 }
@@ -2503,7 +2503,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 456.0, 928.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 600.0, 48.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 600.0, 48.0, 41.0, 113.0 ],
                     "varname": "RandRingAttackMinMax",
                     "viewvisibility": 1
                 }
@@ -2824,7 +2824,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 496.0, 40.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 48.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 0.0, 48.0, 41.0, 113.0 ],
                     "varname": "RandOscFreqMinMax",
                     "viewvisibility": 1
                 }
@@ -2859,7 +2859,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 496.0, 624.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 544.0, 48.0, 40.0, 96.0 ],
+                    "presentation_rect": [ 544.0, 48.0, 40.0, 113.0 ],
                     "varname": "RandFiltQMinMax",
                     "viewvisibility": 1
                 }
@@ -2894,7 +2894,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 344.0, 624.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 496.0, 48.0, 40.0, 96.0 ],
+                    "presentation_rect": [ 496.0, 48.0, 40.0, 113.0 ],
                     "varname": "RandFiltFreqMinMax",
                     "viewvisibility": 1
                 }
@@ -2981,7 +2981,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 808.0, 328.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 344.0, 48.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 344.0, 48.0, 41.0, 113.0 ],
                     "varname": "RandOscGainMinMax",
                     "viewvisibility": 1
                 }
@@ -3016,7 +3016,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 656.0, 328.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 144.0, 48.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 144.0, 48.0, 41.0, 113.0 ],
                     "varname": "RandOscDecayMinMax",
                     "viewvisibility": 1
                 }
@@ -3051,7 +3051,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 496.0, 328.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 96.0, 48.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 96.0, 48.0, 41.0, 113.0 ],
                     "varname": "RandOscAttackMinMax",
                     "viewvisibility": 1
                 }
@@ -3086,7 +3086,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 344.0, 328.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 448.0, 48.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 448.0, 48.0, 41.0, 113.0 ],
                     "varname": "RandOvertoneMinMax",
                     "viewvisibility": 1
                 }
@@ -3121,7 +3121,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 192.0, 328.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 400.0, 48.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 400.0, 48.0, 41.0, 113.0 ],
                     "varname": "RandOverdriveMinMax",
                     "viewvisibility": 1
                 }
@@ -3156,7 +3156,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 1040.0, 40.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 296.0, 48.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 296.0, 48.0, 41.0, 113.0 ],
                     "varname": "RandOscPchEnvAmtMinMax",
                     "viewvisibility": 1
                 }
@@ -3191,7 +3191,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 840.0, 40.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 248.0, 48.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 248.0, 48.0, 41.0, 113.0 ],
                     "varname": "RandOscPchEnvCurMinMax",
                     "viewvisibility": 1
                 }
@@ -3230,7 +3230,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -3247,7 +3247,7 @@
                                     "outlettype": [ "", "", "", "" ],
                                     "patching_rect": [ 360.0, 64.0, 56.0, 22.0 ],
                                     "restore": {
-                                        "RandOscPchEnvDur-Max": [ 15.0 ],
+                                        "RandOscPchEnvDur-Max": [ 0.0 ],
                                         "RandOscPchEnvDur-Min": [ 0.0 ]
                                     },
                                     "text": "autopattr",
@@ -3310,7 +3310,7 @@
                                     "parameter_enable": 1,
                                     "patching_rect": [ 128.0, 304.0, 41.0, 48.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 0.0, 48.0, 41.0, 48.0 ],
+                                    "presentation_rect": [ 0.0, 60.0, 41.0, 48.0 ],
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_longname": "RandPitchEnvDur-Max",
@@ -3622,7 +3622,7 @@
                     },
                     "patching_rect": [ 656.0, 40.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 200.0, 48.0, 41.0, 96.0 ],
+                    "presentation_rect": [ 200.0, 48.0, 41.0, 113.0 ],
                     "varname": "RandOscPchEnvDurMinMax",
                     "viewvisibility": 1
                 }
@@ -5265,12 +5265,20 @@
             "obj-76": [ "RandAuto", "Auto", 0 ],
             "obj-8::obj-1": [ "RandOverdrive-Min", "OvrMin", 0 ],
             "obj-8::obj-2": [ "RandOverdrive-Max", "OvrMax", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-10::obj-1": {
-                    "parameter_range": [ 0.0, 15.0 ]
+                    "parameter_longname": "RandPitchEnvDur-Min"
                 },
                 "obj-10::obj-2": {
-                    "parameter_range": [ 0.0, 15.0 ]
+                    "parameter_longname": "RandPitchEnvDur-Max"
                 },
                 "obj-12::obj-1": {
                     "parameter_range": [ -100.0, 100.0 ]
