@@ -213,11 +213,11 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 1117.0, 590.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 752.0, 440.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 291.0, 53.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "RandTrigSet[1]",
+                            "parameter_longname": "RandTrigSet",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "TrigSet",
@@ -252,7 +252,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 933.0, 563.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 568.0, 413.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 291.0, 36.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandTrig[1]",
@@ -263,18 +263,6 @@
                         }
                     },
                     "varname": "RandTrig"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-166",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 933.0, 534.0, 39.0, 20.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 568.0, 384.0, 39.0, 20.0 ],
-                    "text": "Trig"
                 }
             },
             {
@@ -567,16 +555,17 @@
             },
             {
                 "box": {
+                    "fontname": "Ableton Sans Medium",
+                    "fontsize": 10.0,
                     "id": "obj-74",
                     "linecount": 2,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 821.0, 312.0, 37.0, 33.0 ],
+                    "patching_rect": [ 821.0, 312.0, 32.0, 30.0 ],
                     "presentation": 1,
-                    "presentation_linecount": 2,
-                    "presentation_rect": [ 456.0, 162.0, 37.0, 33.0 ],
-                    "text": "AutoBts"
+                    "presentation_rect": [ 288.0, 130.0, 53.0, 18.0 ],
+                    "text": "Auto Beat"
                 }
             },
             {
@@ -591,7 +580,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 821.0, 344.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 456.0, 194.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 291.0, 148.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandAuto[1]",
@@ -614,7 +603,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 981.0, 558.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 605.0, 313.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 291.0, 19.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -1119,7 +1108,7 @@
         ],
         "parameters": {
             "obj-170": [ "RandTrig[1]", "Trig", 0 ],
-            "obj-175": [ "RandTrigSet[1]", "TrigSet", 0 ],
+            "obj-175": [ "RandTrigSet", "TrigSet", 0 ],
             "obj-1::obj-1": [ "RandOsc1", "Osc1", 0 ],
             "obj-1::obj-10::obj-1": [ "RandPitchEnvDur-Min", "PDurMin", 0 ],
             "obj-1::obj-10::obj-2": [ "RandPitchEnvDur-Max", "PDurMax", 0 ],
