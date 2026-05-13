@@ -4,16 +4,16 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 3,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 611.0, 373.0, 526.0, 187.0 ],
-        "openrect": [ 0.0, 0.0, 512.0, 170.0 ],
+        "rect": [ 59.0, 111.0, 384.0, 183.0 ],
+        "openrect": [ 0.0, 0.0, 384.0, 183.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
-        "devicewidth": 512.0,
+        "devicewidth": 384.0,
         "boxes": [
             {
                 "box": {
@@ -325,7 +325,7 @@
             "obj-1::obj-1::obj-8::obj-1::obj-7": [ "RandOscPchEnvDur", "PDur", 0 ],
             "obj-1::obj-1::obj-8::obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "Min", 0 ],
             "obj-1::obj-1::obj-8::obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "Max", 0 ],
-            "obj-1::obj-1::obj-8::obj-2": [ "RandTab", "RandTrigToggle", 0 ],
+            "obj-1::obj-1::obj-8::obj-2": [ "RandTrigToggle", "RandTrigToggle", 0 ],
             "obj-1::obj-1::obj-8::obj-76": [ "RandAuto[1]", "Auto", 0 ],
             "obj-1::obj-1::obj-8::obj-9::obj-1": [ "live.text", "live.text", 0 ],
             "obj-1::obj-1::obj-8::obj-9::obj-2": [ "live.text[1]", "live.text", 0 ],
@@ -352,12 +352,6 @@
                 }
             },
             "parameter_overrides": {
-                "obj-1::obj-1::obj-8::obj-1::obj-10::obj-1": {
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-1::obj-1::obj-8::obj-1::obj-10::obj-2": {
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
                 "obj-1::obj-1::obj-8::obj-1::obj-12::obj-1": {
                     "parameter_range": [ -100.0, 100.0 ]
                 },
@@ -447,16 +441,13 @@
                 },
                 "obj-1::obj-1::obj-8::obj-1::obj-8::obj-2": {
                     "parameter_range": [ 0.0, 100.0 ]
-                },
-                "obj-1::obj-1::obj-8::obj-2": {
-                    "parameter_longname": "RandTab"
                 }
             },
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-        "editing_bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "bgcolor": [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
+        "editing_bgcolor": [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
         "saved_attribute_attributes": {
             "editing_bgcolor": {
                 "expression": "themecolor.live_macro_title"
