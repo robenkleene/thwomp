@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 187.0, 169.0, 1071.0, 864.0 ],
+        "rect": [ 890.0, 224.0, 1071.0, 864.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -74,7 +74,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 997.0, 683.0, 103.0, 100.0 ],
-                    "presentation_linecount": 7,
                     "text": "Sending `-1` disables the note filter so that all notes playback. (the randomize note is disabled for playback.)"
                 }
             },
@@ -273,7 +272,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 581.0, 566.0, 144.0, 87.0 ],
-                    "presentation_linecount": 6,
                     "text": "For Auto Beat 1, trigger the randomize on every beat greater than 1, because there will never be a zero crossing with a Auto Beat setting of 1"
                 }
             },
@@ -362,7 +360,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 597.0, 406.0, 138.0, 114.0 ],
-                    "presentation_linecount": 8,
                     "text": "Only trigger a randomize if the current beat is higher than the auto beat setting. This prevents a randomize from happening immediately when playback starts."
                 }
             },
@@ -650,7 +647,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
                     "patching_rect": [ 191.0, -48.5, 41.0, 22.0 ],
-                    "text": "* -171"
+                    "text": "* -154"
                 }
             },
             {
@@ -690,7 +687,7 @@
                     "name": "UiRand.maxpat",
                     "numinlets": 1,
                     "numoutlets": 1,
-                    "offset": [ 0.0, 0.0 ],
+                    "offset": [ 0.0, -308.0 ],
                     "outlettype": [ "" ],
                     "patching_rect": [ 0.0, 24.0, 192.0, 144.0 ],
                     "presentation": 1,
@@ -1110,8 +1107,8 @@
             "obj-170": [ "RandTrig[1]", "Trig", 0 ],
             "obj-175": [ "RandTrigSet", "TrigSet", 0 ],
             "obj-1::obj-1": [ "RandOsc1", "Osc1", 0 ],
-            "obj-1::obj-10::obj-1": [ "RandPitchEnvDur-Min", "PDurMin", 0 ],
-            "obj-1::obj-10::obj-2": [ "RandPitchEnvDur-Max", "PDurMax", 0 ],
+            "obj-1::obj-10::obj-1": [ "RandPitchEnvDur-Min", "Min", 0 ],
+            "obj-1::obj-10::obj-2": [ "RandPitchEnvDur-Max", "Max", 0 ],
             "obj-1::obj-126::obj-27": [ "RandFiltType-Min", "FTypeMin", 0 ],
             "obj-1::obj-126::obj-28": [ "RandFiltType-Max", "FTypeMax", 0 ],
             "obj-1::obj-127::obj-26": [ "RandOscShape-Min", "ShapeMin", 0 ],
