@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 510.0, 181.0, 1657.0, 1165.0 ],
+        "rect": [ 377.0, 114.0, 1657.0, 1165.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -2243,7 +2243,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 496.0, 624.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 98.0, 346.0, 46.0, 113.0 ],
+                    "presentation_rect": [ 99.0, 346.0, 41.0, 113.0 ],
                     "varname": "RandFiltQMinMax",
                     "viewvisibility": 1
                 }
@@ -2278,7 +2278,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 344.0, 624.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 50.0, 346.0, 46.0, 113.0 ],
+                    "presentation_rect": [ 52.0, 346.0, 41.0, 113.0 ],
                     "varname": "RandFiltFreqMinMax",
                     "viewvisibility": 1
                 }
