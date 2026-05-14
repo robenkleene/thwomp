@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 3,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
@@ -204,7 +204,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 3,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -862,7 +862,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 568.0, 264.0, 171.0, 22.0 ],
+                    "patching_rect": [ 627.0, 264.0, 171.0, 22.0 ],
                     "text": "loadmess pattrstorage Presets"
                 }
             },
@@ -1144,14 +1144,14 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 416.0, 304.0, 117.0, 22.0 ],
+                    "patching_rect": [ 416.0, 304.0, 197.0, 22.0 ],
                     "saved_object_attributes": {
                         "client_rect": [ 4, 44, 358, 172 ],
                         "parameter_enable": 0,
                         "parameter_mappable": 0,
                         "storage_rect": [ 583, 69, 1034, 197 ]
                     },
-                    "text": "pattrstorage Presets",
+                    "text": "pattrstorage Presets @savemode 0",
                     "varname": "Presets"
                 }
             },
@@ -1164,7 +1164,7 @@
                     "numinlets": 1,
                     "numoutlets": 5,
                     "outlettype": [ "preset", "int", "preset", "int", "" ],
-                    "patching_rect": [ 568.0, 296.0, 77.0, 29.0 ],
+                    "patching_rect": [ 627.0, 296.0, 77.0, 29.0 ],
                     "pattrstorage": "Presets",
                     "presentation": 1,
                     "presentation_rect": [ 385.0, 22.0, 40.0, 100.0 ]
@@ -1787,9 +1787,11 @@
             "obj-1::obj-3::obj-5": [ "2-Gain", "Gain", 0 ],
             "obj-1::obj-3::obj-7": [ "2-Osc", "Osc", 0 ],
             "obj-1::obj-3::obj-9": [ "2-OscShape", "Shape", 0 ],
+            "obj-1::obj-8::obj-170": [ "RandTrig[1]", "Trig", 0 ],
+            "obj-1::obj-8::obj-175": [ "RandTrigSet", "TrigSet", 0 ],
             "obj-1::obj-8::obj-1::obj-1": [ "RandOsc1", "Osc1", 0 ],
-            "obj-1::obj-8::obj-1::obj-10::obj-1": [ "RandPitchEnvDur-Min", "PDurMin", 0 ],
-            "obj-1::obj-8::obj-1::obj-10::obj-2": [ "RandPitchEnvDur-Max", "PDurMax", 0 ],
+            "obj-1::obj-8::obj-1::obj-10::obj-1": [ "RandPitchEnvDur-Min", "Min", 0 ],
+            "obj-1::obj-8::obj-1::obj-10::obj-2": [ "RandPitchEnvDur-Max", "Max", 0 ],
             "obj-1::obj-8::obj-1::obj-126::obj-27": [ "RandFiltType-Min", "FTypeMin", 0 ],
             "obj-1::obj-8::obj-1::obj-126::obj-28": [ "RandFiltType-Max", "FTypeMax", 0 ],
             "obj-1::obj-8::obj-1::obj-127::obj-26": [ "RandOscShape-Min", "ShapeMin", 0 ],
@@ -1801,8 +1803,6 @@
             "obj-1::obj-8::obj-1::obj-14::obj-2": [ "RandOscPchEnvAmt-Max", "Max", 0 ],
             "obj-1::obj-8::obj-1::obj-16::obj-1": [ "RandOvertone-Min", "Min", 0 ],
             "obj-1::obj-8::obj-1::obj-16::obj-2": [ "RandOvertone-Max", "Max", 0 ],
-            "obj-1::obj-8::obj-1::obj-170": [ "RandTrig", "Trig", 0 ],
-            "obj-1::obj-8::obj-1::obj-175": [ "RandTrigSet", "TrigSet", 0 ],
             "obj-1::obj-8::obj-1::obj-18::obj-1": [ "RandOscAttack-Min", "Min", 0 ],
             "obj-1::obj-8::obj-1::obj-18::obj-2": [ "RandOscAttack-Max", "Max", 0 ],
             "obj-1::obj-8::obj-1::obj-2": [ "RandOsc2", "Osc2", 0 ],
@@ -1813,7 +1813,6 @@
             "obj-1::obj-8::obj-1::obj-20::obj-2": [ "RandOscDecay-Max", "Max", 0 ],
             "obj-1::obj-8::obj-1::obj-218": [ "RandOscSemi", "Freq", 0 ],
             "obj-1::obj-8::obj-1::obj-22": [ "RandOvertone", "Overtone", 0 ],
-            "obj-1::obj-8::obj-1::obj-221": [ "RandTrigToggle", "RandTrigToggle", 0 ],
             "obj-1::obj-8::obj-1::obj-23": [ "RandOscAttack", "Attack", 0 ],
             "obj-1::obj-8::obj-1::obj-24::obj-1": [ "RandOscGain-Min", "Min", 0 ],
             "obj-1::obj-8::obj-1::obj-24::obj-2": [ "RandOscGain-Max", "Max", 0 ],
@@ -1851,9 +1850,10 @@
             "obj-1::obj-8::obj-1::obj-67::obj-1": [ "RandVol-Min", "Min", 0 ],
             "obj-1::obj-8::obj-1::obj-67::obj-2": [ "RandVol-Max", "Max", 0 ],
             "obj-1::obj-8::obj-1::obj-7": [ "RandOscPchEnvDur", "PDur", 0 ],
-            "obj-1::obj-8::obj-1::obj-76": [ "RandAuto", "Auto", 0 ],
             "obj-1::obj-8::obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "Min", 0 ],
             "obj-1::obj-8::obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "Max", 0 ],
+            "obj-1::obj-8::obj-2": [ "RandTrigToggle", "RandTrigToggle", 0 ],
+            "obj-1::obj-8::obj-76": [ "RandAuto[1]", "Auto", 0 ],
             "obj-1::obj-8::obj-9::obj-1": [ "live.text", "live.text", 0 ],
             "obj-1::obj-8::obj-9::obj-2": [ "live.text[1]", "live.text", 0 ],
             "obj-1::obj-8::obj-9::obj-3": [ "live.text[2]", "live.text", 0 ],
@@ -1979,8 +1979,8 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-        "editing_bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "bgcolor": [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
+        "editing_bgcolor": [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
         "saved_attribute_attributes": {
             "editing_bgcolor": {
                 "expression": "themecolor.live_macro_title"
