@@ -7,7 +7,6 @@
                 "data": {
                     "Overwrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
-                    "Read": [ 0.0 ],
                     "Vol": [ -2.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ -2.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Osc": [ 1.0 ],
@@ -118,7 +117,6 @@
                 "data": {
                     "Overwrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
-                    "Read": [ 0.0 ],
                     "Vol": [ -2.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ -6.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Osc": [ 1 ],
@@ -229,7 +227,6 @@
                 "data": {
                     "Overwrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
-                    "Read": [ 0.0 ],
                     "Vol": [ -2.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ -8.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Osc": [ 1 ],
@@ -340,7 +337,6 @@
                 "data": {
                     "Overwrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
-                    "Read": [ 0.0 ],
                     "Vol": [ -2.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ -4.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Osc": [ 1 ],
@@ -451,7 +447,6 @@
                 "data": {
                     "Overwrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
-                    "Read": [ 0.0 ],
                     "Vol": [ -2.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ -30.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Osc": [ 1 ],
@@ -562,7 +557,6 @@
                 "data": {
                     "Overwrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
-                    "Read": [ 0.0 ],
                     "Vol": [ 0.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ 0.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Osc": [ 0 ],

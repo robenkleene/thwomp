@@ -173,8 +173,7 @@
                     "patching_rect": [ 456.0, 189.5, 25.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 385.0, 124.0, 40.0, 20.0 ],
-                    "text": "W",
-                    "varname": "Write"
+                    "text": "W"
                 }
             },
             {
@@ -188,8 +187,7 @@
                     "patching_rect": [ 376.0, 188.0, 25.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 385.0, 0.0, 40.0, 20.0 ],
-                    "text": "R",
-                    "varname": "Read"
+                    "text": "R"
                 }
             },
             {
@@ -877,9 +875,7 @@
                     "restore": {
                         "Overwrite": [ 0 ],
                         "Randomize": [ 0.0 ],
-                        "Read": [ -1 ],
-                        "Vol": [ 0.0 ],
-                        "Write": [ -1 ]
+                        "Vol": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u061005779"
