@@ -9,10 +9,10 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 454.0, 381.0, 776.0, 398.0 ],
-        "openrect": [ 0.0, 0.0, 477.0, 169.0 ],
+        "openrect": [ 454.0, 381.0, 485.0, 170.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
+        "devicewidth": 485.0,
         "boxes": [
             {
                 "box": {
@@ -78,7 +78,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 16.0, 8.0, 64.0, 80.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 427.0, 48.0, 52.0, 73.0 ],
+                    "presentation_rect": [ 433.0, 45.0, 52.0, 73.0 ],
                     "varname": "NotePacker",
                     "viewvisibility": 1
                 }
@@ -102,7 +102,7 @@
                     "outlettype": [ "signal", "signal", "" ],
                     "patching_rect": [ 15.0, 135.0, 456.0, 175.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 427.0, 169.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 433.0, 169.0 ],
                     "varname": "DrumSynthRack",
                     "viewvisibility": 1
                 }
@@ -158,7 +158,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 15.0, 345.0, 45.0, 45.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 427.0, 118.0, 48.0, 48.0 ],
+                    "presentation_rect": [ 433.0, 115.0, 48.0, 48.0 ],
                     "varname": "Dac"
                 }
             }
@@ -229,6 +229,7 @@
         ],
         "parameters": {
             "obj-1::obj-11": [ "Vol", "Vol", 0 ],
+            "obj-1::obj-19": [ "PresetsOverwrite", "PresetsOverwrite", 0 ],
             "obj-1::obj-1::obj-1::obj-12": [ "1-OscFilt", "OscFilt", 0 ],
             "obj-1::obj-1::obj-1::obj-17::obj-17": [ "1-PitchEnvAmt", "Amount", 0 ],
             "obj-1::obj-1::obj-1::obj-17::obj-18": [ "1-PitchEnvDur", "Duration", 0 ],
@@ -332,6 +333,8 @@
             "obj-1::obj-2::obj-13": [ "TabOsc1", "TabOsc1", 0 ],
             "obj-1::obj-2::obj-7": [ "TabOsc2", "TabOsc2", 0 ],
             "obj-1::obj-2::obj-9": [ "TabRand", "TabRand", 0 ],
+            "obj-1::obj-30": [ "PresetsWrite", "PresetsWrite", 0 ],
+            "obj-1::obj-38": [ "PresetsRead", "PresetsRead", 0 ],
             "obj-1::obj-40::obj-11": [ "RingFilt", "RingFilt", 0 ],
             "obj-1::obj-40::obj-25": [ "Ring", "Ring", 0 ],
             "obj-1::obj-40::obj-31": [ "RingGain", "Gain", 0 ],
@@ -445,8 +448,8 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "bgcolor": [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
-        "editing_bgcolor": [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
+        "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "editing_bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
         "saved_attribute_attributes": {
             "editing_bgcolor": {
                 "expression": "themecolor.live_macro_title"

@@ -9,9 +9,89 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 205.0, 95.0, 1477.0, 1064.0 ],
+        "rect": [ 1248.0, 549.0, 926.0, 402.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-38",
+                    "maxclass": "live.text",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 376.0, 190.5, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 384.0, 2.0, 46.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "PresetsRead",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "PresetsRead",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Read",
+                    "texton": "Read",
+                    "varname": "PresetsRead"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-30",
+                    "maxclass": "live.text",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 456.0, 190.5, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 384.0, 133.0, 46.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "PresetsWrite",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "PresetsWrite",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Write",
+                    "texton": "Write",
+                    "varname": "PresetsWrite"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-19",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 507.0, 190.5, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 384.0, 149.0, 46.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "PresetsOverwrite",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "PresetsOverwrite",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Overwrite",
+                    "texton": "Overwrite",
+                    "varname": "PresetsOverwrite"
+                }
+            },
             {
                 "box": {
                     "id": "obj-81",
@@ -143,51 +223,6 @@
                     "presentation": 1,
                     "presentation_rect": [ -2.0, 9.0, 51.0, 59.0 ],
                     "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-77",
-                    "maxclass": "textbutton",
-                    "mode": 1,
-                    "numinlets": 1,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "int" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 497.5, 188.0, 30.0, 20.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 385.0, 146.0, 40.0, 20.0 ],
-                    "text": "OW",
-                    "texton": "OW",
-                    "varname": "Overwrite"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-75",
-                    "maxclass": "textbutton",
-                    "numinlets": 1,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "int" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 456.0, 189.5, 25.0, 20.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 385.0, 124.0, 40.0, 20.0 ],
-                    "text": "W"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-73",
-                    "maxclass": "textbutton",
-                    "numinlets": 1,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "int" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 376.0, 188.0, 25.0, 20.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 385.0, 0.0, 40.0, 20.0 ],
-                    "text": "R"
                 }
             },
             {
@@ -800,7 +835,6 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
-                    "hidden": 1,
                     "id": "obj-9",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
@@ -825,7 +859,6 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
-                    "hidden": 1,
                     "id": "obj-40",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
@@ -873,7 +906,9 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 568.0, 192.0, 56.0, 22.0 ],
                     "restore": {
-                        "Overwrite": [ 0 ],
+                        "PresetsOverwrite": [ 0.0 ],
+                        "PresetsRead": [ 0.0 ],
+                        "PresetsWrite": [ 0.0 ],
                         "Randomize": [ 0.0 ],
                         "Vol": [ 0.0 ]
                     },
@@ -939,7 +974,6 @@
             {
                 "box": {
                     "annotation": "The volume of this device.",
-                    "hidden": 1,
                     "id": "obj-11",
                     "maxclass": "live.dial",
                     "numinlets": 1,
@@ -1163,7 +1197,7 @@
                     "patching_rect": [ 627.0, 296.0, 77.0, 29.0 ],
                     "pattrstorage": "Presets",
                     "presentation": 1,
-                    "presentation_rect": [ 385.0, 22.0, 40.0, 100.0 ]
+                    "presentation_rect": [ 387.0, 19.0, 40.0, 112.0 ]
                 }
             },
             {
@@ -1181,7 +1215,7 @@
                     "name": "UiDrumSynthBank.maxpat",
                     "numinlets": 1,
                     "numoutlets": 5,
-                    "offset": [ 0.0, -342.0 ],
+                    "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal", "signal", "signal", "" ],
                     "patching_rect": [ 16.0, 336.0, 248.0, 160.0 ],
                     "presentation": 1,
@@ -1268,6 +1302,12 @@
                 "patchline": {
                     "destination": [ "obj-23", 0 ],
                     "source": [ "obj-18", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-16", 0 ],
+                    "source": [ "obj-19", 0 ]
                 }
             },
             {
@@ -1378,6 +1418,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-32", 0 ],
+                    "source": [ "obj-30", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-20", 0 ],
                     "source": [ "obj-31", 0 ]
                 }
@@ -1428,6 +1474,12 @@
                 "patchline": {
                     "destination": [ "obj-78", 0 ],
                     "source": [ "obj-37", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-28", 0 ],
+                    "source": [ "obj-38", 0 ]
                 }
             },
             {
@@ -1668,12 +1720,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-28", 0 ],
-                    "source": [ "obj-73", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-37", 0 ],
                     "order": 2,
                     "source": [ "obj-74", 0 ]
@@ -1695,12 +1741,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-32", 0 ],
-                    "source": [ "obj-75", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-37", 0 ],
                     "order": 2,
                     "source": [ "obj-76", 0 ]
@@ -1718,12 +1758,6 @@
                     "destination": [ "obj-81", 0 ],
                     "order": 0,
                     "source": [ "obj-76", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-16", 0 ],
-                    "source": [ "obj-77", 0 ]
                 }
             },
             {
@@ -1753,6 +1787,7 @@
         ],
         "parameters": {
             "obj-11": [ "Vol", "Vol", 0 ],
+            "obj-19": [ "PresetsOverwrite", "PresetsOverwrite", 0 ],
             "obj-1::obj-1::obj-12": [ "1-OscFilt", "OscFilt", 0 ],
             "obj-1::obj-1::obj-17::obj-17": [ "1-PitchEnvAmt", "Amount", 0 ],
             "obj-1::obj-1::obj-17::obj-18": [ "1-PitchEnvDur", "Duration", 0 ],
@@ -1856,6 +1891,8 @@
             "obj-2::obj-13": [ "TabOsc1", "TabOsc1", 0 ],
             "obj-2::obj-7": [ "TabOsc2", "TabOsc2", 0 ],
             "obj-2::obj-9": [ "TabRand", "TabRand", 0 ],
+            "obj-30": [ "PresetsWrite", "PresetsWrite", 0 ],
+            "obj-38": [ "PresetsRead", "PresetsRead", 0 ],
             "obj-40::obj-11": [ "RingFilt", "RingFilt", 0 ],
             "obj-40::obj-25": [ "Ring", "Ring", 0 ],
             "obj-40::obj-31": [ "RingGain", "Gain", 0 ],
@@ -1969,8 +2006,8 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "bgcolor": [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
-        "editing_bgcolor": [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
+        "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "editing_bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
         "saved_attribute_attributes": {
             "editing_bgcolor": {
                 "expression": "themecolor.live_macro_title"
