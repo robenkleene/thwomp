@@ -9,10 +9,10 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "openrect": [ 454.0, 381.0, 485.0, 170.0 ],
+        "openrect": [ 454.0, 381.0, 491.0, 169.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
-        "devicewidth": 485.0,
+        "devicewidth": 491.0,
         "boxes": [
             {
                 "box": {
@@ -78,7 +78,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 16.0, 8.0, 64.0, 80.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 433.0, 45.0, 52.0, 73.0 ],
+                    "presentation_rect": [ 439.0, 46.0, 52.0, 73.0 ],
                     "varname": "NotePacker",
                     "viewvisibility": 1
                 }
@@ -102,7 +102,7 @@
                     "outlettype": [ "signal", "signal", "" ],
                     "patching_rect": [ 15.0, 135.0, 456.0, 175.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 433.0, 169.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 440.0, 169.0 ],
                     "varname": "DrumSynthRack",
                     "viewvisibility": 1
                 }
@@ -158,7 +158,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 15.0, 345.0, 45.0, 45.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 433.0, 115.0, 48.0, 48.0 ],
+                    "presentation_rect": [ 439.0, 116.0, 48.0, 48.0 ],
                     "varname": "Dac"
                 }
             }
