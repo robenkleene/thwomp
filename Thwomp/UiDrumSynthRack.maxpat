@@ -23,7 +23,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 376.0, 190.5, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 384.0, 2.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 390.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -50,7 +50,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 456.0, 190.5, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 384.0, 133.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 390.0, 134.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -76,7 +76,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 507.0, 190.5, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 384.0, 149.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 390.0, 150.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -221,7 +221,7 @@
                     "outlettype": [ "int" ],
                     "patching_rect": [ 14.0, 156.5, 66.0, 61.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ -2.0, 9.0, 51.0, 59.0 ],
+                    "presentation_rect": [ 0.0, 9.0, 51.0, 59.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -691,7 +691,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 129.0, 264.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 152.0, 42.0, 15.0 ],
+                    "presentation_rect": [ 2.0, 152.0, 42.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -835,6 +835,7 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
+                    "hidden": 1,
                     "id": "obj-9",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
@@ -846,7 +847,7 @@
                     "outlettype": [ "signal", "signal" ],
                     "patching_rect": [ 272.0, 896.0, 101.0, 85.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 240.0, 86.0, 103.0, 84.0 ],
+                    "presentation_rect": [ 242.0, 86.0, 103.0, 84.0 ],
                     "varname": "BiquadFilt",
                     "viewvisibility": 1
                 }
@@ -859,6 +860,7 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
+                    "hidden": 1,
                     "id": "obj-40",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
@@ -870,7 +872,7 @@
                     "outlettype": [ "signal", "" ],
                     "patching_rect": [ 264.0, 336.0, 143.0, 88.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 240.0, 0.0, 144.0, 93.0 ],
+                    "presentation_rect": [ 242.0, 0.0, 144.0, 93.0 ],
                     "varname": "RingMod",
                     "viewvisibility": 1
                 }
@@ -974,6 +976,7 @@
             {
                 "box": {
                     "annotation": "The volume of this device.",
+                    "hidden": 1,
                     "id": "obj-11",
                     "maxclass": "live.dial",
                     "numinlets": 1,
@@ -982,7 +985,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 80.0, 1112.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 340.0, 115.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 342.0, 115.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "Vol",
@@ -1197,7 +1200,7 @@
                     "patching_rect": [ 627.0, 296.0, 77.0, 29.0 ],
                     "pattrstorage": "Presets",
                     "presentation": 1,
-                    "presentation_rect": [ 387.0, 19.0, 40.0, 112.0 ]
+                    "presentation_rect": [ 393.0, 20.0, 40.0, 112.0 ]
                 }
             },
             {
@@ -1215,11 +1218,11 @@
                     "name": "UiDrumSynthBank.maxpat",
                     "numinlets": 1,
                     "numoutlets": 5,
-                    "offset": [ 0.0, 0.0 ],
+                    "offset": [ 0.0, -342.0 ],
                     "outlettype": [ "signal", "signal", "signal", "signal", "" ],
                     "patching_rect": [ 16.0, 336.0, 248.0, 160.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 44.0, 0.0, 337.0, 170.0 ],
+                    "presentation_rect": [ 46.0, 0.0, 346.0, 170.0 ],
                     "varname": "DrumSynthBank",
                     "viewvisibility": 1
                 }

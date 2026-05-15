@@ -130,7 +130,7 @@
                     "outlettype": [ "", "bang", "int" ],
                     "patching_rect": [ 536.0, 360.0, 200.0, 168.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 343.0, 341.0, 169.0 ],
+                    "presentation_rect": [ 0.0, 343.0, 346.0, 169.0 ],
                     "varname": "Randomize",
                     "viewvisibility": 1
                 }
@@ -400,7 +400,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
-                    "order": 0,
+                    "order": 2,
                     "source": [ "obj-7", 0 ]
                 }
             },
@@ -420,7 +420,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-8", 0 ],
-                    "order": 2,
+                    "order": 0,
                     "source": [ "obj-7", 0 ]
                 }
             },
@@ -647,8 +647,8 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "bgcolor": [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
-        "editing_bgcolor": [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
+        "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "editing_bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
         "saved_attribute_attributes": {
             "editing_bgcolor": {
                 "expression": "themecolor.live_macro_title"

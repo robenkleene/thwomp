@@ -212,7 +212,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 1117.0, 590.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 291.0, 53.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 297.0, 52.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -251,7 +251,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 933.0, 563.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 291.0, 36.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 297.0, 35.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandTrig[1]",
@@ -561,7 +561,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 821.0, 312.0, 32.0, 30.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 288.0, 130.0, 53.0, 18.0 ],
+                    "presentation_rect": [ 294.0, 131.0, 53.0, 18.0 ],
                     "text": "Auto Beat"
                 }
             },
@@ -577,7 +577,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 821.0, 344.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 291.0, 148.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 297.0, 149.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandAuto[1]",
@@ -600,7 +600,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 981.0, 558.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 291.0, 19.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 297.0, 19.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -687,11 +687,11 @@
                     "name": "UiRand.maxpat",
                     "numinlets": 1,
                     "numoutlets": 1,
-                    "offset": [ 0.0, -308.0 ],
+                    "offset": [ 0.0, -154.0 ],
                     "outlettype": [ "" ],
                     "patching_rect": [ 0.0, 24.0, 192.0, 144.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 16.0, 289.0, 154.0 ],
+                    "presentation_rect": [ 0.0, 16.0, 297.0, 154.0 ],
                     "varname": "UiRand",
                     "viewvisibility": 1
                 }
@@ -1277,8 +1277,8 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "bgcolor": [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
-        "editing_bgcolor": [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
+        "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "editing_bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
         "saved_attribute_attributes": {
             "editing_bgcolor": {
                 "expression": "themecolor.live_macro_title"
