@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 3,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
@@ -400,7 +400,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
-                    "order": 2,
+                    "order": 0,
                     "source": [ "obj-7", 0 ]
                 }
             },
@@ -420,7 +420,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-8", 0 ],
-                    "order": 0,
+                    "order": 2,
                     "source": [ "obj-7", 0 ]
                 }
             },
@@ -477,8 +477,8 @@
             "obj-8::obj-170": [ "RandTrig[1]", "Trig", 0 ],
             "obj-8::obj-175": [ "RandTrigSet", "TrigSet", 0 ],
             "obj-8::obj-1::obj-1": [ "RandOsc1", "Osc1", 0 ],
-            "obj-8::obj-1::obj-10::obj-1": [ "RandPitchEnvDur-Min", "PDurMin", 0 ],
-            "obj-8::obj-1::obj-10::obj-2": [ "RandPitchEnvDur-Max", "PDurMax", 0 ],
+            "obj-8::obj-1::obj-10::obj-1": [ "RandPitchEnvDur-Min", "Min", 0 ],
+            "obj-8::obj-1::obj-10::obj-2": [ "RandPitchEnvDur-Max", "Max", 0 ],
             "obj-8::obj-1::obj-126::obj-27": [ "RandFiltType-Min", "FTypeMin", 0 ],
             "obj-8::obj-1::obj-126::obj-28": [ "RandFiltType-Max", "FTypeMax", 0 ],
             "obj-8::obj-1::obj-127::obj-26": [ "RandOscShape-Min", "ShapeMin", 0 ],
@@ -539,11 +539,11 @@
             "obj-8::obj-1::obj-7": [ "RandOscPchEnvDur", "PDur", 0 ],
             "obj-8::obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "Min", 0 ],
             "obj-8::obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "Max", 0 ],
-            "obj-8::obj-2": [ "RandTab", "RandTrigToggle", 0 ],
+            "obj-8::obj-2": [ "RandTrigToggle", "RandTrigToggle", 0 ],
             "obj-8::obj-76": [ "RandAuto[1]", "Auto", 0 ],
-            "obj-8::obj-9::obj-1": [ "live.text", "live.text", 0 ],
-            "obj-8::obj-9::obj-2": [ "live.text[1]", "live.text", 0 ],
-            "obj-8::obj-9::obj-3": [ "live.text[2]", "live.text", 0 ],
+            "obj-8::obj-9::obj-1": [ "RandTabOsc", "RandTabOsc", 0 ],
+            "obj-8::obj-9::obj-2": [ "RandTabEffect", "RandTabEffect", 0 ],
+            "obj-8::obj-9::obj-3": [ "RandTabFilter", "RandTabFilter", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
@@ -553,12 +553,6 @@
                 }
             },
             "parameter_overrides": {
-                "obj-8::obj-1::obj-10::obj-1": {
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-8::obj-1::obj-10::obj-2": {
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
                 "obj-8::obj-1::obj-12::obj-1": {
                     "parameter_range": [ -100.0, 100.0 ]
                 },
@@ -648,16 +642,13 @@
                 },
                 "obj-8::obj-1::obj-8::obj-2": {
                     "parameter_range": [ 0.0, 100.0 ]
-                },
-                "obj-8::obj-2": {
-                    "parameter_longname": "RandTab"
                 }
             },
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-        "editing_bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "bgcolor": [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
+        "editing_bgcolor": [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
         "saved_attribute_attributes": {
             "editing_bgcolor": {
                 "expression": "themecolor.live_macro_title"

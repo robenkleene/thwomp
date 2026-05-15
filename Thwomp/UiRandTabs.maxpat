@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 3,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 863.0, 487.0, 1016.0, 727.0 ],
+        "rect": [ 388.0, 315.0, 1016.0, 727.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -184,16 +184,16 @@
                         },
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "live.text[2]",
+                            "parameter_longname": "RandTabFilter",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "live.text",
+                            "parameter_shortname": "RandTabFilter",
                             "parameter_type": 2
                         }
                     },
                     "text": "Filter",
                     "texton": "Osc",
-                    "varname": "live.text[2]"
+                    "varname": "RandTabFilter"
                 }
             },
             {
@@ -223,22 +223,22 @@
                         },
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "live.text[1]",
+                            "parameter_longname": "RandTabEffect",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "live.text",
+                            "parameter_shortname": "RandTabEffect",
                             "parameter_type": 2
                         }
                     },
                     "text": "Effect",
                     "texton": "Osc",
-                    "varname": "live.text[1]"
+                    "varname": "RandTabEffect"
                 }
             },
             {
                 "box": {
                     "angle": 270.0,
-                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
+                    "bgcolor": [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
                     "id": "obj-11",
                     "maxclass": "panel",
                     "mode": 0,
@@ -258,7 +258,7 @@
             {
                 "box": {
                     "angle": 270.0,
-                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
+                    "bgcolor": [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
                     "id": "obj-12",
                     "maxclass": "panel",
                     "mode": 0,
@@ -302,22 +302,22 @@
                         },
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "live.text",
+                            "parameter_longname": "RandTabOsc",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "live.text",
+                            "parameter_shortname": "RandTabOsc",
                             "parameter_type": 2
                         }
                     },
                     "text": "Osc",
                     "texton": "Osc",
-                    "varname": "live.text"
+                    "varname": "RandTabOsc"
                 }
             },
             {
                 "box": {
                     "angle": 270.0,
-                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
+                    "bgcolor": [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
                     "id": "obj-8",
                     "maxclass": "panel",
                     "mode": 0,
@@ -556,9 +556,9 @@
             }
         ],
         "parameters": {
-            "obj-1": [ "live.text", "live.text", 0 ],
-            "obj-2": [ "live.text[1]", "live.text", 0 ],
-            "obj-3": [ "live.text[2]", "live.text", 0 ],
+            "obj-1": [ "RandTabOsc", "RandTabOsc", 0 ],
+            "obj-2": [ "RandTabEffect", "RandTabEffect", 0 ],
+            "obj-3": [ "RandTabFilter", "RandTabFilter", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
@@ -570,8 +570,8 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-        "editing_bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "bgcolor": [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
+        "editing_bgcolor": [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
         "saved_attribute_attributes": {
             "editing_bgcolor": {
                 "expression": "themecolor.live_macro_title"

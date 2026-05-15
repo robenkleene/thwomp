@@ -1850,9 +1850,9 @@
             "obj-1::obj-8::obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "Max", 0 ],
             "obj-1::obj-8::obj-2": [ "RandTrigToggle", "RandTrigToggle", 0 ],
             "obj-1::obj-8::obj-76": [ "RandAuto[1]", "Auto", 0 ],
-            "obj-1::obj-8::obj-9::obj-1": [ "live.text", "live.text", 0 ],
-            "obj-1::obj-8::obj-9::obj-2": [ "live.text[1]", "live.text", 0 ],
-            "obj-1::obj-8::obj-9::obj-3": [ "live.text[2]", "live.text", 0 ],
+            "obj-1::obj-8::obj-9::obj-1": [ "RandTabOsc", "RandTabOsc", 0 ],
+            "obj-1::obj-8::obj-9::obj-2": [ "RandTabEffect", "RandTabEffect", 0 ],
+            "obj-1::obj-8::obj-9::obj-3": [ "RandTabFilter", "RandTabFilter", 0 ],
             "obj-2::obj-13": [ "TabOsc1", "TabOsc1", 0 ],
             "obj-2::obj-7": [ "TabOsc2", "TabOsc2", 0 ],
             "obj-2::obj-9": [ "TabRand", "TabRand", 0 ],
@@ -1875,12 +1875,6 @@
                 }
             },
             "parameter_overrides": {
-                "obj-1::obj-8::obj-1::obj-10::obj-1": {
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-1::obj-8::obj-1::obj-10::obj-2": {
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
                 "obj-1::obj-8::obj-1::obj-12::obj-1": {
                     "parameter_range": [ -100.0, 100.0 ]
                 },
