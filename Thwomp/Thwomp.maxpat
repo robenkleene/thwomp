@@ -9,11 +9,10 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 578.0, 404.0, 770.0, 353.0 ],
-        "openrect": [ 0.0, 0.0, 384.0, 183.0 ],
+        "rect": [ 454.0, 381.0, 776.0, 398.0 ],
+        "openrect": [ 0.0, 0.0, 477.0, 169.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
-        "devicewidth": 384.0,
         "boxes": [
             {
                 "box": {
@@ -103,7 +102,7 @@
                     "outlettype": [ "signal", "signal", "" ],
                     "patching_rect": [ 15.0, 135.0, 456.0, 175.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 427.0, 168.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 427.0, 169.0 ],
                     "varname": "DrumSynthRack",
                     "viewvisibility": 1
                 }
