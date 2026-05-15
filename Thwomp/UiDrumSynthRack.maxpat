@@ -23,7 +23,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 376.0, 190.5, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 390.0, 3.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 390.0, 1.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -50,7 +50,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 456.0, 190.5, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 390.0, 134.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 390.0, 132.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -76,7 +76,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 507.0, 190.5, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 390.0, 150.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 390.0, 148.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -691,7 +691,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 129.0, 264.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 2.0, 152.0, 42.0, 15.0 ],
+                    "presentation_rect": [ 2.0, 150.0, 42.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -835,7 +835,6 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
-                    "hidden": 1,
                     "id": "obj-9",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
@@ -860,7 +859,6 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
-                    "hidden": 1,
                     "id": "obj-40",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
@@ -976,7 +974,6 @@
             {
                 "box": {
                     "annotation": "The volume of this device.",
-                    "hidden": 1,
                     "id": "obj-11",
                     "maxclass": "live.dial",
                     "numinlets": 1,
@@ -1200,7 +1197,7 @@
                     "patching_rect": [ 627.0, 296.0, 77.0, 29.0 ],
                     "pattrstorage": "Presets",
                     "presentation": 1,
-                    "presentation_rect": [ 393.0, 20.0, 40.0, 112.0 ]
+                    "presentation_rect": [ 393.0, 18.0, 40.0, 112.0 ]
                 }
             },
             {
@@ -1218,7 +1215,7 @@
                     "name": "UiDrumSynthBank.maxpat",
                     "numinlets": 1,
                     "numoutlets": 5,
-                    "offset": [ 0.0, -342.0 ],
+                    "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal", "signal", "signal", "" ],
                     "patching_rect": [ 16.0, 336.0, 248.0, 160.0 ],
                     "presentation": 1,

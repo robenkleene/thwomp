@@ -78,7 +78,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 16.0, 8.0, 64.0, 80.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 439.0, 46.0, 52.0, 73.0 ],
+                    "presentation_rect": [ 439.0, 44.0, 52.0, 73.0 ],
                     "varname": "NotePacker",
                     "viewvisibility": 1
                 }
@@ -158,7 +158,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 15.0, 345.0, 45.0, 45.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 439.0, 116.0, 48.0, 48.0 ],
+                    "presentation_rect": [ 439.0, 114.0, 48.0, 48.0 ],
                     "varname": "Dac"
                 }
             }

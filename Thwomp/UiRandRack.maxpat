@@ -561,7 +561,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 821.0, 312.0, 32.0, 30.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 294.0, 131.0, 53.0, 18.0 ],
+                    "presentation_rect": [ 294.0, 129.0, 53.0, 18.0 ],
                     "text": "Auto Beat"
                 }
             },
@@ -577,7 +577,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 821.0, 344.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 297.0, 149.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 297.0, 147.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandAuto[1]",
