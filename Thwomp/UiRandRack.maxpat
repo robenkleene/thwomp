@@ -254,7 +254,7 @@
                     "presentation_rect": [ 297.0, 35.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "RandTrig[1]",
+                            "parameter_longname": "RandTrig",
                             "parameter_modmode": 4,
                             "parameter_shortname": "Trig",
                             "parameter_type": 1,
@@ -580,7 +580,7 @@
                     "presentation_rect": [ 297.0, 147.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "RandAuto[1]",
+                            "parameter_longname": "RandAuto",
                             "parameter_modmode": 4,
                             "parameter_shortname": "Auto",
                             "parameter_type": 1,
@@ -1104,7 +1104,7 @@
             }
         ],
         "parameters": {
-            "obj-170": [ "RandTrig[1]", "Trig", 0 ],
+            "obj-170": [ "RandTrig", "Trig", 0 ],
             "obj-175": [ "RandTrigSet", "TrigSet", 0 ],
             "obj-1::obj-1": [ "RandOsc1", "Osc1", 0 ],
             "obj-1::obj-10::obj-1": [ "RandPitchEnvDur-Min", "Min", 0 ],
@@ -1170,7 +1170,7 @@
             "obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "Min", 0 ],
             "obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "Max", 0 ],
             "obj-2": [ "RandTrigToggle", "RandTrigToggle", 0 ],
-            "obj-76": [ "RandAuto[1]", "Auto", 0 ],
+            "obj-76": [ "RandAuto", "Auto", 0 ],
             "obj-9::obj-1": [ "RandTabOsc", "RandTabOsc", 0 ],
             "obj-9::obj-2": [ "RandTabEffect", "RandTabEffect", 0 ],
             "obj-9::obj-3": [ "RandTabFilter", "RandTabFilter", 0 ],

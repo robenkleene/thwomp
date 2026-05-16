@@ -400,7 +400,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
-                    "order": 2,
+                    "order": 0,
                     "source": [ "obj-7", 0 ]
                 }
             },
@@ -420,7 +420,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-8", 0 ],
-                    "order": 0,
+                    "order": 2,
                     "source": [ "obj-7", 0 ]
                 }
             },
@@ -474,7 +474,7 @@
             "obj-3::obj-5": [ "2-Gain", "Gain", 0 ],
             "obj-3::obj-7": [ "2-Osc", "Osc", 0 ],
             "obj-3::obj-9": [ "2-OscShape", "Shape", 0 ],
-            "obj-8::obj-170": [ "RandTrig[1]", "Trig", 0 ],
+            "obj-8::obj-170": [ "RandTrig", "Trig", 0 ],
             "obj-8::obj-175": [ "RandTrigSet", "TrigSet", 0 ],
             "obj-8::obj-1::obj-1": [ "RandOsc1", "Osc1", 0 ],
             "obj-8::obj-1::obj-10::obj-1": [ "RandPitchEnvDur-Min", "Min", 0 ],
@@ -540,7 +540,7 @@
             "obj-8::obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "Min", 0 ],
             "obj-8::obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "Max", 0 ],
             "obj-8::obj-2": [ "RandTrigToggle", "RandTrigToggle", 0 ],
-            "obj-8::obj-76": [ "RandAuto[1]", "Auto", 0 ],
+            "obj-8::obj-76": [ "RandAuto", "Auto", 0 ],
             "obj-8::obj-9::obj-1": [ "RandTabOsc", "RandTabOsc", 0 ],
             "obj-8::obj-9::obj-2": [ "RandTabEffect", "RandTabEffect", 0 ],
             "obj-8::obj-9::obj-3": [ "RandTabFilter", "RandTabFilter", 0 ],
