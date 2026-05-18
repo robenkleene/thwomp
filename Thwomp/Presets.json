@@ -5,7 +5,9 @@
             "1": {
                 "id": 1,
                 "data": {
-                    "Overwrite": [ 0.0 ],
+                    "PresetsOverwrite": [ 0.0 ],
+                    "PresetsRead": [ 0.0 ],
+                    "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
                     "Vol": [ -2.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ -2.0 ],
@@ -115,7 +117,9 @@
             "2": {
                 "id": 2,
                 "data": {
-                    "Overwrite": [ 0.0 ],
+                    "PresetsOverwrite": [ 0.0 ],
+                    "PresetsRead": [ 0.0 ],
+                    "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
                     "Vol": [ -2.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ -6.0 ],
@@ -225,7 +229,9 @@
             "3": {
                 "id": 3,
                 "data": {
-                    "Overwrite": [ 0.0 ],
+                    "PresetsOverwrite": [ 0.0 ],
+                    "PresetsRead": [ 0.0 ],
+                    "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
                     "Vol": [ -2.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ -8.0 ],
@@ -335,7 +341,9 @@
             "4": {
                 "id": 4,
                 "data": {
-                    "Overwrite": [ 0.0 ],
+                    "PresetsOverwrite": [ 0.0 ],
+                    "PresetsRead": [ 0.0 ],
+                    "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
                     "Vol": [ -2.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ -4.0 ],
@@ -445,7 +453,9 @@
             "5": {
                 "id": 5,
                 "data": {
-                    "Overwrite": [ 0.0 ],
+                    "PresetsOverwrite": [ 0.0 ],
+                    "PresetsRead": [ 0.0 ],
+                    "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
                     "Vol": [ -2.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ -30.0 ],
@@ -555,7 +565,9 @@
             "9": {
                 "id": 9,
                 "data": {
-                    "Overwrite": [ 0.0 ],
+                    "PresetsOverwrite": [ 0.0 ],
+                    "PresetsRead": [ 0.0 ],
+                    "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
                     "Vol": [ 0.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ 0.0 ],
