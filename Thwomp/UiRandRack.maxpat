@@ -14,6 +14,24 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-6",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 591.0, -47.0, 56.0, 22.0 ],
+                    "restore": {
+                        "RandAuto": [ 0.0 ],
+                        "RandTrig": [ 0.0 ],
+                        "RandTrigSet": [ 0.0 ],
+                        "RandTrigToggle": [ 0.0 ]
+                    },
+                    "text": "autopattr",
+                    "varname": "u300009263"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-234",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -612,6 +630,7 @@
                         }
                     },
                     "text": "Note Trig",
+                    "texton": "Note Trig",
                     "varname": "RandTrigToggle"
                 }
             },
