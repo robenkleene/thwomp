@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 3,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
@@ -21,7 +21,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 154.0, 15.0, 5.0, 100.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 50.0, 109.0, 95.0, 6.0 ]
+                    "presentation_rect": [ 58.0, 109.0, 87.0, 5.0 ]
                 }
             },
             {
@@ -32,7 +32,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 318.0, 365.0, 150.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1.0, 98.0, 59.0, 20.0 ],
+                    "presentation_rect": [ 1.0, 96.0, 59.0, 20.0 ],
                     "text": "Pitch Env"
                 }
             },
