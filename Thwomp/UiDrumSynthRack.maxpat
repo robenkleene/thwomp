@@ -9,18 +9,40 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1368.0, 427.0, 1143.0, 663.0 ],
+        "rect": [ 557.0, 338.0, 1143.0, 663.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
                 "box": {
-                    "id": "obj-72",
+                    "id": "obj-73",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 14.0, 120.0, 70.0, 22.0 ],
-                    "text": "loadmess 0"
+                    "patching_rect": [ 32.0, 90.0, 72.0, 22.0 ],
+                    "text": "prepend set"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-72",
+                    "maxclass": "live.numbox",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 14.0, 123.0, 44.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_longname": "Tab",
+                            "parameter_mmax": 2.0,
+                            "parameter_modmode": 4,
+                            "parameter_shortname": "Tab",
+                            "parameter_type": 1,
+                            "parameter_unitstyle": 0
+                        }
+                    },
+                    "varname": "Tab"
                 }
             },
             {
@@ -921,6 +943,7 @@
                         "PresetsRead": [ 0.0 ],
                         "PresetsWrite": [ 0.0 ],
                         "Randomize": [ 0.0 ],
+                        "Tab": [ 0.0 ],
                         "Vol": [ 0.0 ]
                     },
                     "text": "autopattr",
@@ -1331,6 +1354,13 @@
             {
                 "patchline": {
                     "destination": [ "obj-7", 0 ],
+                    "order": 2,
+                    "source": [ "obj-2", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-73", 0 ],
                     "order": 1,
                     "source": [ "obj-2", 0 ]
                 }
@@ -1737,6 +1767,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-72", 0 ],
+                    "source": [ "obj-73", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-37", 0 ],
                     "order": 2,
                     "source": [ "obj-74", 0 ]
@@ -1835,6 +1871,7 @@
             "obj-1::obj-3::obj-5": [ "2-Gain", "Gain", 0 ],
             "obj-1::obj-3::obj-7": [ "2-Osc", "Osc", 0 ],
             "obj-1::obj-3::obj-9": [ "2-OscShape", "Shape", 0 ],
+            "obj-1::obj-8::obj-10": [ "RandTab", "RandTab", 0 ],
             "obj-1::obj-8::obj-170": [ "RandTrig", "Trig", 0 ],
             "obj-1::obj-8::obj-175": [ "RandTrigSet", "TrigSet", 0 ],
             "obj-1::obj-8::obj-1::obj-1": [ "RandOsc1", "Osc1", 0 ],
@@ -1916,6 +1953,7 @@
             "obj-40::obj-34": [ "RingAttack", "Attack", 0 ],
             "obj-40::obj-36": [ "RingDecay", "Decay", 0 ],
             "obj-45": [ "Randomize", "Rand", 0 ],
+            "obj-72": [ "Tab", "Tab", 0 ],
             "obj-9::obj-1::obj-1": [ "FiltFreq", "Freq", 0 ],
             "obj-9::obj-1::obj-11": [ "FiltQ", "Res", 0 ],
             "obj-9::obj-1::obj-6": [ "FiltType", "Type", 0 ],
