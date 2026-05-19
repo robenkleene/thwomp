@@ -9,9 +9,20 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1248.0, 549.0, 926.0, 402.0 ],
+        "rect": [ 1368.0, 427.0, 1143.0, 663.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-72",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 14.0, 120.0, 70.0, 22.0 ],
+                    "text": "loadmess 0"
+                }
+            },
             {
                 "box": {
                     "id": "obj-38",
@@ -1716,6 +1727,12 @@
                 "patchline": {
                     "destination": [ "obj-68", 0 ],
                     "source": [ "obj-71", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-2", 0 ],
+                    "source": [ "obj-72", 0 ]
                 }
             },
             {

@@ -9,9 +9,20 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 890.0, 224.0, 1071.0, 864.0 ],
+        "rect": [ 847.0, 407.0, 1071.0, 864.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-8",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 192.0, -43.0, 70.0, 22.0 ],
+                    "text": "loadmess 0"
+                }
+            },
             {
                 "box": {
                     "id": "obj-6",
@@ -37,7 +48,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 8.0, -26.0, 63.0, 22.0 ],
+                    "patching_rect": [ 9.0, 42.0, 63.0, 22.0 ],
                     "text": "route note"
                 }
             },
@@ -47,7 +58,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 91.0, -26.0, 59.0, 22.0 ],
+                    "patching_rect": [ 92.0, 42.0, 59.0, 22.0 ],
                     "text": "s #1-note"
                 }
             },
@@ -642,7 +653,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 0.0, 204.0, 30.0, 30.0 ]
+                    "patching_rect": [ 1.0, 272.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -665,7 +676,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 191.0, -48.5, 41.0, 22.0 ],
+                    "patching_rect": [ 192.0, 20.0, 41.0, 22.0 ],
                     "text": "* -154"
                 }
             },
@@ -687,7 +698,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 191.0, -16.5, 64.0, 22.0 ],
+                    "patching_rect": [ 192.0, 52.0, 64.0, 22.0 ],
                     "text": "offset 0 $1"
                 }
             },
@@ -708,7 +719,7 @@
                     "numoutlets": 1,
                     "offset": [ 0.0, -154.0 ],
                     "outlettype": [ "" ],
-                    "patching_rect": [ 0.0, 24.0, 192.0, 144.0 ],
+                    "patching_rect": [ 1.0, 92.0, 192.0, 144.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 16.0, 297.0, 154.0 ],
                     "varname": "UiRand",
@@ -731,7 +742,7 @@
                     "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 191.0, -74.5, 146.0, 19.0 ],
+                    "patching_rect": [ 192.0, -6.0, 146.0, 19.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 15.0, 0.0, 146.0, 19.0 ],
                     "viewvisibility": 1
@@ -1107,6 +1118,12 @@
                     "destination": [ "obj-71", 0 ],
                     "order": 1,
                     "source": [ "obj-76", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-9", 0 ],
+                    "source": [ "obj-8", 0 ]
                 }
             },
             {

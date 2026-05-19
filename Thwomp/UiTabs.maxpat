@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 3,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 722.0, 335.0, 946.0, 868.0 ],
+        "rect": [ 1506.0, 274.0, 946.0, 868.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -395,7 +395,7 @@
                     "numinlets": 0,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 106.0, 43.0, 10.0, 36.0 ],
+                    "patching_rect": [ 428.0, 178.0, 10.0, 36.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 38.0, 0.0, 10.0, 29.0 ],
                     "varname": "TabSelector1",

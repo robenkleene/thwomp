@@ -19,7 +19,7 @@
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "int", "bang", "bang", "bang" ],
-                    "patching_rect": [ 281.0, 307.0, 52.0, 22.0 ],
+                    "patching_rect": [ 189.0, 225.0, 52.0, 22.0 ],
                     "text": "t 2 b b b"
                 }
             },
@@ -30,7 +30,7 @@
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "int", "bang", "bang", "bang" ],
-                    "patching_rect": [ 225.0, 307.0, 52.0, 22.0 ],
+                    "patching_rect": [ 133.0, 225.0, 52.0, 22.0 ],
                     "text": "t 1 b b b"
                 }
             },
@@ -41,7 +41,7 @@
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "int", "bang", "bang", "bang" ],
-                    "patching_rect": [ 159.0, 307.0, 52.0, 22.0 ],
+                    "patching_rect": [ 67.0, 225.0, 52.0, 22.0 ],
                     "text": "t 0 b b b"
                 }
             },
@@ -52,8 +52,8 @@
                     "numinlets": 4,
                     "numoutlets": 4,
                     "outlettype": [ "bang", "bang", "bang", "" ],
-                    "patching_rect": [ 159.0, 222.0, 70.0, 22.0 ],
-                    "text": "select 1 2 3"
+                    "patching_rect": [ 67.0, 174.0, 70.0, 22.0 ],
+                    "text": "select 0 1 2"
                 }
             },
             {
@@ -63,7 +63,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 578.0, 514.0, 142.0, 22.0 ],
+                    "patching_rect": [ 486.0, 432.0, 142.0, 22.0 ],
                     "text": "script show TabSelector3"
                 }
             },
@@ -74,7 +74,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 432.0, 514.0, 142.0, 22.0 ],
+                    "patching_rect": [ 340.0, 432.0, 142.0, 22.0 ],
                     "text": "script show TabSelector2"
                 }
             },
@@ -85,7 +85,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 286.0, 514.0, 142.0, 22.0 ],
+                    "patching_rect": [ 194.0, 432.0, 142.0, 22.0 ],
                     "text": "script show TabSelector1"
                 }
             },
@@ -96,7 +96,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 578.0, 481.0, 136.0, 22.0 ],
+                    "patching_rect": [ 486.0, 399.0, 136.0, 22.0 ],
                     "text": "script hide TabSelector3"
                 }
             },
@@ -107,7 +107,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 432.0, 481.0, 136.0, 22.0 ],
+                    "patching_rect": [ 340.0, 399.0, 136.0, 22.0 ],
                     "text": "script hide TabSelector2"
                 }
             },
@@ -118,7 +118,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 286.0, 481.0, 136.0, 22.0 ],
+                    "patching_rect": [ 194.0, 399.0, 136.0, 22.0 ],
                     "text": "script hide TabSelector1"
                 }
             },
@@ -129,7 +129,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 374.0, 644.0, 67.0, 22.0 ],
+                    "patching_rect": [ 282.0, 562.0, 67.0, 22.0 ],
                     "save": [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
                     "text": "thispatcher"
                 }
@@ -142,7 +142,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 22.0, 431.0, 30.0, 30.0 ]
+                    "patching_rect": [ 67.0, 592.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -154,7 +154,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 12.0, 9.0, 30.0, 30.0 ]
+                    "patching_rect": [ 67.0, 26.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -169,7 +169,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 278.0, 132.0, 44.0, 15.0 ],
+                    "patching_rect": [ 194.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 101.0, 0.0, 44.0, 14.0 ],
                     "saved_attribute_attributes": {
@@ -208,7 +208,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 233.0, 131.0, 44.0, 15.0 ],
+                    "patching_rect": [ 141.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 55.0, 0.0, 44.0, 14.0 ],
                     "saved_attribute_attributes": {
@@ -238,13 +238,13 @@
             {
                 "box": {
                     "angle": 270.0,
-                    "bgcolor": [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
+                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
                     "id": "obj-11",
                     "maxclass": "panel",
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 585.0, 122.0, 128.0, 55.0 ],
+                    "patching_rect": [ 496.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 55.0, 0.0, 44.0, 14.0 ],
                     "proportion": 0.39,
@@ -258,13 +258,13 @@
             {
                 "box": {
                     "angle": 270.0,
-                    "bgcolor": [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
+                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
                     "id": "obj-12",
                     "maxclass": "panel",
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 443.0, 122.0, 128.0, 55.0 ],
+                    "patching_rect": [ 354.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 102.0, 0.0, 44.0, 14.0 ],
                     "proportion": 0.39,
@@ -287,7 +287,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 187.0, 131.0, 44.0, 15.0 ],
+                    "patching_rect": [ 16.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 8.0, 0.0, 44.0, 14.0 ],
                     "saved_attribute_attributes": {
@@ -317,13 +317,13 @@
             {
                 "box": {
                     "angle": 270.0,
-                    "bgcolor": [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
+                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
                     "id": "obj-8",
                     "maxclass": "panel",
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 724.0, 122.0, 128.0, 55.0 ],
+                    "patching_rect": [ 635.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 8.0, 0.0, 44.0, 14.0 ],
                     "proportion": 0.39,
@@ -349,7 +349,7 @@
                     "numinlets": 0,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 488.0, 193.0, 26.0, 12.0 ],
+                    "patching_rect": [ 388.0, 249.0, 26.0, 12.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 7.0, 60.0, 12.0 ],
                     "varname": "TabSelector1",
@@ -372,7 +372,7 @@
                     "numinlets": 0,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 443.0, 193.0, 26.0, 12.0 ],
+                    "patching_rect": [ 354.0, 249.0, 26.0, 12.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 47.0, 7.0, 60.0, 12.0 ],
                     "varname": "TabSelector2",
@@ -395,7 +395,7 @@
                     "numinlets": 0,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 529.0, 193.0, 26.0, 12.0 ],
+                    "patching_rect": [ 424.0, 249.0, 26.0, 12.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 94.0, 7.0, 60.0, 12.0 ],
                     "varname": "TabSelector3",
@@ -570,8 +570,8 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "bgcolor": [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
-        "editing_bgcolor": [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
+        "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "editing_bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
         "saved_attribute_attributes": {
             "editing_bgcolor": {
                 "expression": "themecolor.live_macro_title"
