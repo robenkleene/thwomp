@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1140.0, 443.0, 1065.0, 789.0 ],
+        "rect": [ 990.0, 458.0, 1065.0, 789.0 ],
         "openinpresentation": 1,
         "toolbars_unpinned_last_save": 4,
         "boxes": [
@@ -21,18 +21,20 @@
                     "numoutlets": 0,
                     "patching_rect": [ 154.0, 15.0, 5.0, 100.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 58.0, 109.0, 87.0, 5.0 ]
+                    "presentation_rect": [ 49.5, 109.0, 95.5, 7.0 ]
                 }
             },
             {
                 "box": {
+                    "fontname": "Ableton Sans Medium",
+                    "fontsize": 10.0,
                     "id": "obj-21",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 318.0, 365.0, 150.0, 20.0 ],
+                    "patching_rect": [ 318.0, 365.0, 128.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1.0, 96.0, 59.0, 20.0 ],
+                    "presentation_rect": [ 1.0, 98.0, 50.0, 18.0 ],
                     "text": "Pitch Env"
                 }
             },
