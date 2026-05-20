@@ -264,7 +264,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 1117.0, 590.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 297.0, 52.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 297.0, 52.0, 39.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -303,7 +303,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 933.0, 563.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 297.0, 35.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 297.0, 35.0, 39.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandTrig",
@@ -607,14 +607,13 @@
                     "fontname": "Ableton Sans Medium",
                     "fontsize": 10.0,
                     "id": "obj-74",
-                    "linecount": 2,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 821.0, 312.0, 32.0, 30.0 ],
+                    "patching_rect": [ 821.0, 312.0, 32.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 294.0, 129.0, 53.0, 18.0 ],
-                    "text": "Auto Beat"
+                    "presentation_rect": [ 302.0, 133.0, 30.0, 18.0 ],
+                    "text": "Auto"
                 }
             },
             {
@@ -629,7 +628,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 821.0, 344.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 297.0, 147.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 297.0, 149.0, 39.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandAuto",
@@ -652,7 +651,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 981.0, 558.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 297.0, 19.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 297.0, 19.0, 39.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -663,8 +662,8 @@
                             "parameter_type": 2
                         }
                     },
-                    "text": "Note Trig",
-                    "texton": "Note Trig",
+                    "text": "Trig",
+                    "texton": "Trig",
                     "varname": "RandTrigToggle"
                 }
             },
