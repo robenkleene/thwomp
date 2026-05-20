@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1275.0, 412.0, 1071.0, 864.0 ],
+        "rect": [ 741.0, 398.0, 1071.0, 864.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -54,7 +54,11 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 561.0, 66.0, 56.0, 22.0 ],
                     "restore": {
-                        "RandTab": [ 0.0 ]
+                        "RandAuto": [ 0.0 ],
+                        "RandTab": [ 0.0 ],
+                        "RandTrig": [ 0.0 ],
+                        "RandTrigSet": [ 0.0 ],
+                        "RandTrigToggle": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u300009263"
@@ -248,6 +252,36 @@
             },
             {
                 "box": {
+                    "annotation": "If on, the next note will set the randomize note trigger (without triggering a randomize).",
+                    "annotation_name": "Randomize Trigger Set",
+                    "automation": "Off",
+                    "automationon": "On",
+                    "id": "obj-175",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 1117.0, 590.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 297.0, 52.0, 46.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "Off", "On" ],
+                            "parameter_longname": "RandTrigSet",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "TrigSet",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Set",
+                    "texton": "Set",
+                    "varname": "RandTrigSet"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-92",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -255,6 +289,31 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 933.0, 502.0, 70.0, 22.0 ],
                     "text": "loadmess 0"
+                }
+            },
+            {
+                "box": {
+                    "annotation": "If the incoming MIDI note matches this note, than randomize is triggered.",
+                    "annotation_name": "Randomize Trigger",
+                    "id": "obj-170",
+                    "maxclass": "live.numbox",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 933.0, 563.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 297.0, 35.0, 46.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_longname": "RandTrig",
+                            "parameter_modmode": 4,
+                            "parameter_shortname": "Trig",
+                            "parameter_type": 1,
+                            "parameter_unitstyle": 8
+                        }
+                    },
+                    "varname": "RandTrig"
                 }
             },
             {
@@ -545,6 +604,72 @@
             },
             {
                 "box": {
+                    "fontname": "Ableton Sans Medium",
+                    "fontsize": 10.0,
+                    "id": "obj-74",
+                    "linecount": 2,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 821.0, 312.0, 32.0, 30.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 294.0, 129.0, 53.0, 18.0 ],
+                    "text": "Auto Beat"
+                }
+            },
+            {
+                "box": {
+                    "annotation": "If greater than zero, then randomize will automatically be triggered after that number of beats.",
+                    "annotation_name": "Randomize Auto Beats",
+                    "id": "obj-76",
+                    "maxclass": "live.numbox",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 821.0, 344.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 297.0, 147.0, 46.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_longname": "RandAuto",
+                            "parameter_modmode": 4,
+                            "parameter_shortname": "Auto",
+                            "parameter_type": 1,
+                            "parameter_unitstyle": 0
+                        }
+                    },
+                    "varname": "RandAuto"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-2",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 981.0, 558.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 297.0, 19.0, 46.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "RandTrigToggle",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "RandTrigToggle",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Note Trig",
+                    "texton": "Note Trig",
+                    "varname": "RandTrigToggle"
+                }
+            },
+            {
+                "box": {
                     "comment": "(message) randomize messages",
                     "id": "obj-4",
                     "index": 0,
@@ -772,6 +897,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-222", 1 ],
+                    "source": [ "obj-170", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-171", 0 ],
                     "source": [ "obj-172", 0 ]
                 }
@@ -784,8 +915,38 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-176", 0 ],
+                    "source": [ "obj-175", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-50", 0 ],
                     "source": [ "obj-176", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-175", 0 ],
+                    "source": [ "obj-177", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-170", 0 ],
+                    "source": [ "obj-182", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-175", 0 ],
+                    "source": [ "obj-182", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-223", 0 ],
+                    "source": [ "obj-2", 0 ]
                 }
             },
             {
@@ -816,6 +977,12 @@
                 "patchline": {
                     "destination": [ "obj-225", 0 ],
                     "source": [ "obj-223", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-170", 0 ],
+                    "source": [ "obj-224", 0 ]
                 }
             },
             {
@@ -970,6 +1137,20 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-157", 0 ],
+                    "order": 0,
+                    "source": [ "obj-76", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-71", 0 ],
+                    "order": 1,
+                    "source": [ "obj-76", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-10", 0 ],
                     "source": [ "obj-8", 0 ]
                 }
@@ -987,10 +1168,18 @@
                     "order": 0,
                     "source": [ "obj-9", 0 ]
                 }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-170", 0 ],
+                    "source": [ "obj-92", 0 ]
+                }
             }
         ],
         "parameters": {
             "obj-10": [ "RandTab", "RandTab", 0 ],
+            "obj-170": [ "RandTrig", "Trig", 0 ],
+            "obj-175": [ "RandTrigSet", "TrigSet", 0 ],
             "obj-1::obj-1": [ "RandOsc1", "Osc1", 0 ],
             "obj-1::obj-10::obj-1": [ "RandPitchEnvDur-Min", "Min", 0 ],
             "obj-1::obj-10::obj-2": [ "RandPitchEnvDur-Max", "Max", 0 ],
@@ -1005,8 +1194,6 @@
             "obj-1::obj-14::obj-2": [ "RandOscPchEnvAmt-Max", "Max", 0 ],
             "obj-1::obj-16::obj-1": [ "RandOvertone-Min", "Min", 0 ],
             "obj-1::obj-16::obj-2": [ "RandOvertone-Max", "Max", 0 ],
-            "obj-1::obj-170": [ "RandTrig", "Trig", 0 ],
-            "obj-1::obj-175": [ "RandTrigSet", "TrigSet", 0 ],
             "obj-1::obj-18::obj-1": [ "RandOscAttack-Min", "Min", 0 ],
             "obj-1::obj-18::obj-2": [ "RandOscAttack-Max", "Max", 0 ],
             "obj-1::obj-2": [ "RandOsc2", "Osc2", 0 ],
@@ -1040,7 +1227,6 @@
             "obj-1::obj-45": [ "RandRing", "Ring", 0 ],
             "obj-1::obj-46": [ "RandRingFilt", "RFilt", 0 ],
             "obj-1::obj-5": [ "RandOscFreq", "Freq", 0 ],
-            "obj-1::obj-50": [ "RandTrigToggle", "RandTrigToggle", 0 ],
             "obj-1::obj-57": [ "RandRingGain", "RGain", 0 ],
             "obj-1::obj-58": [ "RandRingDecay", "RDecay", 0 ],
             "obj-1::obj-59": [ "RandRingAttack", "RAttack", 0 ],
@@ -1055,9 +1241,10 @@
             "obj-1::obj-67::obj-1": [ "RandVol-Min", "Min", 0 ],
             "obj-1::obj-67::obj-2": [ "RandVol-Max", "Max", 0 ],
             "obj-1::obj-7": [ "RandOscPchEnvDur", "PDur", 0 ],
-            "obj-1::obj-76": [ "RandAuto", "Auto", 0 ],
             "obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "Min", 0 ],
             "obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "Max", 0 ],
+            "obj-2": [ "RandTrigToggle", "RandTrigToggle", 0 ],
+            "obj-76": [ "RandAuto", "Auto", 0 ],
             "obj-9::obj-1": [ "RandTabOsc", "RandTabOsc", 0 ],
             "obj-9::obj-2": [ "RandTabEffect", "RandTabEffect", 0 ],
             "obj-9::obj-3": [ "RandTabFilter", "RandTabFilter", 0 ],
