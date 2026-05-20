@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 847.0, 407.0, 1071.0, 864.0 ],
+        "rect": [ 741.0, 398.0, 1071.0, 864.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -19,7 +19,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 256.0, -40.0, 72.0, 22.0 ],
+                    "patching_rect": [ 266.0, 52.0, 72.0, 22.0 ],
                     "text": "prepend set"
                 }
             },
@@ -31,7 +31,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 192.0, -33.0, 44.0, 15.0 ],
+                    "patching_rect": [ 202.0, 59.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandTab",
@@ -52,7 +52,7 @@
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 591.0, -47.0, 56.0, 22.0 ],
+                    "patching_rect": [ 561.0, 66.0, 56.0, 22.0 ],
                     "restore": {
                         "RandAuto": [ 0.0 ],
                         "RandTab": [ 0.0 ],
@@ -71,7 +71,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 9.0, 42.0, 63.0, 22.0 ],
+                    "patching_rect": [ 19.0, 134.0, 63.0, 22.0 ],
                     "text": "route note"
                 }
             },
@@ -81,7 +81,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 92.0, 42.0, 59.0, 22.0 ],
+                    "patching_rect": [ 102.0, 134.0, 59.0, 22.0 ],
                     "text": "s #1-note"
                 }
             },
@@ -676,7 +676,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1.0, 272.0, 30.0, 30.0 ]
+                    "patching_rect": [ 11.0, 364.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -688,7 +688,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 8.0, -80.0, 30.0, 30.0 ]
+                    "patching_rect": [ 18.0, 12.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -699,7 +699,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 192.0, 20.0, 41.0, 22.0 ],
+                    "patching_rect": [ 202.0, 112.0, 41.0, 22.0 ],
                     "text": "* -154"
                 }
             },
@@ -721,7 +721,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 192.0, 52.0, 64.0, 22.0 ],
+                    "patching_rect": [ 202.0, 144.0, 64.0, 22.0 ],
                     "text": "offset 0 $1"
                 }
             },
@@ -742,7 +742,7 @@
                     "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1.0, 92.0, 192.0, 144.0 ],
+                    "patching_rect": [ 11.0, 184.0, 192.0, 144.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 16.0, 297.0, 154.0 ],
                     "varname": "UiRand",
@@ -765,9 +765,9 @@
                     "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 192.0, -6.0, 146.0, 19.0 ],
+                    "patching_rect": [ 202.0, 84.0, 146.0, 19.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 15.0, 0.0, 146.0, 19.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 146.0, 19.0 ],
                     "viewvisibility": 1
                 }
             }
