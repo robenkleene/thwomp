@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 3,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
@@ -25,7 +25,7 @@
                     "patching_rect": [ 128.0, 328.0, 48.0, 15.0 ],
                     "pictures": [ "highcut.svg", "lowcut.svg", "bandpass.svg", "notch.svg" ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 58.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 0.0, 16.0, 46.0, 15.0 ],
                     "remapsvgcolors": 1,
                     "saved_attribute_attributes": {
                         "valueof": {
