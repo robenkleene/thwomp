@@ -40,6 +40,9 @@ function update() {
   if (currentTab < 0 || currentTab >= TABS.length) {
     return;
   }
+  if (currentTab > 2) {
+    return;
+  }
   var tokens = TABS[currentTab];
 
   var noteValue = lookupBankNote(currentNote);
