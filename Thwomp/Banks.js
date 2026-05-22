@@ -17,7 +17,7 @@ var TABS = [
 
 // State
 var currentTab = 0;
-var currentNote = 0;
+var currentNote = 1;
 var bankNote = {};
 
 function bankNoteInit(names) {
