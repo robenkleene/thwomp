@@ -36,39 +36,39 @@ function lookupBankNote(address) {
   return address + "-" + name;
 }
 
+function bankHasTab(tokens) {
+  for (var i = 0; i < tokens.length; i++) {
+    if (tokens[i].indexOf("$1") !== -1) {
+      return true;
+    }
+  }
+  return false;
+}
+
 function update() {
-  if (currentTab < 0 || currentTab >= TABS.length) {
+  if (currentTab < 0 || currentTab > 2) {
     return;
   }
-  if (currentTab > 2) {
-    return;
-  }
-  var tokens = TABS[currentTab];
 
   var noteValue = lookupBankNote(currentNote);
 
-  var needsNote = false;
-  for (var i = 0; i < tokens.length; i++) {
-    if (tokens[i] === "$2") {
-      needsNote = true;
-      break;
+  for (var b = 0; b < TABS.length; b++) {
+    var tokens = TABS[b];
+    if (!bankHasTab(tokens)) {
+      continue;
     }
-  }
 
-  if (needsNote && noteValue === null) {
-    return;
-  }
-
-  var out = [];
-  for (var j = 0; j < tokens.length; j++) {
-    var token = tokens[j];
-    if (token === "$2") {
-      out.push(noteValue);
-    } else {
-      out.push(token.replace("$1", String(currentTab)));
+    var out = [];
+    for (var j = 0; j < tokens.length; j++) {
+      var token = tokens[j];
+      if (token === "$2") {
+        out.push(noteValue);
+      } else {
+        out.push(token.replace("$1", String(currentTab)));
+      }
     }
+    outlet(0, out);
   }
-  outlet(0, out);
 }
 
 function msg_int(value) {
