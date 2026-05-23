@@ -41,9 +41,9 @@ function update() {
     return;
   }
 
-  // Only banks 0-3 contain the `$1` token; bank 4 (`Ring`) is tab-independent
-  for (var b = 0; b < 4; b++) {
-    emitBank(TABS[b]);
+  // Only banks `0-3` contain tokens (e.g., `$1`) and only banks with tokens need to be updated
+  for (var i = 0; i < 4; i++) {
+    emitBank(TABS[i]);
   }
 }
 
@@ -68,8 +68,8 @@ function bang() {
   currentTab = DEFAULT_TAB;
   currentNote = DEFAULT_NOTE;
 
-  for (var b = 0; b < TABS.length; b++) {
-    emitBank(TABS[b]);
+  for (var i = 0; i < TABS.length; i++) {
+    emitBank(TABS[i]);
   }
 }
 
