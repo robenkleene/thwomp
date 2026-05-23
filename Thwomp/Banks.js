@@ -20,23 +20,9 @@ var DEFAULT_TAB = 0;
 var DEFAULT_NOTE = 1;
 var currentTab = DEFAULT_TAB;
 var currentNote = DEFAULT_NOTE;
-var bankNote = {};
 
-function bankNoteInit(names) {
-  bankNote = {};
-  for (var i = 0; i < names.length; i++) {
-    bankNote[i + 1] = names[i];
-  }
-}
-bankNoteInit(["OscFreq", "OscSemi"]);
-
-function lookupBankNote(address) {
-  var name = bankNote[address];
-  if (name === undefined) {
-    return null;
-  }
-  return address + "-" + name;
-}
+// `currentNote` is 1-indexed, so address N maps to `NOTE_POSTFIXES[N - 1]`
+var NOTE_POSTFIXES = ["OscFreq", "OscSemi"];
 
 function bankHasTab(tokens) {
   for (var i = 0; i < tokens.length; i++) {
@@ -47,12 +33,12 @@ function bankHasTab(tokens) {
   return false;
 }
 
-function emitBank(tokens, noteValue) {
+function emitBank(tokens) {
   var out = [];
   for (var j = 0; j < tokens.length; j++) {
     var token = tokens[j];
     if (token === "$2") {
-      out.push(noteValue);
+      out.push(currentNote + "-" + NOTE_POSTFIXES[currentNote - 1]);
     } else {
       out.push(token.replace("$1", String(currentTab)));
     }
@@ -65,14 +51,12 @@ function update() {
     return;
   }
 
-  var noteValue = lookupBankNote(currentNote);
-
   for (var b = 0; b < TABS.length; b++) {
     var tokens = TABS[b];
     if (!bankHasTab(tokens)) {
       continue;
     }
-    emitBank(tokens, noteValue);
+    emitBank(tokens);
   }
 }
 
@@ -88,9 +72,6 @@ function msg_int(value) {
 function list() {
   var args = arrayfromargs(arguments);
   if (inlet === INLET_NOTE) {
-    if (args.length >= 2) {
-      bankNote[args[0]] = args[1];
-    }
     currentNote = args[0];
     update();
   }
@@ -100,17 +81,8 @@ function bang() {
   currentTab = DEFAULT_TAB;
   currentNote = DEFAULT_NOTE;
 
-  var noteValue = lookupBankNote(currentNote);
-
   for (var b = 0; b < TABS.length; b++) {
-    emitBank(TABS[b], noteValue);
-  }
-}
-
-function anything() {
-  var args = arrayfromargs(messagename, arguments);
-  if (messagename === "init") {
-    bankNoteInit(args.slice(1));
+    emitBank(TABS[b]);
   }
 }
 
