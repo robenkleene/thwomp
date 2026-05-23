@@ -11,8 +11,8 @@ var TABS = [
   ["0", "Main", "Tab", "$2", "$1-PitchEnvAmt", "$1-PitchEnvDur", "1-PitchEnvCurve", "$1-AmpAttack", "$1-AmpDecay", "Vol"],
   ["1", "Osc",  "Tab", "$1-Osc", "$1-OscShape", "$1-OscReset", "$1-OscNote", "$2", "$1-Overdrive", "$1-Overtone"],
   ["2", "Env",  "Tab", "$1-PitchEnvDur", "$1-PitchEnvCurve", "$1-PitchEnvAmt", "$1-AmpAttack", "$1-AmpDecay", "$1-Gain", "-"],
-  ["3", "Filt", "Tab", "$1-OscFilt", "RingFilt", "Filt", "FiltType", "FiltFreq", "FiltQ", "-", "-", "-"],
-  ["4", "Ring", "Tab", "Ring", "RingAttack", "RingDecay", "RingGain", "-", "-"]
+  ["3", "Filt", "Tab", "$1-OscFilt", "RingFilt", "Filt", "FiltType", "FiltFreq", "FiltQ", "-"],
+  ["4", "Ring", "Tab", "Ring", "RingAttack", "RingDecay", "RingGain", "-", "-", "-"]
 ];
 
 // State
