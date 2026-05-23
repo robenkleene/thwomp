@@ -16,8 +16,10 @@ var TABS = [
 ];
 
 // State
-var currentTab = 0;
-var currentNote = 1;
+var DEFAULT_TAB = 0;
+var DEFAULT_NOTE = 1;
+var currentTab = DEFAULT_TAB;
+var currentNote = DEFAULT_NOTE;
 var bankNote = {};
 
 function bankNoteInit(names) {
@@ -45,6 +47,19 @@ function bankHasTab(tokens) {
   return false;
 }
 
+function emitBank(tokens, noteValue) {
+  var out = [];
+  for (var j = 0; j < tokens.length; j++) {
+    var token = tokens[j];
+    if (token === "$2") {
+      out.push(noteValue);
+    } else {
+      out.push(token.replace("$1", String(currentTab)));
+    }
+  }
+  outlet(0, out);
+}
+
 function update() {
   if (currentTab < 0 || currentTab > 2) {
     return;
@@ -57,17 +72,7 @@ function update() {
     if (!bankHasTab(tokens)) {
       continue;
     }
-
-    var out = [];
-    for (var j = 0; j < tokens.length; j++) {
-      var token = tokens[j];
-      if (token === "$2") {
-        out.push(noteValue);
-      } else {
-        out.push(token.replace("$1", String(currentTab)));
-      }
-    }
-    outlet(0, out);
+    emitBank(tokens, noteValue);
   }
 }
 
@@ -92,7 +97,14 @@ function list() {
 }
 
 function bang() {
-  update();
+  currentTab = DEFAULT_TAB;
+  currentNote = DEFAULT_NOTE;
+
+  var noteValue = lookupBankNote(currentNote);
+
+  for (var b = 0; b < TABS.length; b++) {
+    emitBank(TABS[b], noteValue);
+  }
 }
 
 function anything() {
