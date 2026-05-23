@@ -23,7 +23,7 @@ var currentNote = DEFAULT_NOTE;
 
 var NOTE_POSTFIXES = ["OscFreq", "OscSemi"];
 
-function emitBank(tokens) {
+function replaceTokens(tokens) {
   var out = [];
   for (var j = 0; j < tokens.length; j++) {
     var token = tokens[j];
@@ -33,7 +33,7 @@ function emitBank(tokens) {
       out.push(token.replace("$1", String(currentTab)));
     }
   }
-  outlet(0, out);
+  return out;
 }
 
 function update() {
@@ -43,7 +43,7 @@ function update() {
 
   // Only banks `0-3` contain tokens (e.g., `$1`) and only banks with tokens need to be updated
   for (var i = 0; i < 4; i++) {
-    emitBank(TABS[i]);
+    outlet(0, replaceTokens(TABS[i]));
   }
 }
 
@@ -64,12 +64,13 @@ function list() {
   }
 }
 
+// Init for setting up banks, sets to default values and dumps all tabs
 function bang() {
   currentTab = DEFAULT_TAB;
   currentNote = DEFAULT_NOTE;
 
   for (var i = 0; i < TABS.length; i++) {
-    emitBank(TABS[i]);
+    outlet(0, replaceTokens(TABS[i]));
   }
 }
 
