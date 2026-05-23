@@ -31,7 +31,7 @@ function replaceTokens(tokens) {
       // `bank_id` is stored as an int so `live.banks` receives an int atom, not a symbol
       out.push(token);
     } else if (token === "$2") {
-      out.push(currentNote + "-" + NOTE_POSTFIXES[currentNote - 1]);
+      out.push(currentTab + "-" + NOTE_POSTFIXES[currentNote - 1]);
     } else {
       out.push(token.replace("$1", String(currentTab)));
     }
