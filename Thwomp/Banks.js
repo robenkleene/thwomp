@@ -16,22 +16,12 @@ var TABS = [
 ];
 
 // State
-var DEFAULT_TAB = 0;
+var DEFAULT_TAB = 1;
 var DEFAULT_NOTE = 1;
 var currentTab = DEFAULT_TAB;
 var currentNote = DEFAULT_NOTE;
 
-// `currentNote` is 1-indexed, so address N maps to `NOTE_POSTFIXES[N - 1]`
 var NOTE_POSTFIXES = ["OscFreq", "OscSemi"];
-
-function bankHasTab(tokens) {
-  for (var i = 0; i < tokens.length; i++) {
-    if (tokens[i].indexOf("$1") !== -1) {
-      return true;
-    }
-  }
-  return false;
-}
 
 function emitBank(tokens) {
   var out = [];
@@ -51,12 +41,9 @@ function update() {
     return;
   }
 
-  for (var b = 0; b < TABS.length; b++) {
-    var tokens = TABS[b];
-    if (!bankHasTab(tokens)) {
-      continue;
-    }
-    emitBank(tokens);
+  // Only banks 0-3 contain the `$1` token; bank 4 (`Ring`) is tab-independent
+  for (var b = 0; b < 4; b++) {
+    emitBank(TABS[b]);
   }
 }
 
