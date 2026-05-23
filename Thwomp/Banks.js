@@ -8,11 +8,11 @@ var INLET_TAB = 0;
 var INLET_NOTE = 1;
 
 var TABS = [
-  ["0", "Main", "Tab", "$2", "$1-PitchEnvAmt", "$1-PitchEnvDur", "1-PitchEnvCurve", "$1-AmpAttack", "$1-AmpDecay", "Vol"],
-  ["1", "Osc",  "Tab", "$1-Osc", "$1-OscShape", "$1-OscReset", "$1-OscNote", "$2", "$1-Overdrive", "$1-Overtone"],
-  ["2", "Env",  "Tab", "$1-PitchEnvDur", "$1-PitchEnvCurve", "$1-PitchEnvAmt", "$1-AmpAttack", "$1-AmpDecay", "$1-Gain", "-"],
-  ["3", "Filt", "Tab", "$1-OscFilt", "RingFilt", "Filt", "FiltType", "FiltFreq", "FiltQ", "-"],
-  ["4", "Ring", "Tab", "Ring", "RingAttack", "RingDecay", "RingGain", "-", "-", "-"]
+  [0, "Main", "Tab", "$2", "$1-PitchEnvAmt", "$1-PitchEnvDur", "1-PitchEnvCurve", "$1-AmpAttack", "$1-AmpDecay", "Vol"],
+  [1, "Osc",  "Tab", "$1-Osc", "$1-OscShape", "$1-OscReset", "$1-OscNote", "$2", "$1-Overdrive", "$1-Overtone"],
+  [2, "Env",  "Tab", "$1-PitchEnvDur", "$1-PitchEnvCurve", "$1-PitchEnvAmt", "$1-AmpAttack", "$1-AmpDecay", "$1-Gain", "-"],
+  [3, "Filt", "Tab", "$1-OscFilt", "RingFilt", "Filt", "FiltType", "FiltFreq", "FiltQ", "-"],
+  [4, "Ring", "Tab", "Ring", "RingAttack", "RingDecay", "RingGain", "-", "-", "-"]
 ];
 
 // State
@@ -27,7 +27,10 @@ function replaceTokens(tokens) {
   var out = [];
   for (var j = 0; j < tokens.length; j++) {
     var token = tokens[j];
-    if (token === "$2") {
+    if (typeof token === "number") {
+      // `bank_id` is stored as an int so `live.banks` receives an int atom, not a symbol
+      out.push(token);
+    } else if (token === "$2") {
       out.push(currentNote + "-" + NOTE_POSTFIXES[currentNote - 1]);
     } else {
       out.push(token.replace("$1", String(currentTab)));
