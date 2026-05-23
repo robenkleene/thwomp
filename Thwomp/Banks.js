@@ -17,7 +17,7 @@ var TABS = [
 
 // State
 var DEFAULT_TAB = 1;
-var DEFAULT_NOTE = 1;
+var DEFAULT_NOTE = 0;
 var currentTab = DEFAULT_TAB;
 var currentNote = DEFAULT_NOTE;
 
@@ -31,7 +31,7 @@ function replaceTokens(tokens) {
       // `bank_id` is stored as an int so `live.banks` receives an int atom, not a symbol
       out.push(token);
     } else if (token === "$2") {
-      out.push(currentTab + "-" + NOTE_POSTFIXES[currentNote - 1]);
+      out.push(currentTab + "-" + NOTE_POSTFIXES[currentNote]);
     } else {
       out.push(token.replace("$1", String(currentTab)));
     }
@@ -62,7 +62,8 @@ function msg_int(value) {
 function list() {
   var args = arrayfromargs(arguments);
   if (inlet === INLET_NOTE) {
-    currentNote = args[0];
+    // note message is `<osc> <noteValue>`
+    currentNote = args[1];
     update();
   }
 }
