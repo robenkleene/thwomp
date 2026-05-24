@@ -1874,7 +1874,7 @@
             "obj-1::obj-3::obj-5": [ "2-Gain", "Gain", 0 ],
             "obj-1::obj-3::obj-7": [ "2-Osc", "Osc", 0 ],
             "obj-1::obj-3::obj-9": [ "2-OscShape", "Shape", 0 ],
-            "obj-1::obj-8::obj-10": [ "RandTab", "RandTab", 0 ],
+            "obj-1::obj-8::obj-11": [ "RandTab", "Tab", 0 ],
             "obj-1::obj-8::obj-170": [ "RandTrig", "Trig", 0 ],
             "obj-1::obj-8::obj-175": [ "RandTrigSet", "TrigSet", 0 ],
             "obj-1::obj-8::obj-1::obj-1": [ "RandOsc1", "Osc1", 0 ],
