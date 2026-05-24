@@ -14,35 +14,38 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-75",
+                    "maxclass": "live.tab",
+                    "num_lines_patching": 1,
+                    "num_lines_presentation": 0,
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 14.0, 122.0, 100.0, 20.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "Osc 1", "Osc 2", "Rand" ],
+                            "parameter_longname": "Tab",
+                            "parameter_mmax": 2,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Tab",
+                            "parameter_type": 2,
+                            "parameter_unitstyle": 9
+                        }
+                    },
+                    "varname": "Tab"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-73",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 32.0, 90.0, 72.0, 22.0 ],
+                    "patching_rect": [ 40.0, 95.0, 72.0, 22.0 ],
                     "text": "prepend set"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-72",
-                    "maxclass": "live.numbox",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 14.0, 123.0, 44.0, 15.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_longname": "Tab",
-                            "parameter_mmax": 2.0,
-                            "parameter_modmode": 4,
-                            "parameter_shortname": "Tab",
-                            "parameter_type": 1,
-                            "parameter_unitstyle": 0
-                        }
-                    },
-                    "varname": "Tab"
                 }
             },
             {
@@ -1761,13 +1764,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-2", 0 ],
-                    "source": [ "obj-72", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-72", 0 ],
+                    "destination": [ "obj-75", 0 ],
                     "source": [ "obj-73", 0 ]
                 }
             },
@@ -1790,6 +1787,12 @@
                     "destination": [ "obj-81", 0 ],
                     "order": 0,
                     "source": [ "obj-74", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-2", 0 ],
+                    "source": [ "obj-75", 0 ]
                 }
             },
             {
@@ -1953,7 +1956,7 @@
             "obj-40::obj-34": [ "RingAttack", "Attack", 0 ],
             "obj-40::obj-36": [ "RingDecay", "Decay", 0 ],
             "obj-45": [ "Randomize", "Rand", 0 ],
-            "obj-72": [ "Tab", "Tab", 0 ],
+            "obj-75": [ "Tab", "Tab", 0 ],
             "obj-9::obj-1::obj-1": [ "FiltFreq", "Freq", 0 ],
             "obj-9::obj-1::obj-11": [ "FiltQ", "Res", 0 ],
             "obj-9::obj-1::obj-6": [ "FiltType", "Type", 0 ],

@@ -9,9 +9,34 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 741.0, 398.0, 1071.0, 864.0 ],
+        "rect": [ 470.0, 327.0, 1071.0, 864.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-11",
+                    "maxclass": "live.tab",
+                    "num_lines_patching": 1,
+                    "num_lines_presentation": 0,
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 157.0, 53.0, 100.0, 20.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "Osc", "Effect", "Filter" ],
+                            "parameter_longname": "RandTab",
+                            "parameter_mmax": 2,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Tab",
+                            "parameter_type": 2,
+                            "parameter_unitstyle": 9
+                        }
+                    },
+                    "varname": "RandTab"
+                }
+            },
             {
                 "box": {
                     "id": "obj-8",
@@ -21,28 +46,6 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 266.0, 52.0, 72.0, 22.0 ],
                     "text": "prepend set"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-10",
-                    "maxclass": "live.numbox",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 202.0, 59.0, 44.0, 15.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_longname": "RandTab",
-                            "parameter_mmax": 2.0,
-                            "parameter_modmode": 4,
-                            "parameter_shortname": "RandTab",
-                            "parameter_type": 1,
-                            "parameter_unitstyle": 0
-                        }
-                    },
-                    "varname": "RandTab"
                 }
             },
             {
@@ -781,7 +784,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-9", 0 ],
-                    "source": [ "obj-10", 0 ]
+                    "source": [ "obj-11", 0 ]
                 }
             },
             {
@@ -1150,7 +1153,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-10", 0 ],
+                    "destination": [ "obj-11", 0 ],
                     "source": [ "obj-8", 0 ]
                 }
             },
@@ -1176,7 +1179,7 @@
             }
         ],
         "parameters": {
-            "obj-10": [ "RandTab", "RandTab", 0 ],
+            "obj-11": [ "RandTab", "Tab", 0 ],
             "obj-170": [ "RandTrig", "Trig", 0 ],
             "obj-175": [ "RandTrigSet", "TrigSet", 0 ],
             "obj-1::obj-1": [ "RandOsc1", "Osc1", 0 ],
