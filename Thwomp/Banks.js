@@ -9,17 +9,15 @@ var INLET_NOTE = 1;
 
 var ENCODERS = [
   [0, "Main", "Tab", "$2", "$1-PitchEnvAmt", "$1-PitchEnvDur", "1-PitchEnvCurve", "$1-AmpAttack", "$1-AmpDecay", "Vol"],
-  [1, "Osc",  "Tab", "-", "-", "-", "-", "$2", "$1-Overdrive", "$1-Overtone"],
+  [1, "Osc",  "Tab", "$1-OscShape", "$2", "$1-Overdrive", "$1-Overtone", "-", "-", "-"],
   [2, "Env",  "Tab", "$1-PitchEnvDur", "$1-PitchEnvCurve", "$1-PitchEnvAmt", "$1-AmpAttack", "$1-AmpDecay", "$1-Gain", "-"],
   [3, "Filt", "Tab", "$1-OscFilt", "RingFilt", "Filt", "FiltType", "FiltFreq", "FiltQ", "-"],
   [4, "Ring", "Tab", "Ring", "RingAttack", "RingDecay", "RingGain", "-", "-", "-"]
 ];
 
-// Buttons parallel `ENCODERS` by bank index (`null` = bank has no buttons). Each row is
-// 7 slots; slot 0 is always `-` because the real first button is never available.
 var BUTTONS = [
   null,
-  ["-", "$1-Osc", "$1-OscShape", "$1-OscReset", "$1-OscNote", "-", "-"],
+  ["$1-Osc", "$1-OscReset", "$1-OscNote", "-", "-", "-", "-"],
   null,
   null,
   null
