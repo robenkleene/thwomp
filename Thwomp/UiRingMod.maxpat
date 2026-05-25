@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 3,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 778.0, 355.0, 1362.0, 983.0 ],
+        "rect": [ 270.0, 309.0, 1362.0, 983.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -48,6 +48,8 @@
             },
             {
                 "box": {
+                    "automation": "Off",
+                    "automationon": "On",
                     "id": "obj-11",
                     "maxclass": "live.text",
                     "numinlets": 1,
@@ -59,7 +61,7 @@
                     "presentation_rect": [ 50.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_enum": [ "Off", "On" ],
                             "parameter_longname": "RingFilt",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
@@ -396,7 +398,7 @@
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 304.0, 298.0, 128.0, 128.0 ],
+                    "patching_rect": [ 390.0, 301.0, 128.0, 128.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 142.0, 84.0 ],
                     "proportion": 0.39,
