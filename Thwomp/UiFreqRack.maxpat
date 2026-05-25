@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 3,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1309.0, 449.0, 517.0, 821.0 ],
+        "rect": [ 844.0, 361.0, 1095.0, 733.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
@@ -283,8 +283,8 @@
             }
         ],
         "parameters": {
-            "obj-1::obj-15": [ "live.numbox", "Freq", 0 ],
-            "obj-1::obj-17": [ "live.numbox[1]", "Semi", 0 ],
+            "obj-1::obj-15": [ "#2-OscFreq", "Freq", 0 ],
+            "obj-1::obj-17": [ "#2-OscSemi", "Semi", 0 ],
             "obj-5": [ "#2-OscNote", "Note", 0 ],
             "parameterbanks": {
                 "0": {
@@ -292,14 +292,6 @@
                     "name": "",
                     "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
                     "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
-            "parameter_overrides": {
-                "obj-1::obj-15": {
-                    "parameter_longname": "live.numbox"
-                },
-                "obj-1::obj-17": {
-                    "parameter_longname": "live.numbox[1]"
                 }
             },
             "inherited_shortname": 1
