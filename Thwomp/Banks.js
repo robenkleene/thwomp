@@ -17,7 +17,7 @@ var ENCODERS = [
 
 var BUTTONS = [
   null,
-  ["$1-Osc", "$1-OscReset", "$1-OscNote", "-", "-", "-", "-"],
+  ["-", "$1-Osc", "$1-OscNote", "$1-OscReset", "-", "-", "-"],
   null,
   null,
   null
