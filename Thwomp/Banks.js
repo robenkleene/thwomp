@@ -7,7 +7,7 @@ outlets = 1;
 var INLET_TAB = 0;
 var INLET_NOTE = 1;
 
-var TABS = [
+var ENCODERS = [
   [0, "Main", "Tab", "$2", "$1-PitchEnvAmt", "$1-PitchEnvDur", "1-PitchEnvCurve", "$1-AmpAttack", "$1-AmpDecay", "Vol"],
   [1, "Osc",  "Tab", "$1-Osc", "$1-OscShape", "$1-OscReset", "$1-OscNote", "$2", "$1-Overdrive", "$1-Overtone"],
   [2, "Env",  "Tab", "$1-PitchEnvDur", "$1-PitchEnvCurve", "$1-PitchEnvAmt", "$1-AmpAttack", "$1-AmpDecay", "$1-Gain", "-"],
@@ -46,7 +46,7 @@ function update() {
 
   // Only banks `0-3` contain tokens (e.g., `$1`) and only banks with tokens need to be updated
   for (var i = 0; i < 4; i++) {
-    outlet(0, replaceTokens(TABS[i]));
+    outlet(0, replaceTokens(ENCODERS[i]));
   }
 }
 
@@ -73,8 +73,8 @@ function bang() {
   currentTab = DEFAULT_TAB;
   currentNote = DEFAULT_NOTE;
 
-  for (var i = 0; i < TABS.length; i++) {
-    outlet(0, replaceTokens(TABS[i]));
+  for (var i = 0; i < ENCODERS.length; i++) {
+    outlet(0, replaceTokens(ENCODERS[i]));
   }
 }
 
