@@ -36,8 +36,6 @@ function replaceTokens(tokens) {
       out.push(token.replace("$1", String(currentTab)));
     }
   }
-  // `@buttons` slot 0 is `-` (the real first button is never available), slot 1 maps to `randomize`
-  out.push("@buttons", "-", "Randomize");
   return out;
 }
 
