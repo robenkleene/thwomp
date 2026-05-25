@@ -147,7 +147,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 643.0, 1172.0, 105.0, 22.0 ],
-                    "text": "script $1 RingMod"
+                    "text": "script $1 Ring"
                 }
             },
             {
@@ -899,7 +899,7 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "UiRingMod.maxpat",
+                    "name": "UiRing.maxpat",
                     "numinlets": 2,
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
@@ -907,7 +907,7 @@
                     "patching_rect": [ 264.0, 336.0, 143.0, 88.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 242.0, 0.0, 144.0, 93.0 ],
-                    "varname": "RingMod",
+                    "varname": "Ring",
                     "viewvisibility": 1
                 }
             },
