@@ -305,6 +305,8 @@
             },
             {
                 "box": {
+                    "automation": "Off",
+                    "automationon": "On",
                     "id": "obj-26",
                     "maxclass": "live.text",
                     "numinlets": 1,
@@ -316,7 +318,7 @@
                     "presentation_rect": [ 3.0, 35.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_enum": [ "Off", "On" ],
                             "parameter_longname": "#2-OscReset",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
@@ -705,7 +707,7 @@
             {
                 "box": {
                     "angle": 270.0,
-                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
+                    "bgcolor": [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
                     "id": "obj-27",
                     "maxclass": "panel",
                     "mode": 0,
@@ -1016,8 +1018,8 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-        "editing_bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "bgcolor": [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
+        "editing_bgcolor": [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
         "saved_attribute_attributes": {
             "editing_bgcolor": {
                 "expression": "themecolor.live_macro_title"
