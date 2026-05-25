@@ -365,6 +365,8 @@
             },
             {
                 "box": {
+                    "automation": "Off",
+                    "automationon": "On",
                     "id": "obj-25",
                     "maxclass": "live.text",
                     "numinlets": 1,
@@ -376,7 +378,7 @@
                     "presentation_rect": [ 3.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_enum": [ "Off", "On" ],
                             "parameter_longname": "Ring",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
