@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 721.0, 360.0, 1065.0, 789.0 ],
+        "rect": [ 721.0, 360.0, 1338.0, 913.0 ],
         "openinpresentation": 1,
         "toolbars_unpinned_last_save": 4,
         "boxes": [
@@ -263,7 +263,7 @@
                             "parameter_longname": "#2-OscFilt",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "OscFilt",
+                            "parameter_shortname": "Filter",
                             "parameter_type": 2
                         }
                     },
@@ -561,7 +561,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "int" ],
-                    "patching_rect": [ 248.0, 456.0, 40.0, 64.0 ],
+                    "patching_rect": [ 240.55555555555554, 486.0, 132.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 3.0, 75.0, 127.0, 19.0 ],
                     "varname": "FreqRack",
@@ -699,7 +699,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int", "" ],
-                    "patching_rect": [ 304.0, 360.0, 40.0, 160.0 ],
+                    "patching_rect": [ 297.1111111111111, 424.0, 144.0, 52.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 5.0, 116.0, 138.0, 48.0 ],
                     "varname": "PitchEnv",
@@ -994,7 +994,7 @@
             }
         ],
         "parameters": {
-            "obj-12": [ "#2-OscFilt", "OscFilt", 0 ],
+            "obj-12": [ "#2-OscFilt", "Filter", 0 ],
             "obj-17::obj-17": [ "#2-PitchEnvAmt", "Amount", 0 ],
             "obj-17::obj-18": [ "#2-PitchEnvDur", "Duration", 0 ],
             "obj-17::obj-26": [ "#2-PitchEnvCurve", "Curve", 0 ],

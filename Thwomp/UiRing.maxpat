@@ -65,7 +65,7 @@
                             "parameter_longname": "RingFilt",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RingFilt",
+                            "parameter_shortname": "Filter",
                             "parameter_type": 2
                         }
                     },
@@ -565,7 +565,7 @@
             }
         ],
         "parameters": {
-            "obj-11": [ "RingFilt", "RingFilt", 0 ],
+            "obj-11": [ "RingFilt", "Filter", 0 ],
             "obj-25": [ "Ring", "Ring", 0 ],
             "obj-31": [ "RingGain", "Gain", 0 ],
             "obj-34": [ "RingAttack", "Attack", 0 ],
