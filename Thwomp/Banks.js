@@ -9,10 +9,20 @@ var INLET_NOTE = 1;
 
 var ENCODERS = [
   [0, "Main", "Tab", "$2", "$1-PitchEnvAmt", "$1-PitchEnvDur", "1-PitchEnvCurve", "$1-AmpAttack", "$1-AmpDecay", "Vol"],
-  [1, "Osc",  "Tab", "$1-Osc", "$1-OscShape", "$1-OscReset", "$1-OscNote", "$2", "$1-Overdrive", "$1-Overtone"],
+  [1, "Osc",  "Tab", "-", "-", "-", "-", "$2", "$1-Overdrive", "$1-Overtone"],
   [2, "Env",  "Tab", "$1-PitchEnvDur", "$1-PitchEnvCurve", "$1-PitchEnvAmt", "$1-AmpAttack", "$1-AmpDecay", "$1-Gain", "-"],
   [3, "Filt", "Tab", "$1-OscFilt", "RingFilt", "Filt", "FiltType", "FiltFreq", "FiltQ", "-"],
   [4, "Ring", "Tab", "Ring", "RingAttack", "RingDecay", "RingGain", "-", "-", "-"]
+];
+
+// Buttons parallel `ENCODERS` by bank index (`null` = bank has no buttons). Each row is
+// 7 slots; slot 0 is always `-` because the real first button is never available.
+var BUTTONS = [
+  null,
+  ["-", "$1-Osc", "$1-OscShape", "$1-OscReset", "$1-OscNote", "-", "-"],
+  null,
+  null,
+  null
 ];
 
 // State
@@ -39,6 +49,18 @@ function replaceTokens(tokens) {
   return out;
 }
 
+function bankMessage(i) {
+  var out = [];
+  if (ENCODERS[i]) {
+    out = out.concat(replaceTokens(ENCODERS[i]));
+  }
+  if (BUTTONS[i]) {
+    out.push("@buttons");
+    out = out.concat(replaceTokens(BUTTONS[i]));
+  }
+  return out;
+}
+
 function update() {
   if (currentTab < 0 || currentTab > 2) {
     return;
@@ -46,7 +68,7 @@ function update() {
 
   // Only banks `0-3` contain tokens (e.g., `$1`) and only banks with tokens need to be updated
   for (var i = 0; i < 4; i++) {
-    outlet(0, replaceTokens(ENCODERS[i]));
+    outlet(0, bankMessage(i));
   }
 }
 
@@ -74,7 +96,7 @@ function bang() {
   currentNote = DEFAULT_NOTE;
 
   for (var i = 0; i < ENCODERS.length; i++) {
-    outlet(0, replaceTokens(ENCODERS[i]));
+    outlet(0, bankMessage(i));
   }
 }
 
