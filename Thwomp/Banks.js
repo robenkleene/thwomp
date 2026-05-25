@@ -9,18 +9,16 @@ var INLET_NOTE = 1;
 
 var ENCODERS = [
   [0, "Main", "Tab", "$2", "$1-PitchEnvAmt", "$1-PitchEnvDur", "1-PitchEnvCurve", "$1-AmpAttack", "$1-AmpDecay", "Vol"],
-  [1, "Osc",  "Tab", "$1-OscShape", "$2", "$1-Overdrive", "$1-Overtone", "-", "-", "-"],
-  [2, "Env",  "Tab", "$1-PitchEnvDur", "$1-PitchEnvCurve", "$1-PitchEnvAmt", "$1-AmpAttack", "$1-AmpDecay", "$1-Gain", "-"],
-  [3, "Filt", "Tab", "FiltType", "FiltFreq", "FiltQ", "-", "-", "-", "-"],
-  [4, "Ring", "Tab", "RingAttack", "RingDecay", "RingGain", "-", "-", "-", "-"]
+  [1, "Oscillator",  "Tab", "$1-OscShape", "$2", "$1-Overdrive", "$1-Overtone", "$1-PitchEnvDur", "$1-PitchEnvCurve", "$1-PitchEnvAmt"],
+  [2, "Envelope",  "Tab", "$1-AmpAttack", "$1-AmpDecay", "$1-Gain", "-", "-", "-", "-"],
+  [3, "Filter/Ring", "Tab", "FiltType", "FiltFreq", "FiltQ", "RingAttack", "RingDecay", "RingGain", "-"],
 ];
 
 var BUTTONS = [
   null,
   ["-", "$1-Osc", "$1-OscNote", "$1-OscReset", "$1-OscFilt", "-", "-"],
   null,
-  ["-","Filt", "-", "-", "-", "-", "-"],
-  ["-", "Ring", "RingFilt", "-", "-", "-", "-"]
+  ["-", "Filt", "-", "-", "Ring", "RingFilt", "-"],
 ];
 
 // State
