@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 3,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
@@ -59,7 +59,7 @@
                     "remapsvgcolors": 1,
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "sine", "tri", "square", "saw", "noise", "pink" ],
+                            "parameter_enum": [ "Sine", "Tri", "Square", "Saw", "Noise", "Pink" ],
                             "parameter_longname": "#1-Min",
                             "parameter_mmax": 5,
                             "parameter_modmode": 0,

@@ -501,7 +501,7 @@
                     "remapsvgcolors": 1,
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "sine", "tri", "square", "saw", "noise", "pink" ],
+                            "parameter_enum": [ "Sine", "Tri", "Square", "Saw", "Noise", "Pink" ],
                             "parameter_longname": "#2-OscShape",
                             "parameter_mmax": 5,
                             "parameter_modmode": 0,

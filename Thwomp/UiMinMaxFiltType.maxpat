@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 3,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 674.0, 170.0, 975.0, 911.0 ],
+        "rect": [ 674.0, 170.0, 843.0, 911.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -29,7 +29,7 @@
                     "remapsvgcolors": 1,
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "one", "two", "three", "four" ],
+                            "parameter_enum": [ "HP", "LP", "BP", "N" ],
                             "parameter_longname": "#1-Max",
                             "parameter_mmax": 3,
                             "parameter_modmode": 0,
@@ -59,7 +59,7 @@
                     "remapsvgcolors": 1,
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "one", "two", "three", "four" ],
+                            "parameter_enum": [ "HP", "LP", "BP", "N" ],
                             "parameter_longname": "#1-Min",
                             "parameter_mmax": 3,
                             "parameter_modmode": 0,
