@@ -444,7 +444,7 @@
             }
         ],
         "parameters": {
-            "obj-1::obj-12": [ "1-OscFilt", "OscFilt", 0 ],
+            "obj-1::obj-12": [ "1-OscFilt", "Filter", 0 ],
             "obj-1::obj-17::obj-17": [ "1-PitchEnvAmt", "Amount", 0 ],
             "obj-1::obj-17::obj-18": [ "1-PitchEnvDur", "Duration", 0 ],
             "obj-1::obj-17::obj-26": [ "1-PitchEnvCurve", "Curve", 0 ],
@@ -459,7 +459,7 @@
             "obj-1::obj-5": [ "1-Gain", "Gain", 0 ],
             "obj-1::obj-7": [ "1-Osc", "Osc", 0 ],
             "obj-1::obj-9": [ "1-OscShape", "Shape", 0 ],
-            "obj-3::obj-12": [ "2-OscFilt", "OscFilt", 0 ],
+            "obj-3::obj-12": [ "2-OscFilt", "Filter", 0 ],
             "obj-3::obj-17::obj-17": [ "2-PitchEnvAmt", "Amount", 0 ],
             "obj-3::obj-17::obj-18": [ "2-PitchEnvDur", "Duration", 0 ],
             "obj-3::obj-17::obj-26": [ "2-PitchEnvCurve", "Curve", 0 ],
@@ -478,8 +478,8 @@
             "obj-8::obj-170": [ "RandTrig", "Trig", 0 ],
             "obj-8::obj-175": [ "RandTrigSet", "TrigSet", 0 ],
             "obj-8::obj-1::obj-1": [ "RandOsc1", "Osc1", 0 ],
-            "obj-8::obj-1::obj-10::obj-1": [ "RandPitchEnvDur-Min", "Min", 0 ],
-            "obj-8::obj-1::obj-10::obj-2": [ "RandPitchEnvDur-Max", "Max", 0 ],
+            "obj-8::obj-1::obj-10::obj-1": [ "RandOscPchEnvDur-Min", "Min", 0 ],
+            "obj-8::obj-1::obj-10::obj-2": [ "RandOscPchEnvDur-Max", "Max", 0 ],
             "obj-8::obj-1::obj-126::obj-27": [ "RandFiltType-Min", "FTypeMin", 0 ],
             "obj-8::obj-1::obj-126::obj-28": [ "RandFiltType-Max", "FTypeMax", 0 ],
             "obj-8::obj-1::obj-127::obj-26": [ "RandOscShape-Min", "ShapeMin", 0 ],
