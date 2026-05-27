@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 835.0, 222.0, 975.0, 911.0 ],
+        "rect": [ 468.0, 224.0, 975.0, 911.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -33,7 +33,7 @@
                             "parameter_longname": "#1-Max",
                             "parameter_mmax": 5,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "#2Max",
+                            "parameter_shortname": "Max",
                             "parameter_type": 2
                         }
                     },
@@ -63,7 +63,7 @@
                             "parameter_longname": "#1-Min",
                             "parameter_mmax": 5,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "#2Min",
+                            "parameter_shortname": "Min",
                             "parameter_type": 2
                         }
                     },
@@ -354,8 +354,8 @@
             }
         ],
         "parameters": {
-            "obj-26": [ "#1-Min", "#2Min", 0 ],
-            "obj-35": [ "#1-Max", "#2Max", 0 ],
+            "obj-26": [ "#1-Min", "Min", 0 ],
+            "obj-35": [ "#1-Max", "Max", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
