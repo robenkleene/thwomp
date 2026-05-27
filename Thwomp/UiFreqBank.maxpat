@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 855.0, 601.0, 1175.0, 573.0 ],
+        "rect": [ 165.0, 429.0, 1175.0, 573.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
@@ -51,9 +51,11 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "#2-OscSemi",
-                            "parameter_modmode": 3,
+                            "parameter_mmax": 48.0,
+                            "parameter_mmin": -48.0,
+                            "parameter_modmode": 4,
                             "parameter_shortname": "Semi",
-                            "parameter_type": 0,
+                            "parameter_type": 1,
                             "parameter_unitstyle": 7
                         }
                     },
@@ -148,7 +150,7 @@
                     "patching_rect": [ 352.0, 16.0, 56.0, 22.0 ],
                     "restore": {
                         "#2-OscFreq": [ 0.0 ],
-                        "#2-OscSemi": [ 0.0 ]
+                        "#2-OscSemi": [ 48.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u665013921"
