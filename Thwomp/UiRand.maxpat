@@ -83,7 +83,7 @@
                             "parameter_longname": "RandOscSemi",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Freq",
+                            "parameter_shortname": "Semi",
                             "parameter_type": 2
                         }
                     },
@@ -2825,7 +2825,7 @@
             {
                 "box": {
                     "angle": 270.0,
-                    "bgcolor": [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
+                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
                     "id": "obj-panel-osc",
                     "maxclass": "panel",
                     "mode": 0,
@@ -2846,7 +2846,7 @@
             {
                 "box": {
                     "angle": 270.0,
-                    "bgcolor": [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
+                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
                     "id": "obj-panel-fx",
                     "maxclass": "panel",
                     "mode": 0,
@@ -2867,7 +2867,7 @@
             {
                 "box": {
                     "angle": 270.0,
-                    "bgcolor": [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
+                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
                     "id": "obj-226",
                     "maxclass": "panel",
                     "mode": 0,
@@ -2888,7 +2888,7 @@
             {
                 "box": {
                     "angle": 270.0,
-                    "bgcolor": [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
+                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
                     "id": "obj-227",
                     "maxclass": "panel",
                     "mode": 0,
@@ -2909,7 +2909,7 @@
             {
                 "box": {
                     "angle": 270.0,
-                    "bgcolor": [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
+                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
                     "id": "obj-229",
                     "maxclass": "panel",
                     "mode": 0,
@@ -3957,7 +3957,7 @@
             "obj-206::obj-2": [ "RandOscSemi-Max", "Max", 0 ],
             "obj-20::obj-1": [ "RandOscDecay-Min", "Min", 0 ],
             "obj-20::obj-2": [ "RandOscDecay-Max", "Max", 0 ],
-            "obj-218": [ "RandOscSemi", "Freq", 0 ],
+            "obj-218": [ "RandOscSemi", "Semi", 0 ],
             "obj-22": [ "RandOvertone", "Overtone", 0 ],
             "obj-23": [ "RandOscAttack", "Attack", 0 ],
             "obj-24::obj-1": [ "RandOscGain-Min", "Min", 0 ],
@@ -4006,11 +4006,103 @@
                     "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
                 }
             },
+            "parameter_overrides": {
+                "obj-12::obj-1": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-12::obj-2": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-14::obj-1": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-14::obj-2": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-16::obj-1": {
+                    "parameter_range": [ 0.0, 100.0 ]
+                },
+                "obj-16::obj-2": {
+                    "parameter_range": [ 0.0, 100.0 ]
+                },
+                "obj-18::obj-1": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-18::obj-2": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-206::obj-1": {
+                    "parameter_range": [ -48, 48 ]
+                },
+                "obj-206::obj-2": {
+                    "parameter_range": [ -48, 48 ]
+                },
+                "obj-20::obj-1": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-20::obj-2": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-24::obj-1": {
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-24::obj-2": {
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-31::obj-1": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-31::obj-2": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-33::obj-1": {
+                    "parameter_range": [ 0.3, 10.0 ]
+                },
+                "obj-33::obj-2": {
+                    "parameter_range": [ 0.3, 10.0 ]
+                },
+                "obj-36::obj-1": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-36::obj-2": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-60::obj-1": {
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-60::obj-2": {
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-62::obj-1": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-62::obj-2": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-64::obj-1": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-64::obj-2": {
+                    "parameter_range": [ 0.0, 15.0 ]
+                },
+                "obj-67::obj-1": {
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-67::obj-2": {
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-8::obj-1": {
+                    "parameter_range": [ 0.0, 100.0 ]
+                },
+                "obj-8::obj-2": {
+                    "parameter_range": [ 0.0, 100.0 ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "bgcolor": [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
-        "editing_bgcolor": [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
+        "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "editing_bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
         "saved_attribute_attributes": {
             "editing_bgcolor": {
                 "expression": "themecolor.live_macro_title"
