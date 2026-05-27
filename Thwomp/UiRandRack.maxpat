@@ -17,7 +17,7 @@
                     "id": "obj-11",
                     "maxclass": "live.tab",
                     "num_lines_patching": 1,
-                    "num_lines_presentation": 0,
+                    "num_lines_presentation": 1,
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
@@ -274,7 +274,7 @@
                             "parameter_longname": "RandTrigSet",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "TrigSet",
+                            "parameter_shortname": "Set",
                             "parameter_type": 2
                         }
                     },
@@ -311,7 +311,7 @@
                         "valueof": {
                             "parameter_longname": "RandTrig",
                             "parameter_modmode": 4,
-                            "parameter_shortname": "Trig",
+                            "parameter_shortname": "Note",
                             "parameter_type": 1,
                             "parameter_unitstyle": 8
                         }
@@ -661,7 +661,7 @@
                             "parameter_longname": "RandTrigToggle",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandTrigToggle",
+                            "parameter_shortname": "Trig",
                             "parameter_type": 2
                         }
                     },
@@ -1180,15 +1180,15 @@
         ],
         "parameters": {
             "obj-11": [ "RandTab", "Tab", 0 ],
-            "obj-170": [ "RandTrig", "Trig", 0 ],
-            "obj-175": [ "RandTrigSet", "TrigSet", 0 ],
+            "obj-170": [ "RandTrig", "Note", 0 ],
+            "obj-175": [ "RandTrigSet", "Set", 0 ],
             "obj-1::obj-1": [ "RandOsc1", "Osc1", 0 ],
             "obj-1::obj-10::obj-1": [ "RandOscPchEnvDur-Min", "Min", 0 ],
             "obj-1::obj-10::obj-2": [ "RandOscPchEnvDur-Max", "Max", 0 ],
             "obj-1::obj-126::obj-27": [ "RandFiltType-Min", "FTypeMin", 0 ],
             "obj-1::obj-126::obj-28": [ "RandFiltType-Max", "FTypeMax", 0 ],
-            "obj-1::obj-127::obj-26": [ "RandOscShape-Min", "ShapeMin", 0 ],
-            "obj-1::obj-127::obj-35": [ "RandOscShape-Max", "ShapeMax", 0 ],
+            "obj-1::obj-127::obj-26": [ "RandOscShape-Min", "Min", 0 ],
+            "obj-1::obj-127::obj-35": [ "RandOscShape-Max", "Max", 0 ],
             "obj-1::obj-12::obj-1": [ "RandOscPchEnvCurve-Min", "Min", 0 ],
             "obj-1::obj-12::obj-2": [ "RandOscPchEnvCurve-Max", "Max", 0 ],
             "obj-1::obj-138": [ "RandOscNote", "Note", 0 ],
@@ -1204,7 +1204,7 @@
             "obj-1::obj-206::obj-2": [ "RandOscSemi-Max", "Max", 0 ],
             "obj-1::obj-20::obj-1": [ "RandOscDecay-Min", "Min", 0 ],
             "obj-1::obj-20::obj-2": [ "RandOscDecay-Max", "Max", 0 ],
-            "obj-1::obj-218": [ "RandOscSemi", "Freq", 0 ],
+            "obj-1::obj-218": [ "RandOscSemi", "Semi", 0 ],
             "obj-1::obj-22": [ "RandOvertone", "Overtone", 0 ],
             "obj-1::obj-23": [ "RandOscAttack", "Attack", 0 ],
             "obj-1::obj-24::obj-1": [ "RandOscGain-Min", "Min", 0 ],
@@ -1245,7 +1245,7 @@
             "obj-1::obj-7": [ "RandOscPchEnvDur", "PDur", 0 ],
             "obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "Min", 0 ],
             "obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "Max", 0 ],
-            "obj-2": [ "RandTrigToggle", "RandTrigToggle", 0 ],
+            "obj-2": [ "RandTrigToggle", "Trig", 0 ],
             "obj-76": [ "RandAuto", "Auto", 0 ],
             "obj-9::obj-1": [ "RandTabOsc", "RandTabOsc", 0 ],
             "obj-9::obj-2": [ "RandTabEffect", "RandTabEffect", 0 ],

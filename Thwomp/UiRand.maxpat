@@ -1920,7 +1920,7 @@
                             "parameter_longname": "RandRingFilt",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RFilt",
+                            "parameter_shortname": "Filter",
                             "parameter_type": 2
                         }
                     },
@@ -2311,7 +2311,7 @@
                             "parameter_longname": "RandFilt",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Filt",
+                            "parameter_shortname": "Filter",
                             "parameter_type": 2
                         }
                     },
@@ -3940,8 +3940,8 @@
             "obj-10::obj-2": [ "RandOscPchEnvDur-Max", "Max", 0 ],
             "obj-126::obj-27": [ "RandFiltType-Min", "FTypeMin", 0 ],
             "obj-126::obj-28": [ "RandFiltType-Max", "FTypeMax", 0 ],
-            "obj-127::obj-26": [ "RandOscShape-Min", "ShapeMin", 0 ],
-            "obj-127::obj-35": [ "RandOscShape-Max", "ShapeMax", 0 ],
+            "obj-127::obj-26": [ "RandOscShape-Min", "Min", 0 ],
+            "obj-127::obj-35": [ "RandOscShape-Max", "Max", 0 ],
             "obj-12::obj-1": [ "RandOscPchEnvCurve-Min", "Min", 0 ],
             "obj-12::obj-2": [ "RandOscPchEnvCurve-Max", "Max", 0 ],
             "obj-138": [ "RandOscNote", "Note", 0 ],
@@ -3964,7 +3964,7 @@
             "obj-24::obj-2": [ "RandOscGain-Max", "Max", 0 ],
             "obj-29": [ "RandFiltType", "FType", 0 ],
             "obj-3": [ "RandOscShape", "Shape", 0 ],
-            "obj-30": [ "RandFilt", "Filt", 0 ],
+            "obj-30": [ "RandFilt", "Filter", 0 ],
             "obj-31::obj-1": [ "RandFiltFreq-Min", "Min", 0 ],
             "obj-31::obj-2": [ "RandFiltFreq-Max", "Max", 0 ],
             "obj-33::obj-1": [ "RandFiltQ-Min", "Min", 0 ],
@@ -3980,7 +3980,7 @@
             "obj-43": [ "RandFiltFreq", "FFrq", 0 ],
             "obj-44": [ "RandFiltQ", "FiltQ", 0 ],
             "obj-45": [ "RandRing", "Ring", 0 ],
-            "obj-46": [ "RandRingFilt", "RFilt", 0 ],
+            "obj-46": [ "RandRingFilt", "Filter", 0 ],
             "obj-5": [ "RandOscFreq", "Freq", 0 ],
             "obj-57": [ "RandRingGain", "RGain", 0 ],
             "obj-58": [ "RandRingDecay", "RDecay", 0 ],
