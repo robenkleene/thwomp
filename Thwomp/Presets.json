@@ -5,8 +5,10 @@
             "1": {
                 "id": 1,
                 "data": {
+                    "PresetsLoad": [ 0.0 ],
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
+                    "PresetsSelect": [ 1.0 ],
                     "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
                     "Tab": [ 0.0 ],
@@ -123,8 +125,10 @@
             "2": {
                 "id": 2,
                 "data": {
+                    "PresetsLoad": [ 0.0 ],
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
+                    "PresetsSelect": [ 1.0 ],
                     "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
                     "Tab": [ 0.0 ],
@@ -241,8 +245,10 @@
             "3": {
                 "id": 3,
                 "data": {
+                    "PresetsLoad": [ 0.0 ],
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
+                    "PresetsSelect": [ 1.0 ],
                     "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
                     "Tab": [ 0.0 ],
@@ -359,8 +365,10 @@
             "4": {
                 "id": 4,
                 "data": {
+                    "PresetsLoad": [ 0.0 ],
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
+                    "PresetsSelect": [ 1.0 ],
                     "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
                     "Tab": [ 0.0 ],
@@ -477,8 +485,10 @@
             "5": {
                 "id": 5,
                 "data": {
+                    "PresetsLoad": [ 0.0 ],
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
+                    "PresetsSelect": [ 1.0 ],
                     "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
                     "Tab": [ 0.0 ],
@@ -595,8 +605,10 @@
             "9": {
                 "id": 9,
                 "data": {
+                    "PresetsLoad": [ 0.0 ],
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
+                    "PresetsSelect": [ 1.0 ],
                     "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
                     "Tab": [ 0.0 ],
