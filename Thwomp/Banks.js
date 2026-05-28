@@ -8,21 +8,19 @@ var INLET_TAB = 0;
 var INLET_NOTE = 1;
 
 var ENCODERS = [
-[0,  "Main",          "Tab", "$2",                   "$1-PitchEnvAmt",       "$1-PitchEnvDur",         "1-PitchEnvCurve",        "$1-AmpAttack",         "$1-AmpDecay",          "Vol"],
-[1,  "Oscillator",    "Tab", "$1-OscShape",          "$2",                   "$1-Overdrive",           "$1-Overtone",            "$1-PitchEnvDur",       "$1-PitchEnvCurve",     "$1-PitchEnvAmt"],
-[2,  "Amp",           "Tab", "$1-AmpAttack",         "$1-AmpDecay",          "$1-Gain",                "-",                      "-",                    "-",                    "-"],
-[3,  "Filter/Ring",   "Tab", "FiltType",             "FiltFreq",             "FiltQ",                  "RingAttack",             "RingDecay",            "RingGain",             "-"],
-[4,  "Rand Osc",      "Tab", "RandOscFreq-Min",      "RandOscFreq-Max",      "RandOscSemi-Min",        "RandOscSemi-Max",        "RandOscShape-Min",     "RandOscShape-Max",     "-"],
-[5,  "Rand Pitch",    "Tab", "RandOscPchEnvAmt-Min", "RandOscPchEnvAmt-Max", "RandOscPchEnvCurve-Min", "RandOscPchEnvCurve-Max", "RandOscPchEnvDur-Min", "RandOscPchEnvDur-Max", "-"],
-[6,  "Rand Amp",      "Tab", "RandOscAttack-Min",    "RandOscAttack-Max",    "RandOscDecay-Min",       "RandOscDecay-Max",       "RandOscGain-Min",      "RandOscGain-Max",      "-"],
-[7,  "Rand Effect",   "Tab", "RandOvertone-Min",     "RandOvertone-Max",     "RandOverdrive-Min",      "RandOverdrive-Max",      "RandVol-Min",          "RandVol-Max",          "-"],
-[8,  "Rand Filter",   "Tab", "RandFiltFreq-Min",     "RandFiltFreq-Max",     "RandFiltQ-Min",          "RandFiltQ-Max",          "RandFiltType-Min",     "RandFiltType-Max",     "-"],
-[9,  "Rand Ring",     "Tab", "RandRingAttack-Min",   "RandRingAttack-Max",   "RandRingDecay-Min",      "RandRingDecay-Max",      "RandRingGain-Min",     "RandRingGain-Max",     "-"],
-[10, "Rand Triggers", "Tab", "-",                    "-",                    "-",                      "-",                      "-",                    "-",                    "-"],
+[0, "Oscillator",    "Tab", "$1-OscShape",          "$2",                   "$1-Overdrive",           "$1-Overtone",            "$1-PitchEnvDur",       "$1-PitchEnvCurve",     "$1-PitchEnvAmt"],
+[1, "Amp",           "Tab", "$1-AmpAttack",         "$1-AmpDecay",          "$1-Gain",                "Vol",                    "PresetsLoad",          "PresetsSelect",        "-"],
+[2, "Filter/Ring",   "Tab", "FiltType",             "FiltFreq",             "FiltQ",                  "RingAttack",             "RingDecay",            "RingGain",             "-"],
+[3, "Rand Osc",      "Tab", "RandOscFreq-Min",      "RandOscFreq-Max",      "RandOscSemi-Min",        "RandOscSemi-Max",        "RandOscShape-Min",     "RandOscShape-Max",     "-"],
+[4, "Rand Pitch",    "Tab", "RandOscPchEnvAmt-Min", "RandOscPchEnvAmt-Max", "RandOscPchEnvCurve-Min", "RandOscPchEnvCurve-Max", "RandOscPchEnvDur-Min", "RandOscPchEnvDur-Max", "-"],
+[5, "Rand Amp",      "Tab", "RandOscAttack-Min",    "RandOscAttack-Max",    "RandOscDecay-Min",       "RandOscDecay-Max",       "RandOscGain-Min",      "RandOscGain-Max",      "-"],
+[6, "Rand Effect",   "Tab", "RandOvertone-Min",     "RandOvertone-Max",     "RandOverdrive-Min",      "RandOverdrive-Max",      "RandVol-Min",          "RandVol-Max",          "-"],
+[7, "Rand Filter",   "Tab", "RandFiltFreq-Min",     "RandFiltFreq-Max",     "RandFiltQ-Min",          "RandFiltQ-Max",          "RandFiltType-Min",     "RandFiltType-Max",     "-"],
+[8, "Rand Ring",     "Tab", "RandRingAttack-Min",   "RandRingAttack-Max",   "RandRingDecay-Min",      "RandRingDecay-Max",      "RandRingGain-Min",     "RandRingGain-Max",     "-"],
+[9, "Rand Triggers", "Tab", "-",                    "-",                    "-",                      "-",                      "-",                    "-",                    "-"],
 ];
 
 var BUTTONS = [
-["-", "-",                "-",            "-",                "-",            "-",                "-"],
 ["-", "$1-Osc",           "$1-OscNote",   "$1-OscReset",      "$1-OscFilt",   "-",                "-"],
 ["-", "-",                "-",            "-",                "-",            "-",                "-"],
 ["-", "Filt",             "-",            "-",                "Ring",         "RingFilt",         "-"],
