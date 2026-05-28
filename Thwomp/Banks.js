@@ -8,16 +8,16 @@ var INLET_TAB = 0;
 var INLET_NOTE = 1;
 
 var ENCODERS = [
-[0, "Oscillator",    "Tab", "$1-OscShape",          "$2",                   "$1-Overdrive",           "$1-Overtone",            "$1-PitchEnvDur",       "$1-PitchEnvCurve",     "$1-PitchEnvAmt"],
-[1, "Amp",           "Tab", "$1-AmpAttack",         "$1-AmpDecay",          "$1-Gain",                "Vol",                    "PresetsSelect",        "-",                    "-"],
-[2, "Filter/Ring",   "Tab", "FiltType",             "FiltFreq",             "FiltQ",                  "RingAttack",             "RingDecay",            "RingGain",             "-"],
-[3, "Rand Osc",      "Tab", "RandOscFreq-Min",      "RandOscFreq-Max",      "RandOscSemi-Min",        "RandOscSemi-Max",        "RandOscShape-Min",     "RandOscShape-Max",     "-"],
-[4, "Rand Pitch",    "Tab", "RandOscPchEnvAmt-Min", "RandOscPchEnvAmt-Max", "RandOscPchEnvCurve-Min", "RandOscPchEnvCurve-Max", "RandOscPchEnvDur-Min", "RandOscPchEnvDur-Max", "-"],
-[5, "Rand Amp",      "Tab", "RandOscAttack-Min",    "RandOscAttack-Max",    "RandOscDecay-Min",       "RandOscDecay-Max",       "RandOscGain-Min",      "RandOscGain-Max",      "-"],
-[6, "Rand Effect",   "Tab", "RandOvertone-Min",     "RandOvertone-Max",     "RandOverdrive-Min",      "RandOverdrive-Max",      "RandVol-Min",          "RandVol-Max",          "-"],
-[7, "Rand Filter",   "Tab", "RandFiltFreq-Min",     "RandFiltFreq-Max",     "RandFiltQ-Min",          "RandFiltQ-Max",          "RandFiltType-Min",     "RandFiltType-Max",     "-"],
-[8, "Rand Ring",     "Tab", "RandRingAttack-Min",   "RandRingAttack-Max",   "RandRingDecay-Min",      "RandRingDecay-Max",      "RandRingGain-Min",     "RandRingGain-Max",     "-"],
-[9, "Rand Triggers", "Tab", "-",                    "-",                    "-",                      "-",                      "-",                    "-",                    "-"],
+["Oscillator",    "Tab", "$1-OscShape",          "$2",                   "$1-Overdrive",           "$1-Overtone",            "$1-PitchEnvDur",       "$1-PitchEnvCurve",     "$1-PitchEnvAmt"],
+["Amp",           "Tab", "$1-AmpAttack",         "$1-AmpDecay",          "$1-Gain",                "Vol",                    "PresetsSelect",        "-",                    "-"],
+["Filter/Ring",   "Tab", "FiltType",             "FiltFreq",             "FiltQ",                  "RingAttack",             "RingDecay",            "RingGain",             "-"],
+["Rand Osc",      "Tab", "RandOscFreq-Min",      "RandOscFreq-Max",      "RandOscSemi-Min",        "RandOscSemi-Max",        "RandOscShape-Min",     "RandOscShape-Max",     "-"],
+["Rand Pitch",    "Tab", "RandOscPchEnvAmt-Min", "RandOscPchEnvAmt-Max", "RandOscPchEnvCurve-Min", "RandOscPchEnvCurve-Max", "RandOscPchEnvDur-Min", "RandOscPchEnvDur-Max", "-"],
+["Rand Amp",      "Tab", "RandOscAttack-Min",    "RandOscAttack-Max",    "RandOscDecay-Min",       "RandOscDecay-Max",       "RandOscGain-Min",      "RandOscGain-Max",      "-"],
+["Rand Effect",   "Tab", "RandOvertone-Min",     "RandOvertone-Max",     "RandOverdrive-Min",      "RandOverdrive-Max",      "RandVol-Min",          "RandVol-Max",          "-"],
+["Rand Filter",   "Tab", "RandFiltFreq-Min",     "RandFiltFreq-Max",     "RandFiltQ-Min",          "RandFiltQ-Max",          "RandFiltType-Min",     "RandFiltType-Max",     "-"],
+["Rand Ring",     "Tab", "RandRingAttack-Min",   "RandRingAttack-Max",   "RandRingDecay-Min",      "RandRingDecay-Max",      "RandRingGain-Min",     "RandRingGain-Max",     "-"],
+["Rand Triggers", "Tab", "-",                    "-",                    "-",                      "-",                      "-",                    "-",                    "-"],
 ];
 
 var BUTTONS = [
@@ -45,10 +45,7 @@ function replaceTokens(tokens) {
   var out = [];
   for (var j = 0; j < tokens.length; j++) {
     var token = tokens[j];
-    if (typeof token === "number") {
-      // `bank_id` is stored as an int so `live.banks` receives an int atom, not a symbol
-      out.push(token);
-    } else if (token === "$2") {
+    if (token === "$2") {
       out.push(currentTab + "-" + NOTE_POSTFIXES[currentNote]);
     } else {
       out.push(token.replace("$1", String(currentTab)));
@@ -58,7 +55,7 @@ function replaceTokens(tokens) {
 }
 
 function bankMessage(i) {
-  var out = [];
+  var out = [i];
   if (ENCODERS[i]) {
     out = out.concat(replaceTokens(ENCODERS[i]));
   }
