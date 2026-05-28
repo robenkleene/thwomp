@@ -9,7 +9,7 @@ var INLET_NOTE = 1;
 
 var ENCODERS = [
 [0, "Oscillator",    "Tab", "$1-OscShape",          "$2",                   "$1-Overdrive",           "$1-Overtone",            "$1-PitchEnvDur",       "$1-PitchEnvCurve",     "$1-PitchEnvAmt"],
-[1, "Amp",           "Tab", "$1-AmpAttack",         "$1-AmpDecay",          "$1-Gain",                "Vol",                    "PresetsLoad",          "PresetsSelect",        "-"],
+[1, "Amp",           "Tab", "$1-AmpAttack",         "$1-AmpDecay",          "$1-Gain",                "Vol",                    "PresetsSelect",        "-",                    "-"],
 [2, "Filter/Ring",   "Tab", "FiltType",             "FiltFreq",             "FiltQ",                  "RingAttack",             "RingDecay",            "RingGain",             "-"],
 [3, "Rand Osc",      "Tab", "RandOscFreq-Min",      "RandOscFreq-Max",      "RandOscSemi-Min",        "RandOscSemi-Max",        "RandOscShape-Min",     "RandOscShape-Max",     "-"],
 [4, "Rand Pitch",    "Tab", "RandOscPchEnvAmt-Min", "RandOscPchEnvAmt-Max", "RandOscPchEnvCurve-Min", "RandOscPchEnvCurve-Max", "RandOscPchEnvDur-Min", "RandOscPchEnvDur-Max", "-"],
@@ -22,7 +22,7 @@ var ENCODERS = [
 
 var BUTTONS = [
 ["-", "$1-Osc",           "$1-OscNote",   "$1-OscReset",      "$1-OscFilt",   "-",                "-"],
-["-", "-",                "-",            "-",                "-",            "-",                "-"],
+["-", "-",                "-",            "-",                "-",            "PresetsLoad",      "-"],
 ["-", "Filt",             "-",            "-",                "Ring",         "RingFilt",         "-"],
 ["-", "RandOscFreq",      "RandOsc1",     "RandOscSemi",      "RandOsc2",     "RandOscShape",     "RandOsc"],
 ["-", "RandOscPchEnvAmt", "RandOscReset", "RandOscPchEnvCur", "RandOscFilt",  "RandOscPchEnvDur", "RandOscNote"],
