@@ -5,7 +5,6 @@
             "1": {
                 "id": 1,
                 "data": {
-                    "PresetsLoad": [ 0.0 ],
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
                     "PresetsSelect": [ 1.0 ],
@@ -111,7 +110,6 @@
                     "DrumSynthBank::Randomize::UiRand::RandOscShapeMinMax::RandOscShape-Min": [ 0.0 ],
                     "DrumSynthBank::Randomize::UiRand::RandOscSemiMinMax::RandOscSemi-Max": [ 48.0 ],
                     "DrumSynthBank::Randomize::UiRand::RandOscSemiMinMax::RandOscSemi-Min": [ -48.0 ],
-                    "Ring::Ring": [ 0.0 ],
                     "Ring::RingAttack": [ 0.0 ],
                     "Ring::RingDecay": [ 0.0 ],
                     "Ring::RingFilt": [ 0.0 ],
@@ -125,7 +123,6 @@
             "2": {
                 "id": 2,
                 "data": {
-                    "PresetsLoad": [ 0.0 ],
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
                     "PresetsSelect": [ 1.0 ],
@@ -231,7 +228,6 @@
                     "DrumSynthBank::Randomize::UiRand::RandOscShapeMinMax::RandOscShape-Min": [ 0.0 ],
                     "DrumSynthBank::Randomize::UiRand::RandOscSemiMinMax::RandOscSemi-Max": [ 48.0 ],
                     "DrumSynthBank::Randomize::UiRand::RandOscSemiMinMax::RandOscSemi-Min": [ -48.0 ],
-                    "Ring::Ring": [ 0.0 ],
                     "Ring::RingAttack": [ 0.0 ],
                     "Ring::RingDecay": [ 0.0 ],
                     "Ring::RingFilt": [ 0.0 ],
@@ -245,7 +241,6 @@
             "3": {
                 "id": 3,
                 "data": {
-                    "PresetsLoad": [ 0.0 ],
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
                     "PresetsSelect": [ 1.0 ],
@@ -351,7 +346,6 @@
                     "DrumSynthBank::Randomize::UiRand::RandOscShapeMinMax::RandOscShape-Min": [ 0.0 ],
                     "DrumSynthBank::Randomize::UiRand::RandOscSemiMinMax::RandOscSemi-Max": [ 48.0 ],
                     "DrumSynthBank::Randomize::UiRand::RandOscSemiMinMax::RandOscSemi-Min": [ -48.0 ],
-                    "Ring::Ring": [ 0.0 ],
                     "Ring::RingAttack": [ 0.0 ],
                     "Ring::RingDecay": [ 0.0 ],
                     "Ring::RingFilt": [ 0.0 ],
@@ -365,7 +359,6 @@
             "4": {
                 "id": 4,
                 "data": {
-                    "PresetsLoad": [ 0.0 ],
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
                     "PresetsSelect": [ 1.0 ],
@@ -471,7 +464,6 @@
                     "DrumSynthBank::Randomize::UiRand::RandOscShapeMinMax::RandOscShape-Min": [ 0.0 ],
                     "DrumSynthBank::Randomize::UiRand::RandOscSemiMinMax::RandOscSemi-Max": [ 48.0 ],
                     "DrumSynthBank::Randomize::UiRand::RandOscSemiMinMax::RandOscSemi-Min": [ -48.0 ],
-                    "Ring::Ring": [ 0.0 ],
                     "Ring::RingAttack": [ 0.0 ],
                     "Ring::RingDecay": [ 0.0 ],
                     "Ring::RingFilt": [ 0.0 ],
@@ -485,7 +477,6 @@
             "5": {
                 "id": 5,
                 "data": {
-                    "PresetsLoad": [ 0.0 ],
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
                     "PresetsSelect": [ 1.0 ],
@@ -591,7 +582,6 @@
                     "DrumSynthBank::Randomize::UiRand::RandOscShapeMinMax::RandOscShape-Min": [ 0.0 ],
                     "DrumSynthBank::Randomize::UiRand::RandOscSemiMinMax::RandOscSemi-Max": [ 48.0 ],
                     "DrumSynthBank::Randomize::UiRand::RandOscSemiMinMax::RandOscSemi-Min": [ -48.0 ],
-                    "Ring::Ring": [ 0.0 ],
                     "Ring::RingAttack": [ 0.0 ],
                     "Ring::RingDecay": [ 0.0 ],
                     "Ring::RingFilt": [ 0.0 ],
@@ -605,7 +595,6 @@
             "9": {
                 "id": 9,
                 "data": {
-                    "PresetsLoad": [ 0.0 ],
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
                     "PresetsSelect": [ 1.0 ],
@@ -711,7 +700,6 @@
                     "DrumSynthBank::Randomize::UiRand::RandOscShapeMinMax::RandOscShape-Min": [ 0.0 ],
                     "DrumSynthBank::Randomize::UiRand::RandOscSemiMinMax::RandOscSemi-Max": [ 48.0 ],
                     "DrumSynthBank::Randomize::UiRand::RandOscSemiMinMax::RandOscSemi-Min": [ -48.0 ],
-                    "Ring::Ring": [ 0.0 ],
                     "Ring::RingAttack": [ 0.0 ],
                     "Ring::RingDecay": [ 0.0 ],
                     "Ring::RingFilt": [ 0.0 ],

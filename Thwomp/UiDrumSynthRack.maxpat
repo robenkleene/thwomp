@@ -14,6 +14,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-85",
+                    "linecount": 4,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 843.0, 145.5, 150.0, 60.0 ],
+                    "text": "Load is excluded from `pattr` because otherwise loading a patch would also toggle the `Load` state."
+                }
+            },
+            {
+                "box": {
                     "id": "obj-83",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -957,7 +968,6 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
-                    "hidden": 1,
                     "id": "obj-9",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
@@ -982,7 +992,6 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
-                    "hidden": 1,
                     "id": "obj-40",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
@@ -1030,13 +1039,12 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 568.0, 192.0, 56.0, 22.0 ],
                     "restore": {
-                        "PresetsLoad": [ 0.0 ],
                         "PresetsOverwrite": [ 0.0 ],
                         "PresetsRead": [ 0.0 ],
                         "PresetsSelect": [ 1.0 ],
                         "PresetsWrite": [ 0.0 ],
                         "Randomize": [ 0.0 ],
-                        "Tab": [ 2.0 ],
+                        "Tab": [ 0.0 ],
                         "Vol": [ -2.0 ]
                     },
                     "text": "autopattr",
@@ -1101,7 +1109,6 @@
             {
                 "box": {
                     "annotation": "The volume of this device.",
-                    "hidden": 1,
                     "id": "obj-11",
                     "maxclass": "live.dial",
                     "numinlets": 1,
@@ -1304,7 +1311,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 416.0, 304.0, 197.0, 22.0 ],
                     "saved_object_attributes": {
-                        "client_rect": [ 4, 44, 358, 172 ],
+                        "client_rect": [ 1057, 45, 1440, 407 ],
                         "parameter_enable": 0,
                         "parameter_mappable": 0,
                         "storage_rect": [ 583, 69, 1034, 197 ]
@@ -1343,7 +1350,7 @@
                     "name": "UiDrumSynthBank.maxpat",
                     "numinlets": 1,
                     "numoutlets": 5,
-                    "offset": [ 0.0, -342.0 ],
+                    "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal", "signal", "signal", "" ],
                     "patching_rect": [ 16.0, 336.0, 248.0, 160.0 ],
                     "presentation": 1,
@@ -1627,6 +1634,12 @@
                 "patchline": {
                     "destination": [ "obj-43", 0 ],
                     "source": [ "obj-39", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-72", 0 ],
+                    "source": [ "obj-4", 1 ]
                 }
             },
             {
