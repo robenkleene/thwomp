@@ -15,12 +15,12 @@
             {
                 "box": {
                     "id": "obj-85",
-                    "linecount": 4,
+                    "linecount": 5,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 843.0, 145.5, 150.0, 60.0 ],
-                    "text": "Load is excluded from `pattr` because otherwise loading a patch would also toggle the `Load` state."
+                    "patching_rect": [ 843.0, 131.5, 153.0, 74.0 ],
+                    "text": "`Load` and `Select` are excluded from `pattr` because otherwise loading a patch would also toggle these states."
                 }
             },
             {
@@ -1041,7 +1041,6 @@
                     "restore": {
                         "PresetsOverwrite": [ 0.0 ],
                         "PresetsRead": [ 0.0 ],
-                        "PresetsSelect": [ 1.0 ],
                         "PresetsWrite": [ 0.0 ],
                         "Randomize": [ 0.0 ],
                         "Tab": [ 0.0 ],
@@ -1639,6 +1638,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-72", 0 ],
+                    "order": 1,
+                    "source": [ "obj-4", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-77", 0 ],
+                    "order": 0,
                     "source": [ "obj-4", 1 ]
                 }
             },
