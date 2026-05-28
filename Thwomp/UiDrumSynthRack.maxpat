@@ -86,7 +86,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "PresetsLoadToggle",
+                            "parameter_longname": "PresetsLoad",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Load",
@@ -95,7 +95,7 @@
                     },
                     "text": "Load",
                     "texton": "Load",
-                    "varname": "PresetsLoadToggle"
+                    "varname": "PresetsLoad"
                 }
             },
             {
@@ -1030,7 +1030,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 568.0, 192.0, 56.0, 22.0 ],
                     "restore": {
-                        "PresetsLoadToggle": [ 0.0 ],
+                        "PresetsLoad": [ 0.0 ],
                         "PresetsOverwrite": [ 0.0 ],
                         "PresetsRead": [ 0.0 ],
                         "PresetsSelect": [ 1.0 ],
@@ -2083,7 +2083,7 @@
             "obj-40::obj-34": [ "RingAttack", "Attack", 0 ],
             "obj-40::obj-36": [ "RingDecay", "Decay", 0 ],
             "obj-45": [ "Randomize", "Rand", 0 ],
-            "obj-72": [ "PresetsLoadToggle", "Load", 0 ],
+            "obj-72": [ "PresetsLoad", "Load", 0 ],
             "obj-75": [ "Tab", "Tab", 0 ],
             "obj-77": [ "PresetsSelect", "Select", 0 ],
             "obj-9::obj-1::obj-1": [ "FiltFreq", "Freq", 0 ],
