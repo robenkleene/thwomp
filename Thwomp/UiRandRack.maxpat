@@ -9,9 +9,20 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 470.0, 327.0, 1071.0, 864.0 ],
+        "rect": [ 470.0, 327.0, 1574.0, 864.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-12",
+                    "linecount": 3,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1339.0, 542.0, 150.0, 47.0 ],
+                    "text": "Exclude `Set` from `autopattr` because it's meant to be transient"
+                }
+            },
             {
                 "box": {
                     "id": "obj-11",
@@ -55,12 +66,11 @@
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 561.0, 66.0, 56.0, 22.0 ],
+                    "patching_rect": [ 1278.0, 542.0, 56.0, 22.0 ],
                     "restore": {
                         "RandAuto": [ 0.0 ],
                         "RandTab": [ 0.0 ],
                         "RandTrig": [ 0.0 ],
-                        "RandTrigSet": [ 0.0 ],
                         "RandTrigToggle": [ 0.0 ]
                     },
                     "text": "autopattr",
@@ -1091,6 +1101,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-175", 0 ],
+                    "source": [ "obj-6", 1 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-5", 0 ],
                     "source": [ "obj-7", 0 ]
                 }
@@ -1209,29 +1225,29 @@
             "obj-1::obj-23": [ "RandOscAttack", "Attack", 0 ],
             "obj-1::obj-24::obj-1": [ "RandOscGain-Min", "Min", 0 ],
             "obj-1::obj-24::obj-2": [ "RandOscGain-Max", "Max", 0 ],
-            "obj-1::obj-29": [ "RandFiltType", "FType", 0 ],
+            "obj-1::obj-29": [ "RandFiltType", "Type", 0 ],
             "obj-1::obj-3": [ "RandOscShape", "Shape", 0 ],
-            "obj-1::obj-30": [ "RandFilt", "Filt", 0 ],
+            "obj-1::obj-30": [ "RandFilt", "Filter", 0 ],
             "obj-1::obj-31::obj-1": [ "RandFiltFreq-Min", "Min", 0 ],
             "obj-1::obj-31::obj-2": [ "RandFiltFreq-Max", "Max", 0 ],
             "obj-1::obj-33::obj-1": [ "RandFiltQ-Min", "Min", 0 ],
             "obj-1::obj-33::obj-2": [ "RandFiltQ-Max", "Max", 0 ],
             "obj-1::obj-36::obj-1": [ "RandOscFreq-Min", "Min", 0 ],
             "obj-1::obj-36::obj-2": [ "RandOscFreq-Max", "Max", 0 ],
-            "obj-1::obj-38": [ "RandOscPchEnvCur", "PCur", 0 ],
-            "obj-1::obj-39": [ "RandOscPchEnvAmt", "PAmt", 0 ],
-            "obj-1::obj-4": [ "RandOscFilt", "OFilt", 0 ],
+            "obj-1::obj-38": [ "RandOscPchEnvCur", "Curve", 0 ],
+            "obj-1::obj-39": [ "RandOscPchEnvAmt", "Amount", 0 ],
+            "obj-1::obj-4": [ "RandOscFilt", "Filter", 0 ],
             "obj-1::obj-40": [ "RandOverdrive", "Overdrive", 0 ],
             "obj-1::obj-41": [ "RandOscDecay", "Decay", 0 ],
-            "obj-1::obj-42": [ "RandOscGain", "OGain", 0 ],
-            "obj-1::obj-43": [ "RandFiltFreq", "FFrq", 0 ],
-            "obj-1::obj-44": [ "RandFiltQ", "FiltQ", 0 ],
+            "obj-1::obj-42": [ "RandOscGain", "Gain", 0 ],
+            "obj-1::obj-43": [ "RandFiltFreq", "Freq", 0 ],
+            "obj-1::obj-44": [ "RandFiltQ", "Res", 0 ],
             "obj-1::obj-45": [ "RandRing", "Ring", 0 ],
-            "obj-1::obj-46": [ "RandRingFilt", "RFilt", 0 ],
+            "obj-1::obj-46": [ "RandRingFilt", "Filter", 0 ],
             "obj-1::obj-5": [ "RandOscFreq", "Freq", 0 ],
-            "obj-1::obj-57": [ "RandRingGain", "RGain", 0 ],
-            "obj-1::obj-58": [ "RandRingDecay", "RDecay", 0 ],
-            "obj-1::obj-59": [ "RandRingAttack", "RAttack", 0 ],
+            "obj-1::obj-57": [ "RandRingGain", "Gain", 0 ],
+            "obj-1::obj-58": [ "RandRingDecay", "Decay", 0 ],
+            "obj-1::obj-59": [ "RandRingAttack", "Attack", 0 ],
             "obj-1::obj-6": [ "RandOscReset", "Reset", 0 ],
             "obj-1::obj-60::obj-1": [ "RandRingGain-Min", "Min", 0 ],
             "obj-1::obj-60::obj-2": [ "RandRingGain-Max", "Max", 0 ],
@@ -1242,7 +1258,7 @@
             "obj-1::obj-66": [ "RandVol", "Vol", 0 ],
             "obj-1::obj-67::obj-1": [ "RandVol-Min", "Min", 0 ],
             "obj-1::obj-67::obj-2": [ "RandVol-Max", "Max", 0 ],
-            "obj-1::obj-7": [ "RandOscPchEnvDur", "PDur", 0 ],
+            "obj-1::obj-7": [ "RandOscPchEnvDur", "Dur", 0 ],
             "obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "Min", 0 ],
             "obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "Max", 0 ],
             "obj-2": [ "RandTrigToggle", "Trig", 0 ],
