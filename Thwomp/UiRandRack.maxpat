@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 470.0, 327.0, 1574.0, 864.0 ],
+        "rect": [ 821.0, 416.0, 1574.0, 864.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -779,7 +779,7 @@
                     "outlettype": [ "int" ],
                     "patching_rect": [ 202.0, 84.0, 146.0, 19.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 146.0, 19.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 146.0, 22.0 ],
                     "viewvisibility": 1
                 }
             }
