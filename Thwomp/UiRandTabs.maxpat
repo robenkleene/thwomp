@@ -14,6 +14,39 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-14",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 524.0, 339.0, 350.0, 22.0 ],
+                    "text": "loadmess script sendbox PanelTab presentation_rect 4. 4. 48. 8."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-15",
+                    "linecount": 5,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 710.0, 263.0, 150.0, 74.0 ],
+                    "text": "Hide the `PanelRight` and reduce the width of `PanelTab` so that the middle tab aligns with the panel seperation."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-13",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 524.0, 263.0, 180.0, 22.0 ],
+                    "text": "loadmess script hide PanelRight"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-33",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -341,12 +374,13 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
+                    "hidden": 1,
                     "id": "obj-4",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "UiTabSelectorHorizontal.maxpat",
-                    "numinlets": 0,
+                    "numinlets": 1,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 388.0, 249.0, 26.0, 12.0 ],
@@ -363,16 +397,15 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
-                    "hidden": 1,
                     "id": "obj-5",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "UiTabSelectorHorizontal.maxpat",
-                    "numinlets": 0,
+                    "numinlets": 1,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 354.0, 249.0, 26.0, 12.0 ],
+                    "patching_rect": [ 430.0, 249.0, 26.0, 12.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 47.0, 7.0, 60.0, 12.0 ],
                     "varname": "TabSelector2",
@@ -392,10 +425,10 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "UiTabSelectorHorizontal.maxpat",
-                    "numinlets": 0,
+                    "numinlets": 1,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 424.0, 249.0, 26.0, 12.0 ],
+                    "patching_rect": [ 471.0, 249.0, 26.0, 12.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 94.0, 7.0, 60.0, 12.0 ],
                     "varname": "TabSelector3",
@@ -408,6 +441,18 @@
                 "patchline": {
                     "destination": [ "obj-31", 0 ],
                     "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-5", 0 ],
+                    "source": [ "obj-13", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-5", 0 ],
+                    "source": [ "obj-14", 0 ]
                 }
             },
             {
