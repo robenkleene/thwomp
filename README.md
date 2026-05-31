@@ -30,7 +30,7 @@ Note that this file can be deleted after the device has been added to the `User 
 
 Drag the frozen `Thwomp.amxd` to the `User Library` (e.g., under `User Library/Presets/Instruments/Max Instrument/`).
 
-### Installing in Ableton Push standalone mode
+### Installing in Ableton Push Standalone Mode
 
 1. Launch Push in standalone mode
 2. In Live's sidebar, select `Places > Push`
@@ -42,6 +42,8 @@ After Thwomp has been installed in the Push `User Library`, the device can be ad
 
 ## Opening in Max Directly
 
+![Thwomp in Max](assets/max.png)
+
 To open in Max directly without Live, open `Thwomp/Thwomp.maxpat`, Thwomp has some some additional features when opened outside of Live:
 
 - **Button**: Trigger the MIDI note
@@ -50,12 +52,7 @@ To open in Max directly without Live, open `Thwomp/Thwomp.maxpat`, Thwomp has so
 - DAC Toggle: Toggles whether the audio engine is on
 - Typing the letter "s" plays the note
 
-## Global Parameters
-
-- **Volume**: The volume of all of the oscillators combined.
-- Oscillator Tabs 1-4: Select an oscillator
-
-### Presets
+## Presets
 
 - **Load**: Toggle whether selecting a preset automatically loads it (this will also load the current selected preset)
 - **Select**: Choose the selected preset
@@ -66,9 +63,14 @@ To open in Max directly without Live, open `Thwomp/Thwomp.maxpat`, Thwomp has so
 - To save a preset, shift-click a box
 - To delete a preset, shift-option-click a box
 
-## Oscillator Parameters
+## Parameter Reference
 
-### Waveform
+### Global
+
+- **Vol**: The volume of all of the oscillators combined.
+- Oscillator Tabs 1-4: Select an oscillator
+
+### Oscillator
 
 - **Osc** Toggle: Toggle the oscillator on or off
 - Waveform: The waveform of the oscillator
@@ -76,12 +78,13 @@ To open in Max directly without Live, open `Thwomp/Thwomp.maxpat`, Thwomp has so
 - **Note** Toggle: Toggle whether to use the incoming MIDI note frequency (when off, the frequency is specified by the **Freq** control)
 - **Freq**: Specify a frequency (only visible when **note** is off)
 - **Semi**: Specify a semitone offset (only visible when **note** is on)
+- **Filter**: Toggle whether the oscillator is routed through the filer
 
 ### Pitch Envelope
 
-- **PchDur**: Pitch envelope duration
-- **PchCur**: Pitch envelope curve
-- **PchAmt**: Pitch envelope amount
+- **Duration**: Pitch envelope duration
+- **Curve**: Pitch envelope curve
+- **Amount**: Pitch envelope amount
 
 ### Filter
 
