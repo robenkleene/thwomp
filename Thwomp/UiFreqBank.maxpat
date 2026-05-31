@@ -4,18 +4,87 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 612.0, 563.0, 787.0, 486.0 ],
+        "rect": [ 165.0, 429.0, 1175.0, 573.0 ],
         "openinpresentation": 1,
-        "gridsize": [ 8.0, 8.0 ],
-        "gridsnaponopen": 2,
-        "objectsnaponopen": 0,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-21",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 474.0, 365.0, 33.0, 20.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 0.0, 33.0, 20.0 ],
+                    "text": "Freq"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-19",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 458.0, 302.0, 36.0, 20.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ -1.5, 22.0, 36.0, 20.0 ],
+                    "text": "Semi"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-17",
+                    "maxclass": "live.numbox",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 315.0, 136.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 32.0, 24.0, 46.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_longname": "#2-OscSemi",
+                            "parameter_mmax": 48.0,
+                            "parameter_mmin": -48.0,
+                            "parameter_modmode": 4,
+                            "parameter_shortname": "Semi",
+                            "parameter_type": 1,
+                            "parameter_unitstyle": 7
+                        }
+                    },
+                    "varname": "#2-OscSemi"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-15",
+                    "maxclass": "live.numbox",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 264.0, 136.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 32.0, 3.0, 46.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_longname": "#2-OscFreq",
+                            "parameter_modmode": 3,
+                            "parameter_shortname": "Freq",
+                            "parameter_type": 0,
+                            "parameter_unitstyle": 3
+                        }
+                    },
+                    "varname": "#2-OscFreq"
+                }
+            },
             {
                 "box": {
                     "id": "obj-16",
@@ -80,66 +149,11 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 352.0, 16.0, 56.0, 22.0 ],
                     "restore": {
-                        "#2-OscFreq": [ 30.0 ],
-                        "#2-OscSemi": [ 0.0 ]
+                        "#2-OscFreq": [ 0.0 ],
+                        "#2-OscSemi": [ 48.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u665013921"
-                }
-            },
-            {
-                "box": {
-                    "annotation": "The frequency of the oscillator.",
-                    "annotation_name": "Frequency",
-                    "id": "obj-14",
-                    "maxclass": "live.dial",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 264.0, 136.0, 41.0, 48.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 41.0, 48.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_exponent": 5.0,
-                            "parameter_longname": "#2-OscFreq",
-                            "parameter_mmax": 22000.0,
-                            "parameter_mmin": 30.0,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Freq",
-                            "parameter_type": 0,
-                            "parameter_unitstyle": 3
-                        }
-                    },
-                    "varname": "#2-OscFreq"
-                }
-            },
-            {
-                "box": {
-                    "annotation": "The semitone offset of the incoming note.",
-                    "annotation_name": "Semitone",
-                    "id": "obj-11",
-                    "maxclass": "live.dial",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 328.0, 136.0, 40.0, 48.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 0.0, 48.0, 40.0, 48.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_longname": "#2-OscSemi",
-                            "parameter_mmax": 48.0,
-                            "parameter_mmin": -48.0,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Semi",
-                            "parameter_type": 0,
-                            "parameter_unitstyle": 7
-                        }
-                    },
-                    "varname": "#2-OscSemi"
                 }
             },
             {
@@ -271,12 +285,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-10", 1 ],
-                    "source": [ "obj-11", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-47", 0 ],
                     "source": [ "obj-13", 0 ]
                 }
@@ -284,7 +292,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-25", 1 ],
-                    "source": [ "obj-14", 0 ]
+                    "source": [ "obj-15", 0 ]
                 }
             },
             {
@@ -301,13 +309,19 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-10", 1 ],
+                    "source": [ "obj-17", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-10", 0 ],
                     "source": [ "obj-2", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-14", 0 ],
+                    "destination": [ "obj-15", 0 ],
                     "source": [ "obj-2", 0 ]
                 }
             },
@@ -367,8 +381,16 @@
             }
         ],
         "parameters": {
-            "obj-11": [ "#2-OscSemi", "Semi", 0 ],
-            "obj-14": [ "#2-OscFreq", "Freq", 0 ],
+            "obj-15": [ "#2-OscFreq", "Freq", 0 ],
+            "obj-17": [ "#2-OscSemi", "Semi", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

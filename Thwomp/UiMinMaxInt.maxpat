@@ -4,16 +4,13 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 625.0, 207.0, 1365.0, 970.0 ],
+        "rect": [ 354.0, 197.0, 1365.0, 970.0 ],
         "openinpresentation": 1,
-        "gridsize": [ 8.0, 8.0 ],
-        "gridsnaponopen": 2,
-        "objectsnaponopen": 0,
         "boxes": [
             {
                 "box": {
@@ -87,14 +84,14 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 128.0, 304.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 48.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 0.0, 60.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "#1-Max",
                             "parameter_mmax": 48.0,
                             "parameter_mmin": -48.0,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "#2Max",
+                            "parameter_shortname": "Max",
                             "parameter_type": 1,
                             "parameter_unitstyle": 0
                         }
@@ -121,7 +118,7 @@
                             "parameter_mmax": 48.0,
                             "parameter_mmin": -48.0,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "#2Min",
+                            "parameter_shortname": "Min",
                             "parameter_type": 1,
                             "parameter_unitstyle": 0
                         }
@@ -399,8 +396,8 @@
             }
         ],
         "parameters": {
-            "obj-1": [ "#1-Min", "#2Min", 0 ],
-            "obj-2": [ "#1-Max", "#2Max", 0 ],
+            "obj-1": [ "#1-Min", "Min", 0 ],
+            "obj-2": [ "#1-Max", "Max", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,

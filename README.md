@@ -30,7 +30,7 @@ Note that this file can be deleted after the device has been added to the `User 
 
 Drag the frozen `Thwomp.amxd` to the `User Library` (e.g., under `User Library/Presets/Instruments/Max Instrument/`).
 
-### Installing in Ableton Push standalone mode
+### Installing in Ableton Push Standalone Mode
 
 1. Launch Push in standalone mode
 2. In Live's sidebar, select `Places > Push`
@@ -42,6 +42,8 @@ After Thwomp has been installed in the Push `User Library`, the device can be ad
 
 ## Opening in Max Directly
 
+![Thwomp in Max](assets/max.png)
+
 To open in Max directly without Live, open `Thwomp/Thwomp.maxpat`, Thwomp has some some additional features when opened outside of Live:
 
 - **Button**: Trigger the MIDI note
@@ -50,66 +52,115 @@ To open in Max directly without Live, open `Thwomp/Thwomp.maxpat`, Thwomp has so
 - DAC Toggle: Toggles whether the audio engine is on
 - Typing the letter "s" plays the note
 
-## Global Parameters
+## Presets
 
-- **Volume**: The volume of all of the oscillators combined.
-- Oscillator Tabs 1-4: Select an oscillator
+Presets are available either when opening in Max directly, or by choosing `Edit in Max` in Live (and dragging the Max window size larger to expose the preset controls).
 
-### Presets
+![Thwomp in Max for Live](assets/m4l.png)
 
-- **R**: Read presets from a file
-- **W**: Write the presets to a file
-- **OW**: When toggled on, **W** will automatically write again to the sample file
+- **Load**: Toggle whether selecting a preset automatically loads it (this will also load the current selected preset)
+- **Select**: Choose the selected preset
+- **Read**: Read presets from a file
+- **Write**: Write the presets to a file
+- **Overwrite**: When toggled on, **W** will automatically write again to the sample file
 - To recall a preset, click a box
 - To save a preset, shift-click a box
 - To delete a preset, shift-option-click a box
 
-## Oscillator Parameters
+## Parameter Reference
 
-### Waveform
+### Global
 
-- **Osc** Toggle: Toggle the oscillator on or off
-- Waveform: The waveform of the oscillator
+- **Vol**: The volume of all of the oscillators combined.
+- Oscillator Tabs 1-4: Select an oscillator
+
+### Oscillator
+
+- **Osc:** Toggle the oscillator on or off
+- **Shape:** The waveform of the oscillator
 - **Reset:** Toggle resetting the oscillator phase on each new note
-- **Note** Toggle: Toggle whether to use the incoming MIDI note frequency (when off, the frequency is specified by the **Freq** control)
-- **Freq**: Specify a frequency (only visible when **note** is off)
-- **Semi**: Specify a semitone offset (only visible when **note** is on)
-
-### Pitch Envelope
-
-- **PchDur**: Pitch envelope duration
-- **PchCur**: Pitch envelope curve
-- **PchAmt**: Pitch envelope amount
-
-### Filter
-
-- Filter Toggle: Toggle the filter on or off
-- Filter Type
-- **Freq**: Filter cutoff
-- **Q**: Filter Q
-
-### Effects
-
+- **Note:** Toggle whether to use the incoming MIDI note frequency (when off, the frequency is specified by the **Freq** control)
+- **Freq:** Specify a frequency (only visible when **Note** is off)
+- **Semi:** Specify a semitone offset (only visible when **Note** is on)
+- **Filter:** Toggle whether the oscillator is routed through the filer
 - **Overdrive:** Overdrive distortion
 - **Overtone:** Overtone harmonics
 
-The Overdrive and Overtone implementations were borrowed from the DS Kick Ableton Max for Live device.
+### Pitch Envelope
+
+- **Duration:** Pitch envelope duration
+- **Curve:**: Pitch envelope curve
+- **Amount:** Pitch envelope amount
+
+### Filter
+
+- **Filter:** Toggle the filter on or off
+- **Type:** The type of the filter
+- **Freq**: The filter cutoff
+- **Res**: The filter resonance
 
 ### Envelope
 
-- **Attack**: Attack
-- **Decay**: Decay
+- **Attack**: The envelope attack
+- **Decay**: The envelope decay
+- **Gain**: The gain of this oscillator
 
-## Push Parameters
+## Randomize
 
-Thwomp support Ableton Push. When using Push, the leftmost knob always chooses the selected Oscillator. There's four different banks that allow all of Thwomp's parameters to be accessed.
+- **Rand:** Randomize
 
-### Banks
+### Oscillator
 
-- Main
-- Oscillator
-- Envelope
-- Filter
+![Randomize Oscillator](assets/rand-osc.png)
+
+#### Toggles
+
+- **1:** Toggle whether to randomize **Osc 1**
+- **2:** Toggle whether to randomize **Osc 2**
+- **Osc:** Toggle whether to randomize **Osc**
+- **Note:** Toggle whether to randomize **Note**
+- **Filter:** Toggle whether to randomize **Filter**
+- **Reset:** Toggle whether to randomize **Reset**
+- **Shape:** Toggle and min-max range for **Shape**
+- **Freq:** Toggle and min-max range for **Freq**
+- **Semi:** Toggle and min-max range for **Semi**
+- **Attack:** Toggle and min-max range for **Attack**
+- **Decay:** Toggle and min-max range for **Decay**
+- **Gain:** Toggle and min-max range for **Gain**
+
+### Effect
+
+![Randomize Effect](assets/rand-effect.png)
+
+- **Overdrive:** Toggle and min-max range for **Overdrive**
+- **Overtone:** Toggle and min-max range for **Overtone**
+
+#### Pitch Envelope
+
+- **Amount:** Toggle and min-max range for **Amount**
+- **Duration:** Toggle and min-max range for **Duration**
+- **Curve:** Toggle and min-max range for **Curve**
+
+### Filter
+
+![Randomize Filter](assets/rand-filter.png)
+
+- **Filter:** Toggle whether to randomize **Filter**
+- **Type:** Toggle and min-max range for **Type**
+- **Freq:** Toggle and min-max range for **Freq**
+- **Res:** Toggle and min-max range for **Res**
+
+#### Ring
+
+- **Ring:** Toggle whether to randomize **Ring**
+- **Filter:** Toggle whether to randomize **Filter**
+- **Attack:** Toggle and min-max range for **Attack**
+- **Decay:** Toggle and min-max range for **Decay**
+- **Gain:** Toggle and min-max range for **Gain**
+
+## Ableton Push Support
+
+Only controls are accessible on Push.
 
 ## Presets
 

@@ -4,16 +4,13 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 674.0, 171.0, 975.0, 911.0 ],
+        "rect": [ 674.0, 170.0, 843.0, 911.0 ],
         "openinpresentation": 1,
-        "gridsize": [ 8.0, 8.0 ],
-        "gridsnaponopen": 2,
-        "objectsnaponopen": 0,
         "boxes": [
             {
                 "box": {
@@ -28,11 +25,11 @@
                     "patching_rect": [ 128.0, 328.0, 48.0, 15.0 ],
                     "pictures": [ "highcut.svg", "lowcut.svg", "bandpass.svg", "notch.svg" ],
                     "presentation": 1,
-                    "presentation_rect": [ 48.0, 0.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 0.0, 58.0, 46.0, 15.0 ],
                     "remapsvgcolors": 1,
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "one", "two", "three", "four" ],
+                            "parameter_enum": [ "HP", "LP", "BP", "N" ],
                             "parameter_longname": "#1-Max",
                             "parameter_mmax": 3,
                             "parameter_modmode": 0,
@@ -58,11 +55,11 @@
                     "patching_rect": [ 8.0, 328.0, 48.0, 15.0 ],
                     "pictures": [ "highcut.svg", "lowcut.svg", "bandpass.svg", "notch.svg" ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 46.0, 15.0 ],
                     "remapsvgcolors": 1,
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "one", "two", "three", "four" ],
+                            "parameter_enum": [ "HP", "LP", "BP", "N" ],
                             "parameter_longname": "#1-Min",
                             "parameter_mmax": 3,
                             "parameter_modmode": 0,
@@ -359,6 +356,14 @@
         "parameters": {
             "obj-27": [ "#1-Min", "#2Min", 0 ],
             "obj-28": [ "#1-Max", "#2Max", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

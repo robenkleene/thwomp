@@ -4,16 +4,13 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 691.0, 307.0, 671.0, 726.0 ],
+        "rect": [ 849.0, 404.0, 339.0, 637.0 ],
         "openinpresentation": 1,
-        "gridsize": [ 8.0, 8.0 ],
-        "gridsnaponopen": 2,
-        "objectsnaponopen": 0,
         "boxes": [
             {
                 "box": {
@@ -79,7 +76,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 272.0, 16.0, 56.0, 22.0 ],
                     "restore": {
-                        "Filt": [ 0.0 ]
+                        "Filt": [ 1.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u892006714"
@@ -99,7 +96,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 136.0, 384.0, 32.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 32.0, 16.0 ],
+                    "presentation_rect": [ 3.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -110,8 +107,8 @@
                             "parameter_type": 2
                         }
                     },
-                    "text": "Filt",
-                    "texton": "Filt",
+                    "text": "Filter",
+                    "texton": "Filter",
                     "varname": "Filt"
                 }
             },
@@ -202,9 +199,30 @@
                     "outlettype": [ "signal", "signal" ],
                     "patching_rect": [ 80.0, 232.0, 48.0, 168.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 48.0, 160.0 ],
+                    "presentation_rect": [ 3.0, 3.0, 98.0, 80.0 ],
                     "varname": "Biquad",
                     "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "angle": 270.0,
+                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
+                    "id": "obj-panel",
+                    "maxclass": "panel",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 608.0, 432.0, 46.0, 170.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 0.0, 99.0, 82.5 ],
+                    "proportion": 0.39,
+                    "rounded": 4,
+                    "saved_attribute_attributes": {
+                        "bgfillcolor": {
+                            "expression": "themecolor.live_surface_bg"
+                        }
+                    }
                 }
             }
         ],
@@ -307,12 +325,30 @@
             }
         ],
         "parameters": {
-            "obj-1::obj-1": [ "FiltFreq", "FFreq", 0 ],
-            "obj-1::obj-11": [ "FiltQ", "Q", 0 ],
+            "obj-1::obj-1": [ "FiltFreq", "Freq", 0 ],
+            "obj-1::obj-11": [ "FiltQ", "Res", 0 ],
             "obj-1::obj-6": [ "FiltType", "Type", 0 ],
             "obj-7": [ "Filt", "Filt", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
-        "autosave": 0
+        "autosave": 0,
+        "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "editing_bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "saved_attribute_attributes": {
+            "editing_bgcolor": {
+                "expression": "themecolor.live_macro_title"
+            },
+            "locked_bgcolor": {
+                "expression": "themecolor.live_macro_title"
+            }
+        }
     }
 }

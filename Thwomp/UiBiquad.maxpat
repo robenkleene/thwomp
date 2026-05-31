@@ -4,16 +4,13 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1058.0, 361.0, 1041.0, 884.0 ],
+        "rect": [ 354.0, 245.0, 1495.0, 922.0 ],
         "openinpresentation": 1,
-        "gridsize": [ 8.0, 8.0 ],
-        "gridsnaponopen": 2,
-        "objectsnaponopen": 0,
         "boxes": [
             {
                 "box": {
@@ -100,7 +97,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 400.0, 232.0, 40.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 56.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 2.0, 26.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 5.0,
@@ -108,7 +105,7 @@
                             "parameter_mmax": 22000.0,
                             "parameter_mmin": 30.0,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "FFreq",
+                            "parameter_shortname": "Freq",
                             "parameter_type": 0,
                             "parameter_unitstyle": 3
                         }
@@ -128,14 +125,14 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 480.0, 232.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 112.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 49.0, 26.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "FiltQ",
                             "parameter_mmax": 10.0,
                             "parameter_mmin": 0.3,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Q",
+                            "parameter_shortname": "Res",
                             "parameter_type": 0,
                             "parameter_unitstyle": 1
                         }
@@ -222,11 +219,11 @@
                     "patching_rect": [ 200.0, 104.0, 48.0, 15.0 ],
                     "pictures": [ "highcut.svg", "lowcut.svg", "bandpass.svg", "notch.svg" ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 24.0, 32.0, 15.0 ],
+                    "presentation_rect": [ 47.0, 0.0, 46.0, 15.0 ],
                     "remapsvgcolors": 1,
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "one", "two", "three", "four" ],
+                            "parameter_enum": [ "HP", "LP", "BP", "N" ],
                             "parameter_longname": "FiltType",
                             "parameter_mmax": 3,
                             "parameter_modmode": 0,
@@ -468,8 +465,8 @@
             }
         ],
         "parameters": {
-            "obj-1": [ "FiltFreq", "FFreq", 0 ],
-            "obj-11": [ "FiltQ", "Q", 0 ],
+            "obj-1": [ "FiltFreq", "Freq", 0 ],
+            "obj-11": [ "FiltQ", "Res", 0 ],
             "obj-6": [ "FiltType", "Type", 0 ],
             "parameterbanks": {
                 "0": {

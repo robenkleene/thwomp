@@ -4,16 +4,13 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 975.0, 394.0, 868.0, 922.0 ],
+        "rect": [ 824.0, 424.0, 868.0, 922.0 ],
         "openinpresentation": 1,
-        "gridsize": [ 8.0, 8.0 ],
-        "gridsnaponopen": 2,
-        "objectsnaponopen": 0,
         "boxes": [
             {
                 "box": {
@@ -150,7 +147,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 40.0, 208.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 56.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 0.0, 55.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 5.0,
@@ -247,6 +244,14 @@
         "parameters": {
             "obj-3": [ "#2-AmpDecay", "Decay", 0 ],
             "obj-7": [ "#2-AmpAttack", "Attack", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

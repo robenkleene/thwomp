@@ -4,16 +4,13 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
         "rect": [ 293.0, 100.0, 720.0, 787.0 ],
         "openinpresentation": 1,
-        "gridsize": [ 8.0, 8.0 ],
-        "gridsnaponopen": 2,
-        "objectsnaponopen": 0,
         "boxes": [
             {
                 "box": {
@@ -81,7 +78,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 128.0, 112.0, 50.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 8.0, 56.0, 48.0, 22.0 ]
+                    "presentation_rect": [ 0.0, 46.0, 48.0, 22.0 ]
                 }
             },
             {
@@ -130,7 +127,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 24.0, 112.0, 50.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 8.0, 32.0, 48.0, 22.0 ]
+                    "presentation_rect": [ 0.0, 22.0, 48.0, 22.0 ]
                 }
             },
             {
@@ -154,7 +151,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 8.0, 48.0, 20.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 8.0, 8.0, 20.0, 20.0 ]
+                    "presentation_rect": [ 0.0, 0.0, 20.0, 20.0 ]
                 }
             },
             {

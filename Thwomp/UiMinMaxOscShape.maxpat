@@ -4,16 +4,13 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 835.0, 222.0, 975.0, 911.0 ],
+        "rect": [ 468.0, 224.0, 975.0, 911.0 ],
         "openinpresentation": 1,
-        "gridsize": [ 8.0, 8.0 ],
-        "gridsnaponopen": 2,
-        "objectsnaponopen": 0,
         "boxes": [
             {
                 "box": {
@@ -28,7 +25,7 @@
                     "patching_rect": [ 128.0, 280.0, 40.0, 15.0 ],
                     "pictures": [ "sine.svg", "updown.svg", "square.svg", "up.svg", "random.svg", "SHrounded.svg" ],
                     "presentation": 1,
-                    "presentation_rect": [ 48.0, 0.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 0.0, 58.0, 46.0, 15.0 ],
                     "remapsvgcolors": 1,
                     "saved_attribute_attributes": {
                         "valueof": {
@@ -36,7 +33,7 @@
                             "parameter_longname": "#1-Max",
                             "parameter_mmax": 5,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "#2Max",
+                            "parameter_shortname": "Max",
                             "parameter_type": 2
                         }
                     },
@@ -58,15 +55,15 @@
                     "patching_rect": [ 8.0, 280.0, 40.0, 15.0 ],
                     "pictures": [ "sine.svg", "updown.svg", "square.svg", "up.svg", "random.svg", "SHrounded.svg" ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 46.0, 15.0 ],
                     "remapsvgcolors": 1,
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "sine", "tri", "square", "saw", "noise", "pink" ],
+                            "parameter_enum": [ "Sine", "Tri", "Square", "Saw", "Noise", "Pink" ],
                             "parameter_longname": "#1-Min",
                             "parameter_mmax": 5,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "#2Min",
+                            "parameter_shortname": "Min",
                             "parameter_type": 2
                         }
                     },
@@ -357,8 +354,16 @@
             }
         ],
         "parameters": {
-            "obj-26": [ "#1-Min", "#2Min", 0 ],
-            "obj-35": [ "#1-Max", "#2Max", 0 ],
+            "obj-26": [ "#1-Min", "Min", 0 ],
+            "obj-35": [ "#1-Max", "Max", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
