@@ -101,16 +101,38 @@ To open in Max directly without Live, open `Thwomp/Thwomp.maxpat`, Thwomp has so
 - **Decay**: The envelope decay
 - **Gain**: The gain of this oscillator
 
-## Push Parameters
+## Randomize
 
-Thwomp support Ableton Push. When using Push, the leftmost knob always chooses the selected Oscillator. There's four different banks that allow all of Thwomp's parameters to be accessed.
+- **Rand:** Randomize
 
-### Banks
+### Oscillator
 
-- Main
-- Oscillator
-- Envelope
-- Filter
+![Randomize Oscillator](assets/rand-osc.png)
+
+- **1:**
+- **2:**
+- **Osc:**
+- **Note:**
+- **Filter:**
+- **Reset:**
+- **Shape:**
+- **Freq:**
+- **Semi:**
+- **Attack:**
+- **Decay:**
+- **Gain:**
+
+### Effect
+
+![Randomize Effect](assets/rand-effect.png)
+
+### Filter
+
+![Randomize Filter](assets/rand-filter.png)
+
+## Ableton Push Support
+
+Only controls are accessible on Push.
 
 ## Presets
 
