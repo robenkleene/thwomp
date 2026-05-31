@@ -111,48 +111,48 @@ To open in Max directly without Live, open `Thwomp/Thwomp.maxpat`, Thwomp has so
 
 #### Toggles
 
-- **1:**
-- **2:**
-- **Osc:**
-- **Note:**
-- **Filter:**
-- **Reset:**
-- **Shape:**
-- **Freq:**
-- **Semi:**
-- **Attack:**
-- **Decay:**
-- **Gain:**
+- **1:** Toggle whether to randomize **Osc 1**
+- **2:** Toggle whether to randomize **Osc 2**
+- **Osc:** Toggle whether to randomize **Osc**
+- **Note:** Toggle whether to randomize **Note**
+- **Filter:** Toggle whether to randomize **Filter**
+- **Reset:** Toggle whether to randomize **Reset**
+- **Shape:** Toggle and min-max range for **Shape**
+- **Freq:** Toggle and min-max range for **Freq**
+- **Semi:** Toggle and min-max range for **Semi**
+- **Attack:** Toggle and min-max range for **Attack**
+- **Decay:** Toggle and min-max range for **Decay**
+- **Gain:** Toggle and min-max range for **Gain**
 
 ### Effect
 
 ![Randomize Effect](assets/rand-effect.png)
 
-- **Overdrive:**
-- **Overtone:**
+- **Overdrive:** Toggle and min-max range for **Overdrive**
+- **Overtone:** Toggle and min-max range for **Overtone**
 
 #### Pitch Envelope
 
-- **Amount:**
-- **Duration:**
-- **Curve:**
+- **Amount:** Toggle and min-max range for **Amount**
+- **Duration:** Toggle and min-max range for **Duration**
+- **Curve:** Toggle and min-max range for **Curve**
 
 ### Filter
 
 ![Randomize Filter](assets/rand-filter.png)
 
-- **Filter:**
-- **Type:**
-- **Freq:**
-- **Res:**
+- **Filter:** Toggle whether to randomize **Filter**
+- **Type:** Toggle and min-max range for **Type**
+- **Freq:** Toggle and min-max range for **Freq**
+- **Res:** Toggle and min-max range for **Res**
 
 #### Ring
 
-- **Ring:**
-- **Filter:**
-- **Attack:**
-- **Decay:**
-- **Gain:**
+- **Ring:** Toggle whether to randomize **Ring**
+- **Filter:** Toggle whether to randomize **Filter**
+- **Attack:** Toggle and min-max range for **Attack**
+- **Decay:** Toggle and min-max range for **Decay**
+- **Gain:** Toggle and min-max range for **Gain**
 
 ## Ableton Push Support
 
