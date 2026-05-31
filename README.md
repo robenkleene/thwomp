@@ -72,38 +72,34 @@ To open in Max directly without Live, open `Thwomp/Thwomp.maxpat`, Thwomp has so
 
 ### Oscillator
 
-- **Osc** Toggle: Toggle the oscillator on or off
-- Waveform: The waveform of the oscillator
+- **Osc:** Toggle the oscillator on or off
+- **Shape:** The waveform of the oscillator
 - **Reset:** Toggle resetting the oscillator phase on each new note
-- **Note** Toggle: Toggle whether to use the incoming MIDI note frequency (when off, the frequency is specified by the **Freq** control)
-- **Freq**: Specify a frequency (only visible when **note** is off)
-- **Semi**: Specify a semitone offset (only visible when **note** is on)
-- **Filter**: Toggle whether the oscillator is routed through the filer
-
-### Pitch Envelope
-
-- **Duration**: Pitch envelope duration
-- **Curve**: Pitch envelope curve
-- **Amount**: Pitch envelope amount
-
-### Filter
-
-- Filter Toggle: Toggle the filter on or off
-- Filter Type
-- **Freq**: Filter cutoff
-- **Q**: Filter Q
-
-### Effects
-
+- **Note:** Toggle whether to use the incoming MIDI note frequency (when off, the frequency is specified by the **Freq** control)
+- **Freq:** Specify a frequency (only visible when **Note** is off)
+- **Semi:** Specify a semitone offset (only visible when **Note** is on)
+- **Filter:** Toggle whether the oscillator is routed through the filer
 - **Overdrive:** Overdrive distortion
 - **Overtone:** Overtone harmonics
 
-The Overdrive and Overtone implementations were borrowed from the DS Kick Ableton Max for Live device.
+### Pitch Envelope
+
+- **Duration:** Pitch envelope duration
+- **Curve:**: Pitch envelope curve
+- **Amount:** Pitch envelope amount
+
+### Filter
+
+- **Filter:** Toggle the filter on or off
+- **Type:** The type of the filter
+- **Freq**: The filter cutoff
+- **Res**: The filter resonance
 
 ### Envelope
 
-- **Attack**: Attack
-- **Decay**: Decay
+- **Attack**: The envelope attack
+- **Decay**: The envelope decay
+- **Gain**: The gain of this oscillator
 
 ## Push Parameters
 
