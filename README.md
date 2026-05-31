@@ -109,6 +109,8 @@ To open in Max directly without Live, open `Thwomp/Thwomp.maxpat`, Thwomp has so
 
 ![Randomize Oscillator](assets/rand-osc.png)
 
+#### Toggles
+
 - **1:**
 - **2:**
 - **Osc:**
@@ -126,9 +128,31 @@ To open in Max directly without Live, open `Thwomp/Thwomp.maxpat`, Thwomp has so
 
 ![Randomize Effect](assets/rand-effect.png)
 
+- **Overdrive:**
+- **Overtone:**
+
+#### Pitch Envelope
+
+- **Amount:**
+- **Duration:**
+- **Curve:**
+
 ### Filter
 
 ![Randomize Filter](assets/rand-filter.png)
+
+- **Filter:**
+- **Type:**
+- **Freq:**
+- **Res:**
+
+#### Ring
+
+- **Ring:**
+- **Filter:**
+- **Attack:**
+- **Decay:**
+- **Gain:**
 
 ## Ableton Push Support
 
