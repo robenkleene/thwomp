@@ -2777,8 +2777,8 @@
                             "parameter_type": 2
                         }
                     },
-                    "text": "2",
-                    "texton": "2",
+                    "text": "Osc 2",
+                    "texton": "Osc 2",
                     "varname": "RandOsc2"
                 }
             },
@@ -2803,8 +2803,8 @@
                             "parameter_type": 2
                         }
                     },
-                    "text": "1",
-                    "texton": "1",
+                    "text": "Osc 1",
+                    "texton": "Osc 1",
                     "varname": "Rand1"
                 }
             },

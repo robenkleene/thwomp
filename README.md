@@ -115,8 +115,8 @@ Presets are available either when opening in Max directly, or by choosing `Edit 
 
 #### Toggles
 
-- **1:** Toggle whether to randomize **Osc 1**
-- **2:** Toggle whether to randomize **Osc 2**
+- **Osc 1:** Toggle whether to randomize **Osc 1**
+- **Osc 2:** Toggle whether to randomize **Osc 2**
 - **Osc:** Toggle whether to randomize **Osc**
 - **Note:** Toggle whether to randomize **Note**
 - **Filter:** Toggle whether to randomize **Filter**
