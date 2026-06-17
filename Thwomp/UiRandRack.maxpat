@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 821.0, 416.0, 1574.0, 864.0 ],
+        "rect": [ 227.0, 242.0, 1574.0, 864.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -19,7 +19,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1339.0, 542.0, 150.0, 47.0 ],
+                    "patching_rect": [ 1307.0, 528.0, 150.0, 47.0 ],
                     "text": "Exclude `Set` from `autopattr` because it's meant to be transient"
                 }
             },
@@ -66,7 +66,7 @@
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 1278.0, 542.0, 56.0, 22.0 ],
+                    "patching_rect": [ 1246.0, 528.0, 56.0, 22.0 ],
                     "restore": {
                         "RandAuto": [ 0.0 ],
                         "RandTab": [ 0.0 ],
@@ -105,7 +105,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 1141.0, 507.0, 47.0, 22.0 ],
+                    "patching_rect": [ 1141.0, 493.0, 47.0, 22.0 ],
                     "text": "unpack"
                 }
             },
@@ -116,7 +116,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1141.0, 475.0, 57.0, 22.0 ],
+                    "patching_rect": [ 1141.0, 461.0, 57.0, 22.0 ],
                     "text": "r #1-note"
                 }
             },
@@ -171,7 +171,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 981.0, 579.0, 29.5, 22.0 ],
+                    "patching_rect": [ 997.0, 586.5, 29.5, 22.0 ],
                     "text": "t i i"
                 }
             },
@@ -215,7 +215,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1117.0, 542.0, 70.0, 22.0 ],
+                    "patching_rect": [ 1117.0, 528.0, 70.0, 22.0 ],
                     "text": "loadmess 0"
                 }
             },
@@ -259,7 +259,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 1037.0, 502.0, 29.5, 22.0 ],
+                    "patching_rect": [ 1037.0, 528.0, 29.5, 22.0 ],
                     "text": "t i 0"
                 }
             },
@@ -300,7 +300,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 933.0, 502.0, 70.0, 22.0 ],
+                    "patching_rect": [ 946.0, 528.0, 70.0, 22.0 ],
                     "text": "loadmess 0"
                 }
             },
@@ -314,7 +314,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 933.0, 563.0, 44.0, 15.0 ],
+                    "patching_rect": [ 946.0, 563.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 297.0, 35.0, 39.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -662,7 +662,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 981.0, 558.0, 44.0, 15.0 ],
+                    "patching_rect": [ 997.0, 563.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 297.0, 19.0, 39.0, 15.0 ],
                     "saved_attribute_attributes": {
