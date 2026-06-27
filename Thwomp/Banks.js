@@ -17,7 +17,7 @@ var ENCODERS = [
 ["Rand Effect",   "Tab", "RandOvertone-Min",     "RandOvertone-Max",     "RandOverdrive-Min",      "RandOverdrive-Max",      "RandVol-Min",          "RandVol-Max",          "-"],
 ["Rand Filter",   "Tab", "RandFiltFreq-Min",     "RandFiltFreq-Max",     "RandFiltQ-Min",          "RandFiltQ-Max",          "RandFiltType-Min",     "RandFiltType-Max",     "-"],
 ["Rand Ring",     "Tab", "RandRingAttack-Min",   "RandRingAttack-Max",   "RandRingDecay-Min",      "RandRingDecay-Max",      "RandRingGain-Min",     "RandRingGain-Max",     "-"],
-["Rand Triggers", "Tab", "RandTrig",             "-",                    "-",                      "-",                      "-",                    "-",                    "-"],
+["Rand Triggers", "Tab", "RandTrig",             "RandAuto",             "-",                      "-",                      "-",                    "-",                    "-"],
 ];
 
 var BUTTONS = [
@@ -30,7 +30,7 @@ var BUTTONS = [
 ["-", "RandOvertone",     "-",              "RandOverdrive",    "-",            "RandVol",          "-"],
 ["-", "RandFiltFreq",     "RandFilt",       "RandFiltQ",        "-",            "RandFiltType",     "-"],
 ["-", "RandRingAttack",   "RandRing",       "RandRingDecay",    "RandRingFilt", "RandRingGain",     "-"],
-["-", "RandTrigSet",      "RandTrigToggle", "RandAuto",         "-",            "-",                "-"],
+["-", "RandTrigSet",      "RandTrigToggle", "-",                "-",            "-",                "-"],
 ];
 
 // State
