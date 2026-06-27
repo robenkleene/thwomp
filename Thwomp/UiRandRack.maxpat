@@ -671,12 +671,12 @@
                             "parameter_longname": "RandTrigToggle",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Trig",
+                            "parameter_shortname": "Trigger",
                             "parameter_type": 2
                         }
                     },
-                    "text": "Trig",
-                    "texton": "Trig",
+                    "text": "Trigger",
+                    "texton": "Trigger",
                     "varname": "RandTrigToggle"
                 }
             },
@@ -1261,7 +1261,7 @@
             "obj-1::obj-7": [ "RandOscPchEnvDur", "Dur", 0 ],
             "obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "Min", 0 ],
             "obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "Max", 0 ],
-            "obj-2": [ "RandTrigToggle", "Trig", 0 ],
+            "obj-2": [ "RandTrigToggle", "Trigger", 0 ],
             "obj-76": [ "RandAuto", "Auto", 0 ],
             "obj-9::obj-1": [ "RandTabOsc", "RandTabOsc", 0 ],
             "obj-9::obj-2": [ "RandTabEffect", "RandTabEffect", 0 ],

@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 3,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
@@ -103,7 +103,7 @@
                             "parameter_longname": "Filt",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Filt",
+                            "parameter_shortname": "Filter",
                             "parameter_type": 2
                         }
                     },
@@ -328,7 +328,7 @@
             "obj-1::obj-1": [ "FiltFreq", "Freq", 0 ],
             "obj-1::obj-11": [ "FiltQ", "Res", 0 ],
             "obj-1::obj-6": [ "FiltType", "Type", 0 ],
-            "obj-7": [ "Filt", "Filt", 0 ],
+            "obj-7": [ "Filt", "Filter", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,

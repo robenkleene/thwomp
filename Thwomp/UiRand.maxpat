@@ -1676,12 +1676,12 @@
                             "parameter_longname": "RandVol",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Vol",
+                            "parameter_shortname": "Volume",
                             "parameter_type": 2
                         }
                     },
-                    "text": "Vol",
-                    "texton": "Vol",
+                    "text": "Volume",
+                    "texton": "Volume",
                     "varname": "RandVol"
                 }
             },
@@ -2643,7 +2643,7 @@
                             "parameter_longname": "RandOscPchEnvDur",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Dur",
+                            "parameter_shortname": "Duration",
                             "parameter_type": 2
                         }
                     },
@@ -2773,7 +2773,7 @@
                             "parameter_longname": "RandOsc2",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Osc2",
+                            "parameter_shortname": "Osc 2",
                             "parameter_type": 2
                         }
                     },
@@ -2799,7 +2799,7 @@
                             "parameter_longname": "RandOsc1",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Osc1",
+                            "parameter_shortname": "Osc 1",
                             "parameter_type": 2
                         }
                     },
@@ -3935,7 +3935,7 @@
             }
         ],
         "parameters": {
-            "obj-1": [ "RandOsc1", "Osc1", 0 ],
+            "obj-1": [ "RandOsc1", "Osc 1", 0 ],
             "obj-10::obj-1": [ "RandOscPchEnvDur-Min", "Min", 0 ],
             "obj-10::obj-2": [ "RandOscPchEnvDur-Max", "Max", 0 ],
             "obj-126::obj-27": [ "RandFiltType-Min", "FTypeMin", 0 ],
@@ -3951,7 +3951,7 @@
             "obj-16::obj-2": [ "RandOvertone-Max", "Max", 0 ],
             "obj-18::obj-1": [ "RandOscAttack-Min", "Min", 0 ],
             "obj-18::obj-2": [ "RandOscAttack-Max", "Max", 0 ],
-            "obj-2": [ "RandOsc2", "Osc2", 0 ],
+            "obj-2": [ "RandOsc2", "Osc 2", 0 ],
             "obj-204": [ "RandOsc", "Note", 0 ],
             "obj-206::obj-1": [ "RandOscSemi-Min", "Min", 0 ],
             "obj-206::obj-2": [ "RandOscSemi-Max", "Max", 0 ],
@@ -3992,10 +3992,10 @@
             "obj-62::obj-2": [ "RandRingDecay-Max", "Max", 0 ],
             "obj-64::obj-1": [ "RandRingAttack-Min", "Min", 0 ],
             "obj-64::obj-2": [ "RandRingAttack-Max", "Max", 0 ],
-            "obj-66": [ "RandVol", "Vol", 0 ],
+            "obj-66": [ "RandVol", "Volume", 0 ],
             "obj-67::obj-1": [ "RandVol-Min", "Min", 0 ],
             "obj-67::obj-2": [ "RandVol-Max", "Max", 0 ],
-            "obj-7": [ "RandOscPchEnvDur", "Dur", 0 ],
+            "obj-7": [ "RandOscPchEnvDur", "Duration", 0 ],
             "obj-8::obj-1": [ "RandOverdrive-Min", "Min", 0 ],
             "obj-8::obj-2": [ "RandOverdrive-Max", "Max", 0 ],
             "parameterbanks": {
