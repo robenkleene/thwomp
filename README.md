@@ -56,8 +56,6 @@ To open in Max directly without Live, open `Thwomp/Thwomp.maxpat`, Thwomp has so
 
 Presets are available either when opening in Max directly, or by choosing `Edit in Max` in Live (and dragging the Max window size larger to expose the preset controls).
 
-![Thwomp in Max for Live](assets/m4l.png)
-
 - **Load**: Toggle whether selecting a preset automatically loads it (this will also load the current selected preset)
 - **Select**: Choose the selected preset
 - **Read**: Read presets from a file
