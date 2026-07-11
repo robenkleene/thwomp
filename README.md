@@ -163,22 +163,25 @@ Only controls are accessible on Push.
 ## Presets
 
 1. Kick
-2. 808 Kick
-3. 909 Kick
-4. Snare
-5. Hi-Hat
-6. Clap
-7. Cymbal
-8. Tom
-9. Pitched Tom
-10. Bongo
+2. Snare
+3. Tom
+4. Hi-Hat
+5. Bongo
+6. 808 Kick
+7. 909 Kick
+8. Clap
+9. Cymbal
+10. Pitched Tom
 11. Pitched Bongo
 12. Conga
 13. Pitched Conga
 14. Bell
 15. Cowbell
+18. Init
 
-## Examples
+### Examples
+
+These are stored as presets 1-5.
 
 ### 1. Kick
 
