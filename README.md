@@ -167,16 +167,16 @@ Only controls are accessible on Push.
 3. Tom
 4. Hi-Hat
 5. Bongo
-6. 808 Kick
-7. 909 Kick
-8. Clap
-9. Cymbal
-10. Pitched Tom
-11. Pitched Bongo
-12. Conga
-13. Pitched Conga
-14. Bell
-15. Cowbell
+6. Conga
+7. Clap
+8. Cymbal
+9. Bell
+10. Cowbell
+11. 808 Kick
+12. 909 Kick
+13. Realistic Tom
+14. Realistic Bongo
+15. Realistic Conga
 18. Init
 
 ### Examples
