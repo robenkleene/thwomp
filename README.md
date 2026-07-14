@@ -192,6 +192,7 @@ These are stored as presets 1-5.
 - `2ms` Attack
 - `383ms` Decay
 - `0db` Gain
+- Filter off
 
 ##### Pitch Envelope
 
@@ -204,9 +205,10 @@ These are stored as presets 1-5.
 - `Rect`
 - `0ms` Attack
 - `26ms` Decay
-- `-10db` Gain
+- `-6db` Gain
+- Filter on
 
-##### Filter
+#### Filter
 
 - `bandpass`
 - `500Hz`
