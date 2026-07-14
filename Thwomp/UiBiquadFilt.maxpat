@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 849.0, 404.0, 339.0, 637.0 ],
+        "rect": [ 936.0, 404.0, 339.0, 637.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -199,7 +199,7 @@
                     "outlettype": [ "signal", "signal" ],
                     "patching_rect": [ 80.0, 232.0, 48.0, 168.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 3.0, 3.0, 98.0, 80.0 ],
+                    "presentation_rect": [ 3.0, 3.0, 98.0, 76.0 ],
                     "varname": "Biquad",
                     "viewvisibility": 1
                 }
@@ -215,9 +215,8 @@
                     "numoutlets": 0,
                     "patching_rect": [ 608.0, 432.0, 46.0, 170.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 99.0, 82.5 ],
+                    "presentation_rect": [ 0.0, 0.0, 99.0, 83.0 ],
                     "proportion": 0.39,
-                    "rounded": 4,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
                             "expression": "themecolor.live_surface_bg"
