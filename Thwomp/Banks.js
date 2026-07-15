@@ -7,6 +7,10 @@ outlets = 1;
 var INLET_TAB = 0;
 var INLET_NOTE = 1;
 
+setinletassist(INLET_TAB, "(bang, int) trigger bank messages, tab");
+setinletassist(INLET_NOTE, "(int) 0 note on, 1 note off");
+setoutletassist(0, "Bank messages: encoder/button parameter mappings");
+
 var ENCODERS = [
 ["Oscillator",    "Tab", "$1-OscShape",          "$2",                   "$1-Overdrive",           "$1-Overtone",            "$1-PitchEnvDur",       "$1-PitchEnvCurve",     "$1-PitchEnvAmt"],
 ["Amp",           "Tab", "$1-AmpAttack",         "$1-AmpDecay",          "$1-Gain",                "Vol",                    "PresetsSelect",        "-",                    "-"],
