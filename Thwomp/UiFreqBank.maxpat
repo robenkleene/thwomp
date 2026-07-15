@@ -76,6 +76,8 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "#2-OscFreq",
+                            "parameter_mmax": 22000.0,
+                            "parameter_mmin": 30.0,
                             "parameter_modmode": 3,
                             "parameter_shortname": "Freq",
                             "parameter_type": 0,
@@ -149,7 +151,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 352.0, 16.0, 56.0, 22.0 ],
                     "restore": {
-                        "#2-OscFreq": [ 0.0 ],
+                        "#2-OscFreq": [ 30.0 ],
                         "#2-OscSemi": [ 48.0 ]
                     },
                     "text": "autopattr",
