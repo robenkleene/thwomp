@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 622.0, 377.0, 814.0, 738.0 ],
+        "rect": [ 554.0, 377.0, 814.0, 738.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "Roben Kleene",
         "boxes": [
@@ -173,7 +173,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 472.0, 24.0, 56.0, 22.0 ],
                     "restore": {
-                        "#2-PitchEnvAmt": [ 0.1129740985101142 ],
+                        "#2-PitchEnvAmt": [ 3.3306690738754696e-12 ],
                         "#2-PitchEnvCurve": [ -59.055118110235874 ],
                         "#2-PitchEnvDur": [ 104.12666141662342 ]
                     },
@@ -223,9 +223,9 @@
                     "presentation_rect": [ 94.0, 0.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_exponent": 5.0,
                             "parameter_longname": "#2-PitchEnvAmt",
-                            "parameter_mmax": 15000.0,
+                            "parameter_mmax": 3000.0,
+                            "parameter_mmin": -3000.0,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Amount",
                             "parameter_type": 0,
