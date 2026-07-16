@@ -211,8 +211,8 @@ These are stored as presets 1-5.
 #### Filter
 
 - `bandpass`
-- `500Hz`
-- `8Q`
+- `500 Hz`
+- `8` Res
 
 ### 2. Snare
 
@@ -222,27 +222,21 @@ These are stored as presets 1-5.
 - `Cycle`
 - `1ms` Attack
 - `60ms` Decay
-- `0db` Gain
+- `-8db` Gain
 - Filter off
-
-##### Filter
-
-- `highpass`
-- `40hz`
-- `0.7Q`
 
 #### Oscillator 2 (Noise)
 
 - `Noise`
-- `0ms` Attack
-- `140ms` Decay
-- `-40db` Gain
+- `2ms` Attack
+- `75ms` Decay
+- `-15db` Gain
 
-##### Filter
+#### Filter
 
 - `highpass`
-- `1000hz`
-- `0.4Q`
+- `4.5 kHz`
+- `0.4` Res
 
 ### 3. Tom
 
