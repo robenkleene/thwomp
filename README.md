@@ -212,7 +212,7 @@ These are stored as presets 1-5.
 
 - `bandpass`
 - `500Hz`
-- `5.6Q`
+- `8Q`
 
 ### 2. Snare
 
