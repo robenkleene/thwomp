@@ -201,11 +201,11 @@ These are stored as presets 1-5.
 
 #### Oscillator 2 (Transient/Click)
 
-- `251Hz`
+- `250Hz`
 - `Rect`
 - `0ms` Attack
 - `26ms` Decay
-- `-6db` Gain
+- `-8db` Gain
 - Filter on
 
 #### Filter
@@ -222,13 +222,14 @@ These are stored as presets 1-5.
 - `Cycle`
 - `1ms` Attack
 - `60ms` Decay
-- `-6db` Gain
+- `0db` Gain
+- Filter off
 
 ##### Filter
 
 - `highpass`
 - `40hz`
-- `0.66Q`
+- `0.7Q`
 
 #### Oscillator 2 (Noise)
 
