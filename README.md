@@ -252,11 +252,7 @@ These are stored as presets 1-5.
 - `2ms` Attack
 - `500ms` Decay
 - `-8db` Gain
-
-##### Pitch Envelope
-
-- `12Hz` Amount
-- `300ms` Decay
+- Filter off
 
 ##### Filter
 
