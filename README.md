@@ -225,6 +225,11 @@ These are stored as presets 1-5.
 - `-8db` Gain
 - Filter off
 
+##### Pitch Envelope
+
+- `200Hz` Amount
+- `3ms` Decay
+
 #### Oscillator 2 (Noise)
 
 - `Noise`
