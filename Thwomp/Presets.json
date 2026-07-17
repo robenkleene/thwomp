@@ -494,11 +494,11 @@
                     "DrumSynthBank::1-DrumSynth::FreqRack::1-OscNote": [ 0 ],
                     "DrumSynthBank::1-DrumSynth::FreqRack::FreqBank::1-OscFreq": [ 375.0 ],
                     "DrumSynthBank::1-DrumSynth::FreqRack::FreqBank::1-OscSemi": [ 0.0 ],
-                    "DrumSynthBank::2-DrumSynth::2-Gain": [ -10.0 ],
-                    "DrumSynthBank::2-DrumSynth::2-Osc": [ 0.0 ],
+                    "DrumSynthBank::2-DrumSynth::2-Gain": [ -29.748031496062957 ],
+                    "DrumSynthBank::2-DrumSynth::2-Osc": [ 1.0 ],
                     "DrumSynthBank::2-DrumSynth::2-OscFilt": [ 0.0 ],
                     "DrumSynthBank::2-DrumSynth::2-OscReset": [ 0.0 ],
-                    "DrumSynthBank::2-DrumSynth::2-OscShape": [ 0.0 ],
+                    "DrumSynthBank::2-DrumSynth::2-OscShape": [ 5.0 ],
                     "DrumSynthBank::2-DrumSynth::2-Overdrive": [ 0.0 ],
                     "DrumSynthBank::2-DrumSynth::2-Overtone": [ 0.0 ],
                     "DrumSynthBank::2-DrumSynth::PitchEnv::2-PitchEnvAmt": [ 0 ],
@@ -507,7 +507,7 @@
                     "DrumSynthBank::2-DrumSynth::AdEnv::2-AmpAttack": [ 0 ],
                     "DrumSynthBank::2-DrumSynth::AdEnv::2-AmpDecay": [ 152.8334983856545 ],
                     "DrumSynthBank::2-DrumSynth::FreqRack::2-OscNote": [ 0 ],
-                    "DrumSynthBank::2-DrumSynth::FreqRack::FreqBank::2-OscFreq": [ 375.98425196850394 ],
+                    "DrumSynthBank::2-DrumSynth::FreqRack::FreqBank::2-OscFreq": [ 30.0 ],
                     "DrumSynthBank::2-DrumSynth::FreqRack::FreqBank::2-OscSemi": [ 0.0 ],
                     "DrumSynthBank::Randomize::RandAuto": [ 0.0 ],
                     "DrumSynthBank::Randomize::RandTab": [ 0.0 ],
@@ -582,9 +582,9 @@
                     "Ring::RingFilt": [ 0.0 ],
                     "Ring::RingGain": [ 0.0 ],
                     "BiquadFilt::Filt": [ 0.0 ],
-                    "BiquadFilt::Biquad::FiltFreq": [ 549.0056855205214 ],
+                    "BiquadFilt::Biquad::FiltFreq": [ 30.0 ],
                     "BiquadFilt::Biquad::FiltQ": [ 0.30000001192092896 ],
-                    "BiquadFilt::Biquad::FiltType": [ 0.0 ]
+                    "BiquadFilt::Biquad::FiltType": [ 1.0 ]
                 }
             },
             "11": {
