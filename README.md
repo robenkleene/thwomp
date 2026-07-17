@@ -188,7 +188,7 @@ These are stored as presets 1-5.
 #### Oscillator 1 (Body)
 
 - `65Hz`
-- `Cycle`
+- `Sine`
 - `2ms` Attack
 - `383ms` Decay
 - `0db` Gain
@@ -219,7 +219,7 @@ These are stored as presets 1-5.
 #### Oscillator 1 (Body)
 
 - `175Hz`
-- `Cycle`
+- `Sine`
 - `1ms` Attack
 - `60ms` Decay
 - `-8db` Gain
@@ -281,48 +281,29 @@ These are stored as presets 1-5.
 #### Filter
 
 - `highpass`
-- `6000Hz`
+- `6000 Hz`
 - `0.3Q`
 
-### 5. Bongo
+### 5. Bongo Low
 
-#### Oscillator 1 (Pitch 1)
+#### Oscillator 1 (Body)
 
-- `1100Hz`
-- `Saw`
-- `0ms` Attack
-- `125ms` Decay
-- `-30db` Gain
-
-#### Filter
-
-- `lowpass`
-- `1100Hz`
-- `3Q`
-
-#### Oscillator 2 (Pitch 2)
-
-- `725Hz`
-- `Cycle`
-- `0ms` Attack
-- `125ms` Decay
+- `375 Hz`
+- `Sine`
+- `2ms` Attack
+- `150ms` Decay
 - `-10db` Gain
+- Filter off
 
-#### Filter
+##### Pitch Envelope
 
-- `lowpass`
-- `8000Hz`
-- `0.3Q`
+- `-200Hz` Amount
+- `0.5ms` Decay
 
-#### Oscillator 3 (Noise)
+#### Oscillator 2 (Noise)
 
 - `Pink`
 - `0ms` Attack
-- `200ms` Decay
-- `-20db` Gain
-
-#### Filter
-
-- `lowpass`
-- `12000Hz`
-- `0.3Q`
+- `150ms` Decay
+- `-30db` Gain
+- Filter off
