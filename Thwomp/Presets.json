@@ -364,9 +364,9 @@
                     "Vol": [ -2.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ -4.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Osc": [ 1 ],
-                    "DrumSynthBank::1-DrumSynth::1-OscFilt": [ 0.0 ],
+                    "DrumSynthBank::1-DrumSynth::1-OscFilt": [ 1.0 ],
                     "DrumSynthBank::1-DrumSynth::1-OscReset": [ 0.0 ],
-                    "DrumSynthBank::1-DrumSynth::1-OscShape": [ 0.0 ],
+                    "DrumSynthBank::1-DrumSynth::1-OscShape": [ 4.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Overdrive": [ 0.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Overtone": [ 0.0 ],
                     "DrumSynthBank::1-DrumSynth::PitchEnv::1-PitchEnvAmt": [ 0 ],
@@ -464,10 +464,10 @@
                     "Ring::RingDecay": [ 0.0 ],
                     "Ring::RingFilt": [ 0.0 ],
                     "Ring::RingGain": [ 0.0 ],
-                    "BiquadFilt::Filt": [ 0.0 ],
-                    "BiquadFilt::Biquad::FiltFreq": [ 30.0 ],
+                    "BiquadFilt::Filt": [ 1.0 ],
+                    "BiquadFilt::Biquad::FiltFreq": [ 5999.999999999999 ],
                     "BiquadFilt::Biquad::FiltQ": [ 0.30000001192092896 ],
-                    "BiquadFilt::Biquad::FiltType": [ 0.0 ]
+                    "BiquadFilt::Biquad::FiltType": [ 1.0 ]
                 }
             },
             "5": {

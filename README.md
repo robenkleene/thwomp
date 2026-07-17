@@ -276,6 +276,7 @@ These are stored as presets 1-5.
 - `0ms` Attack
 - `150ms` Decay
 - `-4db` Gain
+- Filter on
 
 #### Filter
 
