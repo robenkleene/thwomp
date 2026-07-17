@@ -274,7 +274,7 @@ These are stored as presets 1-5.
 
 - `Noise`
 - `0ms` Attack
-- `150ms` Decay
+- `100ms` Decay
 - `-4db` Gain
 - Filter on
 

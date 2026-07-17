@@ -373,7 +373,7 @@
                     "DrumSynthBank::1-DrumSynth::PitchEnv::1-PitchEnvCurve": [ 0.0 ],
                     "DrumSynthBank::1-DrumSynth::PitchEnv::1-PitchEnvDur": [ 0 ],
                     "DrumSynthBank::1-DrumSynth::AdEnv::1-AmpAttack": [ 0 ],
-                    "DrumSynthBank::1-DrumSynth::AdEnv::1-AmpDecay": [ 150 ],
+                    "DrumSynthBank::1-DrumSynth::AdEnv::1-AmpDecay": [ 99.99999999999994 ],
                     "DrumSynthBank::1-DrumSynth::FreqRack::1-OscNote": [ 0 ],
                     "DrumSynthBank::1-DrumSynth::FreqRack::FreqBank::1-OscFreq": [ 30 ],
                     "DrumSynthBank::1-DrumSynth::FreqRack::FreqBank::1-OscSemi": [ 0.0 ],
@@ -466,7 +466,7 @@
                     "Ring::RingGain": [ 0.0 ],
                     "BiquadFilt::Filt": [ 1.0 ],
                     "BiquadFilt::Biquad::FiltFreq": [ 5999.999999999999 ],
-                    "BiquadFilt::Biquad::FiltQ": [ 0.30000001192092896 ],
+                    "BiquadFilt::Biquad::FiltQ": [ 0.3 ],
                     "BiquadFilt::Biquad::FiltType": [ 1.0 ]
                 }
             },
