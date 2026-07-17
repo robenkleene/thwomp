@@ -254,18 +254,13 @@ These are stored as presets 1-5.
 - `-8db` Gain
 - Filter off
 
-##### Filter
-
-- `highpass`
-- `50hz`
-- `0.3Q`
-
 #### Oscillator 2 (Noise)
 
 - `Pink`
 - `2ms` Attack
 - `200ms` Decay
-- `-30db` Gain
+- `-18db` Gain
+- Filter on
 
 ##### Filter
 
