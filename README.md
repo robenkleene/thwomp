@@ -332,7 +332,7 @@ These are stored as presets 1-5.
 - `-30db` Gain
 - Filter off
 
-### 7. Bongo Low
+### 7. Conga Low
 
 #### Oscillator 1 (Body)
 
@@ -340,7 +340,7 @@ These are stored as presets 1-5.
 - `Sine`
 - `2ms` Attack
 - `200ms` Decay
-- `-2db` Gain
+- `-10db` Gain
 - Filter off
 
 ##### Pitch Envelope
@@ -354,6 +354,36 @@ These are stored as presets 1-5.
 - `Triangle`
 - `0ms` Attack
 - `90ms` Decay
+- `-20db` Gain
+- Filter off
+
+##### Pitch Envelope
+
+- `1000Hz` Amount
+- `2ms` Decay
+
+### 8. Conga High
+
+#### Oscillator 1 (Body)
+
+- `425 Hz`
+- `Sine`
+- `2ms` Attack
+- `200ms` Decay
+- `-10db` Gain
+- Filter off
+
+##### Pitch Envelope
+
+- `-200Hz` Amount
+- `2ms` Decay
+
+#### Oscillator 2 (Click)
+
+- `300 Hz`
+- `Triangle`
+- `0ms` Attack
+- `70ms` Decay
 - `-20db` Gain
 - Filter off
 
