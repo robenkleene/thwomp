@@ -199,7 +199,7 @@ These are stored as presets 1-5.
 - `120Hz` Amount
 - `100ms` Decay
 
-#### Oscillator 2 (Transient/Click)
+#### Oscillator 2 (Click)
 
 - `250Hz`
 - `Rect`
@@ -308,7 +308,7 @@ These are stored as presets 1-5.
 - `-30db` Gain
 - Filter off
 
-### 5. Bongo High
+### 6. Bongo High
 
 #### Oscillator 1 (Body)
 
@@ -331,3 +331,34 @@ These are stored as presets 1-5.
 - `150ms` Decay
 - `-30db` Gain
 - Filter off
+
+### 7. Bongo Low
+
+#### Oscillator 1 (Body)
+
+- `200 Hz`
+- `Sine`
+- `2ms` Attack
+- `200ms` Decay
+- `-2db` Gain
+- Filter off
+
+##### Pitch Envelope
+
+- `-200Hz` Amount
+- `2ms` Decay
+
+#### Oscillator 2 (Click)
+
+- `100 Hz`
+- `Triangle`
+- `0ms` Attack
+- `90ms` Decay
+- `-20db` Gain
+- Filter off
+
+##### Pitch Envelope
+
+- `1000Hz` Amount
+- `2ms` Decay
+
