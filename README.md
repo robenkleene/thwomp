@@ -298,7 +298,31 @@ These are stored as presets 1-5.
 ##### Pitch Envelope
 
 - `-200Hz` Amount
-- `0.5ms` Decay
+- `2ms` Decay
+
+#### Oscillator 2 (Noise)
+
+- `Pink`
+- `0ms` Attack
+- `150ms` Decay
+- `-30db` Gain
+- Filter off
+
+### 5. Bongo High
+
+#### Oscillator 1 (Body)
+
+- `550 Hz`
+- `Sine`
+- `2ms` Attack
+- `150ms` Decay
+- `-10db` Gain
+- Filter off
+
+##### Pitch Envelope
+
+- `-200Hz` Amount
+- `2ms` Decay
 
 #### Oscillator 2 (Noise)
 
