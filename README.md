@@ -197,7 +197,7 @@ These are stored as presets 1-5.
 ##### Pitch Envelope
 
 - `120Hz` Amount
-- `100ms` Decay
+- `100ms` Duration
 
 #### Oscillator 2 (Click)
 
@@ -228,7 +228,7 @@ These are stored as presets 1-5.
 ##### Pitch Envelope
 
 - `200Hz` Amount
-- `3ms` Decay
+- `3ms` Duration
 
 #### Oscillator 2 (Noise)
 
@@ -298,7 +298,7 @@ These are stored as presets 1-5.
 ##### Pitch Envelope
 
 - `-200Hz` Amount
-- `2ms` Decay
+- `2ms` Duration
 
 #### Oscillator 2 (Noise)
 
@@ -322,7 +322,7 @@ These are stored as presets 1-5.
 ##### Pitch Envelope
 
 - `-200Hz` Amount
-- `2ms` Decay
+- `2ms` Duration
 
 #### Oscillator 2 (Noise)
 
@@ -346,7 +346,7 @@ These are stored as presets 1-5.
 ##### Pitch Envelope
 
 - `-200Hz` Amount
-- `2ms` Decay
+- `2ms` Duration
 
 #### Oscillator 2 (Click)
 
@@ -360,7 +360,7 @@ These are stored as presets 1-5.
 ##### Pitch Envelope
 
 - `1000Hz` Amount
-- `2ms` Decay
+- `2ms` Duration
 
 ### 8. Conga High
 
@@ -376,7 +376,7 @@ These are stored as presets 1-5.
 ##### Pitch Envelope
 
 - `-200Hz` Amount
-- `2ms` Decay
+- `2ms` Duration
 
 #### Oscillator 2 (Click)
 
@@ -390,5 +390,33 @@ These are stored as presets 1-5.
 ##### Pitch Envelope
 
 - `1000Hz` Amount
-- `2ms` Decay
+- `2ms` Duration
 
+### 9. Clap
+
+#### Oscillator 1 (Click)
+
+- `1.2 kHz`
+- `Triangle`
+- `0ms` Attack
+- `100ms` Decay
+- `-10db` Gain
+- Filter off
+
+##### Pitch Envelope
+
+- `-2 kHz` Amount
+- `6ms` Duration
+
+#### Oscillator 2 (Noise)
+
+- `Noise`
+- `0ms` Attack
+- `100ms` Decay
+- `0 db` Gain
+- Filter On
+
+#### Filter
+
+- `1.2 kHz` Freq
+- `2` Res
