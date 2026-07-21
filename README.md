@@ -196,7 +196,7 @@ These are stored as presets 1-5.
 
 ##### Pitch Envelope
 
-- `120Hz` Amount
+- `120Hz` Amount kHz
 - `100ms` Duration
 
 #### Oscillator 2 (Click)
@@ -210,7 +210,7 @@ These are stored as presets 1-5.
 
 #### Filter
 
-- `bandpass`
+- `Bandpass`
 - `500 Hz`
 - `8` Res
 
@@ -239,7 +239,7 @@ These are stored as presets 1-5.
 
 #### Filter
 
-- `highpass`
+- `Highpass`
 - `4.5 kHz`
 - `0.4` Res
 
@@ -264,7 +264,7 @@ These are stored as presets 1-5.
 
 ##### Filter
 
-- `lowpass`
+- `Lowpass`
 - `1200hz`
 - `0.3Q`
 
@@ -280,7 +280,7 @@ These are stored as presets 1-5.
 
 #### Filter
 
-- `highpass`
+- `Highpass`
 - `6000 Hz`
 - `0.3Q`
 
@@ -418,5 +418,37 @@ These are stored as presets 1-5.
 
 #### Filter
 
+- `Bandpass`
 - `1.2 kHz` Freq
 - `2` Res
+
+### 10. Clap
+
+#### Oscillator 1 (Noise)
+
+- `Noise`
+- `0ms` Attack
+- `550ms` Decay
+- `0 db` Gain
+- Filter On
+
+#### Filter
+
+- `Bandpass`
+- `7 kHz` Freq
+- `4.5` Res
+
+#### Oscillator 2 (Click)
+
+- `13 kHz`
+- `Triangle`
+- `0ms` Attack
+- `150ms` Decay
+- `-20db` Gain
+- Filter off
+
+##### Pitch Envelope
+
+- `-2 kHz` Amount
+- `6ms` Duration
+
