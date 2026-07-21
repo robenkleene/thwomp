@@ -394,21 +394,7 @@ These are stored as presets 1-5.
 
 ### 9. Clap
 
-#### Oscillator 1 (Click)
-
-- `1.2 kHz`
-- `Triangle`
-- `0ms` Attack
-- `100ms` Decay
-- `-10db` Gain
-- Filter off
-
-##### Pitch Envelope
-
-- `-2 kHz` Amount
-- `6ms` Duration
-
-#### Oscillator 2 (Noise)
+#### Oscillator 1 (Noise)
 
 - `Noise`
 - `0ms` Attack
@@ -422,11 +408,25 @@ These are stored as presets 1-5.
 - `1.2 kHz` Freq
 - `2` Res
 
-### 10. Clap
+#### Oscillator 2 (Click)
+
+- `1.2 kHz`
+- `Triangle`
+- `0ms` Attack
+- `100ms` Decay
+- `-10db` Gain
+- Filter off
+
+##### Pitch Envelope
+
+- `-2 kHz` Amount
+- `6ms` Duration
+
+### 10. Cymbal
 
 #### Oscillator 1 (Noise)
 
-- `Noise`
+- `Pink`
 - `0ms` Attack
 - `550ms` Decay
 - `0 db` Gain
