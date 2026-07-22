@@ -1197,7 +1197,7 @@
                     "DrumSynthBank::1-DrumSynth::FreqRack::FreqBank::1-OscFreq": [ 1210.0 ],
                     "DrumSynthBank::1-DrumSynth::FreqRack::FreqBank::1-OscSemi": [ 0.0 ],
                     "DrumSynthBank::2-DrumSynth::2-Gain": [ -70.0 ],
-                    "DrumSynthBank::2-DrumSynth::2-Osc": [ 0.0 ],
+                    "DrumSynthBank::2-DrumSynth::2-Osc": [ 1.0 ],
                     "DrumSynthBank::2-DrumSynth::2-OscFilt": [ 0.0 ],
                     "DrumSynthBank::2-DrumSynth::2-OscReset": [ 0.0 ],
                     "DrumSynthBank::2-DrumSynth::2-OscShape": [ 1.0 ],

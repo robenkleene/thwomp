@@ -452,3 +452,23 @@ These are stored as presets 1-5.
 - `-2 kHz` Amount
 - `6ms` Duration
 
+### 11. Bell
+
+#### Oscillator 1
+
+- `Tringle`
+- `1.21 kHz`
+
+##### Pitch Env
+
+- `1.1 ms` duration
+- `1.21 kHz` amount
+
+#### Oscillator 2
+
+- `Tringle`
+- `2.8 kHz`
+
+#### Ring
+
+- `300 ms` Decay
