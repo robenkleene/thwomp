@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 721.0, 360.0, 1338.0, 913.0 ],
+        "rect": [ 509.0, 363.0, 1338.0, 913.0 ],
         "openinpresentation": 1,
         "toolbars_unpinned_last_save": 4,
         "boxes": [
@@ -291,7 +291,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 280.0, 760.0, 24.0, 24.0 ]
+                    "patching_rect": [ 280.0, 760.0, 30.0, 30.0 ]
                 }
             },
             {
