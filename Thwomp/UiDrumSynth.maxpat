@@ -9,17 +9,39 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 509.0, 363.0, 1338.0, 913.0 ],
+        "rect": [ 846.0, 359.0, 1338.0, 913.0 ],
         "openinpresentation": 1,
         "toolbars_unpinned_last_save": 4,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-50",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 357.0, 105.0, 62.0, 22.0 ],
+                    "text": "mute 0 $1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-14",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "int" ],
+                    "patching_rect": [ 357.0, 73.0, 33.0, 22.0 ],
+                    "text": "== 0"
+                }
+            },
             {
                 "box": {
                     "id": "obj-35",
                     "maxclass": "live.line",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 154.0, 15.0, 5.0, 100.0 ],
+                    "patching_rect": [ 598.0, 115.0, 5.0, 100.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 49.5, 109.0, 95.5, 7.0 ]
                 }
@@ -44,7 +66,7 @@
                     "maxclass": "live.line",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 139.0, 0.0, 5.0, 100.0 ],
+                    "patching_rect": [ 583.0, 115.0, 5.0, 100.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 144.0, 0.0, 5.0, 169.0 ]
                 }
@@ -56,7 +78,7 @@
                     "numinlets": 3,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 200.0, 64.0, 122.0, 22.0 ],
+                    "patching_rect": [ 199.5, 73.0, 122.0, 22.0 ],
                     "text": "route note randomize"
                 }
             },
@@ -229,7 +251,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 256.0, 96.0, 91.0, 22.0 ],
+                    "patching_rect": [ 251.0, 105.0, 91.0, 22.0 ],
                     "text": "s #1-randomize"
                 }
             },
@@ -619,7 +641,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 184.0, 96.0, 32.0, 22.0 ],
+                    "patching_rect": [ 184.0, 105.0, 32.0, 22.0 ],
                     "text": "gate"
                 }
             },
@@ -738,6 +760,12 @@
                 "patchline": {
                     "destination": [ "obj-16", 0 ],
                     "source": [ "obj-12", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-50", 0 ],
+                    "source": [ "obj-14", 0 ]
                 }
             },
             {
@@ -958,6 +986,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-20", 0 ],
+                    "source": [ "obj-50", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-56", 0 ],
                     "source": [ "obj-55", 0 ]
                 }
@@ -970,7 +1004,15 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-14", 0 ],
+                    "order": 0,
+                    "source": [ "obj-7", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-28", 0 ],
+                    "order": 1,
                     "source": [ "obj-7", 0 ]
                 }
             },
