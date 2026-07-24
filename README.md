@@ -489,3 +489,27 @@ These are stored as presets 1-5.
 
 - `1 ms` Attack
 - `150 ms` Decay
+
+### 13. 808 Kick
+
+#### Oscillator 1
+
+- `Tringle`
+- `48 Hz`
+- `5%` Overtone
+- `35%` Overdrive
+- `2 ms` Attack
+- `1000 ms` Decay
+
+##### Pitch Env
+
+- `100 ms` Duration
+- `-30%` Curve
+- `120 Hz` Amount
+
+#### Oscillator 2
+
+- `Tringle`
+- `1 kHz`
+
+### 14. 909 Kick
