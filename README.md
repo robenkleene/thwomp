@@ -472,3 +472,20 @@ These are stored as presets 1-5.
 #### Ring
 
 - `300 ms` Decay
+
+### 12. Cowbell
+
+#### Oscillator 1
+
+- `Tringle`
+- `700 Hz`
+
+#### Oscillator 2
+
+- `Tringle`
+- `1 kHz`
+
+#### Ring
+
+- `1 ms` Attack
+- `150 ms` Decay
