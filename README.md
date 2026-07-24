@@ -492,7 +492,9 @@ These are stored as presets 1-5.
 
 ### 13. 808 Kick
 
-#### Oscillator 1
+- `-6 db` Volume
+
+#### Oscillator 1 (Body)
 
 - `Tringle`
 - `48 Hz`
@@ -500,6 +502,7 @@ These are stored as presets 1-5.
 - `35%` Overdrive
 - `2 ms` Attack
 - `1000 ms` Decay
+- `-2 db` Gain
 
 ##### Pitch Env
 
@@ -507,9 +510,11 @@ These are stored as presets 1-5.
 - `-30%` Curve
 - `120 Hz` Amount
 
-#### Oscillator 2
+#### Oscillator 2 (Click)
 
-- `Tringle`
-- `1 kHz`
+- `Cycle`
+- `127 Hz`
+- `1 ms`: Attack
+- `35 ms`: Decay
 
 ### 14. 909 Kick
