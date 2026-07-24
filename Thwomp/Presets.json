@@ -1530,7 +1530,7 @@
                     "PresetsRead": [ 0.0 ],
                     "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
-                    "Tab": [ 1.0 ],
+                    "Tab": [ 0.0 ],
                     "Vol": [ -2.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ -7.984251968503909 ],
                     "DrumSynthBank::1-DrumSynth::1-Osc": [ 1.0 ],
