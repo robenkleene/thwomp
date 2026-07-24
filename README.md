@@ -518,3 +518,34 @@ These are stored as presets 1-5.
 - `35 ms`: Decay
 
 ### 14. 909 Kick
+
+- `-2 db` Volume
+
+#### Oscillator 1 (Body)
+
+- `Tringle`
+- `50 Hz`
+- `10%` Overtone
+- `5%` Overdrive
+- `2 ms` Attack
+- `400 ms` Decay
+- `-8 db` Gain
+- Filter On
+
+##### Pitch Env
+
+- `50 ms` Duration
+- `160 Hz` Amount
+
+#### Oscillator 2 (Click)
+
+- `Cycle`
+- `127 Hz`
+- `1 ms`: Attack
+- `25 ms`: Decay
+- Filter On
+
+#### Filter
+
+- `Lowpass`
+- `1300 kHz`
