@@ -166,10 +166,10 @@ Only controls are accessible on Push.
 2. Snare
 3. Tom
 4. Hi-Hat
-5. Bongo High
-6. Bongo Low
-7. Conga High
-8. Conga Low
+5. Bongo Low
+6. Bongo High
+7. Conga Low
+8. Conga High
 9. Clap
 10. Cymbal
 11. Bell
@@ -186,12 +186,12 @@ Only controls are accessible on Push.
 - `Sine`
 - `2 ms` Attack
 - `383 ms` Decay
-- `0 Db` Gain
+- `-2 dB` Gain
 - Filter off
 
 ##### Pitch Envelope
 
-- `120 Hz` Amount kHz
+- `120 Hz` Amount
 - `100 ms` Duration
 
 #### Oscillator 2 (Click)
@@ -234,20 +234,25 @@ Only controls are accessible on Push.
 
 #### Filter
 
-- `Highpass`
-- `4.5 kHz`
-- `0.4` Res
+- `Bandpass`
+- `4500 Hz`
+- `2` Res
 
 ### 3. Tom
 
 #### Oscillator 1 (Body)
 
 - `110 Hz`
-- `Cycle`
+- `Sine`
 - `2 ms` Attack
 - `500 ms` Decay
 - `-8 dB` Gain
 - Filter off
+
+##### Pitch Envelope
+
+- `12 Hz` Amount
+- `300 ms` Duration
 
 #### Oscillator 2 (Noise)
 
@@ -286,7 +291,7 @@ Only controls are accessible on Push.
 - `375 Hz`
 - `Sine`
 - `2 ms` Attack
-- `150 ms` Decay
+- `125 ms` Decay
 - `-10 dB` Gain
 - Filter off
 
@@ -310,7 +315,7 @@ Only controls are accessible on Push.
 - `550 Hz`
 - `Sine`
 - `2 ms` Attack
-- `150 ms` Decay
+- `125 ms` Decay
 - `-10 dB` Gain
 - Filter off
 
@@ -400,21 +405,21 @@ Only controls are accessible on Push.
 #### Filter
 
 - `Bandpass`
-- `1.2 kHz` Freq
+- `1200 Hz` Freq
 - `2` Res
 
 #### Oscillator 2 (Click)
 
-- `1.2 kHz`
+- `1200 Hz`
 - `Triangle`
 - `0 ms` Attack
-- `100 ms` Decay
+- `10 ms` Decay
 - `-10 dB` Gain
 - Filter off
 
 ##### Pitch Envelope
 
-- `-2 kHz` Amount
+- `-2000 Hz` Amount
 - `6 ms` Duration
 
 ### 10. Cymbal
@@ -430,12 +435,12 @@ Only controls are accessible on Push.
 #### Filter
 
 - `Bandpass`
-- `7 kHz` Freq
+- `7000 Hz` Freq
 - `4.5` Res
 
 #### Oscillator 2 (Click)
 
-- `13 kHz`
+- `13000 Hz`
 - `Triangle`
 - `150 ms` Decay
 - `-20 dB` Gain
@@ -443,25 +448,25 @@ Only controls are accessible on Push.
 
 ##### Pitch Envelope
 
-- `-2 kHz` Amount
+- `-2 Hz` Amount
 - `6 ms` Duration
 
 ### 11. Bell
 
 #### Oscillator 1
 
-- `Tringle`
-- `1.21 kHz`
+- `Triangle`
+- `1210 Hz`
 
 ##### Pitch Env
 
 - `1.1 ms` duration
-- `1.21 kHz` amount
+- `1210 Hz` amount
 
 #### Oscillator 2
 
-- `Tringle`
-- `2.8 kHz`
+- `Triangle`
+- `2800 Hz`
 
 #### Ring
 
@@ -471,13 +476,13 @@ Only controls are accessible on Push.
 
 #### Oscillator 1
 
-- `Tringle`
+- `Triangle`
 - `700 Hz`
 
 #### Oscillator 2
 
-- `Tringle`
-- `1 kHz`
+- `Triangle`
+- `1000 Hz`
 
 #### Ring
 
@@ -490,7 +495,7 @@ Only controls are accessible on Push.
 
 #### Oscillator 1 (Body)
 
-- `Tringle`
+- `Triangle`
 - `48 Hz`
 - `5%` Overtone
 - `35%` Overdrive
@@ -506,24 +511,24 @@ Only controls are accessible on Push.
 
 #### Oscillator 2 (Click)
 
-- `Cycle`
+- `Sine`
 - `127 Hz`
 - `1 ms`: Attack
 - `35 ms`: Decay
 
 ### 14. 909 Kick
 
-- `-2 db` Volume
+- `-2 dB` Volume
 
 #### Oscillator 1 (Body)
 
-- `Tringle`
+- `Triangle`
 - `50 Hz`
 - `10%` Overtone
 - `5%` Overdrive
 - `2 ms` Attack
 - `400 ms` Decay
-- `-8 db` Gain
+- `-8 dB` Gain
 - Filter On
 
 ##### Pitch Env
@@ -533,7 +538,7 @@ Only controls are accessible on Push.
 
 #### Oscillator 2 (Click)
 
-- `Cycle`
+- `Sine`
 - `127 Hz`
 - `1 ms`: Attack
 - `25 ms`: Decay
@@ -542,4 +547,4 @@ Only controls are accessible on Push.
 #### Filter
 
 - `Lowpass`
-- `1300 kHz`
+- `1300 Hz`
