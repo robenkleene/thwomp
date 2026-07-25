@@ -166,169 +166,385 @@ Only controls are accessible on Push.
 2. Snare
 3. Tom
 4. Hi-Hat
-5. Bongo
-6. 808 Kick
-7. 909 Kick
-8. Clap
-9. Cymbal
-10. Pitched Tom
-11. Pitched Bongo
-12. Conga
-13. Pitched Conga
-14. Bell
-15. Cowbell
+5. Bongo Low
+6. Bongo High
+7. Conga Low
+8. Conga High
+9. Clap
+10. Cymbal
+11. Bell
+12. Cowbell
+13. 808 Kick
+14. 909 Kick
 18. Init
-
-### Examples
-
-These are stored as presets 1-5.
 
 ### 1. Kick
 
 #### Oscillator 1 (Body)
 
-- `65Hz`
-- `Cycle`
-- `2ms` Attack
-- `383ms` Decay
-- `0db` Gain
+- `65 Hz`
+- `Sine`
+- `2 ms` Attack
+- `383 ms` Decay
+- `-2 dB` Gain
+- Filter off
 
 ##### Pitch Envelope
 
-- `120Hz` Amount
-- `100ms` Decay
+- `120 Hz` Amount
+- `100 ms` Duration
 
-#### Oscillator 2 (Transient/Click)
+#### Oscillator 2 (Click)
 
-- `251Hz`
+- `250 Hz`
 - `Rect`
-- `0ms` Attack
-- `26ms` Decay
-- `-10db` Gain
+- `0 ms` Attack
+- `26 ms` Decay
+- `-8 dB` Gain
+- Filter on
 
-##### Filter
+#### Filter
 
-- `bandpass`
-- `500Hz`
-- `5.6Q`
+- `Bandpass`
+- `500 Hz`
+- `8` Res
 
 ### 2. Snare
 
 #### Oscillator 1 (Body)
 
-- `175Hz`
-- `Cycle`
-- `1ms` Attack
-- `60ms` Decay
-- `-6db` Gain
+- `175 Hz`
+- `Sine`
+- `1 ms` Attack
+- `60 ms` Decay
+- `-8 dB` Gain
+- Filter off
 
-##### Filter
+##### Pitch Envelope
 
-- `highpass`
-- `40hz`
-- `0.66Q`
+- `200 Hz` Amount
+- `3 ms` Duration
 
 #### Oscillator 2 (Noise)
 
 - `Noise`
-- `0ms` Attack
-- `140ms` Decay
-- `-40db` Gain
+- `2 ms` Attack
+- `75 ms` Decay
+- `-15 dB` Gain
 
-##### Filter
+#### Filter
 
-- `highpass`
-- `1000hz`
-- `0.4Q`
+- `Bandpass`
+- `4500 Hz`
+- `2` Res
 
 ### 3. Tom
 
 #### Oscillator 1 (Body)
 
-- `110Hz`
-- `Cycle`
-- `2ms` Attack
-- `500ms` Decay
-- `-8db` Gain
+- `110 Hz`
+- `Sine`
+- `2 ms` Attack
+- `500 ms` Decay
+- `-8 dB` Gain
+- Filter off
 
 ##### Pitch Envelope
 
-- `12Hz` Amount
-- `300ms` Decay
-
-##### Filter
-
-- `highpass`
-- `50hz`
-- `0.3Q`
+- `12 Hz` Amount
+- `300 ms` Duration
 
 #### Oscillator 2 (Noise)
 
 - `Pink`
-- `2ms` Attack
-- `200ms` Decay
-- `-30db` Gain
+- `2 ms` Attack
+- `200 ms` Decay
+- `-18 dB` Gain
+- Filter on
 
 ##### Filter
 
-- `lowpass`
-- `1200hz`
-- `0.3Q`
+- `Lowpass`
+- `1200 Hz`
+- `0.3` Res
 
 ### 4. Hi-Hat
 
 #### Oscillator 1 (Noise)
 
 - `Noise`
-- `0ms` Attack
-- `150ms` Decay
-- `-4db` Gain
+- `0 ms` Attack
+- `100 ms` Decay
+- `-4 dB` Gain
+- Filter on
 
 #### Filter
 
-- `highpass`
-- `6000Hz`
-- `0.3Q`
+- `Highpass`
+- `6000 Hz`
+- `0.3` Res
 
-### 5. Bongo
+### 5. Bongo Low
 
-#### Oscillator 1 (Pitch 1)
+#### Oscillator 1 (Body)
 
-- `1100Hz`
-- `Saw`
-- `0ms` Attack
-- `125ms` Decay
-- `-30db` Gain
+- `375 Hz`
+- `Sine`
+- `2 ms` Attack
+- `125 ms` Decay
+- `-10 dB` Gain
+- Filter off
 
-#### Filter
+##### Pitch Envelope
 
-- `lowpass`
-- `1100Hz`
-- `3Q`
+- `-200 Hz` Amount
+- `2 ms` Duration
 
-#### Oscillator 2 (Pitch 2)
-
-- `725Hz`
-- `Cycle`
-- `0ms` Attack
-- `125ms` Decay
-- `-10db` Gain
-
-#### Filter
-
-- `lowpass`
-- `8000Hz`
-- `0.3Q`
-
-#### Oscillator 3 (Noise)
+#### Oscillator 2 (Noise)
 
 - `Pink`
-- `0ms` Attack
-- `200ms` Decay
-- `-20db` Gain
+- `0 ms` Attack
+- `150 ms` Decay
+- `-30 dB` Gain
+- Filter off
+
+### 6. Bongo High
+
+#### Oscillator 1 (Body)
+
+- `550 Hz`
+- `Sine`
+- `2 ms` Attack
+- `125 ms` Decay
+- `-10 dB` Gain
+- Filter off
+
+##### Pitch Envelope
+
+- `-200 Hz` Amount
+- `2 ms` Duration
+
+#### Oscillator 2 (Noise)
+
+- `Pink`
+- `0 ms` Attack
+- `150 ms` Decay
+- `-30 dB` Gain
+- Filter off
+
+### 7. Conga Low
+
+#### Oscillator 1 (Body)
+
+- `200 Hz`
+- `Sine`
+- `2 ms` Attack
+- `200 ms` Decay
+- `-10 dB` Gain
+- Filter off
+
+##### Pitch Envelope
+
+- `-200 Hz` Amount
+- `2 ms` Duration
+
+#### Oscillator 2 (Click)
+
+- `100 Hz`
+- `Triangle`
+- `0 ms` Attack
+- `90 ms` Decay
+- `-20 dB` Gain
+- Filter off
+
+##### Pitch Envelope
+
+- `1000 Hz` Amount
+- `2 ms` Duration
+
+### 8. Conga High
+
+#### Oscillator 1 (Body)
+
+- `425 Hz`
+- `Sine`
+- `2 ms` Attack
+- `200 ms` Decay
+- `-10 dB` Gain
+- Filter off
+
+##### Pitch Envelope
+
+- `-200 Hz` Amount
+- `2 ms` Duration
+
+#### Oscillator 2 (Click)
+
+- `300 Hz`
+- `Triangle`
+- `0 ms` Attack
+- `70 ms` Decay
+- `-20 dB` Gain
+- Filter off
+
+##### Pitch Envelope
+
+- `1000 Hz` Amount
+- `2 ms` Duration
+
+### 9. Clap
+
+#### Oscillator 1 (Noise)
+
+- `Noise`
+- `0 ms` Attack
+- `100 ms` Decay
+- `0 dB` Gain
+- Filter On
 
 #### Filter
 
-- `lowpass`
-- `12000Hz`
-- `0.3Q`
+- `Bandpass`
+- `1200 Hz` Freq
+- `2` Res
+
+#### Oscillator 2 (Click)
+
+- `1200 Hz`
+- `Triangle`
+- `0 ms` Attack
+- `10 ms` Decay
+- `-10 dB` Gain
+- Filter off
+
+##### Pitch Envelope
+
+- `-2000 Hz` Amount
+- `6 ms` Duration
+
+### 10. Cymbal
+
+#### Oscillator 1 (Noise)
+
+- `Pink`
+- `0 ms` Attack
+- `550 ms` Decay
+- `0 dB` Gain
+- Filter On
+
+#### Filter
+
+- `Bandpass`
+- `7000 Hz` Freq
+- `4.5` Res
+
+#### Oscillator 2 (Click)
+
+- `13000 Hz`
+- `Triangle`
+- `150 ms` Decay
+- `-20 dB` Gain
+- Filter off
+
+##### Pitch Envelope
+
+- `-2 Hz` Amount
+- `6 ms` Duration
+
+### 11. Bell
+
+#### Oscillator 1
+
+- `Triangle`
+- `1210 Hz`
+
+##### Pitch Env
+
+- `1.1 ms` duration
+- `1210 Hz` amount
+
+#### Oscillator 2
+
+- `Triangle`
+- `2800 Hz`
+
+#### Ring
+
+- `300 ms` Decay
+
+### 12. Cowbell
+
+#### Oscillator 1
+
+- `Triangle`
+- `700 Hz`
+
+#### Oscillator 2
+
+- `Triangle`
+- `1000 Hz`
+
+#### Ring
+
+- `1 ms` Attack
+- `150 ms` Decay
+
+### 13. 808 Kick
+
+- `-6 dB` Volume
+
+#### Oscillator 1 (Body)
+
+- `Triangle`
+- `48 Hz`
+- `5%` Overtone
+- `35%` Overdrive
+- `2 ms` Attack
+- `1000 ms` Decay
+- `-2 dB` Gain
+
+##### Pitch Env
+
+- `100 ms` Duration
+- `-30%` Curve
+- `120 Hz` Amount
+
+#### Oscillator 2 (Click)
+
+- `Sine`
+- `127 Hz`
+- `1 ms`: Attack
+- `35 ms`: Decay
+
+### 14. 909 Kick
+
+- `-2 dB` Volume
+
+#### Oscillator 1 (Body)
+
+- `Triangle`
+- `50 Hz`
+- `10%` Overtone
+- `5%` Overdrive
+- `2 ms` Attack
+- `400 ms` Decay
+- `-8 dB` Gain
+- Filter On
+
+##### Pitch Env
+
+- `50 ms` Duration
+- `160 Hz` Amount
+
+#### Oscillator 2 (Click)
+
+- `Sine`
+- `127 Hz`
+- `1 ms`: Attack
+- `25 ms`: Decay
+- Filter On
+
+#### Filter
+
+- `Lowpass`
+- `1300 Hz`

@@ -3,9 +3,16 @@ autowatch = 1;
 
 // Inlets & Outlets
 inlets = 2;
-outlets = 1;
+outlets = 2;
 var INLET_TAB = 0;
 var INLET_NOTE = 1;
+var OUTLET_BANK = 0;
+var OUTLET_DONE = 1;
+
+setinletassist(INLET_TAB, "(bang, int) trigger bank messages, tab");
+setinletassist(INLET_NOTE, "(int) 0 note on, 1 note off");
+setoutletassist(OUTLET_BANK, "(message) bank control messages");
+setoutletassist(OUTLET_DONE, "(bang) sent when bank control messages finish");
 
 var ENCODERS = [
 ["Oscillator",    "Tab", "$1-OscShape",          "$2",                   "$1-Overdrive",           "$1-Overtone",            "$1-PitchEnvDur",       "$1-PitchEnvCurve",     "$1-PitchEnvAmt"],
@@ -73,8 +80,10 @@ function update() {
 
   // Only banks `0-3` contain tokens (e.g., `$1`) and only banks with tokens need to be updated
   for (var i = 0; i < 4; i++) {
-    outlet(0, bankMessage(i));
+    outlet(OUTLET_BANK, bankMessage(i));
   }
+
+  outlet(OUTLET_DONE, "bang");
 }
 
 function msg_int(value) {
@@ -101,8 +110,10 @@ function bang() {
   currentNote = DEFAULT_NOTE;
 
   for (var i = 0; i < ENCODERS.length; i++) {
-    outlet(0, bankMessage(i));
+    outlet(OUTLET_BANK, bankMessage(i));
   }
+
+  outlet(OUTLET_DONE, "bang");
 }
 
 function log(obj) {
