@@ -178,33 +178,29 @@ Only controls are accessible on Push.
 14. 909 Kick
 18. Init
 
-### Examples
-
-These are stored as presets 1-5.
-
 ### 1. Kick
 
 #### Oscillator 1 (Body)
 
-- `65Hz`
+- `65 Hz`
 - `Sine`
-- `2ms` Attack
-- `383ms` Decay
-- `0db` Gain
+- `2 ms` Attack
+- `383 ms` Decay
+- `0 Db` Gain
 - Filter off
 
 ##### Pitch Envelope
 
-- `120Hz` Amount kHz
-- `100ms` Duration
+- `120 Hz` Amount kHz
+- `100 ms` Duration
 
 #### Oscillator 2 (Click)
 
-- `250Hz`
+- `250 Hz`
 - `Rect`
-- `0ms` Attack
-- `26ms` Decay
-- `-8db` Gain
+- `0 ms` Attack
+- `26 ms` Decay
+- `-8 dB` Gain
 - Filter on
 
 #### Filter
@@ -217,24 +213,24 @@ These are stored as presets 1-5.
 
 #### Oscillator 1 (Body)
 
-- `175Hz`
+- `175 Hz`
 - `Sine`
-- `1ms` Attack
-- `60ms` Decay
-- `-8db` Gain
+- `1 ms` Attack
+- `60 ms` Decay
+- `-8 dB` Gain
 - Filter off
 
 ##### Pitch Envelope
 
-- `200Hz` Amount
-- `3ms` Duration
+- `200 Hz` Amount
+- `3 ms` Duration
 
 #### Oscillator 2 (Noise)
 
 - `Noise`
-- `2ms` Attack
-- `75ms` Decay
-- `-15db` Gain
+- `2 ms` Attack
+- `75 ms` Decay
+- `-15 dB` Gain
 
 #### Filter
 
@@ -246,42 +242,42 @@ These are stored as presets 1-5.
 
 #### Oscillator 1 (Body)
 
-- `110Hz`
+- `110 Hz`
 - `Cycle`
-- `2ms` Attack
-- `500ms` Decay
-- `-8db` Gain
+- `2 ms` Attack
+- `500 ms` Decay
+- `-8 dB` Gain
 - Filter off
 
 #### Oscillator 2 (Noise)
 
 - `Pink`
-- `2ms` Attack
-- `200ms` Decay
-- `-18db` Gain
+- `2 ms` Attack
+- `200 ms` Decay
+- `-18 dB` Gain
 - Filter on
 
 ##### Filter
 
 - `Lowpass`
-- `1200hz`
-- `0.3Q`
+- `1200 Hz`
+- `0.3` Res
 
 ### 4. Hi-Hat
 
 #### Oscillator 1 (Noise)
 
 - `Noise`
-- `0ms` Attack
-- `100ms` Decay
-- `-4db` Gain
+- `0 ms` Attack
+- `100 ms` Decay
+- `-4 dB` Gain
 - Filter on
 
 #### Filter
 
 - `Highpass`
 - `6000 Hz`
-- `0.3Q`
+- `0.3` Res
 
 ### 5. Bongo Low
 
@@ -289,22 +285,22 @@ These are stored as presets 1-5.
 
 - `375 Hz`
 - `Sine`
-- `2ms` Attack
-- `150ms` Decay
-- `-10db` Gain
+- `2 ms` Attack
+- `150 ms` Decay
+- `-10 dB` Gain
 - Filter off
 
 ##### Pitch Envelope
 
-- `-200Hz` Amount
-- `2ms` Duration
+- `-200 Hz` Amount
+- `2 ms` Duration
 
 #### Oscillator 2 (Noise)
 
 - `Pink`
-- `0ms` Attack
-- `150ms` Decay
-- `-30db` Gain
+- `0 ms` Attack
+- `150 ms` Decay
+- `-30 dB` Gain
 - Filter off
 
 ### 6. Bongo High
@@ -313,22 +309,22 @@ These are stored as presets 1-5.
 
 - `550 Hz`
 - `Sine`
-- `2ms` Attack
-- `150ms` Decay
-- `-10db` Gain
+- `2 ms` Attack
+- `150 ms` Decay
+- `-10 dB` Gain
 - Filter off
 
 ##### Pitch Envelope
 
-- `-200Hz` Amount
-- `2ms` Duration
+- `-200 Hz` Amount
+- `2 ms` Duration
 
 #### Oscillator 2 (Noise)
 
 - `Pink`
-- `0ms` Attack
-- `150ms` Decay
-- `-30db` Gain
+- `0 ms` Attack
+- `150 ms` Decay
+- `-30 dB` Gain
 - Filter off
 
 ### 7. Conga Low
@@ -337,29 +333,29 @@ These are stored as presets 1-5.
 
 - `200 Hz`
 - `Sine`
-- `2ms` Attack
-- `200ms` Decay
-- `-10db` Gain
+- `2 ms` Attack
+- `200 ms` Decay
+- `-10 dB` Gain
 - Filter off
 
 ##### Pitch Envelope
 
-- `-200Hz` Amount
-- `2ms` Duration
+- `-200 Hz` Amount
+- `2 ms` Duration
 
 #### Oscillator 2 (Click)
 
 - `100 Hz`
 - `Triangle`
-- `0ms` Attack
-- `90ms` Decay
-- `-20db` Gain
+- `0 ms` Attack
+- `90 ms` Decay
+- `-20 dB` Gain
 - Filter off
 
 ##### Pitch Envelope
 
-- `1000Hz` Amount
-- `2ms` Duration
+- `1000 Hz` Amount
+- `2 ms` Duration
 
 ### 8. Conga High
 
@@ -367,38 +363,38 @@ These are stored as presets 1-5.
 
 - `425 Hz`
 - `Sine`
-- `2ms` Attack
-- `200ms` Decay
-- `-10db` Gain
+- `2 ms` Attack
+- `200 ms` Decay
+- `-10 dB` Gain
 - Filter off
 
 ##### Pitch Envelope
 
-- `-200Hz` Amount
-- `2ms` Duration
+- `-200 Hz` Amount
+- `2 ms` Duration
 
 #### Oscillator 2 (Click)
 
 - `300 Hz`
 - `Triangle`
-- `0ms` Attack
-- `70ms` Decay
-- `-20db` Gain
+- `0 ms` Attack
+- `70 ms` Decay
+- `-20 dB` Gain
 - Filter off
 
 ##### Pitch Envelope
 
-- `1000Hz` Amount
-- `2ms` Duration
+- `1000 Hz` Amount
+- `2 ms` Duration
 
 ### 9. Clap
 
 #### Oscillator 1 (Noise)
 
 - `Noise`
-- `0ms` Attack
-- `100ms` Decay
-- `0 db` Gain
+- `0 ms` Attack
+- `100 ms` Decay
+- `0 dB` Gain
 - Filter On
 
 #### Filter
@@ -411,24 +407,24 @@ These are stored as presets 1-5.
 
 - `1.2 kHz`
 - `Triangle`
-- `0ms` Attack
-- `100ms` Decay
-- `-10db` Gain
+- `0 ms` Attack
+- `100 ms` Decay
+- `-10 dB` Gain
 - Filter off
 
 ##### Pitch Envelope
 
 - `-2 kHz` Amount
-- `6ms` Duration
+- `6 ms` Duration
 
 ### 10. Cymbal
 
 #### Oscillator 1 (Noise)
 
 - `Pink`
-- `0ms` Attack
-- `550ms` Decay
-- `0 db` Gain
+- `0 ms` Attack
+- `550 ms` Decay
+- `0 dB` Gain
 - Filter On
 
 #### Filter
@@ -441,15 +437,14 @@ These are stored as presets 1-5.
 
 - `13 kHz`
 - `Triangle`
-- `0ms` Attack
-- `150ms` Decay
-- `-20db` Gain
+- `150 ms` Decay
+- `-20 dB` Gain
 - Filter off
 
 ##### Pitch Envelope
 
 - `-2 kHz` Amount
-- `6ms` Duration
+- `6 ms` Duration
 
 ### 11. Bell
 
@@ -491,7 +486,7 @@ These are stored as presets 1-5.
 
 ### 13. 808 Kick
 
-- `-6 db` Volume
+- `-6 dB` Volume
 
 #### Oscillator 1 (Body)
 
@@ -501,7 +496,7 @@ These are stored as presets 1-5.
 - `35%` Overdrive
 - `2 ms` Attack
 - `1000 ms` Decay
-- `-2 db` Gain
+- `-2 dB` Gain
 
 ##### Pitch Env
 
