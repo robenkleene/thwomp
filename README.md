@@ -425,7 +425,7 @@ Only controls are accessible on Push.
 
 ### 10. Cymbal
 
-#### Oscillator 1 (Noise)
+#### Oscillator 1 (Body)
 
 - `Pink`
 - `0 ms` Attack
@@ -454,7 +454,7 @@ Only controls are accessible on Push.
 
 ### 11. Bell
 
-#### Oscillator 1
+#### Oscillator 1 (Body)
 
 - `Triangle`
 - `1210 Hz`
@@ -464,7 +464,7 @@ Only controls are accessible on Push.
 - `1.1 ms` duration
 - `1210 Hz` amount
 
-#### Oscillator 2
+#### Oscillator 2 (Body)
 
 - `Triangle`
 - `2800 Hz`
@@ -475,12 +475,12 @@ Only controls are accessible on Push.
 
 ### 12. Cowbell
 
-#### Oscillator 1
+#### Oscillator 1 (Body)
 
 - `Triangle`
 - `700 Hz`
 
-#### Oscillator 2
+#### Oscillator 2 (Body)
 
 - `Triangle`
 - `1000 Hz`
