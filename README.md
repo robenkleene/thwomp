@@ -443,9 +443,10 @@ Only controls are accessible on Push.
 
 - `13000 Hz`
 - `Triangle`
-- `150 ms` Decay
+- `100 ms` Decay
 - `-20 dB` Gain
 - Filter off
+- `50%` Overdrive
 
 ##### Pitch Envelope
 
