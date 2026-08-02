@@ -56,8 +56,6 @@ To open in Max directly without Live, open `Thwomp/Thwomp.maxpat`, Thwomp has so
 
 Presets are available either when opening in Max directly, or by choosing `Edit in Max` in Live (and dragging the Max window size larger to expose the preset controls).
 
-- **Load**: Toggle whether selecting a preset automatically loads it (this will also load the current selected preset)
-- **Select**: Choose the selected preset
 - **Read**: Read presets from a file
 - **Write**: Write the presets to a file
 - **Overwrite**: When toggled on, **W** will automatically write again to the sample file
@@ -71,6 +69,8 @@ Presets are available either when opening in Max directly, or by choosing `Edit 
 
 - **Vol**: The volume of all of the oscillators combined.
 - Oscillator Tabs 1-4: Select an oscillator
+- **Rand:** Randomize
+- **Preset**: Choose the selected preset
 
 ### Oscillator
 
@@ -104,8 +104,6 @@ Presets are available either when opening in Max directly, or by choosing `Edit 
 - **Gain**: The gain of this oscillator
 
 ## Randomize
-
-- **Rand:** Randomize
 
 ### Oscillator
 
