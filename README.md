@@ -58,7 +58,7 @@ Presets are available either when opening in Max directly, or by choosing `Edit 
 
 - **Read**: Read presets from a file
 - **Write**: Write the presets to a file
-- **Overwrite**: When toggled on, **W** will automatically write again to the sample file
+- **Overwrite**: When toggled on, **Write** will automatically write again to the sample file
 - To recall a preset, click a box
 - To save a preset, shift-click a box
 - To delete a preset, shift-option-click a box
@@ -67,10 +67,10 @@ Presets are available either when opening in Max directly, or by choosing `Edit 
 
 ### Global
 
-- **Vol**: The volume of all of the oscillators combined.
-- Oscillator Tabs 1-4: Select an oscillator
+- **Volume:** Device volume
+- **Osc 1-2:** Display oscillator controls
+- **Preset:** Choose the selected preset
 - **Rand:** Randomize
-- **Preset**: Choose the selected preset
 
 ### Oscillator
 
