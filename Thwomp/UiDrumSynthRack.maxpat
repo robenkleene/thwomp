@@ -1229,7 +1229,7 @@
                     "patching_rect": [ 627.0, 296.0, 77.0, 29.0 ],
                     "pattrstorage": "Presets",
                     "presentation": 1,
-                    "presentation_rect": [ 393.0, 37.0, 40.0, 76.0 ]
+                    "presentation_rect": [ 393.0, 0.0, 40.0, 113.0 ]
                 }
             },
             {
