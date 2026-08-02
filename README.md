@@ -176,7 +176,7 @@ Only controls are accessible on Push.
 12. Cymbal
 13. Bell
 14. Cowbell
-18. Init
+15. Init
 
 ### 1. Kick
 
