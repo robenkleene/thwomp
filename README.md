@@ -163,19 +163,19 @@ Only controls are accessible on Push.
 ## Presets
 
 1. Kick
-2. Snare
-3. Tom
-4. Hi-Hat
-5. Bongo Low
-6. Bongo High
-7. Conga Low
-8. Conga High
-9. Clap
-10. Cymbal
-11. Bell
-12. Cowbell
-13. 808 Kick
-14. 909 Kick
+2. 808 Kick
+3. 909 Kick
+4. Snare
+5. Tom
+6. Hi-Hat
+7. Bongo Low
+8. Bongo High
+9. Conga Low
+10. Conga High
+11. Clap
+12. Cymbal
+13. Bell
+14. Cowbell
 18. Init
 
 ### 1. Kick
@@ -209,289 +209,7 @@ Only controls are accessible on Push.
 - `500 Hz`
 - `8` Res
 
-### 2. Snare
-
-#### Oscillator 1 (Body)
-
-- `175 Hz`
-- `Sine`
-- `1 ms` Attack
-- `60 ms` Decay
-- `-8 dB` Gain
-- Filter off
-
-##### Pitch Envelope
-
-- `200 Hz` Amount
-- `3 ms` Duration
-
-#### Oscillator 2 (Tail)
-
-- `Noise`
-- `2 ms` Attack
-- `75 ms` Decay
-- `-15 dB` Gain
-
-#### Filter
-
-- `Bandpass`
-- `4500 Hz`
-- `2` Res
-
-### 3. Tom
-
-#### Oscillator 1 (Body)
-
-- `110 Hz`
-- `Sine`
-- `2 ms` Attack
-- `500 ms` Decay
-- `-8 dB` Gain
-- Filter off
-
-##### Pitch Envelope
-
-- `12 Hz` Amount
-- `300 ms` Duration
-
-#### Oscillator 2 (Tail)
-
-- `Pink`
-- `2 ms` Attack
-- `200 ms` Decay
-- `-18 dB` Gain
-- Filter on
-
-##### Filter
-
-- `Lowpass`
-- `1200 Hz`
-- `0.3` Res
-
-### 4. Hi-Hat
-
-#### Oscillator 1 (Body)
-
-- `Noise`
-- `0 ms` Attack
-- `100 ms` Decay
-- `-4 dB` Gain
-- Filter on
-
-#### Filter
-
-- `Highpass`
-- `6000 Hz`
-- `0.3` Res
-
-### 5. Bongo Low
-
-#### Oscillator 1 (Body)
-
-- `375 Hz`
-- `Sine`
-- `2 ms` Attack
-- `125 ms` Decay
-- `-10 dB` Gain
-- Filter off
-
-##### Pitch Envelope
-
-- `-200 Hz` Amount
-- `2 ms` Duration
-
-#### Oscillator 2 (Tail)
-
-- `Pink`
-- `0 ms` Attack
-- `150 ms` Decay
-- `-30 dB` Gain
-- Filter off
-
-### 6. Bongo High
-
-#### Oscillator 1 (Body)
-
-- `550 Hz`
-- `Sine`
-- `2 ms` Attack
-- `125 ms` Decay
-- `-10 dB` Gain
-- Filter off
-
-##### Pitch Envelope
-
-- `-200 Hz` Amount
-- `2 ms` Duration
-
-#### Oscillator 2 (Tail)
-
-- `Pink`
-- `0 ms` Attack
-- `150 ms` Decay
-- `-30 dB` Gain
-- Filter off
-
-### 7. Conga Low
-
-#### Oscillator 1 (Body)
-
-- `200 Hz`
-- `Sine`
-- `2 ms` Attack
-- `200 ms` Decay
-- `-10 dB` Gain
-- Filter off
-
-##### Pitch Envelope
-
-- `-200 Hz` Amount
-- `2 ms` Duration
-
-#### Oscillator 2 (Click)
-
-- `100 Hz`
-- `Triangle`
-- `0 ms` Attack
-- `90 ms` Decay
-- `-20 dB` Gain
-- Filter off
-
-##### Pitch Envelope
-
-- `1000 Hz` Amount
-- `2 ms` Duration
-
-### 8. Conga High
-
-#### Oscillator 1 (Body)
-
-- `425 Hz`
-- `Sine`
-- `2 ms` Attack
-- `200 ms` Decay
-- `-10 dB` Gain
-- Filter off
-
-##### Pitch Envelope
-
-- `-200 Hz` Amount
-- `2 ms` Duration
-
-#### Oscillator 2 (Click)
-
-- `300 Hz`
-- `Triangle`
-- `0 ms` Attack
-- `70 ms` Decay
-- `-20 dB` Gain
-- Filter off
-
-##### Pitch Envelope
-
-- `1000 Hz` Amount
-- `2 ms` Duration
-
-### 9. Clap
-
-#### Oscillator 1 (Body)
-
-- `Noise`
-- `0 ms` Attack
-- `90 ms` Decay
-- `0 dB` Gain
-- Filter On
-- `10%` Overdrive
-
-#### Filter
-
-- `Bandpass`
-- `1200 Hz` Freq
-- `2` Res
-
-#### Oscillator 2 (Click)
-
-- `1200 Hz`
-- `Triangle`
-- `0 ms` Attack
-- `10 ms` Decay
-- `-10 dB` Gain
-- Filter off
-
-##### Pitch Envelope
-
-- `-2000 Hz` Amount
-- `6 ms` Duration
-
-### 10. Cymbal
-
-#### Oscillator 1 (Body)
-
-- `Pink`
-- `0 ms` Attack
-- `550 ms` Decay
-- `0 dB` Gain
-- Filter On
-
-#### Filter
-
-- `Bandpass`
-- `7000 Hz` Freq
-- `4.5` Res
-
-#### Oscillator 2 (Click)
-
-- `13000 Hz`
-- `Triangle`
-- `100 ms` Decay
-- `-20 dB` Gain
-- Filter off
-- `50%` Overdrive
-
-##### Pitch Envelope
-
-- `-2 Hz` Amount
-- `6 ms` Duration
-
-### 11. Bell
-
-#### Oscillator 1 (Body)
-
-- `Triangle`
-- `1210 Hz`
-
-##### Pitch Env
-
-- `1.1 ms` duration
-- `1210 Hz` amount
-
-#### Oscillator 2 (Body)
-
-- `Triangle`
-- `2800 Hz`
-
-#### Ring
-
-- `300 ms` Decay
-
-### 12. Cowbell
-
-#### Oscillator 1 (Body)
-
-- `Triangle`
-- `700 Hz`
-
-#### Oscillator 2 (Body)
-
-- `Triangle`
-- `1000 Hz`
-
-#### Ring
-
-- `1 ms` Attack
-- `150 ms` Decay
-
-### 13. 808 Kick
+### 2. 808 Kick
 
 - `-6 dB` Volume
 
@@ -518,7 +236,7 @@ Only controls are accessible on Push.
 - `1 ms`: Attack
 - `35 ms`: Decay
 
-### 14. 909 Kick
+### 3. 909 Kick
 
 - `-2 dB` Volume
 
@@ -550,3 +268,285 @@ Only controls are accessible on Push.
 
 - `Lowpass`
 - `1300 Hz`
+
+### 4. Snare
+
+#### Oscillator 1 (Body)
+
+- `175 Hz`
+- `Sine`
+- `1 ms` Attack
+- `60 ms` Decay
+- `-8 dB` Gain
+- Filter off
+
+##### Pitch Envelope
+
+- `200 Hz` Amount
+- `3 ms` Duration
+
+#### Oscillator 2 (Tail)
+
+- `Noise`
+- `2 ms` Attack
+- `75 ms` Decay
+- `-15 dB` Gain
+
+#### Filter
+
+- `Bandpass`
+- `4500 Hz`
+- `2` Res
+
+### 5. Tom
+
+#### Oscillator 1 (Body)
+
+- `110 Hz`
+- `Sine`
+- `2 ms` Attack
+- `500 ms` Decay
+- `-8 dB` Gain
+- Filter off
+
+##### Pitch Envelope
+
+- `12 Hz` Amount
+- `300 ms` Duration
+
+#### Oscillator 2 (Tail)
+
+- `Pink`
+- `2 ms` Attack
+- `200 ms` Decay
+- `-18 dB` Gain
+- Filter on
+
+##### Filter
+
+- `Lowpass`
+- `1200 Hz`
+- `0.3` Res
+
+### 6. Hi-Hat
+
+#### Oscillator 1 (Body)
+
+- `Noise`
+- `0 ms` Attack
+- `100 ms` Decay
+- `-4 dB` Gain
+- Filter on
+
+#### Filter
+
+- `Highpass`
+- `6000 Hz`
+- `0.3` Res
+
+### 7. Bongo Low
+
+#### Oscillator 1 (Body)
+
+- `375 Hz`
+- `Sine`
+- `2 ms` Attack
+- `125 ms` Decay
+- `-10 dB` Gain
+- Filter off
+
+##### Pitch Envelope
+
+- `-200 Hz` Amount
+- `2 ms` Duration
+
+#### Oscillator 2 (Tail)
+
+- `Pink`
+- `0 ms` Attack
+- `150 ms` Decay
+- `-30 dB` Gain
+- Filter off
+
+### 8. Bongo High
+
+#### Oscillator 1 (Body)
+
+- `550 Hz`
+- `Sine`
+- `2 ms` Attack
+- `125 ms` Decay
+- `-10 dB` Gain
+- Filter off
+
+##### Pitch Envelope
+
+- `-200 Hz` Amount
+- `2 ms` Duration
+
+#### Oscillator 2 (Tail)
+
+- `Pink`
+- `0 ms` Attack
+- `150 ms` Decay
+- `-30 dB` Gain
+- Filter off
+
+### 9. Conga Low
+
+#### Oscillator 1 (Body)
+
+- `200 Hz`
+- `Sine`
+- `2 ms` Attack
+- `200 ms` Decay
+- `-10 dB` Gain
+- Filter off
+
+##### Pitch Envelope
+
+- `-200 Hz` Amount
+- `2 ms` Duration
+
+#### Oscillator 2 (Click)
+
+- `100 Hz`
+- `Triangle`
+- `0 ms` Attack
+- `90 ms` Decay
+- `-20 dB` Gain
+- Filter off
+
+##### Pitch Envelope
+
+- `1000 Hz` Amount
+- `2 ms` Duration
+
+### 10. Conga High
+
+#### Oscillator 1 (Body)
+
+- `425 Hz`
+- `Sine`
+- `2 ms` Attack
+- `200 ms` Decay
+- `-10 dB` Gain
+- Filter off
+
+##### Pitch Envelope
+
+- `-200 Hz` Amount
+- `2 ms` Duration
+
+#### Oscillator 2 (Click)
+
+- `300 Hz`
+- `Triangle`
+- `0 ms` Attack
+- `70 ms` Decay
+- `-20 dB` Gain
+- Filter off
+
+##### Pitch Envelope
+
+- `1000 Hz` Amount
+- `2 ms` Duration
+
+### 11. Clap
+
+#### Oscillator 1 (Body)
+
+- `Noise`
+- `0 ms` Attack
+- `90 ms` Decay
+- `0 dB` Gain
+- Filter On
+- `10%` Overdrive
+
+#### Filter
+
+- `Bandpass`
+- `1200 Hz` Freq
+- `2` Res
+
+#### Oscillator 2 (Click)
+
+- `1200 Hz`
+- `Triangle`
+- `0 ms` Attack
+- `10 ms` Decay
+- `-10 dB` Gain
+- Filter off
+
+##### Pitch Envelope
+
+- `-2000 Hz` Amount
+- `6 ms` Duration
+
+### 12. Cymbal
+
+#### Oscillator 1 (Body)
+
+- `Pink`
+- `0 ms` Attack
+- `550 ms` Decay
+- `0 dB` Gain
+- Filter On
+
+#### Filter
+
+- `Bandpass`
+- `7000 Hz` Freq
+- `4.5` Res
+
+#### Oscillator 2 (Click)
+
+- `13000 Hz`
+- `Triangle`
+- `100 ms` Decay
+- `-20 dB` Gain
+- Filter off
+- `50%` Overdrive
+
+##### Pitch Envelope
+
+- `-2 Hz` Amount
+- `6 ms` Duration
+
+### 13. Bell
+
+#### Oscillator 1 (Body)
+
+- `Triangle`
+- `1210 Hz`
+
+##### Pitch Env
+
+- `1.1 ms` duration
+- `1210 Hz` amount
+
+#### Oscillator 2 (Body)
+
+- `Triangle`
+- `2800 Hz`
+
+#### Ring
+
+- `300 ms` Decay
+
+### 14. Cowbell
+
+#### Oscillator 1 (Body)
+
+- `Triangle`
+- `700 Hz`
+
+#### Oscillator 2 (Body)
+
+- `Triangle`
+- `1000 Hz`
+
+#### Ring
+
+- `1 ms` Attack
+- `150 ms` Decay
