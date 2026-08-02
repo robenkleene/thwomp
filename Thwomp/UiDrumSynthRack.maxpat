@@ -22,7 +22,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 441.0, 255.0, 128.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 2.0, 135.0, 37.0, 18.0 ],
+                    "presentation_rect": [ 1.0, 98.0, 37.0, 18.0 ],
                     "text": "Preset"
                 }
             },
@@ -800,36 +800,6 @@
             },
             {
                 "box": {
-                    "annotation": "Randomize the sequencer.",
-                    "annotation_name": "Randomize",
-                    "automation": "Off",
-                    "automationon": "On",
-                    "id": "obj-45",
-                    "maxclass": "live.text",
-                    "mode": 0,
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 129.0, 264.0, 44.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 2.0, 116.0, 42.0, 15.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "Randomize",
-                            "parameter_mmax": 1,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Rand",
-                            "parameter_type": 2
-                        }
-                    },
-                    "text": "Rand",
-                    "varname": "Randomize"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-43",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -1357,7 +1327,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 830.0, 243.5, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 2.0, 150.0, 42.0, 15.0 ],
+                    "presentation_rect": [ 2.0, 116.0, 42.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "PresetsSelect",
@@ -1370,6 +1340,36 @@
                         }
                     },
                     "varname": "PresetsSelect"
+                }
+            },
+            {
+                "box": {
+                    "annotation": "Randomize the sequencer.",
+                    "annotation_name": "Randomize",
+                    "automation": "Off",
+                    "automationon": "On",
+                    "id": "obj-45",
+                    "maxclass": "live.text",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 129.0, 264.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 2.0, 150.0, 42.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "Off", "On" ],
+                            "parameter_longname": "Randomize",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Rand",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Rand",
+                    "varname": "Randomize"
                 }
             }
         ],
