@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 377.0, 408.0, 1308.0, 663.0 ],
+        "rect": [ 383.0, 683.0, 1308.0, 663.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -29,73 +29,12 @@
             {
                 "box": {
                     "id": "obj-85",
-                    "linecount": 5,
+                    "linecount": 4,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 843.0, 131.5, 154.0, 74.0 ],
-                    "text": "`Load` and `Select` are excluded from `pattr` because otherwise loading a patch would also toggle these states."
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-83",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 794.5, 213.0, 29.5, 22.0 ],
-                    "text": "t i i"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-82",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 2,
-                    "outlettype": [ "bang", "" ],
-                    "patching_rect": [ 830.0, 213.0, 50.0, 22.0 ],
-                    "text": "select 1"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-79",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 805.0, 264.0, 32.0, 22.0 ],
-                    "text": "gate"
-                }
-            },
-            {
-                "box": {
-                    "automation": "Off",
-                    "automationon": "On",
-                    "id": "obj-72",
-                    "maxclass": "live.text",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 794.5, 190.5, 44.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 391.0, 2.0, 44.0, 15.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "PresetsLoad",
-                            "parameter_mmax": 1,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Load",
-                            "parameter_type": 2
-                        }
-                    },
-                    "text": "Load",
-                    "texton": "Load",
-                    "varname": "PresetsLoad"
+                    "patching_rect": [ 857.0, 267.5, 154.0, 60.0 ],
+                    "text": "`Load` is excluded from `pattr` because otherwise loading a patch would also trigger a preset."
                 }
             },
             {
@@ -1325,7 +1264,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 830.0, 243.5, 44.0, 15.0 ],
+                    "patching_rect": [ 806.0, 267.5, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 2.0, 116.0, 42.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -1651,15 +1590,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-72", 0 ],
-                    "order": 1,
-                    "source": [ "obj-4", 1 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-77", 0 ],
-                    "order": 0,
                     "source": [ "obj-4", 1 ]
                 }
             },
@@ -1889,12 +1820,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-83", 0 ],
-                    "source": [ "obj-72", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-75", 0 ],
                     "source": [ "obj-73", 0 ]
                 }
@@ -1949,14 +1874,8 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-79", 1 ],
-                    "source": [ "obj-77", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-22", 0 ],
-                    "source": [ "obj-79", 0 ]
+                    "source": [ "obj-77", 0 ]
                 }
             },
             {
@@ -1969,24 +1888,6 @@
                 "patchline": {
                     "destination": [ "obj-78", 0 ],
                     "source": [ "obj-81", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-77", 0 ],
-                    "source": [ "obj-82", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-79", 0 ],
-                    "source": [ "obj-83", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-82", 0 ],
-                    "source": [ "obj-83", 0 ]
                 }
             },
             {
@@ -2117,7 +2018,6 @@
             "obj-40::obj-34": [ "RingAttack", "Attack", 0 ],
             "obj-40::obj-36": [ "RingDecay", "Decay", 0 ],
             "obj-45": [ "Randomize", "Rand", 0 ],
-            "obj-72": [ "PresetsLoad", "Load", 0 ],
             "obj-75": [ "Tab", "Tab", 0 ],
             "obj-77": [ "PresetsSelect", "Select", 0 ],
             "obj-9::obj-1::obj-1": [ "FiltFreq", "Freq", 0 ],
