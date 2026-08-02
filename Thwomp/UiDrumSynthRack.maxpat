@@ -9,9 +9,23 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 257.0, 362.0, 1308.0, 663.0 ],
+        "rect": [ 377.0, 408.0, 1308.0, 663.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "fontname": "Ableton Sans Medium",
+                    "fontsize": 10.0,
+                    "id": "obj-84",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 441.0, 255.0, 128.0, 18.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 2.0, 135.0, 37.0, 18.0 ],
+                    "text": "Preset"
+                }
+            },
             {
                 "box": {
                     "id": "obj-85",
@@ -54,31 +68,6 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 805.0, 264.0, 32.0, 22.0 ],
                     "text": "gate"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-77",
-                    "maxclass": "live.numbox",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 830.0, 243.5, 44.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 391.0, 20.0, 44.0, 15.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_longname": "PresetsSelect",
-                            "parameter_mmax": 128.0,
-                            "parameter_mmin": 1.0,
-                            "parameter_modmode": 4,
-                            "parameter_shortname": "Select",
-                            "parameter_type": 1,
-                            "parameter_unitstyle": 0
-                        }
-                    },
-                    "varname": "PresetsSelect"
                 }
             },
             {
@@ -824,7 +813,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 129.0, 264.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 2.0, 150.0, 42.0, 15.0 ],
+                    "presentation_rect": [ 2.0, 116.0, 42.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -1356,6 +1345,31 @@
                     "presentation_rect": [ 46.0, 0.0, 346.0, 170.0 ],
                     "varname": "DrumSynthBank",
                     "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-77",
+                    "maxclass": "live.numbox",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 830.0, 243.5, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 2.0, 150.0, 42.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_longname": "PresetsSelect",
+                            "parameter_mmax": 128.0,
+                            "parameter_mmin": 1.0,
+                            "parameter_modmode": 4,
+                            "parameter_shortname": "Select",
+                            "parameter_type": 1,
+                            "parameter_unitstyle": 0
+                        }
+                    },
+                    "varname": "PresetsSelect"
                 }
             }
         ],
@@ -2024,7 +2038,7 @@
             "obj-1::obj-8::obj-11": [ "RandTab", "Tab", 0 ],
             "obj-1::obj-8::obj-170": [ "RandTrig", "Note", 0 ],
             "obj-1::obj-8::obj-175": [ "RandTrigSet", "Set", 0 ],
-            "obj-1::obj-8::obj-1::obj-1": [ "RandOsc1", "Osc1", 0 ],
+            "obj-1::obj-8::obj-1::obj-1": [ "RandOsc1", "Osc 1", 0 ],
             "obj-1::obj-8::obj-1::obj-10::obj-1": [ "RandOscPchEnvDur-Min", "Min", 0 ],
             "obj-1::obj-8::obj-1::obj-10::obj-2": [ "RandOscPchEnvDur-Max", "Max", 0 ],
             "obj-1::obj-8::obj-1::obj-126::obj-27": [ "RandFiltType-Min", "FTypeMin", 0 ],
@@ -2040,7 +2054,7 @@
             "obj-1::obj-8::obj-1::obj-16::obj-2": [ "RandOvertone-Max", "Max", 0 ],
             "obj-1::obj-8::obj-1::obj-18::obj-1": [ "RandOscAttack-Min", "Min", 0 ],
             "obj-1::obj-8::obj-1::obj-18::obj-2": [ "RandOscAttack-Max", "Max", 0 ],
-            "obj-1::obj-8::obj-1::obj-2": [ "RandOsc2", "Osc2", 0 ],
+            "obj-1::obj-8::obj-1::obj-2": [ "RandOsc2", "Osc 2", 0 ],
             "obj-1::obj-8::obj-1::obj-204": [ "RandOsc", "Note", 0 ],
             "obj-1::obj-8::obj-1::obj-206::obj-1": [ "RandOscSemi-Min", "Min", 0 ],
             "obj-1::obj-8::obj-1::obj-206::obj-2": [ "RandOscSemi-Max", "Max", 0 ],
@@ -2081,10 +2095,10 @@
             "obj-1::obj-8::obj-1::obj-62::obj-2": [ "RandRingDecay-Max", "Max", 0 ],
             "obj-1::obj-8::obj-1::obj-64::obj-1": [ "RandRingAttack-Min", "Min", 0 ],
             "obj-1::obj-8::obj-1::obj-64::obj-2": [ "RandRingAttack-Max", "Max", 0 ],
-            "obj-1::obj-8::obj-1::obj-66": [ "RandVol", "Vol", 0 ],
+            "obj-1::obj-8::obj-1::obj-66": [ "RandVol", "Volume", 0 ],
             "obj-1::obj-8::obj-1::obj-67::obj-1": [ "RandVol-Min", "Min", 0 ],
             "obj-1::obj-8::obj-1::obj-67::obj-2": [ "RandVol-Max", "Max", 0 ],
-            "obj-1::obj-8::obj-1::obj-7": [ "RandOscPchEnvDur", "Dur", 0 ],
+            "obj-1::obj-8::obj-1::obj-7": [ "RandOscPchEnvDur", "Duration", 0 ],
             "obj-1::obj-8::obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "Min", 0 ],
             "obj-1::obj-8::obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "Max", 0 ],
             "obj-1::obj-8::obj-2": [ "RandTrigToggle", "Trigger", 0 ],
@@ -2109,7 +2123,7 @@
             "obj-9::obj-1::obj-1": [ "FiltFreq", "Freq", 0 ],
             "obj-9::obj-1::obj-11": [ "FiltQ", "Res", 0 ],
             "obj-9::obj-1::obj-6": [ "FiltType", "Type", 0 ],
-            "obj-9::obj-7": [ "Filt", "Filt", 0 ],
+            "obj-9::obj-7": [ "Filt", "Filter", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
