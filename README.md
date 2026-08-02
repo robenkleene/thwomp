@@ -225,7 +225,7 @@ Only controls are accessible on Push.
 - `200 Hz` Amount
 - `3 ms` Duration
 
-#### Oscillator 2 (Noise)
+#### Oscillator 2 (Tail)
 
 - `Noise`
 - `2 ms` Attack
@@ -254,7 +254,7 @@ Only controls are accessible on Push.
 - `12 Hz` Amount
 - `300 ms` Duration
 
-#### Oscillator 2 (Noise)
+#### Oscillator 2 (Tail)
 
 - `Pink`
 - `2 ms` Attack
@@ -270,7 +270,7 @@ Only controls are accessible on Push.
 
 ### 4. Hi-Hat
 
-#### Oscillator 1 (Noise)
+#### Oscillator 1 (Body)
 
 - `Noise`
 - `0 ms` Attack
@@ -300,7 +300,7 @@ Only controls are accessible on Push.
 - `-200 Hz` Amount
 - `2 ms` Duration
 
-#### Oscillator 2 (Noise)
+#### Oscillator 2 (Tail)
 
 - `Pink`
 - `0 ms` Attack
@@ -324,7 +324,7 @@ Only controls are accessible on Push.
 - `-200 Hz` Amount
 - `2 ms` Duration
 
-#### Oscillator 2 (Noise)
+#### Oscillator 2 (Tail)
 
 - `Pink`
 - `0 ms` Attack
@@ -394,13 +394,14 @@ Only controls are accessible on Push.
 
 ### 9. Clap
 
-#### Oscillator 1 (Noise)
+#### Oscillator 1 (Body)
 
 - `Noise`
 - `0 ms` Attack
-- `100 ms` Decay
+- `90 ms` Decay
 - `0 dB` Gain
 - Filter On
+- `10%` Overdrive
 
 #### Filter
 
