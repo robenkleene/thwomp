@@ -29,7 +29,7 @@ var ENCODERS = [
 
 var BUTTONS = [
 ["-", "$1-Osc",           "$1-OscNote",     "$1-OscReset",      "$1-OscFilt",   "-",                "-"],
-["-", "-",                "-",              "-",                "-",            "-",                "-"],
+["-", "-",                "-",              "-",                "-",            "PresetsLoad",      "-"],
 ["-", "Filt",             "-",              "-",                "Ring",         "RingFilt",         "-"],
 ["-", "RandOscFreq",      "RandOsc1",       "RandOscSemi",      "RandOsc2",     "RandOscShape",     "RandOsc"],
 ["-", "RandOscPchEnvAmt", "RandOscReset",   "RandOscPchEnvCur", "RandOscFilt",  "RandOscPchEnvDur", "RandOscNote"],
