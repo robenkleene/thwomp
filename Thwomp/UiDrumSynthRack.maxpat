@@ -9,9 +9,117 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 383.0, 683.0, 1308.0, 663.0 ],
+        "rect": [ 370.0, 593.0, 1308.0, 663.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-88",
+                    "linecount": 9,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 845.0, 78.5, 150.0, 127.0 ],
+                    "text": "We need a separate `Load` button because otherwise when state restoration happens (e.g., when opening the device), there's a conflict between loading the preset and restoring the users manual control changes."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-72",
+                    "linecount": 5,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 820.0, 389.0, 154.0, 74.0 ],
+                    "text": "`Load` and `Select` are excluded from `pattr` because otherwise loading a patch would also toggle these states."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-83",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "int", "int" ],
+                    "patching_rect": [ 794.5, 213.0, 29.5, 22.0 ],
+                    "text": "t i i"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-82",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "bang", "" ],
+                    "patching_rect": [ 830.0, 213.0, 50.0, 22.0 ],
+                    "text": "select 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-79",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 805.0, 264.0, 32.0, 22.0 ],
+                    "text": "gate"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-77",
+                    "maxclass": "live.numbox",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 830.0, 243.5, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 391.0, 20.0, 44.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_longname": "PresetsSelect",
+                            "parameter_mmax": 128.0,
+                            "parameter_mmin": 1.0,
+                            "parameter_modmode": 4,
+                            "parameter_shortname": "Select",
+                            "parameter_type": 1,
+                            "parameter_unitstyle": 0
+                        }
+                    },
+                    "varname": "PresetsSelect"
+                }
+            },
+            {
+                "box": {
+                    "automation": "Off",
+                    "automationon": "On",
+                    "id": "obj-86",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 794.5, 190.5, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 391.0, 2.0, 44.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "Off", "On" ],
+                            "parameter_longname": "PresetsLoad",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Load",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Load",
+                    "texton": "Load",
+                    "varname": "PresetsLoad"
+                }
+            },
             {
                 "box": {
                     "fontname": "Ableton Sans Medium",
@@ -24,17 +132,6 @@
                     "presentation": 1,
                     "presentation_rect": [ 1.0, 98.0, 37.0, 18.0 ],
                     "text": "Preset"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-85",
-                    "linecount": 4,
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 857.0, 267.5, 154.0, 60.0 ],
-                    "text": "`Load` is excluded from `pattr` because otherwise loading a patch would also trigger a preset."
                 }
             },
             {
@@ -1258,31 +1355,6 @@
             },
             {
                 "box": {
-                    "id": "obj-77",
-                    "maxclass": "live.numbox",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 806.0, 267.5, 44.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 2.0, 116.0, 42.0, 15.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_longname": "PresetsSelect",
-                            "parameter_mmax": 128.0,
-                            "parameter_mmin": 1.0,
-                            "parameter_modmode": 4,
-                            "parameter_shortname": "Select",
-                            "parameter_type": 1,
-                            "parameter_unitstyle": 0
-                        }
-                    },
-                    "varname": "PresetsSelect"
-                }
-            },
-            {
-                "box": {
                     "annotation": "Randomize the sequencer.",
                     "annotation_name": "Randomize",
                     "automation": "Off",
@@ -1591,6 +1663,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-77", 0 ],
+                    "order": 0,
+                    "source": [ "obj-4", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-86", 0 ],
+                    "order": 1,
                     "source": [ "obj-4", 1 ]
                 }
             },
@@ -1874,8 +1954,14 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-22", 0 ],
+                    "destination": [ "obj-79", 1 ],
                     "source": [ "obj-77", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-22", 0 ],
+                    "source": [ "obj-79", 0 ]
                 }
             },
             {
@@ -1888,6 +1974,30 @@
                 "patchline": {
                     "destination": [ "obj-78", 0 ],
                     "source": [ "obj-81", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-77", 0 ],
+                    "source": [ "obj-82", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-79", 0 ],
+                    "source": [ "obj-83", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-82", 0 ],
+                    "source": [ "obj-83", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-83", 0 ],
+                    "source": [ "obj-86", 0 ]
                 }
             },
             {
@@ -2020,6 +2130,7 @@
             "obj-45": [ "Randomize", "Rand", 0 ],
             "obj-75": [ "Tab", "Tab", 0 ],
             "obj-77": [ "PresetsSelect", "Select", 0 ],
+            "obj-86": [ "PresetsLoad", "Load", 0 ],
             "obj-9::obj-1::obj-1": [ "FiltFreq", "Freq", 0 ],
             "obj-9::obj-1::obj-11": [ "FiltQ", "Res", 0 ],
             "obj-9::obj-1::obj-6": [ "FiltType", "Type", 0 ],
