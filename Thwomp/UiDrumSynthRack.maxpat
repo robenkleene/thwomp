@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 370.0, 593.0, 1308.0, 663.0 ],
+        "rect": [ 745.0, 443.0, 1308.0, 663.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -77,7 +77,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 830.0, 243.5, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 391.0, 20.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 2.0, 116.0, 42.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "PresetsSelect",
@@ -104,7 +104,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 794.5, 190.5, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 391.0, 2.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 2.0, 133.0, 42.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -130,7 +130,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 441.0, 255.0, 128.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1.0, 98.0, 37.0, 18.0 ],
+                    "presentation_rect": [ 0.0, 98.0, 37.0, 18.0 ],
                     "text": "Preset"
                 }
             },
