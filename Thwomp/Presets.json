@@ -724,7 +724,7 @@
                     "DrumSynthBank::1-DrumSynth::PitchEnv::1-PitchEnvCurve": [ 0.0 ],
                     "DrumSynthBank::1-DrumSynth::PitchEnv::1-PitchEnvDur": [ 0 ],
                     "DrumSynthBank::1-DrumSynth::AdEnv::1-AmpAttack": [ 0 ],
-                    "DrumSynthBank::1-DrumSynth::AdEnv::1-AmpDecay": [ 549.9999999999998 ],
+                    "DrumSynthBank::1-DrumSynth::AdEnv::1-AmpDecay": [ 700.0000000000002 ],
                     "DrumSynthBank::1-DrumSynth::FreqRack::1-OscNote": [ 0 ],
                     "DrumSynthBank::1-DrumSynth::FreqRack::FreqBank::1-OscFreq": [ 30 ],
                     "DrumSynthBank::1-DrumSynth::FreqRack::FreqBank::1-OscSemi": [ 0.0 ],
