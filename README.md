@@ -221,7 +221,7 @@ Only controls are accessible on Push.
 - `1000 ms` Decay
 - `-2 dB` Gain
 
-##### Pitch Env
+##### Pitch Envelope
 
 - `100 ms` Duration
 - `-30%` Curve
@@ -249,7 +249,7 @@ Only controls are accessible on Push.
 - `-8 dB` Gain
 - Filter on
 
-##### Pitch Env
+##### Pitch Envelope
 
 - `50 ms` Duration
 - `160 Hz` Amount
