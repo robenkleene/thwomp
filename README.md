@@ -247,7 +247,7 @@ Only controls are accessible on Push.
 - `2 ms` Attack
 - `400 ms` Decay
 - `-8 dB` Gain
-- Filter On
+- Filter on
 
 ##### Pitch Env
 
@@ -260,7 +260,7 @@ Only controls are accessible on Push.
 - `127 Hz`
 - `1 ms`: Attack
 - `25 ms`: Decay
-- Filter On
+- Filter on
 
 #### Filter
 
@@ -304,7 +304,7 @@ Only controls are accessible on Push.
 - `0 ms` Attack
 - `90 ms` Decay
 - `0 dB` Gain
-- Filter On
+- Filter on
 - `10%` Overdrive
 
 #### Filter
@@ -351,7 +351,7 @@ Only controls are accessible on Push.
 - `0 ms` Attack
 - `550 ms` Decay
 - `0 dB` Gain
-- Filter On
+- Filter on
 
 #### Filter
 
