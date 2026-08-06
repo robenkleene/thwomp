@@ -69,6 +69,7 @@ Presets are available either when opening in Max directly, or by choosing `Edit 
 
 - **Volume:** Device volume
 - **Osc 1-2:** Display oscillator controls
+- **Load:** Toggle whether to load the selected preset
 - **Preset:** Choose the selected preset
 - **Rand:** Randomize
 
