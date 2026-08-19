@@ -159,6 +159,45 @@ Presets are available either when opening in Max directly, or by choosing `Edit 
 
 Only controls are accessible on Push.
 
+## Demos
+
+- [House](assets/demo/house.wav): 4/4 rhythm demo
+- [Latin](assets/demo/latin.wav): Hand percussion demo
+- [Polyrhythm](assets/demo/polyrhythm.wav): Polyrhythm demo
+- [Mutate](assets/demo/mutate.wav): 4/4 rhythm demo that randomizes
+
+### Reconstructing
+
+To reconstruct this demo loops in Ableton Live, setup a track with [Sidewinder](https://github.com/robenkleene/sidewinder) with the appropriate demo preset loaded, followed by a Drum Rack with the first four slots slots (`C1-D#1`) using the named preset from Thwomp.
+
+#### House
+
+1. Kick
+2. Snare
+3. Hi-Hat
+4. Cymbal
+
+#### Latin
+
+1. Bongo Low
+2. Bongo High
+3. Conga Low
+4. Conga High
+
+#### Polyrhythm
+
+1. 808 Kick
+2. Hi-Hat
+3. Tom
+4. Cowbell
+
+#### Mutate
+
+1. 909 Kick
+2. Clap
+3. Hi-Hat
+4. Cymbal
+
 ## Presets
 
 1. Kick
