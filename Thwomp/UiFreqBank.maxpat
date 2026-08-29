@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
@@ -19,7 +19,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 474.0, 365.0, 33.0, 20.0 ],
+                    "patching_rect": [ 264.0, 114.0, 33.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 33.0, 20.0 ],
                     "text": "Freq"
@@ -31,7 +31,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 458.0, 302.0, 36.0, 20.0 ],
+                    "patching_rect": [ 315.0, 114.0, 36.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ -1.5, 22.0, 36.0, 20.0 ],
                     "text": "Semi"
@@ -75,6 +75,7 @@
                     "presentation_rect": [ 32.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
+                            "parameter_exponent": 5.0,
                             "parameter_longname": "#2-OscFreq",
                             "parameter_mmax": 22000.0,
                             "parameter_mmin": 30.0,
