@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
@@ -223,6 +223,7 @@
                     "presentation_rect": [ 94.0, 0.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
+                            "parameter_exponent": 5.0,
                             "parameter_longname": "#2-PitchEnvAmt",
                             "parameter_mmax": 3000.0,
                             "parameter_mmin": -3000.0,
