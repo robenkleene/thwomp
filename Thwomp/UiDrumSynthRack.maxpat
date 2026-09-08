@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
@@ -19,7 +19,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 845.0, 78.5, 150.0, 127.0 ],
+                    "patching_rect": [ 845.0, 78.5, 152.0, 127.0 ],
                     "text": "We need a separate `Load` button because otherwise when state restoration happens (e.g., when opening the device), there's a conflict between loading the preset and restoring the users manual control changes."
                 }
             },
@@ -128,7 +128,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 441.0, 255.0, 128.0, 18.0 ],
+                    "patching_rect": [ 496.0, 226.0, 37.0, 18.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 98.0, 37.0, 18.0 ],
                     "text": "Preset"
@@ -395,7 +395,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1371,11 +1371,12 @@
                     "presentation_rect": [ 2.0, 150.0, 42.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
+                            "parameter_button_mode": "Momentary",
                             "parameter_enum": [ "Off", "On" ],
                             "parameter_longname": "Randomize",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Rand",
+                            "parameter_shortname": "Randomize",
                             "parameter_type": 2
                         }
                     },
@@ -2127,7 +2128,7 @@
             "obj-40::obj-31": [ "RingGain", "Gain", 0 ],
             "obj-40::obj-34": [ "RingAttack", "Attack", 0 ],
             "obj-40::obj-36": [ "RingDecay", "Decay", 0 ],
-            "obj-45": [ "Randomize", "Rand", 0 ],
+            "obj-45": [ "Randomize", "Randomize", 0 ],
             "obj-75": [ "Tab", "Tab", 0 ],
             "obj-77": [ "PresetsSelect", "Select", 0 ],
             "obj-86": [ "PresetsLoad", "Load", 0 ],
