@@ -161,7 +161,7 @@ Only controls are accessible on Push.
 
 ## Demos
 
-- [House](assets/demo/house.wav): 4/4 rhythm demo
+- [Rhythm](assets/demo/rhythm.wav): 4/4 rhythm demo
 - [Latin](assets/demo/latin.wav): Hand percussion demo
 - [Polyrhythm](assets/demo/polyrhythm.wav): Polyrhythm demo
 - [Mutate](assets/demo/mutate.wav): 4/4 rhythm demo that randomizes
@@ -170,7 +170,7 @@ Only controls are accessible on Push.
 
 To reconstruct this demo loops in Ableton Live, setup a track with [Sidewinder](https://github.com/robenkleene/sidewinder) with the appropriate demo preset loaded, followed by a Drum Rack with the first four slots slots (`C1-D#1`) using the named preset from Thwomp.
 
-#### House
+#### Rhythm
 
 1. Kick
 2. Snare
