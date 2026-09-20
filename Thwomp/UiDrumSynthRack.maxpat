@@ -64,7 +64,7 @@
                             "parameter_longname": "PresetsSelect",
                             "parameter_mmax": 14,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Select",
+                            "parameter_shortname": "Preset",
                             "parameter_type": 2
                         }
                     },
@@ -2458,7 +2458,7 @@
             "obj-40::obj-36": [ "RingDecay", "Decay", 0 ],
             "obj-45": [ "Randomize", "Randomize", 0 ],
             "obj-75": [ "Tab", "Tab", 0 ],
-            "obj-77": [ "PresetsSelect", "Select", 0 ],
+            "obj-77": [ "PresetsSelect", "Preset", 0 ],
             "obj-9::obj-1::obj-1": [ "FiltFreq", "Freq", 0 ],
             "obj-9::obj-1::obj-11": [ "FiltQ", "Res", 0 ],
             "obj-9::obj-1::obj-6": [ "FiltType", "Type", 0 ],
