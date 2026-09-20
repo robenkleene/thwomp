@@ -20,7 +20,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 751.0, 195.0, 157.0, 60.0 ],
-                    "presentation_linecount": 4,
                     "text": "`PresetsSelect` is excluded from `pattr` because otherwise loading a patch also triggers a preset load."
                 }
             },
@@ -58,12 +57,12 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 702.3333333333334, 240.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 16.0, 148.5, 42.0, 15.0 ],
+                    "presentation_rect": [ 2.0, 133.0, 42.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "Init", "Polyrhythm", "Rhythm", "Bass", "Bassline", "Melody", "Topline", "Latin", "Mutate" ],
+                            "parameter_enum": [ "Kick", "808 Kick", "909 Kick", "Snare", "Clap", "Hi-Hat", "Cymbal", "Tom", "Bell", "Cowbell", "Bongo Low", "Bongo High", "Conga Low", "Conga High", "Init" ],
                             "parameter_longname": "PresetsSelect",
-                            "parameter_mmax": 8,
+                            "parameter_mmax": 14,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Select",
                             "parameter_type": 2
@@ -90,7 +89,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 825.0, 470.0, 1192.0, 817.0 ],
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -196,13 +194,13 @@
                             {
                                 "box": {
                                     "id": "obj-9",
-                                    "linecount": 5,
+                                    "linecount": 9,
                                     "maxclass": "message",
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 50.0, 423.0, 101.0, 76.0 ],
-                                    "text": "0 Init Polyrhythm Rhythm Bass Bassline Melody Topline Latin Mutate"
+                                    "patching_rect": [ 50.0, 423.0, 101.0, 49.0 ],
+                                    "text": "0 Kick \"808 Kick\" \"909 Kick\" Snare Clap Hi-Hat Cymbal Tom Bell Cowbell \"Bongo Low\" \"Bongo High\" \"Conga Low\" \"Conga High\" Init"
                                 }
                             },
                             {
@@ -462,7 +460,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 496.0, 226.0, 37.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 98.0, 37.0, 18.0 ],
+                    "presentation_rect": [ 2.0, 116.0, 37.0, 18.0 ],
                     "text": "Preset"
                 }
             },
