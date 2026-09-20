@@ -4,6 +4,7 @@
         "slots": {
             "1": {
                 "id": 1,
+                "Name": "Kick",
                 "data": {
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
@@ -121,6 +122,7 @@
             },
             "2": {
                 "id": 2,
+                "Name": "808 Kick",
                 "data": {
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
@@ -238,6 +240,7 @@
             },
             "3": {
                 "id": 3,
+                "Name": "909 Kick",
                 "data": {
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
@@ -355,6 +358,7 @@
             },
             "4": {
                 "id": 4,
+                "Name": "Snare",
                 "data": {
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
@@ -472,6 +476,7 @@
             },
             "5": {
                 "id": 5,
+                "Name": "Clap",
                 "data": {
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
@@ -589,6 +594,7 @@
             },
             "6": {
                 "id": 6,
+                "Name": "Hi-Hat",
                 "data": {
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
@@ -706,6 +712,7 @@
             },
             "7": {
                 "id": 7,
+                "Name": "Cymbal",
                 "data": {
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
@@ -823,6 +830,7 @@
             },
             "8": {
                 "id": 8,
+                "Name": "Tom",
                 "data": {
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
@@ -940,6 +948,7 @@
             },
             "9": {
                 "id": 9,
+                "Name": "Bell",
                 "data": {
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
@@ -1057,6 +1066,7 @@
             },
             "10": {
                 "id": 10,
+                "Name": "Cowbell",
                 "data": {
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
@@ -1174,6 +1184,7 @@
             },
             "11": {
                 "id": 11,
+                "Name": "Bongo Low",
                 "data": {
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
@@ -1291,6 +1302,7 @@
             },
             "12": {
                 "id": 12,
+                "Name": "Bongo High",
                 "data": {
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
@@ -1408,6 +1420,7 @@
             },
             "13": {
                 "id": 13,
+                "Name": "Conga Low",
                 "data": {
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
@@ -1525,6 +1538,7 @@
             },
             "14": {
                 "id": 14,
+                "Name": "Conga High",
                 "data": {
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
@@ -1642,6 +1656,7 @@
             },
             "15": {
                 "id": 15,
+                "Name": "Init",
                 "data": {
                     "PresetsOverwrite": [ 0.0 ],
                     "PresetsRead": [ 0.0 ],
