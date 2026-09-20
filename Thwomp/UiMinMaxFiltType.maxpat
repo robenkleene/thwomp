@@ -29,7 +29,7 @@
                     "remapsvgcolors": 1,
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "HP", "LP", "BP", "N" ],
+                            "parameter_enum": [ "LP", "HP", "BP", "N" ],
                             "parameter_longname": "#1-Max",
                             "parameter_mmax": 3,
                             "parameter_modmode": 0,
@@ -59,7 +59,7 @@
                     "remapsvgcolors": 1,
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "HP", "LP", "BP", "N" ],
+                            "parameter_enum": [ "LP", "HP", "BP", "N" ],
                             "parameter_longname": "#1-Min",
                             "parameter_mmax": 3,
                             "parameter_modmode": 0,

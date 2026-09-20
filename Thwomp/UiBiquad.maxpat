@@ -223,7 +223,7 @@
                     "remapsvgcolors": 1,
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "HP", "LP", "BP", "N" ],
+                            "parameter_enum": [ "LP", "HP", "BP", "N" ],
                             "parameter_longname": "FiltType",
                             "parameter_mmax": 3,
                             "parameter_modmode": 0,
