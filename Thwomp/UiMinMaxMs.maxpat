@@ -87,8 +87,9 @@
                     "presentation_rect": [ 0.0, 60.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
+                            "parameter_exponent": 5.0,
                             "parameter_longname": "#1-Max",
-                            "parameter_mmax": 15.0,
+                            "parameter_mmax": 15000.0,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Max",
                             "parameter_type": 0,
@@ -113,8 +114,9 @@
                     "presentation_rect": [ 0.0, 0.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
+                            "parameter_exponent": 5.0,
                             "parameter_longname": "#1-Min",
-                            "parameter_mmax": 15.0,
+                            "parameter_mmax": 15000.0,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Min",
                             "parameter_type": 0,
