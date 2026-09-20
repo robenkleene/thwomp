@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
@@ -198,7 +198,7 @@
                             "parameter_longname": "RandOsc",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Note",
+                            "parameter_shortname": "Osc",
                             "parameter_type": 2
                         }
                     },
@@ -807,7 +807,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1864,7 +1864,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 608.0, 896.0, 126.0, 22.0 ],
+                    "patching_rect": [ 608.0, 896.0, 146.0, 22.0 ],
                     "text": "loadmess setup 0. 15000."
                 }
             },
@@ -1899,7 +1899,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 456.0, 896.0, 126.0, 22.0 ],
+                    "patching_rect": [ 456.0, 896.0, 146.0, 22.0 ],
                     "text": "loadmess setup 0. 15000."
                 }
             },
@@ -2412,7 +2412,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 656.0, 296.0, 126.0, 22.0 ],
+                    "patching_rect": [ 656.0, 296.0, 146.0, 22.0 ],
                     "text": "loadmess setup 0. 15000."
                 }
             },
@@ -2447,7 +2447,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 496.0, 296.0, 126.0, 22.0 ],
+                    "patching_rect": [ 496.0, 296.0, 146.0, 22.0 ],
                     "text": "loadmess setup 0. 15000."
                 }
             },
@@ -2552,7 +2552,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1040.0, 8.0, 146.0, 22.0 ],
+                    "patching_rect": [ 1040.0, 8.0, 150.0, 22.0 ],
                     "text": "loadmess setup -500. 500."
                 }
             },
@@ -2622,7 +2622,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 656.0, 8.0, 126.0, 22.0 ],
+                    "patching_rect": [ 656.0, 8.0, 146.0, 22.0 ],
                     "text": "loadmess setup 0. 15000."
                 }
             },
@@ -2929,12 +2929,6 @@
             }
         ],
         "lines": [
-            {
-                "patchline": {
-                    "destination": [ "obj-10", 0 ],
-                    "source": [ "obj-9", 0 ]
-                }
-            },
             {
                 "patchline": {
                     "destination": [ "obj-136", 1 ],
@@ -3923,6 +3917,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-10", 0 ],
+                    "source": [ "obj-9", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-99", 0 ],
                     "source": [ "obj-90", 0 ]
                 }
@@ -3958,7 +3958,7 @@
             "obj-18::obj-1": [ "RandOscAttack-Min", "Min", 0 ],
             "obj-18::obj-2": [ "RandOscAttack-Max", "Max", 0 ],
             "obj-2": [ "RandOsc2", "Osc 2", 0 ],
-            "obj-204": [ "RandOsc", "Note", 0 ],
+            "obj-204": [ "RandOsc", "Osc", 0 ],
             "obj-206::obj-1": [ "RandOscSemi-Min", "Min", 0 ],
             "obj-206::obj-2": [ "RandOscSemi-Max", "Max", 0 ],
             "obj-20::obj-1": [ "RandOscDecay-Min", "Min", 0 ],
@@ -4013,6 +4013,12 @@
                 }
             },
             "parameter_overrides": {
+                "obj-10::obj-1": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-10::obj-2": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
                 "obj-12::obj-1": {
                     "parameter_range": [ -100.0, 100.0 ]
                 },
@@ -4020,10 +4026,10 @@
                     "parameter_range": [ -100.0, 100.0 ]
                 },
                 "obj-14::obj-1": {
-                    "parameter_range": [ 0.0, 15000.0 ]
+                    "parameter_range": [ -500.0, 500.0 ]
                 },
                 "obj-14::obj-2": {
-                    "parameter_range": [ 0.0, 15000.0 ]
+                    "parameter_range": [ -500.0, 500.0 ]
                 },
                 "obj-16::obj-1": {
                     "parameter_range": [ 0.0, 100.0 ]
@@ -4032,10 +4038,10 @@
                     "parameter_range": [ 0.0, 100.0 ]
                 },
                 "obj-18::obj-1": {
-                    "parameter_range": [ 0.0, 15.0 ]
+                    "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-18::obj-2": {
-                    "parameter_range": [ 0.0, 15.0 ]
+                    "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-206::obj-1": {
                     "parameter_range": [ -48, 48 ]
@@ -4044,10 +4050,10 @@
                     "parameter_range": [ -48, 48 ]
                 },
                 "obj-20::obj-1": {
-                    "parameter_range": [ 0.0, 15.0 ]
+                    "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-20::obj-2": {
-                    "parameter_range": [ 0.0, 15.0 ]
+                    "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-24::obj-1": {
                     "parameter_range": [ -70.0, 6.0 ]
@@ -4080,16 +4086,16 @@
                     "parameter_range": [ -70.0, 6.0 ]
                 },
                 "obj-62::obj-1": {
-                    "parameter_range": [ 0.0, 15.0 ]
+                    "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-62::obj-2": {
-                    "parameter_range": [ 0.0, 15.0 ]
+                    "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-64::obj-1": {
-                    "parameter_range": [ 0.0, 15.0 ]
+                    "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-64::obj-2": {
-                    "parameter_range": [ 0.0, 15.0 ]
+                    "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-67::obj-1": {
                     "parameter_range": [ -70.0, 6.0 ]

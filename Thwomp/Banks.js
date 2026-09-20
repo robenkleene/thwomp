@@ -17,9 +17,9 @@ setoutletassist(OUTLET_DONE, "(bang) sent when bank control messages finish");
 // Re-align with `sed 's/, */,\t/g' | column -t -s $'\t'`
 var ENCODERS = [
 ["Oscillator",   "Tab",  "PresetsSelect",         "$1-OscShape",           "$2",                      "$1-PitchEnvDur",          "$1-PitchEnvCurve",      "$1-PitchEnvAmt",        "-"],
-["Amp",          "Tab",  "$1-AmpAttack",          "$1-AmpDecay",           "$1-Gain",                 "Vol",                     "$1-Overdrive",          "$1-Overtone",           "RandAuto"],
+["Amp",          "Tab",  "$1-AmpAttack",          "$1-AmpDecay",           "$1-Gain",                 "Vol",                     "$1-Overdrive",          "$1-Overtone",           "-"],
 ["Filter/Ring",  "Tab",  "FiltType",              "FiltFreq",              "FiltQ",                   "RingAttack",              "RingDecay",             "RingGain",              "-"],
-["Rand Osc",     "Tab",  "RandOscFreq-Min",       "RandOscFreq-Max",       "RandOscSemi-Min",         "RandOscSemi-Max",         "RandOscShape-Min",      "RandOscShape-Max",      "-"],
+["Rand Osc",     "Tab",  "RandAuto",              "RandOscFreq-Min",       "RandOscFreq-Max",         "RandOscSemi-Min",         "RandOscSemi-Max",       "RandOscShape-Min",      "RandOscShape-Max"],
 ["Rand Pitch",   "Tab",  "RandOscPchEnvAmt-Min",  "RandOscPchEnvAmt-Max",  "RandOscPchEnvCurve-Min",  "RandOscPchEnvCurve-Max",  "RandOscPchEnvDur-Min",  "RandOscPchEnvDur-Max",  "-"],
 ["Rand Amp",     "Tab",  "RandOscAttack-Min",     "RandOscAttack-Max",     "RandOscDecay-Min",        "RandOscDecay-Max",        "RandOscGain-Min",       "RandOscGain-Max",       "-"],
 ["Rand Effect",  "Tab",  "RandOvertone-Min",      "RandOvertone-Max",      "RandOverdrive-Min",       "RandOverdrive-Max",       "RandVol-Min",           "RandVol-Max",           "-"],
@@ -28,15 +28,15 @@ var ENCODERS = [
 ];
 
 var BUTTONS = [
-["-",  "-",                 "$1-Osc",        "$1-OscNote",        "$1-OscReset",   "$1-OscFilt",        "-"],
-["-",  "-",                 "-",             "-",                 "-",             "-",                 "-", "Randomize"],
-["-",  "Filt",              "-",             "-",                 "Ring",          "RingFilt",          "-"],
-["-",  "RandOscFreq",       "RandOsc1",      "RandOscSemi",       "RandOsc2",      "RandOscShape",      "RandOsc"],
-["-",  "RandOscPchEnvAmt",  "RandOscReset",  "RandOscPchEnvCur",  "RandOscFilt",   "RandOscPchEnvDur",  "RandOscNote"],
-["-",  "RandOscAttack",     "-",             "RandOscDecay",      "-",             "RandOscGain",       "-"],
-["-",  "RandOvertone",      "-",             "RandOverdrive",     "-",             "RandVol",           "-"],
-["-",  "RandFiltFreq",      "RandFilt",      "RandFiltQ",         "-",             "RandFiltType",      "-"],
-["-",  "RandRingAttack",    "RandRing",      "RandRingDecay",     "RandRingFilt",  "RandRingGain",      "-"],
+["-",  "-",                 "$1-Osc",        "$1-OscNote",        "$1-OscReset",   "$1-OscFilt",        "-",             "-"],
+["-",  "-",                 "-",             "-",                 "-",             "-",                 "-",             "-"],
+["-",  "Filt",              "-",             "-",                 "Ring",          "RingFilt",          "-",             "-"],
+["-",  "Randomize",         "RandOscFreq",   "RandOsc1",          "RandOscSemi",   "RandOsc2",          "RandOscShape",  "RandOsc"],
+["-",  "RandOscPchEnvAmt",  "RandOscReset",  "RandOscPchEnvCur",  "RandOscFilt",   "RandOscPchEnvDur",  "RandOscNote",   "-"],
+["-",  "RandOscAttack",     "-",             "RandOscDecay",      "-",             "RandOscGain",       "-",             "-"],
+["-",  "RandOvertone",      "-",             "RandOverdrive",     "-",             "RandVol",           "-",             "-"],
+["-",  "RandFiltFreq",      "RandFilt",      "RandFiltQ",         "-",             "RandFiltType",      "-",             "-"],
+["-",  "RandRingAttack",    "RandRing",      "RandRingDecay",     "RandRingFilt",  "RandRingGain",      "-",             "-"],
 ];
 
 // State
