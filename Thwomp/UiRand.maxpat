@@ -14,6 +14,50 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-54",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 244.5, 83.0, 70.0, 22.0 ],
+                    "text": "loadmess 5"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-53",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 173.0, 83.0, 70.0, 22.0 ],
+                    "text": "loadmess 0"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-52",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 249.5, 616.0, 70.0, 22.0 ],
+                    "text": "loadmess 3"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-50",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 177.5, 616.0, 70.0, 22.0 ],
+                    "text": "loadmess 0"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-219",
                     "maxclass": "newobj",
                     "numinlets": 0,
@@ -177,7 +221,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 960.0, 504.0, 112.0, 22.0 ],
+                    "patching_rect": [ 973.0, 504.0, 112.0, 22.0 ],
                     "text": "r #1-randomize-osc"
                 }
             },
@@ -695,7 +739,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 656.0, 592.0, 89.0, 22.0 ],
+                    "patching_rect": [ 669.0, 592.0, 89.0, 22.0 ],
                     "text": "r #1-randomize"
                 }
             },
@@ -738,7 +782,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1240.0, 8.0, 112.0, 22.0 ],
+                    "patching_rect": [ 1253.0, 8.0, 112.0, 22.0 ],
                     "text": "r #1-randomize-osc"
                 }
             },
@@ -1012,17 +1056,6 @@
             },
             {
                 "box": {
-                    "id": "obj-132",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 192.0, 592.0, 113.0, 22.0 ],
-                    "text": "loadmess setup 0 3"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-129",
                     "maxclass": "newobj",
                     "numinlets": 0,
@@ -1051,65 +1084,6 @@
                     "outlettype": [ "", "int" ],
                     "patching_rect": [ 192.0, 216.0, 89.0, 22.0 ],
                     "text": "RandomParam"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-128",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 192.0, 72.0, 113.0, 22.0 ],
-                    "text": "loadmess setup 0 5"
-                }
-            },
-            {
-                "box": {
-                    "args": [ "RandOscShape", "Shape" ],
-                    "bgmode": 0,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-127",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "UiMinMaxOscShape.maxpat",
-                    "numinlets": 2,
-                    "numoutlets": 2,
-                    "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 192.0, 104.0, 88.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 3.0, 38.0, 46.0, 76.0 ],
-                    "varname": "RandOscShapeMinMax",
-                    "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
-                    "args": [ "RandFiltType", "FType" ],
-                    "bgmode": 0,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-126",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "UiMinMaxFiltType.maxpat",
-                    "numinlets": 2,
-                    "numoutlets": 2,
-                    "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 192.0, 624.0, 88.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 3.0, 346.0, 46.0, 112.0 ],
-                    "varname": "UiMinMaxFiltType",
-                    "viewvisibility": 1
                 }
             },
             {
@@ -2552,7 +2526,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1040.0, 8.0, 150.0, 22.0 ],
+                    "patching_rect": [ 1046.0, 8.0, 150.0, 22.0 ],
                     "text": "loadmess setup -500. 500."
                 }
             },
@@ -2587,7 +2561,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 840.0, 8.0, 150.0, 22.0 ],
+                    "patching_rect": [ 846.0, 8.0, 150.0, 22.0 ],
                     "text": "loadmess setup -100. 100."
                 }
             },
@@ -2660,7 +2634,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 1246.0, 46.0, 44.0, 15.0 ],
+                    "patching_rect": [ 1209.0, 46.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 238.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -2831,7 +2805,7 @@
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1131.0, 708.0, 438.0, 144.0 ],
+                    "patching_rect": [ 1240.0, 723.0, 438.0, 144.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 287.0, 152.0 ],
                     "proportion": 0.39,
@@ -2852,7 +2826,7 @@
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1131.0, 899.0, 438.0, 144.0 ],
+                    "patching_rect": [ 1240.0, 914.0, 438.0, 144.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 101.0, 154.0, 146.0, 152.0 ],
                     "proportion": 0.39,
@@ -2873,7 +2847,7 @@
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1131.0, 376.0, 438.0, 144.0 ],
+                    "patching_rect": [ 1240.0, 391.0, 438.0, 144.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 308.0, 146.0, 152.0 ],
                     "proportion": 0.39,
@@ -2894,7 +2868,7 @@
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1131.0, 540.0, 438.0, 144.0 ],
+                    "patching_rect": [ 1240.0, 555.0, 438.0, 144.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 148.0, 308.0, 146.0, 152.0 ],
                     "proportion": 0.39,
@@ -2915,7 +2889,7 @@
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1131.0, 204.0, 438.0, 144.0 ],
+                    "patching_rect": [ 1240.0, 219.0, 438.0, 144.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 154.0, 99.0, 152.0 ],
                     "proportion": 0.39,
@@ -3059,36 +3033,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-135", 3 ],
-                    "source": [ "obj-126", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-135", 2 ],
-                    "source": [ "obj-126", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-131", 3 ],
-                    "source": [ "obj-127", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-131", 2 ],
-                    "source": [ "obj-127", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-127", 0 ],
-                    "source": [ "obj-128", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-131", 0 ],
                     "source": [ "obj-129", 0 ]
                 }
@@ -3103,12 +3047,6 @@
                 "patchline": {
                     "destination": [ "obj-130", 0 ],
                     "source": [ "obj-131", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-126", 0 ],
-                    "source": [ "obj-132", 0 ]
                 }
             },
             {
@@ -3719,6 +3657,30 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-135", 2 ],
+                    "source": [ "obj-50", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-135", 3 ],
+                    "source": [ "obj-52", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-131", 2 ],
+                    "source": [ "obj-53", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-131", 3 ],
+                    "source": [ "obj-54", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-82", 1 ],
                     "source": [ "obj-57", 0 ]
                 }
@@ -3944,10 +3906,6 @@
             "obj-1": [ "RandOsc1", "Osc 1", 0 ],
             "obj-10::obj-1": [ "RandOscPchEnvDur-Min", "Min", 0 ],
             "obj-10::obj-2": [ "RandOscPchEnvDur-Max", "Max", 0 ],
-            "obj-126::obj-27": [ "RandFiltType-Min", "FTypeMin", 0 ],
-            "obj-126::obj-28": [ "RandFiltType-Max", "FTypeMax", 0 ],
-            "obj-127::obj-26": [ "RandOscShape-Min", "Min", 0 ],
-            "obj-127::obj-35": [ "RandOscShape-Max", "Max", 0 ],
             "obj-12::obj-1": [ "RandOscPchEnvCurve-Min", "Min", 0 ],
             "obj-12::obj-2": [ "RandOscPchEnvCurve-Max", "Max", 0 ],
             "obj-138": [ "RandOscNote", "Note", 0 ],
