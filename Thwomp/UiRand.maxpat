@@ -19,28 +19,6 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
-                    "id": "obj-57",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "UiRandOsc.maxpat",
-                    "numinlets": 0,
-                    "numoutlets": 0,
-                    "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 683.0, 473.0, 128.0, 128.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 417.0, 143.0, 246.0, 157.0 ],
-                    "varname": "UiRandOsc",
-                    "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
-                    "bgmode": 0,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
                     "id": "obj-56",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
@@ -51,7 +29,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 431.0, 614.0, 295.0, 152.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 431.0, 614.0, 295.0, 152.0 ],
+                    "presentation_rect": [ 0.0, 308.0, 295.0, 152.0 ],
                     "varname": "UiRandGlobal",
                     "viewvisibility": 1
                 }
@@ -73,7 +51,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 343.0, 316.0, 128.0, 128.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 343.0, 316.0, 249.0, 156.0 ],
+                    "presentation_rect": [ 0.0, 154.0, 249.0, 153.0 ],
                     "varname": "UiRandEffect",
                     "viewvisibility": 1
                 }
@@ -415,6 +393,28 @@
                     "text": "Osc 1",
                     "texton": "Osc 1",
                     "varname": "Rand1"
+                }
+            },
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-57",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiRandOsc.maxpat",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 683.0, 473.0, 128.0, 128.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 0.0, 246.0, 152.0 ],
+                    "varname": "UiRandOsc",
+                    "viewvisibility": 1
                 }
             }
         ],
