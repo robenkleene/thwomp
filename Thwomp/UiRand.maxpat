@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 377.0, 114.0, 1657.0, 1165.0 ],
+        "rect": [ 321.0, 98.0, 685.0, 951.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -120,7 +120,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 392.0, 120.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 97.0, 19.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 50.0, 19.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -166,7 +166,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 344.0, 46.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 99.5, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 52.0, 38.0, 41.0, 113.0 ],
                     "varname": "RandOscSemiMinMax",
                     "viewvisibility": 1
                 }
@@ -1991,7 +1991,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 856.0, 408.0, 48.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 238.0, 19.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 191.0, 19.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -2017,7 +2017,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 704.0, 408.0, 48.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 191.0, 19.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 144.0, 19.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -2043,7 +2043,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 544.0, 408.0, 48.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 144.0, 19.0, 46.0, 16.0 ],
+                    "presentation_rect": [ 97.0, 18.5, 46.0, 16.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -2182,7 +2182,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 496.0, 46.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 52.5, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 5.0, 38.0, 41.0, 113.0 ],
                     "varname": "RandOscFreqMinMax",
                     "viewvisibility": 1
                 }
@@ -2339,7 +2339,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 808.0, 328.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 240.5, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 193.5, 38.0, 41.0, 113.0 ],
                     "varname": "RandOscGainMinMax",
                     "viewvisibility": 1
                 }
@@ -2374,7 +2374,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 656.0, 328.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 193.5, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 146.5, 38.0, 41.0, 113.0 ],
                     "varname": "RandOscDecayMinMax",
                     "viewvisibility": 1
                 }
@@ -2409,7 +2409,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 496.0, 328.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 146.5, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 99.5, 38.0, 41.0, 113.0 ],
                     "varname": "RandOscAttackMinMax",
                     "viewvisibility": 1
                 }
@@ -2636,7 +2636,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 1209.0, 46.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 238.0, 3.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 191.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -2662,7 +2662,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 544.0, 120.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 50.0, 19.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 3.0, 19.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -2688,7 +2688,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 960.0, 328.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 191.0, 3.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 50.0, 157.5, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -2714,7 +2714,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 240.0, 128.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 3.0, 19.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 3.0, 157.5, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -2807,7 +2807,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1240.0, 723.0, 438.0, 144.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 287.0, 152.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 240.0, 152.0 ],
                     "proportion": 0.39,
                     "rounded": 4,
                     "saved_attribute_attributes": {
