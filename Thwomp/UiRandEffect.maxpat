@@ -9,9 +9,30 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 632.0, 639.0, 1656.0, 1002.0 ],
+        "rect": [ 632.0, 345.0, 1656.0, 1002.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-26",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 836.0, 25.0, 56.0, 22.0 ],
+                    "restore": {
+                        "RandOscFilt": [ 0.0 ],
+                        "RandOscPchEnvAmt": [ 0.0 ],
+                        "RandOscPchEnvCur": [ 0.0 ],
+                        "RandOscPchEnvDur": [ 0.0 ],
+                        "RandOscShape": [ 0.0 ],
+                        "RandOverdrive": [ 0.0 ],
+                        "RandOvertone": [ 0.0 ]
+                    },
+                    "text": "autopattr",
+                    "varname": "u678017121"
+                }
+            },
             {
                 "box": {
                     "id": "obj-77",
@@ -363,7 +384,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 848.0, 47.0, 50.0, 18.0 ],
+                    "patching_rect": [ 839.0, 58.0, 50.0, 18.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 100.0, -2.0, 50.0, 18.0 ],
                     "text": "Pitch Env"
@@ -770,7 +791,7 @@
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 848.0, 74.0, 438.0, 144.0 ],
+                    "patching_rect": [ 839.0, 85.0, 438.0, 144.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 99.0, 152.0 ],
                     "proportion": 0.39,

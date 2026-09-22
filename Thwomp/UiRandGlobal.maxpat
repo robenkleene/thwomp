@@ -14,6 +14,30 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-26",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 1021.0, 26.0, 56.0, 22.0 ],
+                    "restore": {
+                        "RandFilt": [ 0.0 ],
+                        "RandFiltFreq": [ 0.0 ],
+                        "RandFiltQ": [ 0.0 ],
+                        "RandFiltType": [ 0.0 ],
+                        "RandRing": [ 0.0 ],
+                        "RandRingAttack": [ 0.0 ],
+                        "RandRingDecay": [ 0.0 ],
+                        "RandRingFilt": [ 0.0 ],
+                        "RandRingGain": [ 0.0 ],
+                        "RandVol": [ 0.0 ]
+                    },
+                    "text": "autopattr",
+                    "varname": "u678017121"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-109",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -1020,7 +1044,7 @@
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1021.0, 219.0, 438.0, 144.0 ],
+                    "patching_rect": [ 1021.0, 228.0, 438.0, 144.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 101.0, 0.0, 146.0, 152.0 ],
                     "proportion": 0.39,
@@ -1041,7 +1065,7 @@
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1021.0, 55.0, 438.0, 144.0 ],
+                    "patching_rect": [ 1021.0, 64.0, 438.0, 144.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 99.0, 152.0 ],
                     "proportion": 0.39,

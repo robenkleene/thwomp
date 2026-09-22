@@ -14,6 +14,28 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-26",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 824.0, 22.0, 56.0, 22.0 ],
+                    "restore": {
+                        "RandOsc": [ 0.0 ],
+                        "RandOscAttack": [ 0.0 ],
+                        "RandOscDecay": [ 0.0 ],
+                        "RandOscFreq": [ 0.0 ],
+                        "RandOscGain": [ 0.0 ],
+                        "RandOscNote": [ 0.0 ],
+                        "RandOscReset": [ 0.0 ],
+                        "RandOscSemi": [ 0.0 ]
+                    },
+                    "text": "autopattr",
+                    "varname": "u678017121"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-77",
                     "maxclass": "newobj",
                     "numinlets": 0,
@@ -825,7 +847,7 @@
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 825.0, 21.0, 438.0, 144.0 ],
+                    "patching_rect": [ 824.0, 65.5, 438.0, 144.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 240.0, 152.0 ],
                     "proportion": 0.39,
