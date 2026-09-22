@@ -9,55 +9,9 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 166.0, 257.0, 1549.0, 727.0 ],
+        "rect": [ 977.0, 424.0, 1549.0, 727.0 ],
         "openinpresentation": 1,
         "boxes": [
-            {
-                "box": {
-                    "bgmode": 0,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "hidden": 1,
-                    "id": "obj-16",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "UiTabSelectorHorizontal.maxpat",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 574.0, 249.0, 26.0, 12.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 162.0, 7.0, 60.0, 12.0 ],
-                    "varname": "TabSelector5",
-                    "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
-                    "bgmode": 0,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "hidden": 1,
-                    "id": "obj-15",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "UiTabSelectorHorizontal.maxpat",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 523.0, 249.0, 26.0, 12.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 104.0, 7.0, 60.0, 12.0 ],
-                    "varname": "TabSelector4",
-                    "viewvisibility": 1
-                }
-            },
             {
                 "box": {
                     "activebgcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.0 ],
@@ -72,7 +26,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 212.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 170.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 149.0, 0.0, 44.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -111,7 +65,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 166.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 112.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 102.0, 0.0, 44.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -545,7 +499,7 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-4", 1 ],
+                                    "destination": [ "obj-4", 0 ],
                                     "source": [ "obj-32", 5 ]
                                 }
                             },
@@ -581,7 +535,7 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-4", 1 ],
+                                    "destination": [ "obj-4", 0 ],
                                     "source": [ "obj-33", 5 ]
                                 }
                             },
@@ -741,7 +695,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 264.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 228.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 195.0, 0.0, 44.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -836,7 +790,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 354.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 229.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 196.0, 0.0, 44.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -911,7 +865,6 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
-                    "hidden": 1,
                     "id": "obj-4",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
@@ -929,12 +882,53 @@
             },
             {
                 "box": {
+                    "angle": 270.0,
+                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
+                    "id": "obj-17",
+                    "maxclass": "panel",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 774.0, 178.0, 128.0, 55.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 102.0, 0.0, 44.0, 14.0 ],
+                    "proportion": 0.39,
+                    "saved_attribute_attributes": {
+                        "bgfillcolor": {
+                            "expression": "themecolor.live_surface_bg"
+                        }
+                    }
+                }
+            },
+            {
+                "box": {
+                    "angle": 270.0,
+                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
+                    "id": "obj-18",
+                    "maxclass": "panel",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 921.0, 178.0, 128.0, 55.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 149.0, 0.0, 44.0, 14.0 ],
+                    "proportion": 0.39,
+                    "saved_attribute_attributes": {
+                        "bgfillcolor": {
+                            "expression": "themecolor.live_surface_bg"
+                        }
+                    }
+                }
+            },
+            {
+                "box": {
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
-                    "id": "obj-5",
+                    "hidden": 1,
+                    "id": "obj-16",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
@@ -942,10 +936,10 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 430.0, 249.0, 26.0, 12.0 ],
+                    "patching_rect": [ 574.0, 249.0, 26.0, 12.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 47.0, 7.0, 60.0, 12.0 ],
-                    "varname": "TabSelector2",
+                    "presentation_rect": [ 141.0, 7.0, 60.0, 12.0 ],
+                    "varname": "TabSelector4",
                     "viewvisibility": 1
                 }
             },
@@ -967,49 +961,55 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 471.0, 249.0, 26.0, 12.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 221.0, 7.0, 60.0, 12.0 ],
+                    "presentation_rect": [ 188.0, 7.0, 60.0, 12.0 ],
+                    "varname": "TabSelector5",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "hidden": 1,
+                    "id": "obj-15",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiTabSelectorHorizontal.maxpat",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 523.0, 249.0, 26.0, 12.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 94.0, 7.0, 60.0, 12.0 ],
                     "varname": "TabSelector3",
                     "viewvisibility": 1
                 }
             },
             {
                 "box": {
-                    "angle": 270.0,
-                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
-                    "id": "obj-17",
-                    "maxclass": "panel",
-                    "mode": 0,
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "hidden": 1,
+                    "id": "obj-5",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiTabSelectorHorizontal.maxpat",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 774.0, 178.0, 128.0, 55.0 ],
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 430.0, 249.0, 26.0, 12.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 112.0, 0.0, 44.0, 14.0 ],
-                    "proportion": 0.39,
-                    "saved_attribute_attributes": {
-                        "bgfillcolor": {
-                            "expression": "themecolor.live_surface_bg"
-                        }
-                    }
-                }
-            },
-            {
-                "box": {
-                    "angle": 270.0,
-                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
-                    "id": "obj-18",
-                    "maxclass": "panel",
-                    "mode": 0,
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 921.0, 178.0, 128.0, 55.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 170.0, 0.0, 44.0, 14.0 ],
-                    "proportion": 0.39,
-                    "saved_attribute_attributes": {
-                        "bgfillcolor": {
-                            "expression": "themecolor.live_surface_bg"
-                        }
-                    }
+                    "presentation_rect": [ 47.0, 7.0, 60.0, 12.0 ],
+                    "varname": "TabSelector2",
+                    "viewvisibility": 1
                 }
             }
         ],
@@ -1022,13 +1022,13 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-21", 4 ],
+                    "destination": [ "obj-21", 3 ],
                     "source": [ "obj-13", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-21", 3 ],
+                    "destination": [ "obj-21", 2 ],
                     "source": [ "obj-14", 0 ]
                 }
             },
@@ -1082,7 +1082,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-21", 2 ],
+                    "destination": [ "obj-21", 4 ],
                     "source": [ "obj-3", 0 ]
                 }
             },
