@@ -9,9 +9,133 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 582.0, 530.0, 1549.0, 727.0 ],
+        "rect": [ 166.0, 257.0, 1549.0, 727.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "hidden": 1,
+                    "id": "obj-16",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiTabSelectorHorizontal.maxpat",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 574.0, 249.0, 26.0, 12.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 162.0, 7.0, 60.0, 12.0 ],
+                    "varname": "TabSelector5",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "hidden": 1,
+                    "id": "obj-15",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiTabSelectorHorizontal.maxpat",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 523.0, 249.0, 26.0, 12.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 104.0, 7.0, 60.0, 12.0 ],
+                    "varname": "TabSelector4",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "activebgcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.0 ],
+                    "activebgoncolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 0.0 ],
+                    "bordercolor": [ 0.30980392156862746, 0.30980392156862746, 0.30980392156862746, 0.0 ],
+                    "id": "obj-13",
+                    "maxclass": "live.text",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 212.0, 178.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 170.0, 0.0, 44.0, 14.0 ],
+                    "saved_attribute_attributes": {
+                        "activebgcolor": {
+                            "expression": ""
+                        },
+                        "activebgoncolor": {
+                            "expression": ""
+                        },
+                        "bordercolor": {
+                            "expression": ""
+                        },
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "RandTabEffect2",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "RandTabEffect2",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Effect 2",
+                    "texton": "Osc",
+                    "varname": "RandTabEffect2"
+                }
+            },
+            {
+                "box": {
+                    "activebgcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.0 ],
+                    "activebgoncolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 0.0 ],
+                    "bordercolor": [ 0.30980392156862746, 0.30980392156862746, 0.30980392156862746, 0.0 ],
+                    "id": "obj-14",
+                    "maxclass": "live.text",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 166.0, 178.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 112.0, 0.0, 44.0, 14.0 ],
+                    "saved_attribute_attributes": {
+                        "activebgcolor": {
+                            "expression": ""
+                        },
+                        "activebgoncolor": {
+                            "expression": ""
+                        },
+                        "bordercolor": {
+                            "expression": ""
+                        },
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "RandTabOsc2",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "RandTabOsc2",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Osc 2",
+                    "texton": "Osc",
+                    "varname": "RandTabOsc2"
+                }
+            },
             {
                 "box": {
                     "id": "obj-21",
@@ -30,6 +154,7 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 59.0, 111.0, 1452.0, 956.0 ],
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -614,9 +739,9 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 277.0, 178.0, 44.0, 15.0 ],
+                    "patching_rect": [ 264.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 101.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 228.0, 0.0, 44.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -668,16 +793,16 @@
                         },
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandTabEffect",
+                            "parameter_longname": "RandTabEffect1",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandTabEffect",
+                            "parameter_shortname": "RandTabEffect1",
                             "parameter_type": 2
                         }
                     },
                     "text": "Effect 1",
                     "texton": "Osc",
-                    "varname": "RandTabEffect"
+                    "varname": "RandTabEffect1"
                 }
             },
             {
@@ -711,7 +836,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 354.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 102.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 229.0, 0.0, 44.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -747,16 +872,16 @@
                         },
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandTabOsc",
+                            "parameter_longname": "RandTabOsc1",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandTabOsc",
+                            "parameter_shortname": "RandTabOsc1",
                             "parameter_type": 2
                         }
                     },
                     "text": "Osc 1",
                     "texton": "Osc",
-                    "varname": "RandTabOsc"
+                    "varname": "RandTabOsc1"
                 }
             },
             {
@@ -842,9 +967,49 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 471.0, 249.0, 26.0, 12.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 94.0, 7.0, 60.0, 12.0 ],
+                    "presentation_rect": [ 221.0, 7.0, 60.0, 12.0 ],
                     "varname": "TabSelector3",
                     "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "angle": 270.0,
+                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
+                    "id": "obj-17",
+                    "maxclass": "panel",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 774.0, 178.0, 128.0, 55.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 112.0, 0.0, 44.0, 14.0 ],
+                    "proportion": 0.39,
+                    "saved_attribute_attributes": {
+                        "bgfillcolor": {
+                            "expression": "themecolor.live_surface_bg"
+                        }
+                    }
+                }
+            },
+            {
+                "box": {
+                    "angle": 270.0,
+                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
+                    "id": "obj-18",
+                    "maxclass": "panel",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 921.0, 178.0, 128.0, 55.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 170.0, 0.0, 44.0, 14.0 ],
+                    "proportion": 0.39,
+                    "saved_attribute_attributes": {
+                        "bgfillcolor": {
+                            "expression": "themecolor.live_surface_bg"
+                        }
+                    }
                 }
             }
         ],
@@ -853,6 +1018,18 @@
                 "patchline": {
                     "destination": [ "obj-21", 0 ],
                     "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-21", 4 ],
+                    "source": [ "obj-13", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-21", 3 ],
+                    "source": [ "obj-14", 0 ]
                 }
             },
             {
@@ -881,6 +1058,18 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-13", 0 ],
+                    "source": [ "obj-29", 3 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-14", 0 ],
+                    "source": [ "obj-29", 2 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-2", 0 ],
                     "source": [ "obj-29", 1 ]
                 }
@@ -888,7 +1077,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-3", 0 ],
-                    "source": [ "obj-29", 2 ]
+                    "source": [ "obj-29", 4 ]
                 }
             },
             {
@@ -905,8 +1094,10 @@
             }
         ],
         "parameters": {
-            "obj-1": [ "RandTabOsc", "RandTabOsc", 0 ],
-            "obj-2": [ "RandTabEffect", "RandTabEffect", 0 ],
+            "obj-1": [ "RandTabOsc1", "RandTabOsc1", 0 ],
+            "obj-13": [ "RandTabEffect2", "RandTabEffect2", 0 ],
+            "obj-14": [ "RandTabOsc2", "RandTabOsc2", 0 ],
+            "obj-2": [ "RandTabEffect1", "RandTabEffect1", 0 ],
             "obj-3": [ "RandTabFilter", "RandTabFilter", 0 ],
             "parameterbanks": {
                 "0": {
