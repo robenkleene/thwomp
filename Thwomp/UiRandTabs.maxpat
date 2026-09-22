@@ -9,9 +9,97 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 977.0, 424.0, 1549.0, 727.0 ],
+        "rect": [ 533.0, 319.0, 1549.0, 727.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-25",
+                    "maxclass": "live.toggle",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 393.5, 358.0, 15.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "off", "on" ],
+                            "parameter_longname": "RandEffect2",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "RandEffect2",
+                            "parameter_type": 2
+                        }
+                    },
+                    "varname": "RandEffect2"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-24",
+                    "maxclass": "live.toggle",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 260.0, 358.0, 15.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "off", "on" ],
+                            "parameter_longname": "RandEffect1",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "RandEffect1",
+                            "parameter_type": 2
+                        }
+                    },
+                    "varname": "RandEffect1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-23",
+                    "maxclass": "live.toggle",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 327.0, 358.0, 15.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "off", "on" ],
+                            "parameter_longname": "RandOsc2",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "RandOsc2",
+                            "parameter_type": 2
+                        }
+                    },
+                    "varname": "RandOsc2"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-22",
+                    "maxclass": "live.toggle",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 222.0, 358.0, 15.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "off", "on" ],
+                            "parameter_longname": "RandOsc1",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "RandOsc1",
+                            "parameter_type": 2
+                        }
+                    },
+                    "varname": "RandOsc1"
+                }
+            },
             {
                 "box": {
                     "activebgcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.0 ],
@@ -1098,6 +1186,10 @@
             "obj-13": [ "RandTabEffect2", "RandTabEffect2", 0 ],
             "obj-14": [ "RandTabOsc2", "RandTabOsc2", 0 ],
             "obj-2": [ "RandTabEffect1", "RandTabEffect1", 0 ],
+            "obj-22": [ "RandOsc1", "RandOsc1", 0 ],
+            "obj-23": [ "RandOsc2", "RandOsc2", 0 ],
+            "obj-24": [ "RandEffect1", "RandEffect1", 0 ],
+            "obj-25": [ "RandEffect2", "RandEffect2", 0 ],
             "obj-3": [ "RandTabFilter", "RandTabFilter", 0 ],
             "parameterbanks": {
                 "0": {
