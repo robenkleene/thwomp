@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 341.0, 92.0, 1005.0, 809.0 ],
+        "rect": [ 265.0, 257.0, 1005.0, 809.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -24,10 +24,11 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "UiRandGlobal.maxpat",
-                    "numinlets": 0,
-                    "numoutlets": 0,
+                    "numinlets": 1,
+                    "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 431.0, 614.0, 295.0, 152.0 ],
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 361.0, 529.0, 295.0, 152.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 308.0, 295.0, 152.0 ],
                     "varname": "UiRandGlobal",
@@ -46,10 +47,11 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "UiRandEffect.maxpat",
-                    "numinlets": 0,
-                    "numoutlets": 0,
+                    "numinlets": 1,
+                    "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 343.0, 316.0, 128.0, 128.0 ],
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 361.0, 350.0, 247.0, 153.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 154.0, 249.0, 153.0 ],
                     "varname": "UiRandEffect",
@@ -70,16 +72,6 @@
                     },
                     "text": "autopattr",
                     "varname": "u678017121"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-137",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 32.0, 312.0, 114.0, 22.0 ],
-                    "text": "s #1-randomize-osc"
                 }
             },
             {
@@ -278,27 +270,6 @@
             },
             {
                 "box": {
-                    "id": "obj-109",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 80.0, 200.0, 91.0, 22.0 ],
-                    "text": "s #1-randomize"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-77",
-                    "maxclass": "newobj",
-                    "numinlets": 0,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 27.0, 606.0, 75.0, 22.0 ],
-                    "text": "r #1-output"
-                }
-            },
-            {
-                "box": {
                     "comment": "(list) randomize output",
                     "id": "obj-78",
                     "index": 0,
@@ -407,10 +378,11 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "UiRandOsc.maxpat",
-                    "numinlets": 0,
-                    "numoutlets": 0,
+                    "numinlets": 1,
+                    "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 683.0, 473.0, 128.0, 128.0 ],
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 361.0, 173.0, 242.0, 155.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 246.0, 152.0 ],
                     "varname": "UiRandOsc",
@@ -427,21 +399,29 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-109", 0 ],
+                    "destination": [ "obj-136", 0 ],
                     "order": 0,
                     "source": [ "obj-125", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-136", 0 ],
+                    "destination": [ "obj-56", 0 ],
                     "order": 1,
                     "source": [ "obj-125", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-137", 0 ],
+                    "destination": [ "obj-55", 0 ],
+                    "order": 0,
+                    "source": [ "obj-136", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-57", 0 ],
+                    "order": 1,
                     "source": [ "obj-136", 0 ]
                 }
             },
@@ -472,7 +452,19 @@
             {
                 "patchline": {
                     "destination": [ "obj-78", 0 ],
-                    "source": [ "obj-77", 0 ]
+                    "source": [ "obj-55", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-78", 0 ],
+                    "source": [ "obj-56", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-78", 0 ],
+                    "source": [ "obj-57", 0 ]
                 }
             }
         ],
