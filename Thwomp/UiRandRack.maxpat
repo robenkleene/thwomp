@@ -748,7 +748,7 @@
                     "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "" ],
-                    "patching_rect": [ 11.0, 184.0, 192.0, 144.0 ],
+                    "patching_rect": [ 11.0, 184.0, 353.0, 150.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 16.0, 297.0, 154.0 ],
                     "varname": "UiRand",
@@ -768,12 +768,12 @@
                     "maxclass": "bpatcher",
                     "name": "UiRandTabs.maxpat",
                     "numinlets": 1,
-                    "numoutlets": 1,
+                    "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "int" ],
-                    "patching_rect": [ 202.0, 84.0, 146.0, 19.0 ],
+                    "outlettype": [ "int", "" ],
+                    "patching_rect": [ 202.0, 84.0, 309.0, 21.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 146.0, 22.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 310.0, 22.0 ],
                     "viewvisibility": 1
                 }
             }

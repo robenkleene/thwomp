@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 843.0, 484.0, 1549.0, 727.0 ],
+        "rect": [ 325.0, 405.0, 820.0, 757.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -1026,7 +1026,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 388.0, 249.0, 26.0, 12.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 105.0, 60.0, 12.0 ],
+                    "presentation_rect": [ 0.0, 6.0, 74.0, 12.0 ],
                     "varname": "TabSelector1",
                     "viewvisibility": 1
                 }
@@ -1089,7 +1089,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 574.0, 249.0, 26.0, 12.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 295.0, 105.0, 60.0, 12.0 ],
+                    "presentation_rect": [ 180.0, 6.0, 74.0, 12.0 ],
                     "varname": "TabSelector4",
                     "viewvisibility": 1
                 }
@@ -1112,7 +1112,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 471.0, 249.0, 26.0, 12.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 384.0, 105.0, 60.0, 12.0 ],
+                    "presentation_rect": [ 240.0, 6.0, 74.0, 12.0 ],
                     "varname": "TabSelector5",
                     "viewvisibility": 1
                 }
@@ -1135,7 +1135,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 523.0, 249.0, 26.0, 12.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 202.0, 109.0, 60.0, 12.0 ],
+                    "presentation_rect": [ 120.0, 6.0, 74.0, 12.0 ],
                     "varname": "TabSelector3",
                     "viewvisibility": 1
                 }
@@ -1158,7 +1158,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 430.0, 249.0, 26.0, 12.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 104.0, 109.0, 60.0, 12.0 ],
+                    "presentation_rect": [ 60.0, 6.0, 74.0, 12.0 ],
                     "varname": "TabSelector2",
                     "viewvisibility": 1
                 }
