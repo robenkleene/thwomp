@@ -101,7 +101,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 377.0, 343.0, 10.0, 10.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 377.0, 343.0, 10.0, 10.0 ],
+                    "presentation_rect": [ 76.0, 2.0, 10.0, 10.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -149,7 +149,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 239.5, 343.0, 10.0, 10.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 11.0, 2.0, 10.0, 10.0 ],
+                    "presentation_rect": [ 19.0, 2.0, 10.0, 10.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -177,7 +177,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 212.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 149.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 269.0, 0.0, 44.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -216,7 +216,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 166.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 102.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 222.0, 0.0, 44.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -846,7 +846,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 264.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 195.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 315.0, 0.0, 44.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -885,7 +885,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 120.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 55.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 84.0, 0.0, 44.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -921,7 +921,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 496.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 55.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 70.0, 0.0, 60.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -941,7 +941,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 354.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 196.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 316.0, 0.0, 44.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -964,7 +964,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 74.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 13.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 22.0, 0.0, 44.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -1000,7 +1000,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 635.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 8.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 8.0, 0.0, 60.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -1026,7 +1026,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 388.0, 249.0, 26.0, 12.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 7.0, 60.0, 12.0 ],
+                    "presentation_rect": [ 0.0, 105.0, 60.0, 12.0 ],
                     "varname": "TabSelector1",
                     "viewvisibility": 1
                 }
@@ -1042,7 +1042,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 774.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 102.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 222.0, 0.0, 44.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -1062,7 +1062,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 921.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 149.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 269.0, 0.0, 44.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -1089,7 +1089,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 574.0, 249.0, 26.0, 12.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 141.0, 7.0, 60.0, 12.0 ],
+                    "presentation_rect": [ 295.0, 105.0, 60.0, 12.0 ],
                     "varname": "TabSelector4",
                     "viewvisibility": 1
                 }
@@ -1112,7 +1112,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 471.0, 249.0, 26.0, 12.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 188.0, 7.0, 60.0, 12.0 ],
+                    "presentation_rect": [ 384.0, 105.0, 60.0, 12.0 ],
                     "varname": "TabSelector5",
                     "viewvisibility": 1
                 }
@@ -1135,7 +1135,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 523.0, 249.0, 26.0, 12.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 94.0, 7.0, 60.0, 12.0 ],
+                    "presentation_rect": [ 202.0, 109.0, 60.0, 12.0 ],
                     "varname": "TabSelector3",
                     "viewvisibility": 1
                 }
@@ -1158,7 +1158,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 430.0, 249.0, 26.0, 12.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 47.0, 7.0, 60.0, 12.0 ],
+                    "presentation_rect": [ 104.0, 109.0, 60.0, 12.0 ],
                     "varname": "TabSelector2",
                     "viewvisibility": 1
                 }
