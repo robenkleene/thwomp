@@ -743,7 +743,7 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "UiRand.maxpat",
+                    "name": "UiRandBank.maxpat",
                     "numinlets": 1,
                     "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
@@ -751,7 +751,7 @@
                     "patching_rect": [ 11.0, 184.0, 353.0, 150.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 16.0, 297.0, 154.0 ],
-                    "varname": "UiRand",
+                    "varname": "UiRandBank",
                     "viewvisibility": 1
                 }
             },
