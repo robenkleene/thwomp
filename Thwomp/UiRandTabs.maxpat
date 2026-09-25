@@ -77,7 +77,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 654.5, 343.0, 10.0, 10.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 198.0, 2.0, 10.0, 10.0 ],
+                    "presentation_rect": [ 193.0, 2.0, 10.0, 10.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -125,7 +125,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 517.5, 343.0, 10.0, 10.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 140.0, 2.0, 10.0, 10.0 ],
+                    "presentation_rect": [ 138.0, 2.0, 10.0, 10.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -177,7 +177,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 212.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 206.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 201.0, 0.0, 44.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -216,7 +216,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 166.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 143.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 141.0, 0.0, 44.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -846,7 +846,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 264.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 256.0, 0.0, 58.0, 14.0 ],
+                    "presentation_rect": [ 248.0, 0.0, 58.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -941,7 +941,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 354.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 256.0, 0.0, 58.0, 14.0 ],
+                    "presentation_rect": [ 248.0, 0.0, 58.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -1042,7 +1042,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 774.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 130.0, 0.0, 58.0, 14.0 ],
+                    "presentation_rect": [ 128.0, 0.0, 58.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -1062,7 +1062,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 921.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 193.0, 0.0, 58.0, 14.0 ],
+                    "presentation_rect": [ 188.0, 0.0, 58.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
