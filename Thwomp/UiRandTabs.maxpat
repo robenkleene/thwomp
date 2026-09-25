@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 606.0, 468.0, 1549.0, 727.0 ],
+        "rect": [ 843.0, 484.0, 1549.0, 727.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -77,7 +77,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 654.5, 343.0, 10.0, 10.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 654.5, 343.0, 10.0, 10.0 ],
+                    "presentation_rect": [ 198.0, 2.0, 10.0, 10.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -101,7 +101,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 377.0, 343.0, 10.0, 10.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 76.0, 2.0, 10.0, 10.0 ],
+                    "presentation_rect": [ 74.0, 2.0, 10.0, 10.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -125,7 +125,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 517.5, 343.0, 10.0, 10.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 517.5, 343.0, 10.0, 10.0 ],
+                    "presentation_rect": [ 140.0, 2.0, 10.0, 10.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -149,7 +149,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 239.5, 343.0, 10.0, 10.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 19.0, 2.0, 10.0, 10.0 ],
+                    "presentation_rect": [ 18.0, 2.0, 10.0, 10.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -177,7 +177,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 212.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 269.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 206.0, 0.0, 44.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -216,7 +216,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 166.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 222.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 143.0, 0.0, 44.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -846,7 +846,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 264.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 315.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 256.0, 0.0, 58.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -885,7 +885,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 120.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 84.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 81.0, 0.0, 44.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -921,7 +921,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 496.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 70.0, 0.0, 60.0, 14.0 ],
+                    "presentation_rect": [ 68.0, 0.0, 58.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -941,7 +941,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 354.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 316.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 256.0, 0.0, 58.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -964,7 +964,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 74.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 22.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 21.0, 0.0, 44.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -1000,7 +1000,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 635.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 8.0, 0.0, 60.0, 14.0 ],
+                    "presentation_rect": [ 8.0, 0.0, 58.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -1042,7 +1042,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 774.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 222.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 130.0, 0.0, 58.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -1062,7 +1062,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 921.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 269.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 193.0, 0.0, 58.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
