@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 919.0, 472.0, 727.0, 630.0 ],
+        "rect": [ 1134.0, 398.0, 727.0, 630.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -70,7 +70,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 229.0, 111.0, 128.0, 128.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 52.0, 1.0, 8.0, 8.0 ],
+                    "presentation_rect": [ 66.0, 1.0, 8.0, 8.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -91,7 +91,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 20.0, 111.0, 4.0, 128.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 4.0, 4.0, 53.0, 8.0 ],
+                    "presentation_rect": [ 4.0, 4.0, 67.0, 8.0 ],
                     "proportion": 0.39,
                     "rounded": 0,
                     "saved_attribute_attributes": {
