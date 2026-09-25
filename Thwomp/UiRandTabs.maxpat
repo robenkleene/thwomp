@@ -9,9 +9,64 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 533.0, 319.0, 1549.0, 727.0 ],
+        "rect": [ 606.0, 468.0, 1549.0, 727.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-28",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 234.0, 375.0, 113.0, 22.0 ],
+                    "text": "prepend RandOsc1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-27",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 372.0, 375.0, 125.0, 22.0 ],
+                    "text": "prepend RandEfffect1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-26",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 512.0, 375.0, 113.0, 22.0 ],
+                    "text": "prepend RandOsc2"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-20",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 649.0, 375.0, 125.0, 22.0 ],
+                    "text": "prepend RandEfffect2"
+                }
+            },
+            {
+                "box": {
+                    "comment": "(message) control message",
+                    "id": "obj-19",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 649.0, 419.0, 30.0, 30.0 ]
+                }
+            },
             {
                 "box": {
                     "id": "obj-25",
@@ -20,7 +75,9 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 393.5, 358.0, 15.0, 15.0 ],
+                    "patching_rect": [ 654.5, 343.0, 10.0, 10.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 654.5, 343.0, 10.0, 10.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -42,7 +99,9 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 260.0, 358.0, 15.0, 15.0 ],
+                    "patching_rect": [ 377.0, 343.0, 10.0, 10.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 377.0, 343.0, 10.0, 10.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -64,7 +123,9 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 327.0, 358.0, 15.0, 15.0 ],
+                    "patching_rect": [ 517.5, 343.0, 10.0, 10.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 517.5, 343.0, 10.0, 10.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -86,7 +147,9 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 222.0, 358.0, 15.0, 15.0 ],
+                    "patching_rect": [ 239.5, 343.0, 10.0, 10.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 11.0, 2.0, 10.0, 10.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -754,7 +817,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 74.0, 343.0, 30.0, 30.0 ]
+                    "patching_rect": [ 74.0, 424.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -901,7 +964,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 74.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 8.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 13.0, 0.0, 44.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -1128,6 +1191,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-19", 0 ],
+                    "source": [ "obj-20", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-10", 0 ],
                     "source": [ "obj-21", 1 ]
                 }
@@ -1136,6 +1205,48 @@
                 "patchline": {
                     "destination": [ "obj-9", 0 ],
                     "source": [ "obj-21", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-28", 0 ],
+                    "source": [ "obj-22", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-26", 0 ],
+                    "source": [ "obj-23", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-27", 0 ],
+                    "source": [ "obj-24", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-20", 0 ],
+                    "source": [ "obj-25", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-19", 0 ],
+                    "source": [ "obj-26", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-19", 0 ],
+                    "source": [ "obj-27", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-19", 0 ],
+                    "source": [ "obj-28", 0 ]
                 }
             },
             {
