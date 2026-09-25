@@ -9,9 +9,53 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 325.0, 405.0, 820.0, 757.0 ],
+        "rect": [ 325.0, 405.0, 1740.0, 757.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-34",
+                    "linecount": 2,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 934.0, 325.0, 150.0, 33.0 ],
+                    "text": "Wire these to tabselector inlets to adjust them"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-30",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 906.0, 466.0, 350.0, 22.0 ],
+                    "text": "loadmess script sendbox PanelTab presentation_rect 4. 4. 48. 8."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-31",
+                    "linecount": 5,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1092.0, 390.0, 150.0, 74.0 ],
+                    "text": "Hide the `PanelRight` and reduce the width of `PanelTab` so that the middle tab aligns with the panel seperation."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-32",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 906.0, 390.0, 180.0, 22.0 ],
+                    "text": "loadmess script hide PanelRight"
+                }
+            },
             {
                 "box": {
                     "id": "obj-28",
@@ -804,7 +848,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 95.0, 300.0, 67.0, 22.0 ],
+                    "patching_rect": [ 117.0, 298.0, 67.0, 22.0 ],
                     "save": [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
                     "text": "thispatcher"
                 }
