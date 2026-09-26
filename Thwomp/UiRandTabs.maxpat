@@ -14,50 +14,6 @@
         "boxes": [
             {
                 "box": {
-                    "id": "obj-34",
-                    "linecount": 2,
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 934.0, 325.0, 150.0, 33.0 ],
-                    "text": "Wire these to tabselector inlets to adjust them"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-30",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 906.0, 466.0, 350.0, 22.0 ],
-                    "text": "loadmess script sendbox PanelTab presentation_rect 4. 4. 48. 8."
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-31",
-                    "linecount": 5,
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 1092.0, 390.0, 150.0, 74.0 ],
-                    "text": "Hide the `PanelRight` and reduce the width of `PanelTab` so that the middle tab aligns with the panel seperation."
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-32",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 906.0, 390.0, 180.0, 22.0 ],
-                    "text": "loadmess script hide PanelRight"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-28",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -302,8 +258,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 59.0, 111.0, 1452.0, 956.0 ],
-                        "visible": 1,
+                        "rect": [ 934.0, 233.0, 1452.0, 956.0 ],
                         "boxes": [
                             {
                                 "box": {
@@ -1068,7 +1023,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 388.0, 249.0, 26.0, 12.0 ],
+                    "patching_rect": [ 333.0, 249.0, 80.0, 12.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 6.0, 74.0, 12.0 ],
                     "varname": "TabSelector1",
@@ -1131,7 +1086,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 574.0, 249.0, 26.0, 12.0 ],
+                    "patching_rect": [ 730.5, 249.0, 83.0, 12.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 180.0, 6.0, 74.0, 12.0 ],
                     "varname": "TabSelector4",
@@ -1154,7 +1109,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 471.0, 249.0, 26.0, 12.0 ],
+                    "patching_rect": [ 525.5, 249.0, 86.0, 12.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 240.0, 6.0, 74.0, 12.0 ],
                     "varname": "TabSelector5",
@@ -1177,7 +1132,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 523.0, 249.0, 26.0, 12.0 ],
+                    "patching_rect": [ 625.5, 249.0, 79.0, 12.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 120.0, 6.0, 74.0, 12.0 ],
                     "varname": "TabSelector3",
@@ -1200,7 +1155,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 430.0, 249.0, 26.0, 12.0 ],
+                    "patching_rect": [ 430.0, 249.0, 85.0, 12.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 60.0, 6.0, 74.0, 12.0 ],
                     "varname": "TabSelector2",
