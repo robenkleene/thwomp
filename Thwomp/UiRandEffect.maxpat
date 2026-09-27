@@ -14,6 +14,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-49",
+                    "maxclass": "live.line",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 628.0, 160.0, 5.0, 100.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 99.0, 1.0, 5.0, 152.0 ]
+                }
+            },
+            {
+                "box": {
                     "id": "obj-26",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -786,37 +797,15 @@
                 "box": {
                     "angle": 270.0,
                     "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
-                    "id": "obj-229",
+                    "id": "obj-226",
                     "maxclass": "panel",
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 839.0, 85.0, 438.0, 144.0 ],
+                    "patching_rect": [ 1021.0, 64.0, 438.0, 144.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 99.0, 152.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 338.0, 152.0 ],
                     "proportion": 0.39,
-                    "rounded": 4,
-                    "saved_attribute_attributes": {
-                        "bgfillcolor": {
-                            "expression": "themecolor.live_surface_bg"
-                        }
-                    }
-                }
-            },
-            {
-                "box": {
-                    "angle": 270.0,
-                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
-                    "id": "obj-panel-fx",
-                    "maxclass": "panel",
-                    "mode": 0,
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 1300.0, 974.0, 438.0, 144.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 101.0, 0.0, 146.0, 152.0 ],
-                    "proportion": 0.39,
-                    "rounded": 4,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
                             "expression": "themecolor.live_surface_bg"

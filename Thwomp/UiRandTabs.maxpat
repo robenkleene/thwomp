@@ -19,7 +19,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 234.0, 375.0, 113.0, 22.0 ],
+                    "patching_rect": [ 279.0, 375.0, 113.0, 22.0 ],
                     "text": "prepend RandOsc1"
                 }
             },
@@ -30,7 +30,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 372.0, 375.0, 125.0, 22.0 ],
+                    "patching_rect": [ 399.0, 375.0, 125.0, 22.0 ],
                     "text": "prepend RandEfffect1"
                 }
             },
@@ -41,7 +41,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 512.0, 375.0, 113.0, 22.0 ],
+                    "patching_rect": [ 532.0, 375.0, 113.0, 22.0 ],
                     "text": "prepend RandOsc2"
                 }
             },
@@ -99,7 +99,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 377.0, 343.0, 10.0, 10.0 ],
+                    "patching_rect": [ 404.5, 343.0, 10.0, 10.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 74.0, 2.0, 10.0, 10.0 ],
                     "saved_attribute_attributes": {
@@ -123,7 +123,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 517.5, 343.0, 10.0, 10.0 ],
+                    "patching_rect": [ 537.5, 343.0, 10.0, 10.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 138.0, 2.0, 10.0, 10.0 ],
                     "saved_attribute_attributes": {
@@ -147,7 +147,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 239.5, 343.0, 10.0, 10.0 ],
+                    "patching_rect": [ 284.5, 343.0, 10.0, 10.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 18.0, 2.0, 10.0, 10.0 ],
                     "saved_attribute_attributes": {

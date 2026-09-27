@@ -842,16 +842,15 @@
                 "box": {
                     "angle": 270.0,
                     "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
-                    "id": "obj-panel-osc",
+                    "id": "obj-226",
                     "maxclass": "panel",
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 824.0, 65.5, 438.0, 144.0 ],
+                    "patching_rect": [ 1021.0, 64.0, 438.0, 144.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 240.0, 152.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 338.0, 152.0 ],
                     "proportion": 0.39,
-                    "rounded": 4,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
                             "expression": "themecolor.live_surface_bg"

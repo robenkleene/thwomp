@@ -30,7 +30,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 630.0, 350.0, 247.0, 153.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 462.0, 249.0, 153.0 ],
+                    "presentation_rect": [ 0.0, 462.0, 341.0, 153.0 ],
                     "varname": "UiRandEffect2",
                     "viewvisibility": 1
                 }
@@ -53,7 +53,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 635.0, 158.5, 242.0, 155.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 308.0, 246.0, 152.0 ],
+                    "presentation_rect": [ 0.0, 308.0, 341.0, 152.0 ],
                     "varname": "UiRandOsc2",
                     "viewvisibility": 1
                 }
@@ -76,7 +76,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 361.0, 529.0, 295.0, 152.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 616.0, 363.0, 152.0 ],
+                    "presentation_rect": [ 0.0, 616.0, 341.0, 152.0 ],
                     "varname": "UiRandGlobal",
                     "viewvisibility": 1
                 }
@@ -99,7 +99,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 361.0, 350.0, 247.0, 153.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 154.0, 249.0, 153.0 ],
+                    "presentation_rect": [ 0.0, 154.0, 341.0, 153.0 ],
                     "varname": "UiRandEffect1",
                     "viewvisibility": 1
                 }
@@ -374,7 +374,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 361.0, 173.0, 242.0, 155.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 246.0, 152.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 341.0, 152.0 ],
                     "varname": "UiRandOsc1",
                     "viewvisibility": 1
                 }
