@@ -30,7 +30,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 630.0, 350.0, 247.0, 153.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 629.0, 350.0, 249.0, 153.0 ],
+                    "presentation_rect": [ -0.5, 462.0, 249.0, 153.0 ],
                     "varname": "UiRandEffect2",
                     "viewvisibility": 1
                 }
@@ -53,7 +53,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 635.0, 158.5, 242.0, 155.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 635.0, 157.0, 246.0, 152.0 ],
+                    "presentation_rect": [ 0.0, 308.0, 246.0, 152.0 ],
                     "varname": "UiRandOsc2",
                     "viewvisibility": 1
                 }
@@ -76,7 +76,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 361.0, 529.0, 295.0, 152.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 308.0, 295.0, 152.0 ],
+                    "presentation_rect": [ 0.0, 616.0, 295.0, 152.0 ],
                     "varname": "UiRandGlobal",
                     "viewvisibility": 1
                 }
@@ -112,10 +112,6 @@
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 126.0, 225.0, 56.0, 22.0 ],
-                    "restore": {
-                        "Rand1": [ 0.0 ],
-                        "RandOsc2": [ 0.0 ]
-                    },
                     "text": "autopattr",
                     "varname": "u678017121"
                 }
@@ -362,58 +358,6 @@
             },
             {
                 "box": {
-                    "id": "obj-2",
-                    "maxclass": "live.text",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 88.0, 256.0, 44.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 50.0, 3.0, 46.0, 15.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandOsc2",
-                            "parameter_mmax": 1,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Osc 2",
-                            "parameter_type": 2
-                        }
-                    },
-                    "text": "Osc 2",
-                    "texton": "Osc 2",
-                    "varname": "RandOsc2"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-1",
-                    "maxclass": "live.text",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 64.0, 232.0, 44.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 3.0, 3.0, 46.0, 15.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandOsc1",
-                            "parameter_mmax": 1,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Osc 1",
-                            "parameter_type": 2
-                        }
-                    },
-                    "text": "Osc 1",
-                    "texton": "Osc 1",
-                    "varname": "Rand1"
-                }
-            },
-            {
-                "box": {
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -439,12 +383,6 @@
         "lines": [
             {
                 "patchline": {
-                    "destination": [ "obj-136", 1 ],
-                    "source": [ "obj-1", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-136", 0 ],
                     "order": 0,
                     "source": [ "obj-125", 0 ]
@@ -455,12 +393,6 @@
                     "destination": [ "obj-56", 0 ],
                     "order": 1,
                     "source": [ "obj-125", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-136", 2 ],
-                    "source": [ "obj-2", 0 ]
                 }
             },
             {
@@ -501,8 +433,6 @@
             }
         ],
         "parameters": {
-            "obj-1": [ "RandOsc1", "Osc 1", 0 ],
-            "obj-2": [ "RandOsc2", "Osc 2", 0 ],
             "obj-3::obj-138": [ "RandOscNote[1]", "Note", 0 ],
             "obj-3::obj-18::obj-1": [ "RandOscAttack-Min[1]", "Min", 0 ],
             "obj-3::obj-18::obj-2": [ "RandOscAttack-Max[1]", "Max", 0 ],
