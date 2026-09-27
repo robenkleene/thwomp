@@ -76,7 +76,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 361.0, 529.0, 295.0, 152.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 616.0, 295.0, 152.0 ],
+                    "presentation_rect": [ 0.0, 616.0, 363.0, 152.0 ],
                     "varname": "UiRandGlobal",
                     "viewvisibility": 1
                 }
@@ -507,6 +507,7 @@
             "obj-56::obj-66": [ "RandVol", "Volume", 0 ],
             "obj-56::obj-67::obj-1": [ "RandVol-Min", "Min", 0 ],
             "obj-56::obj-67::obj-2": [ "RandVol-Max", "Max", 0 ],
+            "obj-56::obj-76": [ "RandAuto", "Auto", 0 ],
             "obj-57::obj-138": [ "RandOscNote", "Note", 0 ],
             "obj-57::obj-18::obj-1": [ "RandOscAttack-Min", "Min", 0 ],
             "obj-57::obj-18::obj-2": [ "RandOscAttack-Max", "Max", 0 ],

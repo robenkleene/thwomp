@@ -9,9 +9,31 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 151.0, 263.0, 1656.0, 762.0 ],
+        "rect": [ 324.0, 569.0, 1656.0, 762.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-4",
+                    "maxclass": "live.line",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 628.0, 160.0, 5.0, 100.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 246.0, 0.0, 5.0, 152.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-49",
+                    "maxclass": "live.line",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 613.0, 145.0, 5.0, 100.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 100.0, 0.0, 5.0, 152.0 ]
+                }
+            },
             {
                 "box": {
                     "fontname": "Ableton Sans Medium",
@@ -22,7 +44,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 921.0, 536.0, 32.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 354.0, 60.0, 30.0, 18.0 ],
+                    "presentation_rect": [ 295.0, 116.0, 30.0, 18.0 ],
                     "text": "Auto"
                 }
             },
@@ -38,7 +60,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 920.0, 559.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 349.0, 76.0, 39.0, 15.0 ],
+                    "presentation_rect": [ 295.0, 133.0, 39.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandAuto",
@@ -807,7 +829,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 629.0, 58.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 251.5, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 252.0, 38.0, 41.0, 113.0 ],
                     "varname": "RandVolMinMax",
                     "viewvisibility": 1
                 }
@@ -920,7 +942,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 477.0, 58.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 200.5, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 201.0, 38.0, 41.0, 113.0 ],
                     "varname": "RandRingGainMinMax",
                     "viewvisibility": 1
                 }
@@ -955,7 +977,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 325.0, 58.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 153.5, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 154.0, 38.0, 41.0, 113.0 ],
                     "varname": "RandRingDecayMinMax",
                     "viewvisibility": 1
                 }
@@ -990,7 +1012,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 173.0, 58.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 106.5, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 107.0, 38.0, 41.0, 113.0 ],
                     "varname": "RandRingAttackMinMax",
                     "viewvisibility": 1
                 }
@@ -1090,27 +1112,6 @@
                 "box": {
                     "angle": 270.0,
                     "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
-                    "id": "obj-227",
-                    "maxclass": "panel",
-                    "mode": 0,
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 1021.0, 228.0, 438.0, 144.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 101.0, 0.0, 227.0, 152.0 ],
-                    "proportion": 0.39,
-                    "rounded": 4,
-                    "saved_attribute_attributes": {
-                        "bgfillcolor": {
-                            "expression": "themecolor.live_surface_bg"
-                        }
-                    }
-                }
-            },
-            {
-                "box": {
-                    "angle": 270.0,
-                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
                     "id": "obj-226",
                     "maxclass": "panel",
                     "mode": 0,
@@ -1118,9 +1119,8 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1021.0, 64.0, 438.0, 144.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 99.0, 152.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 338.0, 152.0 ],
                     "proportion": 0.39,
-                    "rounded": 4,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
                             "expression": "themecolor.live_surface_bg"

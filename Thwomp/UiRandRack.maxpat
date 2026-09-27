@@ -728,11 +728,11 @@
                     "name": "UiRandBank.maxpat",
                     "numinlets": 1,
                     "numoutlets": 1,
-                    "offset": [ 0.0, -308.0 ],
+                    "offset": [ 0.0, -616.0 ],
                     "outlettype": [ "" ],
                     "patching_rect": [ 11.0, 184.0, 353.0, 150.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 16.0, 297.0, 154.0 ],
+                    "presentation_rect": [ 0.0, 16.0, 458.0, 154.0 ],
                     "varname": "UiRandBank",
                     "viewvisibility": 1
                 }
