@@ -50,8 +50,8 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 15.5, 292.0, 94.0, 22.0 ],
-                    "text": "universal live.txt"
+                    "patching_rect": [ 15.5, 292.0, 101.0, 22.0 ],
+                    "text": "universal live.text"
                 }
             },
             {
