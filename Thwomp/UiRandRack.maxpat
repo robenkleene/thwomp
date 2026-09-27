@@ -9,9 +9,31 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1446.0, 533.0, 1574.0, 864.0 ],
+        "rect": [ 645.0, 296.0, 1722.0, 1007.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-13",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 372.0, 385.0, 63.0, 22.0 ],
+                    "text": "route auto"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-10",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "int", "int" ],
+                    "patching_rect": [ 440.0, 385.0, 29.5, 22.0 ],
+                    "text": "t i i"
+                }
+            },
             {
                 "box": {
                     "id": "obj-12",
@@ -68,7 +90,6 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 1246.0, 528.0, 56.0, 22.0 ],
                     "restore": {
-                        "RandAuto": [ 0.0 ],
                         "RandTab": [ 2.0 ],
                         "RandTrig": [ 0.0 ],
                         "RandTrigToggle": [ 0.0 ]
@@ -613,45 +634,6 @@
             },
             {
                 "box": {
-                    "fontname": "Ableton Sans Medium",
-                    "fontsize": 10.0,
-                    "id": "obj-74",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 821.0, 312.0, 32.0, 18.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 302.0, 133.0, 30.0, 18.0 ],
-                    "text": "Auto"
-                }
-            },
-            {
-                "box": {
-                    "annotation": "If greater than zero, then randomize will automatically be triggered after that number of beats.",
-                    "annotation_name": "Randomize Auto Beats",
-                    "id": "obj-76",
-                    "maxclass": "live.numbox",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 821.0, 344.0, 44.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 297.0, 149.0, 39.0, 15.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_longname": "RandAuto",
-                            "parameter_modmode": 4,
-                            "parameter_shortname": "Auto",
-                            "parameter_type": 1,
-                            "parameter_unitstyle": 0
-                        }
-                    },
-                    "varname": "RandAuto"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-2",
                     "maxclass": "live.text",
                     "numinlets": 1,
@@ -746,7 +728,7 @@
                     "name": "UiRandBank.maxpat",
                     "numinlets": 1,
                     "numoutlets": 1,
-                    "offset": [ 0.0, -616.0 ],
+                    "offset": [ 0.0, -308.0 ],
                     "outlettype": [ "" ],
                     "patching_rect": [ 11.0, 184.0, 353.0, 150.0 ],
                     "presentation": 1,
@@ -781,14 +763,40 @@
         "lines": [
             {
                 "patchline": {
-                    "destination": [ "obj-4", 0 ],
+                    "destination": [ "obj-13", 0 ],
+                    "order": 0,
                     "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-4", 0 ],
+                    "order": 1,
+                    "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-157", 0 ],
+                    "source": [ "obj-10", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-71", 0 ],
+                    "source": [ "obj-10", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-9", 0 ],
                     "source": [ "obj-11", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-10", 0 ],
+                    "source": [ "obj-13", 0 ]
                 }
             },
             {
@@ -1149,20 +1157,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-157", 0 ],
-                    "order": 0,
-                    "source": [ "obj-76", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-71", 0 ],
-                    "order": 1,
-                    "source": [ "obj-76", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-11", 0 ],
                     "source": [ "obj-8", 0 ]
                 }
@@ -1266,6 +1260,7 @@
             "obj-1::obj-56::obj-66": [ "RandVol", "Volume", 0 ],
             "obj-1::obj-56::obj-67::obj-1": [ "RandVol-Min", "Min", 0 ],
             "obj-1::obj-56::obj-67::obj-2": [ "RandVol-Max", "Max", 0 ],
+            "obj-1::obj-56::obj-76": [ "RandAuto", "Auto", 0 ],
             "obj-1::obj-57::obj-138": [ "RandOscNote", "Note", 0 ],
             "obj-1::obj-57::obj-18::obj-1": [ "RandOscAttack-Min", "Min", 0 ],
             "obj-1::obj-57::obj-18::obj-2": [ "RandOscAttack-Max", "Max", 0 ],
@@ -1285,7 +1280,6 @@
             "obj-1::obj-57::obj-5": [ "RandOscFreq", "Freq", 0 ],
             "obj-1::obj-57::obj-6": [ "RandOscReset", "Reset", 0 ],
             "obj-2": [ "RandTrigToggle", "Trigger", 0 ],
-            "obj-76": [ "RandAuto", "Auto", 0 ],
             "obj-9::obj-1": [ "RandTabOsc", "RandTabOsc1", 0 ],
             "obj-9::obj-13": [ "RandTabEffect2", "RandTabEffect2", 0 ],
             "obj-9::obj-14": [ "RandTabOsc2", "RandTabOsc2", 0 ],

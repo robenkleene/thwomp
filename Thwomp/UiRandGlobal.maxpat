@@ -9,9 +9,59 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 622.0, 343.0, 964.0, 559.0 ],
+        "rect": [ 151.0, 263.0, 1656.0, 762.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "fontname": "Ableton Sans Medium",
+                    "fontsize": 10.0,
+                    "id": "obj-74",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 921.0, 536.0, 32.0, 18.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 354.0, 60.0, 30.0, 18.0 ],
+                    "text": "Auto"
+                }
+            },
+            {
+                "box": {
+                    "annotation": "If greater than zero, then randomize will automatically be triggered after that number of beats.",
+                    "annotation_name": "Randomize Auto Beats",
+                    "id": "obj-76",
+                    "maxclass": "live.numbox",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 920.0, 559.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 349.0, 76.0, 39.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_longname": "RandAuto",
+                            "parameter_modmode": 4,
+                            "parameter_shortname": "Auto",
+                            "parameter_type": 1,
+                            "parameter_unitstyle": 0
+                        }
+                    },
+                    "varname": "RandAuto"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-3",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 920.0, 601.0, 79.0, 22.0 ],
+                    "text": "prepend auto"
+                }
+            },
             {
                 "box": {
                     "id": "obj-26",
@@ -21,6 +71,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 1021.0, 26.0, 56.0, 22.0 ],
                     "restore": {
+                        "RandAuto": [ 0.0 ],
                         "RandFilt": [ 0.0 ],
                         "RandFiltFreq": [ 0.0 ],
                         "RandFiltQ": [ 0.0 ],
@@ -1046,7 +1097,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1021.0, 228.0, 438.0, 144.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 101.0, 0.0, 146.0, 152.0 ],
+                    "presentation_rect": [ 101.0, 0.0, 227.0, 152.0 ],
                     "proportion": 0.39,
                     "rounded": 4,
                     "saved_attribute_attributes": {
@@ -1255,6 +1306,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-78", 0 ],
+                    "source": [ "obj-3", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-162", 0 ],
                     "source": [ "obj-30", 0 ]
                 }
@@ -1435,6 +1492,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-3", 0 ],
+                    "source": [ "obj-76", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-78", 0 ],
                     "source": [ "obj-77", 0 ]
                 }
@@ -1493,6 +1556,7 @@
             "obj-66": [ "RandVol", "Volume", 0 ],
             "obj-67::obj-1": [ "RandVol-Min", "Min", 0 ],
             "obj-67::obj-2": [ "RandVol-Max", "Max", 0 ],
+            "obj-76": [ "RandAuto", "Auto", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
