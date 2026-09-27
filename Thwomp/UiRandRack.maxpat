@@ -728,7 +728,7 @@
                     "name": "UiRandBank.maxpat",
                     "numinlets": 1,
                     "numoutlets": 1,
-                    "offset": [ 0.0, -616.0 ],
+                    "offset": [ 0.0, -308.0 ],
                     "outlettype": [ "" ],
                     "patching_rect": [ 11.0, 184.0, 353.0, 150.0 ],
                     "presentation": 1,
@@ -1159,6 +1159,12 @@
                 "patchline": {
                     "destination": [ "obj-11", 0 ],
                     "source": [ "obj-8", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-1", 0 ],
+                    "source": [ "obj-9", 1 ]
                 }
             },
             {
