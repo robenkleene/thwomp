@@ -670,7 +670,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 557.0, 349.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 107.0, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 106.5, 38.0, 41.0, 113.0 ],
                     "varname": "RandOscPchEnvAmtMinMax",
                     "viewvisibility": 1
                 }
@@ -705,7 +705,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 357.0, 349.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 201.0, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 200.5, 38.0, 41.0, 113.0 ],
                     "varname": "RandOscPchEnvCurMinMax",
                     "viewvisibility": 1
                 }
@@ -740,7 +740,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 167.0, 349.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 154.0, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 153.5, 38.0, 41.0, 113.0 ],
                     "varname": "RandOscPchEnvDurMinMax",
                     "viewvisibility": 1
                 }

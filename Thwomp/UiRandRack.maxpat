@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 227.0, 242.0, 1574.0, 864.0 ],
+        "rect": [ 1446.0, 533.0, 1574.0, 864.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -69,7 +69,7 @@
                     "patching_rect": [ 1246.0, 528.0, 56.0, 22.0 ],
                     "restore": {
                         "RandAuto": [ 0.0 ],
-                        "RandTab": [ 0.0 ],
+                        "RandTab": [ 2.0 ],
                         "RandTrig": [ 0.0 ],
                         "RandTrigToggle": [ 0.0 ]
                     },
@@ -746,7 +746,7 @@
                     "name": "UiRandBank.maxpat",
                     "numinlets": 1,
                     "numoutlets": 1,
-                    "offset": [ 0.0, 0.0 ],
+                    "offset": [ 0.0, -616.0 ],
                     "outlettype": [ "" ],
                     "patching_rect": [ 11.0, 184.0, 353.0, 150.0 ],
                     "presentation": 1,
@@ -1192,8 +1192,6 @@
             "obj-11": [ "RandTab", "Tab", 0 ],
             "obj-170": [ "RandTrig", "Note", 0 ],
             "obj-175": [ "RandTrigSet", "Set", 0 ],
-            "obj-1::obj-1": [ "RandOsc1[1]", "Osc 1", 0 ],
-            "obj-1::obj-2": [ "RandOsc2[1]", "Osc 2", 0 ],
             "obj-1::obj-3::obj-138": [ "RandOscNote[1]", "Note", 0 ],
             "obj-1::obj-3::obj-18::obj-1": [ "RandOscAttack-Min[1]", "Min", 0 ],
             "obj-1::obj-3::obj-18::obj-2": [ "RandOscAttack-Max[1]", "Max", 0 ],
@@ -1306,12 +1304,6 @@
                 }
             },
             "parameter_overrides": {
-                "obj-1::obj-1": {
-                    "parameter_longname": "RandOsc1[1]"
-                },
-                "obj-1::obj-2": {
-                    "parameter_longname": "RandOsc2[1]"
-                },
                 "obj-1::obj-3::obj-138": {
                     "parameter_longname": "RandOscNote[1]"
                 },
