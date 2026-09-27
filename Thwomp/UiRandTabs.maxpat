@@ -30,8 +30,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 399.0, 375.0, 125.0, 22.0 ],
-                    "text": "prepend RandEfffect1"
+                    "patching_rect": [ 399.0, 375.0, 122.0, 22.0 ],
+                    "text": "prepend RandEffect1"
                 }
             },
             {
@@ -53,7 +53,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 649.0, 375.0, 125.0, 22.0 ],
-                    "text": "prepend RandEfffect2"
+                    "text": "prepend RandEffect2"
                 }
             },
             {
