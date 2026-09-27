@@ -386,7 +386,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 839.0, 58.0, 50.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 100.0, -1.0, 50.0, 18.0 ],
+                    "presentation_rect": [ 102.0, 2.0, 50.0, 18.0 ],
                     "text": "Pitch Env"
                 }
             },
@@ -609,7 +609,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 599.0, 423.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 102.0, 18.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 104.0, 18.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -635,7 +635,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 399.0, 423.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 196.0, 18.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 198.0, 18.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -670,7 +670,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 557.0, 349.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 105.0, 37.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 107.0, 38.0, 41.0, 113.0 ],
                     "varname": "RandOscPchEnvAmtMinMax",
                     "viewvisibility": 1
                 }
@@ -705,7 +705,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 357.0, 349.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 199.0, 37.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 201.0, 38.0, 41.0, 113.0 ],
                     "varname": "RandOscPchEnvCurMinMax",
                     "viewvisibility": 1
                 }
@@ -740,7 +740,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 167.0, 349.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 152.0, 37.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 154.0, 38.0, 41.0, 113.0 ],
                     "varname": "RandOscPchEnvDurMinMax",
                     "viewvisibility": 1
                 }
@@ -766,7 +766,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 215.0, 423.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 149.0, 18.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 151.0, 18.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],

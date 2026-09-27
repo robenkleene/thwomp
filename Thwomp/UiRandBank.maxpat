@@ -30,7 +30,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 630.0, 350.0, 247.0, 153.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ -0.5, 462.0, 249.0, 153.0 ],
+                    "presentation_rect": [ 0.0, 462.0, 249.0, 153.0 ],
                     "varname": "UiRandEffect2",
                     "viewvisibility": 1
                 }
