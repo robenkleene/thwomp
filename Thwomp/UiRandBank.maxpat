@@ -9,19 +9,9 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 427.0, 361.0, 1746.0, 985.0 ],
+        "rect": [ 1213.0, 385.0, 1746.0, 985.0 ],
         "openinpresentation": 1,
         "boxes": [
-            {
-                "box": {
-                    "id": "obj-2",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 597.0, 168.0, 32.0, 22.0 ],
-                    "text": "print"
-                }
-            },
             {
                 "box": {
                     "id": "obj-1",
@@ -409,13 +399,6 @@
         "lines": [
             {
                 "patchline": {
-                    "destination": [ "obj-2", 0 ],
-                    "order": 0,
-                    "source": [ "obj-1", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-3", 0 ],
                     "source": [ "obj-1", 2 ]
                 }
@@ -435,7 +418,6 @@
             {
                 "patchline": {
                     "destination": [ "obj-57", 0 ],
-                    "order": 1,
                     "source": [ "obj-1", 0 ]
                 }
             },
