@@ -69,6 +69,7 @@
             },
             {
                 "box": {
+                    "args": [ "#1" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -92,6 +93,7 @@
             },
             {
                 "box": {
+                    "args": [ "#1" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -115,6 +117,7 @@
             },
             {
                 "box": {
+                    "args": [ "#1" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -138,6 +141,7 @@
             },
             {
                 "box": {
+                    "args": [ "#1" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -188,7 +192,8 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 485.0, 473.0, 1000.0, 780.0 ],
+                        "rect": [ 1186.0, 481.0, 1000.0, 780.0 ],
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -413,6 +418,7 @@
             },
             {
                 "box": {
+                    "args": [ "#1" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
