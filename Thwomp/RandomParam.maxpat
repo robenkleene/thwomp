@@ -211,7 +211,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
                     "patching_rect": [ 50.0, 176.0, 338.0, 22.0 ],
-                    "text": "RandomIncrement"
+                    "text": "RandomIncrement #1"
                 }
             }
         ],

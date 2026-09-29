@@ -423,7 +423,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "int" ],
                     "patching_rect": [ 763.0, 460.0, 89.0, 22.0 ],
-                    "text": "RandomParam"
+                    "text": "RandomParam 1"
                 }
             },
             {
