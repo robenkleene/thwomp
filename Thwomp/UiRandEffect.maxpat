@@ -704,7 +704,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "#2jRandOscPchEnvCur",
+                            "parameter_longname": "#2-RandOscPchEnvCur",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Curve",
@@ -835,7 +835,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "#2jRandOscPchEnvDur",
+                            "parameter_longname": "#2-RandOscPchEnvDur",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Duration",
@@ -1230,11 +1230,11 @@
             "obj-16::obj-2": [ "RandOvertone-Max", "Max", 0 ],
             "obj-22": [ "#2-RandOvertone", "Overtone", 0 ],
             "obj-3": [ "#2-RandOscShape", "Shape", 0 ],
-            "obj-38": [ "#2jRandOscPchEnvCur", "Curve", 0 ],
+            "obj-38": [ "#2-RandOscPchEnvCur", "Curve", 0 ],
             "obj-39": [ "#2-RandOscPchEnvAmt", "Amount", 0 ],
             "obj-4": [ "#2-RandOscFilt", "Filter", 0 ],
             "obj-40": [ "#2-RandOverdrive", "Overdrive", 0 ],
-            "obj-7": [ "#2jRandOscPchEnvDur", "Duration", 0 ],
+            "obj-7": [ "#2-RandOscPchEnvDur", "Duration", 0 ],
             "obj-8::obj-1": [ "RandOverdrive-Min", "Min", 0 ],
             "obj-8::obj-2": [ "RandOverdrive-Max", "Max", 0 ],
             "parameterbanks": {
