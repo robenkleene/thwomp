@@ -85,8 +85,8 @@
             },
             {
                 "box": {
-                    "annotation": "#1 maximum value.",
-                    "annotation_name": "#1 Max",
+                    "annotation": "#2 maximum value.",
+                    "annotation_name": "#2 Max",
                     "id": "obj-2",
                     "maxclass": "live.dial",
                     "numinlets": 1,
@@ -111,8 +111,8 @@
             },
             {
                 "box": {
-                    "annotation": "#1 mininum value.",
-                    "annotation_name": "#1 Min",
+                    "annotation": "#2 mininum value.",
+                    "annotation_name": "#2 Min",
                     "id": "obj-1",
                     "maxclass": "live.dial",
                     "numinlets": 1,

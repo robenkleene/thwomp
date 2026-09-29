@@ -221,7 +221,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandOscShape",
+                            "parameter_longname": #2-RandOscShape",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Shape",
@@ -230,7 +230,7 @@
                     },
                     "text": "Shape",
                     "texton": "Shape",
-                    "varname": "RandOscShape"
+                    "varname": #2-RandOscShape"
                 }
             },
             {
@@ -333,7 +333,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandOvertone",
+                            "parameter_longname": #2-RandOvertone",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Overtone",
@@ -342,7 +342,7 @@
                     },
                     "text": "Overtone",
                     "texton": "Overtone",
-                    "varname": "RandOvertone"
+                    "varname": #2-RandOvertone"
                 }
             },
             {
@@ -359,7 +359,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandOverdrive",
+                            "parameter_longname": #2-RandOverdrive",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Overdrive",
@@ -368,7 +368,7 @@
                     },
                     "text": "Overdrive",
                     "texton": "Overdrive",
-                    "varname": "RandOverdrive"
+                    "varname": #2-RandOverdrive"
                 }
             },
             {
@@ -391,7 +391,7 @@
                     "patching_rect": [ 470.0, 88.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 52.0, 38.0, 41.0, 113.0 ],
-                    "varname": "RandOvertoneMinMax",
+                    "varname": #2-RandOvertoneMinMax",
                     "viewvisibility": 1
                 }
             },
@@ -426,7 +426,7 @@
                     "patching_rect": [ 318.0, 88.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 5.0, 38.0, 41.0, 113.0 ],
-                    "varname": "RandOverdriveMinMax",
+                    "varname": #2-RandOverdriveMinMax",
                     "viewvisibility": 1
                 }
             },
@@ -523,7 +523,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandOscFilt",
+                            "parameter_longname": #2-RandOscFilt",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Filter",
@@ -532,7 +532,7 @@
                     },
                     "text": "Filter",
                     "texton": "Filter",
-                    "varname": "RandOscFilt"
+                    "varname": #2-RandOscFilt"
                 }
             },
             {
@@ -678,7 +678,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandOscPchEnvAmt",
+                            "parameter_longname": #2-RandOscPchEnvAmt",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Amount",
@@ -687,7 +687,7 @@
                     },
                     "text": "Amount",
                     "texton": "Amount",
-                    "varname": "RandOscPchEnvAmt"
+                    "varname": #2-RandOscPchEnvAmt"
                 }
             },
             {
@@ -704,7 +704,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandOscPchEnvCur",
+                            "parameter_longname": #2-RandOscPchEnvCur",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Curve",
@@ -713,7 +713,7 @@
                     },
                     "text": "Curve",
                     "texton": "Curve",
-                    "varname": "RandOscPchEnvCur"
+                    "varname": #2-RandOscPchEnvCur"
                 }
             },
             {
@@ -736,7 +736,7 @@
                     "patching_rect": [ 702.0, 379.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 106.5, 38.0, 41.0, 113.0 ],
-                    "varname": "RandOscPchEnvAmtMinMax",
+                    "varname": #2-RandOscPchEnvAmtMinMax",
                     "viewvisibility": 1
                 }
             },
@@ -771,7 +771,7 @@
                     "patching_rect": [ 502.0, 379.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 200.5, 38.0, 41.0, 113.0 ],
-                    "varname": "RandOscPchEnvCurMinMax",
+                    "varname": #2-RandOscPchEnvCurMinMax",
                     "viewvisibility": 1
                 }
             },
@@ -806,7 +806,7 @@
                     "patching_rect": [ 312.0, 379.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 153.5, 38.0, 41.0, 113.0 ],
-                    "varname": "RandOscPchEnvDurMinMax",
+                    "varname": #2-RandOscPchEnvDurMinMax",
                     "viewvisibility": 1
                 }
             },
@@ -835,7 +835,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandOscPchEnvDur",
+                            "parameter_longname": #2-RandOscPchEnvDur",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Duration",
@@ -844,7 +844,7 @@
                     },
                     "text": "Duration",
                     "texton": "Duration",
-                    "varname": "RandOscPchEnvDur"
+                    "varname": #2-RandOscPchEnvDur"
                 }
             },
             {

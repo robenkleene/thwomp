@@ -85,8 +85,8 @@
             },
             {
                 "box": {
-                    "annotation": "#1 maximum value.",
-                    "annotation_name": "#1 Max",
+                    "annotation": "#2 maximum value.",
+                    "annotation_name": "#2 Max",
                     "id": "obj-2",
                     "maxclass": "live.dial",
                     "numinlets": 1,
@@ -111,14 +111,15 @@
             },
             {
                 "box": {
-                    "annotation": "#1 mininum value.",
-                    "annotation_name": "#1 Min",
+                    "annotation": "#2 mininum value.",
+                    "annotation_name": "#2 Min",
                     "id": "obj-1",
                     "maxclass": "live.dial",
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
+                    "parameter_mappable": 0,
                     "patching_rect": [ 8.0, 304.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 41.0, 48.0 ],

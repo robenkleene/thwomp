@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 616.0, 230.0, 1536.0, 914.0 ],
+        "rect": [ 577.0, 291.0, 1536.0, 914.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -75,7 +75,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 1021.0, 22.0, 56.0, 22.0 ],
                     "restore": {
-                        "RandOsc": [ 0.0 ],
+                        "#2-RandOsc": [ 0.0 ],
                         "RandOscAttack": [ 1.0 ],
                         "RandOscDecay": [ 0.0 ],
                         "RandOscFreq": [ 0.0 ],
@@ -200,7 +200,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandOscNote",
+                            "parameter_longname": #2-RandOscNote",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Note",
@@ -209,7 +209,7 @@
                     },
                     "text": "Note",
                     "texton": "Note",
-                    "varname": "RandOscNote"
+                    "varname": #2-RandOscNote"
                 }
             },
             {
@@ -280,7 +280,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandOsc",
+                            "parameter_longname": "#2-RandOsc",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Osc",
@@ -289,7 +289,7 @@
                     },
                     "text": "Osc",
                     "texton": "Osc",
-                    "varname": "RandOsc"
+                    "varname": "#2-RandOsc"
                 }
             },
             {
@@ -435,7 +435,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandOscGain",
+                            "parameter_longname": #2-RandOscGain",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Gain",
@@ -444,7 +444,7 @@
                     },
                     "text": "Gain",
                     "texton": "Gain",
-                    "varname": "RandOscGain"
+                    "varname": #2-RandOscGain"
                 }
             },
             {
@@ -461,7 +461,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandOscDecay",
+                            "parameter_longname": #2-RandOscDecay",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Decay",
@@ -470,7 +470,7 @@
                     },
                     "text": "Decay",
                     "texton": "Decay",
-                    "varname": "RandOscDecay"
+                    "varname": #2-RandOscDecay"
                 }
             },
             {
@@ -487,7 +487,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandOscAttack",
+                            "parameter_longname": #2-RandOscAttack",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Attack",
@@ -496,12 +496,12 @@
                     },
                     "text": "Attack",
                     "texton": "Attack",
-                    "varname": "RandOscAttack"
+                    "varname": #2-RandOscAttack"
                 }
             },
             {
                 "box": {
-                    "args": [ "RandOscGain", "Gain" ],
+                    "args": [ "#2-RandOscGain", "Gain" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -519,7 +519,7 @@
                     "patching_rect": [ 548.0, 362.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 193.5, 38.0, 41.0, 113.0 ],
-                    "varname": "RandOscGainMinMax",
+                    "varname": #2-RandOscGainMinMax",
                     "viewvisibility": 1
                 }
             },
@@ -536,7 +536,7 @@
             },
             {
                 "box": {
-                    "args": [ "RandOscDecay", "Dec" ],
+                    "args": [ "#2-RandOscDecay", "Dec" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -554,7 +554,7 @@
                     "patching_rect": [ 396.0, 362.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 146.5, 38.0, 41.0, 113.0 ],
-                    "varname": "RandOscDecayMinMax",
+                    "varname": #2-RandOscDecayMinMax",
                     "viewvisibility": 1
                 }
             },
@@ -571,7 +571,7 @@
             },
             {
                 "box": {
-                    "args": [ "RandOscAttack", "Att" ],
+                    "args": [ "#2-RandOscAttack", "Att" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -589,7 +589,7 @@
                     "patching_rect": [ 236.0, 362.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 99.0, 38.0, 41.0, 113.0 ],
-                    "varname": "RandOscAttackMinMax",
+                    "varname": #2-RandOscAttackMinMax",
                     "viewvisibility": 1
                 }
             },
@@ -672,7 +672,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandOscReset",
+                            "parameter_longname": #2-RandOscReset",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Reset",
@@ -681,7 +681,7 @@
                     },
                     "text": "Reset",
                     "texton": "Reset",
-                    "varname": "RandOscReset"
+                    "varname": #2-RandOscReset"
                 }
             },
             {
@@ -741,7 +741,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandOscSemi",
+                            "parameter_longname": #2-RandOscSemi",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Semi",
@@ -750,7 +750,7 @@
                     },
                     "text": "Semi",
                     "texton": "Semi",
-                    "varname": "RandOscSemi"
+                    "varname": #2-RandOscSemi"
                 }
             },
             {
@@ -766,7 +766,7 @@
             },
             {
                 "box": {
-                    "args": [ "RandOscSemi", "Semi" ],
+                    "args": [ "#2-RandOscSemi", "Semi" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -784,7 +784,7 @@
                     "patching_rect": [ 387.0, 81.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 52.0, 38.0, 41.0, 113.0 ],
-                    "varname": "RandOscSemiMinMax",
+                    "varname": #2-RandOscSemiMinMax",
                     "viewvisibility": 1
                 }
             },
@@ -833,7 +833,7 @@
             },
             {
                 "box": {
-                    "args": [ "RandOscFreq", "Frq" ],
+                    "args": [ "#2-RandOscFreq", "Frq" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -851,7 +851,7 @@
                     "patching_rect": [ 539.0, 81.0, 41.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 5.0, 38.0, 41.0, 113.0 ],
-                    "varname": "RandOscFreqMinMax",
+                    "varname": #2-RandOscFreqMinMax",
                     "viewvisibility": 1
                 }
             },
@@ -880,7 +880,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandOscFreq",
+                            "parameter_longname": #2-RandOscFreq",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Freq",
@@ -889,7 +889,7 @@
                     },
                     "text": "Freq",
                     "texton": "Freq",
-                    "varname": "RandOscFreq"
+                    "varname": #2-RandOscFreq"
                 }
             },
             {
@@ -1304,7 +1304,7 @@
             "obj-138": [ "RandOscNote", "Note", 0 ],
             "obj-18::obj-1": [ "RandOscAttack-Min", "Min", 0 ],
             "obj-18::obj-2": [ "RandOscAttack-Max", "Max", 0 ],
-            "obj-204": [ "RandOsc", "Osc", 0 ],
+            "obj-204": [ "#2-RandOsc", "Osc", 0 ],
             "obj-206::obj-1": [ "RandOscSemi-Min", "Min", 0 ],
             "obj-206::obj-2": [ "RandOscSemi-Max", "Max", 0 ],
             "obj-20::obj-1": [ "RandOscDecay-Min", "Min", 0 ],
@@ -1329,33 +1329,43 @@
             },
             "parameter_overrides": {
                 "obj-18::obj-1": {
+                    "parameter_longname": #2-RandOscAttack-Min",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-18::obj-2": {
+                    "parameter_longname": #2-RandOscAttack-Max",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-206::obj-1": {
+                    "parameter_longname": #2-RandOscSemi-Min",
                     "parameter_range": [ -48, 48 ]
                 },
                 "obj-206::obj-2": {
+                    "parameter_longname": #2-RandOscSemi-Max",
                     "parameter_range": [ -48, 48 ]
                 },
                 "obj-20::obj-1": {
+                    "parameter_longname": #2-RandOscDecay-Min",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-20::obj-2": {
+                    "parameter_longname": #2-RandOscDecay-Max",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-24::obj-1": {
+                    "parameter_longname": #2-RandOscGain-Min",
                     "parameter_range": [ -70.0, 6.0 ]
                 },
                 "obj-24::obj-2": {
+                    "parameter_longname": #2-RandOscGain-Max",
                     "parameter_range": [ -70.0, 6.0 ]
                 },
                 "obj-36::obj-1": {
+                    "parameter_longname": #2-RandOscFreq-Min",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-36::obj-2": {
+                    "parameter_longname": #2-RandOscFreq-Max",
                     "parameter_range": [ 0.0, 15000.0 ]
                 }
             },

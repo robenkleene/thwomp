@@ -32,7 +32,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 360.0, 64.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-Max": [ 8.976377952755913 ],
+                        "#1-Max": [ 8.976377952755907 ],
                         "#1-Min": [ 4.000000000000001 ]
                     },
                     "text": "autopattr",
@@ -85,8 +85,8 @@
             },
             {
                 "box": {
-                    "annotation": "#1 maximum value.",
-                    "annotation_name": "#1 Max",
+                    "annotation": "#2 maximum value.",
+                    "annotation_name": "#2 Max",
                     "id": "obj-2",
                     "maxclass": "live.dial",
                     "numinlets": 1,
@@ -112,8 +112,8 @@
             },
             {
                 "box": {
-                    "annotation": "#1 mininum value.",
-                    "annotation_name": "#1 Min",
+                    "annotation": "#2 mininum value.",
+                    "annotation_name": "#2 Min",
                     "id": "obj-1",
                     "maxclass": "live.dial",
                     "numinlets": 1,
