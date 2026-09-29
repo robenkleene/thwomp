@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 512.0, 128.0, 1559.0, 894.0 ],
+        "rect": [ 512.0, 128.0, 882.0, 837.0 ],
         "boxes": [
             {
                 "box": {
@@ -123,7 +123,7 @@
             },
             {
                 "box": {
-                    "comment": "(int) min value",
+                    "comment": "(int float) min value",
                     "id": "obj-5",
                     "index": 0,
                     "maxclass": "inlet",
@@ -135,7 +135,7 @@
             },
             {
                 "box": {
-                    "comment": "(int) max value",
+                    "comment": "(int float) max value",
                     "id": "obj-3",
                     "index": 0,
                     "maxclass": "inlet",
@@ -203,7 +203,7 @@
             },
             {
                 "box": {
-                    "comment": "(int) incremented value",
+                    "comment": "(int float) random value",
                     "id": "obj-16",
                     "index": 0,
                     "maxclass": "outlet",
