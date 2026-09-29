@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 632.0, 345.0, 1656.0, 1002.0 ],
+        "rect": [ 846.0, 155.0, 1161.0, 1002.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -86,13 +86,13 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 941.0, 26.0, 56.0, 22.0 ],
                     "restore": {
-                        "RandOscFilt": [ 0.0 ],
-                        "RandOscPchEnvAmt": [ 0.0 ],
-                        "RandOscPchEnvCur": [ 0.0 ],
-                        "RandOscPchEnvDur": [ 0.0 ],
-                        "RandOscShape": [ 0.0 ],
-                        "RandOverdrive": [ 0.0 ],
-                        "RandOvertone": [ 0.0 ]
+                        "#2-RandOscFilt": [ 0.0 ],
+                        "#2-RandOscPchEnvAmt": [ 0.0 ],
+                        "#2-RandOscPchEnvCur": [ 0.0 ],
+                        "#2-RandOscPchEnvDur": [ 0.0 ],
+                        "#2-RandOscShape": [ 0.0 ],
+                        "#2-RandOverdrive": [ 0.0 ],
+                        "#2-RandOvertone": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u678017121"
@@ -221,7 +221,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "#2-RandOscShape",
+                            "parameter_longname": "RandOscShape",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Shape",
@@ -333,7 +333,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "#2-RandOvertone",
+                            "parameter_longname": "RandOvertone",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Overtone",
@@ -359,7 +359,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "#2-RandOverdrive",
+                            "parameter_longname": "RandOverdrive",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Overdrive",
@@ -373,7 +373,7 @@
             },
             {
                 "box": {
-                    "args": [ "RandOvertone", "Ovt" ],
+                    "args": [ "#2-RandOvertone", "Ovt" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -408,7 +408,7 @@
             },
             {
                 "box": {
-                    "args": [ "RandOverdrive", "Ovr" ],
+                    "args": [ "#2-RandOverdrive", "Ovr" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -523,7 +523,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "#2-RandOscFilt",
+                            "parameter_longname": "RandOscFilt",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Filter",
@@ -678,7 +678,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "#2-RandOscPchEnvAmt",
+                            "parameter_longname": "RandOscPchEnvAmt",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Amount",
@@ -704,7 +704,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "#2-RandOscPchEnvCur",
+                            "parameter_longname": "RandOscPchEnvCur",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Curve",
@@ -718,7 +718,7 @@
             },
             {
                 "box": {
-                    "args": [ "RandOscPchEnvAmt", "PAmt" ],
+                    "args": [ "#2-RandOscPchEnvAmt", "PAmt" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -753,7 +753,7 @@
             },
             {
                 "box": {
-                    "args": [ "RandOscPchEnvCurve", "PCur" ],
+                    "args": [ "#2-RandOscPchEnvCurve", "PCur" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -788,7 +788,7 @@
             },
             {
                 "box": {
-                    "args": [ "RandOscPchEnvDur", "PDur" ],
+                    "args": [ "#2-RandOscPchEnvDur", "PDur" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -835,7 +835,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "#2-RandOscPchEnvDur",
+                            "parameter_longname": "RandOscPchEnvDur",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Duration",
@@ -1046,14 +1046,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-10", 0 ],
-                    "order": 6,
+                    "order": 3,
                     "source": [ "obj-2", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-12", 0 ],
-                    "order": 5,
+                    "order": 2,
                     "source": [ "obj-2", 0 ]
                 }
             },
@@ -1067,7 +1067,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-16", 0 ],
-                    "order": 3,
+                    "order": 5,
                     "source": [ "obj-2", 0 ]
                 }
             },
@@ -1094,7 +1094,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-8", 0 ],
-                    "order": 2,
+                    "order": 6,
                     "source": [ "obj-2", 0 ]
                 }
             },
@@ -1247,33 +1247,43 @@
             },
             "parameter_overrides": {
                 "obj-10::obj-1": {
+                    "parameter_longname": "RandOscPchEnvDur-Min",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-10::obj-2": {
+                    "parameter_longname": "RandOscPchEnvDur-Max",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-12::obj-1": {
+                    "parameter_longname": "RandOscPchEnvCurve-Min",
                     "parameter_range": [ -100.0, 100.0 ]
                 },
                 "obj-12::obj-2": {
+                    "parameter_longname": "RandOscPchEnvCurve-Max",
                     "parameter_range": [ -100.0, 100.0 ]
                 },
                 "obj-14::obj-1": {
+                    "parameter_longname": "RandOscPchEnvAmt-Min",
                     "parameter_range": [ -500.0, 500.0 ]
                 },
                 "obj-14::obj-2": {
+                    "parameter_longname": "RandOscPchEnvAmt-Max",
                     "parameter_range": [ -500.0, 500.0 ]
                 },
                 "obj-16::obj-1": {
+                    "parameter_longname": "RandOvertone-Min",
                     "parameter_range": [ 0.0, 100.0 ]
                 },
                 "obj-16::obj-2": {
+                    "parameter_longname": "RandOvertone-Max",
                     "parameter_range": [ 0.0, 100.0 ]
                 },
                 "obj-8::obj-1": {
+                    "parameter_longname": "RandOverdrive-Min",
                     "parameter_range": [ 0.0, 100.0 ]
                 },
                 "obj-8::obj-2": {
+                    "parameter_longname": "RandOverdrive-Max",
                     "parameter_range": [ 0.0, 100.0 ]
                 }
             },
