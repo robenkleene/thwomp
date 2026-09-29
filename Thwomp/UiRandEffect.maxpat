@@ -877,6 +877,18 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-90", 3 ],
+                    "source": [ "obj-10", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-90", 2 ],
+                    "source": [ "obj-10", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-8", 0 ],
                     "source": [ "obj-11", 0 ]
                 }
