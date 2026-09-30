@@ -90,7 +90,6 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 1246.0, 528.0, 56.0, 22.0 ],
                     "restore": {
-                        "RandTab": [ 2.0 ],
                         "RandTrig": [ 0.0 ],
                         "RandTrigToggle": [ 0.0 ]
                     },
@@ -1104,7 +1103,15 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-11", 0 ],
+                    "order": 1,
+                    "source": [ "obj-6", 1 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-175", 0 ],
+                    "order": 0,
                     "source": [ "obj-6", 1 ]
                 }
             },
