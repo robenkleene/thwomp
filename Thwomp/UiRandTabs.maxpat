@@ -14,6 +14,29 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-30",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 501.0, 60.0, 56.0, 22.0 ],
+                    "restore": {
+                        "RandEffect1": [ 0.0 ],
+                        "RandEffect2": [ 0.0 ],
+                        "RandOsc1": [ 0.0 ],
+                        "RandOsc2": [ 0.0 ],
+                        "RandTabEffect1": [ 0.0 ],
+                        "RandTabEffect2": [ 0.0 ],
+                        "RandTabFilter": [ 0.0 ],
+                        "RandTabOsc1": [ 0.0 ],
+                        "RandTabOsc2": [ 0.0 ]
+                    },
+                    "text": "autopattr",
+                    "varname": "u330016600"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-28",
                     "maxclass": "newobj",
                     "numinlets": 1,
