@@ -18,45 +18,57 @@ setoutletassist(OUTLET_DONE, "(bang) sent when bank control messages finish");
 
 // Re-align with `sed 's/, */,\t/g' | column -t -s $'\t'`
 var ENCODERS = [
-["Oscillator",   "Tab",  "PresetsSelect",  "$1-OscShape",           "$2",                    "$1-PitchEnvDur",          "$1-PitchEnvCurve",        "$1-PitchEnvAmt",        "-"],
-["Amp",          "Tab",  "$1-AmpAttack",   "$1-AmpDecay",           "$1-Gain",               "Vol",                     "$1-Overdrive",            "$1-Overtone",           "-"],
-["Filter/Ring",  "Tab",  "FiltType",       "FiltFreq",              "FiltQ",                 "RingAttack",              "RingDecay",               "RingGain",              "RandAuto"],
-["Rand Osc",     "Tab",  "RandTab",        "RandOscFreq-Min",       "RandOscFreq-Max",       "RandOscSemi-Min",         "RandOscSemi-Max",         "RandOscShape-Min",      "RandOscShape-Max"],
-["Rand Pitch",   "Tab",  "RandTab",        "RandOscPchEnvAmt-Min",  "RandOscPchEnvAmt-Max",  "RandOscPchEnvCurve-Min",  "RandOscPchEnvCurve-Max",  "RandOscPchEnvDur-Min",  "RandOscPchEnvDur-Max"],
-["Rand Amp",     "Tab",  "RandTab",        "RandOscAttack-Min",     "RandOscAttack-Max",     "RandOscDecay-Min",        "RandOscDecay-Max",        "RandOscGain-Min",       "RandOscGain-Max"],
-["Rand Effect",  "Tab",  "RandTab",        "RandOvertone-Min",      "RandOvertone-Max",      "RandOverdrive-Min",       "RandOverdrive-Max",       "RandVol-Min",           "RandVol-Max"],
-["Rand Filter",  "Tab",  "RandTab",        "RandFiltFreq-Min",      "RandFiltFreq-Max",      "RandFiltQ-Min",           "RandFiltQ-Max",           "RandFiltType-Min",      "RandFiltType-Max"],
-["Rand Ring",    "Tab",  "RandTab",        "RandRingAttack-Min",    "RandRingAttack-Max",    "RandRingDecay-Min",       "RandRingDecay-Max",       "RandRingGain-Min",      "RandRingGain-Max"],
+["Oscillator",   "Tab",  "PresetsSelect",  "$1-OscShape",              "$2",                       "$1-PitchEnvDur",             "$1-PitchEnvCurve",           "$1-PitchEnvAmt",           "-"],
+["Amp",          "Tab",  "$1-AmpAttack",   "$1-AmpDecay",              "$1-Gain",                  "Vol",                        "$1-Overdrive",               "$1-Overtone",              "-"],
+["Filter/Ring",  "Tab",  "FiltType",       "FiltFreq",                 "FiltQ",                    "RingAttack",                 "RingDecay",                  "RingGain",                 "RandAuto"],
+["Rand Osc",     "Tab",  "RandTab",        "$3-RandOscFreq-Min",       "$3-RandOscFreq-Max",       "$3-RandOscSemi-Min",         "$3-RandOscSemi-Max",         "-",                        "-"],
+["Rand Pitch",   "Tab",  "RandTab",        "$3-RandOscPchEnvAmt-Min",  "$3-RandOscPchEnvAmt-Max",  "$3-RandOscPchEnvCurve-Min",  "$3-RandOscPchEnvCurve-Max",  "$3-RandOscPchEnvDur-Min",  "$3-RandOscPchEnvDur-Max"],
+["Rand Amp",     "Tab",  "RandTab",        "$3-RandOscAttack-Min",     "$3-RandOscAttack-Max",     "$3-RandOscDecay-Min",        "$3-RandOscDecay-Max",        "$3-RandOscGain-Min",       "$3-RandOscGain-Max"],
+["Rand Effect",  "Tab",  "RandTab",        "$3-RandOvertone-Min",      "$3-RandOvertone-Max",      "$3-RandOverdrive-Min",       "$3-RandOverdrive-Max",       "RandVol-Min",              "RandVol-Max"],
+["Rand Filter",  "Tab",  "RandTab",        "RandFiltFreq-Min",         "RandFiltFreq-Max",         "RandFiltQ-Min",              "RandFiltQ-Max",              "-",                        "-"],
+["Rand Ring",    "Tab",  "RandTab",        "RandRingAttack-Min",       "RandRingAttack-Max",       "RandRingDecay-Min",          "RandRingDecay-Max",          "RandRingGain-Min",         "RandRingGain-Max"],
 ];
 
 var BUTTONS = [
-["-",  "-",     "$1-Osc",            "$1-OscNote",    "$1-OscReset",       "$1-OscFilt",    "-",                 "-"],
-["-",  "-",     "-",                 "-",             "-",                 "-",             "-",                 "-"],
-["-",  "Filt",  "-",                 "-",             "Ring",              "RingFilt",      "-",                 "Randomize"],
-["-",  "-",     "RandOscFreq",       "RandOsc1",      "RandOscSemi",       "RandOsc2",      "RandOscShape",      "RandOsc"],
-["-",  "-",     "RandOscPchEnvAmt",  "RandOscReset",  "RandOscPchEnvCur",  "RandOscFilt",   "RandOscPchEnvDur",  "RandOscNote"],
-["-",  "-",     "RandOscAttack",     "-",             "RandOscDecay",      "-",             "RandOscGain",       "-"],
-["-",  "-",     "RandOvertone",      "-",             "RandOverdrive",     "-",             "RandVol",           "-"],
-["-",  "-",     "RandFiltFreq",      "RandFilt",      "RandFiltQ",         "-",             "RandFiltType",      "-"],
-["-",  "-",     "RandRingAttack",    "RandRing",      "RandRingDecay",     "RandRingFilt",  "RandRingGain",      "-"],
+["-",  "-",     "$1-Osc",               "$1-OscNote",       "$1-OscReset",          "$1-OscFilt",      "-",                    "-"],
+["-",  "-",     "-",                    "-",                "-",                    "-",               "-",                    "-"],
+["-",  "Filt",  "-",                    "-",                "Ring",                 "RingFilt",        "-",                    "Randomize"],
+["-",  "-",     "$3-RandOscFreq",       "RandOsc1",         "$3-RandOscSemi",       "RandOsc2",        "$3-RandOscShape",      "$3-RandOsc"],
+["-",  "-",     "$3-RandOscPchEnvAmt",  "$3-RandOscReset",  "$3-RandOscPchEnvCur",  "$3-RandOscFilt",  "$3-RandOscPchEnvDur",  "$3-RandOscNote"],
+["-",  "-",     "$3-RandOscAttack",     "-",                "$3-RandOscDecay",      "-",               "$3-RandOscGain",       "-"],
+["-",  "-",     "$3-RandOvertone",      "-",                "$3-RandOverdrive",     "-",               "RandVol",              "-"],
+["-",  "-",     "RandFiltFreq",         "RandFilt",         "RandFiltQ",            "-",               "RandFiltType",         "-"],
+["-",  "-",     "RandRingAttack",       "RandRing",         "RandRingDecay",        "RandRingFilt",    "RandRingGain",         "-"],
 ];
 
 // State
+var TAB_OSCS = { 1: 1, 2: 2 };
+var RANDTAB_OSCS = { 0: 1, 1: 1, 2: 2, 3: 2 };
+
 var DEFAULT_TAB = 1;
+var DEFAULT_RANDTAB = 0;
 var DEFAULT_NOTE = 0;
-var currentTab = DEFAULT_TAB;
+
+var currentOsc = TAB_OSCS[DEFAULT_TAB];
+var currentRandOsc = RANDTAB_OSCS[DEFAULT_RANDTAB];
 var currentNote = DEFAULT_NOTE;
 
 var NOTE_POSTFIXES = ["OscFreq", "OscSemi"];
+
+function oscForTab(oscs, tab, current) {
+  return oscs[tab] !== undefined ? oscs[tab] : current;
+}
 
 function replaceTokens(tokens) {
   var out = [];
   for (var j = 0; j < tokens.length; j++) {
     var token = tokens[j];
     if (token === "$2") {
-      out.push(currentTab + "-" + NOTE_POSTFIXES[currentNote]);
+      out.push(currentOsc + "-" + NOTE_POSTFIXES[currentNote]);
     } else {
-      out.push(token.replace("$1", String(currentTab)));
+      out.push(
+        token.replace("$1", String(currentOsc)).replace("$3", String(currentRandOsc))
+      );
     }
   }
   return out;
@@ -75,12 +87,7 @@ function bankMessage(i) {
 }
 
 function update() {
-  if (currentTab < 0 || currentTab > 2) {
-    return;
-  }
-
-  // Only banks `0-3` contain tokens (e.g., `$1`) and only banks with tokens need to be updated
-  for (var i = 0; i < 4; i++) {
+  for (var i = 0; i < ENCODERS.length; i++) {
     outlet(OUTLET_BANK, bankMessage(i));
   }
 
@@ -89,7 +96,9 @@ function update() {
 
 function msg_int(value) {
   if (inlet === INLET_TAB) {
-    currentTab = value;
+    currentOsc = oscForTab(TAB_OSCS, value, currentOsc);
+  } else if (inlet === INLET_RANDTAB) {
+    currentRandOsc = oscForTab(RANDTAB_OSCS, value, currentRandOsc);
   } else if (inlet === INLET_NOTE) {
     currentNote = value;
   }
@@ -107,14 +116,11 @@ function list() {
 
 // Init for setting up banks, sets to default values and dumps all tabs
 function bang() {
-  currentTab = DEFAULT_TAB;
+  currentOsc = TAB_OSCS[DEFAULT_TAB];
+  currentRandOsc = RANDTAB_OSCS[DEFAULT_RANDTAB];
   currentNote = DEFAULT_NOTE;
 
-  for (var i = 0; i < ENCODERS.length; i++) {
-    outlet(OUTLET_BANK, bankMessage(i));
-  }
-
-  outlet(OUTLET_DONE, "bang");
+  update();
 }
 
 function log(obj) {
