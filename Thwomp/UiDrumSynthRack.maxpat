@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 232.0, 294.0, 1308.0, 663.0 ],
+        "rect": [ 160.0, 282.0, 1308.0, 663.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -1660,30 +1660,6 @@
             },
             {
                 "box": {
-                    "args": [ "#1" ],
-                    "bgmode": 0,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-1",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "UiDrumSynthBank.maxpat",
-                    "numinlets": 1,
-                    "numoutlets": 5,
-                    "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "signal", "signal", "signal", "signal", "" ],
-                    "patching_rect": [ 39.0, 336.0, 225.0, 172.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 46.0, 0.0, 346.0, 170.0 ],
-                    "varname": "DrumSynthBank",
-                    "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
                     "annotation": "Randomize the sequencer.",
                     "annotation_name": "Randomize",
                     "automation": "Off",
@@ -1711,6 +1687,50 @@
                     },
                     "text": "Rand",
                     "varname": "Randomize"
+                }
+            },
+            {
+                "box": {
+                    "angle": 270.0,
+                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
+                    "id": "obj-72",
+                    "maxclass": "panel",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 725.0, 197.0, 128.0, 128.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 343.0, 86.0, 40.0, 83.0 ],
+                    "proportion": 0.39,
+                    "saved_attribute_attributes": {
+                        "bgfillcolor": {
+                            "expression": "themecolor.live_surface_bg"
+                        }
+                    }
+                }
+            },
+            {
+                "box": {
+                    "args": [ "#1" ],
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-1",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiDrumSynthBank.maxpat",
+                    "numinlets": 1,
+                    "numoutlets": 5,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "signal", "signal", "signal", "signal", "" ],
+                    "patching_rect": [ 39.0, 336.0, 225.0, 172.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 46.0, 0.0, 346.0, 170.0 ],
+                    "varname": "DrumSynthBank",
+                    "viewvisibility": 1
                 }
             }
         ],

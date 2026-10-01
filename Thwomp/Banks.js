@@ -2,14 +2,16 @@
 autowatch = 1;
 
 // Inlets & Outlets
-inlets = 2;
+inlets = 3;
 outlets = 2;
 var INLET_TAB = 0;
-var INLET_NOTE = 1;
+var INLET_RANDTAB = 1;
+var INLET_NOTE = 2;
 var OUTLET_BANK = 0;
 var OUTLET_DONE = 1;
 
 setinletassist(INLET_TAB, "(bang, int) trigger bank messages, tab");
+setinletassist(INLET_RANDTAB, "(int) randomize tab");
 setinletassist(INLET_NOTE, "(int) 0 note on, 1 note off");
 setoutletassist(OUTLET_BANK, "(message) bank control messages");
 setoutletassist(OUTLET_DONE, "(bang) sent when bank control messages finish");

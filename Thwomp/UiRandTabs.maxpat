@@ -833,7 +833,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(int) item index",
                     "id": "obj-9",
                     "index": 0,
                     "maxclass": "outlet",
