@@ -460,7 +460,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 496.0, 226.0, 37.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 2.0, 132.0, 37.0, 18.0 ],
+                    "presentation_rect": [ 1.0, 133.0, 37.0, 18.0 ],
                     "text": "Preset"
                 }
             },
