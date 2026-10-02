@@ -144,6 +144,7 @@ Randomize settings are split across five tabs: **Osc 1**, **Effect 1**, **Osc 2*
 
 ![Randomize Filter](assets/rand-filter.png)
 
+- **Auto:** Automatically trigger randomize after this number of beats (`0` is off)
 - **Volume:** Toggle and min-max range for **Volume**
 
 #### Filter
