@@ -106,19 +106,19 @@ Presets are available either when opening in Max directly, or by choosing `Edit 
 
 ## Randomize
 
+Randomize settings are split across five tabs: **Osc 1**, **Effect 1**, **Osc 2**, **Effect 2**, and **Global**. The oscillator and effect tabs each hold an independent set of toggles and ranges, so **Osc 1** can be randomized across one range of frequencies and decays while **Osc 2** is randomized across another. The toggle on each tab enables randomizing that section.
+
+**Global** holds the settings that aren't per-oscillator: the filter, the ring modulator, and the device volume.
+
 ### Oscillator
 
 ![Randomize Oscillator](assets/rand-osc.png)
 
 #### Toggles
 
-- **Osc 1:** Toggle whether to randomize **Osc 1**
-- **Osc 2:** Toggle whether to randomize **Osc 2**
 - **Osc:** Toggle whether to randomize **Osc**
 - **Note:** Toggle whether to randomize **Note**
-- **Filter:** Toggle whether to randomize **Filter**
 - **Reset:** Toggle whether to randomize **Reset**
-- **Shape:** Toggle and min-max range for **Shape**
 - **Freq:** Toggle and min-max range for **Freq**
 - **Semi:** Toggle and min-max range for **Semi**
 - **Attack:** Toggle and min-max range for **Attack**
@@ -129,6 +129,8 @@ Presets are available either when opening in Max directly, or by choosing `Edit 
 
 ![Randomize Effect](assets/rand-effect.png)
 
+- **Shape:** Toggle whether to randomize **Shape**
+- **Filter:** Toggle whether to randomize **Filter**
 - **Overdrive:** Toggle and min-max range for **Overdrive**
 - **Overtone:** Toggle and min-max range for **Overtone**
 
@@ -138,12 +140,16 @@ Presets are available either when opening in Max directly, or by choosing `Edit 
 - **Duration:** Toggle and min-max range for **Duration**
 - **Curve:** Toggle and min-max range for **Curve**
 
-### Filter
+### Global
 
 ![Randomize Filter](assets/rand-filter.png)
 
+- **Volume:** Toggle and min-max range for **Volume**
+
+#### Filter
+
 - **Filter:** Toggle whether to randomize **Filter**
-- **Type:** Toggle and min-max range for **Type**
+- **Type:** Toggle whether to randomize **Type**
 - **Freq:** Toggle and min-max range for **Freq**
 - **Res:** Toggle and min-max range for **Res**
 
@@ -158,6 +164,20 @@ Presets are available either when opening in Max directly, or by choosing `Edit 
 ## Ableton Push Support
 
 Only controls are accessible on Push.
+
+Controls are laid out across nine banks:
+
+1. **Oscillator**
+2. **Amp**
+3. **Filter/Ring**
+4. **Rand Osc**
+5. **Rand Pitch**
+6. **Rand Amp**
+7. **Rand Effect**
+8. **Rand Filter**
+9. **Rand Ring**
+
+The first encoder of every bank is **BanksOsc**, which chooses whether the per-oscillator controls in that bank address **Osc 1** or **Osc 2**. It applies to the oscillator banks and the randomize banks alike, so changing it re-points e.g. **Rand Osc** at the other oscillator's ranges. This is separate from the **Osc 1-2** tabs in the device interface, which only change what's displayed.
 
 ## Demos
 
