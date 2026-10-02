@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 160.0, 282.0, 1308.0, 663.0 ],
+        "rect": [ 824.0, 437.0, 1308.0, 663.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -57,7 +57,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 702.3333333333334, 240.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 2.0, 133.0, 42.0, 15.0 ],
+                    "presentation_rect": [ 3.0, 149.0, 38.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Kick", "808 Kick", "909 Kick", "Snare", "Clap", "Hi-Hat", "Cymbal", "Tom", "Bell", "Cowbell", "Bongo Low", "Bongo High", "Conga Low", "Conga High", "Init" ],
@@ -460,7 +460,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 496.0, 226.0, 37.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 2.0, 116.0, 37.0, 18.0 ],
+                    "presentation_rect": [ 2.0, 132.0, 37.0, 18.0 ],
                     "text": "Preset"
                 }
             },
@@ -1673,7 +1673,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 129.0, 264.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 2.0, 150.0, 42.0, 15.0 ],
+                    "presentation_rect": [ 4.0, 68.0, 38.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_button_mode": "Momentary",
@@ -1731,6 +1731,26 @@
                     "presentation_rect": [ 46.0, 0.0, 346.0, 170.0 ],
                     "varname": "DrumSynthBank",
                     "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "angle": 270.0,
+                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
+                    "id": "obj-82",
+                    "maxclass": "panel",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1029.0, 328.0, 128.0, 128.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 1.0, 65.0, 43.0, 105.0 ],
+                    "proportion": 0.39,
+                    "saved_attribute_attributes": {
+                        "bgfillcolor": {
+                            "expression": "themecolor.live_surface_bg"
+                        }
+                    }
                 }
             }
         ],
