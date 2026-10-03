@@ -4,14 +4,25 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 3,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 153.0, 112.0, 1365.0, 970.0 ],
+        "rect": [ 196.0, 287.0, 1365.0, 970.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-7",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 40.0, 44.0, 96.0, 22.0 ],
+                    "text": "routepass active"
+                }
+            },
             {
                 "box": {
                     "id": "obj-6",
@@ -21,8 +32,8 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 360.0, 64.0, 56.0, 22.0 ],
                     "restore": {
-                        "#1-Max": [ 8.976377952755916 ],
-                        "#1-Min": [ 4.0 ]
+                        "#1-Max": [ 8.976377952755907 ],
+                        "#1-Min": [ 4.000000000000001 ]
                     },
                     "text": "autopattr",
                     "varname": "u973012548"
@@ -68,14 +79,14 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 8.0, 64.0, 69.0, 22.0 ],
+                    "patching_rect": [ 8.0, 72.0, 69.0, 22.0 ],
                     "text": "route setup"
                 }
             },
             {
                 "box": {
-                    "annotation": "#1 maximum value.",
-                    "annotation_name": "#1 Max",
+                    "annotation": "#2 maximum value.",
+                    "annotation_name": "#2 Max",
                     "id": "obj-2",
                     "maxclass": "live.dial",
                     "numinlets": 1,
@@ -101,8 +112,8 @@
             },
             {
                 "box": {
-                    "annotation": "#1 mininum value.",
-                    "annotation_name": "#1 Min",
+                    "annotation": "#2 mininum value.",
+                    "annotation_name": "#2 Min",
                     "id": "obj-1",
                     "maxclass": "live.dial",
                     "numinlets": 1,
@@ -326,7 +337,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-4", 0 ],
+                    "destination": [ "obj-7", 0 ],
                     "source": [ "obj-20", 0 ]
                 }
             },
@@ -386,6 +397,26 @@
                 "patchline": {
                     "destination": [ "obj-2", 0 ],
                     "source": [ "obj-5", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-1", 0 ],
+                    "order": 1,
+                    "source": [ "obj-7", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-2", 0 ],
+                    "order": 0,
+                    "source": [ "obj-7", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-4", 0 ],
+                    "source": [ "obj-7", 1 ]
                 }
             },
             {

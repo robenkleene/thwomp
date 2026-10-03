@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
@@ -24,7 +24,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -324,7 +324,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(int) item index",
                     "id": "obj-1",
                     "index": 0,
                     "maxclass": "outlet",

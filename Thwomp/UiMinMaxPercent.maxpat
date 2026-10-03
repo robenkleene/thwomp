@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 3,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
@@ -12,6 +12,17 @@
         "rect": [ 153.0, 112.0, 1365.0, 970.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-7",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 52.0, 53.0, 96.0, 22.0 ],
+                    "text": "routepass active"
+                }
+            },
             {
                 "box": {
                     "id": "obj-6",
@@ -35,7 +46,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 8.0, 104.0, 29.5, 22.0 ],
+                    "patching_rect": [ 8.0, 120.0, 29.5, 22.0 ],
                     "text": "t l l"
                 }
             },
@@ -68,14 +79,14 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 8.0, 64.0, 69.0, 22.0 ],
+                    "patching_rect": [ 8.0, 91.0, 69.0, 22.0 ],
                     "text": "route setup"
                 }
             },
             {
                 "box": {
-                    "annotation": "#1 maximum value.",
-                    "annotation_name": "#1 Max",
+                    "annotation": "#2 maximum value.",
+                    "annotation_name": "#2 Max",
                     "id": "obj-2",
                     "maxclass": "live.dial",
                     "numinlets": 1,
@@ -100,8 +111,8 @@
             },
             {
                 "box": {
-                    "annotation": "#1 mininum value.",
-                    "annotation_name": "#1 Min",
+                    "annotation": "#2 mininum value.",
+                    "annotation_name": "#2 Min",
                     "id": "obj-1",
                     "maxclass": "live.dial",
                     "numinlets": 1,
@@ -324,7 +335,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-4", 0 ],
+                    "destination": [ "obj-7", 0 ],
                     "source": [ "obj-20", 0 ]
                 }
             },
@@ -384,6 +395,26 @@
                 "patchline": {
                     "destination": [ "obj-2", 0 ],
                     "source": [ "obj-5", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-1", 0 ],
+                    "order": 1,
+                    "source": [ "obj-7", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-2", 0 ],
+                    "order": 0,
+                    "source": [ "obj-7", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-4", 0 ],
+                    "source": [ "obj-7", 1 ]
                 }
             },
             {

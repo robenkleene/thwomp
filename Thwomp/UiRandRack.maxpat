@@ -4,14 +4,47 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 227.0, 242.0, 1574.0, 864.0 ],
+        "rect": [ 40.0, 206.0, 1722.0, 1007.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "comment": "(int) randomize tab",
+                    "id": "obj-14",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1049.0, 1166.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-13",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 215.0, 366.0, 63.0, 22.0 ],
+                    "text": "route auto"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-10",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "int", "int" ],
+                    "patching_rect": [ 283.0, 366.0, 29.5, 22.0 ],
+                    "text": "t i i"
+                }
+            },
             {
                 "box": {
                     "id": "obj-12",
@@ -19,7 +52,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1307.0, 528.0, 150.0, 47.0 ],
+                    "patching_rect": [ 805.0, 896.0, 150.0, 47.0 ],
                     "text": "Exclude `Set` from `autopattr` because it's meant to be transient"
                 }
             },
@@ -33,12 +66,12 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 157.0, 53.0, 100.0, 20.0 ],
+                    "patching_rect": [ 36.0, 53.0, 213.0, 21.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "Osc", "Effect", "Filter" ],
+                            "parameter_enum": [ "Osc 1", "Effect 1", "Osc 2", "Effect 2", "Global" ],
                             "parameter_longname": "RandTab",
-                            "parameter_mmax": 2,
+                            "parameter_mmax": 4,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Tab",
                             "parameter_type": 2,
@@ -66,10 +99,8 @@
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 1246.0, 528.0, 56.0, 22.0 ],
+                    "patching_rect": [ 744.0, 896.0, 56.0, 22.0 ],
                     "restore": {
-                        "RandAuto": [ 0.0 ],
-                        "RandTab": [ 0.0 ],
                         "RandTrig": [ 0.0 ],
                         "RandTrigToggle": [ 0.0 ]
                     },
@@ -105,7 +136,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 1141.0, 493.0, 47.0, 22.0 ],
+                    "patching_rect": [ 639.0, 861.0, 47.0, 22.0 ],
                     "text": "unpack"
                 }
             },
@@ -116,7 +147,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1141.0, 461.0, 57.0, 22.0 ],
+                    "patching_rect": [ 639.0, 829.0, 57.0, 22.0 ],
                     "text": "r #1-note"
                 }
             },
@@ -127,7 +158,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 1037.0, 651.0, 22.0, 22.0 ],
+                    "patching_rect": [ 535.0, 1019.0, 22.0, 22.0 ],
                     "text": "t b"
                 }
             },
@@ -138,7 +169,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 997.0, 683.0, 103.0, 100.0 ],
+                    "patching_rect": [ 495.0, 1051.0, 103.0, 100.0 ],
                     "text": "Sending `-1` disables the note filter so that all notes playback. (the randomize note is disabled for playback.)"
                 }
             },
@@ -149,7 +180,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 997.0, 651.0, 29.5, 22.0 ],
+                    "patching_rect": [ 495.0, 1019.0, 29.5, 22.0 ],
                     "text": "-1"
                 }
             },
@@ -160,7 +191,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "bang", "" ],
-                    "patching_rect": [ 997.0, 619.0, 50.0, 22.0 ],
+                    "patching_rect": [ 495.0, 987.0, 50.0, 22.0 ],
                     "text": "select 0"
                 }
             },
@@ -171,7 +202,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 997.0, 586.5, 29.5, 22.0 ],
+                    "patching_rect": [ 495.0, 954.0, 29.5, 22.0 ],
                     "text": "t i i"
                 }
             },
@@ -182,7 +213,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 933.0, 619.0, 32.0, 22.0 ],
+                    "patching_rect": [ 431.0, 987.0, 32.0, 22.0 ],
                     "text": "gate"
                 }
             },
@@ -193,7 +224,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 933.0, 707.0, 29.5, 22.0 ],
+                    "patching_rect": [ 431.0, 1075.0, 29.5, 22.0 ],
                     "text": "t i i"
                 }
             },
@@ -205,7 +236,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 933.0, 795.0, 30.0, 30.0 ]
+                    "patching_rect": [ 431.0, 1166.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -215,7 +246,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1117.0, 528.0, 70.0, 22.0 ],
+                    "patching_rect": [ 615.0, 896.0, 70.0, 22.0 ],
                     "text": "loadmess 0"
                 }
             },
@@ -226,7 +257,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 1117.0, 622.0, 29.5, 22.0 ],
+                    "patching_rect": [ 615.0, 990.0, 29.5, 22.0 ],
                     "text": "+ 1"
                 }
             },
@@ -237,7 +268,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "bang", "" ],
-                    "patching_rect": [ 1117.0, 747.0, 46.0, 22.0 ],
+                    "patching_rect": [ 615.0, 1115.0, 46.0, 22.0 ],
                     "text": "select"
                 }
             },
@@ -248,7 +279,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 1117.0, 662.0, 42.0, 22.0 ],
+                    "patching_rect": [ 615.0, 1030.0, 42.0, 22.0 ],
                     "text": "gate 2"
                 }
             },
@@ -259,7 +290,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 1037.0, 528.0, 29.5, 22.0 ],
+                    "patching_rect": [ 535.0, 896.0, 29.5, 22.0 ],
                     "text": "t i 0"
                 }
             },
@@ -275,9 +306,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 1117.0, 590.0, 44.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 297.0, 52.0, 39.0, 15.0 ],
+                    "patching_rect": [ 615.0, 958.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -300,7 +329,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 946.0, 528.0, 70.0, 22.0 ],
+                    "patching_rect": [ 444.0, 896.0, 70.0, 22.0 ],
                     "text": "loadmess 0"
                 }
             },
@@ -314,9 +343,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 946.0, 563.0, 44.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 297.0, 35.0, 39.0, 15.0 ],
+                    "patching_rect": [ 444.0, 931.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandTrig",
@@ -336,7 +363,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 581.0, 566.0, 144.0, 87.0 ],
+                    "patching_rect": [ 79.0, 934.0, 144.0, 87.0 ],
                     "text": "For Auto Beat 1, trigger the randomize on every beat greater than 1, because there will never be a zero crossing with a Auto Beat setting of 1"
                 }
             },
@@ -347,7 +374,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 733.0, 566.0, 29.5, 22.0 ],
+                    "patching_rect": [ 231.0, 934.0, 29.5, 22.0 ],
                     "text": "> 1"
                 }
             },
@@ -358,7 +385,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 733.0, 598.0, 29.5, 22.0 ],
+                    "patching_rect": [ 231.0, 966.0, 29.5, 22.0 ],
                     "text": "+ 1"
                 }
             },
@@ -369,7 +396,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 733.0, 630.0, 42.0, 22.0 ],
+                    "patching_rect": [ 231.0, 998.0, 42.0, 22.0 ],
                     "text": "gate 2"
                 }
             },
@@ -380,7 +407,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 757.0, 398.0, 29.5, 22.0 ],
+                    "patching_rect": [ 255.0, 766.0, 29.5, 22.0 ],
                     "text": "t i i"
                 }
             },
@@ -391,7 +418,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 757.0, 486.0, 32.0, 22.0 ],
+                    "patching_rect": [ 255.0, 854.0, 32.0, 22.0 ],
                     "text": "gate"
                 }
             },
@@ -402,7 +429,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "int", "int", "bang" ],
-                    "patching_rect": [ 821.0, 398.0, 46.0, 22.0 ],
+                    "patching_rect": [ 319.0, 766.0, 46.0, 22.0 ],
                     "text": "t i i b"
                 }
             },
@@ -413,7 +440,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 757.0, 446.0, 29.5, 22.0 ],
+                    "patching_rect": [ 255.0, 814.0, 29.5, 22.0 ],
                     "text": ">"
                 }
             },
@@ -424,7 +451,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 597.0, 406.0, 138.0, 114.0 ],
+                    "patching_rect": [ 95.0, 774.0, 138.0, 114.0 ],
                     "text": "Only trigger a randomize if the current beat is higher than the auto beat setting. This prevents a randomize from happening immediately when playback starts."
                 }
             },
@@ -435,7 +462,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 773.0, 750.0, 22.0, 22.0 ],
+                    "patching_rect": [ 271.0, 1118.0, 22.0, 22.0 ],
                     "text": "t b"
                 }
             },
@@ -447,7 +474,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 773.0, 798.0, 30.0, 30.0 ]
+                    "patching_rect": [ 271.0, 1166.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -457,7 +484,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "bang", "int" ],
-                    "patching_rect": [ 717.0, 168.0, 29.5, 22.0 ],
+                    "patching_rect": [ 215.0, 536.0, 29.5, 22.0 ],
                     "text": "t b i"
                 }
             },
@@ -468,7 +495,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "bang", "bang" ],
-                    "patching_rect": [ 709.0, 240.0, 55.0, 22.0 ],
+                    "patching_rect": [ 207.0, 608.0, 55.0, 22.0 ],
                     "text": "onebang"
                 }
             },
@@ -479,7 +506,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "int", "int" ],
-                    "patching_rect": [ 821.0, 710.0, 48.0, 22.0 ],
+                    "patching_rect": [ 319.0, 1078.0, 48.0, 22.0 ],
                     "text": "change"
                 }
             },
@@ -490,7 +517,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "int", "int" ],
-                    "patching_rect": [ 821.0, 200.0, 48.0, 22.0 ],
+                    "patching_rect": [ 319.0, 568.0, 48.0, 22.0 ],
                     "text": "change"
                 }
             },
@@ -501,7 +528,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 733.0, 272.0, 29.5, 22.0 ],
+                    "patching_rect": [ 231.0, 640.0, 29.5, 22.0 ],
                     "text": "int"
                 }
             },
@@ -512,7 +539,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "bang", "int" ],
-                    "patching_rect": [ 749.0, 200.0, 29.5, 22.0 ],
+                    "patching_rect": [ 247.0, 568.0, 29.5, 22.0 ],
                     "text": "t b i"
                 }
             },
@@ -523,7 +550,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "int", "int" ],
-                    "patching_rect": [ 749.0, 168.0, 48.0, 22.0 ],
+                    "patching_rect": [ 247.0, 536.0, 48.0, 22.0 ],
                     "text": "change"
                 }
             },
@@ -534,7 +561,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 885.0, 678.0, 35.0, 22.0 ],
+                    "patching_rect": [ 383.0, 1046.0, 35.0, 22.0 ],
                     "text": "set 1"
                 }
             },
@@ -545,7 +572,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 821.0, 678.0, 29.5, 22.0 ],
+                    "patching_rect": [ 319.0, 1046.0, 29.5, 22.0 ],
                     "text": "%"
                 }
             },
@@ -556,7 +583,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 757.0, 352.0, 29.5, 22.0 ],
+                    "patching_rect": [ 255.0, 720.0, 29.5, 22.0 ],
                     "text": "+"
                 }
             },
@@ -567,7 +594,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 741.0, 312.0, 29.5, 22.0 ],
+                    "patching_rect": [ 239.0, 680.0, 29.5, 22.0 ],
                     "text": "*"
                 }
             },
@@ -578,7 +605,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 805.0, 168.0, 47.0, 22.0 ],
+                    "patching_rect": [ 303.0, 536.0, 47.0, 22.0 ],
                     "text": "unpack"
                 }
             },
@@ -589,7 +616,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 717.0, 48.0, 29.5, 22.0 ],
+                    "patching_rect": [ 215.0, 416.0, 29.5, 22.0 ],
                     "text": "> 0"
                 }
             },
@@ -600,7 +627,7 @@
                     "numinlets": 2,
                     "numoutlets": 9,
                     "outlettype": [ "int", "int", "float", "float", "float", "", "int", "float", "" ],
-                    "patching_rect": [ 717.0, 123.0, 103.0, 22.0 ],
+                    "patching_rect": [ 215.0, 491.0, 103.0, 22.0 ],
                     "text": "transport"
                 }
             },
@@ -611,47 +638,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 717.0, 78.0, 242.0, 22.0 ],
+                    "patching_rect": [ 215.0, 446.0, 242.0, 22.0 ],
                     "text": "metro @interval 10 ticks @quantize 10 ticks"
-                }
-            },
-            {
-                "box": {
-                    "fontname": "Ableton Sans Medium",
-                    "fontsize": 10.0,
-                    "id": "obj-74",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 821.0, 312.0, 32.0, 18.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 302.0, 133.0, 30.0, 18.0 ],
-                    "text": "Auto"
-                }
-            },
-            {
-                "box": {
-                    "annotation": "If greater than zero, then randomize will automatically be triggered after that number of beats.",
-                    "annotation_name": "Randomize Auto Beats",
-                    "id": "obj-76",
-                    "maxclass": "live.numbox",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 821.0, 344.0, 44.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 297.0, 149.0, 39.0, 15.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_longname": "RandAuto",
-                            "parameter_modmode": 4,
-                            "parameter_shortname": "Auto",
-                            "parameter_type": 1,
-                            "parameter_unitstyle": 0
-                        }
-                    },
-                    "varname": "RandAuto"
                 }
             },
             {
@@ -662,9 +650,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 997.0, 563.0, 44.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 297.0, 19.0, 39.0, 15.0 ],
+                    "patching_rect": [ 495.0, 931.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -688,7 +674,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 11.0, 364.0, 30.0, 30.0 ]
+                    "patching_rect": [ 20.0, 1166.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -749,15 +735,15 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "UiRand.maxpat",
+                    "name": "UiRandBank.maxpat",
                     "numinlets": 1,
                     "numoutlets": 1,
-                    "offset": [ 0.0, 0.0 ],
+                    "offset": [ 0.0, -308.0 ],
                     "outlettype": [ "" ],
-                    "patching_rect": [ 11.0, 184.0, 192.0, 144.0 ],
+                    "patching_rect": [ 11.0, 184.0, 353.0, 150.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 16.0, 297.0, 154.0 ],
-                    "varname": "UiRand",
+                    "presentation_rect": [ 0.0, 16.0, 458.0, 154.0 ],
+                    "varname": "UiRandBank",
                     "viewvisibility": 1
                 }
             },
@@ -774,12 +760,13 @@
                     "maxclass": "bpatcher",
                     "name": "UiRandTabs.maxpat",
                     "numinlets": 1,
-                    "numoutlets": 1,
+                    "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "int" ],
-                    "patching_rect": [ 202.0, 84.0, 146.0, 19.0 ],
+                    "outlettype": [ "int", "" ],
+                    "patching_rect": [ 202.0, 84.0, 309.0, 21.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 146.0, 22.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 310.0, 22.0 ],
+                    "varname": "UiRandTabs",
                     "viewvisibility": 1
                 }
             }
@@ -787,14 +774,40 @@
         "lines": [
             {
                 "patchline": {
-                    "destination": [ "obj-4", 0 ],
+                    "destination": [ "obj-13", 0 ],
+                    "order": 0,
                     "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-4", 0 ],
+                    "order": 1,
+                    "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-157", 0 ],
+                    "source": [ "obj-10", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-71", 0 ],
+                    "source": [ "obj-10", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-9", 0 ],
                     "source": [ "obj-11", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-10", 0 ],
+                    "source": [ "obj-13", 0 ]
                 }
             },
             {
@@ -1101,7 +1114,15 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-11", 0 ],
+                    "order": 1,
+                    "source": [ "obj-6", 1 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-175", 0 ],
+                    "order": 0,
                     "source": [ "obj-6", 1 ]
                 }
             },
@@ -1155,35 +1176,34 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-157", 0 ],
-                    "order": 0,
-                    "source": [ "obj-76", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-71", 0 ],
-                    "order": 1,
-                    "source": [ "obj-76", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-11", 0 ],
                     "source": [ "obj-8", 0 ]
                 }
             },
             {
                 "patchline": {
+                    "destination": [ "obj-1", 0 ],
+                    "source": [ "obj-9", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-14", 0 ],
+                    "order": 0,
+                    "source": [ "obj-9", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-7", 0 ],
-                    "order": 1,
+                    "order": 2,
                     "source": [ "obj-9", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-8", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-9", 0 ]
                 }
             },
@@ -1198,73 +1218,108 @@
             "obj-11": [ "RandTab", "Tab", 0 ],
             "obj-170": [ "RandTrig", "Note", 0 ],
             "obj-175": [ "RandTrigSet", "Set", 0 ],
-            "obj-1::obj-1": [ "RandOsc1", "Osc1", 0 ],
-            "obj-1::obj-10::obj-1": [ "RandOscPchEnvDur-Min", "Min", 0 ],
-            "obj-1::obj-10::obj-2": [ "RandOscPchEnvDur-Max", "Max", 0 ],
-            "obj-1::obj-126::obj-27": [ "RandFiltType-Min", "FTypeMin", 0 ],
-            "obj-1::obj-126::obj-28": [ "RandFiltType-Max", "FTypeMax", 0 ],
-            "obj-1::obj-127::obj-26": [ "RandOscShape-Min", "Min", 0 ],
-            "obj-1::obj-127::obj-35": [ "RandOscShape-Max", "Max", 0 ],
-            "obj-1::obj-12::obj-1": [ "RandOscPchEnvCurve-Min", "Min", 0 ],
-            "obj-1::obj-12::obj-2": [ "RandOscPchEnvCurve-Max", "Max", 0 ],
-            "obj-1::obj-138": [ "RandOscNote", "Note", 0 ],
-            "obj-1::obj-14::obj-1": [ "RandOscPchEnvAmt-Min", "Min", 0 ],
-            "obj-1::obj-14::obj-2": [ "RandOscPchEnvAmt-Max", "Max", 0 ],
-            "obj-1::obj-16::obj-1": [ "RandOvertone-Min", "Min", 0 ],
-            "obj-1::obj-16::obj-2": [ "RandOvertone-Max", "Max", 0 ],
-            "obj-1::obj-18::obj-1": [ "RandOscAttack-Min", "Min", 0 ],
-            "obj-1::obj-18::obj-2": [ "RandOscAttack-Max", "Max", 0 ],
-            "obj-1::obj-2": [ "RandOsc2", "Osc2", 0 ],
-            "obj-1::obj-204": [ "RandOsc", "Note", 0 ],
-            "obj-1::obj-206::obj-1": [ "RandOscSemi-Min", "Min", 0 ],
-            "obj-1::obj-206::obj-2": [ "RandOscSemi-Max", "Max", 0 ],
-            "obj-1::obj-20::obj-1": [ "RandOscDecay-Min", "Min", 0 ],
-            "obj-1::obj-20::obj-2": [ "RandOscDecay-Max", "Max", 0 ],
-            "obj-1::obj-218": [ "RandOscSemi", "Semi", 0 ],
-            "obj-1::obj-22": [ "RandOvertone", "Overtone", 0 ],
-            "obj-1::obj-23": [ "RandOscAttack", "Attack", 0 ],
-            "obj-1::obj-24::obj-1": [ "RandOscGain-Min", "Min", 0 ],
-            "obj-1::obj-24::obj-2": [ "RandOscGain-Max", "Max", 0 ],
-            "obj-1::obj-29": [ "RandFiltType", "Type", 0 ],
-            "obj-1::obj-3": [ "RandOscShape", "Shape", 0 ],
-            "obj-1::obj-30": [ "RandFilt", "Filter", 0 ],
-            "obj-1::obj-31::obj-1": [ "RandFiltFreq-Min", "Min", 0 ],
-            "obj-1::obj-31::obj-2": [ "RandFiltFreq-Max", "Max", 0 ],
-            "obj-1::obj-33::obj-1": [ "RandFiltQ-Min", "Min", 0 ],
-            "obj-1::obj-33::obj-2": [ "RandFiltQ-Max", "Max", 0 ],
-            "obj-1::obj-36::obj-1": [ "RandOscFreq-Min", "Min", 0 ],
-            "obj-1::obj-36::obj-2": [ "RandOscFreq-Max", "Max", 0 ],
-            "obj-1::obj-38": [ "RandOscPchEnvCur", "Curve", 0 ],
-            "obj-1::obj-39": [ "RandOscPchEnvAmt", "Amount", 0 ],
-            "obj-1::obj-4": [ "RandOscFilt", "Filter", 0 ],
-            "obj-1::obj-40": [ "RandOverdrive", "Overdrive", 0 ],
-            "obj-1::obj-41": [ "RandOscDecay", "Decay", 0 ],
-            "obj-1::obj-42": [ "RandOscGain", "Gain", 0 ],
-            "obj-1::obj-43": [ "RandFiltFreq", "Freq", 0 ],
-            "obj-1::obj-44": [ "RandFiltQ", "Res", 0 ],
-            "obj-1::obj-45": [ "RandRing", "Ring", 0 ],
-            "obj-1::obj-46": [ "RandRingFilt", "Filter", 0 ],
-            "obj-1::obj-5": [ "RandOscFreq", "Freq", 0 ],
-            "obj-1::obj-57": [ "RandRingGain", "Gain", 0 ],
-            "obj-1::obj-58": [ "RandRingDecay", "Decay", 0 ],
-            "obj-1::obj-59": [ "RandRingAttack", "Attack", 0 ],
-            "obj-1::obj-6": [ "RandOscReset", "Reset", 0 ],
-            "obj-1::obj-60::obj-1": [ "RandRingGain-Min", "Min", 0 ],
-            "obj-1::obj-60::obj-2": [ "RandRingGain-Max", "Max", 0 ],
-            "obj-1::obj-62::obj-1": [ "RandRingDecay-Min", "Min", 0 ],
-            "obj-1::obj-62::obj-2": [ "RandRingDecay-Max", "Max", 0 ],
-            "obj-1::obj-64::obj-1": [ "RandRingAttack-Min", "Min", 0 ],
-            "obj-1::obj-64::obj-2": [ "RandRingAttack-Max", "Max", 0 ],
-            "obj-1::obj-66": [ "RandVol", "Vol", 0 ],
-            "obj-1::obj-67::obj-1": [ "RandVol-Min", "Min", 0 ],
-            "obj-1::obj-67::obj-2": [ "RandVol-Max", "Max", 0 ],
-            "obj-1::obj-7": [ "RandOscPchEnvDur", "Dur", 0 ],
-            "obj-1::obj-8::obj-1": [ "RandOverdrive-Min", "Min", 0 ],
-            "obj-1::obj-8::obj-2": [ "RandOverdrive-Max", "Max", 0 ],
+            "obj-1::obj-3::obj-138": [ "RandOscNote[1]", "Note", 0 ],
+            "obj-1::obj-3::obj-18::obj-1": [ "RandOscAttack-Min[1]", "Min", 0 ],
+            "obj-1::obj-3::obj-18::obj-2": [ "RandOscAttack-Max[1]", "Max", 0 ],
+            "obj-1::obj-3::obj-204": [ "RandOsc[1]", "Osc", 0 ],
+            "obj-1::obj-3::obj-206::obj-1": [ "RandOscSemi-Min[1]", "Min", 0 ],
+            "obj-1::obj-3::obj-206::obj-2": [ "RandOscSemi-Max[1]", "Max", 0 ],
+            "obj-1::obj-3::obj-20::obj-1": [ "RandOscDecay-Min[1]", "Min", 0 ],
+            "obj-1::obj-3::obj-20::obj-2": [ "RandOscDecay-Max[1]", "Max", 0 ],
+            "obj-1::obj-3::obj-218": [ "RandOscSemi[1]", "Semi", 0 ],
+            "obj-1::obj-3::obj-23": [ "RandOscAttack[1]", "Attack", 0 ],
+            "obj-1::obj-3::obj-24::obj-1": [ "RandOscGain-Min[1]", "Min", 0 ],
+            "obj-1::obj-3::obj-24::obj-2": [ "RandOscGain-Max[1]", "Max", 0 ],
+            "obj-1::obj-3::obj-36::obj-1": [ "RandOscFreq-Min[1]", "Min", 0 ],
+            "obj-1::obj-3::obj-36::obj-2": [ "RandOscFreq-Max[1]", "Max", 0 ],
+            "obj-1::obj-3::obj-41": [ "RandOscDecay[1]", "Decay", 0 ],
+            "obj-1::obj-3::obj-42": [ "RandOscGain[1]", "Gain", 0 ],
+            "obj-1::obj-3::obj-5": [ "RandOscFreq[1]", "Freq", 0 ],
+            "obj-1::obj-3::obj-6": [ "RandOscReset[1]", "Reset", 0 ],
+            "obj-1::obj-4::obj-10::obj-1": [ "RandOscPchEnvDur-Min[1]", "Min", 0 ],
+            "obj-1::obj-4::obj-10::obj-2": [ "RandOscPchEnvDur-Max[1]", "Max", 0 ],
+            "obj-1::obj-4::obj-12::obj-1": [ "RandOscPchEnvCurve-Min[1]", "Min", 0 ],
+            "obj-1::obj-4::obj-12::obj-2": [ "RandOscPchEnvCurve-Max[1]", "Max", 0 ],
+            "obj-1::obj-4::obj-14::obj-1": [ "RandOscPchEnvAmt-Min[1]", "Min", 0 ],
+            "obj-1::obj-4::obj-14::obj-2": [ "RandOscPchEnvAmt-Max[1]", "Max", 0 ],
+            "obj-1::obj-4::obj-16::obj-1": [ "RandOvertone-Min[1]", "Min", 0 ],
+            "obj-1::obj-4::obj-16::obj-2": [ "RandOvertone-Max[1]", "Max", 0 ],
+            "obj-1::obj-4::obj-22": [ "RandOvertone[1]", "Overtone", 0 ],
+            "obj-1::obj-4::obj-3": [ "RandOscShape[1]", "Shape", 0 ],
+            "obj-1::obj-4::obj-38": [ "RandOscPchEnvCur[1]", "Curve", 0 ],
+            "obj-1::obj-4::obj-39": [ "RandOscPchEnvAmt[1]", "Amount", 0 ],
+            "obj-1::obj-4::obj-4": [ "RandOscFilt[1]", "Filter", 0 ],
+            "obj-1::obj-4::obj-40": [ "RandOverdrive[1]", "Overdrive", 0 ],
+            "obj-1::obj-4::obj-7": [ "RandOscPchEnvDur[1]", "Duration", 0 ],
+            "obj-1::obj-4::obj-8::obj-1": [ "RandOverdrive-Min[1]", "Min", 0 ],
+            "obj-1::obj-4::obj-8::obj-2": [ "RandOverdrive-Max[1]", "Max", 0 ],
+            "obj-1::obj-55::obj-10::obj-1": [ "RandOscPchEnvDur-Min", "Min", 0 ],
+            "obj-1::obj-55::obj-10::obj-2": [ "RandOscPchEnvDur-Max", "Max", 0 ],
+            "obj-1::obj-55::obj-12::obj-1": [ "RandOscPchEnvCurve-Min", "Min", 0 ],
+            "obj-1::obj-55::obj-12::obj-2": [ "RandOscPchEnvCurve-Max", "Max", 0 ],
+            "obj-1::obj-55::obj-14::obj-1": [ "RandOscPchEnvAmt-Min", "Min", 0 ],
+            "obj-1::obj-55::obj-14::obj-2": [ "RandOscPchEnvAmt-Max", "Max", 0 ],
+            "obj-1::obj-55::obj-16::obj-1": [ "RandOvertone-Min", "Min", 0 ],
+            "obj-1::obj-55::obj-16::obj-2": [ "RandOvertone-Max", "Max", 0 ],
+            "obj-1::obj-55::obj-22": [ "RandOvertone", "Overtone", 0 ],
+            "obj-1::obj-55::obj-3": [ "RandOscShape", "Shape", 0 ],
+            "obj-1::obj-55::obj-38": [ "RandOscPchEnvCur", "Curve", 0 ],
+            "obj-1::obj-55::obj-39": [ "RandOscPchEnvAmt", "Amount", 0 ],
+            "obj-1::obj-55::obj-4": [ "RandOscFilt", "Filter", 0 ],
+            "obj-1::obj-55::obj-40": [ "RandOverdrive", "Overdrive", 0 ],
+            "obj-1::obj-55::obj-7": [ "RandOscPchEnvDur", "Duration", 0 ],
+            "obj-1::obj-55::obj-8::obj-1": [ "RandOverdrive-Min", "Min", 0 ],
+            "obj-1::obj-55::obj-8::obj-2": [ "RandOverdrive-Max", "Max", 0 ],
+            "obj-1::obj-56::obj-29": [ "RandFiltType", "Type", 0 ],
+            "obj-1::obj-56::obj-30": [ "RandFilt", "Filter", 0 ],
+            "obj-1::obj-56::obj-31::obj-1": [ "RandFiltFreq-Min", "Min", 0 ],
+            "obj-1::obj-56::obj-31::obj-2": [ "RandFiltFreq-Max", "Max", 0 ],
+            "obj-1::obj-56::obj-33::obj-1": [ "RandFiltQ-Min", "Min", 0 ],
+            "obj-1::obj-56::obj-33::obj-2": [ "RandFiltQ-Max", "Max", 0 ],
+            "obj-1::obj-56::obj-43": [ "RandFiltFreq", "Freq", 0 ],
+            "obj-1::obj-56::obj-44": [ "RandFiltQ", "Res", 0 ],
+            "obj-1::obj-56::obj-45": [ "RandRing", "Ring", 0 ],
+            "obj-1::obj-56::obj-46": [ "RandRingFilt", "Filter", 0 ],
+            "obj-1::obj-56::obj-57": [ "RandRingGain", "Gain", 0 ],
+            "obj-1::obj-56::obj-58": [ "RandRingDecay", "Decay", 0 ],
+            "obj-1::obj-56::obj-59": [ "RandRingAttack", "Attack", 0 ],
+            "obj-1::obj-56::obj-60::obj-1": [ "RandRingGain-Min", "Min", 0 ],
+            "obj-1::obj-56::obj-60::obj-2": [ "RandRingGain-Max", "Max", 0 ],
+            "obj-1::obj-56::obj-62::obj-1": [ "RandRingDecay-Min", "Min", 0 ],
+            "obj-1::obj-56::obj-62::obj-2": [ "RandRingDecay-Max", "Max", 0 ],
+            "obj-1::obj-56::obj-64::obj-1": [ "RandRingAttack-Min", "Min", 0 ],
+            "obj-1::obj-56::obj-64::obj-2": [ "RandRingAttack-Max", "Max", 0 ],
+            "obj-1::obj-56::obj-66": [ "RandVol", "Volume", 0 ],
+            "obj-1::obj-56::obj-67::obj-1": [ "RandVol-Min", "Min", 0 ],
+            "obj-1::obj-56::obj-67::obj-2": [ "RandVol-Max", "Max", 0 ],
+            "obj-1::obj-56::obj-76": [ "RandAuto", "Auto", 0 ],
+            "obj-1::obj-57::obj-138": [ "RandOscNote", "Note", 0 ],
+            "obj-1::obj-57::obj-18::obj-1": [ "RandOscAttack-Min", "Min", 0 ],
+            "obj-1::obj-57::obj-18::obj-2": [ "RandOscAttack-Max", "Max", 0 ],
+            "obj-1::obj-57::obj-204": [ "RandOsc", "Osc", 0 ],
+            "obj-1::obj-57::obj-206::obj-1": [ "RandOscSemi-Min", "Min", 0 ],
+            "obj-1::obj-57::obj-206::obj-2": [ "RandOscSemi-Max", "Max", 0 ],
+            "obj-1::obj-57::obj-20::obj-1": [ "RandOscDecay-Min", "Min", 0 ],
+            "obj-1::obj-57::obj-20::obj-2": [ "RandOscDecay-Max", "Max", 0 ],
+            "obj-1::obj-57::obj-218": [ "RandOscSemi", "Semi", 0 ],
+            "obj-1::obj-57::obj-23": [ "RandOscAttack", "Attack", 0 ],
+            "obj-1::obj-57::obj-24::obj-1": [ "RandOscGain-Min", "Min", 0 ],
+            "obj-1::obj-57::obj-24::obj-2": [ "RandOscGain-Max", "Max", 0 ],
+            "obj-1::obj-57::obj-36::obj-1": [ "RandOscFreq-Min", "Min", 0 ],
+            "obj-1::obj-57::obj-36::obj-2": [ "RandOscFreq-Max", "Max", 0 ],
+            "obj-1::obj-57::obj-41": [ "RandOscDecay", "Decay", 0 ],
+            "obj-1::obj-57::obj-42": [ "RandOscGain", "Gain", 0 ],
+            "obj-1::obj-57::obj-5": [ "RandOscFreq", "Freq", 0 ],
+            "obj-1::obj-57::obj-6": [ "RandOscReset", "Reset", 0 ],
             "obj-2": [ "RandTrigToggle", "Trigger", 0 ],
-            "obj-76": [ "RandAuto", "Auto", 0 ],
-            "obj-9::obj-1": [ "RandTabOsc", "RandTabOsc", 0 ],
-            "obj-9::obj-2": [ "RandTabEffect", "RandTabEffect", 0 ],
+            "obj-9::obj-1": [ "RandTabOsc", "RandTabOsc1", 0 ],
+            "obj-9::obj-13": [ "RandTabEffect2", "RandTabEffect2", 0 ],
+            "obj-9::obj-14": [ "RandTabOsc2", "RandTabOsc2", 0 ],
+            "obj-9::obj-2": [ "RandTabEffect", "RandTabEffect1", 0 ],
+            "obj-9::obj-22": [ "RandOsc1", "RandOsc1", 0 ],
+            "obj-9::obj-23": [ "RandOsc2", "RandOsc2", 0 ],
+            "obj-9::obj-24": [ "RandEffect1", "RandEffect1", 0 ],
+            "obj-9::obj-25": [ "RandEffect2", "RandEffect2", 0 ],
             "obj-9::obj-3": [ "RandTabFilter", "RandTabFilter", 0 ],
             "parameterbanks": {
                 "0": {
@@ -1275,95 +1330,297 @@
                 }
             },
             "parameter_overrides": {
-                "obj-1::obj-12::obj-1": {
-                    "parameter_range": [ -100.0, 100.0 ]
+                "obj-1::obj-3::obj-138": {
+                    "parameter_longname": "RandOscNote[1]"
                 },
-                "obj-1::obj-12::obj-2": {
-                    "parameter_range": [ -100.0, 100.0 ]
-                },
-                "obj-1::obj-14::obj-1": {
+                "obj-1::obj-3::obj-18::obj-1": {
+                    "parameter_longname": "RandOscAttack-Min[1]",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
-                "obj-1::obj-14::obj-2": {
+                "obj-1::obj-3::obj-18::obj-2": {
+                    "parameter_longname": "RandOscAttack-Max[1]",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
-                "obj-1::obj-16::obj-1": {
-                    "parameter_range": [ 0.0, 100.0 ]
+                "obj-1::obj-3::obj-204": {
+                    "parameter_longname": "RandOsc[1]"
                 },
-                "obj-1::obj-16::obj-2": {
-                    "parameter_range": [ 0.0, 100.0 ]
-                },
-                "obj-1::obj-18::obj-1": {
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-1::obj-18::obj-2": {
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-1::obj-206::obj-1": {
+                "obj-1::obj-3::obj-206::obj-1": {
+                    "parameter_longname": "RandOscSemi-Min[1]",
                     "parameter_range": [ -48, 48 ]
                 },
-                "obj-1::obj-206::obj-2": {
+                "obj-1::obj-3::obj-206::obj-2": {
+                    "parameter_longname": "RandOscSemi-Max[1]",
                     "parameter_range": [ -48, 48 ]
                 },
-                "obj-1::obj-20::obj-1": {
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-1::obj-20::obj-2": {
-                    "parameter_range": [ 0.0, 15.0 ]
-                },
-                "obj-1::obj-24::obj-1": {
-                    "parameter_range": [ -70.0, 6.0 ]
-                },
-                "obj-1::obj-24::obj-2": {
-                    "parameter_range": [ -70.0, 6.0 ]
-                },
-                "obj-1::obj-31::obj-1": {
+                "obj-1::obj-3::obj-20::obj-1": {
+                    "parameter_longname": "RandOscDecay-Min[1]",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
-                "obj-1::obj-31::obj-2": {
+                "obj-1::obj-3::obj-20::obj-2": {
+                    "parameter_longname": "RandOscDecay-Max[1]",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
-                "obj-1::obj-33::obj-1": {
-                    "parameter_range": [ 0.3, 10.0 ]
+                "obj-1::obj-3::obj-218": {
+                    "parameter_longname": "RandOscSemi[1]"
                 },
-                "obj-1::obj-33::obj-2": {
-                    "parameter_range": [ 0.3, 10.0 ]
+                "obj-1::obj-3::obj-23": {
+                    "parameter_longname": "RandOscAttack[1]"
                 },
-                "obj-1::obj-36::obj-1": {
+                "obj-1::obj-3::obj-24::obj-1": {
+                    "parameter_longname": "RandOscGain-Min[1]",
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-1::obj-3::obj-24::obj-2": {
+                    "parameter_longname": "RandOscGain-Max[1]",
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-1::obj-3::obj-36::obj-1": {
+                    "parameter_longname": "RandOscFreq-Min[1]",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
-                "obj-1::obj-36::obj-2": {
+                "obj-1::obj-3::obj-36::obj-2": {
+                    "parameter_longname": "RandOscFreq-Max[1]",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
-                "obj-1::obj-60::obj-1": {
-                    "parameter_range": [ -70.0, 6.0 ]
+                "obj-1::obj-3::obj-41": {
+                    "parameter_longname": "RandOscDecay[1]"
                 },
-                "obj-1::obj-60::obj-2": {
-                    "parameter_range": [ -70.0, 6.0 ]
+                "obj-1::obj-3::obj-42": {
+                    "parameter_longname": "RandOscGain[1]"
                 },
-                "obj-1::obj-62::obj-1": {
-                    "parameter_range": [ 0.0, 15.0 ]
+                "obj-1::obj-3::obj-5": {
+                    "parameter_longname": "RandOscFreq[1]"
                 },
-                "obj-1::obj-62::obj-2": {
-                    "parameter_range": [ 0.0, 15.0 ]
+                "obj-1::obj-3::obj-6": {
+                    "parameter_longname": "RandOscReset[1]"
                 },
-                "obj-1::obj-64::obj-1": {
-                    "parameter_range": [ 0.0, 15.0 ]
+                "obj-1::obj-4::obj-10::obj-1": {
+                    "parameter_longname": "RandOscPchEnvDur-Min[1]",
+                    "parameter_range": [ 0.0, 15000.0 ]
                 },
-                "obj-1::obj-64::obj-2": {
-                    "parameter_range": [ 0.0, 15.0 ]
+                "obj-1::obj-4::obj-10::obj-2": {
+                    "parameter_longname": "RandOscPchEnvDur-Max[1]",
+                    "parameter_range": [ 0.0, 15000.0 ]
                 },
-                "obj-1::obj-67::obj-1": {
-                    "parameter_range": [ -70.0, 6.0 ]
+                "obj-1::obj-4::obj-12::obj-1": {
+                    "parameter_longname": "RandOscPchEnvCurve-Min[1]",
+                    "parameter_range": [ -100.0, 100.0 ]
                 },
-                "obj-1::obj-67::obj-2": {
-                    "parameter_range": [ -70.0, 6.0 ]
+                "obj-1::obj-4::obj-12::obj-2": {
+                    "parameter_longname": "RandOscPchEnvCurve-Max[1]",
+                    "parameter_range": [ -100.0, 100.0 ]
                 },
-                "obj-1::obj-8::obj-1": {
+                "obj-1::obj-4::obj-14::obj-1": {
+                    "parameter_longname": "RandOscPchEnvAmt-Min[1]",
+                    "parameter_range": [ -500.0, 500.0 ]
+                },
+                "obj-1::obj-4::obj-14::obj-2": {
+                    "parameter_longname": "RandOscPchEnvAmt-Max[1]",
+                    "parameter_range": [ -500.0, 500.0 ]
+                },
+                "obj-1::obj-4::obj-16::obj-1": {
+                    "parameter_longname": "RandOvertone-Min[1]",
                     "parameter_range": [ 0.0, 100.0 ]
                 },
-                "obj-1::obj-8::obj-2": {
+                "obj-1::obj-4::obj-16::obj-2": {
+                    "parameter_longname": "RandOvertone-Max[1]",
                     "parameter_range": [ 0.0, 100.0 ]
+                },
+                "obj-1::obj-4::obj-22": {
+                    "parameter_longname": "RandOvertone[1]"
+                },
+                "obj-1::obj-4::obj-3": {
+                    "parameter_longname": "RandOscShape[1]"
+                },
+                "obj-1::obj-4::obj-38": {
+                    "parameter_longname": "RandOscPchEnvCur[1]"
+                },
+                "obj-1::obj-4::obj-39": {
+                    "parameter_longname": "RandOscPchEnvAmt[1]"
+                },
+                "obj-1::obj-4::obj-4": {
+                    "parameter_longname": "RandOscFilt[1]"
+                },
+                "obj-1::obj-4::obj-40": {
+                    "parameter_longname": "RandOverdrive[1]"
+                },
+                "obj-1::obj-4::obj-7": {
+                    "parameter_longname": "RandOscPchEnvDur[1]"
+                },
+                "obj-1::obj-4::obj-8::obj-1": {
+                    "parameter_longname": "RandOverdrive-Min[1]",
+                    "parameter_range": [ 0.0, 100.0 ]
+                },
+                "obj-1::obj-4::obj-8::obj-2": {
+                    "parameter_longname": "RandOverdrive-Max[1]",
+                    "parameter_range": [ 0.0, 100.0 ]
+                },
+                "obj-1::obj-55::obj-10::obj-1": {
+                    "parameter_longname": "RandOscPchEnvDur-Min",
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-1::obj-55::obj-10::obj-2": {
+                    "parameter_longname": "RandOscPchEnvDur-Max",
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-1::obj-55::obj-12::obj-1": {
+                    "parameter_longname": "RandOscPchEnvCurve-Min",
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-1::obj-55::obj-12::obj-2": {
+                    "parameter_longname": "RandOscPchEnvCurve-Max",
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-1::obj-55::obj-14::obj-1": {
+                    "parameter_longname": "RandOscPchEnvAmt-Min",
+                    "parameter_range": [ -500.0, 500.0 ]
+                },
+                "obj-1::obj-55::obj-14::obj-2": {
+                    "parameter_longname": "RandOscPchEnvAmt-Max",
+                    "parameter_range": [ -500.0, 500.0 ]
+                },
+                "obj-1::obj-55::obj-16::obj-1": {
+                    "parameter_longname": "RandOvertone-Min",
+                    "parameter_range": [ 0.0, 100.0 ]
+                },
+                "obj-1::obj-55::obj-16::obj-2": {
+                    "parameter_longname": "RandOvertone-Max",
+                    "parameter_range": [ 0.0, 100.0 ]
+                },
+                "obj-1::obj-55::obj-22": {
+                    "parameter_longname": "RandOvertone"
+                },
+                "obj-1::obj-55::obj-3": {
+                    "parameter_longname": "RandOscShape"
+                },
+                "obj-1::obj-55::obj-38": {
+                    "parameter_longname": "RandOscPchEnvCur"
+                },
+                "obj-1::obj-55::obj-39": {
+                    "parameter_longname": "RandOscPchEnvAmt"
+                },
+                "obj-1::obj-55::obj-4": {
+                    "parameter_longname": "RandOscFilt"
+                },
+                "obj-1::obj-55::obj-40": {
+                    "parameter_longname": "RandOverdrive"
+                },
+                "obj-1::obj-55::obj-7": {
+                    "parameter_longname": "RandOscPchEnvDur"
+                },
+                "obj-1::obj-55::obj-8::obj-1": {
+                    "parameter_longname": "RandOverdrive-Min",
+                    "parameter_range": [ 0.0, 100.0 ]
+                },
+                "obj-1::obj-55::obj-8::obj-2": {
+                    "parameter_longname": "RandOverdrive-Max",
+                    "parameter_range": [ 0.0, 100.0 ]
+                },
+                "obj-1::obj-56::obj-31::obj-1": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-1::obj-56::obj-31::obj-2": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-1::obj-56::obj-33::obj-1": {
+                    "parameter_range": [ 0.3, 10.0 ]
+                },
+                "obj-1::obj-56::obj-33::obj-2": {
+                    "parameter_range": [ 0.3, 10.0 ]
+                },
+                "obj-1::obj-56::obj-60::obj-1": {
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-1::obj-56::obj-60::obj-2": {
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-1::obj-56::obj-62::obj-1": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-1::obj-56::obj-62::obj-2": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-1::obj-56::obj-64::obj-1": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-1::obj-56::obj-64::obj-2": {
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-1::obj-56::obj-67::obj-1": {
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-1::obj-56::obj-67::obj-2": {
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-1::obj-57::obj-138": {
+                    "parameter_longname": "RandOscNote"
+                },
+                "obj-1::obj-57::obj-18::obj-1": {
+                    "parameter_longname": "RandOscAttack-Min",
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-1::obj-57::obj-18::obj-2": {
+                    "parameter_longname": "RandOscAttack-Max",
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-1::obj-57::obj-204": {
+                    "parameter_longname": "RandOsc"
+                },
+                "obj-1::obj-57::obj-206::obj-1": {
+                    "parameter_longname": "RandOscSemi-Min",
+                    "parameter_range": [ -48, 48 ]
+                },
+                "obj-1::obj-57::obj-206::obj-2": {
+                    "parameter_longname": "RandOscSemi-Max",
+                    "parameter_range": [ -48, 48 ]
+                },
+                "obj-1::obj-57::obj-20::obj-1": {
+                    "parameter_longname": "RandOscDecay-Min",
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-1::obj-57::obj-20::obj-2": {
+                    "parameter_longname": "RandOscDecay-Max",
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-1::obj-57::obj-218": {
+                    "parameter_longname": "RandOscSemi"
+                },
+                "obj-1::obj-57::obj-23": {
+                    "parameter_longname": "RandOscAttack"
+                },
+                "obj-1::obj-57::obj-24::obj-1": {
+                    "parameter_longname": "RandOscGain-Min",
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-1::obj-57::obj-24::obj-2": {
+                    "parameter_longname": "RandOscGain-Max",
+                    "parameter_range": [ -70.0, 6.0 ]
+                },
+                "obj-1::obj-57::obj-36::obj-1": {
+                    "parameter_longname": "RandOscFreq-Min",
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-1::obj-57::obj-36::obj-2": {
+                    "parameter_longname": "RandOscFreq-Max",
+                    "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-1::obj-57::obj-41": {
+                    "parameter_longname": "RandOscDecay"
+                },
+                "obj-1::obj-57::obj-42": {
+                    "parameter_longname": "RandOscGain"
+                },
+                "obj-1::obj-57::obj-5": {
+                    "parameter_longname": "RandOscFreq"
+                },
+                "obj-1::obj-57::obj-6": {
+                    "parameter_longname": "RandOscReset"
+                },
+                "obj-9::obj-1": {
+                    "parameter_longname": "RandTabOsc"
+                },
+                "obj-9::obj-2": {
+                    "parameter_longname": "RandTabEffect"
                 }
             },
             "inherited_shortname": 1
