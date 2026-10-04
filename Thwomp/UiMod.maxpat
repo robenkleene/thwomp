@@ -10,6 +10,7 @@
         },
         "classnamespace": "box",
         "rect": [ 804.0, 247.0, 1000.0, 774.0 ],
+        "openinpresentation": 1,
         "boxes": [
             {
                 "box": {

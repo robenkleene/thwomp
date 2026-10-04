@@ -3,15 +3,38 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 5,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 635.0, 369.0, 1230.0, 977.0 ],
+        "rect": [ 667.0, 187.0, 1230.0, 977.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "args": [ "#1" ],
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-21",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiMod.maxpat",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 425.0, 503.0, 200.0, 168.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 342.0, 346.0, 169.0 ],
+                    "varname": "Mod",
+                    "viewvisibility": 1
+                }
+            },
             {
                 "box": {
                     "id": "obj-17",
@@ -141,7 +164,7 @@
                     "outlettype": [ "", "bang", "int", "int" ],
                     "patching_rect": [ 536.0, 360.0, 200.0, 168.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 343.0, 346.0, 169.0 ],
+                    "presentation_rect": [ 0.0, 513.0, 346.0, 169.0 ],
                     "varname": "Randomize",
                     "viewvisibility": 1
                 }
@@ -482,6 +505,34 @@
             "obj-1::obj-5": [ "1-Gain", "Gain", 0 ],
             "obj-1::obj-7": [ "1-Osc", "Osc", 0 ],
             "obj-1::obj-9": [ "1-OscShape", "Shape", 0 ],
+            "obj-21::obj-1": [ "Mod1Source", "Source", 0 ],
+            "obj-21::obj-10": [ "Mod4Source", "Source", 0 ],
+            "obj-21::obj-11": [ "RandTab[1]", "Amount", 0 ],
+            "obj-21::obj-12": [ "Mod4Dest", "Dest", 0 ],
+            "obj-21::obj-13": [ "Mod5Source", "Source", 0 ],
+            "obj-21::obj-14": [ "Mod5Amount", "Amount", 0 ],
+            "obj-21::obj-15": [ "Mod5Dest", "Dest", 0 ],
+            "obj-21::obj-16": [ "Mod6Source", "Source", 0 ],
+            "obj-21::obj-17": [ "Mod6Amount", "Amount", 0 ],
+            "obj-21::obj-18": [ "Mod6Dest", "Dest", 0 ],
+            "obj-21::obj-19": [ "Lfo1Shape", "Shape", 0 ],
+            "obj-21::obj-2": [ "RandTrigToggle[1]", "Amount", 0 ],
+            "obj-21::obj-20": [ "Lfo1Sync", "Sync", 0 ],
+            "obj-21::obj-21": [ "Lfo1Retrig", "Retrig", 0 ],
+            "obj-21::obj-23": [ "Lfo1Rate", "Rate", 0 ],
+            "obj-21::obj-24": [ "Lfo1SyncRate", "Rate", 0 ],
+            "obj-21::obj-25": [ "Lfo2Shape", "Shape", 0 ],
+            "obj-21::obj-26": [ "Lfo2Sync", "Sync", 0 ],
+            "obj-21::obj-27": [ "Lfo2Retrig", "Retrig", 0 ],
+            "obj-21::obj-29": [ "Lfo2Rate", "Rate", 0 ],
+            "obj-21::obj-3": [ "Mod1Dest", "Dest", 0 ],
+            "obj-21::obj-30": [ "Lfo2SyncRate", "Rate", 0 ],
+            "obj-21::obj-4": [ "Mod2Source", "Source", 0 ],
+            "obj-21::obj-5": [ "Mod2Amount", "Amount", 0 ],
+            "obj-21::obj-6": [ "Mod2Dest", "Dest", 0 ],
+            "obj-21::obj-7": [ "Mod3Source", "Source", 0 ],
+            "obj-21::obj-8": [ "Mod3Amount", "Amount", 0 ],
+            "obj-21::obj-9": [ "Mod3Dest", "Dest", 0 ],
             "obj-3::obj-12": [ "2-OscFilt", "Filter", 0 ],
             "obj-3::obj-17::obj-17": [ "2-PitchEnvAmt", "Amount", 0 ],
             "obj-3::obj-17::obj-18": [ "2-PitchEnvDur", "Duration", 0 ],
@@ -612,6 +663,12 @@
                 }
             },
             "parameter_overrides": {
+                "obj-21::obj-11": {
+                    "parameter_longname": "RandTab[1]"
+                },
+                "obj-21::obj-2": {
+                    "parameter_longname": "RandTrigToggle[1]"
+                },
                 "obj-8::obj-1::obj-3::obj-18::obj-1": {
                     "parameter_range": [ 0.0, 15000.0 ]
                 },

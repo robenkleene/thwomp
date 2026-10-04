@@ -3,8 +3,8 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 5,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
@@ -82,8 +82,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 5,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -707,9 +707,9 @@
                     "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 14.0, 156.5, 66.0, 61.0 ],
+                    "patching_rect": [ 14.0, 156.5, 66.0, 73.5 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 9.0, 51.0, 59.0 ],
+                    "presentation_rect": [ 0.0, 9.0, 51.0, 75.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -724,8 +724,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 5,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1370,6 +1370,23 @@
                         "Randomize": [ 0.0 ],
                         "Vol": [ -2.0 ]
                     },
+                    "restore_extra": {
+                        "PresetsOverwrite": {
+                            "id": "obj-19"
+                        },
+                        "PresetsRead": {
+                            "id": "obj-38"
+                        },
+                        "PresetsWrite": {
+                            "id": "obj-30"
+                        },
+                        "Randomize": {
+                            "id": "obj-45"
+                        },
+                        "Vol": {
+                            "id": "obj-11"
+                        }
+                    },
                     "text": "autopattr",
                     "varname": "u061005779"
                 }
@@ -1673,7 +1690,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 129.0, 264.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 4.0, 68.0, 38.0, 15.0 ],
+                    "presentation_rect": [ 3.5, 86.0, 38.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_button_mode": "Momentary",
@@ -1724,7 +1741,7 @@
                     "name": "UiDrumSynthBank.maxpat",
                     "numinlets": 1,
                     "numoutlets": 5,
-                    "offset": [ 0.0, 0.0 ],
+                    "offset": [ 0.0, -513.0 ],
                     "outlettype": [ "signal", "signal", "signal", "signal", "" ],
                     "patching_rect": [ 39.0, 336.0, 225.0, 172.0 ],
                     "presentation": 1,
@@ -1744,7 +1761,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1029.0, 328.0, 128.0, 128.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1.0, 65.0, 43.0, 105.0 ],
+                    "presentation_rect": [ 1.0, 84.0, 43.0, 86.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -2407,6 +2424,34 @@
             "obj-1::obj-1::obj-5": [ "1-Gain", "Gain", 0 ],
             "obj-1::obj-1::obj-7": [ "1-Osc", "Osc", 0 ],
             "obj-1::obj-1::obj-9": [ "1-OscShape", "Shape", 0 ],
+            "obj-1::obj-21::obj-1": [ "Mod1Source", "Source", 0 ],
+            "obj-1::obj-21::obj-10": [ "Mod4Source", "Source", 0 ],
+            "obj-1::obj-21::obj-11": [ "Mod4Amount", "Amount", 0 ],
+            "obj-1::obj-21::obj-12": [ "Mod4Dest", "Dest", 0 ],
+            "obj-1::obj-21::obj-13": [ "Mod5Source", "Source", 0 ],
+            "obj-1::obj-21::obj-14": [ "Mod5Amount", "Amount", 0 ],
+            "obj-1::obj-21::obj-15": [ "Mod5Dest", "Dest", 0 ],
+            "obj-1::obj-21::obj-16": [ "Mod6Source", "Source", 0 ],
+            "obj-1::obj-21::obj-17": [ "Mod6Amount", "Amount", 0 ],
+            "obj-1::obj-21::obj-18": [ "Mod6Dest", "Dest", 0 ],
+            "obj-1::obj-21::obj-19": [ "Lfo1Shape", "Shape", 0 ],
+            "obj-1::obj-21::obj-2": [ "Mod1Amount", "Amount", 0 ],
+            "obj-1::obj-21::obj-20": [ "Lfo1Sync", "Sync", 0 ],
+            "obj-1::obj-21::obj-21": [ "Lfo1Retrig", "Retrig", 0 ],
+            "obj-1::obj-21::obj-23": [ "Lfo1Rate", "Rate", 0 ],
+            "obj-1::obj-21::obj-24": [ "Lfo1SyncRate", "Rate", 0 ],
+            "obj-1::obj-21::obj-25": [ "Lfo2Shape", "Shape", 0 ],
+            "obj-1::obj-21::obj-26": [ "Lfo2Sync", "Sync", 0 ],
+            "obj-1::obj-21::obj-27": [ "Lfo2Retrig", "Retrig", 0 ],
+            "obj-1::obj-21::obj-29": [ "Lfo2Rate", "Rate", 0 ],
+            "obj-1::obj-21::obj-3": [ "Mod1Dest", "Dest", 0 ],
+            "obj-1::obj-21::obj-30": [ "Lfo2SyncRate", "Rate", 0 ],
+            "obj-1::obj-21::obj-4": [ "Mod2Source", "Source", 0 ],
+            "obj-1::obj-21::obj-5": [ "Mod2Amount", "Amount", 0 ],
+            "obj-1::obj-21::obj-6": [ "Mod2Dest", "Dest", 0 ],
+            "obj-1::obj-21::obj-7": [ "Mod3Source", "Source", 0 ],
+            "obj-1::obj-21::obj-8": [ "Mod3Amount", "Amount", 0 ],
+            "obj-1::obj-21::obj-9": [ "Mod3Dest", "Dest", 0 ],
             "obj-1::obj-3::obj-12": [ "2-OscFilt", "Filter", 0 ],
             "obj-1::obj-3::obj-17::obj-17": [ "2-PitchEnvAmt", "Amount", 0 ],
             "obj-1::obj-3::obj-17::obj-18": [ "2-PitchEnvDur", "Duration", 0 ],
@@ -2529,6 +2574,7 @@
             "obj-1::obj-8::obj-9::obj-25": [ "RandEffect2", "RandEffect2", 0 ],
             "obj-1::obj-8::obj-9::obj-3": [ "RandTabFilter", "RandTabFilter", 0 ],
             "obj-2::obj-13": [ "TabOsc1", "TabOsc1", 0 ],
+            "obj-2::obj-3": [ "TabMod", "TabMod", 0 ],
             "obj-2::obj-7": [ "TabOsc2", "TabOsc2", 0 ],
             "obj-2::obj-9": [ "TabRand", "TabRand", 0 ],
             "obj-30": [ "PresetsWrite", "PresetsWrite", 0 ],
