@@ -687,30 +687,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 525.0, 1014.0, 33.0, 22.0 ],
-                    "text": "== 2"
-                }
-            },
-            {
-                "box": {
-                    "bgmode": 0,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-2",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "UiTabs.maxpat",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "int" ],
-                    "patching_rect": [ 14.0, 156.5, 66.0, 73.5 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 0.0, 9.0, 51.0, 75.0 ],
-                    "viewvisibility": 1
+                    "patching_rect": [ 548.0, 1012.0, 29.5, 22.0 ],
+                    "text": "> 1"
                 }
             },
             {
@@ -1690,7 +1668,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 129.0, 264.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 3.5, 86.0, 38.0, 15.0 ],
+                    "presentation_rect": [ 3.5, 83.0, 38.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_button_mode": "Momentary",
@@ -1761,13 +1739,35 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1029.0, 328.0, 128.0, 128.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1.0, 84.0, 43.0, 86.0 ],
+                    "presentation_rect": [ 0.0, 81.0, 44.0, 87.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
                             "expression": "themecolor.live_surface_bg"
                         }
                     }
+                }
+            },
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-2",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiTabs.maxpat",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "int" ],
+                    "patching_rect": [ 14.0, 156.5, 66.0, 73.5 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 9.0, 51.0, 75.0 ],
+                    "viewvisibility": 1
                 }
             }
         ],
