@@ -14,6 +14,118 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-25",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 711.0, 337.0, 56.0, 22.0 ],
+                    "restore": {
+                        "LfoPhase": [ 0.0 ],
+                        "LfoRate": [ 1.0 ],
+                        "LfoRetrig": [ 0.0 ],
+                        "LfoShape": [ 0.0 ],
+                        "LfoSync": [ 0.0 ],
+                        "LfoSyncRate": [ 7.0 ],
+                        "Mod1Amount": [ 0.0 ],
+                        "Mod1Dest": [ 0.0 ],
+                        "Mod1Source": [ 0.0 ],
+                        "Mod2Amount": [ 0.0 ],
+                        "Mod2Dest": [ 0.0 ],
+                        "Mod2Source": [ 0.0 ],
+                        "Mod3Amount": [ 0.0 ],
+                        "Mod3Dest": [ 0.0 ],
+                        "Mod3Source": [ 0.0 ],
+                        "Mod4Amount": [ 0.0 ],
+                        "Mod4Dest": [ 0.0 ],
+                        "Mod4Source": [ 0.0 ],
+                        "Mod5Amount": [ 0.0 ],
+                        "Mod5Dest": [ 0.0 ],
+                        "Mod5Source": [ 0.0 ],
+                        "Mod6Amount": [ 0.0 ],
+                        "Mod6Dest": [ 0.0 ],
+                        "Mod6Source": [ 0.0 ]
+                    },
+                    "restore_extra": {
+                        "LfoPhase": {
+                            "id": "obj-36"
+                        },
+                        "LfoRate": {
+                            "id": "obj-23"
+                        },
+                        "LfoRetrig": {
+                            "id": "obj-21"
+                        },
+                        "LfoShape": {
+                            "id": "obj-19"
+                        },
+                        "LfoSync": {
+                            "id": "obj-20"
+                        },
+                        "LfoSyncRate": {
+                            "id": "obj-24"
+                        },
+                        "Mod1Amount": {
+                            "id": "obj-2"
+                        },
+                        "Mod1Dest": {
+                            "id": "obj-3"
+                        },
+                        "Mod1Source": {
+                            "id": "obj-1"
+                        },
+                        "Mod2Amount": {
+                            "id": "obj-5"
+                        },
+                        "Mod2Dest": {
+                            "id": "obj-6"
+                        },
+                        "Mod2Source": {
+                            "id": "obj-4"
+                        },
+                        "Mod3Amount": {
+                            "id": "obj-8"
+                        },
+                        "Mod3Dest": {
+                            "id": "obj-9"
+                        },
+                        "Mod3Source": {
+                            "id": "obj-7"
+                        },
+                        "Mod4Amount": {
+                            "id": "obj-11"
+                        },
+                        "Mod4Dest": {
+                            "id": "obj-12"
+                        },
+                        "Mod4Source": {
+                            "id": "obj-10"
+                        },
+                        "Mod5Amount": {
+                            "id": "obj-14"
+                        },
+                        "Mod5Dest": {
+                            "id": "obj-15"
+                        },
+                        "Mod5Source": {
+                            "id": "obj-13"
+                        },
+                        "Mod6Amount": {
+                            "id": "obj-17"
+                        },
+                        "Mod6Dest": {
+                            "id": "obj-18"
+                        },
+                        "Mod6Source": {
+                            "id": "obj-16"
+                        }
+                    },
+                    "text": "autopattr",
+                    "varname": "u927002797"
+                }
+            },
+            {
+                "box": {
                     "annotation": "The modulation source for slot 1.",
                     "annotation_name": "Mod 1 Source",
                     "id": "obj-1",
@@ -657,12 +769,11 @@
                             "parameter_initial_enable": 1,
                             "parameter_longname": "LfoPhase",
                             "parameter_mmax": 360.0,
-                            "parameter_mmin": 0.0,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Phase",
                             "parameter_type": 0,
-                            "parameter_unitstyle": 9,
-                            "parameter_units": "%.0f\u00b0"
+                            "parameter_units": "%.0f°",
+                            "parameter_unitstyle": 9
                         }
                     },
                     "varname": "LfoPhase"
@@ -782,6 +893,7 @@
             "obj-23": [ "LfoRate", "Rate", 0 ],
             "obj-24": [ "LfoSyncRate", "Rate", 0 ],
             "obj-3": [ "Mod1Dest", "Dest", 0 ],
+            "obj-36": [ "LfoPhase", "Phase", 0 ],
             "obj-4": [ "Mod2Source", "Source", 0 ],
             "obj-5": [ "Mod2Amount", "Amount", 0 ],
             "obj-6": [ "Mod2Dest", "Dest", 0 ],
@@ -796,8 +908,7 @@
                     "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
                 }
             },
-            "inherited_shortname": 1,
-            "obj-36": [ "LfoPhase", "Phase", 0 ]
+            "inherited_shortname": 1
         },
         "autosave": 0,
         "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
