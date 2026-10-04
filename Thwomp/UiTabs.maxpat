@@ -3,8 +3,8 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 5,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
@@ -14,17 +14,56 @@
         "boxes": [
             {
                 "box": {
+                    "activebgcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.0 ],
+                    "activebgoncolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 0.0 ],
+                    "bordercolor": [ 0.30980392156862746, 0.30980392156862746, 0.30980392156862746, 0.0 ],
+                    "id": "obj-3",
+                    "maxclass": "live.text",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 193.0, 162.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 56.0, 44.0, 14.0 ],
+                    "saved_attribute_attributes": {
+                        "activebgcolor": {
+                            "expression": ""
+                        },
+                        "activebgoncolor": {
+                            "expression": ""
+                        },
+                        "bordercolor": {
+                            "expression": ""
+                        },
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "TabMod",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "TabMod",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Mod",
+                    "texton": "Osc 1",
+                    "varname": "TabMod"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-18",
                     "maxclass": "newobj",
-                    "numinlets": 3,
+                    "numinlets": 4,
                     "numoutlets": 2,
                     "outlettype": [ "int", "" ],
                     "patcher": {
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 5,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -33,13 +72,58 @@
                         "boxes": [
                             {
                                 "box": {
+                                    "id": "obj-5",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 5,
+                                    "outlettype": [ "int", "bang", "bang", "bang", "bang" ],
+                                    "patching_rect": [ 289.0, 100.0, 62.0, 22.0 ],
+                                    "text": "t 3 b b b b"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "comment": "",
+                                    "id": "obj-4",
+                                    "index": 4,
+                                    "maxclass": "inlet",
+                                    "numinlets": 0,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 289.0, 40.0, 30.0, 30.0 ]
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-1",
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 635.0, 307.0, 142.0, 22.0 ],
+                                    "text": "script show TabSelector4"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-2",
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 638.0, 274.0, 136.0, 22.0 ],
+                                    "text": "script hide TabSelector4"
+                                }
+                            },
+                            {
+                                "box": {
                                     "id": "obj-33",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
-                                    "numoutlets": 4,
-                                    "outlettype": [ "int", "bang", "bang", "bang" ],
-                                    "patching_rect": [ 172.0, 100.0, 52.0, 22.0 ],
-                                    "text": "t 2 b b b"
+                                    "numoutlets": 5,
+                                    "outlettype": [ "int", "bang", "bang", "bang", "bang" ],
+                                    "patching_rect": [ 197.0, 100.0, 62.0, 22.0 ],
+                                    "text": "t 2 b b b b"
                                 }
                             },
                             {
@@ -47,10 +131,10 @@
                                     "id": "obj-32",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
-                                    "numoutlets": 4,
-                                    "outlettype": [ "int", "bang", "bang", "bang" ],
-                                    "patching_rect": [ 116.0, 100.0, 52.0, 22.0 ],
-                                    "text": "t 1 b b b"
+                                    "numoutlets": 5,
+                                    "outlettype": [ "int", "bang", "bang", "bang", "bang" ],
+                                    "patching_rect": [ 124.0, 100.0, 62.0, 22.0 ],
+                                    "text": "t 1 b b b b"
                                 }
                             },
                             {
@@ -58,10 +142,10 @@
                                     "id": "obj-31",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
-                                    "numoutlets": 4,
-                                    "outlettype": [ "int", "bang", "bang", "bang" ],
-                                    "patching_rect": [ 50.0, 100.0, 52.0, 22.0 ],
-                                    "text": "t 0 b b b"
+                                    "numoutlets": 5,
+                                    "outlettype": [ "int", "bang", "bang", "bang", "bang" ],
+                                    "patching_rect": [ 50.0, 100.0, 62.0, 22.0 ],
+                                    "text": "t 0 b b b b"
                                 }
                             },
                             {
@@ -151,7 +235,7 @@
                                     "numinlets": 0,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 116.0, 40.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 124.0, 40.0, 30.0, 30.0 ]
                                 }
                             },
                             {
@@ -163,7 +247,7 @@
                                     "numinlets": 0,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 172.0, 40.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 197.0, 40.0, 30.0, 30.0 ]
                                 }
                             },
                             {
@@ -174,7 +258,7 @@
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 106.666672, 389.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 50.0, 389.0, 30.0, 30.0 ]
                                 }
                             },
                             {
@@ -192,6 +276,12 @@
                         "lines": [
                             {
                                 "patchline": {
+                                    "destination": [ "obj-17", 0 ],
+                                    "source": [ "obj-1", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
                                     "destination": [ "obj-32", 0 ],
                                     "source": [ "obj-14", 0 ]
                                 }
@@ -200,6 +290,12 @@
                                 "patchline": {
                                     "destination": [ "obj-33", 0 ],
                                     "source": [ "obj-15", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-17", 0 ],
+                                    "source": [ "obj-2", 0 ]
                                 }
                             },
                             {
@@ -252,6 +348,12 @@
                             },
                             {
                                 "patchline": {
+                                    "destination": [ "obj-2", 0 ],
+                                    "source": [ "obj-31", 4 ]
+                                }
+                            },
+                            {
+                                "patchline": {
                                     "destination": [ "obj-24", 0 ],
                                     "source": [ "obj-31", 2 ]
                                 }
@@ -272,6 +374,12 @@
                                 "patchline": {
                                     "destination": [ "obj-16", 0 ],
                                     "source": [ "obj-32", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-2", 0 ],
+                                    "source": [ "obj-32", 4 ]
                                 }
                             },
                             {
@@ -300,6 +408,12 @@
                             },
                             {
                                 "patchline": {
+                                    "destination": [ "obj-2", 0 ],
+                                    "source": [ "obj-33", 4 ]
+                                }
+                            },
+                            {
+                                "patchline": {
                                     "destination": [ "obj-23", 0 ],
                                     "source": [ "obj-33", 2 ]
                                 }
@@ -314,6 +428,42 @@
                                 "patchline": {
                                     "destination": [ "obj-26", 0 ],
                                     "source": [ "obj-33", 1 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-5", 0 ],
+                                    "source": [ "obj-4", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-1", 0 ],
+                                    "source": [ "obj-5", 4 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-16", 0 ],
+                                    "source": [ "obj-5", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-23", 0 ],
+                                    "source": [ "obj-5", 1 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-24", 0 ],
+                                    "source": [ "obj-5", 2 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-25", 0 ],
+                                    "source": [ "obj-5", 3 ]
                                 }
                             }
                         ]
@@ -454,11 +604,11 @@
                 "box": {
                     "id": "obj-29",
                     "maxclass": "newobj",
-                    "numinlets": 4,
-                    "numoutlets": 4,
-                    "outlettype": [ "bang", "bang", "bang", "" ],
-                    "patching_rect": [ 32.0, 101.0, 70.0, 22.0 ],
-                    "text": "select 0 1 2"
+                    "numinlets": 5,
+                    "numoutlets": 5,
+                    "outlettype": [ "bang", "bang", "bang", "bang", "" ],
+                    "patching_rect": [ 32.0, 101.0, 80.0, 22.0 ],
+                    "text": "select 0 1 2 3"
                 }
             },
             {
@@ -575,6 +725,71 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
+                    "id": "obj-4",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiTabSelector.maxpat",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 299.0, 122.0, 10.0, 36.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 38.0, 0.0, 10.0, 29.0 ],
+                    "varname": "TabSelector1",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "angle": 270.0,
+                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
+                    "id": "obj-15",
+                    "maxclass": "panel",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 726.0, 51.0, 128.0, 55.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 56.0, 44.0, 14.0 ],
+                    "proportion": 0.39,
+                    "saved_attribute_attributes": {
+                        "bgfillcolor": {
+                            "expression": "themecolor.live_surface_bg"
+                        }
+                    }
+                }
+            },
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "hidden": 1,
+                    "id": "obj-14",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiTabSelector.maxpat",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 299.0, 253.0, 10.0, 36.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 38.0, 48.5, 10.0, 29.0 ],
+                    "varname": "TabSelector4",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
                     "hidden": 1,
                     "id": "obj-6",
                     "lockeddragscroll": 0,
@@ -588,28 +803,6 @@
                     "presentation": 1,
                     "presentation_rect": [ 38.0, 32.0, 10.0, 29.0 ],
                     "varname": "TabSelector3",
-                    "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
-                    "bgmode": 0,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-4",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "UiTabSelector.maxpat",
-                    "numinlets": 0,
-                    "numoutlets": 0,
-                    "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 299.0, 122.0, 10.0, 36.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 38.0, 0.0, 10.0, 29.0 ],
-                    "varname": "TabSelector1",
                     "viewvisibility": 1
                 }
             }
@@ -647,6 +840,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-3", 0 ],
+                    "source": [ "obj-29", 3 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-7", 0 ],
                     "source": [ "obj-29", 1 ]
                 }
@@ -655,6 +854,12 @@
                 "patchline": {
                     "destination": [ "obj-9", 0 ],
                     "source": [ "obj-29", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-18", 3 ],
+                    "source": [ "obj-3", 0 ]
                 }
             },
             {
@@ -672,6 +877,7 @@
         ],
         "parameters": {
             "obj-13": [ "TabOsc1", "TabOsc1", 0 ],
+            "obj-3": [ "TabMod", "TabMod", 0 ],
             "obj-7": [ "TabOsc2", "TabOsc2", 0 ],
             "obj-9": [ "TabRand", "TabRand", 0 ],
             "parameterbanks": {
