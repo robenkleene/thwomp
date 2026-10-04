@@ -27,9 +27,9 @@
                     "presentation_rect": [ 3.0, 3.0, 72.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "None", "Velocity", "Key", "Random", "LFO 1", "LFO 2", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
+                            "parameter_enum": [ "None", "Velocity", "Key", "Random", "LFO", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
                             "parameter_longname": "Mod1Source",
-                            "parameter_mmax": 14,
+                            "parameter_mmax": 13,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Source",
                             "parameter_type": 2
@@ -83,9 +83,9 @@
                     "presentation_rect": [ 3.0, 67.0, 72.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "None", "Osc 1 Pitch", "Osc 1 Gain", "Osc 1 Attack", "Osc 1 Decay", "Osc 1 Overdrive", "Osc 1 Overtone", "Osc 1 Env Amount", "Osc 1 Env Duration", "Osc 1 Env Curve", "Osc 2 Pitch", "Osc 2 Gain", "Osc 2 Attack", "Osc 2 Decay", "Osc 2 Overdrive", "Osc 2 Overtone", "Osc 2 Env Amount", "Osc 2 Env Duration", "Osc 2 Env Curve", "Filter Freq", "Filter Res", "Ring Gain", "Ring Decay", "Volume", "LFO 1 Rate", "LFO 2 Rate" ],
+                            "parameter_enum": [ "None", "Osc 1 Pitch", "Osc 1 Gain", "Osc 1 Attack", "Osc 1 Decay", "Osc 1 Overdrive", "Osc 1 Overtone", "Osc 1 Env Amount", "Osc 1 Env Duration", "Osc 1 Env Curve", "Osc 2 Pitch", "Osc 2 Gain", "Osc 2 Attack", "Osc 2 Decay", "Osc 2 Overdrive", "Osc 2 Overtone", "Osc 2 Env Amount", "Osc 2 Env Duration", "Osc 2 Env Curve", "Filter Freq", "Filter Res", "Ring Gain", "Ring Decay", "Volume", "LFO Rate" ],
                             "parameter_longname": "Mod1Dest",
-                            "parameter_mmax": 25,
+                            "parameter_mmax": 24,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Dest",
                             "parameter_type": 2
@@ -109,9 +109,9 @@
                     "presentation_rect": [ 81.0, 3.0, 72.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "None", "Velocity", "Key", "Random", "LFO 1", "LFO 2", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
+                            "parameter_enum": [ "None", "Velocity", "Key", "Random", "LFO", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
                             "parameter_longname": "Mod2Source",
-                            "parameter_mmax": 14,
+                            "parameter_mmax": 13,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Source",
                             "parameter_type": 2
@@ -165,9 +165,9 @@
                     "presentation_rect": [ 81.0, 67.0, 72.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "None", "Osc 1 Pitch", "Osc 1 Gain", "Osc 1 Attack", "Osc 1 Decay", "Osc 1 Overdrive", "Osc 1 Overtone", "Osc 1 Env Amount", "Osc 1 Env Duration", "Osc 1 Env Curve", "Osc 2 Pitch", "Osc 2 Gain", "Osc 2 Attack", "Osc 2 Decay", "Osc 2 Overdrive", "Osc 2 Overtone", "Osc 2 Env Amount", "Osc 2 Env Duration", "Osc 2 Env Curve", "Filter Freq", "Filter Res", "Ring Gain", "Ring Decay", "Volume", "LFO 1 Rate", "LFO 2 Rate" ],
+                            "parameter_enum": [ "None", "Osc 1 Pitch", "Osc 1 Gain", "Osc 1 Attack", "Osc 1 Decay", "Osc 1 Overdrive", "Osc 1 Overtone", "Osc 1 Env Amount", "Osc 1 Env Duration", "Osc 1 Env Curve", "Osc 2 Pitch", "Osc 2 Gain", "Osc 2 Attack", "Osc 2 Decay", "Osc 2 Overdrive", "Osc 2 Overtone", "Osc 2 Env Amount", "Osc 2 Env Duration", "Osc 2 Env Curve", "Filter Freq", "Filter Res", "Ring Gain", "Ring Decay", "Volume", "LFO Rate" ],
                             "parameter_longname": "Mod2Dest",
-                            "parameter_mmax": 25,
+                            "parameter_mmax": 24,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Dest",
                             "parameter_type": 2
@@ -191,9 +191,9 @@
                     "presentation_rect": [ 159.0, 3.0, 72.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "None", "Velocity", "Key", "Random", "LFO 1", "LFO 2", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
+                            "parameter_enum": [ "None", "Velocity", "Key", "Random", "LFO", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
                             "parameter_longname": "Mod3Source",
-                            "parameter_mmax": 14,
+                            "parameter_mmax": 13,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Source",
                             "parameter_type": 2
@@ -247,9 +247,9 @@
                     "presentation_rect": [ 159.0, 67.0, 72.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "None", "Osc 1 Pitch", "Osc 1 Gain", "Osc 1 Attack", "Osc 1 Decay", "Osc 1 Overdrive", "Osc 1 Overtone", "Osc 1 Env Amount", "Osc 1 Env Duration", "Osc 1 Env Curve", "Osc 2 Pitch", "Osc 2 Gain", "Osc 2 Attack", "Osc 2 Decay", "Osc 2 Overdrive", "Osc 2 Overtone", "Osc 2 Env Amount", "Osc 2 Env Duration", "Osc 2 Env Curve", "Filter Freq", "Filter Res", "Ring Gain", "Ring Decay", "Volume", "LFO 1 Rate", "LFO 2 Rate" ],
+                            "parameter_enum": [ "None", "Osc 1 Pitch", "Osc 1 Gain", "Osc 1 Attack", "Osc 1 Decay", "Osc 1 Overdrive", "Osc 1 Overtone", "Osc 1 Env Amount", "Osc 1 Env Duration", "Osc 1 Env Curve", "Osc 2 Pitch", "Osc 2 Gain", "Osc 2 Attack", "Osc 2 Decay", "Osc 2 Overdrive", "Osc 2 Overtone", "Osc 2 Env Amount", "Osc 2 Env Duration", "Osc 2 Env Curve", "Filter Freq", "Filter Res", "Ring Gain", "Ring Decay", "Volume", "LFO Rate" ],
                             "parameter_longname": "Mod3Dest",
-                            "parameter_mmax": 25,
+                            "parameter_mmax": 24,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Dest",
                             "parameter_type": 2
@@ -273,9 +273,9 @@
                     "presentation_rect": [ 3.0, 89.0, 72.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "None", "Velocity", "Key", "Random", "LFO 1", "LFO 2", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
+                            "parameter_enum": [ "None", "Velocity", "Key", "Random", "LFO", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
                             "parameter_longname": "Mod4Source",
-                            "parameter_mmax": 14,
+                            "parameter_mmax": 13,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Source",
                             "parameter_type": 2
@@ -329,9 +329,9 @@
                     "presentation_rect": [ 3.0, 153.0, 72.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "None", "Osc 1 Pitch", "Osc 1 Gain", "Osc 1 Attack", "Osc 1 Decay", "Osc 1 Overdrive", "Osc 1 Overtone", "Osc 1 Env Amount", "Osc 1 Env Duration", "Osc 1 Env Curve", "Osc 2 Pitch", "Osc 2 Gain", "Osc 2 Attack", "Osc 2 Decay", "Osc 2 Overdrive", "Osc 2 Overtone", "Osc 2 Env Amount", "Osc 2 Env Duration", "Osc 2 Env Curve", "Filter Freq", "Filter Res", "Ring Gain", "Ring Decay", "Volume", "LFO 1 Rate", "LFO 2 Rate" ],
+                            "parameter_enum": [ "None", "Osc 1 Pitch", "Osc 1 Gain", "Osc 1 Attack", "Osc 1 Decay", "Osc 1 Overdrive", "Osc 1 Overtone", "Osc 1 Env Amount", "Osc 1 Env Duration", "Osc 1 Env Curve", "Osc 2 Pitch", "Osc 2 Gain", "Osc 2 Attack", "Osc 2 Decay", "Osc 2 Overdrive", "Osc 2 Overtone", "Osc 2 Env Amount", "Osc 2 Env Duration", "Osc 2 Env Curve", "Filter Freq", "Filter Res", "Ring Gain", "Ring Decay", "Volume", "LFO Rate" ],
                             "parameter_longname": "Mod4Dest",
-                            "parameter_mmax": 25,
+                            "parameter_mmax": 24,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Dest",
                             "parameter_type": 2
@@ -355,9 +355,9 @@
                     "presentation_rect": [ 81.0, 89.0, 72.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "None", "Velocity", "Key", "Random", "LFO 1", "LFO 2", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
+                            "parameter_enum": [ "None", "Velocity", "Key", "Random", "LFO", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
                             "parameter_longname": "Mod5Source",
-                            "parameter_mmax": 14,
+                            "parameter_mmax": 13,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Source",
                             "parameter_type": 2
@@ -411,9 +411,9 @@
                     "presentation_rect": [ 81.0, 153.0, 72.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "None", "Osc 1 Pitch", "Osc 1 Gain", "Osc 1 Attack", "Osc 1 Decay", "Osc 1 Overdrive", "Osc 1 Overtone", "Osc 1 Env Amount", "Osc 1 Env Duration", "Osc 1 Env Curve", "Osc 2 Pitch", "Osc 2 Gain", "Osc 2 Attack", "Osc 2 Decay", "Osc 2 Overdrive", "Osc 2 Overtone", "Osc 2 Env Amount", "Osc 2 Env Duration", "Osc 2 Env Curve", "Filter Freq", "Filter Res", "Ring Gain", "Ring Decay", "Volume", "LFO 1 Rate", "LFO 2 Rate" ],
+                            "parameter_enum": [ "None", "Osc 1 Pitch", "Osc 1 Gain", "Osc 1 Attack", "Osc 1 Decay", "Osc 1 Overdrive", "Osc 1 Overtone", "Osc 1 Env Amount", "Osc 1 Env Duration", "Osc 1 Env Curve", "Osc 2 Pitch", "Osc 2 Gain", "Osc 2 Attack", "Osc 2 Decay", "Osc 2 Overdrive", "Osc 2 Overtone", "Osc 2 Env Amount", "Osc 2 Env Duration", "Osc 2 Env Curve", "Filter Freq", "Filter Res", "Ring Gain", "Ring Decay", "Volume", "LFO Rate" ],
                             "parameter_longname": "Mod5Dest",
-                            "parameter_mmax": 25,
+                            "parameter_mmax": 24,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Dest",
                             "parameter_type": 2
@@ -437,9 +437,9 @@
                     "presentation_rect": [ 159.0, 89.0, 72.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "None", "Velocity", "Key", "Random", "LFO 1", "LFO 2", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
+                            "parameter_enum": [ "None", "Velocity", "Key", "Random", "LFO", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
                             "parameter_longname": "Mod6Source",
-                            "parameter_mmax": 14,
+                            "parameter_mmax": 13,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Source",
                             "parameter_type": 2
@@ -493,9 +493,9 @@
                     "presentation_rect": [ 159.0, 153.0, 72.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "None", "Osc 1 Pitch", "Osc 1 Gain", "Osc 1 Attack", "Osc 1 Decay", "Osc 1 Overdrive", "Osc 1 Overtone", "Osc 1 Env Amount", "Osc 1 Env Duration", "Osc 1 Env Curve", "Osc 2 Pitch", "Osc 2 Gain", "Osc 2 Attack", "Osc 2 Decay", "Osc 2 Overdrive", "Osc 2 Overtone", "Osc 2 Env Amount", "Osc 2 Env Duration", "Osc 2 Env Curve", "Filter Freq", "Filter Res", "Ring Gain", "Ring Decay", "Volume", "LFO 1 Rate", "LFO 2 Rate" ],
+                            "parameter_enum": [ "None", "Osc 1 Pitch", "Osc 1 Gain", "Osc 1 Attack", "Osc 1 Decay", "Osc 1 Overdrive", "Osc 1 Overtone", "Osc 1 Env Amount", "Osc 1 Env Duration", "Osc 1 Env Curve", "Osc 2 Pitch", "Osc 2 Gain", "Osc 2 Attack", "Osc 2 Decay", "Osc 2 Overdrive", "Osc 2 Overtone", "Osc 2 Env Amount", "Osc 2 Env Duration", "Osc 2 Env Curve", "Filter Freq", "Filter Res", "Ring Gain", "Ring Decay", "Volume", "LFO Rate" ],
                             "parameter_longname": "Mod6Dest",
-                            "parameter_mmax": 25,
+                            "parameter_mmax": 24,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Dest",
                             "parameter_type": 2
@@ -506,8 +506,8 @@
             },
             {
                 "box": {
-                    "annotation": "The shape of LFO 1.",
-                    "annotation_name": "LFO 1 Shape",
+                    "annotation": "The shape of the LFO.",
+                    "annotation_name": "LFO Shape",
                     "id": "obj-19",
                     "maxclass": "live.menu",
                     "numinlets": 1,
@@ -522,7 +522,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Sine", "Tri", "Square", "Saw", "S&H" ],
-                            "parameter_longname": "Lfo1Shape",
+                            "parameter_longname": "LfoShape",
                             "parameter_mmax": 4,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Shape",
@@ -531,13 +531,13 @@
                     },
                     "usepicture": 1,
                     "usesvgviewbox": 1,
-                    "varname": "Lfo1Shape"
+                    "varname": "LfoShape"
                 }
             },
             {
                 "box": {
-                    "annotation": "Toggle whether LFO 1 is synced to the tempo.",
-                    "annotation_name": "LFO 1 Sync",
+                    "annotation": "Toggle whether the LFO is synced to the tempo.",
+                    "annotation_name": "LFO Sync",
                     "automation": "Off",
                     "automationon": "On",
                     "id": "obj-20",
@@ -552,7 +552,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "Lfo1Sync",
+                            "parameter_longname": "LfoSync",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Sync",
@@ -561,13 +561,13 @@
                     },
                     "text": "Sync",
                     "texton": "Sync",
-                    "varname": "Lfo1Sync"
+                    "varname": "LfoSync"
                 }
             },
             {
                 "box": {
-                    "annotation": "Toggle whether LFO 1 resets its phase on each new note.",
-                    "annotation_name": "LFO 1 Retrigger",
+                    "annotation": "Toggle whether the LFO resets its phase on each new note.",
+                    "annotation_name": "LFO Retrigger",
                     "automation": "Off",
                     "automationon": "On",
                     "id": "obj-21",
@@ -582,7 +582,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "Lfo1Retrig",
+                            "parameter_longname": "LfoRetrig",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Retrig",
@@ -591,7 +591,7 @@
                     },
                     "text": "Retrig",
                     "texton": "Retrig",
-                    "varname": "Lfo1Retrig"
+                    "varname": "LfoRetrig"
                 }
             },
             {
@@ -605,13 +605,13 @@
                     "patching_rect": [ 40.0, 335.0, 50.0, 18.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 237.0, 52.0, 50.0, 18.0 ],
-                    "text": "LFO 1"
+                    "text": "LFO"
                 }
             },
             {
                 "box": {
-                    "annotation": "The rate of LFO 1 (when Sync is off).",
-                    "annotation_name": "LFO 1 Rate",
+                    "annotation": "The rate of the LFO (when Sync is off).",
+                    "annotation_name": "LFO Rate",
                     "id": "obj-23",
                     "maxclass": "live.dial",
                     "numinlets": 1,
@@ -626,7 +626,7 @@
                             "parameter_exponent": 3.0,
                             "parameter_initial": [ 1.0 ],
                             "parameter_initial_enable": 1,
-                            "parameter_longname": "Lfo1Rate",
+                            "parameter_longname": "LfoRate",
                             "parameter_mmax": 50.0,
                             "parameter_mmin": 0.01,
                             "parameter_modmode": 0,
@@ -635,13 +635,43 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "varname": "Lfo1Rate"
+                    "varname": "LfoRate"
                 }
             },
             {
                 "box": {
-                    "annotation": "The rate of LFO 1 (when Sync is on).",
-                    "annotation_name": "LFO 1 Sync Rate",
+                    "annotation": "The phase the LFO starts at on each new note (when Retrig is on).",
+                    "annotation_name": "LFO Phase",
+                    "id": "obj-36",
+                    "maxclass": "live.dial",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 110.0, 380.0, 41.0, 48.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 292.0, 89.0, 41.0, 48.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_initial": [ 0.0 ],
+                            "parameter_initial_enable": 1,
+                            "parameter_longname": "LfoPhase",
+                            "parameter_mmax": 360.0,
+                            "parameter_mmin": 0.0,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Phase",
+                            "parameter_type": 0,
+                            "parameter_unitstyle": 9,
+                            "parameter_units": "%.0f\u00b0"
+                        }
+                    },
+                    "varname": "LfoPhase"
+                }
+            },
+            {
+                "box": {
+                    "annotation": "The rate of the LFO (when Sync is on).",
+                    "annotation_name": "LFO Sync Rate",
                     "hidden": 1,
                     "id": "obj-24",
                     "maxclass": "live.dial",
@@ -657,7 +687,7 @@
                             "parameter_enum": [ "1/64", "1/32", "1/16T", "1/16", "1/8T", "1/8", "1/4T", "1/4", "1/2", "1 Bar", "2 Bars", "4 Bars", "8 Bars" ],
                             "parameter_initial": [ 7.0 ],
                             "parameter_initial_enable": 1,
-                            "parameter_longname": "Lfo1SyncRate",
+                            "parameter_longname": "LfoSyncRate",
                             "parameter_mmax": 12,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Rate",
@@ -665,171 +695,7 @@
                             "parameter_unitstyle": 9
                         }
                     },
-                    "varname": "Lfo1SyncRate"
-                }
-            },
-            {
-                "box": {
-                    "annotation": "The shape of LFO 2.",
-                    "annotation_name": "LFO 2 Shape",
-                    "id": "obj-25",
-                    "maxclass": "live.menu",
-                    "numinlets": 1,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 200.0, 260.0, 46.0, 15.0 ],
-                    "pictures": [ "sine.svg", "updown.svg", "square.svg", "up.svg", "SHrounded.svg" ],
-                    "presentation": 1,
-                    "presentation_rect": [ 239.0, 89.0, 46.0, 15.0 ],
-                    "remapsvgcolors": 1,
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "Sine", "Tri", "Square", "Saw", "S&H" ],
-                            "parameter_longname": "Lfo2Shape",
-                            "parameter_mmax": 4,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Shape",
-                            "parameter_type": 2
-                        }
-                    },
-                    "usepicture": 1,
-                    "usesvgviewbox": 1,
-                    "varname": "Lfo2Shape"
-                }
-            },
-            {
-                "box": {
-                    "annotation": "Toggle whether LFO 2 is synced to the tempo.",
-                    "annotation_name": "LFO 2 Sync",
-                    "automation": "Off",
-                    "automationon": "On",
-                    "id": "obj-26",
-                    "maxclass": "live.text",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 200.0, 285.0, 44.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 239.0, 105.0, 46.0, 15.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "Lfo2Sync",
-                            "parameter_mmax": 1,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Sync",
-                            "parameter_type": 2
-                        }
-                    },
-                    "text": "Sync",
-                    "texton": "Sync",
-                    "varname": "Lfo2Sync"
-                }
-            },
-            {
-                "box": {
-                    "annotation": "Toggle whether LFO 2 resets its phase on each new note.",
-                    "annotation_name": "LFO 2 Retrigger",
-                    "automation": "Off",
-                    "automationon": "On",
-                    "id": "obj-27",
-                    "maxclass": "live.text",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 200.0, 310.0, 44.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 239.0, 121.0, 46.0, 15.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "Lfo2Retrig",
-                            "parameter_mmax": 1,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Retrig",
-                            "parameter_type": 2
-                        }
-                    },
-                    "text": "Retrig",
-                    "texton": "Retrig",
-                    "varname": "Lfo2Retrig"
-                }
-            },
-            {
-                "box": {
-                    "fontname": "Ableton Sans Medium",
-                    "fontsize": 10.0,
-                    "id": "obj-28",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 200.0, 335.0, 50.0, 18.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 237.0, 138.0, 50.0, 18.0 ],
-                    "text": "LFO 2"
-                }
-            },
-            {
-                "box": {
-                    "annotation": "The rate of LFO 2 (when Sync is off).",
-                    "annotation_name": "LFO 2 Rate",
-                    "id": "obj-29",
-                    "maxclass": "live.dial",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 270.0, 260.0, 41.0, 48.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 292.0, 106.0, 41.0, 48.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_exponent": 3.0,
-                            "parameter_initial": [ 1.0 ],
-                            "parameter_initial_enable": 1,
-                            "parameter_longname": "Lfo2Rate",
-                            "parameter_mmax": 50.0,
-                            "parameter_mmin": 0.01,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Rate",
-                            "parameter_type": 0,
-                            "parameter_unitstyle": 3
-                        }
-                    },
-                    "varname": "Lfo2Rate"
-                }
-            },
-            {
-                "box": {
-                    "annotation": "The rate of LFO 2 (when Sync is on).",
-                    "annotation_name": "LFO 2 Sync Rate",
-                    "hidden": 1,
-                    "id": "obj-30",
-                    "maxclass": "live.dial",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 270.0, 320.0, 41.0, 48.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 292.0, 106.0, 41.0, 48.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "1/64", "1/32", "1/16T", "1/16", "1/8T", "1/8", "1/4T", "1/4", "1/2", "1 Bar", "2 Bars", "4 Bars", "8 Bars" ],
-                            "parameter_initial": [ 7.0 ],
-                            "parameter_initial_enable": 1,
-                            "parameter_longname": "Lfo2SyncRate",
-                            "parameter_mmax": 12,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Rate",
-                            "parameter_type": 2,
-                            "parameter_unitstyle": 9
-                        }
-                    },
-                    "varname": "Lfo2SyncRate"
+                    "varname": "LfoSyncRate"
                 }
             },
             {
@@ -873,7 +739,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 100.0, 440.0, 100.0, 5.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 81.0, 346.0, 7.0 ]
+                    "presentation_rect": [ 0.0, 81.0, 233.0, 7.0 ]
                 }
             },
             {
@@ -909,18 +775,13 @@
             "obj-16": [ "Mod6Source", "Source", 0 ],
             "obj-17": [ "Mod6Amount", "Amount", 0 ],
             "obj-18": [ "Mod6Dest", "Dest", 0 ],
-            "obj-19": [ "Lfo1Shape", "Shape", 0 ],
+            "obj-19": [ "LfoShape", "Shape", 0 ],
             "obj-2": [ "Mod1Amount", "Amount", 0 ],
-            "obj-20": [ "Lfo1Sync", "Sync", 0 ],
-            "obj-21": [ "Lfo1Retrig", "Retrig", 0 ],
-            "obj-23": [ "Lfo1Rate", "Rate", 0 ],
-            "obj-24": [ "Lfo1SyncRate", "Rate", 0 ],
-            "obj-25": [ "Lfo2Shape", "Shape", 0 ],
-            "obj-26": [ "Lfo2Sync", "Sync", 0 ],
-            "obj-27": [ "Lfo2Retrig", "Retrig", 0 ],
-            "obj-29": [ "Lfo2Rate", "Rate", 0 ],
+            "obj-20": [ "LfoSync", "Sync", 0 ],
+            "obj-21": [ "LfoRetrig", "Retrig", 0 ],
+            "obj-23": [ "LfoRate", "Rate", 0 ],
+            "obj-24": [ "LfoSyncRate", "Rate", 0 ],
             "obj-3": [ "Mod1Dest", "Dest", 0 ],
-            "obj-30": [ "Lfo2SyncRate", "Rate", 0 ],
             "obj-4": [ "Mod2Source", "Source", 0 ],
             "obj-5": [ "Mod2Amount", "Amount", 0 ],
             "obj-6": [ "Mod2Dest", "Dest", 0 ],
@@ -935,7 +796,8 @@
                     "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
                 }
             },
-            "inherited_shortname": 1
+            "inherited_shortname": 1,
+            "obj-36": [ "LfoPhase", "Phase", 0 ]
         },
         "autosave": 0,
         "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
