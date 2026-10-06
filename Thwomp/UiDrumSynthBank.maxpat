@@ -9,9 +9,20 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 667.0, 187.0, 1230.0, 977.0 ],
+        "rect": [ 830.0, 92.0, 1230.0, 977.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-22",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 537.0, 370.0, 79.0, 22.0 ],
+                    "text": "prepend mod"
+                }
+            },
             {
                 "box": {
                     "args": [ "#1" ],
@@ -25,10 +36,11 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "UiMod.maxpat",
-                    "numinlets": 0,
-                    "numoutlets": 0,
+                    "numinlets": 1,
+                    "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 425.0, 503.0, 200.0, 168.0 ],
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 537.0, 183.0, 348.0, 170.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 342.0, 346.0, 169.0 ],
                     "varname": "Mod",
@@ -42,7 +54,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 853.0, 552.0, 97.0, 22.0 ],
+                    "patching_rect": [ 854.0, 647.0, 97.0, 22.0 ],
                     "text": "prepend randtab"
                 }
             },
@@ -75,7 +87,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 720.0, 552.0, 103.0, 22.0 ],
+                    "patching_rect": [ 721.0, 647.0, 103.0, 22.0 ],
                     "text": "prepend randnote"
                 }
             },
@@ -86,7 +98,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 608.0, 688.0, 112.0, 22.0 ],
+                    "patching_rect": [ 609.0, 783.0, 112.0, 22.0 ],
                     "text": "prepend randomize"
                 }
             },
@@ -97,7 +109,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 560.0, 656.0, 112.0, 22.0 ],
+                    "patching_rect": [ 561.0, 751.0, 112.0, 22.0 ],
                     "text": "prepend randomize"
                 }
             },
@@ -108,7 +120,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 536.0, 624.0, 112.0, 22.0 ],
+                    "patching_rect": [ 537.0, 719.0, 112.0, 22.0 ],
                     "text": "prepend randomize"
                 }
             },
@@ -119,7 +131,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 536.0, 552.0, 95.0, 22.0 ],
+                    "patching_rect": [ 537.0, 647.0, 95.0, 22.0 ],
                     "text": "route randomize"
                 }
             },
@@ -130,7 +142,7 @@
                     "numinlets": 3,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 536.0, 584.0, 93.0, 22.0 ],
+                    "patching_rect": [ 537.0, 679.0, 93.0, 22.0 ],
                     "text": "route osc1 osc2"
                 }
             },
@@ -141,7 +153,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 536.0, 320.0, 22.0, 22.0 ],
+                    "patching_rect": [ 537.0, 415.0, 22.0, 22.0 ],
                     "text": "t b"
                 }
             },
@@ -162,7 +174,7 @@
                     "numoutlets": 4,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "bang", "int", "int" ],
-                    "patching_rect": [ 536.0, 360.0, 200.0, 168.0 ],
+                    "patching_rect": [ 537.0, 455.0, 200.0, 168.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 513.0, 346.0, 169.0 ],
                     "varname": "Randomize",
@@ -232,7 +244,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 152.0, 144.0, 69.0, 22.0 ],
+                    "patching_rect": [ 154.5, 168.0, 69.0, 22.0 ],
                     "save": [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
                     "text": "thispatcher"
                 }
@@ -391,6 +403,18 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-22", 0 ],
+                    "source": [ "obj-21", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-2", 0 ],
+                    "source": [ "obj-22", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-12", 0 ],
                     "source": [ "obj-3", 1 ]
                 }
@@ -440,14 +464,21 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
-                    "order": 2,
+                    "order": 3,
+                    "source": [ "obj-7", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-21", 0 ],
+                    "order": 0,
                     "source": [ "obj-7", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-3", 0 ],
-                    "order": 1,
+                    "order": 2,
                     "source": [ "obj-7", 0 ]
                 }
             },
@@ -460,7 +491,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-8", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-7", 0 ]
                 }
             },
@@ -521,12 +552,8 @@
             "obj-21::obj-21": [ "Lfo1Retrig", "Retrig", 0 ],
             "obj-21::obj-23": [ "Lfo1Rate", "Rate", 0 ],
             "obj-21::obj-24": [ "Lfo1SyncRate", "Rate", 0 ],
-            "obj-21::obj-25": [ "Lfo2Shape", "Shape", 0 ],
-            "obj-21::obj-26": [ "Lfo2Sync", "Sync", 0 ],
-            "obj-21::obj-27": [ "Lfo2Retrig", "Retrig", 0 ],
-            "obj-21::obj-29": [ "Lfo2Rate", "Rate", 0 ],
             "obj-21::obj-3": [ "Mod1Dest", "Dest", 0 ],
-            "obj-21::obj-30": [ "Lfo2SyncRate", "Rate", 0 ],
+            "obj-21::obj-36": [ "LfoPhase", "Phase", 0 ],
             "obj-21::obj-4": [ "Mod2Source", "Source", 0 ],
             "obj-21::obj-5": [ "Mod2Amount", "Amount", 0 ],
             "obj-21::obj-6": [ "Mod2Dest", "Dest", 0 ],
@@ -666,8 +693,23 @@
                 "obj-21::obj-11": {
                     "parameter_longname": "RandTab[1]"
                 },
+                "obj-21::obj-19": {
+                    "parameter_longname": "Lfo1Shape"
+                },
                 "obj-21::obj-2": {
                     "parameter_longname": "RandTrigToggle[1]"
+                },
+                "obj-21::obj-20": {
+                    "parameter_longname": "Lfo1Sync"
+                },
+                "obj-21::obj-21": {
+                    "parameter_longname": "Lfo1Retrig"
+                },
+                "obj-21::obj-23": {
+                    "parameter_longname": "Lfo1Rate"
+                },
+                "obj-21::obj-24": {
+                    "parameter_longname": "Lfo1SyncRate"
                 },
                 "obj-8::obj-1::obj-3::obj-18::obj-1": {
                     "parameter_range": [ 0.0, 15000.0 ]
