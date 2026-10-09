@@ -3,13 +3,13 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 2,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1019.0, 471.0, 567.0, 561.0 ],
+        "rect": [ 1482.0, 542.0, 567.0, 561.0 ],
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
             {
@@ -19,7 +19,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 56.0, 48.0, 39.0, 22.0 ],
+                    "patching_rect": [ 60.0, 47.0, 39.0, 22.0 ],
                     "text": "click~"
                 }
             },
