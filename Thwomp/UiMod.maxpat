@@ -14,6 +14,28 @@
         "boxes": [
             {
                 "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-19",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiLfo.maxpat",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 315.0, 563.0, 128.0, 128.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 370.0, 19.0, 131.0, 149.0 ],
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
                     "id": "obj-45",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -727,6 +749,12 @@
             "obj-16": [ "Mod6Source", "Source", 0 ],
             "obj-17": [ "Mod6Amount", "Amount", 0 ],
             "obj-18": [ "Mod6Dest", "Dest", 0 ],
+            "obj-19::obj-19": [ "LfoShape", "Shape", 0 ],
+            "obj-19::obj-20": [ "LfoSync", "Sync", 0 ],
+            "obj-19::obj-21": [ "LfoRetrig", "Retrig", 0 ],
+            "obj-19::obj-23": [ "LfoRate", "Rate", 0 ],
+            "obj-19::obj-24": [ "LfoSyncRate", "Rate", 0 ],
+            "obj-19::obj-36": [ "LfoPhase", "Phase", 0 ],
             "obj-2": [ "Mod1Amount", "Amount", 0 ],
             "obj-3": [ "Mod1Dest", "Dest", 0 ],
             "obj-4": [ "Mod2Source", "Source", 0 ],
