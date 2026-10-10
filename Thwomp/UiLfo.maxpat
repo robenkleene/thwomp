@@ -28,9 +28,61 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 640.0, 334.0, 1000.0, 780.0 ],
+                        "rect": [ 746.0, 214.0, 1000.0, 780.0 ],
                         "visible": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-11",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 690.5, 556.0, 89.0, 20.0 ],
+                                    "presentation_linecount": 5,
+                                    "text": "Sample & Hold"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-10",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 578.0, 556.0, 32.0, 20.0 ],
+                                    "text": "Saw"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-9",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 457.0, 556.0, 47.0, 20.0 ],
+                                    "presentation_linecount": 2,
+                                    "text": "Square"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-8",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 328.0, 556.0, 22.0, 20.0 ],
+                                    "text": "Tri"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-7",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 212.3, 556.0, 33.0, 20.0 ],
+                                    "text": "Sine"
+                                }
+                            },
                             {
                                 "box": {
                                     "comment": "(signal) lfo",
