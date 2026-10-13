@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 806.0, 152.0, 1331.0, 974.0 ],
+        "rect": [ 140.0, 131.0, 1331.0, 974.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -20,21 +20,6 @@
                     "numoutlets": 0,
                     "patching_rect": [ 315.0, 752.0, 98.0, 22.0 ],
                     "text": "send~ #1-modlfo"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-22",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 4,
-                    "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 315.0, 483.0, 50.5, 22.0 ],
-                    "saved_object_attributes": {
-                        "embed": 0,
-                        "precision": 6
-                    },
-                    "text": "coll"
                 }
             },
             {
@@ -79,17 +64,6 @@
                     "outlettype": [ "", "" ],
                     "patching_rect": [ 40.0, 62.0, 63.0, 22.0 ],
                     "text": "route note"
-                }
-            },
-            {
-                "box": {
-                    "comment": "(message) control messages",
-                    "id": "obj-43",
-                    "index": 0,
-                    "maxclass": "outlet",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 623.0, 776.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -207,9 +181,9 @@
                     "presentation_rect": [ 3.0, 3.0, 72.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "None", "Velocity", "Key", "Random", "LFO", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
+                            "parameter_enum": [ "Velocity", "Key", "Random", "LFO", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
                             "parameter_longname": "Mod1Source",
-                            "parameter_mmax": 13,
+                            "parameter_mmax": 12,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Source",
                             "parameter_type": 2
@@ -289,9 +263,9 @@
                     "presentation_rect": [ 81.0, 3.0, 72.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "None", "Velocity", "Key", "Random", "LFO", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
+                            "parameter_enum": [ "Velocity", "Key", "Random", "LFO", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
                             "parameter_longname": "Mod2Source",
-                            "parameter_mmax": 13,
+                            "parameter_mmax": 12,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Source",
                             "parameter_type": 2
@@ -371,9 +345,9 @@
                     "presentation_rect": [ 159.0, 3.0, 72.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "None", "Velocity", "Key", "Random", "LFO", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
+                            "parameter_enum": [ "Velocity", "Key", "Random", "LFO", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
                             "parameter_longname": "Mod3Source",
-                            "parameter_mmax": 13,
+                            "parameter_mmax": 12,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Source",
                             "parameter_type": 2
@@ -453,9 +427,9 @@
                     "presentation_rect": [ 3.0, 89.0, 72.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "None", "Velocity", "Key", "Random", "LFO", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
+                            "parameter_enum": [ "Velocity", "Key", "Random", "LFO", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
                             "parameter_longname": "Mod4Source",
-                            "parameter_mmax": 13,
+                            "parameter_mmax": 12,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Source",
                             "parameter_type": 2
@@ -535,9 +509,9 @@
                     "presentation_rect": [ 81.0, 89.0, 72.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "None", "Velocity", "Key", "Random", "LFO", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
+                            "parameter_enum": [ "Velocity", "Key", "Random", "LFO", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
                             "parameter_longname": "Mod5Source",
-                            "parameter_mmax": 13,
+                            "parameter_mmax": 12,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Source",
                             "parameter_type": 2
@@ -617,9 +591,9 @@
                     "presentation_rect": [ 159.0, 89.0, 72.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "None", "Velocity", "Key", "Random", "LFO", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
+                            "parameter_enum": [ "Velocity", "Key", "Random", "LFO", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
                             "parameter_longname": "Mod6Source",
-                            "parameter_mmax": 13,
+                            "parameter_mmax": 12,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Source",
                             "parameter_type": 2
