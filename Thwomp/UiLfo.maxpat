@@ -429,7 +429,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 746.0, 214.0, 1000.0, 780.0 ],
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -1367,7 +1366,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-9", 0 ],
+                    "destination": [ "obj-9", 1 ],
                     "source": [ "obj-4", 0 ]
                 }
             },
@@ -1385,7 +1384,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-9", 1 ],
+                    "destination": [ "obj-9", 0 ],
                     "source": [ "obj-5", 1 ]
                 }
             },
