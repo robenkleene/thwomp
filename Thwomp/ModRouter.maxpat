@@ -9,8 +9,51 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1411.0, 188.0, 505.0, 780.0 ],
+        "rect": [ 986.0, 188.0, 930.0, 780.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-8",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 286.0, 166.0, 58.0, 22.0 ],
+                    "text": "selector~"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-7",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 74.0, 207.0, 72.0, 22.0 ],
+                    "text": "prepend set"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-6",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 74.0, 170.0, 106.0, 22.0 ],
+                    "text": "sprintf #1-mod-%s"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-5",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 74.0, 243.0, 42.0, 22.0 ],
+                    "text": "send~"
+                }
+            },
             {
                 "box": {
                     "comment": "(float) amount",
@@ -54,7 +97,7 @@
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 210.0, 329.0, 50.5, 22.0 ],
+                    "patching_rect": [ 74.0, 132.0, 50.5, 22.0 ],
                     "saved_object_attributes": {
                         "embed": 0,
                         "precision": 6
@@ -74,7 +117,32 @@
                 }
             }
         ],
-        "lines": [],
+        "lines": [
+            {
+                "patchline": {
+                    "destination": [ "obj-6", 0 ],
+                    "source": [ "obj-22", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-22", 0 ],
+                    "source": [ "obj-3", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-7", 0 ],
+                    "source": [ "obj-6", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-5", 0 ],
+                    "source": [ "obj-7", 0 ]
+                }
+            }
+        ],
         "autosave": 0
     }
 }
