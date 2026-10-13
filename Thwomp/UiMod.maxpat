@@ -14,6 +14,31 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-23",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 315.0, 752.0, 98.0, 22.0 ],
+                    "text": "send~ #1-modlfo"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-22",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 315.0, 483.0, 50.5, 22.0 ],
+                    "saved_object_attributes": {
+                        "embed": 0,
+                        "precision": 6
+                    },
+                    "text": "coll"
+                }
+            },
+            {
+                "box": {
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -24,7 +49,7 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "UiLfo.maxpat",
-                    "numinlets": 0,
+                    "numinlets": 1,
                     "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal" ],
@@ -41,7 +66,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 40.0, 134.0, 67.0, 22.0 ],
+                    "patching_rect": [ 40.0, 99.0, 67.0, 22.0 ],
                     "text": "unpack 0 0"
                 }
             },
@@ -89,8 +114,8 @@
                     "patching_rect": [ 943.0, 191.0, 56.0, 22.0 ],
                     "restore": {
                         "Mod1Amount": [ 0.0 ],
-                        "Mod1Dest": [ 0.0 ],
-                        "Mod1Source": [ 0.0 ],
+                        "Mod1Dest": [ 23.0 ],
+                        "Mod1Source": [ 4.0 ],
                         "Mod2Amount": [ 0.0 ],
                         "Mod2Dest": [ 0.0 ],
                         "Mod2Source": [ 0.0 ],
@@ -725,6 +750,12 @@
             }
         ],
         "lines": [
+            {
+                "patchline": {
+                    "destination": [ "obj-23", 0 ],
+                    "source": [ "obj-19", 0 ]
+                }
+            },
             {
                 "patchline": {
                     "destination": [ "obj-44", 0 ],
