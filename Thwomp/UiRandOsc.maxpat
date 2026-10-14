@@ -3,13 +3,13 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 5,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 577.0, 291.0, 1536.0, 914.0 ],
+        "rect": [ 1279.0, 348.0, 1536.0, 914.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -76,13 +76,39 @@
                     "patching_rect": [ 1021.0, 22.0, 56.0, 22.0 ],
                     "restore": {
                         "#2-RandOsc": [ 0.0 ],
-                        "RandOscAttack": [ 1.0 ],
-                        "RandOscDecay": [ 0.0 ],
-                        "RandOscFreq": [ 0.0 ],
-                        "RandOscGain": [ 0.0 ],
-                        "RandOscNote": [ 0.0 ],
-                        "RandOscReset": [ 0.0 ],
-                        "RandOscSemi": [ 0.0 ]
+                        "#2-RandOscAttack": [ 0.0 ],
+                        "#2-RandOscDecay": [ 0.0 ],
+                        "#2-RandOscFreq": [ 0.0 ],
+                        "#2-RandOscGain": [ 0.0 ],
+                        "#2-RandOscNote": [ 0.0 ],
+                        "#2-RandOscReset": [ 0.0 ],
+                        "#2-RandOscSemi": [ 0.0 ]
+                    },
+                    "restore_extra": {
+                        "#2-RandOsc": {
+                            "id": "obj-204"
+                        },
+                        "#2-RandOscAttack": {
+                            "id": "obj-23"
+                        },
+                        "#2-RandOscDecay": {
+                            "id": "obj-41"
+                        },
+                        "#2-RandOscFreq": {
+                            "id": "obj-5"
+                        },
+                        "#2-RandOscGain": {
+                            "id": "obj-42"
+                        },
+                        "#2-RandOscNote": {
+                            "id": "obj-138"
+                        },
+                        "#2-RandOscReset": {
+                            "id": "obj-6"
+                        },
+                        "#2-RandOscSemi": {
+                            "id": "obj-218"
+                        }
                     },
                     "text": "autopattr",
                     "varname": "u678017121"
@@ -200,7 +226,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "#2-RandOscNote",
+                            "parameter_longname": "RandOscNote",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Note",
@@ -435,7 +461,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "#2-RandOscGain",
+                            "parameter_longname": "RandOscGain",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Gain",
@@ -461,7 +487,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "#2-RandOscDecay",
+                            "parameter_longname": "RandOscDecay",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Decay",
@@ -487,7 +513,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "#2-RandOscAttack",
+                            "parameter_longname": "RandOscAttack",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Attack",
@@ -518,7 +544,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 548.0, 362.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 193.5, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 193.5, 40.0, 41.0, 113.0 ],
                     "varname": "#2-RandOscGainMinMax",
                     "viewvisibility": 1
                 }
@@ -553,7 +579,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 396.0, 362.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 146.5, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 146.5, 40.0, 41.0, 113.0 ],
                     "varname": "#2-RandOscDecayMinMax",
                     "viewvisibility": 1
                 }
@@ -588,7 +614,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 236.0, 362.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 99.0, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 99.0, 40.0, 41.0, 113.0 ],
                     "varname": "#2-RandOscAttackMinMax",
                     "viewvisibility": 1
                 }
@@ -672,7 +698,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "#2-RandOscReset",
+                            "parameter_longname": "RandOscReset",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Reset",
@@ -723,7 +749,7 @@
                     "numinlets": 5,
                     "numoutlets": 2,
                     "outlettype": [ "", "int" ],
-                    "patching_rect": [ 387.0, 251.0, 89.0, 22.0 ],
+                    "patching_rect": [ 387.0, 251.0, 99.0, 22.0 ],
                     "text": "RandomParam 1"
                 }
             },
@@ -741,7 +767,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "#2-RandOscSemi",
+                            "parameter_longname": "RandOscSemi",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Semi",
@@ -783,7 +809,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 387.0, 81.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 52.0, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 52.0, 40.0, 41.0, 113.0 ],
                     "varname": "#2-RandOscSemiMinMax",
                     "viewvisibility": 1
                 }
@@ -850,7 +876,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 539.0, 81.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 5.0, 40.0, 41.0, 113.0 ],
                     "varname": "#2-RandOscFreqMinMax",
                     "viewvisibility": 1
                 }
@@ -880,7 +906,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "#2-RandOscFreq",
+                            "parameter_longname": "RandOscFreq",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Freq",
@@ -1329,43 +1355,43 @@
             },
             "parameter_overrides": {
                 "obj-18::obj-1": {
-                    "parameter_longname": "#2-RandOscAttack-Min",
+                    "parameter_longname": "RandOscAttack-Min",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-18::obj-2": {
-                    "parameter_longname": "#2-RandOscAttack-Max",
+                    "parameter_longname": "RandOscAttack-Max",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-206::obj-1": {
-                    "parameter_longname": "#2-RandOscSemi-Min",
+                    "parameter_longname": "RandOscSemi-Min",
                     "parameter_range": [ -48, 48 ]
                 },
                 "obj-206::obj-2": {
-                    "parameter_longname": "#2-RandOscSemi-Max",
+                    "parameter_longname": "RandOscSemi-Max",
                     "parameter_range": [ -48, 48 ]
                 },
                 "obj-20::obj-1": {
-                    "parameter_longname": "#2-RandOscDecay-Min",
+                    "parameter_longname": "RandOscDecay-Min",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-20::obj-2": {
-                    "parameter_longname": "#2-RandOscDecay-Max",
+                    "parameter_longname": "RandOscDecay-Max",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-24::obj-1": {
-                    "parameter_longname": "#2-RandOscGain-Min",
+                    "parameter_longname": "RandOscGain-Min",
                     "parameter_range": [ -70.0, 6.0 ]
                 },
                 "obj-24::obj-2": {
-                    "parameter_longname": "#2-RandOscGain-Max",
+                    "parameter_longname": "RandOscGain-Max",
                     "parameter_range": [ -70.0, 6.0 ]
                 },
                 "obj-36::obj-1": {
-                    "parameter_longname": "#2-RandOscFreq-Min",
+                    "parameter_longname": "RandOscFreq-Min",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-36::obj-2": {
-                    "parameter_longname": "#2-RandOscFreq-Max",
+                    "parameter_longname": "RandOscFreq-Max",
                     "parameter_range": [ 0.0, 15000.0 ]
                 }
             },

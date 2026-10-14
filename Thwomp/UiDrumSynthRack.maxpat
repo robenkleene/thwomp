@@ -14,6 +14,18 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-87",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 854.0, 1172.0, 105.0, 22.0 ],
+                    "presentation_linecount": 2,
+                    "text": "script $1 PanelVol"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-86",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -1295,6 +1307,7 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
+                    "hidden": 1,
                     "id": "obj-9",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
@@ -1319,6 +1332,7 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
+                    "hidden": 1,
                     "id": "obj-40",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
@@ -1451,6 +1465,7 @@
             {
                 "box": {
                     "annotation": "The volume of this device.",
+                    "hidden": 1,
                     "id": "obj-11",
                     "maxclass": "live.dial",
                     "numinlets": 1,
@@ -1725,7 +1740,8 @@
                         "bgfillcolor": {
                             "expression": "themecolor.live_surface_bg"
                         }
-                    }
+                    },
+                    "varname": "PanelVol"
                 }
             },
             {
@@ -2354,20 +2370,27 @@
             {
                 "patchline": {
                     "destination": [ "obj-37", 0 ],
-                    "order": 2,
+                    "order": 3,
                     "source": [ "obj-74", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-80", 0 ],
-                    "order": 1,
+                    "order": 2,
                     "source": [ "obj-74", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-81", 0 ],
+                    "order": 1,
+                    "source": [ "obj-74", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-87", 0 ],
                     "order": 0,
                     "source": [ "obj-74", 0 ]
                 }
@@ -2381,20 +2404,27 @@
             {
                 "patchline": {
                     "destination": [ "obj-37", 0 ],
-                    "order": 2,
+                    "order": 3,
                     "source": [ "obj-76", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-80", 0 ],
-                    "order": 1,
+                    "order": 2,
                     "source": [ "obj-76", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-81", 0 ],
+                    "order": 1,
+                    "source": [ "obj-76", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-87", 0 ],
                     "order": 0,
                     "source": [ "obj-76", 0 ]
                 }
@@ -2433,6 +2463,12 @@
                 "patchline": {
                     "destination": [ "obj-20", 1 ],
                     "source": [ "obj-86", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-78", 0 ],
+                    "source": [ "obj-87", 0 ]
                 }
             },
             {
@@ -2638,6 +2674,9 @@
                 }
             },
             "parameter_overrides": {
+                "obj-1::obj-8::obj-1::obj-3::obj-138": {
+                    "parameter_longname": "2-RandOscNote"
+                },
                 "obj-1::obj-8::obj-1::obj-3::obj-18::obj-1": {
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
@@ -2656,6 +2695,12 @@
                 "obj-1::obj-8::obj-1::obj-3::obj-20::obj-2": {
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
+                "obj-1::obj-8::obj-1::obj-3::obj-218": {
+                    "parameter_longname": "2-RandOscSemi"
+                },
+                "obj-1::obj-8::obj-1::obj-3::obj-23": {
+                    "parameter_longname": "2-RandOscAttack"
+                },
                 "obj-1::obj-8::obj-1::obj-3::obj-24::obj-1": {
                     "parameter_range": [ -70.0, 6.0 ]
                 },
@@ -2667,6 +2712,18 @@
                 },
                 "obj-1::obj-8::obj-1::obj-3::obj-36::obj-2": {
                     "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-1::obj-8::obj-1::obj-3::obj-41": {
+                    "parameter_longname": "2-RandOscDecay"
+                },
+                "obj-1::obj-8::obj-1::obj-3::obj-42": {
+                    "parameter_longname": "2-RandOscGain"
+                },
+                "obj-1::obj-8::obj-1::obj-3::obj-5": {
+                    "parameter_longname": "2-RandOscFreq"
+                },
+                "obj-1::obj-8::obj-1::obj-3::obj-6": {
+                    "parameter_longname": "2-RandOscReset"
                 },
                 "obj-1::obj-8::obj-1::obj-4::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15000.0 ]
@@ -2764,6 +2821,9 @@
                 "obj-1::obj-8::obj-1::obj-56::obj-67::obj-2": {
                     "parameter_range": [ -70.0, 6.0 ]
                 },
+                "obj-1::obj-8::obj-1::obj-57::obj-138": {
+                    "parameter_longname": "1-RandOscNote"
+                },
                 "obj-1::obj-8::obj-1::obj-57::obj-18::obj-1": {
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
@@ -2782,6 +2842,12 @@
                 "obj-1::obj-8::obj-1::obj-57::obj-20::obj-2": {
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
+                "obj-1::obj-8::obj-1::obj-57::obj-218": {
+                    "parameter_longname": "1-RandOscSemi"
+                },
+                "obj-1::obj-8::obj-1::obj-57::obj-23": {
+                    "parameter_longname": "1-RandOscAttack"
+                },
                 "obj-1::obj-8::obj-1::obj-57::obj-24::obj-1": {
                     "parameter_range": [ -70.0, 6.0 ]
                 },
@@ -2793,6 +2859,18 @@
                 },
                 "obj-1::obj-8::obj-1::obj-57::obj-36::obj-2": {
                     "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-1::obj-8::obj-1::obj-57::obj-41": {
+                    "parameter_longname": "1-RandOscDecay"
+                },
+                "obj-1::obj-8::obj-1::obj-57::obj-42": {
+                    "parameter_longname": "1-RandOscGain"
+                },
+                "obj-1::obj-8::obj-1::obj-57::obj-5": {
+                    "parameter_longname": "1-RandOscFreq"
+                },
+                "obj-1::obj-8::obj-1::obj-57::obj-6": {
+                    "parameter_longname": "1-RandOscReset"
                 },
                 "obj-1::obj-8::obj-9::obj-1": {
                     "parameter_longname": "RandTabOsc"

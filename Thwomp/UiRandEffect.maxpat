@@ -3,8 +3,8 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 5,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
@@ -93,6 +93,29 @@
                         "#2-RandOscShape": [ 0.0 ],
                         "#2-RandOverdrive": [ 0.0 ],
                         "#2-RandOvertone": [ 0.0 ]
+                    },
+                    "restore_extra": {
+                        "#2-RandOscFilt": {
+                            "id": "obj-4"
+                        },
+                        "#2-RandOscPchEnvAmt": {
+                            "id": "obj-39"
+                        },
+                        "#2-RandOscPchEnvCur": {
+                            "id": "obj-38"
+                        },
+                        "#2-RandOscPchEnvDur": {
+                            "id": "obj-7"
+                        },
+                        "#2-RandOscShape": {
+                            "id": "obj-3"
+                        },
+                        "#2-RandOverdrive": {
+                            "id": "obj-40"
+                        },
+                        "#2-RandOvertone": {
+                            "id": "obj-22"
+                        }
                     },
                     "text": "autopattr",
                     "varname": "u678017121"
@@ -203,7 +226,7 @@
                     "numinlets": 5,
                     "numoutlets": 2,
                     "outlettype": [ "", "int" ],
-                    "patching_rect": [ 653.0, 189.0, 89.0, 22.0 ],
+                    "patching_rect": [ 653.0, 189.0, 99.0, 22.0 ],
                     "text": "RandomParam 1"
                 }
             },
@@ -390,7 +413,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 470.0, 88.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 52.0, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 52.0, 40.0, 41.0, 113.0 ],
                     "varname": "#2-RandOvertoneMinMax",
                     "viewvisibility": 1
                 }
@@ -425,7 +448,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 318.0, 88.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 5.0, 40.0, 41.0, 113.0 ],
                     "varname": "#2-RandOverdriveMinMax",
                     "viewvisibility": 1
                 }
@@ -735,7 +758,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 702.0, 379.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 106.5, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 106.5, 40.0, 41.0, 113.0 ],
                     "varname": "#2-RandOscPchEnvAmtMinMax",
                     "viewvisibility": 1
                 }
@@ -770,7 +793,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 502.0, 379.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 200.5, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 200.5, 40.0, 41.0, 113.0 ],
                     "varname": "#2-RandOscPchEnvCurMinMax",
                     "viewvisibility": 1
                 }
@@ -805,7 +828,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 312.0, 379.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 153.5, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 153.5, 40.0, 41.0, 113.0 ],
                     "varname": "#2-RandOscPchEnvDurMinMax",
                     "viewvisibility": 1
                 }

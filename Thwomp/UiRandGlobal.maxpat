@@ -3,8 +3,8 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 5,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
@@ -44,7 +44,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 921.0, 536.0, 32.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 295.0, 116.0, 30.0, 18.0 ],
+                    "presentation_rect": [ 295.0, 118.0, 30.0, 18.0 ],
                     "text": "Auto"
                 }
             },
@@ -60,7 +60,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 920.0, 559.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 295.0, 133.0, 39.0, 15.0 ],
+                    "presentation_rect": [ 295.0, 135.0, 39.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandAuto",
@@ -104,6 +104,41 @@
                         "RandRingFilt": [ 0.0 ],
                         "RandRingGain": [ 0.0 ],
                         "RandVol": [ 0.0 ]
+                    },
+                    "restore_extra": {
+                        "RandAuto": {
+                            "id": "obj-76"
+                        },
+                        "RandFilt": {
+                            "id": "obj-30"
+                        },
+                        "RandFiltFreq": {
+                            "id": "obj-43"
+                        },
+                        "RandFiltQ": {
+                            "id": "obj-44"
+                        },
+                        "RandFiltType": {
+                            "id": "obj-29"
+                        },
+                        "RandRing": {
+                            "id": "obj-45"
+                        },
+                        "RandRingAttack": {
+                            "id": "obj-59"
+                        },
+                        "RandRingDecay": {
+                            "id": "obj-58"
+                        },
+                        "RandRingFilt": {
+                            "id": "obj-46"
+                        },
+                        "RandRingGain": {
+                            "id": "obj-57"
+                        },
+                        "RandVol": {
+                            "id": "obj-66"
+                        }
                     },
                     "text": "autopattr",
                     "varname": "u678017121"
@@ -307,10 +342,10 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "int", "int" ],
+                    "outlettype": [ "float", "float" ],
                     "patching_rect": [ 590.0, 364.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 52.0, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 52.0, 40.0, 41.0, 113.0 ],
                     "varname": "RandFiltQMinMax",
                     "viewvisibility": 1
                 }
@@ -345,7 +380,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 438.0, 364.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 5.0, 40.0, 41.0, 113.0 ],
                     "varname": "RandFiltFreqMinMax",
                     "viewvisibility": 1
                 }
@@ -422,7 +457,7 @@
                     "numinlets": 5,
                     "numoutlets": 2,
                     "outlettype": [ "", "int" ],
-                    "patching_rect": [ 763.0, 460.0, 89.0, 22.0 ],
+                    "patching_rect": [ 763.0, 460.0, 99.0, 22.0 ],
                     "text": "RandomParam 1"
                 }
             },
@@ -829,7 +864,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 629.0, 58.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 252.0, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 252.0, 40.0, 41.0, 113.0 ],
                     "varname": "RandVolMinMax",
                     "viewvisibility": 1
                 }
@@ -942,7 +977,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 477.0, 58.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 201.0, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 201.0, 40.0, 41.0, 113.0 ],
                     "varname": "RandRingGainMinMax",
                     "viewvisibility": 1
                 }
@@ -977,7 +1012,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 325.0, 58.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 154.0, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 154.0, 40.0, 41.0, 113.0 ],
                     "varname": "RandRingDecayMinMax",
                     "viewvisibility": 1
                 }
@@ -1012,7 +1047,7 @@
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 173.0, 58.0, 41.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 107.0, 38.0, 41.0, 113.0 ],
+                    "presentation_rect": [ 107.0, 40.0, 41.0, 113.0 ],
                     "varname": "RandRingAttackMinMax",
                     "viewvisibility": 1
                 }

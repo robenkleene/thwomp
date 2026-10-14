@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1286.0, 538.0, 1249.0, 780.0 ],
+        "rect": [ 1277.0, 538.0, 1249.0, 780.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -1088,7 +1088,7 @@
                     "patching_rect": [ 299.0, 504.0, 46.0, 15.0 ],
                     "pictures": [ "sine.svg", "updown.svg", "square.svg", "up.svg", "SHrounded.svg" ],
                     "presentation": 1,
-                    "presentation_rect": [ 1.0, 17.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 1.0, 18.0, 46.0, 15.0 ],
                     "remapsvgcolors": 1,
                     "saved_attribute_attributes": {
                         "valueof": {
@@ -1119,7 +1119,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 475.0, 105.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1.0, 33.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 1.0, 34.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -1149,7 +1149,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 373.0, 168.5, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1.0, 49.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 1.0, 50.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -1175,7 +1175,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 767.0, 375.0, 50.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ -1.0, 0.0, 50.0, 18.0 ],
+                    "presentation_rect": [ -1.0, 1.0, 50.0, 18.0 ],
                     "text": "LFO"
                 }
             },

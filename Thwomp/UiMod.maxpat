@@ -40,7 +40,7 @@
                     "outlettype": [ "signal" ],
                     "patching_rect": [ 315.0, 563.0, 146.0, 66.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 3.0, 92.0, 146.0, 71.0 ],
+                    "presentation_rect": [ 3.0, 99.0, 146.0, 71.0 ],
                     "viewvisibility": 1
                 }
             },
