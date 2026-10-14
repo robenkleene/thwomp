@@ -37,9 +37,8 @@
                     "maxclass": "bpatcher",
                     "name": "UiMod.maxpat",
                     "numinlets": 1,
-                    "numoutlets": 1,
+                    "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "" ],
                     "patching_rect": [ 537.0, 183.0, 348.0, 170.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 342.0, 346.0, 169.0 ],
@@ -403,12 +402,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-22", 0 ],
-                    "source": [ "obj-21", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-2", 0 ],
                     "source": [ "obj-22", 0 ]
                 }
@@ -471,14 +464,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-21", 0 ],
-                    "order": 0,
+                    "order": 2,
                     "source": [ "obj-7", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-3", 0 ],
-                    "order": 2,
+                    "order": 1,
                     "source": [ "obj-7", 0 ]
                 }
             },
@@ -491,7 +484,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-8", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-7", 0 ]
                 }
             },
@@ -546,14 +539,14 @@
             "obj-21::obj-16": [ "Mod6Source", "Source", 0 ],
             "obj-21::obj-17": [ "Mod6Amount", "Amount", 0 ],
             "obj-21::obj-18": [ "Mod6Dest", "Dest", 0 ],
-            "obj-21::obj-19": [ "Lfo1Shape", "Shape", 0 ],
+            "obj-21::obj-19::obj-19": [ "LfoShape", "Shape", 0 ],
+            "obj-21::obj-19::obj-20": [ "LfoSync", "Sync", 0 ],
+            "obj-21::obj-19::obj-21": [ "LfoRetrig", "Retrig", 0 ],
+            "obj-21::obj-19::obj-23": [ "LfoRate", "Rate", 0 ],
+            "obj-21::obj-19::obj-24": [ "LfoSyncRate", "Rate", 0 ],
+            "obj-21::obj-19::obj-36": [ "LfoPhase", "Phase", 0 ],
             "obj-21::obj-2": [ "RandTrigToggle[1]", "Amount", 0 ],
-            "obj-21::obj-20": [ "Lfo1Sync", "Sync", 0 ],
-            "obj-21::obj-21": [ "Lfo1Retrig", "Retrig", 0 ],
-            "obj-21::obj-23": [ "Lfo1Rate", "Rate", 0 ],
-            "obj-21::obj-24": [ "Lfo1SyncRate", "Rate", 0 ],
             "obj-21::obj-3": [ "Mod1Dest", "Dest", 0 ],
-            "obj-21::obj-36": [ "LfoPhase", "Phase", 0 ],
             "obj-21::obj-4": [ "Mod2Source", "Source", 0 ],
             "obj-21::obj-5": [ "Mod2Amount", "Amount", 0 ],
             "obj-21::obj-6": [ "Mod2Dest", "Dest", 0 ],
@@ -693,23 +686,8 @@
                 "obj-21::obj-11": {
                     "parameter_longname": "RandTab[1]"
                 },
-                "obj-21::obj-19": {
-                    "parameter_longname": "Lfo1Shape"
-                },
                 "obj-21::obj-2": {
                     "parameter_longname": "RandTrigToggle[1]"
-                },
-                "obj-21::obj-20": {
-                    "parameter_longname": "Lfo1Sync"
-                },
-                "obj-21::obj-21": {
-                    "parameter_longname": "Lfo1Retrig"
-                },
-                "obj-21::obj-23": {
-                    "parameter_longname": "Lfo1Rate"
-                },
-                "obj-21::obj-24": {
-                    "parameter_longname": "Lfo1SyncRate"
                 },
                 "obj-8::obj-1::obj-3::obj-18::obj-1": {
                     "parameter_range": [ 0.0, 15000.0 ]

@@ -500,6 +500,8 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Osc 1", "Osc 2", "Rand" ],
+                            "parameter_initial": [ 0.0 ],
+                            "parameter_initial_enable": 1,
                             "parameter_longname": "Tab",
                             "parameter_mmax": 2,
                             "parameter_modmode": 0,
@@ -2474,14 +2476,14 @@
             "obj-1::obj-21::obj-16": [ "Mod6Source", "Source", 0 ],
             "obj-1::obj-21::obj-17": [ "Mod6Amount", "Amount", 0 ],
             "obj-1::obj-21::obj-18": [ "Mod6Dest", "Dest", 0 ],
-            "obj-1::obj-21::obj-19": [ "Lfo1Shape", "Shape", 0 ],
+            "obj-1::obj-21::obj-19::obj-19": [ "LfoShape", "Shape", 0 ],
+            "obj-1::obj-21::obj-19::obj-20": [ "LfoSync", "Sync", 0 ],
+            "obj-1::obj-21::obj-19::obj-21": [ "LfoRetrig", "Retrig", 0 ],
+            "obj-1::obj-21::obj-19::obj-23": [ "LfoRate", "Rate", 0 ],
+            "obj-1::obj-21::obj-19::obj-24": [ "LfoSyncRate", "Rate", 0 ],
+            "obj-1::obj-21::obj-19::obj-36": [ "LfoPhase", "Phase", 0 ],
             "obj-1::obj-21::obj-2": [ "Mod1Amount", "Amount", 0 ],
-            "obj-1::obj-21::obj-20": [ "Lfo1Sync", "Sync", 0 ],
-            "obj-1::obj-21::obj-21": [ "Lfo1Retrig", "Retrig", 0 ],
-            "obj-1::obj-21::obj-23": [ "Lfo1Rate", "Rate", 0 ],
-            "obj-1::obj-21::obj-24": [ "Lfo1SyncRate", "Rate", 0 ],
             "obj-1::obj-21::obj-3": [ "Mod1Dest", "Dest", 0 ],
-            "obj-1::obj-21::obj-36": [ "LfoPhase", "Phase", 0 ],
             "obj-1::obj-21::obj-4": [ "Mod2Source", "Source", 0 ],
             "obj-1::obj-21::obj-5": [ "Mod2Amount", "Amount", 0 ],
             "obj-1::obj-21::obj-6": [ "Mod2Dest", "Dest", 0 ],
@@ -2636,21 +2638,6 @@
                 }
             },
             "parameter_overrides": {
-                "obj-1::obj-21::obj-19": {
-                    "parameter_longname": "Lfo1Shape"
-                },
-                "obj-1::obj-21::obj-20": {
-                    "parameter_longname": "Lfo1Sync"
-                },
-                "obj-1::obj-21::obj-21": {
-                    "parameter_longname": "Lfo1Retrig"
-                },
-                "obj-1::obj-21::obj-23": {
-                    "parameter_longname": "Lfo1Rate"
-                },
-                "obj-1::obj-21::obj-24": {
-                    "parameter_longname": "Lfo1SyncRate"
-                },
                 "obj-1::obj-8::obj-1::obj-3::obj-18::obj-1": {
                     "parameter_range": [ 0.0, 15000.0 ]
                 },

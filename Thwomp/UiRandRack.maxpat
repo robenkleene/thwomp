@@ -3,8 +3,8 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 5,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
@@ -70,6 +70,8 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Osc 1", "Effect 1", "Osc 2", "Effect 2", "Global" ],
+                            "parameter_initial": [ 0.0 ],
+                            "parameter_initial_enable": 1,
                             "parameter_longname": "RandTab",
                             "parameter_mmax": 4,
                             "parameter_modmode": 0,
@@ -103,6 +105,14 @@
                     "restore": {
                         "RandTrig": [ 0.0 ],
                         "RandTrigToggle": [ 0.0 ]
+                    },
+                    "restore_extra": {
+                        "RandTrig": {
+                            "id": "obj-170"
+                        },
+                        "RandTrigToggle": {
+                            "id": "obj-2"
+                        }
                     },
                     "text": "autopattr",
                     "varname": "u300009263"
