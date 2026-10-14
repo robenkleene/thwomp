@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 870.0, 303.0, 1249.0, 780.0 ],
+        "rect": [ 1178.0, 532.0, 1249.0, 780.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -1088,7 +1088,7 @@
                     "patching_rect": [ 299.0, 504.0, 46.0, 15.0 ],
                     "pictures": [ "sine.svg", "updown.svg", "square.svg", "up.svg", "SHrounded.svg" ],
                     "presentation": 1,
-                    "presentation_rect": [ 13.0, 57.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 1.0, 17.0, 46.0, 15.0 ],
                     "remapsvgcolors": 1,
                     "saved_attribute_attributes": {
                         "valueof": {
@@ -1119,7 +1119,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 475.0, 105.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 13.0, 73.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 1.0, 33.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -1149,7 +1149,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 373.0, 168.5, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 13.0, 89.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 1.0, 49.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -1175,7 +1175,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 767.0, 375.0, 50.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 11.0, 42.0, 50.0, 18.0 ],
+                    "presentation_rect": [ -1.0, 0.0, 50.0, 18.0 ],
                     "text": "LFO"
                 }
             },
@@ -1191,7 +1191,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 485.5, 315.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 66.0, 10.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 50.0, 17.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
@@ -1221,7 +1221,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 393.0, 471.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 66.0, 79.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 96.0, 17.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_initial": [ 0.0 ],
@@ -1251,7 +1251,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 549.5, 315.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 66.0, 10.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 50.0, 17.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "1/64", "1/32", "1/16T", "1/16", "1/8T", "1/8", "1/4T", "1/4", "1/2", "1", "2", "4", "8" ],

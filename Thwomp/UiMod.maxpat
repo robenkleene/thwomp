@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 140.0, 131.0, 1331.0, 974.0 ],
+        "rect": [ 846.0, 300.0, 653.0, 661.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -38,9 +38,9 @@
                     "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 315.0, 563.0, 128.0, 128.0 ],
+                    "patching_rect": [ 315.0, 563.0, 146.0, 66.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 370.0, 19.0, 131.0, 149.0 ],
+                    "presentation_rect": [ 3.0, 91.0, 146.0, 71.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -176,9 +176,9 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 180.0, 186.0, 72.0, 15.0 ],
+                    "patching_rect": [ 180.0, 186.0, 46.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 3.0, 3.0, 72.0, 15.0 ],
+                    "presentation_rect": [ 3.0, 2.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Velocity", "Key", "Random", "LFO", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
@@ -204,7 +204,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 180.0, 216.0, 41.0, 37.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 18.5, 19.0, 41.0, 37.0 ],
+                    "presentation_rect": [ 5.5, 22.0, 41.0, 37.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_initial": [ 0.0 ],
@@ -232,9 +232,9 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 180.0, 276.0, 72.0, 15.0 ],
+                    "patching_rect": [ 180.0, 276.0, 46.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 3.0, 67.0, 72.0, 15.0 ],
+                    "presentation_rect": [ 3.0, 64.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "None", "Osc 1 Pitch", "Osc 1 Gain", "Osc 1 Attack", "Osc 1 Decay", "Osc 1 Overdrive", "Osc 1 Overtone", "Osc 1 Env Amount", "Osc 1 Env Duration", "Osc 1 Env Curve", "Osc 2 Pitch", "Osc 2 Gain", "Osc 2 Attack", "Osc 2 Decay", "Osc 2 Overdrive", "Osc 2 Overtone", "Osc 2 Env Amount", "Osc 2 Env Duration", "Osc 2 Env Curve", "Filter Freq", "Filter Res", "Ring Gain", "Ring Decay", "Volume", "LFO Rate" ],
@@ -258,9 +258,9 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 300.0, 186.0, 72.0, 15.0 ],
+                    "patching_rect": [ 300.0, 186.0, 46.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 81.0, 3.0, 72.0, 15.0 ],
+                    "presentation_rect": [ 50.0, 2.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Velocity", "Key", "Random", "LFO", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
@@ -286,7 +286,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 300.0, 216.0, 41.0, 37.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 96.5, 19.0, 41.0, 37.0 ],
+                    "presentation_rect": [ 52.5, 22.0, 41.0, 37.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_initial": [ 0.0 ],
@@ -314,9 +314,9 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 300.0, 276.0, 72.0, 15.0 ],
+                    "patching_rect": [ 300.0, 276.0, 46.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 81.0, 67.0, 72.0, 15.0 ],
+                    "presentation_rect": [ 50.0, 64.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "None", "Osc 1 Pitch", "Osc 1 Gain", "Osc 1 Attack", "Osc 1 Decay", "Osc 1 Overdrive", "Osc 1 Overtone", "Osc 1 Env Amount", "Osc 1 Env Duration", "Osc 1 Env Curve", "Osc 2 Pitch", "Osc 2 Gain", "Osc 2 Attack", "Osc 2 Decay", "Osc 2 Overdrive", "Osc 2 Overtone", "Osc 2 Env Amount", "Osc 2 Env Duration", "Osc 2 Env Curve", "Filter Freq", "Filter Res", "Ring Gain", "Ring Decay", "Volume", "LFO Rate" ],
@@ -340,9 +340,9 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 420.0, 186.0, 72.0, 15.0 ],
+                    "patching_rect": [ 420.0, 186.0, 46.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 159.0, 3.0, 72.0, 15.0 ],
+                    "presentation_rect": [ 97.0, 2.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Velocity", "Key", "Random", "LFO", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
@@ -368,7 +368,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 420.0, 216.0, 41.0, 37.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 174.5, 19.0, 41.0, 37.0 ],
+                    "presentation_rect": [ 99.5, 22.0, 41.0, 37.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_initial": [ 0.0 ],
@@ -396,9 +396,9 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 420.0, 276.0, 72.0, 15.0 ],
+                    "patching_rect": [ 420.0, 276.0, 46.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 159.0, 67.0, 72.0, 15.0 ],
+                    "presentation_rect": [ 97.0, 64.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "None", "Osc 1 Pitch", "Osc 1 Gain", "Osc 1 Attack", "Osc 1 Decay", "Osc 1 Overdrive", "Osc 1 Overtone", "Osc 1 Env Amount", "Osc 1 Env Duration", "Osc 1 Env Curve", "Osc 2 Pitch", "Osc 2 Gain", "Osc 2 Attack", "Osc 2 Decay", "Osc 2 Overdrive", "Osc 2 Overtone", "Osc 2 Env Amount", "Osc 2 Env Duration", "Osc 2 Env Curve", "Filter Freq", "Filter Res", "Ring Gain", "Ring Decay", "Volume", "LFO Rate" ],
@@ -422,9 +422,9 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 540.0, 186.0, 72.0, 15.0 ],
+                    "patching_rect": [ 540.0, 186.0, 46.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 3.0, 89.0, 72.0, 15.0 ],
+                    "presentation_rect": [ 144.0, 2.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Velocity", "Key", "Random", "LFO", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
@@ -450,7 +450,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 540.0, 216.0, 41.0, 37.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 18.5, 105.0, 41.0, 37.0 ],
+                    "presentation_rect": [ 146.5, 22.0, 41.0, 37.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_initial": [ 0.0 ],
@@ -478,9 +478,9 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 540.0, 276.0, 72.0, 15.0 ],
+                    "patching_rect": [ 540.0, 276.0, 46.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 3.0, 153.0, 72.0, 15.0 ],
+                    "presentation_rect": [ 144.0, 64.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "None", "Osc 1 Pitch", "Osc 1 Gain", "Osc 1 Attack", "Osc 1 Decay", "Osc 1 Overdrive", "Osc 1 Overtone", "Osc 1 Env Amount", "Osc 1 Env Duration", "Osc 1 Env Curve", "Osc 2 Pitch", "Osc 2 Gain", "Osc 2 Attack", "Osc 2 Decay", "Osc 2 Overdrive", "Osc 2 Overtone", "Osc 2 Env Amount", "Osc 2 Env Duration", "Osc 2 Env Curve", "Filter Freq", "Filter Res", "Ring Gain", "Ring Decay", "Volume", "LFO Rate" ],
@@ -504,9 +504,9 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 660.0, 186.0, 72.0, 15.0 ],
+                    "patching_rect": [ 660.0, 186.0, 46.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 81.0, 89.0, 72.0, 15.0 ],
+                    "presentation_rect": [ 192.0, 2.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Velocity", "Key", "Random", "LFO", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
@@ -532,7 +532,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 660.0, 216.0, 41.0, 37.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 96.5, 105.0, 41.0, 37.0 ],
+                    "presentation_rect": [ 193.5, 22.0, 41.0, 37.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_initial": [ 0.0 ],
@@ -560,9 +560,9 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 660.0, 276.0, 72.0, 15.0 ],
+                    "patching_rect": [ 660.0, 276.0, 46.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 81.0, 153.0, 72.0, 15.0 ],
+                    "presentation_rect": [ 191.0, 64.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "None", "Osc 1 Pitch", "Osc 1 Gain", "Osc 1 Attack", "Osc 1 Decay", "Osc 1 Overdrive", "Osc 1 Overtone", "Osc 1 Env Amount", "Osc 1 Env Duration", "Osc 1 Env Curve", "Osc 2 Pitch", "Osc 2 Gain", "Osc 2 Attack", "Osc 2 Decay", "Osc 2 Overdrive", "Osc 2 Overtone", "Osc 2 Env Amount", "Osc 2 Env Duration", "Osc 2 Env Curve", "Filter Freq", "Filter Res", "Ring Gain", "Ring Decay", "Volume", "LFO Rate" ],
@@ -586,9 +586,9 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 780.0, 186.0, 72.0, 15.0 ],
+                    "patching_rect": [ 780.0, 186.0, 46.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 159.0, 89.0, 72.0, 15.0 ],
+                    "presentation_rect": [ 240.0, 2.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Velocity", "Key", "Random", "LFO", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
@@ -614,7 +614,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 780.0, 216.0, 41.0, 37.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 174.5, 105.0, 41.0, 37.0 ],
+                    "presentation_rect": [ 240.0, 22.0, 41.0, 37.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_initial": [ 0.0 ],
@@ -642,9 +642,9 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 780.0, 276.0, 72.0, 15.0 ],
+                    "patching_rect": [ 780.0, 276.0, 46.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 159.0, 153.0, 72.0, 15.0 ],
+                    "presentation_rect": [ 237.5, 64.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "None", "Osc 1 Pitch", "Osc 1 Gain", "Osc 1 Attack", "Osc 1 Decay", "Osc 1 Overdrive", "Osc 1 Overtone", "Osc 1 Env Amount", "Osc 1 Env Duration", "Osc 1 Env Curve", "Osc 2 Pitch", "Osc 2 Gain", "Osc 2 Attack", "Osc 2 Decay", "Osc 2 Overdrive", "Osc 2 Overtone", "Osc 2 Env Amount", "Osc 2 Env Duration", "Osc 2 Env Curve", "Filter Freq", "Filter Res", "Ring Gain", "Ring Decay", "Volume", "LFO Rate" ],
@@ -656,50 +656,6 @@
                         }
                     },
                     "varname": "Mod6Dest"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-31",
-                    "maxclass": "live.line",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 974.0, 223.0, 5.0, 100.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 74.5, 0.0, 5.0, 169.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-32",
-                    "maxclass": "live.line",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 994.0, 223.0, 5.0, 100.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 152.5, 0.0, 5.0, 169.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-33",
-                    "maxclass": "live.line",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 1014.0, 223.0, 5.0, 100.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 230.5, 0.0, 5.0, 169.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-34",
-                    "maxclass": "live.line",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 1035.0, 223.0, 100.0, 5.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 0.0, 81.0, 233.0, 7.0 ]
                 }
             },
             {
