@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1178.0, 532.0, 1249.0, 780.0 ],
+        "rect": [ 1286.0, 538.0, 1249.0, 780.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -1191,7 +1191,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 485.5, 315.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 50.0, 17.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 49.0, 17.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
@@ -1251,7 +1251,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 549.5, 315.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 50.0, 17.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 49.0, 17.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "1/64", "1/32", "1/16T", "1/16", "1/8T", "1/8", "1/4T", "1/4", "1/2", "1", "2", "4", "8" ],
