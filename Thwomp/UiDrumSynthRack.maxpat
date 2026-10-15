@@ -9,9 +9,20 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 297.0, 333.0, 1854.0, 1007.0 ],
+        "rect": [ 297.0, 333.0, 868.0, 916.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-83",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 100.5, 1133.0, 141.0, 22.0 ],
+                    "text": "receive~ #1-mod-volume"
+                }
+            },
             {
                 "box": {
                     "id": "obj-87",
@@ -20,7 +31,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 854.0, 1172.0, 105.0, 22.0 ],
-                    "presentation_linecount": 2,
                     "text": "script $1 PanelVol"
                 }
             },
@@ -30,20 +40,9 @@
                     "maxclass": "newobj",
                     "numinlets": 2,
                     "numoutlets": 1,
-                    "outlettype": [ "float" ],
-                    "patching_rect": [ 85.5, 1172.0, 29.5, 22.0 ],
-                    "text": "* 1."
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-83",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "patching_rect": [ 239.0, 621.0, 78.0, 22.0 ],
-                    "text": "route volume"
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 85.5, 1172.0, 34.0, 22.0 ],
+                    "text": "*~ 1."
                 }
             },
             {
@@ -959,7 +958,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 132.5, 596.0, 83.0, 22.0 ],
+                    "patching_rect": [ 142.66666666666669, 595.0, 83.0, 22.0 ],
                     "text": "s #1-randnote"
                 }
             },
@@ -1088,7 +1087,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 90.25, 568.0, 91.0, 22.0 ],
+                    "patching_rect": [ 95.33333333333334, 568.0, 91.0, 22.0 ],
                     "text": "s #1-randomize"
                 }
             },
@@ -1120,7 +1119,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 217.0, 653.0, 90.0, 22.0 ],
+                    "patching_rect": [ 190.0, 621.0, 90.0, 22.0 ],
                     "text": "s #1-messages"
                 }
             },
@@ -1248,11 +1247,11 @@
                 "box": {
                     "id": "obj-26",
                     "maxclass": "newobj",
-                    "numinlets": 5,
-                    "numoutlets": 5,
-                    "outlettype": [ "", "", "", "", "" ],
-                    "patching_rect": [ 48.0, 536.0, 188.0, 22.0 ],
-                    "text": "route filt randomize randnote mod"
+                    "numinlets": 4,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 48.0, 536.0, 161.0, 22.0 ],
+                    "text": "route filt randomize randnote"
                 }
             },
             {
@@ -1307,7 +1306,6 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
-                    "hidden": 1,
                     "id": "obj-9",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
@@ -1332,7 +1330,6 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
-                    "hidden": 1,
                     "id": "obj-40",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
@@ -1447,7 +1444,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 85.5, 1129.0, 132.0, 22.0 ],
+                    "patching_rect": [ 85.5, 1104.0, 132.0, 22.0 ],
                     "text": "expr pow(10.\\, $f1 / 20.)"
                 }
             },
@@ -1465,14 +1462,13 @@
             {
                 "box": {
                     "annotation": "The volume of this device.",
-                    "hidden": 1,
                     "id": "obj-11",
                     "maxclass": "live.dial",
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 85.5, 1063.0, 41.0, 48.0 ],
+                    "patching_rect": [ 85.5, 1045.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 342.0, 115.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -1759,7 +1755,7 @@
                     "name": "UiDrumSynthBank.maxpat",
                     "numinlets": 1,
                     "numoutlets": 5,
-                    "offset": [ 0.0, -513.0 ],
+                    "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal", "signal", "signal", "" ],
                     "patching_rect": [ 39.0, 336.0, 225.0, 172.0 ],
                     "presentation": 1,
@@ -1988,7 +1984,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-49", 0 ],
-                    "source": [ "obj-26", 4 ]
+                    "source": [ "obj-26", 3 ]
                 }
             },
             {
@@ -2001,12 +1997,6 @@
                 "patchline": {
                     "destination": [ "obj-65", 0 ],
                     "source": [ "obj-26", 2 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-83", 0 ],
-                    "source": [ "obj-26", 3 ]
                 }
             },
             {

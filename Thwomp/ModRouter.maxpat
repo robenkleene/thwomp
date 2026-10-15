@@ -9,8 +9,19 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 986.0, 188.0, 930.0, 780.0 ],
+        "rect": [ 986.0, 186.0, 930.0, 780.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-10",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "int" ],
+                    "patching_rect": [ 16.0, 110.0, 29.5, 22.0 ],
+                    "text": "+ 1"
+                }
+            },
             {
                 "box": {
                     "id": "obj-9",
@@ -103,6 +114,111 @@
             },
             {
                 "box": {
+                    "coll_data": {
+                        "count": 25,
+                        "data": [
+                            {
+                                "key": 0,
+                                "value": [ "none" ]
+                            },
+                            {
+                                "key": 1,
+                                "value": [ "osc1pitch" ]
+                            },
+                            {
+                                "key": 2,
+                                "value": [ "osc1gain" ]
+                            },
+                            {
+                                "key": 3,
+                                "value": [ "osc1attack" ]
+                            },
+                            {
+                                "key": 4,
+                                "value": [ "osc1decay" ]
+                            },
+                            {
+                                "key": 5,
+                                "value": [ "osc1overdrive" ]
+                            },
+                            {
+                                "key": 6,
+                                "value": [ "osc1overtone" ]
+                            },
+                            {
+                                "key": 7,
+                                "value": [ "osc1envamount" ]
+                            },
+                            {
+                                "key": 8,
+                                "value": [ "osc1envduration" ]
+                            },
+                            {
+                                "key": 9,
+                                "value": [ "osc1envcurve" ]
+                            },
+                            {
+                                "key": 10,
+                                "value": [ "osc2pitch" ]
+                            },
+                            {
+                                "key": 11,
+                                "value": [ "osc2gain" ]
+                            },
+                            {
+                                "key": 12,
+                                "value": [ "osc2attack" ]
+                            },
+                            {
+                                "key": 13,
+                                "value": [ "osc2decay" ]
+                            },
+                            {
+                                "key": 14,
+                                "value": [ "osc2overdrive" ]
+                            },
+                            {
+                                "key": 15,
+                                "value": [ "osc2overtone" ]
+                            },
+                            {
+                                "key": 16,
+                                "value": [ "osc2envamount" ]
+                            },
+                            {
+                                "key": 17,
+                                "value": [ "osc2envduration" ]
+                            },
+                            {
+                                "key": 18,
+                                "value": [ "osc2envcurve" ]
+                            },
+                            {
+                                "key": 19,
+                                "value": [ "filterfreq" ]
+                            },
+                            {
+                                "key": 20,
+                                "value": [ "filterres" ]
+                            },
+                            {
+                                "key": 21,
+                                "value": [ "ringgain" ]
+                            },
+                            {
+                                "key": 22,
+                                "value": [ "ringdecay" ]
+                            },
+                            {
+                                "key": 23,
+                                "value": [ "volume" ]
+                            },
+                            {
+                                "key": 24,
+                                "value": [ "lforate" ]
+                            }
+                        ]
+                    },
                     "id": "obj-22",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -110,7 +226,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 216.0, 133.0, 50.5, 22.0 ],
                     "saved_object_attributes": {
-                        "embed": 0,
+                        "embed": 1,
                         "precision": 6
                     },
                     "text": "coll"
@@ -123,7 +239,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 49.0, 166.0, 111.0, 22.0 ],
+                    "patching_rect": [ 59.5, 166.0, 111.0, 22.0 ],
                     "text": "receive~ #1-modlfo"
                 }
             }
@@ -131,13 +247,19 @@
         "lines": [
             {
                 "patchline": {
-                    "destination": [ "obj-8", 3 ],
+                    "destination": [ "obj-8", 4 ],
                     "source": [ "obj-1", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-8", 0 ],
+                    "source": [ "obj-10", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-10", 0 ],
                     "source": [ "obj-2", 0 ]
                 }
             },
