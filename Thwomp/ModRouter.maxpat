@@ -13,6 +13,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-11",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 28.0, 139.0, 118.0, 22.0 ],
+                    "text": "receive~ #1-mod-vel"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-10",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -239,8 +250,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 59.5, 166.0, 111.0, 22.0 ],
-                    "text": "receive~ #1-modlfo"
+                    "patching_rect": [ 59.5, 166.0, 115.0, 22.0 ],
+                    "text": "receive~ #1-mod-lfo"
                 }
             }
         ],
@@ -255,6 +266,12 @@
                 "patchline": {
                     "destination": [ "obj-8", 0 ],
                     "source": [ "obj-10", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-8", 1 ],
+                    "source": [ "obj-11", 0 ]
                 }
             },
             {
