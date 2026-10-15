@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 846.0, 300.0, 653.0, 661.0 ],
+        "rect": [ 846.0, 300.0, 1226.0, 661.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -562,7 +562,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 660.0, 276.0, 46.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 190.0, 65.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 191.0, 65.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "None", "Osc 1 Pitch", "Osc 1 Gain", "Osc 1 Attack", "Osc 1 Decay", "Osc 1 Overdrive", "Osc 1 Overtone", "Osc 1 Env Amount", "Osc 1 Env Duration", "Osc 1 Env Curve", "Osc 2 Pitch", "Osc 2 Gain", "Osc 2 Attack", "Osc 2 Decay", "Osc 2 Overdrive", "Osc 2 Overtone", "Osc 2 Env Amount", "Osc 2 Env Duration", "Osc 2 Env Curve", "Filter Freq", "Filter Res", "Ring Gain", "Ring Decay", "Volume", "LFO Rate" ],
@@ -644,7 +644,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 780.0, 276.0, 46.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 236.0, 65.0, 46.0, 15.0 ],
+                    "presentation_rect": [ 238.0, 65.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "None", "Osc 1 Pitch", "Osc 1 Gain", "Osc 1 Attack", "Osc 1 Decay", "Osc 1 Overdrive", "Osc 1 Overtone", "Osc 1 Env Amount", "Osc 1 Env Duration", "Osc 1 Env Curve", "Osc 2 Pitch", "Osc 2 Gain", "Osc 2 Attack", "Osc 2 Decay", "Osc 2 Overdrive", "Osc 2 Overtone", "Osc 2 Env Amount", "Osc 2 Env Duration", "Osc 2 Env Curve", "Filter Freq", "Filter Res", "Ring Gain", "Ring Decay", "Volume", "LFO Rate" ],
