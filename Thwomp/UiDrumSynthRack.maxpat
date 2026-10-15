@@ -14,12 +14,34 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-89",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 100.5, 1168.0, 36.0, 22.0 ],
+                    "text": "+~ 1."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-88",
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 100.5, 1202.0, 60.0, 22.0 ],
+                    "text": "clip~ 0. 1."
+                }
+            },
+            {
+                "box": {
                     "id": "obj-83",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 100.5, 1133.0, 141.0, 22.0 ],
+                    "patching_rect": [ 100.5, 1136.0, 141.0, 22.0 ],
                     "text": "receive~ #1-mod-volume"
                 }
             },
@@ -41,7 +63,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 85.5, 1172.0, 34.0, 22.0 ],
+                    "patching_rect": [ 85.5, 1235.0, 34.0, 22.0 ],
                     "text": "*~ 1."
                 }
             },
@@ -2445,7 +2467,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-86", 1 ],
+                    "destination": [ "obj-89", 0 ],
                     "source": [ "obj-83", 0 ]
                 }
             },
@@ -2459,6 +2481,18 @@
                 "patchline": {
                     "destination": [ "obj-78", 0 ],
                     "source": [ "obj-87", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-86", 1 ],
+                    "source": [ "obj-88", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-88", 0 ],
+                    "source": [ "obj-89", 0 ]
                 }
             },
             {
