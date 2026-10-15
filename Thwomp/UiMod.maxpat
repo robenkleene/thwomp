@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1305.0, 235.0, 1807.0, 987.0 ],
+        "rect": [ 719.0, 235.0, 1807.0, 987.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -18,8 +18,8 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 88.0, 233.0, 105.0, 22.0 ],
-                    "text": "send~ #1-mod-vel"
+                    "patching_rect": [ 88.0, 233.0, 121.0, 22.0 ],
+                    "text": "send~ #1-modsrc-vel"
                 }
             },
             {
@@ -82,8 +82,8 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 315.0, 646.0, 102.0, 22.0 ],
-                    "text": "send~ #1-mod-lfo"
+                    "patching_rect": [ 315.0, 646.0, 118.0, 22.0 ],
+                    "text": "send~ #1-modsrc-lfo"
                 }
             },
             {

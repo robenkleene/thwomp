@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 986.0, 186.0, 930.0, 780.0 ],
+        "rect": [ 1075.0, 251.0, 930.0, 780.0 ],
         "boxes": [
             {
                 "box": {
@@ -18,8 +18,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 28.0, 139.0, 118.0, 22.0 ],
-                    "text": "receive~ #1-mod-vel"
+                    "patching_rect": [ 28.0, 139.0, 134.0, 22.0 ],
+                    "text": "receive~ #1-modsrc-vel"
                 }
             },
             {
@@ -250,8 +250,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 59.5, 166.0, 115.0, 22.0 ],
-                    "text": "receive~ #1-mod-lfo"
+                    "patching_rect": [ 59.5, 166.0, 131.0, 22.0 ],
+                    "text": "receive~ #1-modsrc-lfo"
                 }
             }
         ],

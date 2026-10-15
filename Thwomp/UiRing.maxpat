@@ -3,13 +3,13 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 4,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 270.0, 309.0, 1362.0, 983.0 ],
+        "rect": [ 1121.0, 244.0, 1362.0, 983.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -100,6 +100,23 @@
                         "RingFilt": [ 0.0 ],
                         "RingGain": [ 0.0 ]
                     },
+                    "restore_extra": {
+                        "Ring": {
+                            "id": "obj-25"
+                        },
+                        "RingAttack": {
+                            "id": "obj-34"
+                        },
+                        "RingDecay": {
+                            "id": "obj-36"
+                        },
+                        "RingFilt": {
+                            "id": "obj-11"
+                        },
+                        "RingGain": {
+                            "id": "obj-31"
+                        }
+                    },
                     "text": "autopattr",
                     "varname": "u712009370"
                 }
@@ -169,28 +186,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 216.0, 608.0, 30.0, 30.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-16",
-                    "maxclass": "newobj",
-                    "numinlets": 5,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 8.0, 520.0, 98.0, 22.0 ],
-                    "text": "zmap 0 127 0. 1."
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-15",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "signal" ],
-                    "patching_rect": [ 216.0, 568.0, 34.0, 22.0 ],
-                    "text": "*~ 1."
                 }
             },
             {
@@ -445,18 +440,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-3", 0 ],
-                    "source": [ "obj-15", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-15", 1 ],
-                    "source": [ "obj-16", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-19", 0 ],
                     "source": [ "obj-18", 0 ]
                 }
@@ -517,7 +500,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-15", 0 ],
+                    "destination": [ "obj-3", 0 ],
                     "source": [ "obj-35", 0 ]
                 }
             },
@@ -549,12 +532,6 @@
                 "patchline": {
                     "destination": [ "obj-13", 0 ],
                     "source": [ "obj-6", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-16", 0 ],
-                    "source": [ "obj-8", 0 ]
                 }
             },
             {
