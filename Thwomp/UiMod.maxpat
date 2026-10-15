@@ -9,16 +9,26 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 846.0, 300.0, 1226.0, 661.0 ],
+        "rect": [ 388.0, 273.0, 1807.0, 987.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-20",
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 0,
+                    "patching_rect": [ 39.5, 276.0, 68.0, 22.0 ],
+                    "text": "ModRouter"
+                }
+            },
             {
                 "box": {
                     "id": "obj-23",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 315.0, 752.0, 98.0, 22.0 ],
+                    "patching_rect": [ 315.0, 646.0, 98.0, 22.0 ],
                     "text": "send~ #1-modlfo"
                 }
             },
@@ -176,7 +186,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 180.0, 186.0, 46.0, 15.0 ],
+                    "patching_rect": [ 39.5, 181.0, 46.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 3.0, 3.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -202,7 +212,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 180.0, 216.0, 41.0, 37.0 ],
+                    "patching_rect": [ 88.5, 230.0, 41.0, 37.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 5.5, 23.0, 41.0, 37.0 ],
                     "saved_attribute_attributes": {
@@ -232,7 +242,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 180.0, 276.0, 46.0, 15.0 ],
+                    "patching_rect": [ 63.5, 206.0, 46.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 3.0, 65.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -682,8 +692,26 @@
         "lines": [
             {
                 "patchline": {
+                    "destination": [ "obj-20", 0 ],
+                    "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-23", 0 ],
                     "source": [ "obj-19", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-20", 2 ],
+                    "source": [ "obj-2", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-20", 1 ],
+                    "source": [ "obj-3", 0 ]
                 }
             },
             {
