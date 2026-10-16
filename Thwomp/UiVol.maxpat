@@ -14,6 +14,30 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-4",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 547.0, 20.0, 56.0, 22.0 ],
+                    "restore": {
+                        "ModVol": [ 0.0 ],
+                        "Vol": [ 0.0 ]
+                    },
+                    "restore_extra": {
+                        "ModVol": {
+                            "id": "obj-90"
+                        },
+                        "Vol": {
+                            "id": "obj-11"
+                        }
+                    },
+                    "text": "autopattr",
+                    "varname": "u772018003"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-2",
                     "maxclass": "newobj",
                     "numinlets": 1,

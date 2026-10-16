@@ -165,10 +165,7 @@
                         "Mod4Source": [ 0.0 ],
                         "Mod5Amount": [ 0.0 ],
                         "Mod5Dest": [ 0.0 ],
-                        "Mod5Source": [ 0.0 ],
-                        "Mod6Amount": [ 0.0 ],
-                        "Mod6Dest": [ 0.0 ],
-                        "Mod6Source": [ 0.0 ]
+                        "Mod5Source": [ 0.0 ]
                     },
                     "restore_extra": {
                         "Mod1Amount": {
@@ -215,15 +212,6 @@
                         },
                         "Mod5Source": {
                             "id": "obj-13"
-                        },
-                        "Mod6Amount": {
-                            "id": "obj-17"
-                        },
-                        "Mod6Dest": {
-                            "id": "obj-18"
-                        },
-                        "Mod6Source": {
-                            "id": "obj-16"
                         }
                     },
                     "text": "autopattr",
@@ -642,88 +630,6 @@
             },
             {
                 "box": {
-                    "annotation": "The modulation source for slot 6.",
-                    "annotation_name": "Mod 6 Source",
-                    "id": "obj-16",
-                    "maxclass": "live.menu",
-                    "numinlets": 1,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 935.0, 16.0, 46.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 238.0, 3.0, 46.0, 15.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "Velocity", "Key", "Random", "LFO", "Pitch Env 1", "Pitch Env 2", "Amp Env 1", "Amp Env 2", "Ring Env", "Mod Wheel", "Pitch Bend", "Pressure", "Slide" ],
-                            "parameter_longname": "Mod6Source",
-                            "parameter_mmax": 12,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Source",
-                            "parameter_type": 2
-                        }
-                    },
-                    "varname": "Mod6Source"
-                }
-            },
-            {
-                "box": {
-                    "annotation": "The modulation amount for slot 6.",
-                    "annotation_name": "Mod 6 Amount",
-                    "id": "obj-17",
-                    "maxclass": "live.dial",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 935.0, 46.0, 41.0, 37.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 238.0, 23.0, 41.0, 37.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_initial": [ 0.0 ],
-                            "parameter_initial_enable": 1,
-                            "parameter_longname": "Mod6Amount",
-                            "parameter_mmax": 100.0,
-                            "parameter_mmin": -100.0,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Amount",
-                            "parameter_type": 0,
-                            "parameter_unitstyle": 5
-                        }
-                    },
-                    "showname": 0,
-                    "varname": "Mod6Amount"
-                }
-            },
-            {
-                "box": {
-                    "annotation": "The modulation destination for slot 6.",
-                    "annotation_name": "Mod 6 Destination",
-                    "id": "obj-18",
-                    "maxclass": "live.menu",
-                    "numinlets": 1,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 935.0, 106.0, 46.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 238.0, 65.0, 46.0, 15.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "None", "Osc 1 Pitch", "Osc 1 Gain", "Osc 1 Attack", "Osc 1 Decay", "Osc 1 Overdrive", "Osc 1 Overtone", "Osc 1 Env Amount", "Osc 1 Env Duration", "Osc 1 Env Curve", "Osc 2 Pitch", "Osc 2 Gain", "Osc 2 Attack", "Osc 2 Decay", "Osc 2 Overdrive", "Osc 2 Overtone", "Osc 2 Env Amount", "Osc 2 Env Duration", "Osc 2 Env Curve", "Filter Freq", "Filter Res", "Ring Gain", "Ring Decay", "Volume", "LFO Rate" ],
-                            "parameter_longname": "Mod6Dest",
-                            "parameter_mmax": 24,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Dest",
-                            "parameter_type": 2
-                        }
-                    },
-                    "varname": "Mod6Dest"
-                }
-            },
-            {
-                "box": {
                     "angle": 270.0,
                     "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
                     "id": "obj-35",
@@ -819,9 +725,6 @@
             "obj-13": [ "Mod5Source", "Source", 0 ],
             "obj-14": [ "Mod5Amount", "Amount", 0 ],
             "obj-15": [ "Mod5Dest", "Dest", 0 ],
-            "obj-16": [ "Mod6Source", "Source", 0 ],
-            "obj-17": [ "Mod6Amount", "Amount", 0 ],
-            "obj-18": [ "Mod6Dest", "Dest", 0 ],
             "obj-19::obj-19": [ "LfoShape", "Shape", 0 ],
             "obj-19::obj-20": [ "LfoSync", "Sync", 0 ],
             "obj-19::obj-21": [ "LfoRetrig", "Retrig", 0 ],
