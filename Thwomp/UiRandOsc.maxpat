@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1279.0, 348.0, 1536.0, 914.0 ],
+        "rect": [ 63.0, 153.0, 1536.0, 914.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -226,7 +226,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandOscNote",
+                            "parameter_longname": "#2-RandOscNote",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Note",
@@ -461,7 +461,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandOscGain",
+                            "parameter_longname": "#2-RandOscGain",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Gain",
@@ -487,7 +487,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandOscDecay",
+                            "parameter_longname": "#2-RandOscDecay",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Decay",
@@ -513,7 +513,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandOscAttack",
+                            "parameter_longname": "#2-RandOscAttack",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Attack",
@@ -698,7 +698,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandOscReset",
+                            "parameter_longname": "#2-RandOscReset",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Reset",
@@ -767,7 +767,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandOscSemi",
+                            "parameter_longname": "#2-RandOscSemi",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Semi",
@@ -906,7 +906,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandOscFreq",
+                            "parameter_longname": "#2-RandOscFreq",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Freq",
@@ -1327,7 +1327,7 @@
             }
         ],
         "parameters": {
-            "obj-138": [ "RandOscNote", "Note", 0 ],
+            "obj-138": [ "#2-RandOscNote", "Note", 0 ],
             "obj-18::obj-1": [ "RandOscAttack-Min", "Min", 0 ],
             "obj-18::obj-2": [ "RandOscAttack-Max", "Max", 0 ],
             "obj-204": [ "#2-RandOsc", "Osc", 0 ],
@@ -1335,16 +1335,16 @@
             "obj-206::obj-2": [ "RandOscSemi-Max", "Max", 0 ],
             "obj-20::obj-1": [ "RandOscDecay-Min", "Min", 0 ],
             "obj-20::obj-2": [ "RandOscDecay-Max", "Max", 0 ],
-            "obj-218": [ "RandOscSemi", "Semi", 0 ],
-            "obj-23": [ "RandOscAttack", "Attack", 0 ],
+            "obj-218": [ "#2-RandOscSemi", "Semi", 0 ],
+            "obj-23": [ "#2-RandOscAttack", "Attack", 0 ],
             "obj-24::obj-1": [ "RandOscGain-Min", "Min", 0 ],
             "obj-24::obj-2": [ "RandOscGain-Max", "Max", 0 ],
             "obj-36::obj-1": [ "RandOscFreq-Min", "Min", 0 ],
             "obj-36::obj-2": [ "RandOscFreq-Max", "Max", 0 ],
-            "obj-41": [ "RandOscDecay", "Decay", 0 ],
-            "obj-42": [ "RandOscGain", "Gain", 0 ],
-            "obj-5": [ "RandOscFreq", "Freq", 0 ],
-            "obj-6": [ "RandOscReset", "Reset", 0 ],
+            "obj-41": [ "#2-RandOscDecay", "Decay", 0 ],
+            "obj-42": [ "#2-RandOscGain", "Gain", 0 ],
+            "obj-5": [ "#2-RandOscFreq", "Freq", 0 ],
+            "obj-6": [ "#2-RandOscReset", "Reset", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,

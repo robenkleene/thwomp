@@ -457,21 +457,21 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
-                    "order": 3,
+                    "order": 0,
                     "source": [ "obj-7", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-21", 0 ],
-                    "order": 2,
+                    "order": 1,
                     "source": [ "obj-7", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-3", 0 ],
-                    "order": 1,
+                    "order": 2,
                     "source": [ "obj-7", 0 ]
                 }
             },
@@ -484,7 +484,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-8", 0 ],
-                    "order": 0,
+                    "order": 3,
                     "source": [ "obj-7", 0 ]
                 }
             },
@@ -531,21 +531,18 @@
             "obj-1::obj-9": [ "1-OscShape", "Shape", 0 ],
             "obj-21::obj-1": [ "Mod1Source", "Source", 0 ],
             "obj-21::obj-10": [ "Mod4Source", "Source", 0 ],
-            "obj-21::obj-11": [ "RandTab[1]", "Amount", 0 ],
+            "obj-21::obj-11": [ "Mod4Amount", "Amount", 0 ],
             "obj-21::obj-12": [ "Mod4Dest", "Dest", 0 ],
             "obj-21::obj-13": [ "Mod5Source", "Source", 0 ],
             "obj-21::obj-14": [ "Mod5Amount", "Amount", 0 ],
             "obj-21::obj-15": [ "Mod5Dest", "Dest", 0 ],
-            "obj-21::obj-16": [ "Mod6Source", "Source", 0 ],
-            "obj-21::obj-17": [ "Mod6Amount", "Amount", 0 ],
-            "obj-21::obj-18": [ "Mod6Dest", "Dest", 0 ],
             "obj-21::obj-19::obj-19": [ "LfoShape", "Shape", 0 ],
             "obj-21::obj-19::obj-20": [ "LfoSync", "Sync", 0 ],
             "obj-21::obj-19::obj-21": [ "LfoRetrig", "Retrig", 0 ],
             "obj-21::obj-19::obj-23": [ "LfoRate", "Rate", 0 ],
             "obj-21::obj-19::obj-24": [ "LfoSyncRate", "Rate", 0 ],
             "obj-21::obj-19::obj-36": [ "LfoPhase", "Phase", 0 ],
-            "obj-21::obj-2": [ "RandTrigToggle[1]", "Amount", 0 ],
+            "obj-21::obj-2": [ "Mod1Amount", "Amount", 0 ],
             "obj-21::obj-3": [ "Mod1Dest", "Dest", 0 ],
             "obj-21::obj-4": [ "Mod2Source", "Source", 0 ],
             "obj-21::obj-5": [ "Mod2Amount", "Amount", 0 ],
@@ -665,10 +662,10 @@
             "obj-8::obj-1::obj-57::obj-5": [ "1-RandOscFreq", "Freq", 0 ],
             "obj-8::obj-1::obj-57::obj-6": [ "1-RandOscReset", "Reset", 0 ],
             "obj-8::obj-2": [ "RandTrigToggle", "Trigger", 0 ],
-            "obj-8::obj-9::obj-1": [ "RandTabOsc", "RandTabOsc1", 0 ],
+            "obj-8::obj-9::obj-1": [ "RandTabOsc1", "RandTabOsc1", 0 ],
             "obj-8::obj-9::obj-13": [ "RandTabEffect2", "RandTabEffect2", 0 ],
             "obj-8::obj-9::obj-14": [ "RandTabOsc2", "RandTabOsc2", 0 ],
-            "obj-8::obj-9::obj-2": [ "RandTabEffect", "RandTabEffect1", 0 ],
+            "obj-8::obj-9::obj-2": [ "RandTabEffect1", "RandTabEffect1", 0 ],
             "obj-8::obj-9::obj-22": [ "RandOsc1", "RandOsc1", 0 ],
             "obj-8::obj-9::obj-23": [ "RandOsc2", "RandOsc2", 0 ],
             "obj-8::obj-9::obj-24": [ "RandEffect1", "RandEffect1", 0 ],
@@ -683,12 +680,6 @@
                 }
             },
             "parameter_overrides": {
-                "obj-21::obj-11": {
-                    "parameter_longname": "RandTab[1]"
-                },
-                "obj-21::obj-2": {
-                    "parameter_longname": "RandTrigToggle[1]"
-                },
                 "obj-8::obj-1::obj-3::obj-18::obj-1": {
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
@@ -844,12 +835,6 @@
                 },
                 "obj-8::obj-1::obj-57::obj-36::obj-2": {
                     "parameter_range": [ 0.0, 15000.0 ]
-                },
-                "obj-8::obj-9::obj-1": {
-                    "parameter_longname": "RandTabOsc"
-                },
-                "obj-8::obj-9::obj-2": {
-                    "parameter_longname": "RandTabEffect"
                 }
             },
             "inherited_shortname": 1

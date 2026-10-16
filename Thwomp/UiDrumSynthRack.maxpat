@@ -2651,10 +2651,10 @@
             "obj-1::obj-8::obj-1::obj-57::obj-5": [ "1-RandOscFreq", "Freq", 0 ],
             "obj-1::obj-8::obj-1::obj-57::obj-6": [ "1-RandOscReset", "Reset", 0 ],
             "obj-1::obj-8::obj-2": [ "RandTrigToggle", "Trigger", 0 ],
-            "obj-1::obj-8::obj-9::obj-1": [ "RandTabOsc", "RandTabOsc1", 0 ],
+            "obj-1::obj-8::obj-9::obj-1": [ "RandTabOsc1", "RandTabOsc1", 0 ],
             "obj-1::obj-8::obj-9::obj-13": [ "RandTabEffect2", "RandTabEffect2", 0 ],
             "obj-1::obj-8::obj-9::obj-14": [ "RandTabOsc2", "RandTabOsc2", 0 ],
-            "obj-1::obj-8::obj-9::obj-2": [ "RandTabEffect", "RandTabEffect1", 0 ],
+            "obj-1::obj-8::obj-9::obj-2": [ "RandTabEffect1", "RandTabEffect1", 0 ],
             "obj-1::obj-8::obj-9::obj-22": [ "RandOsc1", "RandOsc1", 0 ],
             "obj-1::obj-8::obj-9::obj-23": [ "RandOsc2", "RandOsc2", 0 ],
             "obj-1::obj-8::obj-9::obj-24": [ "RandEffect1", "RandEffect1", 0 ],
@@ -2674,8 +2674,8 @@
             "obj-45": [ "Randomize", "Randomize", 0 ],
             "obj-75": [ "Tab", "Tab", 0 ],
             "obj-77": [ "PresetsSelect", "Preset", 0 ],
-            "obj-98::obj-11": [ "Vol[1]", "Volume", 0 ],
-            "obj-98::obj-90": [ "ModVol[1]", "ModVol", 0 ],
+            "obj-98::obj-11": [ "Vol", "Volume", 0 ],
+            "obj-98::obj-90": [ "ModVol", "ModVol", 0 ],
             "obj-9::obj-1::obj-1": [ "FiltFreq", "Freq", 0 ],
             "obj-9::obj-1::obj-11": [ "FiltQ", "Res", 0 ],
             "obj-9::obj-1::obj-6": [ "FiltType", "Type", 0 ],
@@ -2689,9 +2689,6 @@
                 }
             },
             "parameter_overrides": {
-                "obj-1::obj-8::obj-1::obj-3::obj-138": {
-                    "parameter_longname": "2-RandOscNote"
-                },
                 "obj-1::obj-8::obj-1::obj-3::obj-18::obj-1": {
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
@@ -2710,12 +2707,6 @@
                 "obj-1::obj-8::obj-1::obj-3::obj-20::obj-2": {
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
-                "obj-1::obj-8::obj-1::obj-3::obj-218": {
-                    "parameter_longname": "2-RandOscSemi"
-                },
-                "obj-1::obj-8::obj-1::obj-3::obj-23": {
-                    "parameter_longname": "2-RandOscAttack"
-                },
                 "obj-1::obj-8::obj-1::obj-3::obj-24::obj-1": {
                     "parameter_range": [ -70.0, 6.0 ]
                 },
@@ -2727,18 +2718,6 @@
                 },
                 "obj-1::obj-8::obj-1::obj-3::obj-36::obj-2": {
                     "parameter_range": [ 0.0, 15000.0 ]
-                },
-                "obj-1::obj-8::obj-1::obj-3::obj-41": {
-                    "parameter_longname": "2-RandOscDecay"
-                },
-                "obj-1::obj-8::obj-1::obj-3::obj-42": {
-                    "parameter_longname": "2-RandOscGain"
-                },
-                "obj-1::obj-8::obj-1::obj-3::obj-5": {
-                    "parameter_longname": "2-RandOscFreq"
-                },
-                "obj-1::obj-8::obj-1::obj-3::obj-6": {
-                    "parameter_longname": "2-RandOscReset"
                 },
                 "obj-1::obj-8::obj-1::obj-4::obj-10::obj-1": {
                     "parameter_range": [ 0.0, 15000.0 ]
@@ -2836,9 +2815,6 @@
                 "obj-1::obj-8::obj-1::obj-56::obj-67::obj-2": {
                     "parameter_range": [ -70.0, 6.0 ]
                 },
-                "obj-1::obj-8::obj-1::obj-57::obj-138": {
-                    "parameter_longname": "1-RandOscNote"
-                },
                 "obj-1::obj-8::obj-1::obj-57::obj-18::obj-1": {
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
@@ -2857,12 +2833,6 @@
                 "obj-1::obj-8::obj-1::obj-57::obj-20::obj-2": {
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
-                "obj-1::obj-8::obj-1::obj-57::obj-218": {
-                    "parameter_longname": "1-RandOscSemi"
-                },
-                "obj-1::obj-8::obj-1::obj-57::obj-23": {
-                    "parameter_longname": "1-RandOscAttack"
-                },
                 "obj-1::obj-8::obj-1::obj-57::obj-24::obj-1": {
                     "parameter_range": [ -70.0, 6.0 ]
                 },
@@ -2874,30 +2844,6 @@
                 },
                 "obj-1::obj-8::obj-1::obj-57::obj-36::obj-2": {
                     "parameter_range": [ 0.0, 15000.0 ]
-                },
-                "obj-1::obj-8::obj-1::obj-57::obj-41": {
-                    "parameter_longname": "1-RandOscDecay"
-                },
-                "obj-1::obj-8::obj-1::obj-57::obj-42": {
-                    "parameter_longname": "1-RandOscGain"
-                },
-                "obj-1::obj-8::obj-1::obj-57::obj-5": {
-                    "parameter_longname": "1-RandOscFreq"
-                },
-                "obj-1::obj-8::obj-1::obj-57::obj-6": {
-                    "parameter_longname": "1-RandOscReset"
-                },
-                "obj-1::obj-8::obj-9::obj-1": {
-                    "parameter_longname": "RandTabOsc"
-                },
-                "obj-1::obj-8::obj-9::obj-2": {
-                    "parameter_longname": "RandTabEffect"
-                },
-                "obj-98::obj-11": {
-                    "parameter_longname": "Vol[1]"
-                },
-                "obj-98::obj-90": {
-                    "parameter_longname": "ModVol[1]"
                 }
             },
             "inherited_shortname": 1
