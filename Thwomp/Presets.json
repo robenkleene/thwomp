@@ -10,7 +10,8 @@
                     "PresetsRead": [ 0.0 ],
                     "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
-                    "Vol": [ -6.0 ],
+                    "Vol::Vol": [ -6.0 ],
+                    "Vol::ModVol": [ 100.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ -2.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Osc": [ 1.0 ],
                     "DrumSynthBank::1-DrumSynth::1-OscFilt": [ 0.0 ],
@@ -155,8 +156,8 @@
                     "BiquadFilt::Biquad::FiltQ": [ 8.0 ],
                     "BiquadFilt::Biquad::FiltType": [ 2.0 ],
                     "DrumSynthBank::Mod::Mod1Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod1Amount": [ 100.0 ],
-                    "DrumSynthBank::Mod::Mod1Dest": [ 23.0 ],
+                    "DrumSynthBank::Mod::Mod1Amount": [ 0.0 ],
+                    "DrumSynthBank::Mod::Mod1Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Amount": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Dest": [ 0.0 ],
@@ -168,10 +169,7 @@
                     "DrumSynthBank::Mod::Mod4Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Dest": [ 0.0 ]
+                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ]
                 }
             },
             "2": {
@@ -182,7 +180,8 @@
                     "PresetsRead": [ 0.0 ],
                     "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
-                    "Vol": [ -6.0 ],
+                    "Vol::Vol": [ -6.0 ],
+                    "Vol::ModVol": [ 100.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ -2.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Osc": [ 1.0 ],
                     "DrumSynthBank::1-DrumSynth::1-OscFilt": [ 0.0 ],
@@ -327,8 +326,8 @@
                     "BiquadFilt::Biquad::FiltQ": [ 0.3 ],
                     "BiquadFilt::Biquad::FiltType": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod1Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod1Amount": [ 100.0 ],
-                    "DrumSynthBank::Mod::Mod1Dest": [ 23.0 ],
+                    "DrumSynthBank::Mod::Mod1Amount": [ 0.0 ],
+                    "DrumSynthBank::Mod::Mod1Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Amount": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Dest": [ 0.0 ],
@@ -340,10 +339,7 @@
                     "DrumSynthBank::Mod::Mod4Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Dest": [ 0.0 ]
+                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ]
                 }
             },
             "3": {
@@ -354,7 +350,8 @@
                     "PresetsRead": [ 0.0 ],
                     "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
-                    "Vol": [ -2.0 ],
+                    "Vol::Vol": [ -2.0 ],
+                    "Vol::ModVol": [ 100.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ -7.984251968503909 ],
                     "DrumSynthBank::1-DrumSynth::1-Osc": [ 1.0 ],
                     "DrumSynthBank::1-DrumSynth::1-OscFilt": [ 1.0 ],
@@ -499,8 +496,8 @@
                     "BiquadFilt::Biquad::FiltQ": [ 0.3 ],
                     "BiquadFilt::Biquad::FiltType": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod1Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod1Amount": [ 100.0 ],
-                    "DrumSynthBank::Mod::Mod1Dest": [ 23.0 ],
+                    "DrumSynthBank::Mod::Mod1Amount": [ 0.0 ],
+                    "DrumSynthBank::Mod::Mod1Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Amount": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Dest": [ 0.0 ],
@@ -512,10 +509,7 @@
                     "DrumSynthBank::Mod::Mod4Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Dest": [ 0.0 ]
+                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ]
                 }
             },
             "4": {
@@ -526,7 +520,8 @@
                     "PresetsRead": [ 0.0 ],
                     "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
-                    "Vol": [ -2.0 ],
+                    "Vol::Vol": [ -2.0 ],
+                    "Vol::ModVol": [ 100.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ -8.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Osc": [ 1.0 ],
                     "DrumSynthBank::1-DrumSynth::1-OscFilt": [ 0.0 ],
@@ -671,8 +666,8 @@
                     "BiquadFilt::Biquad::FiltQ": [ 2.0 ],
                     "BiquadFilt::Biquad::FiltType": [ 2.0 ],
                     "DrumSynthBank::Mod::Mod1Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod1Amount": [ 100.0 ],
-                    "DrumSynthBank::Mod::Mod1Dest": [ 23.0 ],
+                    "DrumSynthBank::Mod::Mod1Amount": [ 0.0 ],
+                    "DrumSynthBank::Mod::Mod1Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Amount": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Dest": [ 0.0 ],
@@ -684,10 +679,7 @@
                     "DrumSynthBank::Mod::Mod4Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Dest": [ 0.0 ]
+                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ]
                 }
             },
             "5": {
@@ -698,7 +690,8 @@
                     "PresetsRead": [ 0.0 ],
                     "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
-                    "Vol": [ 0.0 ],
+                    "Vol::Vol": [ 0.0 ],
+                    "Vol::ModVol": [ 100.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ 0.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Osc": [ 1.0 ],
                     "DrumSynthBank::1-DrumSynth::1-OscFilt": [ 1.0 ],
@@ -843,8 +836,8 @@
                     "BiquadFilt::Biquad::FiltQ": [ 2.0 ],
                     "BiquadFilt::Biquad::FiltType": [ 2.0 ],
                     "DrumSynthBank::Mod::Mod1Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod1Amount": [ 100.0 ],
-                    "DrumSynthBank::Mod::Mod1Dest": [ 23.0 ],
+                    "DrumSynthBank::Mod::Mod1Amount": [ 0.0 ],
+                    "DrumSynthBank::Mod::Mod1Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Amount": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Dest": [ 0.0 ],
@@ -856,10 +849,7 @@
                     "DrumSynthBank::Mod::Mod4Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Dest": [ 0.0 ]
+                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ]
                 }
             },
             "6": {
@@ -870,7 +860,8 @@
                     "PresetsRead": [ 0.0 ],
                     "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
-                    "Vol": [ -2.0 ],
+                    "Vol::Vol": [ -2.0 ],
+                    "Vol::ModVol": [ 100.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ -8.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Osc": [ 1.0 ],
                     "DrumSynthBank::1-DrumSynth::1-OscFilt": [ 1.0 ],
@@ -1015,8 +1006,8 @@
                     "BiquadFilt::Biquad::FiltQ": [ 0.30000001192092896 ],
                     "BiquadFilt::Biquad::FiltType": [ 1.0 ],
                     "DrumSynthBank::Mod::Mod1Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod1Amount": [ 100.0 ],
-                    "DrumSynthBank::Mod::Mod1Dest": [ 23.0 ],
+                    "DrumSynthBank::Mod::Mod1Amount": [ 0.0 ],
+                    "DrumSynthBank::Mod::Mod1Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Amount": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Dest": [ 0.0 ],
@@ -1028,10 +1019,7 @@
                     "DrumSynthBank::Mod::Mod4Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Dest": [ 0.0 ]
+                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ]
                 }
             },
             "7": {
@@ -1042,7 +1030,8 @@
                     "PresetsRead": [ 0.0 ],
                     "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
-                    "Vol": [ 0.0 ],
+                    "Vol::Vol": [ 0.0 ],
+                    "Vol::ModVol": [ 100.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ 0.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Osc": [ 1.0 ],
                     "DrumSynthBank::1-DrumSynth::1-OscFilt": [ 1.0 ],
@@ -1187,8 +1176,8 @@
                     "BiquadFilt::Biquad::FiltQ": [ 4.5 ],
                     "BiquadFilt::Biquad::FiltType": [ 2.0 ],
                     "DrumSynthBank::Mod::Mod1Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod1Amount": [ 100.0 ],
-                    "DrumSynthBank::Mod::Mod1Dest": [ 23.0 ],
+                    "DrumSynthBank::Mod::Mod1Amount": [ 0.0 ],
+                    "DrumSynthBank::Mod::Mod1Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Amount": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Dest": [ 0.0 ],
@@ -1200,10 +1189,7 @@
                     "DrumSynthBank::Mod::Mod4Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Dest": [ 0.0 ]
+                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ]
                 }
             },
             "8": {
@@ -1214,7 +1200,8 @@
                     "PresetsRead": [ 0.0 ],
                     "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
-                    "Vol": [ -2.0 ],
+                    "Vol::Vol": [ -2.0 ],
+                    "Vol::ModVol": [ 100.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ -8.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Osc": [ 1.0 ],
                     "DrumSynthBank::1-DrumSynth::1-OscFilt": [ 0.0 ],
@@ -1359,8 +1346,8 @@
                     "BiquadFilt::Biquad::FiltQ": [ 0.3 ],
                     "BiquadFilt::Biquad::FiltType": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod1Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod1Amount": [ 100.0 ],
-                    "DrumSynthBank::Mod::Mod1Dest": [ 23.0 ],
+                    "DrumSynthBank::Mod::Mod1Amount": [ 0.0 ],
+                    "DrumSynthBank::Mod::Mod1Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Amount": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Dest": [ 0.0 ],
@@ -1372,10 +1359,7 @@
                     "DrumSynthBank::Mod::Mod4Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Dest": [ 0.0 ]
+                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ]
                 }
             },
             "9": {
@@ -1386,7 +1370,8 @@
                     "PresetsRead": [ 0.0 ],
                     "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
-                    "Vol": [ 0.0 ],
+                    "Vol::Vol": [ 0.0 ],
+                    "Vol::ModVol": [ 100.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ -70.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Osc": [ 1.0 ],
                     "DrumSynthBank::1-DrumSynth::1-OscFilt": [ 0.0 ],
@@ -1531,8 +1516,8 @@
                     "BiquadFilt::Biquad::FiltQ": [ 0.3 ],
                     "BiquadFilt::Biquad::FiltType": [ 2.0 ],
                     "DrumSynthBank::Mod::Mod1Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod1Amount": [ 100.0 ],
-                    "DrumSynthBank::Mod::Mod1Dest": [ 23.0 ],
+                    "DrumSynthBank::Mod::Mod1Amount": [ 0.0 ],
+                    "DrumSynthBank::Mod::Mod1Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Amount": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Dest": [ 0.0 ],
@@ -1544,10 +1529,7 @@
                     "DrumSynthBank::Mod::Mod4Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Dest": [ 0.0 ]
+                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ]
                 }
             },
             "10": {
@@ -1558,7 +1540,8 @@
                     "PresetsRead": [ 0.0 ],
                     "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
-                    "Vol": [ 0.0 ],
+                    "Vol::Vol": [ 0.0 ],
+                    "Vol::ModVol": [ 100.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ 0.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Osc": [ 1.0 ],
                     "DrumSynthBank::1-DrumSynth::1-OscFilt": [ 0.0 ],
@@ -1703,8 +1686,8 @@
                     "BiquadFilt::Biquad::FiltQ": [ 0.30000001192092896 ],
                     "BiquadFilt::Biquad::FiltType": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod1Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod1Amount": [ 100.0 ],
-                    "DrumSynthBank::Mod::Mod1Dest": [ 23.0 ],
+                    "DrumSynthBank::Mod::Mod1Amount": [ 0.0 ],
+                    "DrumSynthBank::Mod::Mod1Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Amount": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Dest": [ 0.0 ],
@@ -1716,10 +1699,7 @@
                     "DrumSynthBank::Mod::Mod4Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Dest": [ 0.0 ]
+                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ]
                 }
             },
             "11": {
@@ -1730,7 +1710,8 @@
                     "PresetsRead": [ 0.0 ],
                     "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
-                    "Vol": [ -2.0 ],
+                    "Vol::Vol": [ -2.0 ],
+                    "Vol::ModVol": [ 100.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ -10.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Osc": [ 1.0 ],
                     "DrumSynthBank::1-DrumSynth::1-OscFilt": [ 0.0 ],
@@ -1875,8 +1856,8 @@
                     "BiquadFilt::Biquad::FiltQ": [ 0.30000001192092896 ],
                     "BiquadFilt::Biquad::FiltType": [ 1.0 ],
                     "DrumSynthBank::Mod::Mod1Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod1Amount": [ 100.0 ],
-                    "DrumSynthBank::Mod::Mod1Dest": [ 23.0 ],
+                    "DrumSynthBank::Mod::Mod1Amount": [ 0.0 ],
+                    "DrumSynthBank::Mod::Mod1Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Amount": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Dest": [ 0.0 ],
@@ -1888,10 +1869,7 @@
                     "DrumSynthBank::Mod::Mod4Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Dest": [ 0.0 ]
+                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ]
                 }
             },
             "12": {
@@ -1902,7 +1880,8 @@
                     "PresetsRead": [ 0.0 ],
                     "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
-                    "Vol": [ -2.0 ],
+                    "Vol::Vol": [ -2.0 ],
+                    "Vol::ModVol": [ 100.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ -10.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Osc": [ 1.0 ],
                     "DrumSynthBank::1-DrumSynth::1-OscFilt": [ 0.0 ],
@@ -2047,8 +2026,8 @@
                     "BiquadFilt::Biquad::FiltQ": [ 0.30000001192092896 ],
                     "BiquadFilt::Biquad::FiltType": [ 1.0 ],
                     "DrumSynthBank::Mod::Mod1Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod1Amount": [ 100.0 ],
-                    "DrumSynthBank::Mod::Mod1Dest": [ 23.0 ],
+                    "DrumSynthBank::Mod::Mod1Amount": [ 0.0 ],
+                    "DrumSynthBank::Mod::Mod1Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Amount": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Dest": [ 0.0 ],
@@ -2060,10 +2039,7 @@
                     "DrumSynthBank::Mod::Mod4Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Dest": [ 0.0 ]
+                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ]
                 }
             },
             "13": {
@@ -2074,7 +2050,8 @@
                     "PresetsRead": [ 0.0 ],
                     "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
-                    "Vol": [ -2.0 ],
+                    "Vol::Vol": [ -2.0 ],
+                    "Vol::ModVol": [ 100.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ -10.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Osc": [ 1.0 ],
                     "DrumSynthBank::1-DrumSynth::1-OscFilt": [ 0.0 ],
@@ -2219,8 +2196,8 @@
                     "BiquadFilt::Biquad::FiltQ": [ 0.30000001192092896 ],
                     "BiquadFilt::Biquad::FiltType": [ 1.0 ],
                     "DrumSynthBank::Mod::Mod1Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod1Amount": [ 100.0 ],
-                    "DrumSynthBank::Mod::Mod1Dest": [ 23.0 ],
+                    "DrumSynthBank::Mod::Mod1Amount": [ 0.0 ],
+                    "DrumSynthBank::Mod::Mod1Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Amount": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Dest": [ 0.0 ],
@@ -2232,10 +2209,7 @@
                     "DrumSynthBank::Mod::Mod4Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Dest": [ 0.0 ]
+                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ]
                 }
             },
             "14": {
@@ -2246,7 +2220,8 @@
                     "PresetsRead": [ 0.0 ],
                     "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
-                    "Vol": [ -2.0 ],
+                    "Vol::Vol": [ -2.0 ],
+                    "Vol::ModVol": [ 100.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ -10.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Osc": [ 1.0 ],
                     "DrumSynthBank::1-DrumSynth::1-OscFilt": [ 0.0 ],
@@ -2391,8 +2366,8 @@
                     "BiquadFilt::Biquad::FiltQ": [ 0.30000001192092896 ],
                     "BiquadFilt::Biquad::FiltType": [ 1.0 ],
                     "DrumSynthBank::Mod::Mod1Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod1Amount": [ 100.0 ],
-                    "DrumSynthBank::Mod::Mod1Dest": [ 23.0 ],
+                    "DrumSynthBank::Mod::Mod1Amount": [ 0.0 ],
+                    "DrumSynthBank::Mod::Mod1Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Amount": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Dest": [ 0.0 ],
@@ -2404,10 +2379,7 @@
                     "DrumSynthBank::Mod::Mod4Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Dest": [ 0.0 ]
+                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ]
                 }
             },
             "15": {
@@ -2418,7 +2390,8 @@
                     "PresetsRead": [ 0.0 ],
                     "PresetsWrite": [ 0.0 ],
                     "Randomize": [ 0.0 ],
-                    "Vol": [ 0.0 ],
+                    "Vol::Vol": [ 0.0 ],
+                    "Vol::ModVol": [ 100.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Gain": [ 0.0 ],
                     "DrumSynthBank::1-DrumSynth::1-Osc": [ 0.0 ],
                     "DrumSynthBank::1-DrumSynth::1-OscFilt": [ 0.0 ],
@@ -2563,8 +2536,8 @@
                     "BiquadFilt::Biquad::FiltQ": [ 0.30000001192092896 ],
                     "BiquadFilt::Biquad::FiltType": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod1Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod1Amount": [ 100.0 ],
-                    "DrumSynthBank::Mod::Mod1Dest": [ 23.0 ],
+                    "DrumSynthBank::Mod::Mod1Amount": [ 0.0 ],
+                    "DrumSynthBank::Mod::Mod1Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Amount": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod2Dest": [ 0.0 ],
@@ -2576,10 +2549,7 @@
                     "DrumSynthBank::Mod::Mod4Dest": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Source": [ 0.0 ],
                     "DrumSynthBank::Mod::Mod5Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Source": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Amount": [ 0.0 ],
-                    "DrumSynthBank::Mod::Mod6Dest": [ 0.0 ]
+                    "DrumSynthBank::Mod::Mod5Dest": [ 0.0 ]
                 }
             }
         }
