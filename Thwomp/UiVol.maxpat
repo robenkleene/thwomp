@@ -20,7 +20,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
                     "patching_rect": [ 142.0, 66.0, 183.0, 22.0 ],
-                    "text": "receive~ receive~ #1-modsrc-vel"
+                    "text": "receive~ #1-modsrc-vel"
                 }
             },
             {
