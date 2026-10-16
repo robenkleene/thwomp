@@ -9,9 +9,48 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 297.0, 333.0, 868.0, 916.0 ],
+        "rect": [ 563.0, 286.0, 829.0, 721.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "fontname": "Ableton Sans Medium",
+                    "fontsize": 8.0,
+                    "id": "obj-93",
+                    "linecount": 2,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 233.0, 358.0, 37.0, 26.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 343.0, 85.0, 39.0, 16.0 ],
+                    "text": "Vel > Vol"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-90",
+                    "maxclass": "live.numbox",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 307.0, 257.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 344.0, 98.0, 38.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_longname": "live.numbox",
+                            "parameter_mmax": 100.0,
+                            "parameter_modmode": 4,
+                            "parameter_shortname": "live.numbox",
+                            "parameter_type": 1,
+                            "parameter_unitstyle": 5
+                        }
+                    },
+                    "varname": "live.numbox"
+                }
+            },
             {
                 "box": {
                     "id": "obj-89",
@@ -1328,6 +1367,7 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
+                    "hidden": 1,
                     "id": "obj-9",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
@@ -1352,6 +1392,7 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
+                    "hidden": 1,
                     "id": "obj-40",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
@@ -1403,7 +1444,8 @@
                         "PresetsRead": [ 0.0 ],
                         "PresetsWrite": [ 0.0 ],
                         "Randomize": [ 0.0 ],
-                        "Vol": [ -2.0 ]
+                        "Vol": [ -2.0 ],
+                        "live.numbox": [ 62.0 ]
                     },
                     "restore_extra": {
                         "PresetsOverwrite": {
@@ -1420,6 +1462,9 @@
                         },
                         "Vol": {
                             "id": "obj-11"
+                        },
+                        "live.numbox": {
+                            "id": "obj-90"
                         }
                     },
                     "text": "autopattr",
@@ -1484,6 +1529,7 @@
             {
                 "box": {
                     "annotation": "The volume of this device.",
+                    "hidden": 1,
                     "id": "obj-11",
                     "maxclass": "live.dial",
                     "numinlets": 1,
@@ -1745,6 +1791,7 @@
                 "box": {
                     "angle": 270.0,
                     "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
+                    "hidden": 1,
                     "id": "obj-72",
                     "maxclass": "panel",
                     "mode": 0,
@@ -1777,7 +1824,7 @@
                     "name": "UiDrumSynthBank.maxpat",
                     "numinlets": 1,
                     "numoutlets": 5,
-                    "offset": [ 0.0, 0.0 ],
+                    "offset": [ 0.0, -342.0 ],
                     "outlettype": [ "signal", "signal", "signal", "signal", "" ],
                     "patching_rect": [ 39.0, 336.0, 225.0, 172.0 ],
                     "presentation": 1,
@@ -2685,6 +2732,7 @@
             "obj-45": [ "Randomize", "Randomize", 0 ],
             "obj-75": [ "Tab", "Tab", 0 ],
             "obj-77": [ "PresetsSelect", "Preset", 0 ],
+            "obj-90": [ "live.numbox", "live.numbox", 0 ],
             "obj-9::obj-1::obj-1": [ "FiltFreq", "Freq", 0 ],
             "obj-9::obj-1::obj-11": [ "FiltQ", "Res", 0 ],
             "obj-9::obj-1::obj-6": [ "FiltType", "Type", 0 ],

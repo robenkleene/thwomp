@@ -3,37 +3,39 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 5,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 165.0, 429.0, 1175.0, 573.0 ],
+        "rect": [ 739.0, 653.0, 1175.0, 573.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
             {
                 "box": {
+                    "fontsize": 10.0,
                     "id": "obj-21",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 264.0, 114.0, 33.0, 20.0 ],
+                    "patching_rect": [ 264.0, 114.0, 29.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 33.0, 20.0 ],
+                    "presentation_rect": [ 5.0, 1.0, 29.0, 18.0 ],
                     "text": "Freq"
                 }
             },
             {
                 "box": {
+                    "fontsize": 10.0,
                     "id": "obj-19",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 315.0, 114.0, 36.0, 20.0 ],
+                    "patching_rect": [ 315.0, 114.0, 31.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ -1.5, 22.0, 36.0, 20.0 ],
+                    "presentation_rect": [ 3.0, 22.0, 31.0, 18.0 ],
                     "text": "Semi"
                 }
             },
@@ -154,6 +156,14 @@
                     "restore": {
                         "#2-OscFreq": [ 30.0 ],
                         "#2-OscSemi": [ 48.0 ]
+                    },
+                    "restore_extra": {
+                        "#2-OscFreq": {
+                            "id": "obj-15"
+                        },
+                        "#2-OscSemi": {
+                            "id": "obj-17"
+                        }
                     },
                     "text": "autopattr",
                     "varname": "u665013921"
