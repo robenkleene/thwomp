@@ -25,6 +25,7 @@
             },
             {
                 "box": {
+                    "args": [ "#1" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
