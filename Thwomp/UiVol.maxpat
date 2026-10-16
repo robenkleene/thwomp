@@ -14,6 +14,27 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-2",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 348.0, 212.0, 47.0, 22.0 ],
+                    "text": "t signal"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-3",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 348.0, 252.0, 105.0, 22.0 ],
+                    "text": "send~ #1-mod-vol"
+                }
+            },
+            {
+                "box": {
                     "comment": "(float, db) volume",
                     "id": "obj-1",
                     "index": 0,
@@ -94,6 +115,18 @@
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
                     "source": [ "obj-11", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-3", 0 ],
+                    "source": [ "obj-2", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-2", 0 ],
+                    "source": [ "obj-90", 1 ]
                 }
             }
         ],
