@@ -1,0 +1,115 @@
+{
+    "patcher": {
+        "fileversion": 1,
+        "appversion": {
+            "major": 9,
+            "minor": 2,
+            "revision": 0,
+            "architecture": "x64",
+            "modernui": 1
+        },
+        "classnamespace": "box",
+        "rect": [ 142.0, 153.0, 1000.0, 780.0 ],
+        "openinpresentation": 1,
+        "boxes": [
+            {
+                "box": {
+                    "comment": "(float, db) volume",
+                    "id": "obj-1",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 70.0, 248.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "fontname": "Ableton Sans Medium",
+                    "fontsize": 8.0,
+                    "id": "obj-93",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 71.0, 23.0, 39.0, 16.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 0.0, 39.0, 16.0 ],
+                    "text": "Vel > Vol"
+                }
+            },
+            {
+                "box": {
+                    "appearance": 2,
+                    "id": "obj-90",
+                    "maxclass": "live.numbox",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 71.0, 41.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 2.0, 13.0, 35.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_longname": "ModVol",
+                            "parameter_mmax": 100.0,
+                            "parameter_modmode": 4,
+                            "parameter_shortname": "ModVol",
+                            "parameter_type": 1,
+                            "parameter_unitstyle": 5
+                        }
+                    },
+                    "varname": "ModVol"
+                }
+            },
+            {
+                "box": {
+                    "annotation": "The volume of this device.",
+                    "id": "obj-11",
+                    "maxclass": "live.dial",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 70.0, 64.0, 41.0, 48.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ -1.0, 30.0, 41.0, 48.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_longname": "Vol",
+                            "parameter_mmax": 6.0,
+                            "parameter_mmin": -70.0,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Volume",
+                            "parameter_type": 0,
+                            "parameter_unitstyle": 4
+                        }
+                    },
+                    "varname": "Vol"
+                }
+            }
+        ],
+        "lines": [
+            {
+                "patchline": {
+                    "destination": [ "obj-1", 0 ],
+                    "source": [ "obj-11", 0 ]
+                }
+            }
+        ],
+        "parameters": {
+            "obj-11": [ "Vol", "Volume", 0 ],
+            "obj-90": [ "ModVol", "ModVol", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
+        "autosave": 0
+    }
+}
