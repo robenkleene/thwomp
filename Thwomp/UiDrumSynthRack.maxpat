@@ -9,46 +9,72 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 563.0, 286.0, 829.0, 721.0 ],
+        "rect": [ 563.0, 286.0, 1285.0, 1060.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
                 "box": {
-                    "fontname": "Ableton Sans Medium",
-                    "fontsize": 8.0,
-                    "id": "obj-93",
-                    "linecount": 2,
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 233.0, 358.0, 37.0, 26.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 343.0, 85.0, 39.0, 16.0 ],
-                    "text": "Vel > Vol"
+                    "id": "obj-97",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1123.0, 1172.0, 127.0, 22.0 ],
+                    "presentation_linecount": 2,
+                    "text": "script $1 ModVolLabel"
                 }
             },
             {
                 "box": {
+                    "id": "obj-96",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 988.0, 1172.0, 97.0, 22.0 ],
+                    "text": "script $1 ModVol"
+                }
+            },
+            {
+                "box": {
+                    "fontname": "Ableton Sans Medium",
+                    "fontsize": 8.0,
+                    "hidden": 1,
+                    "id": "obj-93",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 607.0, 501.0, 39.0, 16.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 343.0, 85.0, 39.0, 16.0 ],
+                    "text": "Vel > Vol",
+                    "varname": "ModVolLabel"
+                }
+            },
+            {
+                "box": {
+                    "appearance": 2,
+                    "hidden": 1,
                     "id": "obj-90",
                     "maxclass": "live.numbox",
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 307.0, 257.0, 44.0, 15.0 ],
+                    "patching_rect": [ 607.0, 519.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 344.0, 98.0, 38.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "live.numbox",
+                            "parameter_longname": "ModVol",
                             "parameter_mmax": 100.0,
                             "parameter_modmode": 4,
-                            "parameter_shortname": "live.numbox",
+                            "parameter_shortname": "ModVol",
                             "parameter_type": 1,
                             "parameter_unitstyle": 5
                         }
                     },
-                    "varname": "live.numbox"
+                    "varname": "ModVol"
                 }
             },
             {
@@ -1440,14 +1466,17 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 713.0, 249.0, 56.0, 22.0 ],
                     "restore": {
+                        "ModVol": [ 62.0 ],
                         "PresetsOverwrite": [ 0.0 ],
                         "PresetsRead": [ 0.0 ],
                         "PresetsWrite": [ 0.0 ],
                         "Randomize": [ 0.0 ],
-                        "Vol": [ -2.0 ],
-                        "live.numbox": [ 62.0 ]
+                        "Vol": [ -2.0 ]
                     },
                     "restore_extra": {
+                        "ModVol": {
+                            "id": "obj-90"
+                        },
                         "PresetsOverwrite": {
                             "id": "obj-19"
                         },
@@ -1462,9 +1491,6 @@
                         },
                         "Vol": {
                             "id": "obj-11"
-                        },
-                        "live.numbox": {
-                            "id": "obj-90"
                         }
                     },
                     "text": "autopattr",
@@ -1824,7 +1850,7 @@
                     "name": "UiDrumSynthBank.maxpat",
                     "numinlets": 1,
                     "numoutlets": 5,
-                    "offset": [ 0.0, -342.0 ],
+                    "offset": [ 0.0, -513.0 ],
                     "outlettype": [ "signal", "signal", "signal", "signal", "" ],
                     "patching_rect": [ 39.0, 336.0, 225.0, 172.0 ],
                     "presentation": 1,
@@ -2429,27 +2455,41 @@
             {
                 "patchline": {
                     "destination": [ "obj-37", 0 ],
-                    "order": 3,
+                    "order": 5,
                     "source": [ "obj-74", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-80", 0 ],
-                    "order": 2,
+                    "order": 4,
                     "source": [ "obj-74", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-81", 0 ],
-                    "order": 1,
+                    "order": 3,
                     "source": [ "obj-74", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-87", 0 ],
+                    "order": 2,
+                    "source": [ "obj-74", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-96", 0 ],
+                    "order": 1,
+                    "source": [ "obj-74", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-97", 0 ],
                     "order": 0,
                     "source": [ "obj-74", 0 ]
                 }
@@ -2463,27 +2503,41 @@
             {
                 "patchline": {
                     "destination": [ "obj-37", 0 ],
-                    "order": 3,
+                    "order": 5,
                     "source": [ "obj-76", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-80", 0 ],
-                    "order": 2,
+                    "order": 4,
                     "source": [ "obj-76", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-81", 0 ],
-                    "order": 1,
+                    "order": 3,
                     "source": [ "obj-76", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-87", 0 ],
+                    "order": 2,
+                    "source": [ "obj-76", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-96", 0 ],
+                    "order": 1,
+                    "source": [ "obj-76", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-97", 0 ],
                     "order": 0,
                     "source": [ "obj-76", 0 ]
                 }
@@ -2552,6 +2606,18 @@
                 "patchline": {
                     "destination": [ "obj-10", 0 ],
                     "source": [ "obj-9", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-78", 0 ],
+                    "source": [ "obj-96", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-78", 0 ],
+                    "source": [ "obj-97", 0 ]
                 }
             }
         ],
@@ -2732,7 +2798,7 @@
             "obj-45": [ "Randomize", "Randomize", 0 ],
             "obj-75": [ "Tab", "Tab", 0 ],
             "obj-77": [ "PresetsSelect", "Preset", 0 ],
-            "obj-90": [ "live.numbox", "live.numbox", 0 ],
+            "obj-90": [ "ModVol", "ModVol", 0 ],
             "obj-9::obj-1::obj-1": [ "FiltFreq", "Freq", 0 ],
             "obj-9::obj-1::obj-11": [ "FiltQ", "Res", 0 ],
             "obj-9::obj-1::obj-6": [ "FiltType", "Type", 0 ],
