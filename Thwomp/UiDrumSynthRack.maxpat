@@ -35,11 +35,11 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "UiVol.maxpat",
-                    "numinlets": 1,
+                    "numinlets": 0,
                     "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "" ],
-                    "patching_rect": [ 417.0, 390.0, 42.0, 84.0 ],
+                    "patching_rect": [ 85.5, 1006.0, 42.0, 84.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 343.0, 86.0, 42.0, 84.0 ],
                     "varname": "Vol",
@@ -1886,12 +1886,6 @@
                 "patchline": {
                     "destination": [ "obj-100", 1 ],
                     "source": [ "obj-101", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-98", 0 ],
-                    "source": [ "obj-11", 1 ]
                 }
             },
             {

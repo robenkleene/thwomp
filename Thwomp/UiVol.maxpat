@@ -14,25 +14,24 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-2",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 142.0, 66.0, 183.0, 22.0 ],
+                    "text": "receive~ receive~ #1-modsrc-vel"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-6",
                     "maxclass": "newobj",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 120.0, 86.0, 34.0, 22.0 ],
+                    "patching_rect": [ 142.0, 161.0, 34.0, 22.0 ],
                     "text": "*~ 1."
-                }
-            },
-            {
-                "box": {
-                    "comment": "(int) velocity",
-                    "id": "obj-5",
-                    "index": 0,
-                    "maxclass": "inlet",
-                    "numinlets": 0,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 15.0, 11.5, 30.0, 30.0 ]
                 }
             },
             {
@@ -42,13 +41,17 @@
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 301.0, 15.5, 56.0, 22.0 ],
+                    "patching_rect": [ 400.0, 66.0, 56.0, 22.0 ],
                     "restore": {
-                        "ModVol": [ 0.0 ]
+                        "ModVol": [ 0.0 ],
+                        "Vol": [ 0.0 ]
                     },
                     "restore_extra": {
                         "ModVol": {
                             "id": "obj-90"
+                        },
+                        "Vol": {
+                            "id": "obj-11"
                         }
                     },
                     "text": "autopattr",
@@ -61,7 +64,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 120.0, 132.0, 105.0, 22.0 ],
+                    "patching_rect": [ 142.0, 207.0, 105.0, 22.0 ],
                     "text": "send~ #1-mod-vol"
                 }
             },
@@ -84,7 +87,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 110.0, 18.5, 39.0, 16.0 ],
+                    "patching_rect": [ 172.5, 104.0, 39.0, 16.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 39.0, 16.0 ],
                     "text": "Vel > Vol"
@@ -99,7 +102,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 110.0, 36.5, 44.0, 15.0 ],
+                    "patching_rect": [ 172.5, 122.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 2.0, 13.0, 35.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -124,7 +127,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 15.0, 170.0, 41.0, 48.0 ],
+                    "patching_rect": [ 15.0, 165.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ -1.0, 30.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -152,7 +155,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-6", 0 ],
-                    "source": [ "obj-5", 0 ]
+                    "source": [ "obj-2", 0 ]
                 }
             },
             {
