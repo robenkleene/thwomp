@@ -19,7 +19,7 @@
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 547.0, 20.0, 56.0, 22.0 ],
+                    "patching_rect": [ 301.0, 15.5, 56.0, 22.0 ],
                     "restore": {
                         "ModVol": [ 0.0 ],
                         "Vol": [ 0.0 ]
@@ -43,7 +43,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 348.0, 212.0, 47.0, 22.0 ],
+                    "patching_rect": [ 135.0, 65.5, 47.0, 22.0 ],
                     "text": "t signal"
                 }
             },
@@ -53,7 +53,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 348.0, 252.0, 105.0, 22.0 ],
+                    "patching_rect": [ 135.0, 105.5, 105.0, 22.0 ],
                     "text": "send~ #1-mod-vol"
                 }
             },
@@ -65,7 +65,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 70.0, 248.0, 30.0, 30.0 ]
+                    "patching_rect": [ 19.0, 102.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -76,7 +76,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 71.0, 23.0, 39.0, 16.0 ],
+                    "patching_rect": [ 110.0, 18.5, 39.0, 16.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 39.0, 16.0 ],
                     "text": "Vel > Vol"
@@ -91,7 +91,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 71.0, 41.0, 44.0, 15.0 ],
+                    "patching_rect": [ 110.0, 36.5, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 2.0, 13.0, 35.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -116,7 +116,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 70.0, 64.0, 41.0, 48.0 ],
+                    "patching_rect": [ 19.0, 20.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ -1.0, 30.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
