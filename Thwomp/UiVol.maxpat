@@ -9,9 +9,32 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 142.0, 153.0, 1000.0, 780.0 ],
+        "rect": [ 747.0, 370.0, 1000.0, 780.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-6",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 120.0, 86.0, 34.0, 22.0 ],
+                    "text": "*~ 1."
+                }
+            },
+            {
+                "box": {
+                    "comment": "(int) velocity",
+                    "id": "obj-5",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 15.0, 11.5, 30.0, 30.0 ]
+                }
+            },
             {
                 "box": {
                     "id": "obj-4",
@@ -21,15 +44,11 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 301.0, 15.5, 56.0, 22.0 ],
                     "restore": {
-                        "ModVol": [ 0.0 ],
-                        "Vol": [ 0.0 ]
+                        "ModVol": [ 0.0 ]
                     },
                     "restore_extra": {
                         "ModVol": {
                             "id": "obj-90"
-                        },
-                        "Vol": {
-                            "id": "obj-11"
                         }
                     },
                     "text": "autopattr",
@@ -38,22 +57,11 @@
             },
             {
                 "box": {
-                    "id": "obj-2",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "signal" ],
-                    "patching_rect": [ 135.0, 65.5, 47.0, 22.0 ],
-                    "text": "t signal"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-3",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 135.0, 105.5, 105.0, 22.0 ],
+                    "patching_rect": [ 120.0, 132.0, 105.0, 22.0 ],
                     "text": "send~ #1-mod-vol"
                 }
             },
@@ -65,7 +73,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 19.0, 102.0, 30.0, 30.0 ]
+                    "patching_rect": [ 15.0, 252.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -116,7 +124,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 19.0, 20.0, 41.0, 48.0 ],
+                    "patching_rect": [ 15.0, 170.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ -1.0, 30.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -143,13 +151,19 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-3", 0 ],
-                    "source": [ "obj-2", 0 ]
+                    "destination": [ "obj-6", 0 ],
+                    "source": [ "obj-5", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-2", 0 ],
+                    "destination": [ "obj-3", 0 ],
+                    "source": [ "obj-6", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-6", 1 ],
                     "source": [ "obj-90", 1 ]
                 }
             }

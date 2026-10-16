@@ -222,7 +222,7 @@
                             },
                             {
                                 "key": 23,
-                                "value": [ "volume" ]
+                                "value": [ "vol" ]
                             },
                             {
                                 "key": 24,
