@@ -14,6 +14,16 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-15",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 251.0, 423.0, 145.0, 22.0 ],
+                    "text": "send~ #1-modsrc-ringenv"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-19",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -94,16 +104,12 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 440.0, 112.0, 100.0, 22.0 ],
                     "restore": {
-                        "Ring": [ 0.0 ],
                         "RingAttack": [ 0.0 ],
                         "RingDecay": [ 0.0 ],
                         "RingFilt": [ 0.0 ],
                         "RingGain": [ 0.0 ]
                     },
                     "restore_extra": {
-                        "Ring": {
-                            "id": "obj-25"
-                        },
                         "RingAttack": {
                             "id": "obj-34"
                         },
@@ -293,8 +299,8 @@
                     "id": "obj-2",
                     "maxclass": "newobj",
                     "numinlets": 3,
-                    "numoutlets": 2,
-                    "outlettype": [ "signal", "bang" ],
+                    "numoutlets": 3,
+                    "outlettype": [ "signal", "bang", "signal" ],
                     "patching_rect": [ 216.0, 384.0, 54.0, 22.0 ],
                     "text": "AmpEnv"
                 }
@@ -306,7 +312,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 216.0, 520.0, 34.0, 22.0 ],
+                    "patching_rect": [ 219.0, 554.0, 34.0, 22.0 ],
                     "text": "*~ 0."
                 }
             },
@@ -319,7 +325,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 256.0, 432.0, 41.0, 48.0 ],
+                    "patching_rect": [ 259.0, 466.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 100.0, 31.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -343,7 +349,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 256.0, 488.0, 132.0, 22.0 ],
+                    "patching_rect": [ 259.0, 522.0, 132.0, 22.0 ],
                     "text": "expr pow(10.\\, $f1 / 20.)"
                 }
             },
@@ -395,7 +401,7 @@
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 390.0, 301.0, 128.0, 128.0 ],
+                    "patching_rect": [ 434.0, 301.0, 128.0, 128.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 142.0, 84.0 ],
                     "proportion": 0.39,
@@ -442,6 +448,12 @@
                 "patchline": {
                     "destination": [ "obj-19", 0 ],
                     "source": [ "obj-18", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-15", 0 ],
+                    "source": [ "obj-2", 2 ]
                 }
             },
             {

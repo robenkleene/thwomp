@@ -13,6 +13,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-21",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 175.0, 446.0, 158.0, 22.0 ],
+                    "text": "receive~ #1-modsrc-ringenv"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-13",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -437,6 +448,12 @@
                 "patchline": {
                     "destination": [ "obj-8", 7 ],
                     "source": [ "obj-20", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-8", 9 ],
+                    "source": [ "obj-21", 0 ]
                 }
             },
             {
