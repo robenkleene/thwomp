@@ -14,11 +14,31 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-26",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 357.0, 466.0, 155.0, 22.0 ],
+                    "text": "send~ #1-modsrc-ampenv1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-25",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 342.0, 751.0, 155.0, 22.0 ],
+                    "text": "send~ #1-modsrc-ampenv2"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-24",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 357.0, 751.0, 157.0, 22.0 ],
+                    "patching_rect": [ 311.75, 776.0, 157.0, 22.0 ],
                     "text": "send~ #1-modsrc-pitchenv2"
                 }
             },
@@ -28,7 +48,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 357.0, 471.0, 157.0, 22.0 ],
+                    "patching_rect": [ 313.0, 492.0, 157.0, 22.0 ],
                     "text": "send~ #1-modsrc-pitchenv1"
                 }
             },
@@ -306,9 +326,9 @@
                     "maxclass": "bpatcher",
                     "name": "UiDrumSynth.maxpat",
                     "numinlets": 1,
-                    "numoutlets": 4,
+                    "numoutlets": 5,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "signal", "signal", "", "signal" ],
+                    "outlettype": [ "signal", "signal", "", "signal", "signal" ],
                     "patching_rect": [ 176.0, 573.0, 200.0, 163.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 171.0, 200.0, 169.0 ],
@@ -330,9 +350,9 @@
                     "maxclass": "bpatcher",
                     "name": "UiDrumSynth.maxpat",
                     "numinlets": 1,
-                    "numoutlets": 4,
+                    "numoutlets": 5,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "signal", "signal", "", "signal" ],
+                    "outlettype": [ "signal", "signal", "", "signal", "signal" ],
                     "patching_rect": [ 176.0, 288.0, 200.0, 168.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 200.0, 169.0 ],
@@ -364,6 +384,12 @@
                 "patchline": {
                     "destination": [ "obj-23", 0 ],
                     "source": [ "obj-1", 3 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-26", 0 ],
+                    "source": [ "obj-1", 4 ]
                 }
             },
             {
@@ -452,6 +478,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-25", 0 ],
+                    "source": [ "obj-3", 4 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-9", 0 ],
                     "source": [ "obj-3", 0 ]
                 }
@@ -489,14 +521,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
-                    "order": 3,
+                    "order": 0,
                     "source": [ "obj-7", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-21", 0 ],
-                    "order": 2,
+                    "order": 3,
                     "source": [ "obj-7", 0 ]
                 }
             },
@@ -516,7 +548,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-8", 0 ],
-                    "order": 0,
+                    "order": 2,
                     "source": [ "obj-7", 0 ]
                 }
             },

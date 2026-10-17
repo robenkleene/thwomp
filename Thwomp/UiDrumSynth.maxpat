@@ -15,6 +15,28 @@
         "boxes": [
             {
                 "box": {
+                    "comment": "(signal) amp env",
+                    "id": "obj-53",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1027.0, 760.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-52",
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 3,
+                    "outlettype": [ "signal", "bang", "signal" ],
+                    "patching_rect": [ 992.0, 700.0, 54.0, 22.0 ],
+                    "text": "AmpEnv"
+                }
+            },
+            {
+                "box": {
                     "comment": "(signal) pitch env",
                     "id": "obj-51",
                     "index": 0,
@@ -968,12 +990,28 @@
             {
                 "patchline": {
                     "destination": [ "obj-20", 9 ],
+                    "order": 1,
                     "source": [ "obj-4", 1 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-20", 8 ],
+                    "order": 1,
+                    "source": [ "obj-4", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-52", 2 ],
+                    "order": 0,
+                    "source": [ "obj-4", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-52", 1 ],
+                    "order": 0,
                     "source": [ "obj-4", 0 ]
                 }
             },
@@ -1051,6 +1089,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-53", 0 ],
+                    "source": [ "obj-52", 2 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-56", 0 ],
                     "source": [ "obj-55", 0 ]
                 }
@@ -1078,6 +1122,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-17", 0 ],
+                    "order": 1,
+                    "source": [ "obj-8", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-52", 0 ],
+                    "order": 0,
                     "source": [ "obj-8", 1 ]
                 }
             },
