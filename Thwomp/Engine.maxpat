@@ -13,6 +13,18 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-32",
+                    "linecount": 3,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 931.0, 639.0, 150.0, 47.0 ],
+                    "presentation_linecount": 3,
+                    "text": "Divide to remove A4 and treat the result as a frequency ratio"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-31",
                     "linecount": 3,
                     "maxclass": "comment",
@@ -20,7 +32,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 925.0, 576.0, 150.0, 47.0 ],
                     "presentation_linecount": 3,
-                    "text": "Treats the offset of distance from A4 which is the root note in `mtof~`"
+                    "text": "Treats the offset as distance from A4 which is the root note in `mtof~`"
                 }
             },
             {
