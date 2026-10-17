@@ -13,12 +13,23 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-12",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 49.03846153846154, 176.0, 146.0, 22.0 ],
+                    "text": "receive~ #1-modsrc-scale"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-11",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 28.0, 139.0, 134.0, 22.0 ],
+                    "patching_rect": [ 33.269230769230774, 148.0, 134.0, 22.0 ],
                     "text": "receive~ #1-modsrc-vel"
                 }
             },
@@ -40,7 +51,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 359.0, 257.0, 34.0, 22.0 ],
+                    "patching_rect": [ 330.0, 437.0, 34.0, 22.0 ],
                     "text": "*~ 0."
                 }
             },
@@ -51,7 +62,7 @@
                     "numinlets": 14,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 17.5, 207.0, 155.5, 22.0 ],
+                    "patching_rect": [ 17.5, 294.0, 224.0, 22.0 ],
                     "text": "selector~ 13"
                 }
             },
@@ -62,7 +73,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 216.0, 207.0, 72.0, 22.0 ],
+                    "patching_rect": [ 311.0, 222.0, 72.0, 22.0 ],
                     "text": "prepend set"
                 }
             },
@@ -73,7 +84,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 216.0, 166.0, 106.0, 22.0 ],
+                    "patching_rect": [ 311.0, 181.0, 106.0, 22.0 ],
                     "text": "sprintf #1-mod-%s"
                 }
             },
@@ -83,7 +94,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 216.0, 317.0, 42.0, 22.0 ],
+                    "patching_rect": [ 311.0, 471.0, 42.0, 22.0 ],
                     "text": "send~"
                 }
             },
@@ -96,7 +107,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 374.0, 17.0, 30.0, 30.0 ]
+                    "patching_rect": [ 469.0, 32.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -108,7 +119,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 216.0, 17.0, 30.0, 30.0 ]
+                    "patching_rect": [ 311.0, 32.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -235,7 +246,7 @@
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 216.0, 133.0, 50.5, 22.0 ],
+                    "patching_rect": [ 311.0, 148.0, 50.5, 22.0 ],
                     "saved_object_attributes": {
                         "embed": 1,
                         "precision": 6
@@ -250,7 +261,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 59.5, 166.0, 131.0, 22.0 ],
+                    "patching_rect": [ 80.57692307692308, 255.0, 131.0, 22.0 ],
                     "text": "receive~ #1-modsrc-lfo"
                 }
             }
@@ -272,6 +283,12 @@
                 "patchline": {
                     "destination": [ "obj-8", 1 ],
                     "source": [ "obj-11", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-8", 2 ],
+                    "source": [ "obj-12", 0 ]
                 }
             },
             {
