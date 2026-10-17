@@ -13,6 +13,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-26",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 293.0, 569.0, 143.0, 22.0 ],
+                    "text": "receive~ #1-modsrc-slide"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-25",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -511,6 +522,12 @@
                 "patchline": {
                     "destination": [ "obj-8", 12 ],
                     "source": [ "obj-25", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-8", 13 ],
+                    "source": [ "obj-26", 0 ]
                 }
             },
             {
