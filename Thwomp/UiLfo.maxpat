@@ -550,7 +550,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "(symbol float signal) frequence or time period",
+                                    "comment": "(symbol float signal) frequency or time period",
                                     "id": "obj-2",
                                     "index": 2,
                                     "maxclass": "inlet",
