@@ -13,6 +13,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-24",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 218.0, 514.0, 145.0, 22.0 ],
+                    "text": "receive~ #1-modsrc-bend"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-23",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -477,6 +488,12 @@
                 "patchline": {
                     "destination": [ "obj-8", 10 ],
                     "source": [ "obj-23", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-8", 11 ],
+                    "source": [ "obj-24", 0 ]
                 }
             },
             {
