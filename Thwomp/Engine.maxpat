@@ -9,16 +9,128 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1194.0, 345.0, 1332.0, 938.0 ],
+        "rect": [ 362.0, 95.0, 1332.0, 929.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-31",
+                    "linecount": 3,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 925.0, 576.0, 150.0, 47.0 ],
+                    "presentation_linecount": 3,
+                    "text": "Treats the offset of distance from A4 which is the root note in `mtof~`"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-30",
+                    "linecount": 2,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 962.0, 534.0, 150.0, 33.0 ],
+                    "presentation_linecount": 2,
+                    "text": "Allow maximum of four octaves"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-29",
+                    "linecount": 2,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 925.0, 500.0, 150.0, 33.0 ],
+                    "text": "Map the mod to -/+ 24 semitones"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-27",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 869.5, 679.0, 29.5, 22.0 ],
+                    "text": "*~"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-26",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 880.0, 639.0, 46.0, 22.0 ],
+                    "text": "/~ 440."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-25",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 880.0, 611.0, 39.0, 22.0 ],
+                    "text": "mtof~"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-24",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 880.0, 574.0, 43.0, 22.0 ],
+                    "text": "+~ 69."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-23",
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 880.0, 534.0, 78.0, 22.0 ],
+                    "text": "clip~ -48. 48."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-16",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 880.0, 500.0, 40.0, 22.0 ],
+                    "text": "*~ 24."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-15",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 880.0, 466.0, 128.0, 22.0 ],
+                    "text": "receive~ #1-mod-pitch"
+                }
+            },
             {
                 "box": {
                     "fontface": 0,
                     "id": "obj-18",
                     "maxclass": "newobj",
                     "numinlets": 3,
-                    "numoutlets": 2,
-                    "outlettype": [ "signal", "bang" ],
+                    "numoutlets": 3,
+                    "outlettype": [ "signal", "bang", "signal" ],
                     "patching_rect": [ 496.0, 296.0, 54.0, 22.0 ],
                     "text": "AmpEnv"
                 }
@@ -1138,7 +1250,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 392.0, 553.0, 898.0, 494.0 ],
+                        "rect": [ 392.0, 530.0, 898.0, 494.0 ],
                         "boxes": [
                             {
                                 "box": {
@@ -1257,7 +1369,7 @@
                                     "maxclass": "inlet",
                                     "numinlets": 0,
                                     "numoutlets": 1,
-                                    "outlettype": [ "bang" ],
+                                    "outlettype": [ "signal" ],
                                     "patching_rect": [ 32.0, 8.0, 30.0, 30.0 ]
                                 }
                             },
@@ -1575,6 +1687,18 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-16", 0 ],
+                    "source": [ "obj-15", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-23", 0 ],
+                    "source": [ "obj-16", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-14", 2 ],
                     "source": [ "obj-17", 0 ]
                 }
@@ -1627,6 +1751,36 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-24", 0 ],
+                    "source": [ "obj-23", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-25", 0 ],
+                    "source": [ "obj-24", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-26", 0 ],
+                    "source": [ "obj-25", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-27", 1 ],
+                    "source": [ "obj-26", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-19", 0 ],
+                    "source": [ "obj-27", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-7", 0 ],
                     "source": [ "obj-5", 0 ]
                 }
@@ -1639,7 +1793,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-19", 0 ],
+                    "destination": [ "obj-27", 0 ],
                     "source": [ "obj-7", 0 ]
                 }
             },
