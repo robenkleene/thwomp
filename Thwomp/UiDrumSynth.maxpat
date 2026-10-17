@@ -3,16 +3,38 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 4,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 846.0, 359.0, 1338.0, 913.0 ],
+        "rect": [ 567.0, 354.0, 1338.0, 913.0 ],
         "openinpresentation": 1,
         "toolbars_unpinned_last_save": 4,
         "boxes": [
+            {
+                "box": {
+                    "comment": "(signal) pitch env",
+                    "id": "obj-51",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 899.0, 760.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-10",
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 2,
+                    "outlettype": [ "signal", "bang" ],
+                    "patching_rect": [ 899.0, 536.0, 45.0, 22.0 ],
+                    "text": "curve~"
+                }
+            },
             {
                 "box": {
                     "id": "obj-50",
@@ -442,6 +464,29 @@
                         "#2-Overdrive": [ 0.0 ],
                         "#2-Overtone": [ 0.0 ]
                     },
+                    "restore_extra": {
+                        "#2-Gain": {
+                            "id": "obj-5"
+                        },
+                        "#2-Osc": {
+                            "id": "obj-7"
+                        },
+                        "#2-OscFilt": {
+                            "id": "obj-12"
+                        },
+                        "#2-OscReset": {
+                            "id": "obj-26"
+                        },
+                        "#2-OscShape": {
+                            "id": "obj-9"
+                        },
+                        "#2-Overdrive": {
+                            "id": "obj-24"
+                        },
+                        "#2-Overtone": {
+                            "id": "obj-19"
+                        }
+                    },
                     "text": "autopattr",
                     "varname": "u676004119"
                 }
@@ -752,6 +797,12 @@
         "lines": [
             {
                 "patchline": {
+                    "destination": [ "obj-51", 0 ],
+                    "source": [ "obj-10", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-15", 0 ],
                     "source": [ "obj-11", 0 ]
                 }
@@ -776,6 +827,13 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-10", 0 ],
+                    "order": 0,
+                    "source": [ "obj-17", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-20", 3 ],
                     "source": [ "obj-17", 1 ]
                 }
@@ -783,6 +841,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-20", 2 ],
+                    "order": 1,
                     "source": [ "obj-17", 0 ]
                 }
             },
