@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1047.0, 240.0, 1807.0, 987.0 ],
+        "rect": [ 719.0, 240.0, 1807.0, 987.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -29,9 +29,9 @@
                     "maxclass": "newobj",
                     "numinlets": 2,
                     "numoutlets": 1,
-                    "outlettype": [ "int" ],
-                    "patching_rect": [ 40.0, 202.0, 29.5, 22.0 ],
-                    "text": "/ 64"
+                    "outlettype": [ "float" ],
+                    "patching_rect": [ 40.0, 202.0, 32.0, 22.0 ],
+                    "text": "/ 64."
                 }
             },
             {

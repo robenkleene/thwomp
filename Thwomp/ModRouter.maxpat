@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1075.0, 251.0, 930.0, 780.0 ],
+        "rect": [ 1421.0, 250.0, 930.0, 780.0 ],
         "boxes": [
             {
                 "box": {
@@ -18,8 +18,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 49.03846153846154, 176.0, 146.0, 22.0 ],
-                    "text": "receive~ #1-modsrc-scale"
+                    "patching_rect": [ 49.03846153846154, 176.0, 137.0, 22.0 ],
+                    "text": "receive~ #1-modsrc-key"
                 }
             },
             {
