@@ -13,6 +13,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-25",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 245.0, 542.0, 148.0, 22.0 ],
+                    "text": "receive~ #1-modsrc-touch"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-24",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -494,6 +505,12 @@
                 "patchline": {
                     "destination": [ "obj-8", 11 ],
                     "source": [ "obj-24", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-8", 12 ],
+                    "source": [ "obj-25", 0 ]
                 }
             },
             {
