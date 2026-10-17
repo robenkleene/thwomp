@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1277.0, 538.0, 1249.0, 780.0 ],
+        "rect": [ 445.0, 244.0, 1249.0, 780.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -1173,7 +1173,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 767.0, 375.0, 50.0, 18.0 ],
+                    "patching_rect": [ 632.0, 315.0, 50.0, 18.0 ],
                     "presentation": 1,
                     "presentation_rect": [ -1.0, 1.0, 50.0, 18.0 ],
                     "text": "LFO"
