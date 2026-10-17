@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1339.0, 238.0, 930.0, 780.0 ],
+        "rect": [ 764.0, 238.0, 930.0, 780.0 ],
         "boxes": [
             {
                 "box": {
@@ -227,8 +227,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 580.0, 193.0, 106.0, 22.0 ],
-                    "text": "sprintf #1-mod-%s"
+                    "patching_rect": [ 580.0, 193.0, 75.0, 22.0 ],
+                    "text": "sprintf #1%s"
                 }
             },
             {
@@ -284,103 +284,103 @@
                         "data": [
                             {
                                 "key": 0,
-                                "value": [ "none" ]
+                                "value": [ "-mod-none" ]
                             },
                             {
                                 "key": 1,
-                                "value": [ "osc1pitch" ]
+                                "value": [ "_1-mod-pitch" ]
                             },
                             {
                                 "key": 2,
-                                "value": [ "osc1gain" ]
+                                "value": [ "_1-mod-gain" ]
                             },
                             {
                                 "key": 3,
-                                "value": [ "osc1attack" ]
+                                "value": [ "_1-mod-attack" ]
                             },
                             {
                                 "key": 4,
-                                "value": [ "osc1decay" ]
+                                "value": [ "_1-mod-decay" ]
                             },
                             {
                                 "key": 5,
-                                "value": [ "osc1overdrive" ]
+                                "value": [ "_1-mod-overdrive" ]
                             },
                             {
                                 "key": 6,
-                                "value": [ "osc1overtone" ]
+                                "value": [ "_1-mod-overtone" ]
                             },
                             {
                                 "key": 7,
-                                "value": [ "osc1envamount" ]
+                                "value": [ "_1-mod-envamount" ]
                             },
                             {
                                 "key": 8,
-                                "value": [ "osc1envduration" ]
+                                "value": [ "_1-mod-envduration" ]
                             },
                             {
                                 "key": 9,
-                                "value": [ "osc1envcurve" ]
+                                "value": [ "_1-mod-envcurve" ]
                             },
                             {
                                 "key": 10,
-                                "value": [ "osc2pitch" ]
+                                "value": [ "_2-mod-pitch" ]
                             },
                             {
                                 "key": 11,
-                                "value": [ "osc2gain" ]
+                                "value": [ "_2-mod-gain" ]
                             },
                             {
                                 "key": 12,
-                                "value": [ "osc2attack" ]
+                                "value": [ "_2-mod-attack" ]
                             },
                             {
                                 "key": 13,
-                                "value": [ "osc2decay" ]
+                                "value": [ "_2-mod-decay" ]
                             },
                             {
                                 "key": 14,
-                                "value": [ "osc2overdrive" ]
+                                "value": [ "_2-mod-overdrive" ]
                             },
                             {
                                 "key": 15,
-                                "value": [ "osc2overtone" ]
+                                "value": [ "_2-mod-overtone" ]
                             },
                             {
                                 "key": 16,
-                                "value": [ "osc2envamount" ]
+                                "value": [ "_2-mod-envamount" ]
                             },
                             {
                                 "key": 17,
-                                "value": [ "osc2envduration" ]
+                                "value": [ "_2-mod-envduration" ]
                             },
                             {
                                 "key": 18,
-                                "value": [ "osc2envcurve" ]
+                                "value": [ "_2-mod-envcurve" ]
                             },
                             {
                                 "key": 19,
-                                "value": [ "filterfreq" ]
+                                "value": [ "-mod-filterfreq" ]
                             },
                             {
                                 "key": 20,
-                                "value": [ "filterres" ]
+                                "value": [ "-mod-filterres" ]
                             },
                             {
                                 "key": 21,
-                                "value": [ "ringgain" ]
+                                "value": [ "-mod-ringgain" ]
                             },
                             {
                                 "key": 22,
-                                "value": [ "ringdecay" ]
+                                "value": [ "-mod-ringdecay" ]
                             },
                             {
                                 "key": 23,
-                                "value": [ "vol" ]
+                                "value": [ "-mod-vol" ]
                             },
                             {
                                 "key": 24,
-                                "value": [ "lforate" ]
+                                "value": [ "-mod-lforate" ]
                             }
                         ]
                     },
