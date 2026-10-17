@@ -25,7 +25,7 @@
             },
             {
                 "box": {
-                    "comment": "(signal) output",
+                    "comment": "(signal) gain",
                     "id": "obj-2",
                     "index": 0,
                     "maxclass": "outlet",
@@ -36,7 +36,7 @@
             },
             {
                 "box": {
-                    "comment": "(signal) input",
+                    "comment": "(float, db) gain",
                     "id": "obj-1",
                     "index": 0,
                     "maxclass": "inlet",

@@ -9,10 +9,32 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 390.0, 111.0, 843.0, 913.0 ],
+        "rect": [ 737.0, 111.0, 843.0, 913.0 ],
         "openinpresentation": 1,
         "toolbars_unpinned_last_save": 4,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-57",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 247.5, 635.0, 125.0, 22.0 ],
+                    "text": "receive~ #1-mod-gain"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-54",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 199.5, 673.0, 57.0, 22.0 ],
+                    "text": "ModGain"
+                }
+            },
             {
                 "box": {
                     "comment": "(signal) amp env",
@@ -526,23 +548,12 @@
             },
             {
                 "box": {
-                    "id": "obj-33",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 200.0, 648.0, 132.0, 22.0 ],
-                    "text": "expr pow(10.\\, $f1 / 20.)"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-30",
                     "maxclass": "newobj",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 184.0, 680.0, 34.0, 22.0 ],
+                    "patching_rect": [ 184.0, 715.0, 34.0, 22.0 ],
                     "text": "*~ 0."
                 }
             },
@@ -556,7 +567,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 200.0, 584.0, 41.0, 48.0 ],
+                    "patching_rect": [ 199.5, 609.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 149.0, 116.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -953,12 +964,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-30", 1 ],
-                    "source": [ "obj-33", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-40", 0 ],
                     "source": [ "obj-34", 0 ]
                 }
@@ -1077,7 +1082,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-33", 0 ],
+                    "destination": [ "obj-54", 0 ],
                     "source": [ "obj-5", 0 ]
                 }
             },
@@ -1095,8 +1100,20 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-30", 1 ],
+                    "source": [ "obj-54", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-56", 0 ],
                     "source": [ "obj-55", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-54", 1 ],
+                    "source": [ "obj-57", 0 ]
                 }
             },
             {
