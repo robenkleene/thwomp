@@ -13,6 +13,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-23",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 197.0, 479.0, 150.0, 22.0 ],
+                    "text": "receive~ #1-modsrc-wheel"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-21",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -460,6 +471,12 @@
                 "patchline": {
                     "destination": [ "obj-6", 0 ],
                     "source": [ "obj-22", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-8", 10 ],
+                    "source": [ "obj-23", 0 ]
                 }
             },
             {
