@@ -9,8 +9,52 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1421.0, 250.0, 930.0, 780.0 ],
+        "rect": [ 1339.0, 238.0, 930.0, 780.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-17",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 67.0, 277.0, 31.0, 22.0 ],
+                    "text": "sig~"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-16",
+                    "maxclass": "newobj",
+                    "numinlets": 6,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 67.0, 244.0, 114.0, 22.0 ],
+                    "text": "scale 0 10000 -1. 1."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-15",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 67.0, 208.0, 86.0, 22.0 ],
+                    "text": "random 10001"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-14",
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "" ],
+                    "patching_rect": [ 16.0, 69.0, 82.0, 22.0 ],
+                    "text": "route int bang"
+                }
+            },
             {
                 "box": {
                     "id": "obj-12",
@@ -51,7 +95,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 330.0, 437.0, 34.0, 22.0 ],
+                    "patching_rect": [ 599.0, 700.0, 34.0, 22.0 ],
                     "text": "*~ 0."
                 }
             },
@@ -62,7 +106,7 @@
                     "numinlets": 14,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 17.5, 294.0, 224.0, 22.0 ],
+                    "patching_rect": [ 17.5, 392.0, 224.0, 22.0 ],
                     "text": "selector~ 13"
                 }
             },
@@ -73,7 +117,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 311.0, 222.0, 72.0, 22.0 ],
+                    "patching_rect": [ 580.0, 234.0, 72.0, 22.0 ],
                     "text": "prepend set"
                 }
             },
@@ -84,7 +128,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 311.0, 181.0, 106.0, 22.0 ],
+                    "patching_rect": [ 580.0, 193.0, 106.0, 22.0 ],
                     "text": "sprintf #1-mod-%s"
                 }
             },
@@ -94,7 +138,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 311.0, 471.0, 42.0, 22.0 ],
+                    "patching_rect": [ 580.0, 734.0, 42.0, 22.0 ],
                     "text": "send~"
                 }
             },
@@ -107,7 +151,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 469.0, 32.0, 30.0, 30.0 ]
+                    "patching_rect": [ 738.0, 44.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -119,12 +163,12 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 311.0, 32.0, 30.0, 30.0 ]
+                    "patching_rect": [ 580.0, 44.0, 30.0, 30.0 ]
                 }
             },
             {
                 "box": {
-                    "comment": "(int) source",
+                    "comment": "(int bang) source, note on",
                     "id": "obj-2",
                     "index": 0,
                     "maxclass": "inlet",
@@ -246,7 +290,7 @@
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 311.0, 148.0, 50.5, 22.0 ],
+                    "patching_rect": [ 580.0, 160.0, 50.5, 22.0 ],
                     "saved_object_attributes": {
                         "embed": 1,
                         "precision": 6
@@ -261,7 +305,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 80.57692307692308, 255.0, 131.0, 22.0 ],
+                    "patching_rect": [ 80.57692307692308, 348.0, 131.0, 22.0 ],
                     "text": "receive~ #1-modsrc-lfo"
                 }
             }
@@ -294,6 +338,36 @@
             {
                 "patchline": {
                     "destination": [ "obj-10", 0 ],
+                    "source": [ "obj-14", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-15", 0 ],
+                    "source": [ "obj-14", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-16", 0 ],
+                    "source": [ "obj-15", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-17", 0 ],
+                    "source": [ "obj-16", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-8", 3 ],
+                    "source": [ "obj-17", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-14", 0 ],
                     "source": [ "obj-2", 0 ]
                 }
             },
