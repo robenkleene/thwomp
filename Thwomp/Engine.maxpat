@@ -29,7 +29,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 59.0, 114.0, 1000.0, 780.0 ],
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -1014,8 +1013,53 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 725.0, 296.0, 570.0, 780.0 ],
+                        "rect": [ 1215.0, 405.0, 570.0, 780.0 ],
+                        "visible": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-14",
+                                    "linecount": 3,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 205.0, 189.0, 150.0, 47.0 ],
+                                    "text": "`*~ 9.` matches the `zmap 0. 1. 1. 10.` range of `10 - 1 = 9`"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-12",
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "signal" ],
+                                    "patching_rect": [ 144.0, 228.0, 29.5, 22.0 ],
+                                    "text": "*~"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-10",
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "signal" ],
+                                    "patching_rect": [ 164.0, 188.0, 34.0, 22.0 ],
+                                    "text": "*~ 9."
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-9",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "signal" ],
+                                    "patching_rect": [ 164.0, 153.0, 152.0, 22.0 ],
+                                    "text": "receive~ #1-mod-overdrive"
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-11",
@@ -1091,7 +1135,7 @@
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 8.0, 200.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 8.0, 326.0, 30.0, 30.0 ]
                                 }
                             },
                             {
@@ -1113,7 +1157,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "signal" ],
-                                    "patching_rect": [ 8.0, 160.0, 75.0, 22.0 ],
+                                    "patching_rect": [ 8.0, 286.0, 75.0, 22.0 ],
                                     "text": "overdrive~ 1"
                                 }
                             }
@@ -1127,8 +1171,20 @@
                             },
                             {
                                 "patchline": {
+                                    "destination": [ "obj-12", 1 ],
+                                    "source": [ "obj-10", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
                                     "destination": [ "obj-1", 0 ],
                                     "source": [ "obj-11", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-1", 1 ],
+                                    "source": [ "obj-12", 0 ]
                                 }
                             },
                             {
@@ -1151,7 +1207,7 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-1", 1 ],
+                                    "destination": [ "obj-12", 0 ],
                                     "source": [ "obj-6", 0 ]
                                 }
                             },
@@ -1159,6 +1215,12 @@
                                 "patchline": {
                                     "destination": [ "obj-5", 0 ],
                                     "source": [ "obj-7", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-10", 0 ],
+                                    "source": [ "obj-9", 0 ]
                                 }
                             }
                         ],
@@ -1477,7 +1539,7 @@
                                     "maxclass": "inlet",
                                     "numinlets": 0,
                                     "numoutlets": 1,
-                                    "outlettype": [ "signal" ],
+                                    "outlettype": [ "bang" ],
                                     "patching_rect": [ 32.0, 8.0, 30.0, 30.0 ]
                                 }
                             },
