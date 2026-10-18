@@ -465,15 +465,15 @@
                             },
                             {
                                 "key": 7,
-                                "value": [ "_1-mod-envamount" ]
+                                "value": [ "_1-mod-penvamount" ]
                             },
                             {
                                 "key": 8,
-                                "value": [ "_1-mod-envduration" ]
+                                "value": [ "_1-mod-penvduration" ]
                             },
                             {
                                 "key": 9,
-                                "value": [ "_1-mod-envcurve" ]
+                                "value": [ "_1-mod-penvcurve" ]
                             },
                             {
                                 "key": 10,
@@ -501,15 +501,15 @@
                             },
                             {
                                 "key": 16,
-                                "value": [ "_2-mod-envamount" ]
+                                "value": [ "_2-mod-penvamount" ]
                             },
                             {
                                 "key": 17,
-                                "value": [ "_2-mod-envduration" ]
+                                "value": [ "_2-mod-penvduration" ]
                             },
                             {
                                 "key": 18,
-                                "value": [ "_2-mod-envcurve" ]
+                                "value": [ "_2-mod-penvcurve" ]
                             },
                             {
                                 "key": 19,

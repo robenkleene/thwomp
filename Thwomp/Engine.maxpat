@@ -1797,7 +1797,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "signal" ],
                                     "patching_rect": [ 112.5, 67.0, 162.0, 22.0 ],
-                                    "text": "receive~ #1-mod-envamount"
+                                    "text": "receive~ #1-mod-penvamount"
                                 }
                             },
                             {
