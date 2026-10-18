@@ -1018,6 +1018,29 @@
                         "boxes": [
                             {
                                 "box": {
+                                    "id": "obj-16",
+                                    "linecount": 3,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 220.0, 271.0, 150.0, 47.0 ],
+                                    "presentation_linecount": 3,
+                                    "text": "Make sure several mods don't push the value out of range"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-15",
+                                    "maxclass": "newobj",
+                                    "numinlets": 3,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "signal" ],
+                                    "patching_rect": [ 144.0, 271.0, 67.0, 22.0 ],
+                                    "text": "clip~ 1. 10."
+                                }
+                            },
+                            {
+                                "box": {
                                     "id": "obj-14",
                                     "linecount": 3,
                                     "maxclass": "comment",
@@ -1035,7 +1058,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "signal" ],
                                     "patching_rect": [ 144.0, 228.0, 29.5, 22.0 ],
-                                    "text": "*~"
+                                    "text": "+~"
                                 }
                             },
                             {
@@ -1135,7 +1158,7 @@
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 8.0, 326.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 8.0, 348.0, 30.0, 30.0 ]
                                 }
                             },
                             {
@@ -1157,7 +1180,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "signal" ],
-                                    "patching_rect": [ 8.0, 286.0, 75.0, 22.0 ],
+                                    "patching_rect": [ 8.0, 308.0, 75.0, 22.0 ],
                                     "text": "overdrive~ 1"
                                 }
                             }
@@ -1183,8 +1206,14 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-1", 1 ],
+                                    "destination": [ "obj-15", 0 ],
                                     "source": [ "obj-12", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-1", 1 ],
+                                    "source": [ "obj-15", 0 ]
                                 }
                             },
                             {
