@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 409.0, 95.0, 1285.0, 929.0 ],
+        "rect": [ 840.0, 147.0, 1285.0, 929.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -1155,7 +1155,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 172.0, 176.0, 79.0, 22.0 ],
+                    "patching_rect": [ 172.0, 174.0, 79.0, 22.0 ],
                     "text": "prepend note"
                 }
             },
@@ -1274,7 +1274,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 172.0, 208.0, 31.0, 22.0 ],
+                    "patching_rect": [ 172.0, 202.0, 31.0, 22.0 ],
                     "text": "t s s"
                 }
             },
@@ -1284,7 +1284,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 184.0, 239.0, 55.0, 22.0 ],
+                    "patching_rect": [ 172.0, 232.0, 55.0, 22.0 ],
                     "text": "s #1-ring"
                 }
             },
@@ -2511,13 +2511,13 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
-                    "source": [ "obj-59", 0 ]
+                    "source": [ "obj-59", 1 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-58", 0 ],
-                    "source": [ "obj-59", 1 ]
+                    "source": [ "obj-59", 0 ]
                 }
             },
             {
