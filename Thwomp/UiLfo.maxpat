@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 361.0, 454.0, 1249.0, 780.0 ],
+        "rect": [ 784.0, 485.0, 1249.0, 780.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -19,7 +19,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 502.6, 471.0, 86.0, 22.0 ],
+                    "patching_rect": [ 403.3, 454.0, 86.0, 22.0 ],
                     "text": "routepass lock"
                 }
             },
@@ -87,7 +87,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 331.0, 607.0, 30.0, 30.0 ]
+                    "patching_rect": [ 332.0, 606.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -119,6 +119,7 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 1332.0, 437.0, 623.0, 780.0 ],
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -407,7 +408,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "(symbol) time period, lock",
+                                    "comment": "(symbol) time period",
                                     "id": "obj-6",
                                     "index": 2,
                                     "maxclass": "outlet",
@@ -563,9 +564,19 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 1504.0, 240.0, 1000.0, 780.0 ],
-                        "visible": 1,
+                        "rect": [ 1218.0, 170.0, 1000.0, 780.0 ],
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-19",
+                                    "maxclass": "newobj",
+                                    "numinlets": 3,
+                                    "numoutlets": 3,
+                                    "outlettype": [ "", "", "" ],
+                                    "patching_rect": [ 82.0, 165.0, 102.0, 22.0 ],
+                                    "text": "routepass int lock"
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-14",
@@ -596,7 +607,7 @@
                                     "maxclass": "inlet",
                                     "numinlets": 0,
                                     "numoutlets": 1,
-                                    "outlettype": [ "" ],
+                                    "outlettype": [ "signal" ],
                                     "patching_rect": [ 340.0, 54.0, 30.0, 30.0 ]
                                 }
                             },
@@ -743,19 +754,19 @@
                             },
                             {
                                 "box": {
-                                    "comment": "(symbol) time period, lock",
+                                    "comment": "(symbol) time period",
                                     "id": "obj-2",
                                     "index": 2,
                                     "maxclass": "inlet",
                                     "numinlets": 0,
                                     "numoutlets": 1,
-                                    "outlettype": [ "signal" ],
+                                    "outlettype": [ "" ],
                                     "patching_rect": [ 162.0, 54.0, 30.0, 30.0 ]
                                 }
                             },
                             {
                                 "box": {
-                                    "comment": "(int) shape",
+                                    "comment": "(int message) shape, control messages",
                                     "id": "obj-1",
                                     "index": 1,
                                     "maxclass": "inlet",
@@ -1011,7 +1022,7 @@
                         "lines": [
                             {
                                 "patchline": {
-                                    "destination": [ "obj-12", 0 ],
+                                    "destination": [ "obj-19", 0 ],
                                     "source": [ "obj-1", 0 ]
                                 }
                             },
@@ -1055,6 +1066,18 @@
                                 "patchline": {
                                     "destination": [ "obj-14", 0 ],
                                     "source": [ "obj-18", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-12", 0 ],
+                                    "source": [ "obj-19", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-38", 0 ],
+                                    "source": [ "obj-19", 1 ]
                                 }
                             },
                             {
@@ -1247,7 +1270,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 331.0, 534.0, 233.5, 22.0 ],
+                    "patching_rect": [ 332.0, 554.0, 233.5, 22.0 ],
                     "text": "p Osc"
                 }
             },
@@ -1316,7 +1339,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 299.0, 504.0, 46.0, 15.0 ],
+                    "patching_rect": [ 300.0, 524.0, 46.0, 15.0 ],
                     "pictures": [ "sine.svg", "updown.svg", "square.svg", "up.svg", "SHrounded.svg" ],
                     "presentation": 1,
                     "presentation_rect": [ 1.0, 18.0, 46.0, 15.0 ],
@@ -1450,7 +1473,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 390.6, 471.0, 41.0, 48.0 ],
+                    "patching_rect": [ 395.8, 491.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 96.0, 17.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -1573,7 +1596,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-6", 4 ],
+                    "destination": [ "obj-6", 0 ],
                     "source": [ "obj-3", 0 ]
                 }
             },
@@ -1639,13 +1662,13 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-6", 4 ],
+                    "destination": [ "obj-6", 1 ],
                     "source": [ "obj-7", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-6", 1 ],
+                    "destination": [ "obj-6", 4 ],
                     "source": [ "obj-7", 0 ]
                 }
             },
