@@ -9,8 +9,19 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 739.0, 189.0, 1226.0, 1077.0 ],
+        "rect": [ 867.0, 270.0, 1226.0, 1077.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-41",
+                    "maxclass": "newobj",
+                    "numinlets": 5,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 738.0, 91.0, 95.0, 22.0 ],
+                    "text": "zmap 0. 1. -1. 1."
+                }
+            },
             {
                 "box": {
                     "id": "obj-14",
@@ -396,7 +407,7 @@
             },
             {
                 "box": {
-                    "comment": "(float) amount",
+                    "comment": "(float, 0 - 1) amount",
                     "id": "obj-4",
                     "index": 0,
                     "maxclass": "inlet",
@@ -817,8 +828,14 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-14", 0 ],
+                    "destination": [ "obj-41", 0 ],
                     "source": [ "obj-4", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-14", 0 ],
+                    "source": [ "obj-41", 0 ]
                 }
             },
             {
