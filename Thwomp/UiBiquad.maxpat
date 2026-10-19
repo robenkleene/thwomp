@@ -169,8 +169,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 384.0, 184.0, 64.0, 22.0 ],
-                    "text": "peaknotch"
+                    "patching_rect": [ 384.0, 184.0, 58.0, 22.0 ],
+                    "text": "bandstop"
                 }
             },
             {
