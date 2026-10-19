@@ -104,12 +104,16 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 440.0, 112.0, 100.0, 22.0 ],
                     "restore": {
+                        "Ring": [ 0.0 ],
                         "RingAttack": [ 0.0 ],
                         "RingDecay": [ 0.0 ],
                         "RingFilt": [ 0.0 ],
                         "RingGain": [ 0.0 ]
                     },
                     "restore_extra": {
+                        "Ring": {
+                            "id": "obj-25"
+                        },
                         "RingAttack": {
                             "id": "obj-34"
                         },
@@ -156,7 +160,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 240.0, 112.0, 47.0, 22.0 ],
+                    "patching_rect": [ 242.5, 112.0, 47.0, 22.0 ],
                     "text": "t signal"
                 }
             },
@@ -169,7 +173,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 240.0, 8.0, 30.0, 30.0 ]
+                    "patching_rect": [ 242.5, 8.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -250,7 +254,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 232.0, 320.0, 41.0, 48.0 ],
+                    "patching_rect": [ 233.5, 320.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 6.0, 31.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -277,7 +281,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 280.0, 320.0, 41.0, 48.0 ],
+                    "patching_rect": [ 284.0, 320.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 53.0, 31.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -312,7 +316,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 219.0, 554.0, 34.0, 22.0 ],
+                    "patching_rect": [ 216.0, 554.0, 34.0, 22.0 ],
                     "text": "*~ 0."
                 }
             },
@@ -346,11 +350,22 @@
                 "box": {
                     "id": "obj-27",
                     "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 259.0, 522.0, 57.0, 22.0 ],
+                    "text": "ModGain"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-16",
+                    "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 259.0, 522.0, 132.0, 22.0 ],
-                    "text": "expr pow(10.\\, $f1 / 20.)"
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 306.0, 492.0, 145.0, 22.0 ],
+                    "text": "receive~ #1-mod-ringgain"
                 }
             },
             {
@@ -442,6 +457,12 @@
                 "patchline": {
                     "destination": [ "obj-4", 0 ],
                     "source": [ "obj-14", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-27", 1 ],
+                    "source": [ "obj-16", 0 ]
                 }
             },
             {
