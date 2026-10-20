@@ -9,10 +9,21 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 497.0, 286.0, 434.0, 738.0 ],
+        "rect": [ 497.0, 286.0, 978.0, 738.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "Roben Kleene",
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-21",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 8.0, 49.0, 96.0, 22.0 ],
+                    "text": "routepass active"
+                }
+            },
             {
                 "box": {
                     "id": "obj-20",
@@ -405,7 +416,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-1", 0 ],
+                    "destination": [ "obj-21", 0 ],
                     "source": [ "obj-16", 0 ]
                 }
             },
@@ -431,6 +442,33 @@
                 "patchline": {
                     "destination": [ "obj-19", 1 ],
                     "source": [ "obj-20", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-1", 0 ],
+                    "source": [ "obj-21", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-17", 0 ],
+                    "order": 1,
+                    "source": [ "obj-21", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-18", 0 ],
+                    "order": 2,
+                    "source": [ "obj-21", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-26", 0 ],
+                    "order": 0,
+                    "source": [ "obj-21", 0 ]
                 }
             },
             {

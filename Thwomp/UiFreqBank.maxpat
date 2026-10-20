@@ -207,11 +207,11 @@
                 "box": {
                     "id": "obj-7",
                     "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "patching_rect": [ 8.0, 176.0, 94.0, 22.0 ],
-                    "text": "routepass offset"
+                    "numinlets": 3,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "" ],
+                    "patching_rect": [ 8.0, 176.0, 128.0, 22.0 ],
+                    "text": "routepass offset active"
                 }
             },
             {
@@ -377,6 +377,20 @@
             {
                 "patchline": {
                     "destination": [ "obj-13", 0 ],
+                    "source": [ "obj-7", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-15", 0 ],
+                    "order": 1,
+                    "source": [ "obj-7", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-17", 0 ],
+                    "order": 0,
                     "source": [ "obj-7", 1 ]
                 }
             },
