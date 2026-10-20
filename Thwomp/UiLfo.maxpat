@@ -14,6 +14,46 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-10",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 813.0, 147.0, 56.0, 22.0 ],
+                    "restore": {
+                        "LfoPhase": [ 0.0 ],
+                        "LfoRate": [ 1.0 ],
+                        "LfoRetrig": [ 0.0 ],
+                        "LfoShape": [ 0.0 ],
+                        "LfoSync": [ 0.0 ],
+                        "LfoSyncRate": [ 7.0 ]
+                    },
+                    "restore_extra": {
+                        "LfoPhase": {
+                            "id": "obj-36"
+                        },
+                        "LfoRate": {
+                            "id": "obj-23"
+                        },
+                        "LfoRetrig": {
+                            "id": "obj-21"
+                        },
+                        "LfoShape": {
+                            "id": "obj-19"
+                        },
+                        "LfoSync": {
+                            "id": "obj-20"
+                        },
+                        "LfoSyncRate": {
+                            "id": "obj-24"
+                        }
+                    },
+                    "text": "autopattr",
+                    "varname": "u255008232"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-3",
                     "maxclass": "newobj",
                     "numinlets": 2,
