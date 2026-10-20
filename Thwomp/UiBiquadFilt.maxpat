@@ -3,15 +3,26 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 4,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 936.0, 404.0, 339.0, 637.0 ],
+        "rect": [ 936.0, 404.0, 1001.0, 637.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-11",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 136.0, 420.0, 87.0, 22.0 ],
+                    "text": "prepend active"
+                }
+            },
             {
                 "box": {
                     "id": "obj-13",
@@ -77,6 +88,11 @@
                     "patching_rect": [ 272.0, 16.0, 56.0, 22.0 ],
                     "restore": {
                         "Filt": [ 1.0 ]
+                    },
+                    "restore_extra": {
+                        "Filt": {
+                            "id": "obj-7"
+                        }
                     },
                     "text": "autopattr",
                     "varname": "u892006714"
@@ -197,7 +213,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 80.0, 232.0, 48.0, 168.0 ],
+                    "patching_rect": [ 80.0, 232.0, 96.0, 84.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 3.0, 3.0, 98.0, 76.0 ],
                     "varname": "Biquad",
@@ -253,6 +269,12 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
+                    "source": [ "obj-11", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-1", 0 ],
                     "source": [ "obj-13", 0 ]
                 }
             },
@@ -300,7 +322,15 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-11", 0 ],
+                    "order": 0,
+                    "source": [ "obj-7", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-2", 0 ],
+                    "order": 1,
                     "source": [ "obj-7", 0 ]
                 }
             },

@@ -9,9 +9,20 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1031.0, 333.0, 1495.0, 922.0 ],
+        "rect": [ 575.0, 236.0, 1495.0, 922.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-27",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 15.0, 121.0, 96.0, 22.0 ],
+                    "text": "routepass active"
+                }
+            },
             {
                 "box": {
                     "id": "obj-16",
@@ -19,7 +30,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 72.0, 176.0, 67.0, 22.0 ],
+                    "patching_rect": [ 71.0, 246.0, 67.0, 22.0 ],
                     "save": [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
                     "text": "thispatcher"
                 }
@@ -31,7 +42,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 72.0, 144.0, 114.0, 22.0 ],
+                    "patching_rect": [ 71.0, 214.0, 114.0, 22.0 ],
                     "text": "prepend script send"
                 }
             },
@@ -42,7 +53,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 16.0, 144.0, 47.0, 22.0 ],
+                    "patching_rect": [ 15.0, 214.0, 47.0, 22.0 ],
                     "text": "t signal"
                 }
             },
@@ -64,7 +75,7 @@
                     "numinlets": 3,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 16.0, 104.0, 130.0, 22.0 ],
+                    "patching_rect": [ 15.0, 174.0, 130.0, 22.0 ],
                     "text": "route signal randomize"
                 }
             },
@@ -611,13 +622,40 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-1", 0 ],
+                    "order": 0,
+                    "source": [ "obj-27", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-11", 0 ],
+                    "order": 1,
+                    "source": [ "obj-27", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-4", 0 ],
+                    "source": [ "obj-27", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-6", 0 ],
+                    "order": 2,
+                    "source": [ "obj-27", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-32", 0 ],
                     "source": [ "obj-30", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-4", 0 ],
+                    "destination": [ "obj-27", 0 ],
                     "source": [ "obj-31", 0 ]
                 }
             },
