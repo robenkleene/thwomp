@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 262.0, 108.0, 1159.0, 914.0 ],
+        "rect": [ 1591.0, 299.0, 1159.0, 914.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -69,17 +69,6 @@
             },
             {
                 "box": {
-                    "id": "obj-10",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 15.0, 277.0, 87.0, 22.0 ],
-                    "text": "prepend active"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-4",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -106,8 +95,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 15.5, 319.0, 126.0, 22.0 ],
-                    "text": "prepend send live.text"
+                    "patching_rect": [ 15.5, 319.0, 161.0, 22.0 ],
+                    "text": "prepend send live.text active"
                 }
             },
             {
@@ -1003,12 +992,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-7", 0 ],
-                    "source": [ "obj-10", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-89", 0 ],
                     "source": [ "obj-110", 0 ]
                 }
@@ -1135,13 +1118,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-10", 0 ],
-                    "order": 6,
-                    "source": [ "obj-2", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-16", 0 ],
                     "order": 3,
                     "source": [ "obj-2", 0 ]
@@ -1185,6 +1161,13 @@
                 "patchline": {
                     "destination": [ "obj-4", 0 ],
                     "order": 5,
+                    "source": [ "obj-2", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-7", 0 ],
+                    "order": 6,
                     "source": [ "obj-2", 0 ]
                 }
             },
