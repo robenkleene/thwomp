@@ -1179,13 +1179,27 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-16", 0 ],
+                    "source": [ "obj-21", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-142", 0 ],
                     "source": [ "obj-211", 0 ]
                 }
             },
             {
                 "patchline": {
+                    "destination": [ "obj-21", 1 ],
+                    "order": 0,
+                    "source": [ "obj-22", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-85", 1 ],
+                    "order": 1,
                     "source": [ "obj-22", 0 ]
                 }
             },
