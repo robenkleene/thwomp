@@ -2,17 +2,20 @@
 autowatch = 1;
 
 // Inlets & Outlets
-inlets = 3;
+inlets = 4;
 outlets = 2;
 var INLET_OSC = 0;
 var INLET_NOTE = 1;
-var INLET_SYNC = 2;
+var INLET_MOD = 2;
+var INLET_LFOSYNC = 3;
+
 var OUTLET_BANK = 0;
 var OUTLET_DONE = 1;
 
 setinletassist(INLET_OSC, "(bang, int) trigger bank messages, osc");
 setinletassist(INLET_NOTE, "(int) 0 note on, 1 note off");
-setinletassist(INLET_SYNC, "(int) 0 lfo free, 1 lfo synced");
+setinletassist(INLET_MOD, "(int) mod");
+setinletassist(INLET_LFOSYNC, "(int) 0 lfo free, 1 lfo synced");
 setoutletassist(OUTLET_BANK, "(message) bank control messages");
 setoutletassist(OUTLET_DONE, "(bang) sent when bank control messages finish");
 
@@ -21,9 +24,7 @@ var ENCODERS = [
 ["Oscillator",   "BanksOsc",  "PresetsSelect",            "$1-OscShape",              "$2",                         "$1-PitchEnvDur",             "$1-PitchEnvCurve",         "$1-PitchEnvAmt",           "-"],
 ["Amp",          "BanksOsc",  "$1-AmpAttack",             "$1-AmpDecay",              "$1-Gain",                    "Vol",                        "$1-Overdrive",             "$1-Overtone",              "-"],
 ["Filter/Ring",  "-",         "FiltType",                 "FiltFreq",                 "FiltQ",                      "RingAttack",                 "RingDecay",                "RingGain",                 "RandAuto"],
-["Mod 1-2",      "-",         "Mod1Source",               "Mod1Amount",               "Mod1Dest",                   "Mod2Source",                 "Mod2Amount",               "Mod2Dest",                 "-"],
-["Mod 3-4",      "-",         "Mod3Source",               "Mod3Amount",               "Mod3Dest",                   "Mod4Source",                 "Mod4Amount",               "Mod4Dest",                 "-"],
-["Mod 5-LFO",    "-",         "Mod5Source",               "Mod5Amount",               "Mod5Dest",                   "LfoShape",                   "$3",                       "LfoPhase",                 "-"],
+["Mod",      "BanksMod",         "Mod$3Source",               "Mod$3Amount",               "Mod$3Dest",                   "LfoShape",                   "$4",                       "LfoPhase",                 "-"],
 ["Rand Osc",     "BanksOsc",  "$1-RandOscFreq-Min",       "$1-RandOscFreq-Max",       "$1-RandOscSemi-Min",         "$1-RandOscSemi-Max",         "-",                        "-",                        "-"],
 ["Rand Pitch",   "BanksOsc",  "$1-RandOscPchEnvAmt-Min",  "$1-RandOscPchEnvAmt-Max",  "$1-RandOscPchEnvCurve-Min",  "$1-RandOscPchEnvCurve-Max",  "$1-RandOscPchEnvDur-Min",  "$1-RandOscPchEnvDur-Max",  "-"],
 ["Rand Amp",     "BanksOsc",  "$1-RandOscAttack-Min",     "$1-RandOscAttack-Max",     "$1-RandOscDecay-Min",        "$1-RandOscDecay-Max",        "$1-RandOscGain-Min",       "$1-RandOscGain-Max",       "-"],
@@ -37,8 +38,6 @@ var BUTTONS = [
 ["-",  "-",                    "$1-Osc",           "$1-OscNote",           "$1-OscReset",     "$1-OscFilt",           "-",               "-"],
 ["-",  "-",                    "-",                "-",                    "-",               "-",                    "-",               "-"],
 ["-",  "Filt",                 "-",                "-",                    "Ring",            "RingFilt",             "-",               "Randomize"],
-["-",  "-",                    "-",                "-",                    "-",               "-",                    "-",               "-"],
-["-",  "-",                    "-",                "-",                    "-",               "-",                    "-",               "-"],
 ["-",  "-",                    "-",                "-",                    "-",               "LfoSync",              "LfoRetrig",       "-"],
 ["-",  "$1-RandOscFreq",       "RandOsc1",         "$1-RandOscSemi",       "RandOsc2",        "$1-RandOscShape",      "$1-RandOsc",      "-"],
 ["-",  "$1-RandOscPchEnvAmt",  "$1-RandOscReset",  "$1-RandOscPchEnvCur",  "$1-RandOscFilt",  "$1-RandOscPchEnvDur",  "$1-RandOscNote",  "-"],
@@ -53,11 +52,11 @@ var BUTTONS = [
 // oscillator parameter, `$3` is the sync-dependent LFO rate parameter
 var DEFAULT_OSC = 1;
 var DEFAULT_NOTE = 0;
-var DEFAULT_SYNC = 0;
+var DEFAULT_LFOSYNC = 0;
 
 var currentOsc = DEFAULT_OSC;
 var currentNote = DEFAULT_NOTE;
-var currentSync = DEFAULT_SYNC;
+var currentSync = DEFAULT_LFOSYNC;
 
 var NOTE_POSTFIXES = ["OscFreq", "OscSemi"];
 var SYNC_PARAMS = ["LfoRate", "LfoSyncRate"];
@@ -102,7 +101,7 @@ function msg_int(value) {
     currentOsc = value;
   } else if (inlet === INLET_NOTE) {
     currentNote = value;
-  } else if (inlet === INLET_SYNC) {
+  } else if (inlet === INLET_LFOSYNC) {
     currentSync = value;
   }
   update();
@@ -121,7 +120,7 @@ function list() {
 function bang() {
   currentOsc = DEFAULT_OSC;
   currentNote = DEFAULT_NOTE;
-  currentSync = DEFAULT_SYNC;
+  currentSync = DEFAULT_LFOSYNC;
 
   update();
 }
