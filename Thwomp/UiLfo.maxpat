@@ -9,9 +9,30 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 784.0, 485.0, 1249.0, 780.0 ],
+        "rect": [ 548.0, 363.0, 1249.0, 780.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-13",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 646.0, 197.0, 90.0, 22.0 ],
+                    "text": "s #1-messages"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-12",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 646.0, 166.0, 93.0, 22.0 ],
+                    "text": "prepend lfosync"
+                }
+            },
             {
                 "box": {
                     "id": "obj-10",
@@ -159,7 +180,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 1332.0, 437.0, 623.0, 780.0 ],
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -1572,6 +1592,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-13", 0 ],
+                    "source": [ "obj-12", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-6", 0 ],
                     "source": [ "obj-19", 0 ]
                 }
@@ -1584,7 +1610,15 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-12", 0 ],
+                    "order": 0,
+                    "source": [ "obj-20", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-8", 0 ],
+                    "order": 1,
                     "source": [ "obj-20", 0 ]
                 }
             },

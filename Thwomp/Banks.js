@@ -2,15 +2,17 @@
 autowatch = 1;
 
 // Inlets & Outlets
-inlets = 2;
+inlets = 3;
 outlets = 2;
 var INLET_OSC = 0;
 var INLET_NOTE = 1;
+var INLET_SYNC = 2;
 var OUTLET_BANK = 0;
 var OUTLET_DONE = 1;
 
 setinletassist(INLET_OSC, "(bang, int) trigger bank messages, osc");
 setinletassist(INLET_NOTE, "(int) 0 note on, 1 note off");
+setinletassist(INLET_SYNC, "(int) 0 lfo free, 1 lfo synced");
 setoutletassist(OUTLET_BANK, "(message) bank control messages");
 setoutletassist(OUTLET_DONE, "(bang) sent when bank control messages finish");
 
@@ -21,7 +23,7 @@ var ENCODERS = [
 ["Filter/Ring",  "FiltType",            "FiltFreq",                 "FiltQ",                    "RingAttack",                 "RingDecay",                  "RingGain",                 "RandAuto",                 "-"],
 ["Mod 1-2",      "Mod1Source",          "Mod1Amount",               "Mod1Dest",                 "Mod2Source",                 "Mod2Amount",                 "Mod2Dest",                 "-",                        "-"],
 ["Mod 3-4",      "Mod3Source",          "Mod3Amount",               "Mod3Dest",                 "Mod4Source",                 "Mod4Amount",                 "Mod4Dest",                 "-",                        "-"],
-["Mod 5-LFO",    "Mod3Source",          "Mod3Amount",               "Mod3Dest",                 "LfoShape",                   "$3//lforate/lfosyncrate",    "LfoPhase",                 "-",                        "-"],
+["Mod 5-LFO",    "Mod5Source",          "Mod5Amount",               "Mod5Dest",                 "LfoShape",                   "$3",                         "LfoPhase",                 "-",                        "-"],
 ["Rand Osc",     "BanksOsc",            "$1-RandOscFreq-Min",       "$1-RandOscFreq-Max",       "$1-RandOscSemi-Min",         "$1-RandOscSemi-Max",         "-",                        "-",                        "-"],
 ["Rand Pitch",   "BanksOsc",            "$1-RandOscPchEnvAmt-Min",  "$1-RandOscPchEnvAmt-Max",  "$1-RandOscPchEnvCurve-Min",  "$1-RandOscPchEnvCurve-Max",  "$1-RandOscPchEnvDur-Min",  "$1-RandOscPchEnvDur-Max",  "-"],
 ["Rand Amp",     "BanksOsc",            "$1-RandOscAttack-Min",     "$1-RandOscAttack-Max",     "$1-RandOscDecay-Min",        "$1-RandOscDecay-Max",        "$1-RandOscGain-Min",       "$1-RandOscGain-Max",       "-"],
@@ -42,20 +44,23 @@ var BUTTONS = [
 ["-",  "$1-RandOscPchEnvAmt",  "$1-RandOscReset",  "$1-RandOscPchEnvCur",  "$1-RandOscFilt",  "$1-RandOscPchEnvDur",  "$1-RandOscNote",  "-"],
 ["-",  "$1-RandOscAttack",     "-",                "$1-RandOscDecay",      "-",               "$1-RandOscGain",       "-",               "-"],
 ["-",  "$1-RandOvertone",      "-",                "$1-RandOverdrive",     "-",               "RandVol",              "-",               "-"],
-["-",  "RandFiltFreq",         "RandFilt",         "RandFiltQ",            "-",               "RandFiltType",         "-",               "-"],
+["-",  "RandFiltFreq",         "RandFilt",         "-",                    "RandFiltQ",       "RandFiltType",         "-",               "-"],
 ["-",  "RandRingAttack",       "RandRing",         "RandRingDecay",        "RandRingFilt",    "RandRingGain",         "-",               "-"],
 ];
 
 // State
 // `$1` is the oscillator `BankOsc` currently targets, `$2` is the note-dependent
-// oscillator parameter
+// oscillator parameter, `$3` is the sync-dependent LFO rate parameter
 var DEFAULT_OSC = 1;
 var DEFAULT_NOTE = 0;
+var DEFAULT_SYNC = 0;
 
 var currentOsc = DEFAULT_OSC;
 var currentNote = DEFAULT_NOTE;
+var currentSync = DEFAULT_SYNC;
 
 var NOTE_POSTFIXES = ["OscFreq", "OscSemi"];
+var SYNC_PARAMS = ["LfoRate", "LfoSyncRate"];
 
 function replaceTokens(tokens) {
   var out = [];
@@ -63,6 +68,8 @@ function replaceTokens(tokens) {
     var token = tokens[j];
     if (token === "$2") {
       out.push(currentOsc + "-" + NOTE_POSTFIXES[currentNote]);
+    } else if (token === "$3") {
+      out.push(SYNC_PARAMS[currentSync]);
     } else {
       out.push(token.replace("$1", String(currentOsc)));
     }
@@ -95,6 +102,8 @@ function msg_int(value) {
     currentOsc = value;
   } else if (inlet === INLET_NOTE) {
     currentNote = value;
+  } else if (inlet === INLET_SYNC) {
+    currentSync = value;
   }
   update();
 }
@@ -112,6 +121,7 @@ function list() {
 function bang() {
   currentOsc = DEFAULT_OSC;
   currentNote = DEFAULT_NOTE;
+  currentSync = DEFAULT_SYNC;
 
   update();
 }
