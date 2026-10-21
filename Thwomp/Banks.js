@@ -16,21 +16,28 @@ setoutletassist(OUTLET_DONE, "(bang) sent when bank control messages finish");
 
 // Re-align with `sed 's/, */,\t/g' | column -t -s $'\t'`
 var ENCODERS = [
-["Oscillator",   "BanksOsc",  "PresetsSelect",            "$1-OscShape",              "$2",                         "$1-PitchEnvDur",             "$1-PitchEnvCurve",         "$1-PitchEnvAmt",           "-"],
-["Amp",          "BanksOsc",  "$1-AmpAttack",             "$1-AmpDecay",              "$1-Gain",                    "Vol",                        "$1-Overdrive",             "$1-Overtone",              "-"],
-["Filter/Ring",  "BanksOsc",  "FiltType",                 "FiltFreq",                 "FiltQ",                      "RingAttack",                 "RingDecay",                "RingGain",                 "RandAuto"],
-["Rand Osc",     "BanksOsc",  "$1-RandOscFreq-Min",       "$1-RandOscFreq-Max",       "$1-RandOscSemi-Min",         "$1-RandOscSemi-Max",         "-",                        "-",                        "-"],
-["Rand Pitch",   "BanksOsc",  "$1-RandOscPchEnvAmt-Min",  "$1-RandOscPchEnvAmt-Max",  "$1-RandOscPchEnvCurve-Min",  "$1-RandOscPchEnvCurve-Max",  "$1-RandOscPchEnvDur-Min",  "$1-RandOscPchEnvDur-Max",  "-"],
-["Rand Amp",     "BanksOsc",  "$1-RandOscAttack-Min",     "$1-RandOscAttack-Max",     "$1-RandOscDecay-Min",        "$1-RandOscDecay-Max",        "$1-RandOscGain-Min",       "$1-RandOscGain-Max",       "-"],
-["Rand Effect",  "BanksOsc",  "$1-RandOvertone-Min",      "$1-RandOvertone-Max",      "$1-RandOverdrive-Min",       "$1-RandOverdrive-Max",       "RandVol-Min",              "RandVol-Max",              "-"],
-["Rand Filter",  "BanksOsc",  "RandFiltFreq-Min",         "RandFiltFreq-Max",         "RandFiltQ-Min",              "RandFiltQ-Max",              "-",                        "-",                        "-"],
-["Rand Ring",    "BanksOsc",  "RandRingAttack-Min",       "RandRingAttack-Max",       "RandRingDecay-Min",          "RandRingDecay-Max",          "RandRingGain-Min",         "RandRingGain-Max",         "-"],
+["Oscillator",   "BanksOsc",            "PresetsSelect",            "$1-OscShape",              "$2",                         "$1-PitchEnvDur",             "$1-PitchEnvCurve",         "$1-PitchEnvAmt",           "-"],
+["Amp",          "BanksOsc",            "$1-AmpAttack",             "$1-AmpDecay",              "$1-Gain",                    "Vol",                        "$1-Overdrive",             "$1-Overtone",              "-"],
+["Filter/Ring",  "FiltType",            "FiltFreq",                 "FiltQ",                    "RingAttack",                 "RingDecay",                  "RingGain",                 "RandAuto",                 "-"],
+["Mod 1-2",      "Mod1Source",          "Mod1Amount",               "Mod1Dest",                 "Mod2Source",                 "Mod2Amount",                 "Mod2Dest",                 "-",                        "-"],
+["Mod 3-4",      "Mod3Source",          "Mod3Amount",               "Mod3Dest",                 "Mod4Source",                 "Mod4Amount",                 "Mod4Dest",                 "-",                        "-"],
+["Mod 5-LFO",    "Mod3Source",          "Mod3Amount",               "Mod3Dest",                 "LfoShape",                   "$3//lforate/lfosyncrate",    "LfoPhase",                 "-",                        "-"],
+["Rand Osc",     "BanksOsc",            "$1-RandOscFreq-Min",       "$1-RandOscFreq-Max",       "$1-RandOscSemi-Min",         "$1-RandOscSemi-Max",         "-",                        "-",                        "-"],
+["Rand Pitch",   "BanksOsc",            "$1-RandOscPchEnvAmt-Min",  "$1-RandOscPchEnvAmt-Max",  "$1-RandOscPchEnvCurve-Min",  "$1-RandOscPchEnvCurve-Max",  "$1-RandOscPchEnvDur-Min",  "$1-RandOscPchEnvDur-Max",  "-"],
+["Rand Amp",     "BanksOsc",            "$1-RandOscAttack-Min",     "$1-RandOscAttack-Max",     "$1-RandOscDecay-Min",        "$1-RandOscDecay-Max",        "$1-RandOscGain-Min",       "$1-RandOscGain-Max",       "-"],
+["Rand Effect",  "BanksOsc",            "$1-RandOvertone-Min",      "$1-RandOvertone-Max",      "$1-RandOverdrive-Min",       "$1-RandOverdrive-Max",       "RandVol-Min",              "RandVol-Max",              "-"],
+["Rand Filter",  "RandFiltFreq-Min",    "RandFiltFreq-Max",         "RandFiltQ-Min",            "RandFiltQ-Max",              "-",                          "-",                        "-",                        "-"],
+["Rand Ring",    "RandRingAttack-Min",  "RandRingAttack-Max",       "RandRingDecay-Min",        "RandRingDecay-Max",          "RandRingGain-Min",           "RandRingGain-Max",         "-",                        "-"],
 ];
 
+// Leftmost button column is ignored for the back button to leave banks
 var BUTTONS = [
 ["-",  "-",                    "$1-Osc",           "$1-OscNote",           "$1-OscReset",     "$1-OscFilt",           "-",               "-"],
 ["-",  "-",                    "-",                "-",                    "-",               "-",                    "-",               "-"],
 ["-",  "Filt",                 "-",                "-",                    "Ring",            "RingFilt",             "-",               "Randomize"],
+["-",  "-",                    "-",                "-",                    "-",               "-",                    "-",               "-"],
+["-",  "-",                    "-",                "-",                    "-",               "-",                    "-",               "-"],
+["-",  "-",                    "-",                "-",                    "LfoSync",         "LfoRetrig",            "-",               "-"],
 ["-",  "$1-RandOscFreq",       "RandOsc1",         "$1-RandOscSemi",       "RandOsc2",        "$1-RandOscShape",      "$1-RandOsc",      "-"],
 ["-",  "$1-RandOscPchEnvAmt",  "$1-RandOscReset",  "$1-RandOscPchEnvCur",  "$1-RandOscFilt",  "$1-RandOscPchEnvDur",  "$1-RandOscNote",  "-"],
 ["-",  "$1-RandOscAttack",     "-",                "$1-RandOscDecay",      "-",               "$1-RandOscGain",       "-",               "-"],
