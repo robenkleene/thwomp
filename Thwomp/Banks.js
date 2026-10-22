@@ -24,7 +24,7 @@ var ENCODERS = [
 ["Oscillator",   "BanksOsc",  "PresetsSelect",            "$1-OscShape",              "$2",                         "$1-PitchEnvDur",             "$1-PitchEnvCurve",         "$1-PitchEnvAmt",           "-"],
 ["Amp",          "BanksOsc",  "$1-AmpAttack",             "$1-AmpDecay",              "$1-Gain",                    "Vol",                        "$1-Overdrive",             "$1-Overtone",              "-"],
 ["Filter/Ring",  "-",         "FiltType",                 "FiltFreq",                 "FiltQ",                      "RingAttack",                 "RingDecay",                "RingGain",                 "RandAuto"],
-["Mod",          "BanksMod",  "Mod$3Source",              "Mod$3Amount",              "Mod$3Dest",                  "LfoShape",                   "$4",                       "LfoPhase",                 "-"],
+["Mod",          "BanksMod",  "Mod$3Source",              "Mod$3Amount",              "Mod$3Dest",                  "LfoShape",                   "$4",                       "LfoPhase",                 "ModVol"],
 ["Rand Osc",     "BanksOsc",  "$1-RandOscFreq-Min",       "$1-RandOscFreq-Max",       "$1-RandOscSemi-Min",         "$1-RandOscSemi-Max",         "-",                        "-",                        "-"],
 ["Rand Pitch",   "BanksOsc",  "$1-RandOscPchEnvAmt-Min",  "$1-RandOscPchEnvAmt-Max",  "$1-RandOscPchEnvCurve-Min",  "$1-RandOscPchEnvCurve-Max",  "$1-RandOscPchEnvDur-Min",  "$1-RandOscPchEnvDur-Max",  "-"],
 ["Rand Amp",     "BanksOsc",  "$1-RandOscAttack-Min",     "$1-RandOscAttack-Max",     "$1-RandOscDecay-Min",        "$1-RandOscDecay-Max",        "$1-RandOscGain-Min",       "$1-RandOscGain-Max",       "-"],
@@ -42,7 +42,7 @@ var BUTTONS = [
 ["-",  "$1-RandOscFreq",       "RandOsc1",         "$1-RandOscSemi",       "RandOsc2",        "$1-RandOscShape",      "$1-RandOsc",      "-"],
 ["-",  "$1-RandOscPchEnvAmt",  "$1-RandOscReset",  "$1-RandOscPchEnvCur",  "$1-RandOscFilt",  "$1-RandOscPchEnvDur",  "$1-RandOscNote",  "-"],
 ["-",  "$1-RandOscAttack",     "-",                "$1-RandOscDecay",      "-",               "$1-RandOscGain",       "-",               "-"],
-["-",  "$1-RandOvertone",      "-",                "$1-RandOverdrive",     "-",               "RandVol",              "-",               "-"],
+["-",  "$1-RandOvertone",      "RandEffect1",      "$1-RandOverdrive",     "RandEffect2",     "RandVol",              "-",               "-"],
 ["-",  "RandFiltFreq",         "RandFilt",         "RandFiltQ",            "-",               "RandFiltType",         "-",               "-"],
 ["-",  "RandRingAttack",       "RandRing",         "RandRingDecay",        "RandRingFilt",    "RandRingGain",         "-",               "-"],
 ];
