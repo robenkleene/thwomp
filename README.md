@@ -8,7 +8,7 @@ Thwomp is a four oscillator drum synthesizer for [Max for Live](https://www.able
 - Prominent pitch envelope for creating kick drums.
 - No sustain or release, because those aren't features of percussive instruments.
 
-Thwomp's interface is designed to be transparent and predictable, e.g., every parameter is labeled with its [unit type](https://en.wikipedia.org/wiki/Unit_of_measurement).
+Thwomp's interface is designed to be transparent and predictable, e.g., every parameter is labeled with its [unit type](https://en.wikipedia.org/wiki/Unit_of_measurement), and controls that have no effect (e.g., the controls of an oscillator that's turned off) are greyed out.
 
 ## Installation
 
@@ -68,7 +68,8 @@ Presets are available either when opening in Max directly, or by choosing `Edit 
 ### Global
 
 - **Volume:** Device volume
-- **Osc 1-2:** Display oscillator controls
+- **Vel > Vol:** How much note velocity lowers the volume (at `100%`, a velocity of `64` plays at roughly half volume, at `0%` velocity is ignored)
+- **Osc 1-2, Mod, Rand:** Tabs that display the oscillator, modulation, or randomize controls
 - **Load**: Toggle whether selecting a preset automatically loads it (this will also load the current selected preset)
 - **Preset:** Choose the selected preset
 - **Rand:** Randomize
@@ -103,6 +104,56 @@ Presets are available either when opening in Max directly, or by choosing `Edit 
 - **Attack**: The envelope attack
 - **Decay**: The envelope decay
 - **Gain**: The gain of this oscillator
+
+## Mod
+
+Mod has five slots, each routes one modulation source to one destination. A slot is off (and its **Source** and **Amount** are greyed out) when its **Dest** is `None`. The same source can be used in multiple slots, e.g., **Random** in two slots produces a separate random value for each slot. When multiple slots share a destination, each slot scales its source by its own **Amount**, the results are summed, and the sum is added to the value of the destination control (clipped to that control's range). For example, with **Random** at `20%` and **Velocity** at `30%` on the same destination, the offset is `20%` of the random value plus `30%` of the velocity value, so it varies from note to note and can reach at most `50%` when both sources are at their extremes.
+
+- **Source:** The modulation source
+- **Amount:** How much the source modulates the destination, from `-100%` to `100%` (negative values move the destination in the opposite direction)
+- **Dest:** The modulation destination
+
+### Sources
+
+- **Velocity:** Note velocity, where the hardest hit is `0` and softer hits are negative, so a positive **Amount** reduces the destination for softer hits
+- **Key:** Note pitch, centered on `C3` (MIDI note `60`)
+- **Random:** A new random value on each note
+- **LFO:** The **LFO**
+- **Pitch Env 1-2:** The pitch envelope of **Osc 1** or **Osc 2**
+- **Amp Env 1-2:** The amplitude envelope of **Osc 1** or **Osc 2**
+- **Ring Env:** The ring envelope
+- **Mod Wheel:** The MIDI mod wheel
+- **Pitch Bend:** MIDI pitch bend
+- **Pressure:** MIDI channel pressure
+- **Slide:** MPE slide
+
+### Destinations
+
+- **Osc 1-2 Pitch:** Oscillator pitch (`100%` is `24` semitones)
+- **Osc 1-2 Gain:** Oscillator gain (can only reduce gain)
+- **Osc 1-2 Attack:** Oscillator envelope attack
+- **Osc 1-2 Decay:** Oscillator envelope decay
+- **Osc 1-2 Overdrive:** Oscillator overdrive
+- **Osc 1-2 Overtone:** Oscillator overtone
+- **Osc 1-2 Env Amount:** Pitch envelope amount
+- **Osc 1-2 Env Duration:** Pitch envelope duration
+- **Osc 1-2 Env Curve:** Pitch envelope curve
+- **Filter Freq:** Filter cutoff
+- **Filter Res:** Filter resonance
+- **Ring Gain:** Ring gain (can only reduce gain)
+- **Ring Decay:** Ring decay
+- **Volume:** Device volume (can only reduce volume)
+- **LFO Rate:** LFO rate (only when **Sync** is off)
+
+The **Attack**, **Decay**, **Env Duration**, **Env Curve**, and **Ring Decay** destinations are set when each note starts, the other destinations are continuous.
+
+### LFO
+
+- **Shape:** The LFO waveform (**Sine**, **Tri**, **Square**, **Saw**, or **S&H**)
+- **Sync:** Toggle syncing the LFO rate to the Live tempo
+- **Retrig:** Toggle restarting the LFO on each new note
+- **Rate:** The LFO rate in Hz when **Sync** is off, or as a note division when **Sync** is on
+- **Phase:** The LFO phase offset
 
 ## Randomize
 
@@ -166,19 +217,22 @@ Randomize settings are split across five tabs: **Osc 1**, **Effect 1**, **Osc 2*
 
 Only controls are accessible on Push.
 
-Controls are laid out across nine banks:
+Controls are laid out across ten banks:
 
 1. **Oscillator**
 2. **Amp**
 3. **Filter/Ring**
-4. **Rand Osc**
-5. **Rand Pitch**
-6. **Rand Amp**
-7. **Rand Effect**
-8. **Rand Filter**
-9. **Rand Ring**
+4. **Mod**
+5. **Rand Osc**
+6. **Rand Pitch**
+7. **Rand Amp**
+8. **Rand Effect**
+9. **Rand Filter**
+10. **Rand Ring**
 
-The first encoder of every bank is **BanksOsc**, which chooses whether the per-oscillator controls in that bank address **Osc 1** or **Osc 2**. It applies to the oscillator banks and the randomize banks alike, so changing it re-points e.g. **Rand Osc** at the other oscillator's ranges. This is separate from the **Osc 1-2** tabs in the device interface, which only change what's displayed.
+The first encoder of the **Oscillator**, **Amp**, **Rand Osc**, **Rand Pitch**, **Rand Amp**, and **Rand Effect** banks is **BanksOsc**, which chooses whether the per-oscillator controls in that bank address **Osc 1** or **Osc 2**. It applies to the oscillator banks and the randomize banks alike, so changing it re-points e.g. **Rand Osc** at the other oscillator's ranges. This is separate from the **Osc 1-2** tabs in the device interface, which only change what's displayed.
+
+The first encoder of the **Mod** bank is **BanksMod**, which chooses which of the five mod slots the **Source**, **Amount**, and **Dest** encoders address. The **Mod** bank also holds the **LFO** controls, where the **Rate** encoder follows **Sync**, and **Vel > Vol**.
 
 ## Demos
 
