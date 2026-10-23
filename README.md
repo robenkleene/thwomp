@@ -115,7 +115,7 @@ Mod has five slots, each routes one modulation source to one destination. A slot
 
 ### Sources
 
-- **Velocity:** Note velocity, where the hardest hit is `0` and softer hits are negative, so a positive **Amount** reduces the destination for softer hits
+- **Velocity:** Note velocity, from `0` for the softest hit to `1` for the hardest, so a positive **Amount** increases the destination for harder hits
 - **Key:** Note pitch, centered on `C3` (MIDI note `60`)
 - **Random:** A new random value on each note
 - **LFO:** The **LFO**
@@ -130,7 +130,7 @@ Mod has five slots, each routes one modulation source to one destination. A slot
 ### Destinations
 
 - **Osc 1-2 Pitch:** Oscillator pitch (`100%` is `24` semitones)
-- **Osc 1-2 Gain:** Oscillator gain (can only reduce gain)
+- **Osc 1-2 Gain:** Oscillator gain (`100%` is `76 dB`, the full range of the control)
 - **Osc 1-2 Attack:** Oscillator envelope attack
 - **Osc 1-2 Decay:** Oscillator envelope decay
 - **Osc 1-2 Overdrive:** Oscillator overdrive
@@ -140,9 +140,9 @@ Mod has five slots, each routes one modulation source to one destination. A slot
 - **Osc 1-2 Env Curve:** Pitch envelope curve
 - **Filter Freq:** Filter cutoff
 - **Filter Res:** Filter resonance
-- **Ring Gain:** Ring gain (can only reduce gain)
+- **Ring Gain:** Ring gain (`100%` is `76 dB`, the full range of the control)
 - **Ring Decay:** Ring decay
-- **Volume:** Device volume (can only reduce volume)
+- **Volume:** Device volume (`100%` is `76 dB`, the full range of the control)
 - **LFO Rate:** LFO rate (only when **Sync** is off)
 
 The **Attack**, **Decay**, **Env Duration**, **Env Curve**, and **Ring Decay** destinations are set when each note starts, the other destinations are continuous.
