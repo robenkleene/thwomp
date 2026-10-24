@@ -720,8 +720,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 629.0, 210.0, 80.0, 22.0 ],
-                    "text": "loadmess Vol"
+                    "patching_rect": [ 629.0, 210.0, 102.0, 22.0 ],
+                    "text": "loadmess vol Vol"
                 }
             },
             {
