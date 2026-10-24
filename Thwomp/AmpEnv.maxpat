@@ -3,14 +3,25 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 2,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 491.0, 227.0, 1000.0, 780.0 ],
+        "rect": [ 995.0, 234.0, 1000.0, 780.0 ],
         "boxes": [
+            {
+                "box": {
+                    "comment": "(signal) env",
+                    "id": "obj-7",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 199.0, 320.0, 30.0, 30.0 ]
+                }
+            },
             {
                 "box": {
                     "id": "obj-6",
@@ -136,7 +147,7 @@
             },
             {
                 "box": {
-                    "comment": "(signal) mono",
+                    "comment": "(signal bang) mono, trigger",
                     "id": "obj-13",
                     "index": 0,
                     "maxclass": "inlet",
@@ -215,7 +226,15 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-7", 0 ],
+                    "order": 0,
+                    "source": [ "obj-6", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-9", 1 ],
+                    "order": 1,
                     "source": [ "obj-6", 0 ]
                 }
             },

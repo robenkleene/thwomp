@@ -3,8 +3,8 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 5,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
@@ -365,58 +365,58 @@
             }
         ],
         "parameters": {
-            "obj-3::obj-138": [ "RandOscNote[1]", "Note", 0 ],
-            "obj-3::obj-18::obj-1": [ "RandOscAttack-Min[1]", "Min", 0 ],
-            "obj-3::obj-18::obj-2": [ "RandOscAttack-Max[1]", "Max", 0 ],
-            "obj-3::obj-204": [ "RandOsc[1]", "Osc", 0 ],
-            "obj-3::obj-206::obj-1": [ "RandOscSemi-Min[1]", "Min", 0 ],
-            "obj-3::obj-206::obj-2": [ "RandOscSemi-Max[1]", "Max", 0 ],
-            "obj-3::obj-20::obj-1": [ "RandOscDecay-Min[1]", "Min", 0 ],
-            "obj-3::obj-20::obj-2": [ "RandOscDecay-Max[1]", "Max", 0 ],
-            "obj-3::obj-218": [ "RandOscSemi[1]", "Semi", 0 ],
-            "obj-3::obj-23": [ "RandOscAttack[1]", "Attack", 0 ],
-            "obj-3::obj-24::obj-1": [ "RandOscGain-Min[1]", "Min", 0 ],
-            "obj-3::obj-24::obj-2": [ "RandOscGain-Max[1]", "Max", 0 ],
-            "obj-3::obj-36::obj-1": [ "RandOscFreq-Min[1]", "Min", 0 ],
-            "obj-3::obj-36::obj-2": [ "RandOscFreq-Max[1]", "Max", 0 ],
-            "obj-3::obj-41": [ "RandOscDecay[1]", "Decay", 0 ],
-            "obj-3::obj-42": [ "RandOscGain[1]", "Gain", 0 ],
-            "obj-3::obj-5": [ "RandOscFreq[1]", "Freq", 0 ],
-            "obj-3::obj-6": [ "RandOscReset[1]", "Reset", 0 ],
-            "obj-4::obj-10::obj-1": [ "RandOscPchEnvDur-Min[1]", "Min", 0 ],
-            "obj-4::obj-10::obj-2": [ "RandOscPchEnvDur-Max[1]", "Max", 0 ],
-            "obj-4::obj-12::obj-1": [ "RandOscPchEnvCurve-Min[1]", "Min", 0 ],
-            "obj-4::obj-12::obj-2": [ "RandOscPchEnvCurve-Max[1]", "Max", 0 ],
-            "obj-4::obj-14::obj-1": [ "RandOscPchEnvAmt-Min[1]", "Min", 0 ],
-            "obj-4::obj-14::obj-2": [ "RandOscPchEnvAmt-Max[1]", "Max", 0 ],
-            "obj-4::obj-16::obj-1": [ "RandOvertone-Min[1]", "Min", 0 ],
-            "obj-4::obj-16::obj-2": [ "RandOvertone-Max[1]", "Max", 0 ],
-            "obj-4::obj-22": [ "RandOvertone[1]", "Overtone", 0 ],
-            "obj-4::obj-3": [ "RandOscShape[1]", "Shape", 0 ],
-            "obj-4::obj-38": [ "RandOscPchEnvCur[1]", "Curve", 0 ],
-            "obj-4::obj-39": [ "RandOscPchEnvAmt[1]", "Amount", 0 ],
-            "obj-4::obj-4": [ "RandOscFilt[1]", "Filter", 0 ],
-            "obj-4::obj-40": [ "RandOverdrive[1]", "Overdrive", 0 ],
-            "obj-4::obj-7": [ "RandOscPchEnvDur[1]", "Duration", 0 ],
-            "obj-4::obj-8::obj-1": [ "RandOverdrive-Min[1]", "Min", 0 ],
-            "obj-4::obj-8::obj-2": [ "RandOverdrive-Max[1]", "Max", 0 ],
-            "obj-55::obj-10::obj-1": [ "RandOscPchEnvDur-Min", "Min", 0 ],
-            "obj-55::obj-10::obj-2": [ "RandOscPchEnvDur-Max", "Max", 0 ],
-            "obj-55::obj-12::obj-1": [ "RandOscPchEnvCurve-Min", "Min", 0 ],
-            "obj-55::obj-12::obj-2": [ "RandOscPchEnvCurve-Max", "Max", 0 ],
-            "obj-55::obj-14::obj-1": [ "RandOscPchEnvAmt-Min", "Min", 0 ],
-            "obj-55::obj-14::obj-2": [ "RandOscPchEnvAmt-Max", "Max", 0 ],
-            "obj-55::obj-16::obj-1": [ "RandOvertone-Min", "Min", 0 ],
-            "obj-55::obj-16::obj-2": [ "RandOvertone-Max", "Max", 0 ],
-            "obj-55::obj-22": [ "RandOvertone", "Overtone", 0 ],
-            "obj-55::obj-3": [ "RandOscShape", "Shape", 0 ],
-            "obj-55::obj-38": [ "RandOscPchEnvCur", "Curve", 0 ],
-            "obj-55::obj-39": [ "RandOscPchEnvAmt", "Amount", 0 ],
-            "obj-55::obj-4": [ "RandOscFilt", "Filter", 0 ],
-            "obj-55::obj-40": [ "RandOverdrive", "Overdrive", 0 ],
-            "obj-55::obj-7": [ "RandOscPchEnvDur", "Duration", 0 ],
-            "obj-55::obj-8::obj-1": [ "RandOverdrive-Min", "Min", 0 ],
-            "obj-55::obj-8::obj-2": [ "RandOverdrive-Max", "Max", 0 ],
+            "obj-3::obj-138": [ "2-RandOscNote", "Note", 0 ],
+            "obj-3::obj-18::obj-1": [ "2-RandOscAttack-Min", "Min", 0 ],
+            "obj-3::obj-18::obj-2": [ "2-RandOscAttack-Max", "Max", 0 ],
+            "obj-3::obj-204": [ "2-RandOsc", "Osc", 0 ],
+            "obj-3::obj-206::obj-1": [ "2-RandOscSemi-Min", "Min", 0 ],
+            "obj-3::obj-206::obj-2": [ "2-RandOscSemi-Max", "Max", 0 ],
+            "obj-3::obj-20::obj-1": [ "2-RandOscDecay-Min", "Min", 0 ],
+            "obj-3::obj-20::obj-2": [ "2-RandOscDecay-Max", "Max", 0 ],
+            "obj-3::obj-218": [ "2-RandOscSemi", "Semi", 0 ],
+            "obj-3::obj-23": [ "2-RandOscAttack", "Attack", 0 ],
+            "obj-3::obj-24::obj-1": [ "2-RandOscGain-Min", "Min", 0 ],
+            "obj-3::obj-24::obj-2": [ "2-RandOscGain-Max", "Max", 0 ],
+            "obj-3::obj-36::obj-1": [ "2-RandOscFreq-Min", "Min", 0 ],
+            "obj-3::obj-36::obj-2": [ "2-RandOscFreq-Max", "Max", 0 ],
+            "obj-3::obj-41": [ "2-RandOscDecay", "Decay", 0 ],
+            "obj-3::obj-42": [ "2-RandOscGain", "Gain", 0 ],
+            "obj-3::obj-5": [ "2-RandOscFreq", "Freq", 0 ],
+            "obj-3::obj-6": [ "2-RandOscReset", "Reset", 0 ],
+            "obj-4::obj-10::obj-1": [ "2-RandOscPchEnvDur-Min", "Min", 0 ],
+            "obj-4::obj-10::obj-2": [ "2-RandOscPchEnvDur-Max", "Max", 0 ],
+            "obj-4::obj-12::obj-1": [ "2-RandOscPchEnvCurve-Min", "Min", 0 ],
+            "obj-4::obj-12::obj-2": [ "2-RandOscPchEnvCurve-Max", "Max", 0 ],
+            "obj-4::obj-14::obj-1": [ "2-RandOscPchEnvAmt-Min", "Min", 0 ],
+            "obj-4::obj-14::obj-2": [ "2-RandOscPchEnvAmt-Max", "Max", 0 ],
+            "obj-4::obj-16::obj-1": [ "2-RandOvertone-Min", "Min", 0 ],
+            "obj-4::obj-16::obj-2": [ "2-RandOvertone-Max", "Max", 0 ],
+            "obj-4::obj-22": [ "2-RandOvertone", "Overtone", 0 ],
+            "obj-4::obj-3": [ "2-RandOscShape", "Shape", 0 ],
+            "obj-4::obj-38": [ "2-RandOscPchEnvCur", "Curve", 0 ],
+            "obj-4::obj-39": [ "2-RandOscPchEnvAmt", "Amount", 0 ],
+            "obj-4::obj-4": [ "2-RandOscFilt", "Filter", 0 ],
+            "obj-4::obj-40": [ "2-RandOverdrive", "Overdrive", 0 ],
+            "obj-4::obj-7": [ "2-RandOscPchEnvDur", "Duration", 0 ],
+            "obj-4::obj-8::obj-1": [ "2-RandOverdrive-Min", "Min", 0 ],
+            "obj-4::obj-8::obj-2": [ "2-RandOverdrive-Max", "Max", 0 ],
+            "obj-55::obj-10::obj-1": [ "1-RandOscPchEnvDur-Min", "Min", 0 ],
+            "obj-55::obj-10::obj-2": [ "1-RandOscPchEnvDur-Max", "Max", 0 ],
+            "obj-55::obj-12::obj-1": [ "1-RandOscPchEnvCurve-Min", "Min", 0 ],
+            "obj-55::obj-12::obj-2": [ "1-RandOscPchEnvCurve-Max", "Max", 0 ],
+            "obj-55::obj-14::obj-1": [ "1-RandOscPchEnvAmt-Min", "Min", 0 ],
+            "obj-55::obj-14::obj-2": [ "1-RandOscPchEnvAmt-Max", "Max", 0 ],
+            "obj-55::obj-16::obj-1": [ "1-RandOvertone-Min", "Min", 0 ],
+            "obj-55::obj-16::obj-2": [ "1-RandOvertone-Max", "Max", 0 ],
+            "obj-55::obj-22": [ "1-RandOvertone", "Overtone", 0 ],
+            "obj-55::obj-3": [ "1-RandOscShape", "Shape", 0 ],
+            "obj-55::obj-38": [ "1-RandOscPchEnvCur", "Curve", 0 ],
+            "obj-55::obj-39": [ "1-RandOscPchEnvAmt", "Amount", 0 ],
+            "obj-55::obj-4": [ "1-RandOscFilt", "Filter", 0 ],
+            "obj-55::obj-40": [ "1-RandOverdrive", "Overdrive", 0 ],
+            "obj-55::obj-7": [ "1-RandOscPchEnvDur", "Duration", 0 ],
+            "obj-55::obj-8::obj-1": [ "1-RandOverdrive-Min", "Min", 0 ],
+            "obj-55::obj-8::obj-2": [ "1-RandOverdrive-Max", "Max", 0 ],
             "obj-56::obj-29": [ "RandFiltType", "Type", 0 ],
             "obj-56::obj-30": [ "RandFilt", "Filter", 0 ],
             "obj-56::obj-31::obj-1": [ "RandFiltFreq-Min", "Min", 0 ],
@@ -440,24 +440,24 @@
             "obj-56::obj-67::obj-1": [ "RandVol-Min", "Min", 0 ],
             "obj-56::obj-67::obj-2": [ "RandVol-Max", "Max", 0 ],
             "obj-56::obj-76": [ "RandAuto", "Auto", 0 ],
-            "obj-57::obj-138": [ "RandOscNote", "Note", 0 ],
-            "obj-57::obj-18::obj-1": [ "RandOscAttack-Min", "Min", 0 ],
-            "obj-57::obj-18::obj-2": [ "RandOscAttack-Max", "Max", 0 ],
-            "obj-57::obj-204": [ "RandOsc", "Osc", 0 ],
-            "obj-57::obj-206::obj-1": [ "RandOscSemi-Min", "Min", 0 ],
-            "obj-57::obj-206::obj-2": [ "RandOscSemi-Max", "Max", 0 ],
-            "obj-57::obj-20::obj-1": [ "RandOscDecay-Min", "Min", 0 ],
-            "obj-57::obj-20::obj-2": [ "RandOscDecay-Max", "Max", 0 ],
-            "obj-57::obj-218": [ "RandOscSemi", "Semi", 0 ],
-            "obj-57::obj-23": [ "RandOscAttack", "Attack", 0 ],
-            "obj-57::obj-24::obj-1": [ "RandOscGain-Min", "Min", 0 ],
-            "obj-57::obj-24::obj-2": [ "RandOscGain-Max", "Max", 0 ],
-            "obj-57::obj-36::obj-1": [ "RandOscFreq-Min", "Min", 0 ],
-            "obj-57::obj-36::obj-2": [ "RandOscFreq-Max", "Max", 0 ],
-            "obj-57::obj-41": [ "RandOscDecay", "Decay", 0 ],
-            "obj-57::obj-42": [ "RandOscGain", "Gain", 0 ],
-            "obj-57::obj-5": [ "RandOscFreq", "Freq", 0 ],
-            "obj-57::obj-6": [ "RandOscReset", "Reset", 0 ],
+            "obj-57::obj-138": [ "1-RandOscNote", "Note", 0 ],
+            "obj-57::obj-18::obj-1": [ "1-RandOscAttack-Min", "Min", 0 ],
+            "obj-57::obj-18::obj-2": [ "1-RandOscAttack-Max", "Max", 0 ],
+            "obj-57::obj-204": [ "1-RandOsc", "Osc", 0 ],
+            "obj-57::obj-206::obj-1": [ "1-RandOscSemi-Min", "Min", 0 ],
+            "obj-57::obj-206::obj-2": [ "1-RandOscSemi-Max", "Max", 0 ],
+            "obj-57::obj-20::obj-1": [ "1-RandOscDecay-Min", "Min", 0 ],
+            "obj-57::obj-20::obj-2": [ "1-RandOscDecay-Max", "Max", 0 ],
+            "obj-57::obj-218": [ "1-RandOscSemi", "Semi", 0 ],
+            "obj-57::obj-23": [ "1-RandOscAttack", "Attack", 0 ],
+            "obj-57::obj-24::obj-1": [ "1-RandOscGain-Min", "Min", 0 ],
+            "obj-57::obj-24::obj-2": [ "1-RandOscGain-Max", "Max", 0 ],
+            "obj-57::obj-36::obj-1": [ "1-RandOscFreq-Min", "Min", 0 ],
+            "obj-57::obj-36::obj-2": [ "1-RandOscFreq-Max", "Max", 0 ],
+            "obj-57::obj-41": [ "1-RandOscDecay", "Decay", 0 ],
+            "obj-57::obj-42": [ "1-RandOscGain", "Gain", 0 ],
+            "obj-57::obj-5": [ "1-RandOscFreq", "Freq", 0 ],
+            "obj-57::obj-6": [ "1-RandOscReset", "Reset", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
@@ -467,129 +467,64 @@
                 }
             },
             "parameter_overrides": {
-                "obj-3::obj-138": {
-                    "parameter_longname": "RandOscNote[1]"
-                },
                 "obj-3::obj-18::obj-1": {
-                    "parameter_longname": "RandOscAttack-Min[1]",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-3::obj-18::obj-2": {
-                    "parameter_longname": "RandOscAttack-Max[1]",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
-                "obj-3::obj-204": {
-                    "parameter_longname": "RandOsc[1]"
-                },
                 "obj-3::obj-206::obj-1": {
-                    "parameter_longname": "RandOscSemi-Min[1]",
                     "parameter_range": [ -48, 48 ]
                 },
                 "obj-3::obj-206::obj-2": {
-                    "parameter_longname": "RandOscSemi-Max[1]",
                     "parameter_range": [ -48, 48 ]
                 },
                 "obj-3::obj-20::obj-1": {
-                    "parameter_longname": "RandOscDecay-Min[1]",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-3::obj-20::obj-2": {
-                    "parameter_longname": "RandOscDecay-Max[1]",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
-                "obj-3::obj-218": {
-                    "parameter_longname": "RandOscSemi[1]"
-                },
-                "obj-3::obj-23": {
-                    "parameter_longname": "RandOscAttack[1]"
-                },
                 "obj-3::obj-24::obj-1": {
-                    "parameter_longname": "RandOscGain-Min[1]",
                     "parameter_range": [ -70.0, 6.0 ]
                 },
                 "obj-3::obj-24::obj-2": {
-                    "parameter_longname": "RandOscGain-Max[1]",
                     "parameter_range": [ -70.0, 6.0 ]
                 },
                 "obj-3::obj-36::obj-1": {
-                    "parameter_longname": "RandOscFreq-Min[1]",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-3::obj-36::obj-2": {
-                    "parameter_longname": "RandOscFreq-Max[1]",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
-                "obj-3::obj-41": {
-                    "parameter_longname": "RandOscDecay[1]"
-                },
-                "obj-3::obj-42": {
-                    "parameter_longname": "RandOscGain[1]"
-                },
-                "obj-3::obj-5": {
-                    "parameter_longname": "RandOscFreq[1]"
-                },
-                "obj-3::obj-6": {
-                    "parameter_longname": "RandOscReset[1]"
-                },
                 "obj-4::obj-10::obj-1": {
-                    "parameter_longname": "RandOscPchEnvDur-Min[1]",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-4::obj-10::obj-2": {
-                    "parameter_longname": "RandOscPchEnvDur-Max[1]",
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
                 "obj-4::obj-12::obj-1": {
-                    "parameter_longname": "RandOscPchEnvCurve-Min[1]",
                     "parameter_range": [ -100.0, 100.0 ]
                 },
                 "obj-4::obj-12::obj-2": {
-                    "parameter_longname": "RandOscPchEnvCurve-Max[1]",
                     "parameter_range": [ -100.0, 100.0 ]
                 },
                 "obj-4::obj-14::obj-1": {
-                    "parameter_longname": "RandOscPchEnvAmt-Min[1]",
                     "parameter_range": [ -500.0, 500.0 ]
                 },
                 "obj-4::obj-14::obj-2": {
-                    "parameter_longname": "RandOscPchEnvAmt-Max[1]",
                     "parameter_range": [ -500.0, 500.0 ]
                 },
                 "obj-4::obj-16::obj-1": {
-                    "parameter_longname": "RandOvertone-Min[1]",
                     "parameter_range": [ 0.0, 100.0 ]
                 },
                 "obj-4::obj-16::obj-2": {
-                    "parameter_longname": "RandOvertone-Max[1]",
                     "parameter_range": [ 0.0, 100.0 ]
                 },
-                "obj-4::obj-22": {
-                    "parameter_longname": "RandOvertone[1]"
-                },
-                "obj-4::obj-3": {
-                    "parameter_longname": "RandOscShape[1]"
-                },
-                "obj-4::obj-38": {
-                    "parameter_longname": "RandOscPchEnvCur[1]"
-                },
-                "obj-4::obj-39": {
-                    "parameter_longname": "RandOscPchEnvAmt[1]"
-                },
-                "obj-4::obj-4": {
-                    "parameter_longname": "RandOscFilt[1]"
-                },
-                "obj-4::obj-40": {
-                    "parameter_longname": "RandOverdrive[1]"
-                },
-                "obj-4::obj-7": {
-                    "parameter_longname": "RandOscPchEnvDur[1]"
-                },
                 "obj-4::obj-8::obj-1": {
-                    "parameter_longname": "RandOverdrive-Min[1]",
                     "parameter_range": [ 0.0, 100.0 ]
                 },
                 "obj-4::obj-8::obj-2": {
-                    "parameter_longname": "RandOverdrive-Max[1]",
                     "parameter_range": [ 0.0, 100.0 ]
                 },
                 "obj-55::obj-10::obj-1": {

@@ -102,7 +102,7 @@
             },
             {
                 "box": {
-                    "comment": "(messages) control messages",
+                    "comment": "(message) control messages",
                     "id": "obj-1",
                     "index": 0,
                     "maxclass": "inlet",

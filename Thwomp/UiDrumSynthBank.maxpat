@@ -3,15 +3,89 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 5,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 635.0, 369.0, 1230.0, 977.0 ],
+        "rect": [ 686.0, 92.0, 1230.0, 977.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-27",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 242.0, 112.0, 50.5, 22.0 ],
+                    "text": "t l l l l"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-26",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 56.0, 505.0, 155.0, 22.0 ],
+                    "text": "send~ #1-modsrc-ampenv1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-25",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 291.0, 522.0, 155.0, 22.0 ],
+                    "text": "send~ #1-modsrc-ampenv2"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-24",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 290.0, 492.0, 157.0, 22.0 ],
+                    "text": "send~ #1-modsrc-pitchenv2"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-23",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 55.0, 534.0, 157.0, 22.0 ],
+                    "text": "send~ #1-modsrc-pitchenv1"
+                }
+            },
+            {
+                "box": {
+                    "args": [ "#1" ],
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-21",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiMod.maxpat",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 706.0, 312.5, 348.0, 170.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 342.0, 346.0, 169.0 ],
+                    "varname": "Mod",
+                    "viewvisibility": 1
+                }
+            },
             {
                 "box": {
                     "id": "obj-17",
@@ -19,7 +93,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 853.0, 552.0, 97.0, 22.0 ],
+                    "patching_rect": [ 584.0, 537.5, 97.0, 22.0 ],
                     "text": "prepend randtab"
                 }
             },
@@ -52,7 +126,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 720.0, 552.0, 103.0, 22.0 ],
+                    "patching_rect": [ 581.0, 505.5, 103.0, 22.0 ],
                     "text": "prepend randnote"
                 }
             },
@@ -63,7 +137,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 608.0, 688.0, 112.0, 22.0 ],
+                    "patching_rect": [ 556.0, 641.5, 112.0, 22.0 ],
                     "text": "prepend randomize"
                 }
             },
@@ -74,7 +148,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 560.0, 656.0, 112.0, 22.0 ],
+                    "patching_rect": [ 508.0, 609.5, 112.0, 22.0 ],
                     "text": "prepend randomize"
                 }
             },
@@ -85,7 +159,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 536.0, 624.0, 112.0, 22.0 ],
+                    "patching_rect": [ 484.0, 577.5, 112.0, 22.0 ],
                     "text": "prepend randomize"
                 }
             },
@@ -96,7 +170,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 536.0, 552.0, 95.0, 22.0 ],
+                    "patching_rect": [ 484.0, 505.5, 95.0, 22.0 ],
                     "text": "route randomize"
                 }
             },
@@ -107,7 +181,7 @@
                     "numinlets": 3,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 536.0, 584.0, 93.0, 22.0 ],
+                    "patching_rect": [ 484.0, 537.5, 93.0, 22.0 ],
                     "text": "route osc1 osc2"
                 }
             },
@@ -118,7 +192,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 536.0, 320.0, 22.0, 22.0 ],
+                    "patching_rect": [ 0.0, 169.0, 22.0, 22.0 ],
                     "text": "t b"
                 }
             },
@@ -139,9 +213,9 @@
                     "numoutlets": 4,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "bang", "int", "int" ],
-                    "patching_rect": [ 536.0, 360.0, 200.0, 168.0 ],
+                    "patching_rect": [ 484.0, 313.5, 200.0, 168.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 343.0, 346.0, 169.0 ],
+                    "presentation_rect": [ 0.0, 513.0, 346.0, 169.0 ],
                     "varname": "Randomize",
                     "viewvisibility": 1
                 }
@@ -209,7 +283,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 152.0, 144.0, 69.0, 22.0 ],
+                    "patching_rect": [ 162.0, 151.0, 69.0, 22.0 ],
                     "save": [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
                     "text": "thispatcher"
                 }
@@ -252,10 +326,10 @@
                     "maxclass": "bpatcher",
                     "name": "UiDrumSynth.maxpat",
                     "numinlets": 1,
-                    "numoutlets": 3,
+                    "numoutlets": 5,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "signal", "signal", "" ],
-                    "patching_rect": [ 176.0, 573.0, 200.0, 163.0 ],
+                    "outlettype": [ "signal", "signal", "", "signal", "signal" ],
+                    "patching_rect": [ 247.0, 316.0, 200.0, 163.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 171.0, 200.0, 169.0 ],
                     "varname": "2-DrumSynth",
@@ -276,10 +350,10 @@
                     "maxclass": "bpatcher",
                     "name": "UiDrumSynth.maxpat",
                     "numinlets": 1,
-                    "numoutlets": 3,
+                    "numoutlets": 5,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "signal", "signal", "" ],
-                    "patching_rect": [ 176.0, 288.0, 200.0, 168.0 ],
+                    "outlettype": [ "signal", "signal", "", "signal", "signal" ],
+                    "patching_rect": [ 11.0, 311.0, 200.0, 168.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 200.0, 169.0 ],
                     "varname": "1-DrumSynth",
@@ -304,6 +378,18 @@
                 "patchline": {
                     "destination": [ "obj-2", 0 ],
                     "source": [ "obj-1", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-23", 0 ],
+                    "source": [ "obj-1", 3 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-26", 0 ],
+                    "source": [ "obj-1", 4 ]
                 }
             },
             {
@@ -368,6 +454,30 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-1", 0 ],
+                    "source": [ "obj-27", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-21", 0 ],
+                    "source": [ "obj-27", 3 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-3", 0 ],
+                    "source": [ "obj-27", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-8", 0 ],
+                    "source": [ "obj-27", 2 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-12", 0 ],
                     "source": [ "obj-3", 1 ]
                 }
@@ -376,6 +486,18 @@
                 "patchline": {
                     "destination": [ "obj-2", 0 ],
                     "source": [ "obj-3", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-24", 0 ],
+                    "source": [ "obj-3", 3 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-25", 0 ],
+                    "source": [ "obj-3", 4 ]
                 }
             },
             {
@@ -416,15 +538,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-1", 0 ],
-                    "order": 2,
-                    "source": [ "obj-7", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-3", 0 ],
-                    "order": 1,
+                    "destination": [ "obj-27", 0 ],
                     "source": [ "obj-7", 0 ]
                 }
             },
@@ -432,13 +546,6 @@
                 "patchline": {
                     "destination": [ "obj-38", 0 ],
                     "source": [ "obj-7", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-8", 0 ],
-                    "order": 0,
-                    "source": [ "obj-7", 0 ]
                 }
             },
             {
@@ -482,6 +589,27 @@
             "obj-1::obj-5": [ "1-Gain", "Gain", 0 ],
             "obj-1::obj-7": [ "1-Osc", "Osc", 0 ],
             "obj-1::obj-9": [ "1-OscShape", "Shape", 0 ],
+            "obj-21::obj-1": [ "Mod1Source", "Source", 0 ],
+            "obj-21::obj-10": [ "Mod4Source", "Source", 0 ],
+            "obj-21::obj-11": [ "Mod4Amount", "Amount", 0 ],
+            "obj-21::obj-12": [ "Mod4Dest", "Dest", 0 ],
+            "obj-21::obj-13": [ "Mod5Source", "Source", 0 ],
+            "obj-21::obj-14": [ "Mod5Amount", "Amount", 0 ],
+            "obj-21::obj-15": [ "Mod5Dest", "Dest", 0 ],
+            "obj-21::obj-19::obj-19": [ "LfoShape", "Shape", 0 ],
+            "obj-21::obj-19::obj-20": [ "LfoSync", "Sync", 0 ],
+            "obj-21::obj-19::obj-21": [ "LfoRetrig", "Retrig", 0 ],
+            "obj-21::obj-19::obj-23": [ "LfoRate", "Rate", 0 ],
+            "obj-21::obj-19::obj-24": [ "LfoSyncRate", "Rate", 0 ],
+            "obj-21::obj-19::obj-36": [ "LfoPhase", "Phase", 0 ],
+            "obj-21::obj-2": [ "Mod1Amount", "Amount", 0 ],
+            "obj-21::obj-3": [ "Mod1Dest", "Dest", 0 ],
+            "obj-21::obj-4": [ "Mod2Source", "Source", 0 ],
+            "obj-21::obj-5": [ "Mod2Amount", "Amount", 0 ],
+            "obj-21::obj-6": [ "Mod2Dest", "Dest", 0 ],
+            "obj-21::obj-7": [ "Mod3Source", "Source", 0 ],
+            "obj-21::obj-8": [ "Mod3Amount", "Amount", 0 ],
+            "obj-21::obj-9": [ "Mod3Dest", "Dest", 0 ],
             "obj-3::obj-12": [ "2-OscFilt", "Filter", 0 ],
             "obj-3::obj-17::obj-17": [ "2-PitchEnvAmt", "Amount", 0 ],
             "obj-3::obj-17::obj-18": [ "2-PitchEnvDur", "Duration", 0 ],
@@ -594,10 +722,10 @@
             "obj-8::obj-1::obj-57::obj-5": [ "1-RandOscFreq", "Freq", 0 ],
             "obj-8::obj-1::obj-57::obj-6": [ "1-RandOscReset", "Reset", 0 ],
             "obj-8::obj-2": [ "RandTrigToggle", "Trigger", 0 ],
-            "obj-8::obj-9::obj-1": [ "RandTabOsc", "RandTabOsc1", 0 ],
+            "obj-8::obj-9::obj-1": [ "RandTabOsc1", "RandTabOsc1", 0 ],
             "obj-8::obj-9::obj-13": [ "RandTabEffect2", "RandTabEffect2", 0 ],
             "obj-8::obj-9::obj-14": [ "RandTabOsc2", "RandTabOsc2", 0 ],
-            "obj-8::obj-9::obj-2": [ "RandTabEffect", "RandTabEffect1", 0 ],
+            "obj-8::obj-9::obj-2": [ "RandTabEffect1", "RandTabEffect1", 0 ],
             "obj-8::obj-9::obj-22": [ "RandOsc1", "RandOsc1", 0 ],
             "obj-8::obj-9::obj-23": [ "RandOsc2", "RandOsc2", 0 ],
             "obj-8::obj-9::obj-24": [ "RandEffect1", "RandEffect1", 0 ],
@@ -767,12 +895,6 @@
                 },
                 "obj-8::obj-1::obj-57::obj-36::obj-2": {
                     "parameter_range": [ 0.0, 15000.0 ]
-                },
-                "obj-8::obj-9::obj-1": {
-                    "parameter_longname": "RandTabOsc"
-                },
-                "obj-8::obj-9::obj-2": {
-                    "parameter_longname": "RandTabEffect"
                 }
             },
             "inherited_shortname": 1
