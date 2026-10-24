@@ -351,23 +351,23 @@ To reconstruct this demo loops in Ableton Live, setup a track with [Sidewinder](
 
 ### 3. 909 Kick
 
-- `-2 dB` Volume
+- `-6 dB` Volume
 
 #### Oscillator 1 (Body)
 
 - `Triangle`
 - `50 Hz`
 - `10%` Overtone
-- `5%` Overdrive
+- `10%` Overdrive
 - `2 ms` Attack
 - `400 ms` Decay
-- `-13 dB` Gain
+- `-6 dB` Gain
 - Filter on
 
 ##### Pitch Envelope
 
 - `50 ms` Duration
-- `160 Hz` Amount
+- `110 Hz` Amount
 
 #### Oscillator 2 (Click)
 
@@ -375,12 +375,13 @@ To reconstruct this demo loops in Ableton Live, setup a track with [Sidewinder](
 - `127 Hz`
 - `1 ms`: Attack
 - `25 ms`: Decay
+- `-6 dB` Gain
 - Filter on
 
 #### Filter
 
 - `Lowpass`
-- `1300 Hz`
+- `829 Hz`
 
 ### 4. Snare
 
