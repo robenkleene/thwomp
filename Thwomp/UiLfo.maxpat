@@ -113,7 +113,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 373.0, 223.0, 29.5, 22.0 ],
+                    "patching_rect": [ 382.3, 222.0, 29.5, 22.0 ],
                     "text": "t i i"
                 }
             },
@@ -181,6 +181,17 @@
                         "classnamespace": "box",
                         "rect": [ 1332.0, 437.0, 623.0, 780.0 ],
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-37",
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "", "" ],
+                                    "patching_rect": [ 348.0, 325.0, 80.0, 22.0 ],
+                                    "text": "route symbol"
+                                }
+                            },
                             {
                                 "box": {
                                     "comment": "(message) control messages",
@@ -549,7 +560,7 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-6", 0 ],
+                                    "destination": [ "obj-37", 0 ],
                                     "source": [ "obj-31", 0 ]
                                 }
                             },
@@ -569,6 +580,12 @@
                                 "patchline": {
                                     "destination": [ "obj-1", 0 ],
                                     "source": [ "obj-34", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-6", 0 ],
+                                    "source": [ "obj-37", 0 ]
                                 }
                             },
                             {
@@ -1461,7 +1478,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 373.0, 168.5, 44.0, 15.0 ],
+                    "patching_rect": [ 382.3, 168.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 1.0, 50.0, 46.0, 15.0 ],
                     "saved_attribute_attributes": {

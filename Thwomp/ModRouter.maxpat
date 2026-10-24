@@ -40,7 +40,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 596.5, 706.0, 39.0, 22.0 ],
+                    "patching_rect": [ 596.5, 698.0, 39.0, 22.0 ],
                     "text": "gate~"
                 }
             },
@@ -423,8 +423,8 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 580.0, 734.0, 42.0, 22.0 ],
-                    "text": "send~"
+                    "patching_rect": [ 580.0, 734.0, 117.0, 22.0 ],
+                    "text": "send~ #0-modrouter"
                 }
             },
             {
@@ -806,6 +806,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-35", 1 ],
+                    "source": [ "obj-32", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-35", 4 ],
                     "source": [ "obj-34", 0 ]
                 }
@@ -908,12 +914,6 @@
                 "patchline": {
                     "destination": [ "obj-42", 1 ],
                     "source": [ "obj-9", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-35", 1 ],
-                    "source": [ "obj-32", 0 ]
                 }
             }
         ],
