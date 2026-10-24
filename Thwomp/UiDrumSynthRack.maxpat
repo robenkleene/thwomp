@@ -9,9 +9,60 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 840.0, 147.0, 1285.0, 929.0 ],
+        "rect": [ 409.0, 95.0, 1285.0, 929.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "annotation": "Recall the selected preset.",
+                    "annotation_name": "Preset Load",
+                    "id": "obj-117",
+                    "maxclass": "live.text",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 680.0, 285.0, 40.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 3.0, 149.0, 38.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_button_mode": "Momentary",
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "PresetsLoad",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Load",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Load",
+                    "varname": "PresetsLoad"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-116",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "int" ],
+                    "patching_rect": [ 767.0, 338.0, 29.5, 22.0 ],
+                    "text": "i"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-115",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "patching_rect": [ 680.0, 308.0, 29.5, 22.0 ],
+                    "text": "t b"
+                }
+            },
             {
                 "box": {
                     "id": "obj-114",
@@ -309,12 +360,12 @@
             {
                 "box": {
                     "id": "obj-85",
-                    "linecount": 4,
+                    "linecount": 8,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 774.0, 240.0, 157.0, 60.0 ],
-                    "text": "`PresetsSelect` is excluded from `pattr` because otherwise loading a patch also triggers a preset load."
+                    "patching_rect": [ 944.0, 240.0, 243.0, 114.0 ],
+                    "text": "`PresetsSelect` only selects the preset and `PresetsLoad` recalls it, because Live restores `PresetsSelect` every time the device reloads (e.g., choosing `Edit in Max` and closing the Max window), and if that restore recalled the preset it would overwrite the restored parameters with the preset's values."
                 }
             },
             {
@@ -351,7 +402,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 726.0, 285.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 3.0, 149.0, 38.0, 15.0 ],
+                    "presentation_rect": [ 3.0, 133.0, 38.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Kick", "808 Kick", "909 Kick", "Snare", "Clap", "Hi-Hat", "Cymbal", "Tom", "Bell", "Cowbell", "Bongo Low", "Bongo High", "Conga Low", "Conga High", "Init" ],
@@ -754,7 +805,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 623.0, 274.0, 37.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1.0, 133.0, 37.0, 18.0 ],
+                    "presentation_rect": [ 1.0, 117.0, 37.0, 18.0 ],
                     "text": "Preset"
                 }
             },
@@ -1335,7 +1386,7 @@
                 "box": {
                     "id": "obj-53",
                     "maxclass": "newobj",
-                    "numinlets": 3,
+                    "numinlets": 4,
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 423.0, 653.0, 110.0, 22.0 ],
@@ -1902,7 +1953,7 @@
                     "numinlets": 1,
                     "numoutlets": 5,
                     "outlettype": [ "preset", "int", "preset", "int", "" ],
-                    "patching_rect": [ 767.0, 341.0, 77.0, 29.0 ],
+                    "patching_rect": [ 767.0, 366.0, 77.0, 29.0 ],
                     "pattrstorage": "Presets",
                     "presentation": 1,
                     "presentation_rect": [ 393.0, 0.0, 40.0, 113.0 ]
@@ -2128,6 +2179,30 @@
                 "patchline": {
                     "destination": [ "obj-20", 1 ],
                     "source": [ "obj-112", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-114", 0 ],
+                    "source": [ "obj-113", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-116", 0 ],
+                    "source": [ "obj-115", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-22", 0 ],
+                    "source": [ "obj-116", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-115", 0 ],
+                    "source": [ "obj-117", 0 ]
                 }
             },
             {
@@ -2371,8 +2446,15 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-75", 0 ],
+                    "destination": [ "obj-117", 0 ],
                     "order": 1,
+                    "source": [ "obj-4", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-75", 0 ],
+                    "order": 2,
                     "source": [ "obj-4", 1 ]
                 }
             },
@@ -2471,6 +2553,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-113", 0 ],
+                    "source": [ "obj-53", 2 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-54", 0 ],
                     "source": [ "obj-53", 0 ]
                 }
@@ -2479,6 +2567,12 @@
                 "patchline": {
                     "destination": [ "obj-55", 0 ],
                     "source": [ "obj-53", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-67", 0 ],
+                    "source": [ "obj-53", 3 ]
                 }
             },
             {
@@ -2703,7 +2797,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-22", 0 ],
+                    "destination": [ "obj-116", 1 ],
                     "source": [ "obj-79", 0 ]
                 }
             },
@@ -2802,27 +2896,10 @@
                     "destination": [ "obj-102", 0 ],
                     "source": [ "obj-99", 0 ]
                 }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-67", 0 ],
-                    "source": [ "obj-53", 3 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-113", 0 ],
-                    "source": [ "obj-53", 2 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-114", 0 ],
-                    "source": [ "obj-113", 0 ]
-                }
             }
         ],
         "parameters": {
+            "obj-117": [ "PresetsLoad", "Load", 0 ],
             "obj-19": [ "PresetsOverwrite", "PresetsOverwrite", 0 ],
             "obj-1::obj-1::obj-12": [ "1-OscFilt", "Filter", 0 ],
             "obj-1::obj-1::obj-17::obj-17": [ "1-PitchEnvAmt", "Amount", 0 ],

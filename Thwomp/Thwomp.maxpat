@@ -228,6 +228,7 @@
             }
         ],
         "parameters": {
+            "obj-1::obj-117": [ "PresetsLoad", "Load", 0 ],
             "obj-1::obj-19": [ "PresetsOverwrite", "PresetsOverwrite", 0 ],
             "obj-1::obj-1::obj-1::obj-12": [ "1-OscFilt", "Filter", 0 ],
             "obj-1::obj-1::obj-1::obj-17::obj-17": [ "1-PitchEnvAmt", "Amount", 0 ],

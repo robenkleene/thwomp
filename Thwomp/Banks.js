@@ -35,7 +35,7 @@ var ENCODERS = [
 
 // Leftmost button column is ignored for the back button to leave banks
 var BUTTONS = [
-["-",  "-",                    "$1-Osc",           "$1-OscNote",           "$1-OscReset",     "$1-OscFilt",           "-",               "-"],
+["-",  "PresetsLoad",          "$1-Osc",           "$1-OscNote",           "$1-OscReset",     "$1-OscFilt",           "-",               "-"],
 ["-",  "-",                    "-",                "-",                    "-",               "-",                    "-",               "-"],
 ["-",  "Filt",                 "-",                "-",                    "Ring",            "RingFilt",             "-",               "Randomize"],
 ["-",  "-",                    "-",                "-",                    "-",               "LfoSync",              "LfoRetrig",       "-"],
