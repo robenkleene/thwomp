@@ -313,7 +313,7 @@ To reconstruct this demo loops in Ableton Live, setup a track with [Sidewinder](
 - `Rect`
 - `0 ms` Attack
 - `26 ms` Decay
-- `-8 dB` Gain
+- `-14 dB` Gain
 - Filter on
 
 #### Filter
@@ -334,7 +334,7 @@ To reconstruct this demo loops in Ableton Live, setup a track with [Sidewinder](
 - `35%` Overdrive
 - `2 ms` Attack
 - `1000 ms` Decay
-- `-2 dB` Gain
+- `-4 dB` Gain
 
 ##### Pitch Envelope
 
@@ -361,7 +361,7 @@ To reconstruct this demo loops in Ableton Live, setup a track with [Sidewinder](
 - `5%` Overdrive
 - `2 ms` Attack
 - `400 ms` Decay
-- `-8 dB` Gain
+- `-13 dB` Gain
 - Filter on
 
 ##### Pitch Envelope
@@ -434,13 +434,17 @@ To reconstruct this demo loops in Ableton Live, setup a track with [Sidewinder](
 - `Triangle`
 - `0 ms` Attack
 - `10 ms` Decay
-- `-10 dB` Gain
+- `-16 dB` Gain
 - Filter off
 
 ##### Pitch Envelope
 
 - `-2000 Hz` Amount
 - `6 ms` Duration
+
+#### Ring
+
+- `-6 dB` Gain
 
 ### 6. Hi-Hat
 
@@ -479,7 +483,7 @@ To reconstruct this demo loops in Ableton Live, setup a track with [Sidewinder](
 - `13000 Hz`
 - `Triangle`
 - `100 ms` Decay
-- `-20 dB` Gain
+- `-21 dB` Gain
 - Filter off
 - `50%` Overdrive
 
@@ -538,6 +542,7 @@ To reconstruct this demo loops in Ableton Live, setup a track with [Sidewinder](
 #### Ring
 
 - `300 ms` Decay
+- `-12 dB` Gain
 
 ### 10. Cowbell
 
@@ -545,16 +550,19 @@ To reconstruct this demo loops in Ableton Live, setup a track with [Sidewinder](
 
 - `Triangle`
 - `700 Hz`
+- `-6 dB` Gain
 
 #### Oscillator 2 (Body)
 
 - `Triangle`
 - `1000 Hz`
+- `-31 dB` Gain
 
 #### Ring
 
 - `1 ms` Attack
 - `150 ms` Decay
+- `-12 dB` Gain
 ### 11. Bongo Low
 
 #### Oscillator 1 (Body)
@@ -625,7 +633,7 @@ To reconstruct this demo loops in Ableton Live, setup a track with [Sidewinder](
 - `Triangle`
 - `0 ms` Attack
 - `90 ms` Decay
-- `-20 dB` Gain
+- `-26 dB` Gain
 - Filter off
 
 ##### Pitch Envelope
@@ -655,7 +663,7 @@ To reconstruct this demo loops in Ableton Live, setup a track with [Sidewinder](
 - `Triangle`
 - `0 ms` Attack
 - `70 ms` Decay
-- `-20 dB` Gain
+- `-26 dB` Gain
 - Filter off
 
 ##### Pitch Envelope
