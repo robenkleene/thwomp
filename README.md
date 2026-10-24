@@ -468,14 +468,14 @@ To reconstruct this demo loops in Ableton Live, setup a track with [Sidewinder](
 
 - `Pink`
 - `0 ms` Attack
-- `550 ms` Decay
+- `526 ms` Decay
 - `0 dB` Gain
 - Filter on
 
 #### Filter
 
 - `Bandpass`
-- `7000 Hz` Freq
+- `5067 Hz` Freq
 - `4.5` Res
 
 #### Oscillator 2 (Click)
@@ -483,9 +483,9 @@ To reconstruct this demo loops in Ableton Live, setup a track with [Sidewinder](
 - `13000 Hz`
 - `Triangle`
 - `100 ms` Decay
-- `-21 dB` Gain
+- `-20 dB` Gain
 - Filter off
-- `50%` Overdrive
+- `23.5%` Overdrive
 
 ##### Pitch Envelope
 
