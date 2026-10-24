@@ -313,7 +313,7 @@ To reconstruct this demo loops in Ableton Live, setup a track with [Sidewinder](
 - `Rect`
 - `0 ms` Attack
 - `26 ms` Decay
-- `-14 dB` Gain
+- `-28 dB` Gain
 - Filter on
 
 #### Filter
