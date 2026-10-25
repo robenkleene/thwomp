@@ -559,7 +559,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 934.0, 233.0, 1452.0, 956.0 ],
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -1542,7 +1541,6 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
-                    "hidden": 1,
                     "id": "obj-6",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
