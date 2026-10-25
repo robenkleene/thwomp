@@ -359,6 +359,9 @@
             "obj-1::obj-1::obj-8::obj-1::obj-55::obj-7": [ "1-RandOscPchEnvDur", "Duration", 0 ],
             "obj-1::obj-1::obj-8::obj-1::obj-55::obj-8::obj-1": [ "1-RandOverdrive-Min", "Min", 0 ],
             "obj-1::obj-1::obj-8::obj-1::obj-55::obj-8::obj-2": [ "1-RandOverdrive-Max", "Max", 0 ],
+            "obj-1::obj-1::obj-8::obj-1::obj-56::obj-234::obj-1": [ "RandModVol-Min", "Min", 0 ],
+            "obj-1::obj-1::obj-8::obj-1::obj-56::obj-234::obj-2": [ "RandModVol-Max", "Max", 0 ],
+            "obj-1::obj-1::obj-8::obj-1::obj-56::obj-236": [ "RandModVol", "Vel > Vol", 0 ],
             "obj-1::obj-1::obj-8::obj-1::obj-56::obj-29": [ "RandFiltType", "Type", 0 ],
             "obj-1::obj-1::obj-8::obj-1::obj-56::obj-30": [ "RandFilt", "Filter", 0 ],
             "obj-1::obj-1::obj-8::obj-1::obj-56::obj-31::obj-1": [ "RandFiltFreq-Min", "Min", 0 ],
@@ -409,7 +412,7 @@
             "obj-1::obj-1::obj-8::obj-9::obj-23": [ "RandOsc2", "RandOsc2", 0 ],
             "obj-1::obj-1::obj-8::obj-9::obj-24": [ "RandEffect1", "RandEffect1", 0 ],
             "obj-1::obj-1::obj-8::obj-9::obj-25": [ "RandEffect2", "RandEffect2", 0 ],
-            "obj-1::obj-1::obj-8::obj-9::obj-3": [ "RandTabFilter", "RandTabGlobal", 0 ],
+            "obj-1::obj-1::obj-8::obj-9::obj-3": [ "RandTabGlobal", "RandTabGlobal", 0 ],
             "obj-1::obj-1::obj-8::obj-9::obj-31": [ "RandTabMod", "RandTabMod", 0 ],
             "obj-1::obj-2::obj-13": [ "TabOsc1", "TabOsc1", 0 ],
             "obj-1::obj-2::obj-3": [ "TabMod", "TabMod", 0 ],
@@ -572,6 +575,12 @@
                 "obj-1::obj-1::obj-8::obj-1::obj-55::obj-8::obj-2": {
                     "parameter_range": [ 0.0, 100.0 ]
                 },
+                "obj-1::obj-1::obj-8::obj-1::obj-56::obj-234::obj-1": {
+                    "parameter_range": [ 0.0, 100.0 ]
+                },
+                "obj-1::obj-1::obj-8::obj-1::obj-56::obj-234::obj-2": {
+                    "parameter_range": [ 0.0, 100.0 ]
+                },
                 "obj-1::obj-1::obj-8::obj-1::obj-56::obj-31::obj-1": {
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
@@ -637,9 +646,6 @@
                 },
                 "obj-1::obj-1::obj-8::obj-1::obj-57::obj-36::obj-2": {
                     "parameter_range": [ 0.0, 15000.0 ]
-                },
-                "obj-1::obj-1::obj-8::obj-9::obj-3": {
-                    "parameter_longname": "RandTabFilter"
                 },
                 "obj-1::obj-77": {
                     "parameter_invisible": 0,

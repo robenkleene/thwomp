@@ -2955,6 +2955,29 @@
             "obj-1::obj-8::obj-11": [ "RandTab", "Tab", 0 ],
             "obj-1::obj-8::obj-170": [ "RandTrig", "Note", 0 ],
             "obj-1::obj-8::obj-175": [ "RandTrigSet", "Set", 0 ],
+            "obj-1::obj-8::obj-1::obj-2::obj-10::obj-1": [ "RandMod2Amount-Min", "Min", 0 ],
+            "obj-1::obj-8::obj-1::obj-2::obj-10::obj-2": [ "RandMod2Amount-Max", "Max", 0 ],
+            "obj-1::obj-8::obj-1::obj-2::obj-12": [ "RandMod2Amount", "Mod 2", 0 ],
+            "obj-1::obj-8::obj-1::obj-2::obj-18::obj-1": [ "RandMod3Amount-Min", "Min", 0 ],
+            "obj-1::obj-8::obj-1::obj-2::obj-18::obj-2": [ "RandMod3Amount-Max", "Max", 0 ],
+            "obj-1::obj-8::obj-1::obj-2::obj-20": [ "RandMod3Amount", "Mod 3", 0 ],
+            "obj-1::obj-8::obj-1::obj-2::obj-26::obj-1": [ "RandMod4Amount-Min", "Min", 0 ],
+            "obj-1::obj-8::obj-1::obj-2::obj-26::obj-2": [ "RandMod4Amount-Max", "Max", 0 ],
+            "obj-1::obj-8::obj-1::obj-2::obj-28": [ "RandMod4Amount", "Mod 4", 0 ],
+            "obj-1::obj-8::obj-1::obj-2::obj-2::obj-1": [ "RandMod1Amount-Min", "Min", 0 ],
+            "obj-1::obj-8::obj-1::obj-2::obj-2::obj-2": [ "RandMod1Amount-Max", "Max", 0 ],
+            "obj-1::obj-8::obj-1::obj-2::obj-34::obj-1": [ "RandMod5Amount-Min", "Min", 0 ],
+            "obj-1::obj-8::obj-1::obj-2::obj-34::obj-2": [ "RandMod5Amount-Max", "Max", 0 ],
+            "obj-1::obj-8::obj-1::obj-2::obj-36": [ "RandMod5Amount", "Mod 5", 0 ],
+            "obj-1::obj-8::obj-1::obj-2::obj-4": [ "RandMod1Amount", "Mod 1", 0 ],
+            "obj-1::obj-8::obj-1::obj-2::obj-42::obj-1": [ "RandLfoRate-Min", "Min", 0 ],
+            "obj-1::obj-8::obj-1::obj-2::obj-42::obj-2": [ "RandLfoRate-Max", "Max", 0 ],
+            "obj-1::obj-8::obj-1::obj-2::obj-44": [ "RandLfoRate", "Rate", 0 ],
+            "obj-1::obj-8::obj-1::obj-2::obj-51::obj-1": [ "RandLfoPhase-Min", "Min", 0 ],
+            "obj-1::obj-8::obj-1::obj-2::obj-51::obj-2": [ "RandLfoPhase-Max", "Max", 0 ],
+            "obj-1::obj-8::obj-1::obj-2::obj-53": [ "RandLfoPhase", "Phase", 0 ],
+            "obj-1::obj-8::obj-1::obj-2::obj-60": [ "RandLfoShape", "Shape", 0 ],
+            "obj-1::obj-8::obj-1::obj-2::obj-67": [ "RandLfoSyncRate", "Rate", 0 ],
             "obj-1::obj-8::obj-1::obj-3::obj-138": [ "2-RandOscNote", "Note", 0 ],
             "obj-1::obj-8::obj-1::obj-3::obj-18::obj-1": [ "2-RandOscAttack-Min", "Min", 0 ],
             "obj-1::obj-8::obj-1::obj-3::obj-18::obj-2": [ "2-RandOscAttack-Max", "Max", 0 ],
@@ -3007,6 +3030,9 @@
             "obj-1::obj-8::obj-1::obj-55::obj-7": [ "1-RandOscPchEnvDur", "Duration", 0 ],
             "obj-1::obj-8::obj-1::obj-55::obj-8::obj-1": [ "1-RandOverdrive-Min", "Min", 0 ],
             "obj-1::obj-8::obj-1::obj-55::obj-8::obj-2": [ "1-RandOverdrive-Max", "Max", 0 ],
+            "obj-1::obj-8::obj-1::obj-56::obj-234::obj-1": [ "RandModVol-Min", "Min", 0 ],
+            "obj-1::obj-8::obj-1::obj-56::obj-234::obj-2": [ "RandModVol-Max", "Max", 0 ],
+            "obj-1::obj-8::obj-1::obj-56::obj-236": [ "RandModVol", "Vel > Vol", 0 ],
             "obj-1::obj-8::obj-1::obj-56::obj-29": [ "RandFiltType", "Type", 0 ],
             "obj-1::obj-8::obj-1::obj-56::obj-30": [ "RandFilt", "Filter", 0 ],
             "obj-1::obj-8::obj-1::obj-56::obj-31::obj-1": [ "RandFiltFreq-Min", "Min", 0 ],
@@ -3057,7 +3083,8 @@
             "obj-1::obj-8::obj-9::obj-23": [ "RandOsc2", "RandOsc2", 0 ],
             "obj-1::obj-8::obj-9::obj-24": [ "RandEffect1", "RandEffect1", 0 ],
             "obj-1::obj-8::obj-9::obj-25": [ "RandEffect2", "RandEffect2", 0 ],
-            "obj-1::obj-8::obj-9::obj-3": [ "RandTabFilter", "RandTabFilter", 0 ],
+            "obj-1::obj-8::obj-9::obj-3": [ "RandTabGlobal", "RandTabGlobal", 0 ],
+            "obj-1::obj-8::obj-9::obj-31": [ "RandTabMod", "RandTabMod", 0 ],
             "obj-2::obj-13": [ "TabOsc1", "TabOsc1", 0 ],
             "obj-2::obj-3": [ "TabMod", "TabMod", 0 ],
             "obj-2::obj-7": [ "TabOsc2", "TabOsc2", 0 ],
@@ -3087,6 +3114,48 @@
                 }
             },
             "parameter_overrides": {
+                "obj-1::obj-8::obj-1::obj-2::obj-10::obj-1": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-1::obj-8::obj-1::obj-2::obj-10::obj-2": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-1::obj-8::obj-1::obj-2::obj-18::obj-1": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-1::obj-8::obj-1::obj-2::obj-18::obj-2": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-1::obj-8::obj-1::obj-2::obj-26::obj-1": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-1::obj-8::obj-1::obj-2::obj-26::obj-2": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-1::obj-8::obj-1::obj-2::obj-2::obj-1": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-1::obj-8::obj-1::obj-2::obj-2::obj-2": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-1::obj-8::obj-1::obj-2::obj-34::obj-1": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-1::obj-8::obj-1::obj-2::obj-34::obj-2": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-1::obj-8::obj-1::obj-2::obj-42::obj-1": {
+                    "parameter_range": [ 0.01, 50.0 ]
+                },
+                "obj-1::obj-8::obj-1::obj-2::obj-42::obj-2": {
+                    "parameter_range": [ 0.01, 50.0 ]
+                },
+                "obj-1::obj-8::obj-1::obj-2::obj-51::obj-1": {
+                    "parameter_range": [ 0.0, 360.0 ]
+                },
+                "obj-1::obj-8::obj-1::obj-2::obj-51::obj-2": {
+                    "parameter_range": [ 0.0, 360.0 ]
+                },
                 "obj-1::obj-8::obj-1::obj-3::obj-18::obj-1": {
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
@@ -3175,6 +3244,12 @@
                     "parameter_range": [ 0.0, 100.0 ]
                 },
                 "obj-1::obj-8::obj-1::obj-55::obj-8::obj-2": {
+                    "parameter_range": [ 0.0, 100.0 ]
+                },
+                "obj-1::obj-8::obj-1::obj-56::obj-234::obj-1": {
+                    "parameter_range": [ 0.0, 100.0 ]
+                },
+                "obj-1::obj-8::obj-1::obj-56::obj-234::obj-2": {
                     "parameter_range": [ 0.0, 100.0 ]
                 },
                 "obj-1::obj-8::obj-1::obj-56::obj-31::obj-1": {

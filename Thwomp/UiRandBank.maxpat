@@ -375,28 +375,28 @@
             {
                 "patchline": {
                     "destination": [ "obj-55", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-7", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-57", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-7", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-3", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-8", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-4", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-8", 0 ]
                 }
             }
@@ -404,7 +404,7 @@
         "parameters": {
             "obj-2::obj-10::obj-1": [ "RandMod2Amount-Min", "Min", 0 ],
             "obj-2::obj-10::obj-2": [ "RandMod2Amount-Max", "Max", 0 ],
-            "obj-2::obj-12": [ "Mod4Dest", "Mod 2", 0 ],
+            "obj-2::obj-12": [ "RandMod2Amount", "Mod 2", 0 ],
             "obj-2::obj-18::obj-1": [ "RandMod3Amount-Min", "Min", 0 ],
             "obj-2::obj-18::obj-2": [ "RandMod3Amount-Max", "Max", 0 ],
             "obj-2::obj-20": [ "RandMod3Amount", "Mod 3", 0 ],
@@ -416,7 +416,7 @@
             "obj-2::obj-34::obj-1": [ "RandMod5Amount-Min", "Min", 0 ],
             "obj-2::obj-34::obj-2": [ "RandMod5Amount-Max", "Max", 0 ],
             "obj-2::obj-36": [ "RandMod5Amount", "Mod 5", 0 ],
-            "obj-2::obj-4": [ "Mod2Source", "Mod 1", 0 ],
+            "obj-2::obj-4": [ "RandMod1Amount", "Mod 1", 0 ],
             "obj-2::obj-42::obj-1": [ "RandLfoRate-Min", "Min", 0 ],
             "obj-2::obj-42::obj-2": [ "RandLfoRate-Max", "Max", 0 ],
             "obj-2::obj-44": [ "RandLfoRate", "Rate", 0 ],
@@ -477,6 +477,9 @@
             "obj-55::obj-7": [ "1-RandOscPchEnvDur", "Duration", 0 ],
             "obj-55::obj-8::obj-1": [ "1-RandOverdrive-Min", "Min", 0 ],
             "obj-55::obj-8::obj-2": [ "1-RandOverdrive-Max", "Max", 0 ],
+            "obj-56::obj-234::obj-1": [ "RandModVol-Min", "Min", 0 ],
+            "obj-56::obj-234::obj-2": [ "RandModVol-Max", "Max", 0 ],
+            "obj-56::obj-236": [ "RandModVol", "Vel > Vol", 0 ],
             "obj-56::obj-29": [ "RandFiltType", "Type", 0 ],
             "obj-56::obj-30": [ "RandFilt", "Filter", 0 ],
             "obj-56::obj-31::obj-1": [ "RandFiltFreq-Min", "Min", 0 ],
@@ -533,9 +536,6 @@
                 "obj-2::obj-10::obj-2": {
                     "parameter_range": [ -100.0, 100.0 ]
                 },
-                "obj-2::obj-12": {
-                    "parameter_longname": "Mod4Dest"
-                },
                 "obj-2::obj-18::obj-1": {
                     "parameter_range": [ -100.0, 100.0 ]
                 },
@@ -559,9 +559,6 @@
                 },
                 "obj-2::obj-34::obj-2": {
                     "parameter_range": [ -100.0, 100.0 ]
-                },
-                "obj-2::obj-4": {
-                    "parameter_longname": "Mod2Source"
                 },
                 "obj-2::obj-42::obj-1": {
                     "parameter_range": [ 0.01, 50.0 ]
@@ -663,6 +660,12 @@
                     "parameter_range": [ 0.0, 100.0 ]
                 },
                 "obj-55::obj-8::obj-2": {
+                    "parameter_range": [ 0.0, 100.0 ]
+                },
+                "obj-56::obj-234::obj-1": {
+                    "parameter_range": [ 0.0, 100.0 ]
+                },
+                "obj-56::obj-234::obj-2": {
                     "parameter_range": [ 0.0, 100.0 ]
                 },
                 "obj-56::obj-31::obj-1": {
