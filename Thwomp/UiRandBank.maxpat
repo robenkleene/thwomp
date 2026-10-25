@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 459.0, 110.0, 1746.0, 985.0 ],
+        "rect": [ 34.0, 95.0, 1660.0, 929.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -112,7 +112,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 297.0, 711.0, 295.0, 152.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 769.0, 341.0, 152.0 ],
+                    "presentation_rect": [ 0.0, 770.0, 341.0, 152.0 ],
                     "varname": "UiRandGlobal",
                     "viewvisibility": 1
                 }
@@ -411,7 +411,7 @@
             "obj-2::obj-51::obj-2": [ "RandLfoPhase-Max", "Max", 0 ],
             "obj-2::obj-53": [ "RandLfoPhase", "Phase", 0 ],
             "obj-2::obj-60": [ "RandLfoShape", "Shape", 0 ],
-            "obj-2::obj-67": [ "RandLfoSyncRate", "Sync Rate", 0 ],
+            "obj-2::obj-67": [ "RandLfoSyncRate", "Rate", 0 ],
             "obj-3::obj-138": [ "2-RandOscNote", "Note", 0 ],
             "obj-3::obj-18::obj-1": [ "2-RandOscAttack-Min", "Min", 0 ],
             "obj-3::obj-18::obj-2": [ "2-RandOscAttack-Max", "Max", 0 ],
