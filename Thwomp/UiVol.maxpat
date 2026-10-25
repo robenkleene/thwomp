@@ -210,7 +210,7 @@
                             "parameter_mmax": 100.0,
                             "parameter_modmode": 4,
                             "parameter_shortname": "ModVol",
-                            "parameter_type": 1,
+                            "parameter_type": 0,
                             "parameter_unitstyle": 5
                         }
                     },
