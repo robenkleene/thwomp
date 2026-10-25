@@ -291,6 +291,8 @@ To reconstruct this demo loops in Ableton Live, setup a track with [Sidewinder](
 
 ## Presets
 
+Each preset includes randomize settings for its sound, so randomizing generates similar sounds, e.g., randomizing **909 Kick** generates variations on a 909 kick. **Init** is the exception, its randomize settings use wide ranges for exploring new sounds.
+
 1. Kick
 2. 808 Kick
 3. 909 Kick
