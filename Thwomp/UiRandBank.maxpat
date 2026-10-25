@@ -251,10 +251,10 @@
                     "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "" ],
-                    "patching_rect": [ 535.0, 650.0, 128.0, 128.0 ],
+                    "patching_rect": [ 606.0, 711.0, 337.0, 152.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 616.0, 341.0, 152.0 ],
-                    "varname": "UiMod",
+                    "varname": "UiRandMod",
                     "viewvisibility": 1
                 }
             }
@@ -286,8 +286,15 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-56", 0 ],
+                    "destination": [ "obj-2", 0 ],
                     "order": 2,
+                    "source": [ "obj-125", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-56", 0 ],
+                    "order": 3,
                     "source": [ "obj-125", 0 ]
                 }
             },
@@ -303,6 +310,12 @@
                     "destination": [ "obj-8", 0 ],
                     "order": 0,
                     "source": [ "obj-125", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-78", 0 ],
+                    "source": [ "obj-2", 0 ]
                 }
             },
             {
