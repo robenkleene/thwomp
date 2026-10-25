@@ -14,6 +14,29 @@
         "boxes": [
             {
                 "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "hidden": 1,
+                    "id": "obj-34",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiTabSelectorHorizontal.maxpat",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 315.0, 43.0, 86.0, 12.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 316.0, 42.0, 74.0, 12.0 ],
+                    "varname": "TabSelector5[1]",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
                     "id": "obj-30",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -27,7 +50,8 @@
                         "RandOsc2": [ 0.0 ],
                         "RandTabEffect1": [ 0.0 ],
                         "RandTabEffect2": [ 0.0 ],
-                        "RandTabFilter": [ 0.0 ],
+                        "RandTabGlobal": [ 0.0 ],
+                        "RandTabMod": [ 0.0 ],
                         "RandTabOsc1": [ 0.0 ],
                         "RandTabOsc2": [ 0.0 ]
                     },
@@ -50,8 +74,11 @@
                         "RandTabEffect2": {
                             "id": "obj-13"
                         },
-                        "RandTabFilter": {
+                        "RandTabGlobal": {
                             "id": "obj-3"
+                        },
+                        "RandTabMod": {
+                            "id": "obj-31"
                         },
                         "RandTabOsc1": {
                             "id": "obj-1"
@@ -129,7 +156,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 716.5, 343.0, 10.0, 10.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 193.0, 2.0, 10.0, 10.0 ],
+                    "presentation_rect": [ 163.6, 2.0, 10.0, 10.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -153,7 +180,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 389.5, 343.0, 10.0, 10.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 55.74324324324324, 2.0, 10.0, 10.0 ],
+                    "presentation_rect": [ 59.6, 2.0, 10.0, 10.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -177,7 +204,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 563.5, 343.0, 10.0, 10.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 109.2, 2.0, 10.0, 10.0 ],
+                    "presentation_rect": [ 116.4, 2.0, 10.0, 10.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -201,7 +228,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 235.0, 343.0, 10.0, 10.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 11.0, 2.0, 10.0, 10.0 ],
+                    "presentation_rect": [ 12.0, 2.0, 10.0, 10.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -229,7 +256,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 212.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 201.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 172.8, 0.0, 40.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -268,7 +295,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 166.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 117.2, 0.0, 32.0, 14.0 ],
+                    "presentation_rect": [ 124.4, 0.0, 32.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -897,7 +924,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 264.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 248.0, 0.0, 58.0, 14.0 ],
+                    "presentation_rect": [ 249.0, 0.0, 37.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -910,16 +937,16 @@
                         },
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "RandTabFilter",
+                            "parameter_longname": "RandTabGlobal",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "RandTabFilter",
+                            "parameter_shortname": "RandTabGlobal",
                             "parameter_type": 2
                         }
                     },
                     "text": "Global",
                     "texton": "Osc",
-                    "varname": "RandTabFilter"
+                    "varname": "RandTabGlobal"
                 }
             },
             {
@@ -936,7 +963,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 120.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 65.0, 0.0, 40.0, 14.0 ],
+                    "presentation_rect": [ 68.8, 0.0, 40.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -972,7 +999,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 496.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 52.7027027027027, 0.0, 52.0, 14.0 ],
+                    "presentation_rect": [ 55.2, 0.0, 55.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -992,7 +1019,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 354.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 248.0, 0.0, 58.0, 14.0 ],
+                    "presentation_rect": [ 249.0, 0.0, 37.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -1015,7 +1042,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 74.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 19.0, 0.0, 32.0, 14.0 ],
+                    "presentation_rect": [ 20.0, 0.0, 32.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -1051,7 +1078,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 635.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 8.0, 0.0, 43.0, 14.0 ],
+                    "presentation_rect": [ 8.0, 0.0, 45.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -1067,6 +1094,7 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
+                    "hidden": 1,
                     "id": "obj-4",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
@@ -1093,7 +1121,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 774.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 106.4, 0.0, 43.0, 14.0 ],
+                    "presentation_rect": [ 112.4, 0.0, 45.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -1113,7 +1141,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 921.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 188.0, 0.0, 58.0, 14.0 ],
+                    "presentation_rect": [ 159.6, 0.0, 55.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -1175,7 +1203,6 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
-                    "hidden": 1,
                     "id": "obj-15",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
@@ -1212,6 +1239,65 @@
                     "presentation_rect": [ 60.0, 42.0, 74.0, 12.0 ],
                     "varname": "TabSelector2",
                     "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "activebgcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.0 ],
+                    "activebgoncolor": [ 1.0, 0.7254901960784313, 0.00392156862745098, 0.0 ],
+                    "bordercolor": [ 0.30980392156862746, 0.30980392156862746, 0.30980392156862746, 0.0 ],
+                    "id": "obj-31",
+                    "maxclass": "live.text",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 361.0, 0.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 217.0, 0.0, 30.0, 14.0 ],
+                    "saved_attribute_attributes": {
+                        "activebgcolor": {
+                            "expression": ""
+                        },
+                        "activebgoncolor": {
+                            "expression": ""
+                        },
+                        "bordercolor": {
+                            "expression": ""
+                        },
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "RandTabMod",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "RandTabMod",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Mod",
+                    "texton": "Osc",
+                    "varname": "RandTabMod"
+                }
+            },
+            {
+                "box": {
+                    "angle": 270.0,
+                    "bgcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ],
+                    "id": "obj-32",
+                    "maxclass": "panel",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 361.0, 0.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 217.0, 0.0, 30.0, 14.0 ],
+                    "proportion": 0.39,
+                    "saved_attribute_attributes": {
+                        "bgfillcolor": {
+                            "expression": "themecolor.live_surface_bg"
+                        }
+                    }
                 }
             }
         ],
@@ -1352,7 +1438,8 @@
             "obj-23": [ "RandOsc2", "RandOsc2", 0 ],
             "obj-24": [ "RandEffect1", "RandEffect1", 0 ],
             "obj-25": [ "RandEffect2", "RandEffect2", 0 ],
-            "obj-3": [ "RandTabFilter", "RandTabFilter", 0 ],
+            "obj-3": [ "RandTabGlobal", "RandTabGlobal", 0 ],
+            "obj-31": [ "RandTabMod", "RandTabMod", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
