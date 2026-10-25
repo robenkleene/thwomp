@@ -9,9 +9,734 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 262.0, 1165.0, 762.0 ],
+        "rect": [ 34.0, 262.0, 1550.0, 762.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-139",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1320.0, 620.0, 77.0, 22.0 ],
+                    "text": "s #1-output"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-138",
+                    "maxclass": "newobj",
+                    "numinlets": 6,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 1320.0, 588.0, 99.0, 22.0 ],
+                    "text": "RandomParam 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-137",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1320.0, 556.0, 145.0, 22.0 ],
+                    "text": "loadmess mod Mod5Dest"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-136",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1396.0, 524.0, 77.0, 22.0 ],
+                    "text": "loadmess 24"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-135",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1320.0, 524.0, 70.0, 22.0 ],
+                    "text": "loadmess 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-134",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1320.0, 492.0, 77.0, 22.0 ],
+                    "text": "s #1-output"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-133",
+                    "maxclass": "newobj",
+                    "numinlets": 6,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 1320.0, 460.0, 99.0, 22.0 ],
+                    "text": "RandomParam 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-132",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1320.0, 428.0, 158.0, 22.0 ],
+                    "text": "loadmess mod Mod5Source"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-131",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1396.0, 396.0, 70.0, 22.0 ],
+                    "text": "loadmess 8"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-130",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1320.0, 396.0, 70.0, 22.0 ],
+                    "text": "loadmess 0"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-129",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1320.0, 364.0, 89.0, 22.0 ],
+                    "text": "r #1-randomize"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-128",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 1320.0, 332.0, 48.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 191.0, 2.0, 46.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "RandMod5Route",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Route",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Route",
+                    "texton": "Route",
+                    "varname": "RandMod5Route"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-127",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1150.0, 620.0, 77.0, 22.0 ],
+                    "text": "s #1-output"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-126",
+                    "maxclass": "newobj",
+                    "numinlets": 6,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 1150.0, 588.0, 99.0, 22.0 ],
+                    "text": "RandomParam 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-125",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1150.0, 556.0, 145.0, 22.0 ],
+                    "text": "loadmess mod Mod4Dest"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-124",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1226.0, 524.0, 77.0, 22.0 ],
+                    "text": "loadmess 24"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-123",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1150.0, 524.0, 70.0, 22.0 ],
+                    "text": "loadmess 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-122",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1150.0, 492.0, 77.0, 22.0 ],
+                    "text": "s #1-output"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-121",
+                    "maxclass": "newobj",
+                    "numinlets": 6,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 1150.0, 460.0, 99.0, 22.0 ],
+                    "text": "RandomParam 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-120",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1150.0, 428.0, 158.0, 22.0 ],
+                    "text": "loadmess mod Mod4Source"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-119",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1226.0, 396.0, 70.0, 22.0 ],
+                    "text": "loadmess 8"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-118",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1150.0, 396.0, 70.0, 22.0 ],
+                    "text": "loadmess 0"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-117",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1150.0, 364.0, 89.0, 22.0 ],
+                    "text": "r #1-randomize"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-116",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 1150.0, 332.0, 48.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 144.0, 2.0, 46.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "RandMod4Route",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Route",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Route",
+                    "texton": "Route",
+                    "varname": "RandMod4Route"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-115",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 980.0, 620.0, 77.0, 22.0 ],
+                    "text": "s #1-output"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-114",
+                    "maxclass": "newobj",
+                    "numinlets": 6,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 980.0, 588.0, 99.0, 22.0 ],
+                    "text": "RandomParam 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-113",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 980.0, 556.0, 145.0, 22.0 ],
+                    "text": "loadmess mod Mod3Dest"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-112",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1056.0, 524.0, 77.0, 22.0 ],
+                    "text": "loadmess 24"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-111",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 980.0, 524.0, 70.0, 22.0 ],
+                    "text": "loadmess 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-110",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 980.0, 492.0, 77.0, 22.0 ],
+                    "text": "s #1-output"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-109",
+                    "maxclass": "newobj",
+                    "numinlets": 6,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 980.0, 460.0, 99.0, 22.0 ],
+                    "text": "RandomParam 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-108",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 980.0, 428.0, 158.0, 22.0 ],
+                    "text": "loadmess mod Mod3Source"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-107",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1056.0, 396.0, 70.0, 22.0 ],
+                    "text": "loadmess 8"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-106",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 980.0, 396.0, 70.0, 22.0 ],
+                    "text": "loadmess 0"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-105",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 980.0, 364.0, 89.0, 22.0 ],
+                    "text": "r #1-randomize"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-104",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 980.0, 332.0, 48.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 97.0, 2.0, 46.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "RandMod3Route",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Route",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Route",
+                    "texton": "Route",
+                    "varname": "RandMod3Route"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-103",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 810.0, 620.0, 77.0, 22.0 ],
+                    "text": "s #1-output"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-102",
+                    "maxclass": "newobj",
+                    "numinlets": 6,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 810.0, 588.0, 99.0, 22.0 ],
+                    "text": "RandomParam 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-101",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 810.0, 556.0, 145.0, 22.0 ],
+                    "text": "loadmess mod Mod2Dest"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-100",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 886.0, 524.0, 77.0, 22.0 ],
+                    "text": "loadmess 24"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-99",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 810.0, 524.0, 70.0, 22.0 ],
+                    "text": "loadmess 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-98",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 810.0, 492.0, 77.0, 22.0 ],
+                    "text": "s #1-output"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-97",
+                    "maxclass": "newobj",
+                    "numinlets": 6,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 810.0, 460.0, 99.0, 22.0 ],
+                    "text": "RandomParam 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-96",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 810.0, 428.0, 158.0, 22.0 ],
+                    "text": "loadmess mod Mod2Source"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-95",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 886.0, 396.0, 70.0, 22.0 ],
+                    "text": "loadmess 8"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-94",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 810.0, 396.0, 70.0, 22.0 ],
+                    "text": "loadmess 0"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-93",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 810.0, 364.0, 89.0, 22.0 ],
+                    "text": "r #1-randomize"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-92",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 810.0, 332.0, 48.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 50.0, 2.0, 46.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "RandMod2Route",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Route",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Route",
+                    "texton": "Route",
+                    "varname": "RandMod2Route"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-91",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 640.0, 620.0, 77.0, 22.0 ],
+                    "text": "s #1-output"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-90",
+                    "maxclass": "newobj",
+                    "numinlets": 6,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 640.0, 588.0, 99.0, 22.0 ],
+                    "text": "RandomParam 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-89",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 640.0, 556.0, 145.0, 22.0 ],
+                    "text": "loadmess mod Mod1Dest"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-88",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 716.0, 524.0, 77.0, 22.0 ],
+                    "text": "loadmess 24"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-87",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 640.0, 524.0, 70.0, 22.0 ],
+                    "text": "loadmess 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-86",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 640.0, 492.0, 77.0, 22.0 ],
+                    "text": "s #1-output"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-85",
+                    "maxclass": "newobj",
+                    "numinlets": 6,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 640.0, 460.0, 99.0, 22.0 ],
+                    "text": "RandomParam 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-84",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 640.0, 428.0, 158.0, 22.0 ],
+                    "text": "loadmess mod Mod1Source"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-83",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 716.0, 396.0, 70.0, 22.0 ],
+                    "text": "loadmess 8"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-82",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 640.0, 396.0, 70.0, 22.0 ],
+                    "text": "loadmess 0"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-81",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 640.0, 364.0, 89.0, 22.0 ],
+                    "text": "r #1-randomize"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-80",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 640.0, 332.0, 48.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 3.0, 2.0, 46.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "RandMod1Route",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Route",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Route",
+                    "texton": "Route",
+                    "varname": "RandMod1Route"
+                }
+            },
             {
                 "box": {
                     "id": "obj-78",
@@ -26,10 +751,15 @@
                         "RandLfoShape": [ 0.0 ],
                         "RandLfoSyncRate": [ 0.0 ],
                         "RandMod1Amount": [ 0.0 ],
+                        "RandMod1Route": [ 0.0 ],
                         "RandMod2Amount": [ 0.0 ],
+                        "RandMod2Route": [ 0.0 ],
                         "RandMod3Amount": [ 0.0 ],
+                        "RandMod3Route": [ 0.0 ],
                         "RandMod4Amount": [ 0.0 ],
-                        "RandMod5Amount": [ 0.0 ]
+                        "RandMod4Route": [ 0.0 ],
+                        "RandMod5Amount": [ 0.0 ],
+                        "RandMod5Route": [ 0.0 ]
                     },
                     "restore_extra": {
                         "RandLfoPhase": {
@@ -47,17 +777,32 @@
                         "RandMod1Amount": {
                             "id": "obj-4"
                         },
+                        "RandMod1Route": {
+                            "id": "obj-80"
+                        },
                         "RandMod2Amount": {
                             "id": "obj-12"
+                        },
+                        "RandMod2Route": {
+                            "id": "obj-92"
                         },
                         "RandMod3Amount": {
                             "id": "obj-20"
                         },
+                        "RandMod3Route": {
+                            "id": "obj-104"
+                        },
                         "RandMod4Amount": {
                             "id": "obj-28"
                         },
+                        "RandMod4Route": {
+                            "id": "obj-116"
+                        },
                         "RandMod5Amount": {
                             "id": "obj-36"
+                        },
+                        "RandMod5Route": {
+                            "id": "obj-128"
                         }
                     },
                     "text": "autopattr",
@@ -1159,8 +1904,142 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-102", 3 ],
+                    "source": [ "obj-100", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-102", 4 ],
+                    "source": [ "obj-101", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-103", 0 ],
+                    "source": [ "obj-102", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-109", 1 ],
+                    "order": 1,
+                    "source": [ "obj-104", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-114", 1 ],
+                    "order": 0,
+                    "source": [ "obj-104", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-109", 0 ],
+                    "order": 1,
+                    "source": [ "obj-105", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-114", 0 ],
+                    "order": 0,
+                    "source": [ "obj-105", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-109", 2 ],
+                    "source": [ "obj-106", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-109", 3 ],
+                    "source": [ "obj-107", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-109", 4 ],
+                    "source": [ "obj-108", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-110", 0 ],
+                    "source": [ "obj-109", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-10", 0 ],
                     "source": [ "obj-11", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-114", 2 ],
+                    "source": [ "obj-111", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-114", 3 ],
+                    "source": [ "obj-112", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-114", 4 ],
+                    "source": [ "obj-113", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-115", 0 ],
+                    "source": [ "obj-114", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-121", 1 ],
+                    "order": 1,
+                    "source": [ "obj-116", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-126", 1 ],
+                    "order": 0,
+                    "source": [ "obj-116", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-121", 0 ],
+                    "order": 1,
+                    "source": [ "obj-117", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-126", 0 ],
+                    "order": 0,
+                    "source": [ "obj-117", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-121", 2 ],
+                    "source": [ "obj-118", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-121", 3 ],
+                    "source": [ "obj-119", 0 ]
                 }
             },
             {
@@ -1179,8 +2058,120 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-121", 4 ],
+                    "source": [ "obj-120", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-122", 0 ],
+                    "source": [ "obj-121", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-126", 2 ],
+                    "source": [ "obj-123", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-126", 3 ],
+                    "source": [ "obj-124", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-126", 4 ],
+                    "source": [ "obj-125", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-127", 0 ],
+                    "source": [ "obj-126", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-133", 1 ],
+                    "order": 1,
+                    "source": [ "obj-128", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-138", 1 ],
+                    "order": 0,
+                    "source": [ "obj-128", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-133", 0 ],
+                    "order": 1,
+                    "source": [ "obj-129", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-138", 0 ],
+                    "order": 0,
+                    "source": [ "obj-129", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-15", 0 ],
                     "source": [ "obj-13", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-133", 2 ],
+                    "source": [ "obj-130", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-133", 3 ],
+                    "source": [ "obj-131", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-133", 4 ],
+                    "source": [ "obj-132", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-134", 0 ],
+                    "source": [ "obj-133", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-138", 2 ],
+                    "source": [ "obj-135", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-138", 3 ],
+                    "source": [ "obj-136", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-138", 4 ],
+                    "source": [ "obj-137", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-139", 0 ],
+                    "source": [ "obj-138", 0 ]
                 }
             },
             {
@@ -1617,15 +2608,152 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-85", 1 ],
+                    "order": 1,
+                    "source": [ "obj-80", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-90", 1 ],
+                    "order": 0,
+                    "source": [ "obj-80", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-85", 0 ],
+                    "order": 1,
+                    "source": [ "obj-81", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-90", 0 ],
+                    "order": 0,
+                    "source": [ "obj-81", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-85", 2 ],
+                    "source": [ "obj-82", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-85", 3 ],
+                    "source": [ "obj-83", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-85", 4 ],
+                    "source": [ "obj-84", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-86", 0 ],
+                    "source": [ "obj-85", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-90", 2 ],
+                    "source": [ "obj-87", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-90", 3 ],
+                    "source": [ "obj-88", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-90", 4 ],
+                    "source": [ "obj-89", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-10", 0 ],
                     "source": [ "obj-9", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-91", 0 ],
+                    "source": [ "obj-90", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-102", 1 ],
+                    "order": 0,
+                    "source": [ "obj-92", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-97", 1 ],
+                    "order": 1,
+                    "source": [ "obj-92", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-102", 0 ],
+                    "order": 0,
+                    "source": [ "obj-93", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-97", 0 ],
+                    "order": 1,
+                    "source": [ "obj-93", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-97", 2 ],
+                    "source": [ "obj-94", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-97", 3 ],
+                    "source": [ "obj-95", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-97", 4 ],
+                    "source": [ "obj-96", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-98", 0 ],
+                    "source": [ "obj-97", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-102", 2 ],
+                    "source": [ "obj-99", 0 ]
                 }
             }
         ],
         "parameters": {
+            "obj-104": [ "RandMod3Route", "Route", 0 ],
             "obj-10::obj-1": [ "RandMod2Amount-Min", "Min", 0 ],
             "obj-10::obj-2": [ "RandMod2Amount-Max", "Max", 0 ],
+            "obj-116": [ "RandMod4Route", "Route", 0 ],
             "obj-12": [ "RandMod2Amount", "Mod 2", 0 ],
+            "obj-128": [ "RandMod5Route", "Route", 0 ],
             "obj-18::obj-1": [ "RandMod3Amount-Min", "Min", 0 ],
             "obj-18::obj-2": [ "RandMod3Amount-Max", "Max", 0 ],
             "obj-20": [ "RandMod3Amount", "Mod 3", 0 ],
@@ -1646,6 +2774,8 @@
             "obj-53": [ "RandLfoPhase", "Phase", 0 ],
             "obj-60": [ "RandLfoShape", "Shape", 0 ],
             "obj-67": [ "RandLfoSyncRate", "Rate", 0 ],
+            "obj-80": [ "RandMod1Route", "Route", 0 ],
+            "obj-92": [ "RandMod2Route", "Route", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,

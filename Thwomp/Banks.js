@@ -46,7 +46,7 @@ var BUTTONS = [
 ["-",  "$1-RandOvertone",      "RandEffect1",      "$1-RandOverdrive",     "RandEffect2",      "RandVol",              "-",               "-"],
 ["-",  "RandFiltFreq",         "RandFilt",         "RandFiltQ",            "-",                "RandFiltType",         "RandModVol",      "-"],
 ["-",  "RandRingAttack",       "RandRing",         "RandRingDecay",        "RandRingFilt",     "RandRingGain",         "-",               "-"],
-["-",  "RandMod$3Amount",      "-",                "RandLfoRate",          "RandLfoSyncRate",  "RandLfoPhase",         "RandLfoShape",    "-"],
+["-",  "RandMod$3Amount",      "RandMod$3Route",   "RandLfoRate",          "RandLfoSyncRate",  "RandLfoPhase",         "RandLfoShape",    "-"],
 ];
 
 // State
