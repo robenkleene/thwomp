@@ -19,7 +19,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 965.0, 567.0, 84.0, 22.0 ],
+                    "patching_rect": [ 704.0, 552.0, 84.0, 22.0 ],
                     "text": "prepend width"
                 }
             },
@@ -29,9 +29,9 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 2,
-                    "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 965.0, 532.0, 67.0, 22.0 ],
-                    "text": "unpack 0 0"
+                    "outlettype": [ "float", "float" ],
+                    "patching_rect": [ 704.0, 517.0, 74.0, 22.0 ],
+                    "text": "unpack 0. 0."
                 }
             },
             {
@@ -41,31 +41,8 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 965.0, 498.0, 140.0, 22.0 ],
+                    "patching_rect": [ 704.0, 483.0, 140.0, 22.0 ],
                     "text": "getattr presentation_size"
-                }
-            },
-            {
-                "box": {
-                    "bgmode": 0,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "hidden": 1,
-                    "id": "obj-49",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "UiTabSelectorHorizontal.maxpat",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 965.0, 666.0, 86.0, 12.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 1033.0, 256.0, 74.0, 12.0 ],
-                    "varname": "TabSelector6",
-                    "viewvisibility": 1
                 }
             },
             {
@@ -75,7 +52,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 793.0, 567.0, 84.0, 22.0 ],
+                    "patching_rect": [ 857.0, 552.0, 84.0, 22.0 ],
                     "text": "prepend width"
                 }
             },
@@ -85,9 +62,9 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 2,
-                    "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 793.0, 532.0, 67.0, 22.0 ],
-                    "text": "unpack 0 0"
+                    "outlettype": [ "float", "float" ],
+                    "patching_rect": [ 857.0, 517.0, 74.0, 22.0 ],
+                    "text": "unpack 0. 0."
                 }
             },
             {
@@ -97,7 +74,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 793.0, 498.0, 140.0, 22.0 ],
+                    "patching_rect": [ 857.0, 483.0, 140.0, 22.0 ],
                     "text": "getattr presentation_size"
                 }
             },
@@ -108,7 +85,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 641.0, 567.0, 84.0, 22.0 ],
+                    "patching_rect": [ 549.0, 552.0, 84.0, 22.0 ],
                     "text": "prepend width"
                 }
             },
@@ -118,9 +95,9 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 2,
-                    "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 641.0, 532.0, 67.0, 22.0 ],
-                    "text": "unpack 0 0"
+                    "outlettype": [ "float", "float" ],
+                    "patching_rect": [ 549.0, 517.0, 74.0, 22.0 ],
+                    "text": "unpack 0. 0."
                 }
             },
             {
@@ -130,7 +107,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 641.0, 498.0, 140.0, 22.0 ],
+                    "patching_rect": [ 549.0, 483.0, 140.0, 22.0 ],
                     "text": "getattr presentation_size"
                 }
             },
@@ -141,7 +118,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 490.0, 567.0, 84.0, 22.0 ],
+                    "patching_rect": [ 233.0, 552.0, 84.0, 22.0 ],
                     "text": "prepend width"
                 }
             },
@@ -151,9 +128,9 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 2,
-                    "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 490.0, 532.0, 67.0, 22.0 ],
-                    "text": "unpack 0 0"
+                    "outlettype": [ "float", "float" ],
+                    "patching_rect": [ 233.0, 517.0, 74.0, 22.0 ],
+                    "text": "unpack 0. 0."
                 }
             },
             {
@@ -163,7 +140,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 490.0, 498.0, 140.0, 22.0 ],
+                    "patching_rect": [ 233.0, 483.0, 140.0, 22.0 ],
                     "text": "getattr presentation_size"
                 }
             },
@@ -174,7 +151,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 342.0, 567.0, 84.0, 22.0 ],
+                    "patching_rect": [ 389.0, 552.0, 84.0, 22.0 ],
                     "text": "prepend width"
                 }
             },
@@ -184,9 +161,9 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 2,
-                    "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 342.0, 532.0, 67.0, 22.0 ],
-                    "text": "unpack 0 0"
+                    "outlettype": [ "float", "float" ],
+                    "patching_rect": [ 389.0, 517.0, 74.0, 22.0 ],
+                    "text": "unpack 0. 0."
                 }
             },
             {
@@ -196,7 +173,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 342.0, 498.0, 140.0, 22.0 ],
+                    "patching_rect": [ 389.0, 483.0, 140.0, 22.0 ],
                     "text": "getattr presentation_size"
                 }
             },
@@ -207,7 +184,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 188.0, 567.0, 84.0, 22.0 ],
+                    "patching_rect": [ 1004.0, 552.0, 84.0, 22.0 ],
                     "text": "prepend width"
                 }
             },
@@ -217,9 +194,9 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 2,
-                    "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 188.0, 532.0, 67.0, 22.0 ],
-                    "text": "unpack 0 0"
+                    "outlettype": [ "float", "float" ],
+                    "patching_rect": [ 1004.0, 517.0, 74.0, 22.0 ],
+                    "text": "unpack 0. 0."
                 }
             },
             {
@@ -229,31 +206,8 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 188.0, 498.0, 140.0, 22.0 ],
+                    "patching_rect": [ 1004.0, 483.0, 140.0, 22.0 ],
                     "text": "getattr presentation_size"
-                }
-            },
-            {
-                "box": {
-                    "bgmode": 0,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "hidden": 1,
-                    "id": "obj-34",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "UiTabSelectorHorizontal.maxpat",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 315.0, 43.0, 86.0, 12.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 316.0, 42.0, 74.0, 12.0 ],
-                    "varname": "TabSelector5[1]",
-                    "viewvisibility": 1
                 }
             },
             {
@@ -1353,7 +1307,7 @@
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 348.0, 596.0, 128.0, 55.0 ],
+                    "patching_rect": [ 395.0, 581.0, 128.0, 55.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 55.2, 0.0, 55.0, 14.0 ],
                     "proportion": 0.39,
@@ -1374,7 +1328,7 @@
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 188.0, 596.0, 128.0, 55.0 ],
+                    "patching_rect": [ 1004.0, 581.0, 128.0, 55.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 249.0, 0.0, 37.0, 14.0 ],
                     "proportion": 0.39,
@@ -1383,7 +1337,7 @@
                             "expression": "themecolor.live_surface_bg"
                         }
                     },
-                    "varname": "TabBg1"
+                    "varname": "TabBg6"
                 }
             },
             {
@@ -1434,7 +1388,7 @@
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 490.0, 601.0, 128.0, 55.0 ],
+                    "patching_rect": [ 233.0, 586.0, 128.0, 55.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 8.0, 0.0, 45.0, 14.0 ],
                     "proportion": 0.39,
@@ -1443,7 +1397,7 @@
                             "expression": "themecolor.live_surface_bg"
                         }
                     },
-                    "varname": "TabBg3"
+                    "varname": "TabBg1"
                 }
             },
             {
@@ -1453,7 +1407,6 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
-                    "hidden": 1,
                     "id": "obj-4",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
@@ -1462,9 +1415,9 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 188.0, 666.0, 80.0, 12.0 ],
+                    "patching_rect": [ 233.0, 651.0, 80.0, 12.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 42.0, 74.0, 12.0 ],
+                    "presentation_rect": [ 0.0, 7.0, 63.0, 12.0 ],
                     "varname": "TabSelector1",
                     "viewvisibility": 1
                 }
@@ -1478,7 +1431,7 @@
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 641.0, 601.0, 128.0, 55.0 ],
+                    "patching_rect": [ 549.0, 586.0, 128.0, 55.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 112.4, 0.0, 45.0, 14.0 ],
                     "proportion": 0.39,
@@ -1487,7 +1440,7 @@
                             "expression": "themecolor.live_surface_bg"
                         }
                     },
-                    "varname": "TabBg4"
+                    "varname": "TabBg3"
                 }
             },
             {
@@ -1499,7 +1452,7 @@
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 965.0, 601.0, 128.0, 55.0 ],
+                    "patching_rect": [ 704.0, 586.0, 128.0, 55.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 159.6, 0.0, 55.0, 14.0 ],
                     "proportion": 0.39,
@@ -1508,7 +1461,7 @@
                             "expression": "themecolor.live_surface_bg"
                         }
                     },
-                    "varname": "TabBg6"
+                    "varname": "TabBg4"
                 }
             },
             {
@@ -1519,28 +1472,6 @@
                     "enablehscroll": 0,
                     "enablevscroll": 0,
                     "hidden": 1,
-                    "id": "obj-16",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "UiTabSelectorHorizontal.maxpat",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 641.0, 666.0, 83.0, 12.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 180.0, 42.0, 74.0, 12.0 ],
-                    "varname": "TabSelector4",
-                    "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
-                    "bgmode": 0,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
                     "id": "obj-6",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
@@ -1549,9 +1480,9 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 793.0, 666.0, 86.0, 12.0 ],
+                    "patching_rect": [ 857.0, 651.0, 86.0, 12.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 240.0, 42.0, 74.0, 12.0 ],
+                    "presentation_rect": [ 209.0, 7.0, 74.0, 12.0 ],
                     "varname": "TabSelector5",
                     "viewvisibility": 1
                 }
@@ -1572,9 +1503,9 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 490.0, 666.0, 79.0, 12.0 ],
+                    "patching_rect": [ 549.0, 651.0, 79.0, 12.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 120.0, 42.0, 74.0, 12.0 ],
+                    "presentation_rect": [ 104.5, 7.0, 74.0, 12.0 ],
                     "varname": "TabSelector3",
                     "viewvisibility": 1
                 }
@@ -1595,9 +1526,9 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 342.0, 666.0, 85.0, 12.0 ],
+                    "patching_rect": [ 389.0, 651.0, 85.0, 12.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 60.0, 42.0, 74.0, 12.0 ],
+                    "presentation_rect": [ 47.0, 7.0, 74.0, 12.0 ],
                     "varname": "TabSelector2",
                     "viewvisibility": 1
                 }
@@ -1650,7 +1581,7 @@
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 793.0, 601.0, 123.0, 55.0 ],
+                    "patching_rect": [ 857.0, 586.0, 123.0, 55.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 217.0, 0.0, 30.0, 14.0 ],
                     "proportion": 0.39,
@@ -1660,6 +1591,52 @@
                         }
                     },
                     "varname": "TabBg5"
+                }
+            },
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "hidden": 1,
+                    "id": "obj-16",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiTabSelectorHorizontal.maxpat",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 704.0, 651.0, 83.0, 12.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 152.0, 7.0, 74.0, 12.0 ],
+                    "varname": "TabSelector4",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "hidden": 1,
+                    "id": "obj-49",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiTabSelectorHorizontal.maxpat",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 1004.0, 651.0, 86.0, 12.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 241.0, 7.0, 74.0, 12.0 ],
+                    "varname": "TabSelector6",
+                    "viewvisibility": 1
                 }
             }
         ],
@@ -1804,7 +1781,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-4", 0 ],
+                    "destination": [ "obj-49", 0 ],
                     "source": [ "obj-35", 0 ]
                 }
             },
@@ -1846,7 +1823,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-15", 0 ],
+                    "destination": [ "obj-4", 0 ],
                     "source": [ "obj-40", 0 ]
                 }
             },
@@ -1870,7 +1847,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-16", 0 ],
+                    "destination": [ "obj-15", 0 ],
                     "source": [ "obj-43", 0 ]
                 }
             },
@@ -1918,7 +1895,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-49", 0 ],
+                    "destination": [ "obj-16", 0 ],
                     "source": [ "obj-50", 0 ]
                 }
             },
