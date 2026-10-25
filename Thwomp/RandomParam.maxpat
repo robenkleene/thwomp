@@ -146,7 +146,7 @@
             },
             {
                 "box": {
-                    "comment": "(int) max value",
+                    "comment": "(int float) max value",
                     "id": "obj-5",
                     "index": 0,
                     "maxclass": "inlet",
@@ -170,7 +170,7 @@
             },
             {
                 "box": {
-                    "comment": "(int) min value",
+                    "comment": "(int float) min value",
                     "id": "obj-2",
                     "index": 0,
                     "maxclass": "inlet",

@@ -153,8 +153,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 40.0, 440.0, 29.5, 22.0 ],
-                    "text": ">"
+                    "patching_rect": [ 40.0, 440.0, 33.0, 22.0 ],
+                    "text": "> 0."
                 }
             },
             {
@@ -232,8 +232,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 160.0, 440.0, 29.5, 22.0 ],
-                    "text": "<"
+                    "patching_rect": [ 160.0, 440.0, 33.0, 22.0 ],
+                    "text": "< 0."
                 }
             },
             {
