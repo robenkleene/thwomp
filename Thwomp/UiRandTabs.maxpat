@@ -331,7 +331,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 716.5, 343.0, 10.0, 10.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 163.6, 2.0, 10.0, 10.0 ],
+                    "presentation_rect": [ 164.0, 2.0, 10.0, 10.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -355,7 +355,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 389.5, 343.0, 10.0, 10.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 59.6, 2.0, 10.0, 10.0 ],
+                    "presentation_rect": [ 59.0, 2.0, 10.0, 10.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -379,7 +379,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 563.5, 343.0, 10.0, 10.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 116.4, 2.0, 10.0, 10.0 ],
+                    "presentation_rect": [ 116.0, 2.0, 10.0, 10.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -431,7 +431,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 212.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 172.8, 0.0, 40.0, 14.0 ],
+                    "presentation_rect": [ 173.0, 0.0, 40.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -470,7 +470,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 166.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 124.4, 0.0, 32.0, 14.0 ],
+                    "presentation_rect": [ 124.0, 0.0, 32.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -1273,7 +1273,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 120.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 68.8, 0.0, 40.0, 14.0 ],
+                    "presentation_rect": [ 69.0, 0.0, 40.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -1309,7 +1309,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 395.0, 581.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 55.2, 0.0, 55.0, 14.0 ],
+                    "presentation_rect": [ 55.0, 0.0, 55.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -1407,6 +1407,7 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
+                    "hidden": 1,
                     "id": "obj-4",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
@@ -1433,7 +1434,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 549.0, 586.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 112.4, 0.0, 45.0, 14.0 ],
+                    "presentation_rect": [ 112.0, 0.0, 45.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -1454,7 +1455,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 704.0, 586.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 159.6, 0.0, 55.0, 14.0 ],
+                    "presentation_rect": [ 160.0, 0.0, 55.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -1462,29 +1463,6 @@
                         }
                     },
                     "varname": "TabBg4"
-                }
-            },
-            {
-                "box": {
-                    "bgmode": 0,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "hidden": 1,
-                    "id": "obj-6",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "UiTabSelectorHorizontal.maxpat",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 857.0, 651.0, 86.0, 12.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 209.0, 7.0, 74.0, 12.0 ],
-                    "varname": "TabSelector5",
-                    "viewvisibility": 1
                 }
             },
             {
@@ -1505,7 +1483,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 549.0, 651.0, 79.0, 12.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 104.5, 7.0, 74.0, 12.0 ],
+                    "presentation_rect": [ 104.0, 7.0, 74.0, 12.0 ],
                     "varname": "TabSelector3",
                     "viewvisibility": 1
                 }
@@ -1636,6 +1614,28 @@
                     "presentation": 1,
                     "presentation_rect": [ 241.0, 7.0, 74.0, 12.0 ],
                     "varname": "TabSelector6",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-6",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiTabSelectorHorizontal.maxpat",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 857.0, 651.0, 86.0, 12.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 209.0, 7.0, 74.0, 12.0 ],
+                    "varname": "TabSelector5",
                     "viewvisibility": 1
                 }
             }

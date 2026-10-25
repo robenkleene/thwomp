@@ -20,7 +20,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 130.0, 150.0, 300.0, 47.0 ],
-                    "text": "`width` is the tab's width, `+ 16.` adds the 8 px caps on each side, `- 8.` places `PanelRight` at the right edge, and `- 7.` sizes `PanelTab` to reach into it, matching the original 74 px layout."
+                    "text": "`width` is the tab's width and `+ 16.` adds the 8 px caps on each side. `- 8.` places `PanelRight` at the right edge and sizes `PanelTab` to end at its center, mirroring the left edge at `PanelLeft`'s center. The caps sit at y 0 so their centers line up with `PanelTab`'s top edge."
                 }
             },
             {
@@ -36,24 +36,13 @@
             },
             {
                 "box": {
-                    "id": "obj-25",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "float" ],
-                    "patching_rect": [ 83.0, 216.0, 36.0, 22.0 ],
-                    "text": "- 7."
-                }
-            },
-            {
-                "box": {
                     "id": "obj-4",
                     "maxclass": "message",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 761.0, 234.0, 155.0, 22.0 ],
-                    "text": "presentation_rect $1 1. 8 8."
+                    "text": "presentation_rect $1 0. 8. 8."
                 }
             },
             {
@@ -135,7 +124,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 240.0, 238.0, 128.0, 128.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 1.0, 8.0, 8.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 8.0, 8.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -157,7 +146,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 408.0, 238.0, 128.0, 128.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 66.0, 1.0, 8.0, 8.0 ],
+                    "presentation_rect": [ 66.0, 0.0, 8.0, 8.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -178,7 +167,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 7.0, 319.0, 89.0, 124.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 4.0, 4.0, 67.0, 8.0 ],
+                    "presentation_rect": [ 4.0, 4.0, 66.0, 8.0 ],
                     "proportion": 0.39,
                     "rounded": 0,
                     "saved_attribute_attributes": {
@@ -242,18 +231,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-25", 0 ],
-                    "source": [ "obj-2", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-21", 0 ],
-                    "source": [ "obj-25", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-26", 0 ],
                     "source": [ "obj-2", 0 ]
                 }
@@ -261,6 +238,12 @@
             {
                 "patchline": {
                     "destination": [ "obj-4", 0 ],
+                    "source": [ "obj-26", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-21", 0 ],
                     "source": [ "obj-26", 0 ]
                 }
             }
