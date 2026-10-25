@@ -3,14 +3,26 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 5,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
         "rect": [ 807.0, 308.0, 1252.0, 968.0 ],
         "boxes": [
+            {
+                "box": {
+                    "comment": "(list) `lo hi exp` dial range and exponent of the randomized parameter",
+                    "id": "obj-77",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 370.0, 8.0, 30.0, 30.0 ]
+                }
+            },
             {
                 "box": {
                     "id": "obj-10",
@@ -130,7 +142,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 400.0, 8.0, 30.0, 30.0 ]
+                    "patching_rect": [ 330.0, 8.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -153,7 +165,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 338.0, 8.0, 30.0, 30.0 ]
+                    "patching_rect": [ 290.0, 8.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -177,7 +189,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 234.0, 8.0, 30.0, 30.0 ]
+                    "patching_rect": [ 210.0, 8.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -207,10 +219,10 @@
                 "box": {
                     "id": "obj-62",
                     "maxclass": "newobj",
-                    "numinlets": 4,
+                    "numinlets": 5,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 50.0, 176.0, 338.0, 22.0 ],
+                    "patching_rect": [ 50.0, 176.0, 339.0, 22.0 ],
                     "text": "RandomIncrement #1"
                 }
             }
@@ -261,14 +273,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-14", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-4", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-62", 1 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-4", 0 ]
                 }
             },
@@ -320,6 +332,12 @@
                 "patchline": {
                     "destination": [ "obj-72", 1 ],
                     "source": [ "obj-76", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-62", 4 ],
+                    "source": [ "obj-77", 0 ]
                 }
             },
             {
