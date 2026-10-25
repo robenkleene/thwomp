@@ -559,6 +559,7 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 934.0, 233.0, 1452.0, 956.0 ],
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -900,6 +901,18 @@
                                 "patchline": {
                                     "destination": [ "obj-4", 0 ],
                                     "source": [ "obj-10", 6 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-20", 0 ],
+                                    "source": [ "obj-11", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-20", 0 ],
+                                    "source": [ "obj-12", 0 ]
                                 }
                             },
                             {
@@ -1552,6 +1565,7 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
+                    "hidden": 1,
                     "id": "obj-15",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
@@ -1776,6 +1790,12 @@
                 "patchline": {
                     "destination": [ "obj-21", 5 ],
                     "source": [ "obj-3", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-21", 4 ],
+                    "source": [ "obj-31", 0 ]
                 }
             },
             {
