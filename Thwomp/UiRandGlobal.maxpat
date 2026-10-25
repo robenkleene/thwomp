@@ -258,7 +258,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 921.0, 536.0, 32.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 261.0, -0.5, 30.0, 18.0 ],
+                    "presentation_rect": [ 261.0, 1.0, 30.0, 18.0 ],
                     "text": "Auto"
                 }
             },
@@ -274,7 +274,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 920.0, 559.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 293.0, 1.0, 42.0, 15.0 ],
+                    "presentation_rect": [ 293.0, 2.0, 42.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "RandAuto",
