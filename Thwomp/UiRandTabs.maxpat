@@ -3,13 +3,13 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 5,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 325.0, 405.0, 1740.0, 757.0 ],
+        "rect": [ 635.0, 397.0, 1245.0, 757.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -30,6 +30,35 @@
                         "RandTabFilter": [ 0.0 ],
                         "RandTabOsc1": [ 0.0 ],
                         "RandTabOsc2": [ 0.0 ]
+                    },
+                    "restore_extra": {
+                        "RandEffect1": {
+                            "id": "obj-24"
+                        },
+                        "RandEffect2": {
+                            "id": "obj-25"
+                        },
+                        "RandOsc1": {
+                            "id": "obj-22"
+                        },
+                        "RandOsc2": {
+                            "id": "obj-23"
+                        },
+                        "RandTabEffect1": {
+                            "id": "obj-2"
+                        },
+                        "RandTabEffect2": {
+                            "id": "obj-13"
+                        },
+                        "RandTabFilter": {
+                            "id": "obj-3"
+                        },
+                        "RandTabOsc1": {
+                            "id": "obj-1"
+                        },
+                        "RandTabOsc2": {
+                            "id": "obj-14"
+                        }
                     },
                     "text": "autopattr",
                     "varname": "u330016600"
@@ -124,7 +153,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 389.5, 343.0, 10.0, 10.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 74.0, 2.0, 10.0, 10.0 ],
+                    "presentation_rect": [ 55.74324324324324, 2.0, 10.0, 10.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -148,7 +177,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 563.5, 343.0, 10.0, 10.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 138.0, 2.0, 10.0, 10.0 ],
+                    "presentation_rect": [ 109.2, 2.0, 10.0, 10.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -172,7 +201,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 235.0, 343.0, 10.0, 10.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 18.0, 2.0, 10.0, 10.0 ],
+                    "presentation_rect": [ 11.0, 2.0, 10.0, 10.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -239,7 +268,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 166.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 141.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 117.2, 0.0, 32.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -275,8 +304,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 5,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -907,7 +936,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 120.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 81.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 65.0, 0.0, 40.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -943,7 +972,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 496.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 68.0, 0.0, 58.0, 14.0 ],
+                    "presentation_rect": [ 52.7027027027027, 0.0, 52.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -986,7 +1015,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 74.0, 178.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 21.0, 0.0, 44.0, 14.0 ],
+                    "presentation_rect": [ 19.0, 0.0, 32.0, 14.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -1022,7 +1051,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 635.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 8.0, 0.0, 58.0, 14.0 ],
+                    "presentation_rect": [ 8.0, 0.0, 43.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -1048,7 +1077,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 333.0, 249.0, 80.0, 12.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 6.0, 74.0, 12.0 ],
+                    "presentation_rect": [ 0.0, 42.0, 74.0, 12.0 ],
                     "varname": "TabSelector1",
                     "viewvisibility": 1
                 }
@@ -1064,7 +1093,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 774.0, 178.0, 128.0, 55.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 128.0, 0.0, 58.0, 14.0 ],
+                    "presentation_rect": [ 106.4, 0.0, 43.0, 14.0 ],
                     "proportion": 0.39,
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
@@ -1111,7 +1140,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 730.5, 249.0, 83.0, 12.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 180.0, 6.0, 74.0, 12.0 ],
+                    "presentation_rect": [ 180.0, 42.0, 74.0, 12.0 ],
                     "varname": "TabSelector4",
                     "viewvisibility": 1
                 }
@@ -1134,7 +1163,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 525.5, 249.0, 86.0, 12.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 240.0, 6.0, 74.0, 12.0 ],
+                    "presentation_rect": [ 240.0, 42.0, 74.0, 12.0 ],
                     "varname": "TabSelector5",
                     "viewvisibility": 1
                 }
@@ -1157,7 +1186,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 625.5, 249.0, 79.0, 12.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 120.0, 6.0, 74.0, 12.0 ],
+                    "presentation_rect": [ 120.0, 42.0, 74.0, 12.0 ],
                     "varname": "TabSelector3",
                     "viewvisibility": 1
                 }
@@ -1180,7 +1209,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 430.0, 249.0, 85.0, 12.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 60.0, 6.0, 74.0, 12.0 ],
+                    "presentation_rect": [ 60.0, 42.0, 74.0, 12.0 ],
                     "varname": "TabSelector2",
                     "viewvisibility": 1
                 }
