@@ -112,7 +112,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 297.0, 711.0, 295.0, 152.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 616.0, 341.0, 152.0 ],
+                    "presentation_rect": [ 0.0, 769.0, 341.0, 152.0 ],
                     "varname": "UiRandGlobal",
                     "viewvisibility": 1
                 }
@@ -233,6 +233,27 @@
                     "varname": "UiRandOsc1",
                     "viewvisibility": 1
                 }
+            },
+            {
+                "box": {
+                    "args": [ "#1" ],
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-2",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 535.0, 650.0, 128.0, 128.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 616.0, 341.0, 152.0 ],
+                    "viewvisibility": 1
+                }
             }
         ],
         "lines": [
@@ -338,14 +359,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-55", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-7", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-57", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-7", 0 ]
                 }
             },
