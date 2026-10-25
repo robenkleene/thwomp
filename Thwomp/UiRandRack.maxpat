@@ -1330,7 +1330,8 @@
             "obj-9::obj-23": [ "RandOsc2", "RandOsc2", 0 ],
             "obj-9::obj-24": [ "RandEffect1", "RandEffect1", 0 ],
             "obj-9::obj-25": [ "RandEffect2", "RandEffect2", 0 ],
-            "obj-9::obj-3": [ "RandTabFilter", "RandTabFilter", 0 ],
+            "obj-9::obj-3": [ "RandTabFilter", "RandTabGlobal", 0 ],
+            "obj-9::obj-31": [ "RandTabMod", "RandTabMod", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
@@ -1495,6 +1496,9 @@
                 },
                 "obj-1::obj-57::obj-36::obj-2": {
                     "parameter_range": [ 0.0, 15000.0 ]
+                },
+                "obj-9::obj-3": {
+                    "parameter_longname": "RandTabFilter"
                 }
             },
             "inherited_shortname": 1
