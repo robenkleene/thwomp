@@ -246,10 +246,11 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "UiMod.maxpat",
+                    "name": "UiRandMod.maxpat",
                     "numinlets": 1,
-                    "numoutlets": 0,
+                    "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "" ],
                     "patching_rect": [ 535.0, 650.0, 128.0, 128.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 616.0, 341.0, 152.0 ],
@@ -388,27 +389,29 @@
             }
         ],
         "parameters": {
-            "obj-2::obj-1": [ "Mod1Source", "Source", 0 ],
-            "obj-2::obj-10": [ "Mod4Source", "Source", 0 ],
-            "obj-2::obj-11": [ "Mod4Amount", "Amount", 0 ],
-            "obj-2::obj-12": [ "Mod4Dest", "Dest", 0 ],
-            "obj-2::obj-13": [ "Mod5Source", "Source", 0 ],
-            "obj-2::obj-14": [ "Mod5Amount", "Amount", 0 ],
-            "obj-2::obj-15": [ "Mod5Dest", "Dest", 0 ],
-            "obj-2::obj-19::obj-19": [ "LfoShape", "Shape", 0 ],
-            "obj-2::obj-19::obj-20": [ "LfoSync", "Sync", 0 ],
-            "obj-2::obj-19::obj-21": [ "LfoRetrig", "Retrig", 0 ],
-            "obj-2::obj-19::obj-23": [ "LfoRate", "Rate", 0 ],
-            "obj-2::obj-19::obj-24": [ "LfoSyncRate", "Rate", 0 ],
-            "obj-2::obj-19::obj-36": [ "LfoPhase", "Phase", 0 ],
-            "obj-2::obj-2": [ "Mod1Amount", "Amount", 0 ],
-            "obj-2::obj-3": [ "Mod1Dest", "Dest", 0 ],
-            "obj-2::obj-4": [ "Mod2Source", "Source", 0 ],
-            "obj-2::obj-5": [ "Mod2Amount", "Amount", 0 ],
-            "obj-2::obj-6": [ "Mod2Dest", "Dest", 0 ],
-            "obj-2::obj-7": [ "Mod3Source", "Source", 0 ],
-            "obj-2::obj-8": [ "Mod3Amount", "Amount", 0 ],
-            "obj-2::obj-9": [ "Mod3Dest", "Dest", 0 ],
+            "obj-2::obj-10::obj-1": [ "RandMod2Amount-Min", "Min", 0 ],
+            "obj-2::obj-10::obj-2": [ "RandMod2Amount-Max", "Max", 0 ],
+            "obj-2::obj-12": [ "Mod4Dest", "Mod 2", 0 ],
+            "obj-2::obj-18::obj-1": [ "RandMod3Amount-Min", "Min", 0 ],
+            "obj-2::obj-18::obj-2": [ "RandMod3Amount-Max", "Max", 0 ],
+            "obj-2::obj-20": [ "RandMod3Amount", "Mod 3", 0 ],
+            "obj-2::obj-26::obj-1": [ "RandMod4Amount-Min", "Min", 0 ],
+            "obj-2::obj-26::obj-2": [ "RandMod4Amount-Max", "Max", 0 ],
+            "obj-2::obj-28": [ "RandMod4Amount", "Mod 4", 0 ],
+            "obj-2::obj-2::obj-1": [ "RandMod1Amount-Min", "Min", 0 ],
+            "obj-2::obj-2::obj-2": [ "RandMod1Amount-Max", "Max", 0 ],
+            "obj-2::obj-34::obj-1": [ "RandMod5Amount-Min", "Min", 0 ],
+            "obj-2::obj-34::obj-2": [ "RandMod5Amount-Max", "Max", 0 ],
+            "obj-2::obj-36": [ "RandMod5Amount", "Mod 5", 0 ],
+            "obj-2::obj-4": [ "Mod2Source", "Mod 1", 0 ],
+            "obj-2::obj-42::obj-1": [ "RandLfoRate-Min", "Min", 0 ],
+            "obj-2::obj-42::obj-2": [ "RandLfoRate-Max", "Max", 0 ],
+            "obj-2::obj-44": [ "RandLfoRate", "Rate", 0 ],
+            "obj-2::obj-51::obj-1": [ "RandLfoPhase-Min", "Min", 0 ],
+            "obj-2::obj-51::obj-2": [ "RandLfoPhase-Max", "Max", 0 ],
+            "obj-2::obj-53": [ "RandLfoPhase", "Phase", 0 ],
+            "obj-2::obj-60": [ "RandLfoShape", "Shape", 0 ],
+            "obj-2::obj-67": [ "RandLfoSyncRate", "Sync Rate", 0 ],
             "obj-3::obj-138": [ "2-RandOscNote", "Note", 0 ],
             "obj-3::obj-18::obj-1": [ "2-RandOscAttack-Min", "Min", 0 ],
             "obj-3::obj-18::obj-2": [ "2-RandOscAttack-Max", "Max", 0 ],
@@ -511,6 +514,54 @@
                 }
             },
             "parameter_overrides": {
+                "obj-2::obj-10::obj-1": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-2::obj-10::obj-2": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-2::obj-12": {
+                    "parameter_longname": "Mod4Dest"
+                },
+                "obj-2::obj-18::obj-1": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-2::obj-18::obj-2": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-2::obj-26::obj-1": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-2::obj-26::obj-2": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-2::obj-2::obj-1": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-2::obj-2::obj-2": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-2::obj-34::obj-1": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-2::obj-34::obj-2": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-2::obj-4": {
+                    "parameter_longname": "Mod2Source"
+                },
+                "obj-2::obj-42::obj-1": {
+                    "parameter_range": [ 0.01, 50.0 ]
+                },
+                "obj-2::obj-42::obj-2": {
+                    "parameter_range": [ 0.01, 50.0 ]
+                },
+                "obj-2::obj-51::obj-1": {
+                    "parameter_range": [ 0.0, 360.0 ]
+                },
+                "obj-2::obj-51::obj-2": {
+                    "parameter_range": [ 0.0, 360.0 ]
+                },
                 "obj-3::obj-18::obj-1": {
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
