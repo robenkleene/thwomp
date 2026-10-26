@@ -347,8 +347,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 49.03846153846154, 176.0, 137.0, 22.0 ],
-                    "text": "receive~ #1-modsrc-key"
+                    "patching_rect": [ 250.0, 245.0, 31.0, 22.0 ],
+                    "text": "sig~"
                 }
             },
             {
@@ -358,8 +358,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 33.269230769230774, 148.0, 134.0, 22.0 ],
-                    "text": "receive~ #1-modsrc-vel"
+                    "patching_rect": [ 298.0, 215.0, 31.0, 22.0 ],
+                    "text": "sig~"
                 }
             },
             {
@@ -914,6 +914,18 @@
                 "patchline": {
                     "destination": [ "obj-42", 1 ],
                     "source": [ "obj-9", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-11", 0 ],
+                    "source": [ "obj-32", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-12", 0 ],
+                    "source": [ "obj-31", 0 ]
                 }
             }
         ],
