@@ -14,6 +14,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-24",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 176.0, 512.0, 39.0, 22.0 ],
+                    "text": "click~"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-23",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -26,12 +37,12 @@
             {
                 "box": {
                     "id": "obj-22",
-                    "linecount": 12,
+                    "linecount": 36,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 440.0, 324.0, 160.0, 167.0 ],
-                    "text": "For the reset case, we set the `cycle~` to `0` (so the frequency matches `phasor~` input to inlet 2.\n\nThe `curve~` \"bumps\" the phase forward by creating a short spike and multiplying it by `100` and adding it to the frequency, this pushes the phase forward to a new cycle reseting the oscillator."
+                    "patching_rect": [ 452.0, 324.0, 160.0, 503.0 ],
+                    "text": "For the reset case, we set the `cycle~` to `0` (so the frequency matches `phasor~` input to inlet 2.\n\nThe `line~` \"bumps\" the phase forward by creating a short spike and multiplying it by `100` and adding it to the frequency, this pushes the phase forward to a new cycle reseting the oscillator. It's a `line~` instead of a `curve~` because `curve~` approximates its curve with one linear piece per signal vector, and the 1 ms rise is shorter than a vector, so the phase it added changed with where the note fell in the vector.\n\n`click~` resets the `phasor~` through its right inlet as a signal, which is sample-accurate like the `line~` and the amp envelope. A float to the right inlet only takes effect at the next signal vector, so the reset landed up to a vector after the note started, at a different phase depending on where the note fell in the vector."
                 }
             },
             {
@@ -117,9 +128,9 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 3,
-                    "outlettype": [ "bang", "float", "float" ],
+                    "outlettype": [ "bang", "float", "bang" ],
                     "patching_rect": [ 56.0, 48.0, 49.0, 22.0 ],
-                    "text": "t b 0. 0."
+                    "text": "t b 0. b"
                 }
             },
             {
@@ -129,8 +140,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 309.0, 445.0, 52.0, 22.0 ],
-                    "text": "phasor~"
+                    "patching_rect": [ 309.0, 445.0, 135.0, 22.0 ],
+                    "text": "phasor~ @phaseoffset 0."
                 }
             },
             {
@@ -148,11 +159,11 @@
                 "box": {
                     "id": "obj-9",
                     "maxclass": "newobj",
-                    "numinlets": 3,
+                    "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "signal", "bang" ],
-                    "patching_rect": [ 309.0, 353.0, 45.0, 22.0 ],
-                    "text": "curve~"
+                    "patching_rect": [ 309.0, 353.0, 36.0, 22.0 ],
+                    "text": "line~"
                 }
             },
             {
@@ -162,8 +173,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 309.0, 324.0, 123.0, 22.0 ],
-                    "text": "0., 1. 1. -0.8 0. 5. -0.6"
+                    "patching_rect": [ 309.0, 324.0, 80.0, 22.0 ],
+                    "text": "0., 1. 1. 0. 5."
                 }
             },
             {
@@ -385,8 +396,14 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-12", 1 ],
+                    "destination": [ "obj-24", 0 ],
                     "source": [ "obj-19", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-12", 1 ],
+                    "source": [ "obj-24", 0 ]
                 }
             }
         ],

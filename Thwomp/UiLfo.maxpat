@@ -670,6 +670,39 @@
                         "boxes": [
                             {
                                 "box": {
+                                    "id": "obj-73",
+                                    "linecount": 3,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 548.0, 74.0, 260.0, 47.0 ],
+                                    "text": "`click~` resets the `phasor~` objects as a signal, which is sample-accurate, a float to their right inlet waits for the next signal vector"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-72",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "signal" ],
+                                    "patching_rect": [ 500.0, 80.0, 39.0, 22.0 ],
+                                    "text": "click~"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-71",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "bang" ],
+                                    "patching_rect": [ 500.0, 54.0, 24.0, 22.0 ],
+                                    "text": "t b"
+                                }
+                            },
+                            {
+                                "box": {
                                     "id": "obj-70",
                                     "linecount": 3,
                                     "maxclass": "comment",
@@ -730,8 +763,8 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "signal" ],
-                                    "patching_rect": [ 340.0, 110.0, 60.0, 22.0 ],
-                                    "text": "phasor~"
+                                    "patching_rect": [ 340.0, 110.0, 135.0, 22.0 ],
+                                    "text": "phasor~ @phaseoffset 0."
                                 }
                             },
                             {
@@ -782,7 +815,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "(float) phase",
+                                    "comment": "(bang float) retrigger",
                                     "id": "obj-6",
                                     "index": 4,
                                     "maxclass": "inlet",
@@ -919,7 +952,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "signal" ],
                                     "patching_rect": [ 162.0, 110.0, 160.0, 22.0 ],
-                                    "text": "phasor~"
+                                    "text": "phasor~ @phaseoffset 0."
                                 }
                             },
                             {
@@ -1381,20 +1414,6 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-15", 1 ],
-                                    "order": 0,
-                                    "source": [ "obj-6", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-38", 1 ],
-                                    "order": 1,
-                                    "source": [ "obj-6", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
                                     "destination": [ "obj-61", 1 ],
                                     "source": [ "obj-60", 0 ]
                                 }
@@ -1429,6 +1448,30 @@
                                 "patchline": {
                                     "destination": [ "obj-5", 0 ],
                                     "source": [ "obj-69", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-15", 1 ],
+                                    "source": [ "obj-72", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-38", 1 ],
+                                    "source": [ "obj-72", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-71", 0 ],
+                                    "source": [ "obj-6", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-72", 0 ],
+                                    "source": [ "obj-71", 0 ]
                                 }
                             }
                         ]
