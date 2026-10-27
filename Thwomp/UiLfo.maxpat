@@ -251,6 +251,7 @@
                             {
                                 "box": {
                                     "id": "obj-9",
+                                    "linecount": 2,
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 1,
@@ -665,7 +666,41 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 1218.0, 170.0, 1000.0, 780.0 ],
+                        "visible": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-70",
+                                    "linecount": 3,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 176.0, 616.0, 300.0, 47.0 ],
+                                    "text": "`onepole~` de-clicks the shapes that jump, Square, Saw, and S&H. `selector~ 2` skips it for Sine and Tri, so a retrigger jumps straight to the start value"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-69",
+                                    "maxclass": "newobj",
+                                    "numinlets": 3,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "signal" ],
+                                    "patching_rect": [ 82.0, 667.0, 68.0, 22.0 ],
+                                    "text": "selector~ 2"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-68",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 125.30000000000001, 410.0, 120.0, 22.0 ],
+                                    "text": "expr ($i1 >= 2) + 1"
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-19",
@@ -826,7 +861,7 @@
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 82.0, 667.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 82.0, 711.0, 30.0, 30.0 ]
                                 }
                             },
                             {
@@ -1134,7 +1169,7 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-5", 0 ],
+                                    "destination": [ "obj-69", 2 ],
                                     "source": [ "obj-13", 0 ]
                                 }
                             },
@@ -1171,6 +1206,7 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-12", 0 ],
+                                    "order": 1,
                                     "source": [ "obj-19", 0 ]
                                 }
                             },
@@ -1178,6 +1214,13 @@
                                 "patchline": {
                                     "destination": [ "obj-38", 0 ],
                                     "source": [ "obj-19", 1 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-68", 0 ],
+                                    "order": 0,
+                                    "source": [ "obj-19", 0 ]
                                 }
                             },
                             {
@@ -1365,7 +1408,27 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-13", 0 ],
+                                    "order": 1,
                                     "source": [ "obj-67", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-69", 1 ],
+                                    "order": 0,
+                                    "source": [ "obj-67", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-69", 0 ],
+                                    "source": [ "obj-68", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-5", 0 ],
+                                    "source": [ "obj-69", 0 ]
                                 }
                             }
                         ]
