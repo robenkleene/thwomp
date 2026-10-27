@@ -9,10 +9,70 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 609.0, 110.0, 1168.0, 1085.0 ],
+        "rect": [ 609.0, 110.0, 1581.0, 1085.0 ],
         "openinpresentation": 1,
         "toolbars_unpinned_last_save": 4,
         "boxes": [
+            {
+                "box": {
+                    "comment": "(signal) mod env amount",
+                    "id": "obj-70",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 755.0, 24.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "comment": "(signal) mod overtone",
+                    "id": "obj-69",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 711.0769230769231, 24.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "comment": "(signal) mod overdrive",
+                    "id": "obj-68",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 667.1538461538462, 24.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "comment": "(signal) mod gain",
+                    "id": "obj-67",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 625.0, 24.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "comment": "(signal) mod pitch",
+                    "id": "obj-66",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 585.5, 24.0, 30.0, 30.0 ]
+                }
+            },
             {
                 "box": {
                     "id": "obj-64",
@@ -118,8 +178,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 247.5, 635.0, 125.0, 22.0 ],
-                    "text": "receive~ #1-mod-gain"
+                    "patching_rect": [ 247.5, 635.0, 127.0, 22.0 ],
+                    "text": "ModSum #1-mod-gain"
                 }
             },
             {
@@ -141,7 +201,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1027.0, 760.0, 30.0, 30.0 ]
+                    "patching_rect": [ 1120.0, 760.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -151,7 +211,7 @@
                     "numinlets": 3,
                     "numoutlets": 3,
                     "outlettype": [ "signal", "bang", "signal" ],
-                    "patching_rect": [ 992.0, 700.0, 54.0, 22.0 ],
+                    "patching_rect": [ 1085.0, 700.0, 54.0, 22.0 ],
                     "text": "AmpEnv"
                 }
             },
@@ -163,7 +223,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 899.0, 760.0, 30.0, 30.0 ]
+                    "patching_rect": [ 992.0, 760.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -173,7 +233,7 @@
                     "numinlets": 3,
                     "numoutlets": 2,
                     "outlettype": [ "signal", "bang" ],
-                    "patching_rect": [ 899.0, 536.0, 45.0, 22.0 ],
+                    "patching_rect": [ 992.0, 536.0, 45.0, 22.0 ],
                     "text": "curve~"
                 }
             },
@@ -487,7 +547,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 720.0, 536.0, 150.0, 221.0 ],
+                    "patching_rect": [ 813.0, 536.0, 150.0, 221.0 ],
                     "text": "Only use a single `poly~` voice (the default), because with multiple voices, overlapping decays introduces variation (this can be simulated by playing consecutive notes with long decays quickly which a voice count `>1`.\n\n`@steal 1` is necessary with to prefer new notes (otherwise new notes won't start if a note is playing). "
                 }
             },
@@ -596,7 +656,7 @@
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 640.0, 16.0, 56.0, 22.0 ],
+                    "patching_rect": [ 1217.0, 28.0, 56.0, 22.0 ],
                     "restore": {
                         "#2-Gain": [ 0.0 ],
                         "#2-Osc": [ 1.0 ],
@@ -803,10 +863,10 @@
                 "box": {
                     "id": "obj-20",
                     "maxclass": "newobj",
-                    "numinlets": 10,
+                    "numinlets": 14,
                     "numoutlets": 2,
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 184.0, 536.0, 527.9999999999998, 22.0 ],
+                    "patching_rect": [ 184.0, 536.0, 590.0, 22.0 ],
                     "text": "poly~ Engine @steal 1 @args #1"
                 }
             },
@@ -1319,6 +1379,30 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-20", 10 ],
+                    "source": [ "obj-66", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-57", 0 ],
+                    "source": [ "obj-67", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-20", 11 ],
+                    "source": [ "obj-68", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-20", 12 ],
+                    "source": [ "obj-69", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-14", 0 ],
                     "order": 0,
                     "source": [ "obj-7", 0 ]
@@ -1336,6 +1420,12 @@
                     "destination": [ "obj-62", 0 ],
                     "order": 2,
                     "source": [ "obj-7", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-20", 13 ],
+                    "source": [ "obj-70", 0 ]
                 }
             },
             {

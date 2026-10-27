@@ -157,9 +157,9 @@ The **Attack**, **Decay**, **Env Duration**, **Env Curve**, and **Ring Decay** d
 
 ## Randomize
 
-Randomize settings are split across five tabs: **Osc 1**, **Effect 1**, **Osc 2**, **Effect 2**, and **Global**. The oscillator and effect tabs each hold an independent set of toggles and ranges, so **Osc 1** can be randomized across one range of frequencies and decays while **Osc 2** is randomized across another. The toggle on each tab enables randomizing that section.
+Randomize settings are split across six tabs: **Osc 1**, **Effect 1**, **Osc 2**, **Effect 2**, **Mod**, and **Global**. The oscillator and effect tabs each hold an independent set of toggles and ranges, so **Osc 1** can be randomized across one range of frequencies and decays while **Osc 2** is randomized across another. The toggle on each oscillator and effect tab enables randomizing that section.
 
-**Global** holds the settings that aren't per-oscillator: the filter, the ring modulator, and the device volume.
+**Mod** holds the mod slot amounts and the LFO. **Global** holds the other settings that aren't per-oscillator: the filter, the ring modulator, the device volume, and **Vel > Vol**.
 
 ### Oscillator
 
@@ -191,12 +191,27 @@ Randomize settings are split across five tabs: **Osc 1**, **Effect 1**, **Osc 2*
 - **Duration:** Toggle and min-max range for **Duration**
 - **Curve:** Toggle and min-max range for **Curve**
 
+### Mod
+
+#### Slots
+
+- **Route:** Toggle whether to randomize the slot's **Source** and **Dest**. **Source** is picked from **Velocity** through **Ring Env**, leaving out the performance controls (**Mod Wheel**, **Pitch Bend**, **Pressure**, and **Slide**) that only have an effect while they're played. **Dest** is never set to `None`, so the slot stays on. A new route is only heard if the slot's **Amount** isn't `0`.
+- **Mod 1-5:** Toggle and min-max range for each slot's **Amount**
+
+#### LFO
+
+- **Shape:** Toggle whether to randomize **Shape**
+- **Sync Rate:** Toggle whether to randomize **Rate** when **Sync** is on
+- **Rate:** Toggle and min-max range for **Rate** when **Sync** is off
+- **Phase:** Toggle and min-max range for **Phase**
+
 ### Global
 
 ![Randomize Filter](assets/rand-filter.png)
 
 - **Auto:** Automatically trigger randomize after this number of beats (`0` is off)
 - **Volume:** Toggle and min-max range for **Volume**
+- **Vel > Vol:** Toggle and min-max range for **Vel > Vol**
 
 #### Filter
 
@@ -217,7 +232,7 @@ Randomize settings are split across five tabs: **Osc 1**, **Effect 1**, **Osc 2*
 
 Only controls are accessible on Push.
 
-Controls are laid out across ten banks:
+Controls are laid out across eleven banks:
 
 1. **Oscillator**
 2. **Amp**
@@ -229,10 +244,11 @@ Controls are laid out across ten banks:
 8. **Rand Effect**
 9. **Rand Filter**
 10. **Rand Ring**
+11. **Rand Mod**
 
 The first encoder of the **Oscillator**, **Amp**, **Rand Osc**, **Rand Pitch**, **Rand Amp**, and **Rand Effect** banks is **BanksOsc**, which chooses whether the per-oscillator controls in that bank address **Osc 1** or **Osc 2**. It applies to the oscillator banks and the randomize banks alike, so changing it re-points e.g. **Rand Osc** at the other oscillator's ranges. This is separate from the **Osc 1-2** tabs in the device interface, which only change what's displayed.
 
-The first encoder of the **Mod** bank is **BanksMod**, which chooses which of the five mod slots the **Source**, **Amount**, and **Dest** encoders address. The **Mod** bank also holds the **LFO** controls, where the **Rate** encoder follows **Sync**, and **Vel > Vol**.
+The first encoder of the **Mod** and **Rand Mod** banks is **BanksMod**, which chooses which of the five mod slots the slot encoders address: **Source**, **Amount**, and **Dest** in **Mod**, and the **Amount** range and **Route** toggle in **Rand Mod**. The **Mod** bank also holds the **LFO** controls, where the **Rate** encoder follows **Sync**, and **Vel > Vol**. The **Rand Mod** bank holds the **LFO** ranges, and the **Vel > Vol** range is in the **Rand Filter** bank.
 
 ## Demos
 
@@ -274,6 +290,8 @@ To reconstruct this demo loops in Ableton Live, setup a track with [Sidewinder](
 4. Cymbal
 
 ## Presets
+
+Each preset includes randomize settings for its sound, so randomizing generates similar sounds, e.g., randomizing **909 Kick** generates variations on a 909 kick. **Init** is the exception, its randomize settings use wide ranges for exploring new sounds.
 
 1. Kick
 2. 808 Kick

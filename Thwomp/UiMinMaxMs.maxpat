@@ -67,9 +67,9 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 2,
-                    "outlettype": [ "int", "int" ],
+                    "outlettype": [ "float", "float" ],
                     "patching_rect": [ 8.0, 160.0, 67.0, 22.0 ],
-                    "text": "unpack 0 0"
+                    "text": "unpack 0. 0."
                 }
             },
             {
@@ -155,13 +155,13 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 40.0, 440.0, 29.5, 22.0 ],
-                    "text": ">"
+                    "patching_rect": [ 40.0, 440.0, 33.0, 22.0 ],
+                    "text": "> 0."
                 }
             },
             {
                 "box": {
-                    "comment": "(int) max",
+                    "comment": "(float) max",
                     "id": "obj-10",
                     "index": 0,
                     "maxclass": "outlet",
@@ -172,7 +172,7 @@
             },
             {
                 "box": {
-                    "comment": "(int) min",
+                    "comment": "(float) min",
                     "id": "obj-9",
                     "index": 0,
                     "maxclass": "outlet",
@@ -198,9 +198,9 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 2,
-                    "outlettype": [ "int", "int" ],
+                    "outlettype": [ "float", "float" ],
                     "patching_rect": [ 128.0, 384.0, 29.5, 22.0 ],
-                    "text": "t i i"
+                    "text": "t f f"
                 }
             },
             {
@@ -234,8 +234,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 160.0, 440.0, 29.5, 22.0 ],
-                    "text": "<"
+                    "patching_rect": [ 160.0, 440.0, 33.0, 22.0 ],
+                    "text": "< 0."
                 }
             },
             {
@@ -244,9 +244,9 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 2,
-                    "outlettype": [ "int", "int" ],
+                    "outlettype": [ "float", "float" ],
                     "patching_rect": [ 8.0, 384.0, 29.5, 22.0 ],
-                    "text": "t i i"
+                    "text": "t f f"
                 }
             }
         ],

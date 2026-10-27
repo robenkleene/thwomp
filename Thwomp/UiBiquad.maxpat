@@ -14,6 +14,30 @@
         "boxes": [
             {
                 "box": {
+                    "comment": "(signal) mod filter res",
+                    "id": "obj-50",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 647.0, 16.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "comment": "(signal) mod filter freq",
+                    "id": "obj-49",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 598.0, 16.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
                     "id": "obj-27",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -366,8 +390,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 598.0, 343.0, 150.0, 22.0 ],
-                    "text": "receive~ #1-mod-filterfreq"
+                    "patching_rect": [ 598.0, 343.0, 148.0, 22.0 ],
+                    "text": "ModSum #1-mod-filterfreq"
                 }
             },
             {
@@ -421,8 +445,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 405.0, 343.0, 142.0, 22.0 ],
-                    "text": "receive~ #1-mod-filterres"
+                    "patching_rect": [ 405.0, 343.0, 144.0, 22.0 ],
+                    "text": "ModSum #1-mod-filterres"
                 }
             },
             {
@@ -703,8 +727,20 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-17", 0 ],
+                    "source": [ "obj-49", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-33", 0 ],
                     "source": [ "obj-5", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-22", 0 ],
+                    "source": [ "obj-50", 0 ]
                 }
             },
             {

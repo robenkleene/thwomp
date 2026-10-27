@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 459.0, 110.0, 1746.0, 985.0 ],
+        "rect": [ 34.0, 95.0, 1165.0, 929.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -95,7 +95,7 @@
             },
             {
                 "box": {
-                    "args": [ "#1" ],
+                    "args": [ "#1_global" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -112,7 +112,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 297.0, 711.0, 295.0, 152.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 616.0, 341.0, 152.0 ],
+                    "presentation_rect": [ 0.0, 770.0, 341.0, 152.0 ],
                     "varname": "UiRandGlobal",
                     "viewvisibility": 1
                 }
@@ -233,6 +233,30 @@
                     "varname": "UiRandOsc1",
                     "viewvisibility": 1
                 }
+            },
+            {
+                "box": {
+                    "args": [ "#1_mod" ],
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-2",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiRandMod.maxpat",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 606.0, 711.0, 337.0, 152.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 616.0, 341.0, 152.0 ],
+                    "varname": "UiRandMod",
+                    "viewvisibility": 1
+                }
             }
         ],
         "lines": [
@@ -262,8 +286,15 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-56", 0 ],
+                    "destination": [ "obj-2", 0 ],
                     "order": 2,
+                    "source": [ "obj-125", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-56", 0 ],
+                    "order": 3,
                     "source": [ "obj-125", 0 ]
                 }
             },
@@ -279,6 +310,12 @@
                     "destination": [ "obj-8", 0 ],
                     "order": 0,
                     "source": [ "obj-125", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-78", 0 ],
+                    "source": [ "obj-2", 0 ]
                 }
             },
             {
@@ -352,19 +389,42 @@
             {
                 "patchline": {
                     "destination": [ "obj-3", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-8", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-4", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-8", 0 ]
                 }
             }
         ],
         "parameters": {
+            "obj-2::obj-10::obj-1": [ "RandMod2Amount-Min", "Min", 0 ],
+            "obj-2::obj-10::obj-2": [ "RandMod2Amount-Max", "Max", 0 ],
+            "obj-2::obj-12": [ "RandMod2Amount", "Mod 2", 0 ],
+            "obj-2::obj-18::obj-1": [ "RandMod3Amount-Min", "Min", 0 ],
+            "obj-2::obj-18::obj-2": [ "RandMod3Amount-Max", "Max", 0 ],
+            "obj-2::obj-20": [ "RandMod3Amount", "Mod 3", 0 ],
+            "obj-2::obj-26::obj-1": [ "RandMod4Amount-Min", "Min", 0 ],
+            "obj-2::obj-26::obj-2": [ "RandMod4Amount-Max", "Max", 0 ],
+            "obj-2::obj-28": [ "RandMod4Amount", "Mod 4", 0 ],
+            "obj-2::obj-2::obj-1": [ "RandMod1Amount-Min", "Min", 0 ],
+            "obj-2::obj-2::obj-2": [ "RandMod1Amount-Max", "Max", 0 ],
+            "obj-2::obj-34::obj-1": [ "RandMod5Amount-Min", "Min", 0 ],
+            "obj-2::obj-34::obj-2": [ "RandMod5Amount-Max", "Max", 0 ],
+            "obj-2::obj-36": [ "RandMod5Amount", "Mod 5", 0 ],
+            "obj-2::obj-4": [ "RandMod1Amount", "Mod 1", 0 ],
+            "obj-2::obj-42::obj-1": [ "RandLfoRate-Min", "Min", 0 ],
+            "obj-2::obj-42::obj-2": [ "RandLfoRate-Max", "Max", 0 ],
+            "obj-2::obj-44": [ "RandLfoRate", "Rate", 0 ],
+            "obj-2::obj-51::obj-1": [ "RandLfoPhase-Min", "Min", 0 ],
+            "obj-2::obj-51::obj-2": [ "RandLfoPhase-Max", "Max", 0 ],
+            "obj-2::obj-53": [ "RandLfoPhase", "Phase", 0 ],
+            "obj-2::obj-60": [ "RandLfoShape", "Shape", 0 ],
+            "obj-2::obj-67": [ "RandLfoSyncRate", "Rate", 0 ],
             "obj-3::obj-138": [ "2-RandOscNote", "Note", 0 ],
             "obj-3::obj-18::obj-1": [ "2-RandOscAttack-Min", "Min", 0 ],
             "obj-3::obj-18::obj-2": [ "2-RandOscAttack-Max", "Max", 0 ],
@@ -417,6 +477,9 @@
             "obj-55::obj-7": [ "1-RandOscPchEnvDur", "Duration", 0 ],
             "obj-55::obj-8::obj-1": [ "1-RandOverdrive-Min", "Min", 0 ],
             "obj-55::obj-8::obj-2": [ "1-RandOverdrive-Max", "Max", 0 ],
+            "obj-56::obj-234::obj-1": [ "RandModVol-Min", "Min", 0 ],
+            "obj-56::obj-234::obj-2": [ "RandModVol-Max", "Max", 0 ],
+            "obj-56::obj-236": [ "RandModVol", "Vel > Vol", 0 ],
             "obj-56::obj-29": [ "RandFiltType", "Type", 0 ],
             "obj-56::obj-30": [ "RandFilt", "Filter", 0 ],
             "obj-56::obj-31::obj-1": [ "RandFiltFreq-Min", "Min", 0 ],
@@ -467,6 +530,48 @@
                 }
             },
             "parameter_overrides": {
+                "obj-2::obj-10::obj-1": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-2::obj-10::obj-2": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-2::obj-18::obj-1": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-2::obj-18::obj-2": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-2::obj-26::obj-1": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-2::obj-26::obj-2": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-2::obj-2::obj-1": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-2::obj-2::obj-2": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-2::obj-34::obj-1": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-2::obj-34::obj-2": {
+                    "parameter_range": [ -100.0, 100.0 ]
+                },
+                "obj-2::obj-42::obj-1": {
+                    "parameter_range": [ 0.01, 50.0 ]
+                },
+                "obj-2::obj-42::obj-2": {
+                    "parameter_range": [ 0.01, 50.0 ]
+                },
+                "obj-2::obj-51::obj-1": {
+                    "parameter_range": [ 0.0, 360.0 ]
+                },
+                "obj-2::obj-51::obj-2": {
+                    "parameter_range": [ 0.0, 360.0 ]
+                },
                 "obj-3::obj-18::obj-1": {
                     "parameter_range": [ 0.0, 15000.0 ]
                 },
@@ -555,6 +660,12 @@
                     "parameter_range": [ 0.0, 100.0 ]
                 },
                 "obj-55::obj-8::obj-2": {
+                    "parameter_range": [ 0.0, 100.0 ]
+                },
+                "obj-56::obj-234::obj-1": {
+                    "parameter_range": [ 0.0, 100.0 ]
+                },
+                "obj-56::obj-234::obj-2": {
                     "parameter_range": [ 0.0, 100.0 ]
                 },
                 "obj-56::obj-31::obj-1": {

@@ -107,7 +107,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 142.0, 104.0, 33.0, 22.0 ],
+                    "patching_rect": [ 142.0, 132.0, 33.0, 22.0 ],
                     "text": "-~ 1."
                 }
             },
@@ -115,11 +115,11 @@
                 "box": {
                     "id": "obj-2",
                     "maxclass": "newobj",
-                    "numinlets": 1,
+                    "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "signal" ],
-                    "patching_rect": [ 142.0, 66.0, 183.0, 22.0 ],
-                    "text": "receive~ #1-modsrc-vel"
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 142.0, 66.0, 98.0, 22.0 ],
+                    "text": "r #1-modsrc-vel"
                 }
             },
             {
@@ -210,7 +210,7 @@
                             "parameter_mmax": 100.0,
                             "parameter_modmode": 4,
                             "parameter_shortname": "ModVol",
-                            "parameter_type": 1,
+                            "parameter_type": 0,
                             "parameter_unitstyle": 5
                         }
                     },
@@ -242,6 +242,17 @@
                     },
                     "varname": "Vol"
                 }
+            },
+            {
+                "box": {
+                    "id": "obj-103",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 142.0, 101.0, 31.0, 22.0 ],
+                    "text": "sig~"
+                }
             }
         ],
         "lines": [
@@ -249,12 +260,6 @@
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
                     "source": [ "obj-11", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-94", 0 ],
-                    "source": [ "obj-2", 0 ]
                 }
             },
             {
@@ -315,6 +320,18 @@
                 "patchline": {
                     "destination": [ "obj-102", 0 ],
                     "source": [ "obj-101", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-103", 0 ],
+                    "source": [ "obj-2", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-94", 0 ],
+                    "source": [ "obj-103", 0 ]
                 }
             }
         ],
