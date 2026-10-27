@@ -14,6 +14,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-12",
+                    "linecount": 12,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 120.0, 112.0, 270.0, 163.0 ],
+                    "text": "`saw~` keeps internal state through a reset from `click~` in its right inlet: its first cycle depends on the phase it was at before, and it leaves a DC offset that fades over about 100 ms. So with reset on, notes differ slightly (about -26 dB) unless the gap before them is a whole number of cycles. Accepted, since it's a subtle low thump, and avoiding it means replacing `saw~` with a stateless oscillator (e.g., polyBLEP in `gen~`). `rect~` and `tri~` probably work the same way"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-11",
                     "maxclass": "newobj",
                     "numinlets": 2,

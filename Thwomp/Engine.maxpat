@@ -1893,6 +1893,17 @@
                         "boxes": [
                             {
                                 "box": {
+                                    "id": "obj-29",
+                                    "linecount": 12,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 120.0, 220.0, 270.0, 163.0 ],
+                                    "text": "`curve~` approximates its curve with one linear piece per signal vector, aligned to the vector rather than the note. So with a non-zero curve, notes that start at different places in the vector get slightly different sweeps, and the oscillator ends at a different phase (about 15-20 degrees for a 200 ms sweep at full curve). A straight sweep, curve `0`, is exact. Accepted, since it's mostly phase, and an exact replacement (`line~` shaped with `pow~`) took a lot of objects and changed the curve's shape"
+                                }
+                            },
+                            {
+                                "box": {
                                     "comment": "(signal) mod env amount",
                                     "id": "obj-28",
                                     "index": 4,
