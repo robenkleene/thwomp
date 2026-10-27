@@ -9,9 +9,53 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 134.0, 95.0, 1230.0, 929.0 ],
+        "rect": [ 134.0, 95.0, 1646.0, 929.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "comment": "(signal) mod volume",
+                    "id": "obj-45",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1079.076923076923, 834.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "comment": "(signal) mod ring gain",
+                    "id": "obj-44",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1039.076923076923, 834.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "comment": "(signal) mod filter res",
+                    "id": "obj-43",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 999.0769230769231, 834.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "comment": "(signal) mod filter freq",
+                    "id": "obj-42",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 959.0769230769231, 834.0, 30.0, 30.0 ]
+                }
+            },
             {
                 "box": {
                     "id": "obj-41",
@@ -99,8 +143,9 @@
                     "maxclass": "bpatcher",
                     "name": "UiMod.maxpat",
                     "numinlets": 1,
-                    "numoutlets": 0,
+                    "numoutlets": 14,
                     "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
                     "patching_rect": [ 706.0, 312.5, 348.0, 170.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 342.0, 346.0, 169.0 ],
@@ -347,7 +392,7 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "UiDrumSynth.maxpat",
-                    "numinlets": 1,
+                    "numinlets": 6,
                     "numoutlets": 5,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal", "", "signal", "signal" ],
@@ -371,7 +416,7 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "UiDrumSynth.maxpat",
-                    "numinlets": 1,
+                    "numinlets": 6,
                     "numoutlets": 5,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal", "", "signal", "signal" ],
@@ -472,6 +517,90 @@
                 "patchline": {
                     "destination": [ "obj-8", 0 ],
                     "source": [ "obj-20", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-1", 5 ],
+                    "source": [ "obj-21", 4 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-1", 4 ],
+                    "source": [ "obj-21", 3 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-1", 3 ],
+                    "source": [ "obj-21", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-1", 2 ],
+                    "source": [ "obj-21", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-1", 1 ],
+                    "source": [ "obj-21", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-3", 5 ],
+                    "source": [ "obj-21", 9 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-3", 4 ],
+                    "source": [ "obj-21", 8 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-3", 3 ],
+                    "source": [ "obj-21", 7 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-3", 2 ],
+                    "source": [ "obj-21", 6 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-3", 1 ],
+                    "source": [ "obj-21", 5 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-42", 0 ],
+                    "source": [ "obj-21", 10 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-43", 0 ],
+                    "source": [ "obj-21", 11 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-44", 0 ],
+                    "source": [ "obj-21", 12 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-45", 0 ],
+                    "source": [ "obj-21", 13 ]
                 }
             },
             {
@@ -674,9 +803,12 @@
             "obj-8::obj-11": [ "RandTab", "Tab", 0 ],
             "obj-8::obj-170": [ "RandTrig", "Note", 0 ],
             "obj-8::obj-175": [ "RandTrigSet", "Set", 0 ],
+            "obj-8::obj-1::obj-2::obj-104": [ "RandMod3Route", "Route", 0 ],
             "obj-8::obj-1::obj-2::obj-10::obj-1": [ "RandMod2Amount-Min", "Min", 0 ],
             "obj-8::obj-1::obj-2::obj-10::obj-2": [ "RandMod2Amount-Max", "Max", 0 ],
+            "obj-8::obj-1::obj-2::obj-116": [ "RandMod4Route", "Route", 0 ],
             "obj-8::obj-1::obj-2::obj-12": [ "RandMod2Amount", "Mod 2", 0 ],
+            "obj-8::obj-1::obj-2::obj-128": [ "RandMod5Route", "Route", 0 ],
             "obj-8::obj-1::obj-2::obj-18::obj-1": [ "RandMod3Amount-Min", "Min", 0 ],
             "obj-8::obj-1::obj-2::obj-18::obj-2": [ "RandMod3Amount-Max", "Max", 0 ],
             "obj-8::obj-1::obj-2::obj-20": [ "RandMod3Amount", "Mod 3", 0 ],
@@ -697,6 +829,8 @@
             "obj-8::obj-1::obj-2::obj-53": [ "RandLfoPhase", "Phase", 0 ],
             "obj-8::obj-1::obj-2::obj-60": [ "RandLfoShape", "Shape", 0 ],
             "obj-8::obj-1::obj-2::obj-67": [ "RandLfoSyncRate", "Rate", 0 ],
+            "obj-8::obj-1::obj-2::obj-80": [ "RandMod1Route", "Route", 0 ],
+            "obj-8::obj-1::obj-2::obj-92": [ "RandMod2Route", "Route", 0 ],
             "obj-8::obj-1::obj-3::obj-138": [ "2-RandOscNote", "Note", 0 ],
             "obj-8::obj-1::obj-3::obj-18::obj-1": [ "2-RandOscAttack-Min", "Min", 0 ],
             "obj-8::obj-1::obj-3::obj-18::obj-2": [ "2-RandOscAttack-Max", "Max", 0 ],

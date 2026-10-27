@@ -14,6 +14,30 @@
         "boxes": [
             {
                 "box": {
+                    "comment": "(signal) mod filter res",
+                    "id": "obj-19",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 177.0, 16.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "comment": "(signal) mod filter freq",
+                    "id": "obj-18",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 131.33333333333334, 16.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
                     "id": "obj-11",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -85,7 +109,7 @@
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 272.0, 16.0, 56.0, 22.0 ],
+                    "patching_rect": [ 283.0, 20.0, 56.0, 22.0 ],
                     "restore": {
                         "Filt": [ 1.0 ]
                     },
@@ -209,7 +233,7 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "UiBiquad.maxpat",
-                    "numinlets": 2,
+                    "numinlets": 4,
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal" ],
@@ -229,7 +253,7 @@
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 608.0, 432.0, 46.0, 170.0 ],
+                    "patching_rect": [ 283.0, 420.0, 46.0, 170.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 99.0, 83.0 ],
                     "proportion": 0.39,
@@ -276,6 +300,18 @@
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
                     "source": [ "obj-13", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-1", 2 ],
+                    "source": [ "obj-18", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-1", 3 ],
+                    "source": [ "obj-19", 0 ]
                 }
             },
             {

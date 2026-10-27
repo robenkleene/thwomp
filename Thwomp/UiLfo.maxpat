@@ -255,8 +255,8 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "signal" ],
-                                    "patching_rect": [ 89.0, 325.0, 140.0, 22.0 ],
-                                    "text": "receive~ #1-mod-lforate"
+                                    "patching_rect": [ 89.0, 325.0, 122.0, 22.0 ],
+                                    "text": "ModSum #1-mod-lforate"
                                 }
                             },
                             {

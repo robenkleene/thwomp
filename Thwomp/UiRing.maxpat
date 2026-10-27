@@ -14,6 +14,18 @@
         "boxes": [
             {
                 "box": {
+                    "comment": "(signal) mod ring gain",
+                    "id": "obj-37",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 289.5, 8.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
                     "id": "obj-23",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -397,8 +409,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 280.0, 536.0, 145.0, 22.0 ],
-                    "text": "receive~ #1-mod-ringgain"
+                    "patching_rect": [ 280.0, 536.0, 147.0, 22.0 ],
+                    "text": "ModSum #1-mod-ringgain"
                 }
             },
             {
@@ -622,6 +634,12 @@
                 "patchline": {
                     "destination": [ "obj-17", 0 ],
                     "source": [ "obj-36", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-16", 0 ],
+                    "source": [ "obj-37", 0 ]
                 }
             },
             {

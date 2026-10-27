@@ -342,8 +342,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 123.0, 1118.0, 141.0, 22.0 ],
-                    "text": "receive~ #1-mod-vol"
+                    "patching_rect": [ 123.0, 1118.0, 123.0, 22.0 ],
+                    "text": "ModSum #1-mod-vol"
                 }
             },
             {
@@ -1623,7 +1623,7 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "UiBiquadFilt.maxpat",
-                    "numinlets": 2,
+                    "numinlets": 4,
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal" ],
@@ -1647,7 +1647,7 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "UiRing.maxpat",
-                    "numinlets": 2,
+                    "numinlets": 3,
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "" ],
@@ -2025,9 +2025,9 @@
                     "maxclass": "bpatcher",
                     "name": "UiDrumSynthBank.maxpat",
                     "numinlets": 1,
-                    "numoutlets": 5,
+                    "numoutlets": 9,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "signal", "signal", "signal", "signal", "" ],
+                    "outlettype": [ "signal", "signal", "signal", "signal", "", "signal", "signal", "signal", "signal" ],
                     "patching_rect": [ 39.0, 336.0, 225.0, 172.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 46.0, 0.0, 346.0, 170.0 ],
@@ -2895,6 +2895,30 @@
                 "patchline": {
                     "destination": [ "obj-102", 0 ],
                     "source": [ "obj-99", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-9", 2 ],
+                    "source": [ "obj-1", 5 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-9", 3 ],
+                    "source": [ "obj-1", 6 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-40", 2 ],
+                    "source": [ "obj-1", 7 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-83", 0 ],
+                    "source": [ "obj-1", 8 ]
                 }
             }
         ],
