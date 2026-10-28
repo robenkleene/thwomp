@@ -144,17 +144,6 @@
             },
             {
                 "box": {
-                    "comment": "(float, hz) freq",
-                    "id": "obj-8",
-                    "index": 0,
-                    "maxclass": "outlet",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 8.0, 315.0, 30.0, 30.0 ]
-                }
-            },
-            {
-                "box": {
                     "id": "obj-2",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -189,9 +178,9 @@
                     "maxclass": "bpatcher",
                     "name": "UiFreqBank.maxpat",
                     "numinlets": 2,
-                    "numoutlets": 1,
+                    "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "" ],
+                    "outlettype": [],
                     "patching_rect": [ 8.0, 243.0, 80.0, 22.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 47.0, -3.0, 79.0, 20.0 ],
@@ -210,15 +199,31 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 8.0, 8.0, 30.0, 30.0 ]
                 }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 240.0, 164.0, 33.0, 22.0 ],
+                    "text": "sig~",
+                    "id": "obj-15"
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "outlettype": [],
+                    "patching_rect": [ 240.0, 194.0, 150.0, 22.0 ],
+                    "text": "send~ #1-rnbo-OscNote",
+                    "id": "obj-16"
+                }
             }
         ],
         "lines": [
-            {
-                "patchline": {
-                    "destination": [ "obj-8", 0 ],
-                    "source": [ "obj-1", 0 ]
-                }
-            },
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
@@ -315,6 +320,18 @@
                 "patchline": {
                     "destination": [ "obj-5", 0 ],
                     "source": [ "obj-7", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-15", 0 ],
+                    "source": [ "obj-5", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-16", 0 ],
+                    "source": [ "obj-15", 0 ]
                 }
             }
         ],
