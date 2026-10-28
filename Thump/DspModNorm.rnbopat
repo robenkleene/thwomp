@@ -17,7 +17,7 @@
             {
                 "box": {
                     "maxclass": "comment",
-                    "text": "Adds the per note mods sent to `modnote-#1` (by `ModSlot`) to a 0 - 1 value, read on each note. The mods are summed and then cleared after each note.",
+                    "text": "Adds the per note mods (from `DspMod`) to a 0 - 1 value, read on each note. The mods are summed and then cleared after each note.",
                     "numinlets": 1,
                     "numoutlets": 0,
                     "id": "obj-1",
@@ -50,9 +50,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "r modnote-#1",
+                    "text": "in 3 @comment mod (per note)",
                     "id": "obj-4",
-                    "patching_rect": [ 320.0, 20.0, 98.0, 22.0 ],
+                    "patching_rect": [ 320.0, 20.0, 210.0, 22.0 ],
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ]

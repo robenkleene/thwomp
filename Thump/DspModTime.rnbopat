@@ -61,11 +61,22 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "p @file DspModNorm @args #1",
-                    "rnbo_classname": "p",
+                    "text": "in 3 @comment mod (per note)",
                     "id": "obj-5",
-                    "patching_rect": [ 20.0, 88.0, 203.0, 22.0 ],
-                    "numinlets": 2,
+                    "patching_rect": [ 320.0, 20.0, 210.0, 22.0 ],
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ]
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "text": "p @file DspModNorm",
+                    "rnbo_classname": "p",
+                    "id": "obj-6",
+                    "patching_rect": [ 20.0, 88.0, 140.0, 22.0 ],
+                    "numinlets": 3,
                     "numoutlets": 1,
                     "outlettype": [ "" ]
                 }
@@ -74,7 +85,7 @@
                 "box": {
                     "maxclass": "newobj",
                     "text": "expr 15000 * pow(in1, 5)",
-                    "id": "obj-6",
+                    "id": "obj-7",
                     "patching_rect": [ 20.0, 122.0, 182.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 1,
@@ -85,7 +96,7 @@
                 "box": {
                     "maxclass": "newobj",
                     "text": "out 1 @comment time (ms) with mods",
-                    "id": "obj-7",
+                    "id": "obj-8",
                     "patching_rect": [ 20.0, 156.0, 252.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -96,6 +107,12 @@
         "lines": [
             {
                 "patchline": {
+                    "source": [ "obj-5", 0 ],
+                    "destination": [ "obj-6", 2 ]
+                }
+            },
+            {
+                "patchline": {
                     "source": [ "obj-3", 0 ],
                     "destination": [ "obj-4", 0 ]
                 }
@@ -103,18 +120,12 @@
             {
                 "patchline": {
                     "source": [ "obj-4", 0 ],
-                    "destination": [ "obj-5", 1 ]
+                    "destination": [ "obj-6", 1 ]
                 }
             },
             {
                 "patchline": {
                     "source": [ "obj-2", 0 ],
-                    "destination": [ "obj-5", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "source": [ "obj-5", 0 ],
                     "destination": [ "obj-6", 0 ]
                 }
             },
@@ -122,6 +133,12 @@
                 "patchline": {
                     "source": [ "obj-6", 0 ],
                     "destination": [ "obj-7", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-7", 0 ],
+                    "destination": [ "obj-8", 0 ]
                 }
             }
         ]

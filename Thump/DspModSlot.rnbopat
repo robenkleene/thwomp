@@ -17,12 +17,12 @@
             {
                 "box": {
                     "maxclass": "comment",
-                    "text": "One mod slot, as the MSP `ModRouter`. The source is scaled by the amount and sent to the destination on `send~ mod#1-<destination>`, summed by that destination's `ModSum`. On each note, the source's value (velocity, key, random, or the signal's current value) times the amount is also sent to `modnote-<destination>`, for the destinations read once per note. Velocity, key and random hold their value until the next note.",
+                    "text": "One mod slot, as the MSP `ModRouter`. The source is scaled by the amount and goes out the destination's signal outlet. On each note, the source's value (velocity, key, random, or the signal's current value) times the amount also goes out the destination's message outlet, for the destinations read once per note. Velocity, key and random hold their value until the next note.",
                     "numinlets": 1,
                     "numoutlets": 0,
                     "id": "obj-1",
-                    "patching_rect": [ 1070.0, 20.0, 420.0, 160.0 ],
-                    "linecount": 8
+                    "patching_rect": [ 1070.0, 20.0, 420.0, 140.0 ],
+                    "linecount": 7
                 }
             },
             {
@@ -138,9 +138,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "receive~ src-lfo",
+                    "text": "in~ 5 @comment lfo",
                     "id": "obj-12",
-                    "patching_rect": [ 245.0, 190.0, 126.0, 22.0 ],
+                    "patching_rect": [ 245.0, 190.0, 140.0, 22.0 ],
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ]
@@ -149,9 +149,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "receive~ src-pe1",
+                    "text": "in~ 6 @comment pe1",
                     "id": "obj-13",
-                    "patching_rect": [ 335.0, 173.0, 126.0, 22.0 ],
+                    "patching_rect": [ 335.0, 173.0, 140.0, 22.0 ],
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ]
@@ -160,9 +160,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "receive~ src-pe2",
+                    "text": "in~ 7 @comment pe2",
                     "id": "obj-14",
-                    "patching_rect": [ 425.0, 190.0, 126.0, 22.0 ],
+                    "patching_rect": [ 425.0, 190.0, 140.0, 22.0 ],
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ]
@@ -171,9 +171,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "receive~ src-ae1",
+                    "text": "in~ 8 @comment ae1",
                     "id": "obj-15",
-                    "patching_rect": [ 515.0, 173.0, 126.0, 22.0 ],
+                    "patching_rect": [ 515.0, 173.0, 140.0, 22.0 ],
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ]
@@ -182,9 +182,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "receive~ src-ae2",
+                    "text": "in~ 9 @comment ae2",
                     "id": "obj-16",
-                    "patching_rect": [ 605.0, 190.0, 126.0, 22.0 ],
+                    "patching_rect": [ 605.0, 190.0, 140.0, 22.0 ],
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ]
@@ -193,9 +193,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "receive~ src-re",
+                    "text": "in~ 10 @comment re",
                     "id": "obj-17",
-                    "patching_rect": [ 695.0, 173.0, 119.0, 22.0 ],
+                    "patching_rect": [ 695.0, 173.0, 140.0, 22.0 ],
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ]
@@ -204,9 +204,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "receive~ src-wheel",
+                    "text": "in~ 11 @comment wheel",
                     "id": "obj-18",
-                    "patching_rect": [ 785.0, 190.0, 140.0, 22.0 ],
+                    "patching_rect": [ 785.0, 190.0, 161.0, 22.0 ],
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ]
@@ -215,9 +215,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "receive~ src-bend",
+                    "text": "in~ 12 @comment bend",
                     "id": "obj-19",
-                    "patching_rect": [ 875.0, 173.0, 133.0, 22.0 ],
+                    "patching_rect": [ 875.0, 173.0, 154.0, 22.0 ],
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ]
@@ -226,9 +226,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "receive~ src-touch",
+                    "text": "in~ 13 @comment touch",
                     "id": "obj-20",
-                    "patching_rect": [ 965.0, 190.0, 140.0, 22.0 ],
+                    "patching_rect": [ 965.0, 190.0, 161.0, 22.0 ],
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ]
@@ -237,9 +237,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "receive~ src-slide",
+                    "text": "in~ 14 @comment slide",
                     "id": "obj-21",
-                    "patching_rect": [ 1055.0, 173.0, 140.0, 22.0 ],
+                    "patching_rect": [ 1055.0, 173.0, 161.0, 22.0 ],
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ]
@@ -292,9 +292,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "send~ mod#1-o1pitch",
+                    "text": "out~ 1 @comment o1pitch",
                     "id": "obj-26",
-                    "patching_rect": [ 20.0, 343.0, 147.0, 22.0 ],
+                    "patching_rect": [ 20.0, 343.0, 175.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []
@@ -303,9 +303,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "send~ mod#1-o1gain",
+                    "text": "out~ 2 @comment o1gain",
                     "id": "obj-27",
-                    "patching_rect": [ 102.5, 377.0, 140.0, 22.0 ],
+                    "patching_rect": [ 102.5, 377.0, 168.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []
@@ -314,9 +314,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "send~ mod#1-o1overdrive",
+                    "text": "out~ 3 @comment o1overdrive",
                     "id": "obj-28",
-                    "patching_rect": [ 350.0, 343.0, 175.0, 22.0 ],
+                    "patching_rect": [ 350.0, 343.0, 203.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []
@@ -325,9 +325,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "send~ mod#1-o1overtone",
+                    "text": "out~ 4 @comment o1overtone",
                     "id": "obj-29",
-                    "patching_rect": [ 432.5, 377.0, 168.0, 22.0 ],
+                    "patching_rect": [ 432.5, 377.0, 196.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []
@@ -336,9 +336,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "send~ mod#1-o1penvamount",
+                    "text": "out~ 5 @comment o1penvamount",
                     "id": "obj-30",
-                    "patching_rect": [ 515.0, 343.0, 182.0, 22.0 ],
+                    "patching_rect": [ 515.0, 343.0, 210.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []
@@ -347,9 +347,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "send~ mod#1-o2pitch",
+                    "text": "out~ 6 @comment o2pitch",
                     "id": "obj-31",
-                    "patching_rect": [ 762.5, 377.0, 147.0, 22.0 ],
+                    "patching_rect": [ 762.5, 377.0, 175.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []
@@ -358,9 +358,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "send~ mod#1-o2gain",
+                    "text": "out~ 7 @comment o2gain",
                     "id": "obj-32",
-                    "patching_rect": [ 845.0, 343.0, 140.0, 22.0 ],
+                    "patching_rect": [ 845.0, 343.0, 168.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []
@@ -369,9 +369,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "send~ mod#1-o2overdrive",
+                    "text": "out~ 8 @comment o2overdrive",
                     "id": "obj-33",
-                    "patching_rect": [ 1092.5, 377.0, 175.0, 22.0 ],
+                    "patching_rect": [ 1092.5, 377.0, 203.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []
@@ -380,9 +380,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "send~ mod#1-o2overtone",
+                    "text": "out~ 9 @comment o2overtone",
                     "id": "obj-34",
-                    "patching_rect": [ 1175.0000000000002, 343.0, 168.0, 22.0 ],
+                    "patching_rect": [ 1175.0000000000002, 343.0, 196.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []
@@ -391,9 +391,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "send~ mod#1-o2penvamount",
+                    "text": "out~ 10 @comment o2penvamount",
                     "id": "obj-35",
-                    "patching_rect": [ 1257.5, 377.0, 182.0, 22.0 ],
+                    "patching_rect": [ 1257.5, 377.0, 217.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []
@@ -402,9 +402,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "send~ mod#1-filterfreq",
+                    "text": "out~ 11 @comment filterfreq",
                     "id": "obj-36",
-                    "patching_rect": [ 1505.0, 343.0, 168.0, 22.0 ],
+                    "patching_rect": [ 1505.0, 343.0, 203.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []
@@ -413,9 +413,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "send~ mod#1-filterres",
+                    "text": "out~ 12 @comment filterres",
                     "id": "obj-37",
-                    "patching_rect": [ 1587.5000000000002, 377.0, 161.0, 22.0 ],
+                    "patching_rect": [ 1587.5000000000002, 377.0, 196.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []
@@ -424,9 +424,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "send~ mod#1-ringgain",
+                    "text": "out~ 13 @comment ringgain",
                     "id": "obj-38",
-                    "patching_rect": [ 1670.0, 343.0, 154.0, 22.0 ],
+                    "patching_rect": [ 1670.0, 343.0, 189.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []
@@ -435,9 +435,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "send~ mod#1-vol",
+                    "text": "out~ 14 @comment vol",
                     "id": "obj-39",
-                    "patching_rect": [ 1835.0000000000002, 343.0, 119.0, 22.0 ],
+                    "patching_rect": [ 1835.0000000000002, 343.0, 154.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []
@@ -446,9 +446,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "send~ mod#1-lforate",
+                    "text": "out~ 15 @comment lforate",
                     "id": "obj-40",
-                    "patching_rect": [ 1917.5, 377.0, 147.0, 22.0 ],
+                    "patching_rect": [ 1917.5, 377.0, 182.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []
@@ -457,9 +457,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "r modslot-note",
+                    "text": "in 4 @comment note (pitch, velocity)",
                     "id": "obj-41",
-                    "patching_rect": [ 1070.0, 88.0, 112.0, 22.0 ],
+                    "patching_rect": [ 1070.0, 88.0, 266.0, 22.0 ],
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ]
@@ -644,9 +644,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "s modnote-o1attack",
+                    "text": "out 16 @comment o1attack (per note)",
                     "id": "obj-58",
-                    "patching_rect": [ 1250.0, 445.0, 140.0, 22.0 ],
+                    "patching_rect": [ 1250.0, 445.0, 259.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []
@@ -655,9 +655,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "s modnote-o1decay",
+                    "text": "out 17 @comment o1decay (per note)",
                     "id": "obj-59",
-                    "patching_rect": [ 1340.0, 479.0, 133.0, 22.0 ],
+                    "patching_rect": [ 1340.0, 479.0, 252.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []
@@ -666,9 +666,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "s modnote-o1overtone",
+                    "text": "out 18 @comment o1overtone (per note)",
                     "id": "obj-60",
-                    "patching_rect": [ 1520.0, 479.0, 154.0, 22.0 ],
+                    "patching_rect": [ 1520.0, 479.0, 273.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []
@@ -677,9 +677,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "s modnote-o1penvduration",
+                    "text": "out 19 @comment o1penvduration (per note)",
                     "id": "obj-61",
-                    "patching_rect": [ 1700.0, 479.0, 182.0, 22.0 ],
+                    "patching_rect": [ 1700.0, 479.0, 301.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []
@@ -688,9 +688,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "s modnote-o1penvcurve",
+                    "text": "out 20 @comment o1penvcurve (per note)",
                     "id": "obj-62",
-                    "patching_rect": [ 1790.0, 445.0, 161.0, 22.0 ],
+                    "patching_rect": [ 1790.0, 445.0, 280.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []
@@ -699,9 +699,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "s modnote-o2attack",
+                    "text": "out 21 @comment o2attack (per note)",
                     "id": "obj-63",
-                    "patching_rect": [ 2060.0, 479.0, 140.0, 22.0 ],
+                    "patching_rect": [ 2060.0, 479.0, 259.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []
@@ -710,9 +710,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "s modnote-o2decay",
+                    "text": "out 22 @comment o2decay (per note)",
                     "id": "obj-64",
-                    "patching_rect": [ 1070.0, 445.0, 133.0, 22.0 ],
+                    "patching_rect": [ 1070.0, 445.0, 252.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []
@@ -721,9 +721,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "s modnote-o2overtone",
+                    "text": "out 23 @comment o2overtone (per note)",
                     "id": "obj-65",
-                    "patching_rect": [ 1250.0, 445.0, 154.0, 22.0 ],
+                    "patching_rect": [ 1250.0, 445.0, 273.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []
@@ -732,9 +732,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "s modnote-o2penvduration",
+                    "text": "out 24 @comment o2penvduration (per note)",
                     "id": "obj-66",
-                    "patching_rect": [ 1430.0, 445.0, 182.0, 22.0 ],
+                    "patching_rect": [ 1430.0, 445.0, 301.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []
@@ -743,9 +743,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "s modnote-o2penvcurve",
+                    "text": "out 25 @comment o2penvcurve (per note)",
                     "id": "obj-67",
-                    "patching_rect": [ 1520.0, 479.0, 161.0, 22.0 ],
+                    "patching_rect": [ 1520.0, 479.0, 280.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []
@@ -754,9 +754,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "s modnote-ringdecay",
+                    "text": "out 26 @comment ringdecay (per note)",
                     "id": "obj-68",
-                    "patching_rect": [ 1879.9999999999998, 479.0, 147.0, 22.0 ],
+                    "patching_rect": [ 1879.9999999999998, 479.0, 266.0, 22.0 ],
                     "numinlets": 1,
                     "numoutlets": 0,
                     "outlettype": []

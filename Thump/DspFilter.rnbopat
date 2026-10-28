@@ -105,9 +105,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "receive~ mod-filterfreq",
+                    "text": "in~ 6 @comment frequency mod",
                     "id": "obj-9",
-                    "patching_rect": [ 620.0, 88.0, 175.0, 22.0 ],
+                    "patching_rect": [ 620.0, 88.0, 210.0, 22.0 ],
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ]
@@ -193,9 +193,9 @@
             {
                 "box": {
                     "maxclass": "newobj",
-                    "text": "receive~ mod-filterres",
+                    "text": "in~ 7 @comment resonance mod",
                     "id": "obj-17",
-                    "patching_rect": [ 920.0, 88.0, 168.0, 22.0 ],
+                    "patching_rect": [ 920.0, 88.0, 210.0, 22.0 ],
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ]
