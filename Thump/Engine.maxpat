@@ -3695,6 +3695,17 @@
                     "patching_rect": [ 529.0, 347.0, 80.0, 20.0 ],
                     "text": "Export C++"
                 }
+            },
+            {
+                "box": {
+                    "id": "obj-197",
+                    "maxclass": "outlet",
+                    "comment": "(bang) ready, when rnbo~ has compiled",
+                    "index": 0,
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 340.0, 537.0, 30.0, 30.0 ]
+                }
             }
         ],
         "lines": [
@@ -3828,6 +3839,12 @@
                 "patchline": {
                     "destination": [ "obj-181", 4 ],
                     "source": [ "obj-4", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-197", 0 ],
+                    "source": [ "obj-185", 0 ]
                 }
             }
         ],
