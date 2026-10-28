@@ -1,0 +1,254 @@
+{
+    "patcher": {
+        "fileversion": 1,
+        "appversion": {
+            "major": 9,
+            "minor": 2,
+            "revision": 0,
+            "architecture": "x64",
+            "modernui": 1
+        },
+        "classnamespace": "rnbo",
+        "rect": [ 100.0, 100.0, 700, 400 ],
+        "default_fontname": "Lato",
+        "gridsize": [ 15.0, 15.0 ],
+        "title": "DspModNorm",
+        "boxes": [
+            {
+                "box": {
+                    "maxclass": "comment",
+                    "text": "Adds the per note mods sent to `modnote-#1` (by `ModSlot`) to a 0 - 1 value, read on each note. The mods are summed and then cleared after each note.",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "id": "obj-1",
+                    "patching_rect": [ 470.0, 20.0, 300.0, 80.0 ],
+                    "linecount": 4
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "text": "in 1 @comment trigger",
+                    "id": "obj-2",
+                    "patching_rect": [ 20.0, 20.0, 161.0, 22.0 ],
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ]
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "text": "in 2 @comment value (0 - 1)",
+                    "id": "obj-3",
+                    "patching_rect": [ 170.0, 20.0, 203.0, 22.0 ],
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ]
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "text": "r modnote-#1",
+                    "id": "obj-4",
+                    "patching_rect": [ 320.0, 20.0, 98.0, 22.0 ],
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ]
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "text": "+ 0.",
+                    "id": "obj-5",
+                    "patching_rect": [ 320.0, 54.0, 42.0, 22.0 ],
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ]
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "text": "trigger f f",
+                    "id": "obj-6",
+                    "patching_rect": [ 320.0, 88.0, 91.0, 22.0 ],
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ]
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "text": "f",
+                    "id": "obj-7",
+                    "patching_rect": [ 260.0, 156.0, 40.0, 22.0 ],
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ]
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "text": "f",
+                    "id": "obj-8",
+                    "patching_rect": [ 170.0, 122.0, 40.0, 22.0 ],
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ]
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "text": "trigger b b b",
+                    "id": "obj-9",
+                    "patching_rect": [ 20.0, 88.0, 105.0, 22.0 ],
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "" ]
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "text": "+ 0.",
+                    "id": "obj-10",
+                    "patching_rect": [ 170.0, 190.0, 42.0, 22.0 ],
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ]
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "text": "clip 0. 1.",
+                    "id": "obj-11",
+                    "patching_rect": [ 170.0, 224.0, 84.0, 22.0 ],
+                    "numinlets": 3,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ]
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "text": "out 1 @comment value (0 - 1) with mods",
+                    "id": "obj-12",
+                    "patching_rect": [ 170.0, 258.0, 280.0, 22.0 ],
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "outlettype": []
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "message",
+                    "text": "0.",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "id": "obj-13",
+                    "patching_rect": [ 20.0, 156.0, 40.0, 22.0 ]
+                }
+            }
+        ],
+        "lines": [
+            {
+                "patchline": {
+                    "source": [ "obj-4", 0 ],
+                    "destination": [ "obj-5", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-5", 0 ],
+                    "destination": [ "obj-6", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-6", 1 ],
+                    "destination": [ "obj-5", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-6", 0 ],
+                    "destination": [ "obj-7", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-3", 0 ],
+                    "destination": [ "obj-8", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-2", 0 ],
+                    "destination": [ "obj-9", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-9", 2 ],
+                    "destination": [ "obj-7", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-7", 0 ],
+                    "destination": [ "obj-10", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-9", 1 ],
+                    "destination": [ "obj-8", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-8", 0 ],
+                    "destination": [ "obj-10", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-10", 0 ],
+                    "destination": [ "obj-11", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-11", 0 ],
+                    "destination": [ "obj-12", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-9", 0 ],
+                    "destination": [ "obj-13", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-13", 0 ],
+                    "destination": [ "obj-5", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-13", 0 ],
+                    "destination": [ "obj-7", 1 ]
+                }
+            }
+        ]
+    }
+}

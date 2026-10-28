@@ -1,0 +1,129 @@
+{
+    "patcher": {
+        "fileversion": 1,
+        "appversion": {
+            "major": 9,
+            "minor": 2,
+            "revision": 0,
+            "architecture": "x64",
+            "modernui": 1
+        },
+        "classnamespace": "rnbo",
+        "rect": [ 100.0, 100.0, 600, 300 ],
+        "default_fontname": "Lato",
+        "gridsize": [ 15.0, 15.0 ],
+        "title": "DspModTime",
+        "boxes": [
+            {
+                "box": {
+                    "maxclass": "comment",
+                    "text": "A time in ms with per note mods, on the fifth power curve of the time dials (0 - 15 s).",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "id": "obj-1",
+                    "patching_rect": [ 320.0, 20.0, 260.0, 60.0 ],
+                    "linecount": 3
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "text": "in 1 @comment trigger",
+                    "id": "obj-2",
+                    "patching_rect": [ 20.0, 20.0, 161.0, 22.0 ],
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ]
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "text": "in 2 @comment time (ms)",
+                    "id": "obj-3",
+                    "patching_rect": [ 170.0, 20.0, 175.0, 22.0 ],
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ]
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "text": "expr pow(in1 / 15000, 0.2)",
+                    "id": "obj-4",
+                    "patching_rect": [ 170.0, 54.0, 196.0, 22.0 ],
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ]
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "text": "p @file DspModNorm @args #1",
+                    "rnbo_classname": "p",
+                    "id": "obj-5",
+                    "patching_rect": [ 20.0, 88.0, 203.0, 22.0 ],
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ]
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "text": "expr 15000 * pow(in1, 5)",
+                    "id": "obj-6",
+                    "patching_rect": [ 20.0, 122.0, 182.0, 22.0 ],
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ]
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "text": "out 1 @comment time (ms) with mods",
+                    "id": "obj-7",
+                    "patching_rect": [ 20.0, 156.0, 252.0, 22.0 ],
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "outlettype": []
+                }
+            }
+        ],
+        "lines": [
+            {
+                "patchline": {
+                    "source": [ "obj-3", 0 ],
+                    "destination": [ "obj-4", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-4", 0 ],
+                    "destination": [ "obj-5", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-2", 0 ],
+                    "destination": [ "obj-5", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-5", 0 ],
+                    "destination": [ "obj-6", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-6", 0 ],
+                    "destination": [ "obj-7", 0 ]
+                }
+            }
+        ]
+    }
+}
