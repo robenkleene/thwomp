@@ -1,14 +1,14 @@
-# Thump
+# Depth
 
-![Thump](Thump.png)
+![Depth](Depth.png)
 
-Thump is a four oscillator drum synthesizer for [Max for Live](https://www.ableton.com/en/live/max-for-live/). It's a [subtractive synthesizer](https://en.wikipedia.org/wiki/Subtractive_synthesis) that specializes in making drum sounds with the following features:
+Depth is a four oscillator drum synthesizer for [Max for Live](https://www.ableton.com/en/live/max-for-live/). It's a [subtractive synthesizer](https://en.wikipedia.org/wiki/Subtractive_synthesis) that specializes in making drum sounds with the following features:
 
 - Fixed frequency by default, as most drum sounds aren't played chromatically.
 - Prominent pitch envelope for creating kick drums.
 - No sustain or release, because those aren't features of percussive instruments.
 
-Thump's interface is designed to be transparent and predictable, e.g., every parameter is labeled with its [unit type](https://en.wikipedia.org/wiki/Unit_of_measurement), and controls that have no effect (e.g., the controls of an oscillator that's turned off) are greyed out.
+Depth's interface is designed to be transparent and predictable, e.g., every parameter is labeled with its [unit type](https://en.wikipedia.org/wiki/Unit_of_measurement), and controls that have no effect (e.g., the controls of an oscillator that's turned off) are greyed out.
 
 ## Installation
 
@@ -16,11 +16,11 @@ Thump's interface is designed to be transparent and predictable, e.g., every par
 
 Before the device is added to the `User Library` in Ableton Live or Ableton Push, the device should be frozen.
 
-The latest version of the frozen device can be downloaded from [the Thump page on the Max for Live site](https://maxforlive.com/library/device/5793/thwomp).
+The latest version of the frozen device can be downloaded from [the Depth page on the Max for Live site](https://maxforlive.com/library/device/5793/thwomp).
 
 The device can be frozen manually by following these steps:
 
-1. Open Ableton Live and drag `Thump/Thump.amxd` to the Device area (where it says `Drop an instrument or Sample here`).
+1. Open Ableton Live and drag `Depth/Depth.amxd` to the Device area (where it says `Drop an instrument or Sample here`).
 2. Click the disclosure icon in the upper right of the device and choose `Edit in Max`.
 3. In the Max window, click the `Freeze Device` icon in the bottom bar that looks like a snow flake, then choose `File > Save As...` to save the frozen device to a temporary location.
 
@@ -28,23 +28,23 @@ Note that this file can be deleted after the device has been added to the `User 
 
 ### Installing in Ableton Live
 
-Drag the frozen `Thump.amxd` to the `User Library` (e.g., under `User Library/Presets/Instruments/Max Instrument/`).
+Drag the frozen `Depth.amxd` to the `User Library` (e.g., under `User Library/Presets/Instruments/Max Instrument/`).
 
 ### Installing in Ableton Push Standalone Mode
 
 1. Launch Push in standalone mode
 2. In Live's sidebar, select `Places > Push`
-3. Drag the frozen `Thump.amxd` to `Places > Push > User Library` (e.g., under `User Library/Presets/Instruments/Max Instrument/` [note that in the Push Use Library this folder is *not* create by default like it is in the Live User Library]).
+3. Drag the frozen `Depth.amxd` to `Places > Push > User Library` (e.g., under `User Library/Presets/Instruments/Max Instrument/` [note that in the Push Use Library this folder is *not* create by default like it is in the Live User Library]).
 
 ### Using the Device on Push
 
-After Thump has been installed in the Push `User Library`, the device can be added by choosing it under `Device > User Library`.
+After Depth has been installed in the Push `User Library`, the device can be added by choosing it under `Device > User Library`.
 
 ## Opening in Max Directly
 
-![Thump in Max](assets/max.png)
+![Depth in Max](assets/max.png)
 
-To open in Max directly without Live, open `Thump/Thump.maxpat`, Thump has some some additional features when opened outside of Live:
+To open in Max directly without Live, open `Depth/Depth.maxpat`, Depth has some some additional features when opened outside of Live:
 
 - **Button**: Trigger the MIDI note
 - **Pitch**: Select the MIDI note pitch
@@ -259,7 +259,7 @@ The first encoder of the **Mod** and **Rand Mod** banks is **BanksMod**, which c
 
 ### Reconstructing
 
-To reconstruct this demo loops in Ableton Live, setup a track with [Sidewinder](https://github.com/robenkleene/sidewinder) with the appropriate demo preset loaded, followed by a Drum Rack with the first four slots slots (`C1-D#1`) using the named preset from Thump.
+To reconstruct this demo loops in Ableton Live, setup a track with [Sidewinder](https://github.com/robenkleene/sidewinder) with the appropriate demo preset loaded, followed by a Drum Rack with the first four slots slots (`C1-D#1`) using the named preset from Depth.
 
 #### Rhythm
 
