@@ -2,7 +2,7 @@
 
 ![Depth](Depth.png)
 
-Depth is a four oscillator drum synthesizer for [Max for Live](https://www.ableton.com/en/live/max-for-live/). It's a [subtractive synthesizer](https://en.wikipedia.org/wiki/Subtractive_synthesis) that specializes in making drum sounds with the following features:
+Depth is a two oscillator drum synthesizer for [Max for Live](https://www.ableton.com/en/live/max-for-live/). It's a [subtractive synthesizer](https://en.wikipedia.org/wiki/Subtractive_synthesis) that specializes in making drum sounds with the following features:
 
 - Fixed frequency by default, as most drum sounds aren't played chromatically.
 - Prominent pitch envelope for creating kick drums.
