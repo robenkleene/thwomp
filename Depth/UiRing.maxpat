@@ -302,7 +302,7 @@
                     "numoutlets": 0,
                     "outlettype": [],
                     "patching_rect": [ 184.0, 698.5, 70.0, 22.0 ],
-                    "text": "s #1-rnbo"
+                    "text": "s #1-engine"
                 }
             },
             {
@@ -313,7 +313,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 304.0, 628.5, 95.0, 22.0 ],
-                    "text": "r #1-rnbo-dump"
+                    "text": "r #1-engine-dump"
                 }
             },
             {

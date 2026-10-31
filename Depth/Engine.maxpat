@@ -516,16 +516,6 @@
             },
             {
                 "box": {
-                    "id": "obj-204",
-                    "maxclass": "outlet",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 280.0, 1288.0, 30.0, 30.0 ],
-                    "comment": "Ready, once the engine has loaded"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-205",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -548,17 +538,6 @@
             },
             {
                 "box": {
-                    "id": "obj-207",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "patching_rect": [ 1000.0, 160.0, 40.0, 22.0 ],
-                    "outlettype": [ "bang", "bang" ],
-                    "text": "t b b"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-208",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -575,7 +554,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 1000.0, 220.0, 110.0, 22.0 ],
-                    "text": "s #1-rnbo-dump"
+                    "text": "s #1-engine-dump"
                 }
             },
             {
@@ -585,7 +564,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 1120.0, 220.0, 115.0, 22.0 ],
-                    "text": "s #1_1-rnbo-dump"
+                    "text": "s #1_1-engine-dump"
                 }
             },
             {
@@ -595,7 +574,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 1245.0, 220.0, 115.0, 22.0 ],
-                    "text": "s #1_2-rnbo-dump"
+                    "text": "s #1_2-engine-dump"
                 }
             },
             {
@@ -606,7 +585,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1000.0, -70.0, 420.0, 150.0 ],
                     "linecount": 10,
-                    "text": "Depth's DSP in Max. Each parameter arrives as a message (`<long name> <value>`) from `s #1-rnbo` in the UI patchers, and the `Dsp*` abstractions take the ones they use with `r #1-rnbo` and `route`. On load, `#1-rnbo-dump` asks every UI patcher to send its values again from `zl reg`, and the right outlet hides the loading cover. Notes and controllers arrive already split from `UiDrumSynthRack`."
+                    "text": "Depth's DSP in Max. Each parameter arrives as a message (`<long name> <value>`) from `s #1-engine` in the UI patchers, and the `Dsp*` abstractions take the ones they use with `r #1-engine` and `route`. On load, `#1-engine-dump` asks every UI patcher to send its values again from `zl reg`. Notes and controllers arrive already split from `UiDrumSynthRack`."
                 }
             }
         ],
@@ -967,24 +946,6 @@
             },
             {
                 "patchline": {
-                    "source": [ "obj-206", 0 ],
-                    "destination": [ "obj-207", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "source": [ "obj-207", 1 ],
-                    "destination": [ "obj-204", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "source": [ "obj-207", 0 ],
-                    "destination": [ "obj-208", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "source": [ "obj-208", 0 ],
                     "destination": [ "obj-209", 0 ]
                 }
@@ -999,6 +960,12 @@
                 "patchline": {
                     "source": [ "obj-208", 2 ],
                     "destination": [ "obj-211", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-206", 0 ],
+                    "destination": [ "obj-208", 0 ]
                 }
             }
         ],
