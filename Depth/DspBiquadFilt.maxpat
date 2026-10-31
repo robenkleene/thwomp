@@ -51,10 +51,10 @@
                     "id": "obj-6",
                     "maxclass": "newobj",
                     "numinlets": 3,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "" ],
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
                     "patching_rect": [ 16.0, 96.0, 130.0, 22.0 ],
-                    "text": "route signal randomize"
+                    "text": "route signal"
                 }
             },
             {

@@ -195,10 +195,10 @@
                     "id": "obj-21",
                     "maxclass": "newobj",
                     "numinlets": 3,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "" ],
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
                     "patching_rect": [ 8.0, 112.0, 122.0, 22.0 ],
-                    "text": "route note randomize"
+                    "text": "route note"
                 }
             },
             {

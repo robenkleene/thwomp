@@ -15,17 +15,6 @@
         "boxes": [
             {
                 "box": {
-                    "id": "obj-1",
-                    "maxclass": "newobj",
-                    "numinlets": 4,
-                    "numoutlets": 4,
-                    "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 8.0, 80.0, 151.0, 22.0 ],
-                    "text": "route bang float randomize"
-                }
-            },
-            {
-                "box": {
                     "comment": "(list) function",
                     "id": "obj-2",
                     "index": 0,
@@ -44,30 +33,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 80.0, 552.0, 30.0, 30.0 ]
-                }
-            },
-            {
-                "box": {
-                    "comment": "(float, hz) amount",
-                    "id": "obj-5",
-                    "index": 0,
-                    "maxclass": "inlet",
-                    "numinlets": 0,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 80.0, 8.0, 30.0, 30.0 ]
-                }
-            },
-            {
-                "box": {
-                    "comment": "(float, -1 - 1) curve",
-                    "id": "obj-6",
-                    "index": 0,
-                    "maxclass": "inlet",
-                    "numinlets": 0,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 120.0, 8.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -194,17 +159,6 @@
             },
             {
                 "box": {
-                    "id": "obj-21",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "patching_rect": [ 8.0, 49.0, 96.0, 22.0 ],
-                    "text": "routepass active"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-26",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -275,18 +229,6 @@
             },
             {
                 "patchline": {
-                    "source": [ "obj-1", 0 ],
-                    "destination": [ "obj-15", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "source": [ "obj-1", 1 ],
-                    "destination": [ "obj-18", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "source": [ "obj-10", 1 ],
                     "destination": [ "obj-2", 0 ]
                 }
@@ -329,12 +271,6 @@
             },
             {
                 "patchline": {
-                    "source": [ "obj-16", 0 ],
-                    "destination": [ "obj-21", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "source": [ "obj-17", 0 ],
                     "destination": [ "obj-3", 0 ]
                 }
@@ -359,30 +295,6 @@
             },
             {
                 "patchline": {
-                    "source": [ "obj-21", 1 ],
-                    "destination": [ "obj-1", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "source": [ "obj-21", 0 ],
-                    "destination": [ "obj-17", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "source": [ "obj-21", 0 ],
-                    "destination": [ "obj-18", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "source": [ "obj-21", 0 ],
-                    "destination": [ "obj-26", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "source": [ "obj-26", 0 ],
                     "destination": [ "obj-50", 0 ]
                 }
@@ -403,6 +315,12 @@
                 "patchline": {
                     "source": [ "obj-8", 0 ],
                     "destination": [ "obj-10", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-16", 0 ],
+                    "destination": [ "obj-15", 0 ]
                 }
             }
         ],

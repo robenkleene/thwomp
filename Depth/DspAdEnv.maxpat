@@ -14,18 +14,6 @@
         "boxes": [
             {
                 "box": {
-                    "comment": "(float, ms) attack",
-                    "id": "obj-2",
-                    "index": 0,
-                    "maxclass": "inlet",
-                    "numinlets": 0,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 0.0, 0.0, 30.0, 30.0 ]
-                }
-            },
-            {
-                "box": {
                     "id": "obj-3",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -33,18 +21,6 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 40.0, 255.0, 41.0, 48.0 ],
                     "text": "zl reg"
-                }
-            },
-            {
-                "box": {
-                    "comment": "(float, ms) decay",
-                    "id": "obj-6",
-                    "index": 0,
-                    "maxclass": "inlet",
-                    "numinlets": 0,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 40.0, 0.0, 30.0, 30.0 ]
                 }
             },
             {

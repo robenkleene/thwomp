@@ -48,17 +48,6 @@
             },
             {
                 "box": {
-                    "id": "obj-4",
-                    "maxclass": "newobj",
-                    "numinlets": 3,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 243.0, 187.0, 125.0, 22.0 ],
-                    "text": "route bang randomize"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-5",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -1553,12 +1542,6 @@
             },
             {
                 "patchline": {
-                    "source": [ "obj-2", 0 ],
-                    "destination": [ "obj-4", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "source": [ "obj-20", 0 ],
                     "destination": [ "obj-8", 0 ]
                 }
@@ -1597,12 +1580,6 @@
                 "patchline": {
                     "source": [ "obj-45", 0 ],
                     "destination": [ "obj-6", 2 ]
-                }
-            },
-            {
-                "patchline": {
-                    "source": [ "obj-4", 0 ],
-                    "destination": [ "obj-9", 1 ]
                 }
             },
             {
@@ -1657,6 +1634,12 @@
                 "patchline": {
                     "source": [ "obj-9", 0 ],
                     "destination": [ "obj-11", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-2", 0 ],
+                    "destination": [ "obj-9", 1 ]
                 }
             }
         ],

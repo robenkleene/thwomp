@@ -94,10 +94,10 @@
                     "id": "obj-26",
                     "maxclass": "newobj",
                     "numinlets": 4,
-                    "numoutlets": 4,
-                    "outlettype": [ "", "", "", "" ],
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
                     "patching_rect": [ 48.0, 536.0, 161.0, 22.0 ],
-                    "text": "route filt randomize randnote"
+                    "text": "route filt"
                 }
             },
             {

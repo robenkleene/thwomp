@@ -17,9 +17,9 @@
                 "box": {
                     "id": "obj-2",
                     "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "int" ],
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
                     "patching_rect": [ 240.55555555555554, 486.0, 132.0, 20.0 ],
                     "text": "DspFreqRack #1 #2"
                 }
@@ -40,7 +40,7 @@
                 "box": {
                     "id": "obj-4",
                     "maxclass": "newobj",
-                    "numinlets": 2,
+                    "numinlets": 0,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "patching_rect": [ 671.9999999999998, 308.0, 40.0, 104.0 ],
@@ -116,17 +116,6 @@
             },
             {
                 "box": {
-                    "id": "obj-11",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 592.0, 696.0, 96.0, 22.0 ],
-                    "text": "prepend note #2"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-12",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -184,7 +173,7 @@
                 "box": {
                     "id": "obj-17",
                     "maxclass": "newobj",
-                    "numinlets": 3,
+                    "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "int", "" ],
                     "patching_rect": [ 297.1111111111111, 424.0, 144.0, 52.0 ],
@@ -317,10 +306,10 @@
                     "id": "obj-48",
                     "maxclass": "newobj",
                     "numinlets": 3,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "" ],
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
                     "patching_rect": [ 199.5, 73.0, 122.0, 22.0 ],
-                    "text": "route note randomize"
+                    "text": "route note"
                 }
             },
             {
@@ -595,12 +584,6 @@
             },
             {
                 "patchline": {
-                    "source": [ "obj-11", 0 ],
-                    "destination": [ "obj-15", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "source": [ "obj-12", 0 ],
                     "destination": [ "obj-16", 0 ]
                 }
@@ -651,12 +634,6 @@
                 "patchline": {
                     "source": [ "obj-73", 0 ],
                     "destination": [ "obj-20", 6 ]
-                }
-            },
-            {
-                "patchline": {
-                    "source": [ "obj-2", 1 ],
-                    "destination": [ "obj-11", 0 ]
                 }
             },
             {

@@ -292,10 +292,10 @@
                     "id": "obj-44",
                     "maxclass": "newobj",
                     "numinlets": 4,
-                    "numoutlets": 4,
-                    "outlettype": [ "", "", "", "" ],
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
                     "patching_rect": [ 40.0, 62.0, 142.0, 22.0 ],
-                    "text": "route note randomize lfo"
+                    "text": "route note"
                 }
             },
             {
@@ -1217,12 +1217,6 @@
                 "patchline": {
                     "source": [ "obj-41", 0 ],
                     "destination": [ "obj-44", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "source": [ "obj-44", 2 ],
-                    "destination": [ "obj-19", 0 ]
                 }
             },
             {
