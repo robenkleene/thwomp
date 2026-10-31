@@ -1,0 +1,98 @@
+{
+    "patcher": {
+        "fileversion": 1,
+        "appversion": {
+            "major": 9,
+            "minor": 1,
+            "revision": 2,
+            "architecture": "x64",
+            "modernui": 1
+        },
+        "classnamespace": "box",
+        "rect": [ 842.0, 414.0, 468.0, 564.0 ],
+        "subpatcher_template": "roben-kleene-max-for-live",
+        "boxes": [
+            {
+                "box": {
+                    "id": "obj-2",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 80.0, 8.0, 28.0, 22.0 ],
+                    "text": "in 3"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-6",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 8.0, 40.0, 46.0, 22.0 ],
+                    "text": "noise~"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-8",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 48.0, 8.0, 28.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "no-op",
+                        "c": "no-op"
+                    },
+                    "text": "in 2"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-5",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 8.0, 72.0, 42.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": [ "(signal)", "mono" ],
+                        "c": [ "(signal)", "mono" ]
+                    },
+                    "text": "out~ 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-1",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 8.0, 8.0, 35.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": [ "control", "messages" ],
+                        "c": [ "control", "messages" ]
+                    },
+                    "text": "in~ 1"
+                }
+            }
+        ],
+        "lines": [
+            {
+                "patchline": {
+                    "destination": [ "obj-6", 0 ],
+                    "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-5", 0 ],
+                    "source": [ "obj-6", 0 ]
+                }
+            }
+        ],
+        "autosave": 0
+    }
+}

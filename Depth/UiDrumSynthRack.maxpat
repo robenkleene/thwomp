@@ -14,29 +14,6 @@
         "boxes": [
             {
                 "box": {
-                    "id": "obj-119",
-                    "maxclass": "panel",
-                    "varname": "LoadingCover",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "mode": 0,
-                    "ignoreclick": 0,
-                    "patching_rect": [ 1700.0, 620.0, 120.0, 40.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 439.0, 170.0 ],
-                    "saved_attribute_attributes": {
-                        "bgfillcolor": {
-                            "expression": "themecolor.live_macro_title"
-                        }
-                    },
-                    "bgfillcolor": {
-                        "type": "color",
-                        "color": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ]
-                    }
-                }
-            },
-            {
-                "box": {
                     "annotation": "Recall the selected preset.",
                     "annotation_name": "Preset Load",
                     "id": "obj-117",
@@ -1747,31 +1724,9 @@
                     "maxclass": "newobj",
                     "text": "Engine #1",
                     "numinlets": 4,
-                    "numoutlets": 3,
-                    "outlettype": [ "signal", "signal", "bang" ],
+                    "numoutlets": 2,
+                    "outlettype": [ "signal", "signal" ],
                     "patching_rect": [ 1500.0, 560.0, 100.0, 22.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-121",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "text": "script sendbox LoadingCover hidden 1",
-                    "patching_rect": [ 1700.0, 590.0, 220.0, 22.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-122",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "linecount": 3,
-                    "text": "The interface is covered until `rnbo~` has compiled, since it can't take the controls' values before then.",
-                    "patching_rect": [ 1840.0, 620.0, 260.0, 47.0 ]
                 }
             }
         ],
@@ -2330,18 +2285,6 @@
                 "patchline": {
                     "destination": [ "obj-15", 0 ],
                     "source": [ "obj-118", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-121", 0 ],
-                    "source": [ "obj-118", 2 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-78", 0 ],
-                    "source": [ "obj-121", 0 ]
                 }
             }
         ],
