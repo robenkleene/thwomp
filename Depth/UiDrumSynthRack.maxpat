@@ -1770,7 +1770,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "linecount": 3,
-                    "text": "The interface is covered until `rnbo~` has compiled, since it can't take the controls' values before then.",
+                    "text": "The interface is covered until the engine sends `ready`, once it has loaded.",
                     "patching_rect": [ 1840.0, 620.0, 260.0, 47.0 ]
                 }
             }

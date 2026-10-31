@@ -1,0 +1,211 @@
+{
+    "patcher": {
+        "fileversion": 1,
+        "appversion": {
+            "major": 9,
+            "minor": 1,
+            "revision": 2,
+            "architecture": "x64",
+            "modernui": 1
+        },
+        "classnamespace": "box",
+        "rect": [ 698.0, 165.0, 638.0, 644.0 ],
+        "openinpresentation": 0,
+        "boxes": [
+            {
+                "box": {
+                    "comment": "(Signal) Ch 2 Wet",
+                    "id": "obj-1",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 192.0, 8.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "comment": "(Signal) Ch 1 Wet",
+                    "id": "obj-2",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 160.0, 8.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "comment": "(Signal) Ch 1 Dry",
+                    "id": "obj-4",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 24.0, 8.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-5",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "int" ],
+                    "patching_rect": [ 72.0, 206.0, 32.5, 22.0 ],
+                    "text": "+ 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-6",
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 160.0, 344.0, 80.0, 22.0 ],
+                    "text": "selector~ 2 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-7",
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 30.0, 345.0, 80.0, 22.0 ],
+                    "text": "selector~ 2 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-8",
+                    "maxclass": "toggle",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "int" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 72.0, 176.0, 20.0, 20.0 ]
+                }
+            },
+            {
+                "box": {
+                    "comment": "(Signal) Ch 2 Dry",
+                    "id": "obj-9",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 56.0, 8.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-14",
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "" ],
+                    "patching_rect": [ 24.0, 80.0, 112.0, 22.0 ],
+                    "text": "routepass signal int"
+                }
+            },
+            {
+                "box": {
+                    "comment": "(Signal) Ch 1",
+                    "id": "obj-32",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 30.0, 405.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "comment": "(Signal) Ch 2",
+                    "id": "obj-33",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 160.0, 404.0, 30.0, 30.0 ]
+                }
+            }
+        ],
+        "lines": [
+            {
+                "patchline": {
+                    "source": [ "obj-1", 0 ],
+                    "destination": [ "obj-6", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-14", 0 ],
+                    "destination": [ "obj-7", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-14", 1 ],
+                    "destination": [ "obj-8", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-2", 0 ],
+                    "destination": [ "obj-7", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-4", 0 ],
+                    "destination": [ "obj-14", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-5", 0 ],
+                    "destination": [ "obj-6", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-5", 0 ],
+                    "destination": [ "obj-7", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-6", 0 ],
+                    "destination": [ "obj-33", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-7", 0 ],
+                    "destination": [ "obj-32", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-8", 0 ],
+                    "destination": [ "obj-5", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "source": [ "obj-9", 0 ],
+                    "destination": [ "obj-6", 1 ]
+                }
+            }
+        ],
+        "autosave": 0
+    }
+}
